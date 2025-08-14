@@ -1,0 +1,833 @@
+<?xml version='1.0' encoding='utf-8'?>
+<set name="06 - Promo" id="92c283e8-7c90-4038-b8af-2064eeec355c" gameId="0fdf1868-07b4-4ba3-b82c-e3d68a662b78" version="1.0.0.0" gameVersion="1.0.0.0">
+  <cards>
+    <card id="c10134f3-2046-47a8-9ddd-6a59065ce0f3" name="A Final Choice">
+      <property name="Card Number" value="PR97-0003-BBB" />
+      <property name="Episode" value="Gethsemane" />
+      <property name="Type" value="Bluff" />
+      <property name="Cost" value="9 CP" />
+      <property name="Keywords" value="Bluff|Government|Resource" />
+      <property name="Activators" value="Conspiracy|Site" />
+      <property name="Text" value="Play this card to immediately move one opposing Agent to the Hospital. Place this card beneath the Agent and place five tokens on the Agent (seven tokens if played on Agent Mulder). Remove a token during the Agent's Healing Phase. When all tokens have been removed, discard this card. The Agent may leave the Hospital when all tokens have been removed." />
+      <property name="Tags" value="Basic|Move|Voyager Promotions" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c047340b-11a8-4142-af58-a789aade20e3" name="Agent Henderson">
+      <property name="Card Number" value="PR96-0006-DUE" />
+      <property name="Episode" value="Young At Heart" />
+      <property name="Type" value="Agent" />
+      <property name="Cost" value="3 RP" />
+      <property name="Keywords" value="Agent|FBI|Law" />
+      <property name="Tags" value="Basic|Search" />
+      <property name="Long Range Combat" value="1" />
+      <property name="Close Range Combat" value="1" />
+      <property name="Health" value="3" />
+      <property name="Game Effect" value="Place a token on this card. Discard a token and look through your Bureau deck to draw any Site that asks a MOTIVE question. Add it to your hand, reshuffle your Bureau deck." />
+      <property name="Criminal Investigation" value="1" />
+      <property name="Evidence Collection" value="3" />
+      <property name="Observation" value="2" />
+      <property name="Resources" value="1" />
+      <property name="Sciences" value="2" />
+      <property name="Rarity" value="" />
+      <property name="Activators" value="" />
+      <property name="Text" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="bff6d87a-bdc8-42d2-915c-b54e754119cf" name="Alien Technology">
+      <property name="Card Number" value="PR96-0003-GAM" />
+      <property name="Episode" value="The Erlenmeyer Flask" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="2 RP" />
+      <property name="Keywords" value="Event|Resource|Alien|Government" />
+      <property name="Activators" value="Active|Site" />
+      <property name="Text" value="Play after one of your Teams successfully investigates a Site with ALIEN INVESTIGATION or BUREAUCRACY skill as a prerequisite. Place this card in your Bureau. Discard this card to negate one ALIEN or GOVERNMENT Adversary." />
+      <property name="Tags" value="Basic|Negate" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c0edf01e-dacc-41e7-b250-4bc53479e8be" name="Believe The Lie">
+      <property name="Card Number" value="PR97-0001-BBB" />
+      <property name="Episode" value="Gethsemane" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="12 CP" />
+      <property name="Keywords" value="Event|Government|Alien Investigation" />
+      <property name="Activators" value="Conspiracy" />
+      <property name="Text" value="Exchange your X-File with ALIEN Affiliation with any X-File with GOVERNMENT Affiliation." />
+      <property name="Tags" value="Basic|Voyager Promotions" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c2c322fd-9232-47dd-949b-0304e604a043" name="Blue Plate Special">
+      <property name="Card Number" value="PR97-0009-GMR" />
+      <property name="Episode" value="Piper Maru" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="0 *P" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active|Conspiracy" />
+      <property name="Text" value="Play this card and flip over the next card on your Bureau Deck. If that card is playable this turn you may do so for zero [RP] or [CP]. If you do not play it this turn, move the card to your discard pile." />
+      <property name="Tags" value="Advanced" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c294d43c-d134-48e1-b4ba-c16624935c72" name="Call On Us More Often">
+      <property name="Card Number" value="PR97-0007-BOX" />
+      <property name="Episode" value="Apocrypha" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="2 RP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active" />
+      <property name="Text" value="Play this card to search through your Bureau Deck and add one of the following cards to your hand: No One So Paranoid, The Lone Gunmen, Langly, Frohike, or Byers. If you play the chosen card immediately, you may do so for half Cost (round up)." />
+      <property name="Tags" value="Basic|Search|Voyager Promotions" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c01d173c-0df5-44b8-8ff3-614050ef6222" name="Chester Bonaparte, The Spirit Guide">
+      <property name="Card Number" value="PR96-0005-GMR" />
+      <property name="Episode" value="Fresh Bones" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="5 RP" />
+      <property name="Keywords" value="Event|Negate|Question|Occult|Phenomena" />
+      <property name="Activators" value="Active|Occult Adversary" />
+      <property name="Text" value="Negate one OCCULT Adversary. In addition, if the Team makes an OCCULT INVESTIGATION skill check of 6+, they may ask either one METHOD question or one RESULT question." />
+      <property name="Tags" value="Basic|Negate" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c31a02b1-dc09-4585-8bb5-2db90ab87a7e" name="Deny Everything">
+      <property name="Card Number" value="PR97-0999-DNY" />
+      <property name="Episode" value="Anasazi" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="8 CP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Conspiracy" />
+      <property name="Text" value="Play this card immediately after your opponent asks you a question. You may respond with this phrase: &quot;I can neither confirm nor deny that assumption.&quot; After playing this card remove it from the game." />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c2daf7e3-895d-42d6-a994-6da2781a4861" name="Die Hand Die Verletzt">
+      <property name="Card Number" value="PR97-0011-DEU" />
+      <property name="Episode" value="Die Hand Die Verletzt" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="7 CP" />
+      <property name="Keywords" value="Event|Phenomena" />
+      <property name="Activators" value="Conspiracy" />
+      <property name="Text" value="Spielen Sie diese Karte zum Durchsuchen Ihres Büro Stapels. Dann wählen Sie einen OCCULT Gegner, mit dem Sie automatisch den AgentenTeam zur Ortserkundung angehören. Der OCCULT Gegner kann anstatt der 0 [CP] gespielt werden, unter Mißachtung der Aktivierungs-Anforderungen.English Translation: You may search your Bureau deck and take any Occult Creature and you may play it on the agents team making the skill check. You may play it at any site. (Meaning you can play an Adversary with Activator Affiliation on a Motive, Method, or Result site as well.) This costs 0 [CP]." />
+      <property name="Tags" value="Advanced|Search" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="bfb068b6-981f-43a7-bb66-1ab6eaa3c84c" name="Fighter Interceptor">
+      <property name="Card Number" value="PR96-0002-INQ" />
+      <property name="Episode" value="E.B.E." />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="4 RP" />
+      <property name="Keywords" value="Event|Negate" />
+      <property name="Activators" value="Active|Alien|Adversary" />
+      <property name="Text" value="Negates an Alien Adversary." />
+      <property name="Tags" value="Basic|Negate" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c107f6dc-0a82-46ee-b365-e89ab547dd14" name="Good Fortune">
+      <property name="Card Number" value="PR97-0004-BOX" />
+      <property name="Episode" value="Clyde Bruckman's Final Repose" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="2 RP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active" />
+      <property name="Text" value="Once this card is played, only the Investigating player may play Events while investigating this Site, except for Events which would negate this card. Discard this card when the Site is discarded." />
+      <property name="Tags" value="Basic|Prevent|Voyager Promotions" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c0f8f201-53e1-42ca-8031-e874b51cb583" name="Infected That You Might Believe">
+      <property name="Card Number" value="PR97-0002-BBB" />
+      <property name="Episode" value="Gethsemane" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="6 CP" />
+      <property name="Keywords" value="Event|Government|Resource" />
+      <property name="Activators" value="Conspiracy|Site" />
+      <property name="Text" value="Play this card and place it beneath one Agent to lower all of that Agent's skill levels by 1. This cannot result in a skill being negative or permanent Health being less than 1. When played on Agent Dana Scully, the conspiracy player may choose to force Scully to spend every other turn in the Hospital (if this option is chosen, Scully's skills are not reduced). This choice must be made when the card is played and cannot be changed later. Healing cards will negate this card." />
+      <property name="Tags" value="Basic|Voyager Promotions" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c2d4d5c5-f9e6-4300-92d9-5ef9c617d78d" name="Je Vois Quelque Chose La Au-Dessous">
+      <property name="Card Number" value="PR97-0010-FRN" />
+      <property name="Episode" value="Piper Maru" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="2 *P" />
+      <property name="Keywords" value="Event|Phenomena" />
+      <property name="Activators" value="Active|Conspiracy" />
+      <property name="Text" value="Recherchez dans votre paquet de cartes FBI et choisissez une carte ALIEN Mot-clé ou ALIEN INVESTIGATION. Montrez cette carte à votre adversaire, ajoutez-la à votre jeu et mélangez le paquet de cartes FBI.English Translation: Search your Bureau deck and choose one keyword ALIEN or ALIEN INVESTIGATION card. Show this card to your opponent, add it to your hand and shuffle your Bureau deck." />
+      <property name="Tags" value="Basic|Search" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c138e71a-d42c-4c18-ab7f-aab97e790a0e" name="Mulligan">
+      <property name="Card Number" value="PR97-0005-INQ" />
+      <property name="Episode" value="Pusher" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="3 *P" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active|Conspiracy" />
+      <property name="Text" value="Discard your entire hand and draw seven cards from the top of your Bureau Deck." />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c013fa05-1f02-4e42-bbaa-c6a24d3ac2e2" name="No One So Paranoid">
+      <property name="Card Number" value="PR96-0004-GCON" />
+      <property name="Episode" value="E.B.E." />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="5 RP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active" />
+      <property name="Text" value="Play this card to gain one of the following: Adds +1 to Computer skill, negates one Event, or discard one Bluff card from a site." />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c2f4d0da-2842-4a9b-985b-dfdf79e17d0c" name="Not On The Menu">
+      <property name="Card Number" value="PR97-0012-COM" />
+      <property name="Episode" value="Piper Maru" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="2 *P" />
+      <property name="Keywords" value="Event|Bureaucracy" />
+      <property name="Activators" value="Active|Conspiracy" />
+      <property name="Text" value="Draw 2 cards from the top of your Bureau deck and add them to your hand." />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c139b0f6-2706-4f72-a9ee-40c3ff075537" name="Smoke and Mirrors (v1)">
+      <property name="Card Number" value="PR97-0006-SC1" />
+      <property name="Episode" value="Humbug" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="3 RP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active" />
+      <property name="Text" value="Apply a +1 modifier to any skill check." />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c19ad1f9-8c81-4e8c-89b6-c2fd415517dd" name="Smoke and Mirrors (v2)">
+      <property name="Card Number" value="PR97-0006-SC2" />
+      <property name="Episode" value="Humbug" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="3 CP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Conspiracy" />
+      <property name="Text" value="Apply a -1 modifier to any skill check." />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c19c7f0a-dc24-4fc9-9759-a12aef5c13a7" name="Smoke and Mirrors (v3)">
+      <property name="Card Number" value="PR97-0006-SC3" />
+      <property name="Episode" value="Humbug" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="4 RP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active" />
+      <property name="Text" value="Apply a +2 modifier to any one opponent skill check." />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c1e933f8-c99c-4401-a598-00eb17548c09" name="Smoke and Mirrors (v4)">
+      <property name="Card Number" value="PR97-0006-SC4" />
+      <property name="Episode" value="Humbug" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="4 CP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Conspiracy" />
+      <property name="Text" value="Apply a -2 modifier to any one opponent skill check" />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c213c928-58e8-4fb5-a57b-a686234516ff" name="Smoke and Mirrors (v5)">
+      <property name="Card Number" value="PR97-0006-SC5" />
+      <property name="Episode" value="Humbug" />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="5 *P" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active|Conspiracy" />
+      <property name="Text" value="Apply a +3 or -3 (your choice) modifier to any skill check." />
+      <property name="Tags" value="Basic" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="c0803472-4545-45a6-8f3a-653e4d72bed3" name="Teamwork">
+      <property name="Card Number" value="PR96-0007-SUR" />
+      <property name="Episode" value="E.B.E." />
+      <property name="Type" value="Event" />
+      <property name="Cost" value="0 RP" />
+      <property name="Keywords" value="Event" />
+      <property name="Activators" value="Active" />
+      <property name="Text" value="Play this card on any Team consisting of no more than two Agents during the Investigation Phase when they are sent to investigate a Site. You may add a number of tokens to the [RP] pool equal to the Agents' total RES value." />
+      <property name="Tags" value="Advanced|Resource" />
+      <property name="Rarity" value="" />
+      <property name="Long Range Combat" value="" />
+      <property name="Close Range Combat" value="" />
+      <property name="Health" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+    <card id="bf7e9942-6b95-494e-a03a-7422e7848924" name="The Dark Angel">
+      <property name="Card Number" value="PR96-0001-SCR" />
+      <property name="Episode" value="Die Hand Die Verletzt" />
+      <property name="Type" value="Adversary" />
+      <property name="Cost" value="10 CP" />
+      <property name="Keywords" value="Adversary|Occult|Creature|Phenomena|Master" />
+      <property name="Activators" value="Conspiracy|Affiliation Site" />
+      <property name="Text" value="The Dark Angel can play all combat cards for one [CP] less." />
+      <property name="Tags" value="Basic" />
+      <property name="Long Range Combat" value="5" />
+      <property name="Close Range Combat" value="8" />
+      <property name="Health" value="10" />
+      <property name="Rarity" value="" />
+      <property name="Game Effect" value="" />
+      <property name="Behavioral" value="" />
+      <property name="Criminal Investigation" value="" />
+      <property name="Evidence Collection" value="" />
+      <property name="Observation" value="" />
+      <property name="Occult Investigation" value="" />
+      <property name="Subterfuge" value="" />
+      <property name="Resources" value="" />
+      <property name="Computer" value="" />
+      <property name="Medical" value="" />
+      <property name="Sciences" value="" />
+      <property name="Prerequisite" value="" />
+      <property name="Question" value="" />
+      <property name="Dialogue" value="" />
+      <property name="XFile" value="" />
+      <property name="Bio" value="" />
+      <property name="Bureaucracy" value="" />
+      <property name="Alien Investigation" value="" />
+      <property name="Affiliation" value="" />
+      <property name="Motive" value="" />
+      <property name="Method" value="" />
+      <property name="Result" value="" />
+    </card>
+  </cards>
+</set>

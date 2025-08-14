@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<game
+    id="0fdf1868-07b4-4ba3-b82c-e3d68a662b78"
+    name="X-Files CCG"
+	markersize="35"
+    version="1.0.0.15"
+    octgnVersion="3.1.0.2"
+    scriptVersion="3.1.0.2"
+	setsurl="http://www.TCGBuilder.net"
+    gameurl="https://mandalornl.github.io/x-files-ccg/"
+    authors="StormyWaters2021"
+    description="The X-Files CCG is a collectible card game where players use decks comprised of various Agents, equipment, events, and locations, using them to investigate sites and attempt to gather the identity of the opposing player's X-File card."
+    tags="xfiles"
+	iconurl="https://static.wikia.nocookie.net/x-files/images/5/5f/Txf-intro.jpg"
+	>
+  
+  <scripts>
+      <script src="Scripts/actions.py" />
+	  <script src="Scripts/setup.py" />
+	  <script src="Scripts/phases.py" />
+	  <script src="Scripts/xfile.py" />
+	  <script src="Scripts/attach_mod.py" />
+	  <script src="Scripts/api_ext.py" />
+  </scripts>
+  
+  <!-- <documents> -->
+    <!-- <document name="Phase Summary" icon="Images/xfile.png" src="Docs/phases.png" /> -->
+    <!-- <document name="Rules Assistant" icon="Images/xfile.png" src="Docs/RA.pdf" /> -->
+  <!-- </documents>  -->
+  
+  <proxygen definitionsrc="Proxy/proxydef.xml"/>
+  
+  <globalvariables>
+    <globalvariable name="players_loaded" value="0" /> 
+  </globalvariables>
+  
+  <events>
+	<event name="OnDeckLoaded" action="deck_loaded"/>
+	<event name="OnGlobalVariableChanged" action="loaded_check"/>
+	<event name="OnCardArrowTargeted" action="attach_card"/>
+	<event name="OnGameStarted" action="game_started"/>
+  </events>
+  
+  <!-- Card Properties -->
+<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="136" height="188" cornerRadius="10" backCornerRadius="5">
+  
+    <property name="Card Number" type="String" hidden="True"/>
+    <property name="Rarity" type="String" hidden="True"/>
+    <property name="Episode" type="String" hidden="True"/>
+    <property name="Type" type="String" hidden="False"/>
+    <property name="Cost" type="String" hidden="False"/>
+    <property name="Keywords" type="String" hidden="False"/>
+    <property name="Activators" type="String" hidden="False"/>
+    <property name="Text" type="String" hidden="False"/>
+    <property name="Tags" type="String" hidden="True"/>
+    <property name="Long Range Combat" type="String" hidden="False"/>
+    <property name="Close Range Combat" type="String" hidden="False"/>
+    <property name="Health" type="String" hidden="False"/>
+    <property name="Game Effect" type="String" hidden="False"/>
+    <property name="Behavioral" type="String" hidden="False"/>
+    <property name="Criminal Investigation" type="String" hidden="False"/>
+    <property name="Evidence Collection" type="String" hidden="False"/>
+    <property name="Observation" type="String" hidden="False"/>
+    <property name="Occult Investigation" type="String" hidden="False"/>
+    <property name="Subterfuge" type="String" hidden="False"/>
+    <property name="Resources" type="String" hidden="False"/>
+    <property name="Computer" type="String" hidden="False"/>
+    <property name="Medical" type="String" hidden="False"/>
+    <property name="Sciences" type="String" hidden="False"/>
+    <property name="Prerequisite" type="String" hidden="False"/>
+    <property name="Question" type="String" hidden="False"/>
+    <property name="Dialogue" type="String" hidden="True"/>
+	<property name="XFile" type="String" hidden="True"/>
+    <property name="Bio" type="String" hidden="True"/>
+    <property name="Bureaucracy" type="String" hidden="False"/>
+    <property name="Alien Investigation" type="String" hidden="False"/>
+    <property name="Affiliation" type="String" hidden="False"/>
+    <property name="Motive" type="String" hidden="False"/>
+    <property name="Method" type="String" hidden="False"/>
+    <property name="Result" type="String" hidden="False"/>
+  
+  </card>
+
+<markers>
+	<marker id="dam_marker" name="Damage" src="Images/damage.png" />
+	<marker id="xfile_marker" name="X-File" src="Images/xfile.png" />
+	<marker id="rp_marker" name="RP" src="Images/resource.png" />
+</markers>
+
+<phases>
+    <phase name="Briefing Phase" icon="Images/briefing.png" />
+    <phase name="Healing Phase" icon="Images/healing.png" />
+	<phase name="Requisition Phase" icon="Images/requisition.png" />
+	<phase name="Deployment Phase" icon="Images/deployment.png" />
+	<phase name="Case Assignment Phase" icon="Images/case.png" />
+	<phase name="Investigation Phase" icon="Images/investigation.png" />
+	<phase name="Debriefing Phase" icon="Images/debriefing.png" />
+  </phases> 
+  
+<gameboards src="images/playmat.jpg" x="-750" y="-580" width="1500" height="1160" >
+	<gameboard name="multi" src="images/playmat_mp.jpg" x="-1550" y="-580" width="3100" height="1160" />
+</gameboards>
+
+<table name="Table" visibility="undefined" ordered="False" width="1500" height="1160" background="Images/table.jpg" backgroundStyle="uniform" >
+
+	<!-- <cardaction menu="Position" execute="position" /> -->
+	
+	<cardaction menu="Add Game Effect Marker" execute="addGameEffect" default="True" />
+	<cardaction menu="Remove Game Effect Marker" execute="remGameEffect" />
+	
+	<cardseparator />
+
+	<cardaction menu="Add Damage Marker" shortcut="UP" execute="addDamage"/>
+	<cardaction menu="Remove Damage Marker" shortcut="DOWN" execute="remDamage" />
+	<cardseparator />
+	<cardaction menu="Add RP Marker" execute="addRP"/>
+	<cardaction menu="Remove RP Marker" execute="remRP" />
+	<cardseparator />
+	
+	<cardaction menu="Flip Card" shortcut="Ctrl+F" execute="flipCard" />
+	<cardaction menu="Discard" shortcut="DEL" execute="discard" />
+	<cardaction menu="Remove from Game" execute="remove_from_game" />
+
+	<cardseparator />
+	 
+	<cardactions menu="Highlight">
+		<cardaction menu="Red" default="False" shortcut="F1" execute="red" />
+		<cardaction menu="Orange" default="False" shortcut="F2" execute="orange" />
+		<cardaction menu="Yellow" default="False" shortcut="F3" execute="yellow" />
+		<cardaction menu="Green" default="False" shortcut="F4" execute="green" />
+		<cardaction menu="Blue" default="False" shortcut="F5" execute="blue" />
+		<cardaction menu="Purple" default="False" shortcut="F6" execute="purple" />
+		<cardaction menu="White" default="False" shortcut="F7" execute="white" />
+		<cardaction menu="Clear Highlight" default="False" shortcut="F8" execute="clear" />
+	</cardactions>
+	
+	<groupaction menu="Move to Next Phase" shortcut="F12" execute="nextPhase" />
+		
+	<groupseparator />
+	
+	<groupaction menu="View Checklist" execute="check_list_display" />
+	<groupaction menu="View Possible X-Files" execute="browse_possibile_xfiles" />
+	<groupaction menu="Select Your X-File" showIf="no_starting_xfile" execute="starting_xfile" />
+	
+	<groupseparator />
+	
+	
+	
+	<groupactions menu="Random"> 
+		<groupaction menu="Roll a die" execute="rollDie" />
+		<groupaction menu="Roll an X-sided die" execute="rollX" />
+		<groupaction menu="Flip a coin" execute="coinFlip" />
+	</groupactions>
+	
+	<groupactions menu="Add New Card to Table"> 
+		<groupaction menu="Add a Face-Up Card" execute="createUp" />
+		<groupaction menu="Add a Face-Down Card" execute="createDown" />
+	</groupactions>
+	
+
+	
+</table>
+
+<player summary="Hand: {#Hand} | Resources: {#Resources} | Conspiracy: {#Conspiracy}">
+	<counter name="Resources" default="5" icon="Images/resource.png" />
+	<counter name="Conspiracy" default="5" icon="Images/conspiracy.png" />
+
+	<group name="Hand" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded">
+		<cardaction menu="Play Face-Down" execute="moveFaceDown" />
+		<cardaction menu="Discard" shortcut="DEL" execute="discard" />
+		<cardaction menu="Remove from Game" execute="remove_from_game" />
+		<cardseparator />
+		<groupaction menu="Discard Random Card" execute="random_discard" />
+		<groupaction menu="Reveal Hand" execute="reveal_hand" />
+		
+	</group>
+	
+	<group name="Deck" visibility="none" ordered="True" icon="Images/deck.png">
+		<groupaction menu="Draw a card" default="True" execute="draw"/>
+		<groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle"/>
+	</group>
+	
+	<group name="Discard" visibility="all" ordered="False" viewState="pile" icon="Images/discard.png" />
+	<group name="Removed from Game" visibility="all" ordered="False" viewState="pile" icon="Images/rfg.png" />
+	<group name="Side Deck" visibility="me" ordered="False" viewState="collapsed" icon="Images/rfg.png" />
+	
+	<globalvariable name="eliminated_options" value="" /> 
+	<globalvariable name="starting_xfile" value="0" /> 
+	
+</player>	
+	
+  <!-- Default Deck Sections -->
+  <deck>
+    <section name="Deck" group="Deck" />
+	<section name="Side Deck" group="Side Deck" />
+  </deck>
+
+</game>
