@@ -1,17 +1,43 @@
-P1_POSITIONS = {
-    "xfile": {"x": 570, "y": 370},
-    "agent": {"x": -475, "y": 365},
-    "agent_mod": 145,
+BOARD_POSITIONS = {
+    
+    "player1": {
+        "xfile": {"x": 570, "y": 370},
+        "agent": {"x": -475, "y": 370},
+        "agent_mod": 145,
+    },
+    
+    "player2": {
+        "xfile": {"x": -705, "y": -565},
+        "agent": {"x": 335, "y": -565},
+        "agent_mod": -145,
+    },
+    
+    "mp_player1": {
+        "xfile": {"x": -260, "y": 370},
+        "agent": {"x": -1265, "y": 370},
+        "agent_mod": 145,
+    },
+    "mp_player2": {
+        "xfile": {"x": 1350, "y": 370},
+        "agent": {"x": 320, "y": 370},
+        "agent_mod": 145,
+    },
+    "mp_player3": {
+        "xfile": {"x": -1525, "y": -565},
+        "agent": {"x": -460, "y": -565},
+        "agent_mod": -145,
+    },
+    "mp_player4": {
+        "xfile": {"x": 75, "y": -565},
+        "agent": {"x": 1130, "y": -565},
+        "agent_mod": -145,
+    },
 }
 
-P2_POSITIONS = {
-    "xfile": {"x": -705, "y": -565},
-    "agent": {"x": 335, "y": -555},
-    "agent_mod": -145,
-    
-}
+INV_POSITIONS_MP = ["mp_player3", "mp_player4"]
 
 def game_started():
+    mute()
     if me._id != 1:
         return
     if len(players) > 4:
@@ -19,6 +45,31 @@ def game_started():
         return
     if len(players) > 2:
         table.board = 'multi'
+    set_starting_positions()
+
+
+def set_starting_positions():
+    mute()
+    if not len(players) > 2: 
+        me.setGlobalVariable("position_var", "player1")
+        remoteCall(players[1], "set_my_position", ["player2"])
+        return
+    else: 
+        me.setGlobalVariable("position_var", "mp_player1")
+    
+    inv = [p for p in players if p.isInverted]
+    reg = [p for p in players if p not in inv]
+    
+    for p in inv:
+        index = inv.index(p)
+        remoteCall(p, "set_my_position", [INV_POSITIONS_MP[index]])
+    for p in reg:
+        if p._id > 1:
+            remoteCall(p, "set_my_position", ["mp_player2"])
+
+
+def set_my_position(position):
+    me.setGlobalVariable("position_var", position)
 
 
 def deck_loaded(args):
@@ -65,8 +116,9 @@ def complete_setup():
 def starting_agents(*args):
     mute()
     rp = 0
-    pos = []
     agents = [c for c in me.Deck if c.Type == "Agent"]
+    position_var = me.getGlobalVariable("position_var")
+    pos = BOARD_POSITIONS[position_var]
     
     starting_agents = False
     cards = []
@@ -90,11 +142,6 @@ def starting_agents(*args):
                 whisper("Starting Agents must have a total RP cost of 20 or less.")
             else:
                 starting_agents = True      
-  
-    if me.isInverted:
-        pos = P2_POSITIONS
-    else:
-        pos = P1_POSITIONS
     
     x = pos["agent"]["x"]
     y = pos["agent"]["y"]
@@ -109,12 +156,12 @@ def starting_agents(*args):
 
 def starting_xfile(*args):
     mute()
-    if me.isInverted:
-        x = P2_POSITIONS["xfile"]["x"]
-        y = P2_POSITIONS["xfile"]["y"]
-    else:
-        x = P1_POSITIONS["xfile"]["x"]
-        y = P1_POSITIONS["xfile"]["y"]
+    position_var = me.getGlobalVariable("position_var")
+    pos = BOARD_POSITIONS[position_var]
+    
+    x = pos["xfile"]["x"]
+    y = pos["xfile"]["y"]
+
     xfile_picked = False
     while not xfile_picked:
         card, _ = askCard({"XFile":"True"}, title = "Choose your X-File:")

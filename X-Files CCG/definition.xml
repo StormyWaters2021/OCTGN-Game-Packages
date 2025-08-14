@@ -11,7 +11,7 @@
     authors="StormyWaters2021"
     description="The X-Files CCG is a collectible card game where players use decks comprised of various Agents, equipment, events, and locations, using them to investigate sites and attempt to gather the identity of the opposing player's X-File card."
     tags="xfiles"
-	iconurl="https://static.wikia.nocookie.net/x-files/images/5/5f/Txf-intro.jpg"
+	iconurl="https://www.tcgbuilder.net/games/x-files-ccg/art/logo.jpg"
 	>
   
   <scripts>
@@ -186,6 +186,7 @@
 	
 	<globalvariable name="eliminated_options" value="" /> 
 	<globalvariable name="starting_xfile" value="0" /> 
+	<globalvariable name="position_var" value="None" /> 
 	
 </player>	
 	
