@@ -32,6 +32,25 @@ def remove_from_game(card, x = 0, y = 0):
     card.moveTo(me.piles["Removed from Game"])
     _extapi.notify("{} removes {} from the game.".format(me, card), ChatColors.Red)
     
+
+def reveal_hand(group, x=0, y=0):
+    opps = [p for p in getPlayers() if p != me]
+    if not opps or not me.hand: return
+
+    opp = opps[0] if len(opps) == 1 else opps[askChoice("Choose opponent:", [p.name for p in opps]) - 1]
+    if not opp: return
+
+    remoteCall(opp, 'pickCardToDiscard', [[c for c in me.hand], me])
+
+
+def pickCardToDiscard(cards, owner):
+    dlg = cardDlg(cards)
+    dlg.title = "Opponent's Hand"
+    dlg.text = "Choose a card for your opponent to discard:"
+    chosen = dlg.show()
+    if chosen:
+        remoteCall(owner, 'discard', [chosen[0]])
+
     
 def flipCard(card, x = 0, y = 0):
     mute()

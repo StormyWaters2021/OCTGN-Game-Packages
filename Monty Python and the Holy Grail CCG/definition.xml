@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<game
+    id="20d48baa-8c8f-4c1e-891e-8a206a05407d"
+    name="Monty Python and the Holy Grail CCG"
+	markersize="35"
+    version="1.0.0.1"
+    octgnVersion="3.1.0.2"
+    scriptVersion="3.1.0.2"
+	setsurl="http://www.TCGBuilder.net"
+    gameurl="http://www.TCGBuilder.net"
+    authors="StormyWaters2021"
+    description="All the characters from The Holy Grail seeking quests, encountering silly Frenchmen and peasants. Players recite song verses, answer trivia, unclog noses, fling electric donkeys, get slop poured on you, and fight. Oh, and answer three questions, over and over..."
+    tags="monty python"
+	iconurl="https://www.tcgbuilder.net/games/monty-python/art/logo.jpg"
+	>
+  
+  <scripts>
+      <script src="Scripts/actions.py" />
+	  <script src="Scripts/setup.py" />
+	  <script src="Scripts/phases.py" />
+	  <script src="Scripts/api_ext.py" />
+  </scripts>
+  
+  <!-- <documents> -->
+    <!-- <document name="Phase Summary" icon="Images/xfile.png" src="Docs/phases.png" /> -->
+    <!-- <document name="Rules Assistant" icon="Images/xfile.png" src="Docs/RA.pdf" /> -->
+  <!-- </documents>  -->
+  
+  <proxygen definitionsrc="Proxy/proxydef.xml"/>
+  
+  <globalvariables>
+    <globalvariable name="players_loaded" value="0" /> 
+  </globalvariables>
+  
+  <events>
+	<event name="OnDeckLoaded" action="deck_loaded"/>
+	<event name="OnGlobalVariableChanged" action="loaded_check"/>
+	<event name="OnCardArrowTargeted" action="attach_card"/>
+	<event name="OnGameStarted" action="game_started"/>
+  </events>
+  
+<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="136" height="188" cornerRadius="10" backCornerRadius="5">
+  
+  
+</card>
+
+<markers>
+	<!-- <marker id="dam_marker" name="Damage" src="Images/damage.png" /> -->
+</markers>
+
+<phases />
+  
+<gameboards src="images/playmat.jpg" x="-750" y="-580" width="1500" height="1160" />
+
+<table name="Table" visibility="undefined" ordered="False" width="1500" height="1160" background="Images/table.jpg" backgroundStyle="uniform" >
+
+	<!-- <cardaction menu="Position" execute="position" /> -->
+
+	
+	<cardaction menu="Flip Card Over" shortcut="Ctrl+F" execute="flipCard" />
+	<cardaction menu="Discard" shortcut="DEL" execute="discard" />
+	<cardaction menu="Eliminate" execute="remove_from_game" />
+	<cardaction menu="Shuffle Into Deck" execute="shuffle_into_deck" />
+	
+	<cardseparator />
+	 
+	<cardactions menu="Highlight">
+		<cardaction menu="Red" default="False" shortcut="F1" execute="red" />
+		<cardaction menu="Orange" default="False" shortcut="F2" execute="orange" />
+		<cardaction menu="Yellow" default="False" shortcut="F3" execute="yellow" />
+		<cardaction menu="Green" default="False" shortcut="F4" execute="green" />
+		<cardaction menu="Blue" default="False" shortcut="F5" execute="blue" />
+		<cardaction menu="Purple" default="False" shortcut="F6" execute="purple" />
+		<cardaction menu="White" default="False" shortcut="F7" execute="white" />
+		<cardaction menu="Clear Highlight" default="False" shortcut="F8" execute="clear" />
+	</cardactions>
+		
+	<groupseparator />
+	
+	<groupactions menu="Random"> 
+		<groupaction menu="Roll a die" execute="rollDie" />
+		<groupaction menu="Roll an X-sided die" execute="rollX" />
+		<groupaction menu="Flip a coin" execute="coinFlip" />
+	</groupactions>
+	
+	<groupactions menu="Add New Card to Table"> 
+		<groupaction menu="Add a Face-Up Card" execute="createUp" />
+		<groupaction menu="Add a Face-Down Card" execute="createDown" />
+	</groupactions>
+	
+	<groupactions menu="Take Opponent's Cards"> 
+		<groupaction menu="Draw from Opponent's Deck" execute="opp_draw" />
+		<groupaction menu="Add a Face-Down Card" execute="createDown" />
+	</groupactions>
+	
+		<groupaction menu="Random Card from Dead Cards" execute="random_dead" />
+	
+	
+</table>
+
+<player summary="Hand: {#Hand} | Resources: {#Resources} | Conspiracy: {#Conspiracy}">
+	<counter name="Resources" default="5" icon="Images/resource.png" />
+	<counter name="Conspiracy" default="5" icon="Images/conspiracy.png" />
+
+	<group name="Hand" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded">
+		<cardaction menu="Play Face-Down" execute="moveFaceDown" />
+		<cardaction menu="Discard" shortcut="DEL" execute="discard" />
+		<cardaction menu="Eliminate" execute="remove_from_game" />
+		<cardseparator />
+		<groupaction menu="Discard Random Card" execute="random_discard" />
+		<groupaction menu="Reveal Hand" execute="reveal_hand" />
+		
+		<groupaction menu="Create a Card" execute="create_in_pile" />
+		
+	</group>
+	
+	<group name="Deck" visibility="none" ordered="True" icon="Images/deck.png">
+		<cardaction menu="Play Face-Down" execute="moveFaceDown" />
+		<cardaction menu="Discard" shortcut="DEL" execute="discard" />
+		<cardaction menu="Eliminate" execute="remove_from_game" />
+		
+		<groupaction menu="Draw a card" default="True" execute="draw"/>
+		<groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle"/>
+	</group>
+	
+	<group name="Dead Cards" visibility="all" ordered="False" viewState="pile" icon="Images/discard.png">
+		<cardaction menu="Shuffle Into Deck" execute="shuffle_into_deck" />
+	</group>
+	
+	<group name="Eliminated" visibility="me" ordered="False" viewState="collapsed" icon="Images/rfg.png" />
+	
+	<!-- <globalvariable name="eliminated_options" value="" />  -->
+	<!-- <globalvariable name="starting_xfile" value="0" />  -->
+	
+</player>	
+	
+  <!-- Default Deck Sections -->
+  <deck>
+    <section name="Deck" group="Deck" />
+	<section name="Side Deck" group="Side Deck" />
+  </deck>
+
+</game>
