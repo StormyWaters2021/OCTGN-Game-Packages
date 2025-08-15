@@ -55,7 +55,8 @@
 <table name="Table" visibility="undefined" ordered="False" width="1500" height="1160" background="Images/table.jpg" backgroundStyle="uniform" >
 
 	<!-- <cardaction menu="Position" execute="position" /> -->
-
+	<cardaction menu="Rotate Right" default="False" shortcut="Right" execute="rotate_right"/>
+	<cardaction menu="Rotate Left" default="False" shortcut= "Left" execute="rotate_left"/>
 	
 	<cardaction menu="Flip Card Over" shortcut="Ctrl+F" execute="flipCard" />
 	<cardaction menu="Discard" shortcut="DEL" execute="discard" />

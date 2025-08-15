@@ -26,6 +26,16 @@ def discard(card, x = 0, y = 0):
     card.moveTo(me.Discard)
     _extapi.notify("{} discards {}.".format(me, card), ChatColors.Red)
     
+
+def random_discard(*args):
+    mute()
+    if len(me.Hand) < 1:
+        return
+    random = rnd(0, len(me.Hand) - 1)
+    card = me.Hand[random]
+    _extapi.notify("{} randomly chooses {}.".format(me, card), ChatColors.Red)
+    discard(card)
+    
     
 def remove_from_game(card, x = 0, y = 0):
     mute()

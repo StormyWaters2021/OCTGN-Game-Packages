@@ -65,6 +65,22 @@ def flipCard(card, x = 0, y = 0):
         notify("{} turns {} face up.".format(me, card))
 
 
+def rotate_right(card, x = 0, y = 0):
+    # Rot90, Rot180, etc. are just aliases for the numbers 0-3
+    mute()
+    if card.controller == me:
+        card.orientation = (card.orientation + 1) % 4
+        notify("{} rotates {}.".format(me, card.Name))
+
+
+def rotate_left(card, x = 0, y = 0):
+    # Rot90, Rot180, etc. are just aliases for the numbers 0-3
+    mute()
+    if card.controller == me:
+        card.orientation = (card.orientation - 1) % 4
+        notify("{} rotates {}.".format(me, card.Name))
+
+
 def random_dead(group, x=0, y=0):
     players = getPlayers()
     if not players: return
@@ -103,6 +119,26 @@ def giveRandomFromDeadTo(requesterPid):
     notify("{} takes a random card from {}'s Dead Cards.".format(requester, me))
     remoteCall(requester, "grab_passed_card", [c])
 
+
+def look_at_top(group, player):
+    mute()
+    top = []
+    top.append(me.group.top())
+    cards = cardDlg(top)
+    dlg.title = "Here is the top card."
+    dlg.text = "Select a Card"
+    
+    if player == me:
+        choice = cards.show()
+        
+    else:
+        remoteCall(player, "show_cards", [cards])
+        
+
+def show_cards(cards):
+    
+        
+    
  
 # ~~~~~~~~~~~~~~~~~~~~~~ #
 # ~~~~~ OPPO CARDS ~~~~~ #   

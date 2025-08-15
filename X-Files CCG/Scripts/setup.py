@@ -50,12 +50,14 @@ def game_started():
 
 def set_starting_positions():
     mute()
-    if not len(players) > 2: 
+    if len(players) == 2: 
         me.setGlobalVariable("position_var", "player1")
         remoteCall(players[1], "set_my_position", ["player2"])
         return
-    else: 
+    elif len(players) > 2:
         me.setGlobalVariable("position_var", "mp_player1")
+    else: 
+        me.setGlobalVariable("position_var", "player1")
     
     inv = [p for p in players if p.isInverted]
     reg = [p for p in players if p not in inv]

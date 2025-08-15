@@ -21,38 +21,38 @@ def phase_check(number):
     else: return False
     
 
-def checkBrief(*args):
-    check = phase_check(1)
-    return check
+# def checkBrief(*args):
+    # check = phase_check(1)
+    # return check
     
 
-def checkHeal(*args):
-    check = phase_check(2)
-    return check
+# def checkHeal(*args):
+    # check = phase_check(2)
+    # return check
     
     
-def checkReq(*args):
-    check = phase_check(3)
-    return check
+# def checkReq(*args):
+    # check = phase_check(3)
+    # return check
     
     
-def checkDep(*args):
-    check = phase_check(4)
-    return check
+# def checkDep(*args):
+    # check = phase_check(4)
+    # return check
     
     
-def checkCase(*args):
-    check = phase_check(5)
-    return check
+# def checkCase(*args):
+    # check = phase_check(5)
+    # return check
     
     
-def checkInv(*args):
-    check = phase_check(6)
-    return check
+# def checkInv(*args):
+    # check = phase_check(6)
+    # return check
     
     
-def checkDebrief(*args):
-    check = phase_check(7)
-    return check
+# def checkDebrief(*args):
+    # check = phase_check(7)
+    # return check
     
     
