@@ -1,6 +1,11 @@
+SIDEWAYS = ["Castle", "Event", "Land", "Taunt", "Village",]
+
 # ~~~~~~~~~~~~~~~~~~~~~~ #
 # ~~~~~ MOVE CARDS ~~~~~ #   
 # ~~~~~~~~~~~~~~~~~~~~~~ #
+
+TABLESPACE = (-335, 95)
+TABLESPACEINV = (235, -105)
 
 
 def shuffle(group, x = 0, y = 0):
@@ -35,9 +40,19 @@ def drawN(number):
 
 def discard(card, x = 0, y = 0):
     mute()
-    card.moveTo(me.Discard)
+    card.moveTo(me.piles["Dead Cards"])
     _extapi.notify("{} discards {}.".format(me, card), ChatColors.Red)
 
+
+def random_discard(*args):
+    mute()
+    if len(me.Hand) < 1:
+        return
+    random = rnd(0, len(me.Hand) - 1)
+    card = me.Hand[random]
+    _extapi.notify("{} randomly chooses {}.".format(me, card), ChatColors.Red)
+    discard(card)
+    
 
 def remove_from_game(card, x = 0, y = 0):
     mute()
@@ -47,22 +62,25 @@ def remove_from_game(card, x = 0, y = 0):
 
 def moveFaceDown(card, x=0, y=0):
     mute()
-    card.moveToTable(0, 0, True)
+    if not me.isInverted:
+        x, y = TABLESPACE
+    else:
+        x, y = TABLESPACEINV
+    card.moveToTable(x, y, True)
     card.peek()
     notify("{} plays a card face down.".format(me))
     
 
 def flipCard(card, x = 0, y = 0):
     mute()
-    if card.type == "X-File":
-        if not confirm("You are about to turn an X-File face-up. Are you sure?"):
-            return
     if card.isFaceUp:
         notify("{} turns {} face down.".format(me, card))
         card.isFaceUp = False
     else:
         card.isFaceUp = True
         notify("{} turns {} face up.".format(me, card))
+    x,y = card.position
+    card.moveToTable(x, y)
 
 
 def rotate_right(card, x = 0, y = 0):
@@ -79,6 +97,21 @@ def rotate_left(card, x = 0, y = 0):
     if card.controller == me:
         card.orientation = (card.orientation - 1) % 4
         notify("{} rotates {}.".format(me, card.Name))
+
+
+def fix_rotation(args):
+    if args.player != me:
+        return
+    for card in args.cards:
+        if card.controller != me:
+            continue
+        if not card.isFaceUp:
+            continue
+        if card.group != table:
+            continue
+        for i in SIDEWAYS:
+            if i in card.properties["Card Type"]:
+                card.orientation = 3
 
 
 def random_dead(group, x=0, y=0):
@@ -135,7 +168,7 @@ def look_at_top(group, player):
         remoteCall(player, "show_cards", [cards])
         
 
-def show_cards(cards):
+# def show_cards(cards):
     
         
     
@@ -186,12 +219,12 @@ def pickCardToDiscard(cards, owner):
 # ~~~~~ CREATE CARDS ~~~~~ #   
 # ~~~~~~~~~~~~~~~~~~~~~~~~ #
 
-def create_in_pile(group, x, y):
+def create_in_pile(group, x = 0, y = 0):
     mute()
     guid, quantity = askCard()
     if guid is not None:
         group.create(guid, quantity)
-        notify("{} created a card in their {}.".format(me, group))
+        notify("{} created a card in their {}.".format(me, group.name))
         
     
 def createUp(group, x, y):
@@ -214,32 +247,32 @@ def createDown(group, x, y):
 # ~~~~~ MARKERS ~~~~~ #   
 # ~~~~~~~~~~~~~~~~~~~ #
     
-def addMarker(card, marker):
-   mute()
-   card.markers[marker] += 1
+# def addMarker(card, marker):
+   # mute()
+   # card.markers[marker] += 1
 
 
-def remMarker(card, marker):
-   mute()
-   if card.markers[marker] < 1:
-        return False
-   card.markers[marker] -= 1
-   return True
+# def remMarker(card, marker):
+   # mute()
+   # if card.markers[marker] < 1:
+        # return False
+   # card.markers[marker] -= 1
+   # return True
    
     
-def addDamage(card, x = 0, y = 0):
-   mute()
-   marker = ("Damage", "dam_marker")
-   addMarker(card, marker)
-   notify("{} adds a damage marker to {}.".format(me, card))
+# def addDamage(card, x = 0, y = 0):
+   # mute()
+   # marker = ("Damage", "dam_marker")
+   # addMarker(card, marker)
+   # notify("{} adds a damage marker to {}.".format(me, card))
    
    
-def remDamage(card, x = 0, y = 0):
-   mute()
-   marker = ("Damage", "dam_marker")
-   check = remMarker(card, marker)
-   if check: notify("{} removes a damage marker from {}.".format(me, card))
-   else: notify("{} has no damage markers to remove.".format(card))
+# def remDamage(card, x = 0, y = 0):
+   # mute()
+   # marker = ("Damage", "dam_marker")
+   # check = remMarker(card, marker)
+   # if check: notify("{} removes a damage marker from {}.".format(me, card))
+   # else: notify("{} has no damage markers to remove.".format(card))
    
    
 # ~~~~~~~~~~~~~~~~~~ #

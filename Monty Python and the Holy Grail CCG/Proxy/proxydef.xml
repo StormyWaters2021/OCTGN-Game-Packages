@@ -9,13 +9,13 @@
           <wordwrap height="60" width="485" shrinktofit="True" />
         </block>
  
-		<block type="overlay" id="over" src="Images/damage.png">
+		<block type="overlay" id="over" src="Images/deck.png">
 		  <location x="0" y="0" />
 		</block>
  
     </blocks>
 
-    <template src="Images/proxy.jpg" default="True">
+    <template src="Images/cardback.jpg" default="True">
     <matches>
       <match name="Type" value="Group" />
     </matches>

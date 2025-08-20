@@ -2,7 +2,7 @@
 <game
     id="20d48baa-8c8f-4c1e-891e-8a206a05407d"
     name="Monty Python and the Holy Grail CCG"
-	markersize="35"
+	markersize="10"
     version="1.0.0.1"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
@@ -19,6 +19,7 @@
 	  <script src="Scripts/setup.py" />
 	  <script src="Scripts/phases.py" />
 	  <script src="Scripts/api_ext.py" />
+	  <script src="Scripts/debug.py" />
   </scripts>
   
   <!-- <documents> -->
@@ -33,15 +34,30 @@
   </globalvariables>
   
   <events>
-	<event name="OnDeckLoaded" action="deck_loaded"/>
-	<event name="OnGlobalVariableChanged" action="loaded_check"/>
-	<event name="OnCardArrowTargeted" action="attach_card"/>
-	<event name="OnGameStarted" action="game_started"/>
+	<event name="OnCardsMoved" action="fix_rotation"/>
+	<event name="OnScriptedCardsMoved" action="fix_rotation"/>
+	<!-- <event name="OnDeckLoaded" action="deck_loaded"/> -->
+	<!-- <event name="OnGlobalVariableChanged" action="loaded_check"/> -->
+	<!-- <event name="OnCardArrowTargeted" action="attach_card"/> -->
+	<!-- <event name="OnGameStarted" action="game_started"/> -->
   </events>
   
-<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="136" height="188" cornerRadius="10" backCornerRadius="5">
-  
-  
+<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="46" height="65" cornerRadius="2" backCornerRadius="5">
+	<property name="Card Number" type="String" hidden="True"/>
+    <property name="Card Text" type="String" hidden="False"/>
+    <property name="Alternative Text" type="String" hidden="False"/>
+    <property name="Card Type" type="String" hidden="False"/>
+    <property name="Combat" type="String" hidden="False"/>
+    <property name="Grail" type="String" hidden="False"/>
+    <property name="Notes and Variations" type="String" hidden="True"/>
+    <property name="Quote" type="String" hidden="True"/>
+    <property name="Rarity" type="String" hidden="False"/>
+    <property name="Set" type="String" hidden="True"/>
+	<property name="Subtype" type="String" hidden="False"/>
+    <property name="Wits" type="String" hidden="False"/>
+    <property name="image" type="String" hidden="True"/>
+    <property name="index" type="String" hidden="True"/>
+
 </card>
 
 <markers>
@@ -50,11 +66,14 @@
 
 <phases />
   
-<gameboards src="images/playmat.jpg" x="-750" y="-580" width="1500" height="1160" />
+<gameboards src="images/playmat.jpg" x="-800" y="-450" width="1600" height="900" />
 
 <table name="Table" visibility="undefined" ordered="False" width="1500" height="1160" background="Images/table.jpg" backgroundStyle="uniform" >
 
-	<!-- <cardaction menu="Position" execute="position" /> -->
+	<!-- # ~~ DEBUG ~~ # -->
+	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
+	<!-- # ~~ DEBUG ~~ # -->
+	
 	<cardaction menu="Rotate Right" default="False" shortcut="Right" execute="rotate_right"/>
 	<cardaction menu="Rotate Left" default="False" shortcut= "Left" execute="rotate_left"/>
 	
@@ -99,9 +118,9 @@
 	
 </table>
 
-<player summary="Hand: {#Hand} | Resources: {#Resources} | Conspiracy: {#Conspiracy}">
-	<counter name="Resources" default="5" icon="Images/resource.png" />
-	<counter name="Conspiracy" default="5" icon="Images/conspiracy.png" />
+<player summary="Hand: {#Hand}">
+	<!-- <counter name="Resources" default="5" icon="Images/resource.png" /> -->
+	<!-- <counter name="Conspiracy" default="5" icon="Images/conspiracy.png" /> -->
 
 	<group name="Hand" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded">
 		<cardaction menu="Play Face-Down" execute="moveFaceDown" />
@@ -138,7 +157,6 @@
   <!-- Default Deck Sections -->
   <deck>
     <section name="Deck" group="Deck" />
-	<section name="Side Deck" group="Side Deck" />
   </deck>
 
 </game>
