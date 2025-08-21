@@ -36,13 +36,13 @@
   <events>
 	<event name="OnCardsMoved" action="fix_rotation"/>
 	<event name="OnScriptedCardsMoved" action="fix_rotation"/>
-	<!-- <event name="OnDeckLoaded" action="deck_loaded"/> -->
-	<!-- <event name="OnGlobalVariableChanged" action="loaded_check"/> -->
+	<event name="OnDeckLoaded" action="deck_loaded"/>
+	<event name="OnGlobalVariableChanged" action="loaded_check"/>
 	<!-- <event name="OnCardArrowTargeted" action="attach_card"/> -->
 	<!-- <event name="OnGameStarted" action="game_started"/> -->
   </events>
   
-<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="46" height="65" cornerRadius="2" backCornerRadius="5">
+<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="46" height="63" cornerRadius="2" backCornerRadius="5">
 	<property name="Card Number" type="String" hidden="True"/>
     <property name="Card Text" type="String" hidden="False"/>
     <property name="Alternative Text" type="String" hidden="False"/>
@@ -57,11 +57,15 @@
     <property name="Wits" type="String" hidden="False"/>
     <property name="image" type="String" hidden="True"/>
     <property name="index" type="String" hidden="True"/>
+	<property name="setuptags" type="String" hidden="True"/>
 
 </card>
 
 <markers>
-	<!-- <marker id="dam_marker" name="Damage" src="Images/damage.png" /> -->
+	<marker id="pluscombat" name="+ Combat" src="Images/pluscombat.png" />
+	<marker id="minuscombat" name="- Combat" src="Images/minuscombat.png" />
+	<marker id="pluswits" name="+ Wits" src="Images/pluswits.png" />
+	<marker id="minuswits" name="- Wits" src="Images/minuswits.png" />
 </markers>
 
 <phases />
@@ -76,14 +80,30 @@
 	
 	<cardaction menu="Rotate Right" default="False" shortcut="Right" execute="rotate_right"/>
 	<cardaction menu="Rotate Left" default="False" shortcut= "Left" execute="rotate_left"/>
-	
 	<cardaction menu="Flip Card Over" shortcut="Ctrl+F" execute="flipCard" />
-	<cardaction menu="Discard" shortcut="DEL" execute="discard" />
-	<cardaction menu="Eliminate" execute="remove_from_game" />
-	<cardaction menu="Shuffle Into Deck" execute="shuffle_into_deck" />
+	
+	<cardactions menu="Remove Card">
+		<cardaction menu="Discard" shortcut="DEL" execute="discard" />
+		<cardaction menu="Eliminate" execute="remove_from_game" />
+		<cardaction menu="Shuffle Into Deck" execute="shuffle_into_deck" />
+	</cardactions>
+	<cardseparator />
+	<cardactions menu="Combat Markers">
+		<cardaction menu="Grant + Combat" default="False" execute="plusCombat" />
+		<cardaction menu="Remove + Combat" default="False" execute="remPlusCombat" />
+		<cardaction menu="Grant - Combat" default="False" execute="minusCombat" />
+		<cardaction menu="Remove - Combat" default="False" execute="remMinusCombat" />
+	</cardactions>
 	
 	<cardseparator />
+	<cardactions menu="Wits Markers">
+		<cardaction menu="Grant + Wits" default="False" execute="plusWits" />
+		<cardaction menu="Remove + Wits" default="False" execute="remPlusWits" />
+		<cardaction menu="Grant - Wits" default="False" execute="minusWits" />
+		<cardaction menu="Remove - Wits" default="False" execute="remMinusWits" />
+	</cardactions>
 	 
+	<cardseparator />
 	<cardactions menu="Highlight">
 		<cardaction menu="Red" default="False" shortcut="F1" execute="red" />
 		<cardaction menu="Orange" default="False" shortcut="F2" execute="orange" />
@@ -94,7 +114,8 @@
 		<cardaction menu="White" default="False" shortcut="F7" execute="white" />
 		<cardaction menu="Clear Highlight" default="False" shortcut="F8" execute="clear" />
 	</cardactions>
-		
+	
+	
 	<groupseparator />
 	
 	<groupactions menu="Random"> 
@@ -106,6 +127,13 @@
 	<groupactions menu="Add New Card to Table"> 
 		<groupaction menu="Add a Face-Up Card" execute="createUp" />
 		<groupaction menu="Add a Face-Down Card" execute="createDown" />
+	</groupactions>
+	
+	<groupactions menu="Create a Pawn">
+		<groupaction menu="Blue" default="False" execute="bluepawn" />
+		<groupaction menu="Green" default="False" execute="greenpawn" />
+		<groupaction menu="Orange" default="False" execute="orangepawn" />
+		<groupaction menu="Pink" default="False" execute="pinkpawn" />
 	</groupactions>
 	
 	<groupactions menu="Take Opponent's Cards"> 

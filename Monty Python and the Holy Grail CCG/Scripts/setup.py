@@ -1,15 +1,52 @@
-# P1_POSITIONS = {
-    # "xfile": {"x": 570, "y": 370},
-    # "agent": {"x": -475, "y": 365},
-    # "agent_mod": 145,
-# }
+P1_POSITIONS = {
+    "Arthur": (-640, 355),
+    "Patsy": (-580, 355),
+    "max_x": 0,
+    "min_x": 0,
+    "max_y": 0,
+    "min_y": 0,
+    "starting_stacks": [
+    (-245, 350),
+    (-80, 350),
+    (80, 350),
+    (-315, 250),
+    (-155, 250),
+    (5, 250),
+    (165, 250),
+    (-245, 160),
+    (-80, 160),
+    (80, 160),
+    (-180, 65),
+    (-20, 65),
+    (-10, -25),
+    (150, -25),
+    ]
+}
 
-# P2_POSITIONS = {
-    # "xfile": {"x": -705, "y": -565},
-    # "agent": {"x": 335, "y": -555},
-    # "agent_mod": -145,
-    
-# }
+P2_POSITIONS = {
+    "Arthur": (585, -435),
+    "Patsy": (530, -435),
+    "max_x": 0,
+    "min_x": 0,
+    "max_y": 0,
+    "min_y": 0,
+    "starting_stacks": [
+    (130, -410),
+    (-30, -410),
+    (-195, -410),
+    (200, -320),
+    (40, -320),
+    (-120, -320),
+    (-280, -320),
+    (130, -215),
+    (-30, -215),
+    (-195, -215),
+    (70, -125),
+    (-95, -125),
+    (-100, -40),
+    (-260, -40),
+    ]
+}
 
 # def game_started():
     # if me._id != 1:
@@ -21,36 +58,45 @@
         # table.board = 'multi'
 
 
-# def deck_loaded(args):
-    # if args.player != me:
-        # return
-    # shuffle(me.Deck, 0, 0)
-    # if not starting_agents():
-        # _extapi.whisper("Automated setup cancelled. You will need to manually set up or reset the game.".format(), ChatColors.Orange)
-        # return
-    # else:
-        # _extapi.notify("{} has selected their starting Agents.".format(me), ChatColors.Blue)
+def deck_loaded(args):
+    if args.player != me:
+        return
+    shuffle(me.Deck, 0, 0)
+    if not arthur_patsy():
+        _extapi.whisper("Automated setup cancelled. You will need to manually set up or reset the game.".format(), ChatColors.Orange)
+        return
+    else:
+        _extapi.notify("{} has selected their starting Arthur and Patsy.".format(me), ChatColors.Blue)
     
-    # if not starting_xfile():
-        # _extapi.whisper("No X-File selected. Please right-click the table to select one.".format(), ChatColors.Orange)
-        # return
-    # else:
-        # _extapi.notify("{} has selected their X-File.".format(me), ChatColors.Green)
-    # drawN(7)
-    # deck_loaded = int(getGlobalVariable("players_loaded"))
-    # deck_loaded += 1
-    # setGlobalVariable("players_loaded", str(deck_loaded))
+    if not starting_stacks():
+        _extapi.whisper("Automated setup cancelled. You will need to manually set up or reset the game.".format(), ChatColors.Orange)
+        return
+    else:
+        _extapi.notify("{} has placed their starting cards.".format(me), ChatColors.Blue)
+    drawN(7)
+    deck_loaded = int(getGlobalVariable("players_loaded"))
+    deck_loaded += 1
+    setGlobalVariable("players_loaded", str(deck_loaded))
 
 
-# def loaded_check(args):
-    # if int(getGlobalVariable("players_loaded")) != len(players):
-        # return
-    # if args.name != "players_loaded":
-        # return
-    # for card in table: 
-        # if card.controller == me:
-            # if card.XFile != "True":
-                # card.isFaceUp = True
+def loaded_check(args):
+    if int(getGlobalVariable("players_loaded")) != len(players):
+        return
+    if args.name != "players_loaded":
+        return
+    pos = my_position()
+    for card in table: 
+        if card.controller == me:
+            if card.position == pos["Arthur"]:
+                card.isFaceUp = True
+            elif card.position == pos["Patsy"]:
+                card.isFaceUp = True
+            else:
+                pass
+            if me.isInverted:
+                card.highlight = "#ffff00"
+            else:
+                card.highlight = "#0000ff"
     # complete_setup()
         
 
@@ -62,78 +108,53 @@
     # setPhase(1)
 
 
-# def starting_agents(*args):
-    # mute()
-    # rp = 0
-    # pos = []
-    # agents = [c for c in me.Deck if c.Type == "Agent"]
-    
-    # starting_agents = False
-    # cards = []
-    
-    # while not starting_agents:
-    
-        # dlg = cardDlg(agents)
-        # dlg.max = 999
-        # dlg.title = "Choose your starting Agents."
-        # dlg.text = "Select a Card"
-        # cards = dlg.show()
-        
-        # if cards == None:
-            # if confirm("Do you want to skip choosing your starting agents?"):
-                # return False
-        
-        # elif cards != None:
-            # for card in cards:
-                # rp += int(card.Cost.split()[0])
-            # if rp > 20:
-                # whisper("Starting Agents must have a total RP cost of 20 or less.")
-            # else:
-                # starting_agents = True      
-  
-    # if me.isInverted:
-        # pos = P2_POSITIONS
-    # else:
-        # pos = P1_POSITIONS
-    
-    # x = pos["agent"]["x"]
-    # y = pos["agent"]["y"]
-    
-    # for card in cards:
-        # card.moveToTable(x, y, True)
-        # x += pos["agent_mod"]
+def arthur_patsy(*args):
+    mute()
+    arthurs = [c for c in me.Deck if "arthur" in c.setuptags]
+    patsys = [c for c in me.Deck if "patsy" in c.setuptags]
 
-    # shuffle(me.Deck, 0, 0)        
-    # return True
+    if not starting_card(arthurs, "Arthur"):
+        return False
+    if not starting_card(patsys, "Patsy"):
+        return False
+    return True
                 
 
-# def starting_xfile(*args):
-    # mute()
-    # if me.isInverted:
-        # x = P2_POSITIONS["xfile"]["x"]
-        # y = P2_POSITIONS["xfile"]["y"]
-    # else:
-        # x = P1_POSITIONS["xfile"]["x"]
-        # y = P1_POSITIONS["xfile"]["y"]
-    # xfile_picked = False
-    # while not xfile_picked:
-        # card, _ = askCard({"XFile":"True"}, title = "Choose your X-File:")
-        # if card != None:
-            # xfile_picked = True
-            # me.setGlobalVariable("starting_xfile", "1")
-        # elif card == None:
-            # if confirm("Do you want to skip choosing your X-File card?"):
-                # return False
-    # xfile = table.create(card, x, y, quantity = 1, persist = True)
-    # xfile.isFaceUp = False
-    # xfile.peek()
-    # addXfile(xfile, x = 0, y = 0)
-    # return True
+def starting_card(list, kind):
+    dlg = cardDlg(list)
+    dlg.max = 1
+    dlg.min = 1
+    dlg.title = "Choose your {}.".format(kind)
+    dlg.text = "Select a Card"
+    cards = dlg.show()
     
+    if cards == None:
+        if confirm("Do you want to skip choosing your {}?".format(kind)):
+            return False
     
-# def no_starting_xfile(*args):
-    # if me.getGlobalVariable("starting_xfile") == "0":
-        # return True
-    # else:
-        # return False
+    pos = my_position()  
+    x, y = pos[kind]
     
+    for card in cards:
+        card.moveToTable(x, y, True)
+    return True
+
+
+def starting_stacks():
+    if len(me.Deck) < 14:
+        return False
+    pos = my_position()
+    for n in range(14):
+        x, y = pos["starting_stacks"][n]
+        card = me.Deck.top()
+        card.moveToTable(x, y, True)
+    return True
+        
+
+
+def my_position():
+    if me.isInverted:
+        return P2_POSITIONS
+    else:
+       return P1_POSITIONS
+

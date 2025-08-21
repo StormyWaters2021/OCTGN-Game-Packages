@@ -247,33 +247,77 @@ def createDown(group, x, y):
 # ~~~~~ MARKERS ~~~~~ #   
 # ~~~~~~~~~~~~~~~~~~~ #
     
-# def addMarker(card, marker):
-   # mute()
-   # card.markers[marker] += 1
+def addMarker(card, marker):
+   mute()
+   card.markers[marker] += 1
 
 
-# def remMarker(card, marker):
-   # mute()
-   # if card.markers[marker] < 1:
-        # return False
-   # card.markers[marker] -= 1
-   # return True
+def remMarker(card, marker):
+   mute()
+   if card.markers[marker] < 1:
+        return False
+   card.markers[marker] -= 1
+   return True
    
     
-# def addDamage(card, x = 0, y = 0):
-   # mute()
-   # marker = ("Damage", "dam_marker")
-   # addMarker(card, marker)
-   # notify("{} adds a damage marker to {}.".format(me, card))
+def plusCombat(card, x = 0, y = 0):
+   mute()
+   marker = ("+ Combat", "pluscombat")
+   addMarker(card, marker)
+   notify("{} adds a + Combat marker to {}.".format(me, card))
    
    
-# def remDamage(card, x = 0, y = 0):
-   # mute()
-   # marker = ("Damage", "dam_marker")
-   # check = remMarker(card, marker)
-   # if check: notify("{} removes a damage marker from {}.".format(me, card))
-   # else: notify("{} has no damage markers to remove.".format(card))
+def remPlusCombat(card, x = 0, y = 0):
+   mute()
+   marker = ("+ Combat", "pluscombat")
+   check = remMarker(card, marker)
+   if check: notify("{} removes a + Combat marker from {}.".format(me, card))
+   else: notify("{} has no + Combat markers to remove.".format(card))
+
+
+def minusCombat(card, x = 0, y = 0):
+   mute()
+   marker = ("- Combat", "minuscombat")
+   addMarker(card, marker)
+   notify("{} adds a - Combat marker to {}.".format(me, card))
    
+   
+def remMinusCombat(card, x = 0, y = 0):
+   mute()
+   marker = ("- Combat", "minuscombat")
+   check = remMarker(card, marker)
+   if check: notify("{} removes a - Combat marker from {}.".format(me, card))
+   else: notify("{} has no - Combat markers to remove.".format(card))   
+   
+
+def plusWits(card, x = 0, y = 0):
+   mute()
+   marker = ("+ Wits", "pluswits")
+   addMarker(card, marker)
+   notify("{} adds a + Wits marker to {}.".format(me, card))
+   
+   
+def remPlusWits(card, x = 0, y = 0):
+   mute()
+   marker = ("+ Wits", "pluswits")
+   check = remMarker(card, marker)
+   if check: notify("{} removes a + Wits marker from {}.".format(me, card))
+   else: notify("{} has no + Wits markers to remove.".format(card))
+
+
+def minusWits(card, x = 0, y = 0):
+   mute()
+   marker = ("- Wits", "minuswits")
+   addMarker(card, marker)
+   notify("{} adds a - Wits marker to {}.".format(me, card))
+   
+   
+def remMinusWits(card, x = 0, y = 0):
+   mute()
+   marker = ("- Wits", "minuswits")
+   check = remMarker(card, marker)
+   if check: notify("{} removes a - Wits marker from {}.".format(me, card))
+   else: notify("{} has no - Wits markers to remove.".format(card))   
    
 # ~~~~~~~~~~~~~~~~~~ #
 # ~~~~~ RANDOM ~~~~~ #   
@@ -334,3 +378,33 @@ def white(card, x = 0, y = 0):
 def clear(card, x = 0, y = 0):
     mute()
     card.highlight = None
+    
+
+# ~~~~~~~~~~~~~~~~~ #
+# ~~~~~ PAWNS ~~~~~ #   
+# ~~~~~~~~~~~~~~~~~ #
+
+BLUEPAWN = "038274fc-b9b7-418b-9bff-9ec495471a78"
+GREENPAWN = "42096792-a189-4f0d-beb8-0ff69748c04a"
+ORANGEPAWN = "ac71af19-acf8-48d9-8716-4ed1a8635eab"
+PINKPAWN = "e0c662d3-d076-47f9-8a5c-dd05238b8991"
+
+def bluepawn(group, x=0, y=0):
+    card = table.create(BLUEPAWN,x,y, persist = True)
+    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
+    notify("{} creates a blue pawn.".format(me))
+    
+def greenpawn(group, x=0, y=0):
+    card = table.create(GREENPAWN,x,y, persist = True)
+    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
+    notify("{} creates a green pawn.".format(me))
+    
+def orangepawn(group, x=0, y=0):
+    card = table.create(ORANGEPAWN,x,y, persist = True)
+    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
+    notify("{} creates a orange pawn.".format(me))
+    
+def pinkpawn(group, x=0, y=0):
+    card = table.create(PINKPAWN,x,y, persist = True)
+    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
+    notify("{} creates a pink pawn.".format(me))
