@@ -42,7 +42,7 @@
 	<!-- <event name="OnGameStarted" action="game_started"/> -->
   </events>
   
-<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="46" height="63" cornerRadius="2" backCornerRadius="5">
+<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="60" height="82" cornerRadius="3" backCornerRadius="5">
 	<property name="Card Number" type="String" hidden="True"/>
     <property name="Card Text" type="String" hidden="False"/>
     <property name="Alternative Text" type="String" hidden="False"/>
@@ -78,6 +78,8 @@
 	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
 	<!-- # ~~ DEBUG ~~ # -->
 	
+	<cardaction menu="Tap / Untap" default="True" execute="tap_untap"/>
+	<cardseparator />
 	<cardaction menu="Rotate Right" default="False" shortcut="Right" execute="rotate_right"/>
 	<cardaction menu="Rotate Left" default="False" shortcut= "Left" execute="rotate_left"/>
 	<cardaction menu="Flip Card Over" shortcut="Ctrl+F" execute="flipCard" />
@@ -130,10 +132,16 @@
 	</groupactions>
 	
 	<groupactions menu="Create a Pawn">
-		<groupaction menu="Blue" default="False" execute="bluepawn" />
-		<groupaction menu="Green" default="False" execute="greenpawn" />
+		<groupaction menu="Red" default="False" execute="redpawn" />
 		<groupaction menu="Orange" default="False" execute="orangepawn" />
+		<groupaction menu="Yellow" default="False" execute="yellowpawn" />
+		<groupaction menu="Green" default="False" execute="greenpawn" />
+		<groupaction menu="Blue" default="False" execute="bluepawn" />
+		<groupaction menu="Purple" default="False" execute="purplepawn" />
 		<groupaction menu="Pink" default="False" execute="pinkpawn" />
+		<groupaction menu="Rainbow" default="False" execute="rainbowpawn" />
+		<groupaction menu="Black" default="False" execute="blackpawn" />
+		<groupaction menu="Grey" default="False" execute="greypawn" />
 	</groupactions>
 	
 	<groupactions menu="Take Opponent's Cards"> 
@@ -141,7 +149,7 @@
 		<groupaction menu="Add a Face-Down Card" execute="createDown" />
 	</groupactions>
 	
-		<groupaction menu="Random Card from Dead Cards" execute="random_dead" />
+		<groupaction menu="Random Card from Dead Carts" execute="random_dead" />
 	
 	
 </table>
@@ -171,8 +179,9 @@
 		<groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle"/>
 	</group>
 	
-	<group name="Dead Cards" visibility="all" ordered="False" viewState="pile" icon="Images/discard.png">
-		<cardaction menu="Shuffle Into Deck" execute="shuffle_into_deck" />
+	<group name="Dead Cart" visibility="all" ordered="False" viewState="pile" icon="Images/discard.png">
+		<cardaction menu="Shuffle Card Into Deck" execute="shuffle_into_deck" />
+		<groupaction menu="Shuffle Entire Dead Cart Into Deck" execute="shuffle_all_into_deck"/>
 	</group>
 	
 	<group name="Eliminated" visibility="me" ordered="False" viewState="collapsed" icon="Images/rfg.png" />

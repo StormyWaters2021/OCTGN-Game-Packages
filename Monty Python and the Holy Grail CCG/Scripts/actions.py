@@ -19,8 +19,16 @@ def shuffle_into_deck(card, x=0, y=0):
     card.moveTo(me.Deck)
     shuffle(me.Deck)
     _extapi.notify("{} shuffles {} into their deck.".format(me, card), ChatColors.Black)
-    
 
+
+def shuffle_all_into_deck(group, x=0, y=0):
+    mute()
+    for card in group:
+        card.moveTo(me.Deck)
+    shuffle(me.Deck)
+    _extapi.notify("{} shuffles all the cards in {} into their deck.".format(me, group.name), ChatColors.Black)
+  
+  
 def draw(group, x=0, y=0):
     mute()
     if len(group) < 1:
@@ -40,7 +48,7 @@ def drawN(number):
 
 def discard(card, x = 0, y = 0):
     mute()
-    card.moveTo(me.piles["Dead Cards"])
+    card.moveTo(me.piles["Dead Cart"])
     _extapi.notify("{} discards {}.".format(me, card), ChatColors.Red)
 
 
@@ -83,20 +91,30 @@ def flipCard(card, x = 0, y = 0):
     card.moveToTable(x, y)
 
 
+def rotate_card(card, rot):
+    if card.controller == me:
+        card.orientation = rot
+
+
+def tap_untap(card, x = 0, y = 0):
+    mute()
+    if card.orientation == 0:
+        card.orientation = 1
+    else: card.orientation = 0
+    
+
 def rotate_right(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
     mute()
     if card.controller == me:
-        card.orientation = (card.orientation + 1) % 4
-        notify("{} rotates {}.".format(me, card.Name))
+        rotate_card(card, (card.orientation + 1) % 4)
 
 
 def rotate_left(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3
     mute()
     if card.controller == me:
-        card.orientation = (card.orientation - 1) % 4
-        notify("{} rotates {}.".format(me, card.Name))
+        rotate_card(card, (card.orientation - 1) % 4)
 
 
 def fix_rotation(args):
@@ -119,14 +137,14 @@ def random_dead(group, x=0, y=0):
     if not players: return
 
     # askChoice returns 1-based index (0 = cancel)
-    idx = askChoice("Which player's Dead Cards do you want to take from?",
+    idx = askChoice("Which player's Dead Cart do you want to take from?",
                     [p.name for p in players])
     if idx < 1: 
         return
 
     target = players[idx - 1]
     if target == me:
-        c = _random_card_from_pile(me.piles['Dead Cards'])
+        c = _random_card_from_pile(me.piles['Dead Cart'])
         if c: c.moveTo(me.hand)
     else:
         # Ask the chosen opponent to give a random card from *their* Dead Pile to me
@@ -144,12 +162,12 @@ def _random_card_from_pile(pile):
 
 def giveRandomFromDeadTo(requesterPid):
     requester = Player(requesterPid)
-    c = _random_card_from_pile(me.piles['Dead Cards'])
+    c = _random_card_from_pile(me.piles['Dead Cart'])
     if not c: 
         return
     c.moveToTable(0, 0)
     c.controller = requester
-    notify("{} takes a random card from {}'s Dead Cards.".format(requester, me))
+    notify("{} takes a random card from {}'s Dead Cart.".format(requester, me))
     remoteCall(requester, "grab_passed_card", [c])
 
 
@@ -384,27 +402,53 @@ def clear(card, x = 0, y = 0):
 # ~~~~~ PAWNS ~~~~~ #   
 # ~~~~~~~~~~~~~~~~~ #
 
-BLUEPAWN = "038274fc-b9b7-418b-9bff-9ec495471a78"
-GREENPAWN = "42096792-a189-4f0d-beb8-0ff69748c04a"
-ORANGEPAWN = "ac71af19-acf8-48d9-8716-4ed1a8635eab"
-PINKPAWN = "e0c662d3-d076-47f9-8a5c-dd05238b8991"
+PAWNS = {
+"red": "27c8f09c-5fbe-4ae4-9c5c-9784c8ad99af",
+"orange": "ac71af19-acf8-48d9-8716-4ed1a8635eab",
+"yellow": "caa4df3c-caad-4de1-8a01-c5a746a34ccb",
+"green": "42096792-a189-4f0d-beb8-0ff69748c04a",
+"blue": "038274fc-b9b7-418b-9bff-9ec495471a78",
+"purple": "b81cb8bd-e0e0-47e5-9845-570cf25c101c",
+"pink": "e0c662d3-d076-47f9-8a5c-dd05238b8991",
+"rainbow": "fa30c6a3-0045-4d50-bedd-2788e446eea6",
+"black": "a6c3682e-e9ed-40cf-b658-0e26a4d25c9c",
+"grey": "b312e61c-8df4-49f3-a6cb-5880ec93abcb",
+}
+
+def create_pawn(color, x = 0, y = 0):
+    mute()
+    card = table.create(PAWNS[color], x, y, persist = True)
+    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
+    card.highlight = "#ffffff"
+    notify("{} creates a {} pawn.".format(me, color))
+
+
+def redpawn(group, x=0, y=0):
+    create_pawn("red", x, y)
+
+def orangepawn(group, x=0, y=0):
+    create_pawn("orange", x, y)
+
+def yellowpawn(group, x=0, y=0):
+    create_pawn("yellow", x, y)
+
+def greenpawn(group, x=0, y=0):
+    create_pawn("green", x, y)
 
 def bluepawn(group, x=0, y=0):
-    card = table.create(BLUEPAWN,x,y, persist = True)
-    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
-    notify("{} creates a blue pawn.".format(me))
+    create_pawn("blue", x, y)
     
-def greenpawn(group, x=0, y=0):
-    card = table.create(GREENPAWN,x,y, persist = True)
-    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
-    notify("{} creates a green pawn.".format(me))
-    
-def orangepawn(group, x=0, y=0):
-    card = table.create(ORANGEPAWN,x,y, persist = True)
-    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
-    notify("{} creates a orange pawn.".format(me))
-    
+def purplepawn(group, x=0, y=0):
+    create_pawn("purple", x, y)
+
 def pinkpawn(group, x=0, y=0):
-    card = table.create(PINKPAWN,x,y, persist = True)
-    card.properties["Card Type"] = "{}'s Pawn".format(me.name)
-    notify("{} creates a pink pawn.".format(me))
+    create_pawn("pink", x, y)
+  
+def rainbowpawn(group, x=0, y=0):
+    create_pawn("rainbow", x, y)
+    
+def blackpawn(group, x=0, y=0):
+    create_pawn("black", x, y)
+    
+def greypawn(group, x=0, y=0):
+    create_pawn("grey", x, y)
