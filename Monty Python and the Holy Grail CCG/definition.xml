@@ -146,10 +146,9 @@
 	
 	<groupactions menu="Take Opponent's Cards"> 
 		<groupaction menu="Draw from Opponent's Deck" execute="opp_draw" />
-		<groupaction menu="Add a Face-Down Card" execute="createDown" />
 	</groupactions>
 	
-		<groupaction menu="Random Card from Dead Carts" execute="random_dead" />
+	<groupaction menu="Random Card from Dead Carts" execute="random_dead" />
 	
 	
 </table>
@@ -163,10 +162,12 @@
 		<cardaction menu="Discard" shortcut="DEL" execute="discard" />
 		<cardaction menu="Eliminate" execute="remove_from_game" />
 		<cardseparator />
-		<groupaction menu="Discard Random Card" execute="random_discard" />
-		<groupaction menu="Reveal Hand" execute="reveal_hand" />
 		
+		<groupaction menu="Reveal Hand to Opponent" execute="reveal_hand" />
+		<groupseparator />
 		<groupaction menu="Create a Card" execute="create_in_pile" />
+		<groupseparator />
+		<groupaction menu="Discard Random Card" execute="random_discard" />
 		
 	</group>
 	

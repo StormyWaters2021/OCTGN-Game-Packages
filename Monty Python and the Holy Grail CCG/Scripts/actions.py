@@ -1,4 +1,7 @@
 SIDEWAYS = ["Castle", "Event", "Land", "Taunt", "Village",]
+REVEAL_DESTINATION_LIST = ["Dead Cart", "In My Hand", "Eliminated", ]
+REVEAL_COLOR_LIST = ['#000000', '#000000', '#000000', ]
+
 
 # ~~~~~~~~~~~~~~~~~~~~~~ #
 # ~~~~~ MOVE CARDS ~~~~~ #   
@@ -133,6 +136,7 @@ def fix_rotation(args):
 
 
 def random_dead(group, x=0, y=0):
+    mute()
     players = getPlayers()
     if not players: return
 
@@ -148,10 +152,11 @@ def random_dead(group, x=0, y=0):
         if c: c.moveTo(me.hand)
     else:
         # Ask the chosen opponent to give a random card from *their* Dead Pile to me
-        remoteCall(target, 'giveRandomFromDeadTo', [me._id])
+        remoteCall(target, '_giveRandomFromDeadTo', [me])
 
 
 def _random_card_from_pile(pile):
+    mute()
     cards = [c for c in pile]
     if not cards:
         whisper("That pile is empty.")
@@ -160,15 +165,15 @@ def _random_card_from_pile(pile):
     return card
 
 
-def giveRandomFromDeadTo(requesterPid):
-    requester = Player(requesterPid)
+def _giveRandomFromDeadTo(requester):
+    mute()
     c = _random_card_from_pile(me.piles['Dead Cart'])
     if not c: 
         return
     c.moveToTable(0, 0)
     c.controller = requester
     notify("{} takes a random card from {}'s Dead Cart.".format(requester, me))
-    remoteCall(requester, "grab_passed_card", [c])
+    remoteCall(requester, "_grab_passed_card", [c])
 
 
 def look_at_top(group, player):
@@ -186,11 +191,6 @@ def look_at_top(group, player):
         remoteCall(player, "show_cards", [cards])
         
 
-# def show_cards(cards):
-    
-        
-    
- 
 # ~~~~~~~~~~~~~~~~~~~~~~ #
 # ~~~~~ OPPO CARDS ~~~~~ #   
 # ~~~~~~~~~~~~~~~~~~~~~~ #
@@ -200,38 +200,63 @@ def opp_draw(group, x=0, y=0):
     if len(players) < 1:
         return
     opp = [p for p in players if p != me]    
-    remoteCall(opp[0], "passFaceDown", [opp[0].Deck.top(), me])
+    remoteCall(opp[0], "_passFaceDown", [opp[0].Deck.top(), me])
 
 
-def passFaceDown(card, opponent):
+def _passFaceDown(card, opponent):
     mute()
     card.moveToTable(0, 0, True)
     card.controller = opponent
-    remoteCall(opponent, "grab_passed_card", [card])
+    remoteCall(opponent, "_grab_passed_card", [card])
     
     
-def grab_passed_card(card):
+def _grab_passed_card(card):
+    mute()
     card.moveTo(me.Hand)
 
 
 def reveal_hand(group, x=0, y=0):
+    mute()
     opps = [p for p in getPlayers() if p != me]
     if not opps or not me.hand: return
 
     opp = opps[0] if len(opps) == 1 else opps[askChoice("Choose opponent:", [p.name for p in opps]) - 1]
     if not opp: return
 
-    remoteCall(opp, 'pickCardToDiscard', [[c for c in me.hand], me])
+    remoteCall(opp, '_pickCardToDiscard', [[c for c in me.hand], me])
 
 
-def pickCardToDiscard(cards, owner):
+def _pickCardToDiscard(cards, owner):
+    mute()
+    destination = 0
+    choice_list = REVEAL_DESTINATION_LIST
+    colors_list = REVEAL_COLOR_LIST
+    
     dlg = cardDlg(cards)
     dlg.title = "Opponent's Hand"
-    dlg.text = "Choose a card for your opponent to discard:"
+    dlg.text = "Choose cards from your opponent's hand:"
+    dlg.max = 9999
     chosen = dlg.show()
-    if chosen:
-        remoteCall(owner, 'discard', [chosen[0]])
-
+    if not chosen:
+        notify("No card chosen, reveal cancelled.")
+        return
+    else:
+        destination = askChoice("Where do you want the card(s) to go?", choice_list, colors_list)
+    if destination == 0:
+        notify("No destination chosen, reveal cancelled.")
+        return
+    elif destination == 1:
+        for card in chosen:
+            remoteCall(owner, 'discard', [card])
+    elif destination == 2:   
+        for card in chosen:
+            remoteCall(owner, "_passFaceDown", [card, me])
+            _extapi.notify("{} puts {} in their hand.".format(me, card), ChatColors.Black)
+    elif destination == 3:
+        for card in chosen:
+            remoteCall(owner, "remove_from_game", [card])
+    else:
+        notify("An error occurred. Please try again.")
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~ #
 # ~~~~~ CREATE CARDS ~~~~~ #   
