@@ -1,92 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
-<!-- AGENT -->
-<!-- FrankieW01-Regular: For the Adversary card name. -->
-<!-- ITC American Typewriter Std Bold Condensed: For the Keywords & Activators -->
-<!-- ITC American Typewriter Std Bold: For the Witness card cost (RPs) -->
-<!-- Typical Writer Thin / Kingthings Trypewriter 2: For the Card effect, Episode's name & Bureau File Number. -->
-<!-- Strangeways Sample / Yank: Can be used for the card quote. -->
-
 <templates>
-    
-	
-	<blocks>
+    <blocks>
              
-        <block type="text" id="agent_title">
+        <block type="text" id="Title">
           <location x="50" y="30" />
           <text color="#000000" size="24" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="alien">
-          <location x="400" y="35" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="behavioral">
-          <location x="400" y="60" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="criminal">
-          <location x="400" y="80" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="evidence">
-          <location x="400" y="100" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="observation">
-          <location x="400" y="125" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="occult">
-          <location x="400" y="145" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="sciences">
-          <location x="400" y="170" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="subterfuge">
-          <location x="400" y="190" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="lrc">
-          <location x="400" y="210" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="crc">
-          <location x="400" y="235" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="health">
-          <location x="400" y="255" />
-          <text color="#000000" size="18" />
-          <wordwrap height="60" width="485" shrinktofit="True" />
-        </block>
-		
-		<block type="text" id="res">
-          <location x="400" y="280" />
-          <text color="#000000" size="18" />
+          <border color="#000000" size="1" />
           <wordwrap height="60" width="485" shrinktofit="True" />
         </block>
  
