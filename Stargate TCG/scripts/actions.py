@@ -107,6 +107,11 @@ def addPromotion(card, x = 0, y = 0):
 ##
 ######################################################
 
+def get_my_position():
+    if me.isInverted:
+        return P2_POS
+    else:
+        return P1_POS
 
 def debugToggle(group, x = 0, y = 0):
     mute()

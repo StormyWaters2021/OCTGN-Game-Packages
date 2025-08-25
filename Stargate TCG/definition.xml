@@ -9,8 +9,9 @@
   <scripts>
     <script src="scripts/actions.py" />
 	<script src="scripts/automation.py" />
-    <!-- <script src="scripts/scripts.py" /> -->
-    <!-- <script src="scripts/queueClass.py" /> -->
+    <script src="scripts/setup.py" />
+    <script src="scripts/variables.py" />
+	<script src="scripts/debug.py" />
   </scripts>
   <events>
     <event name="OnDeckLoaded" action="registerTeam" />
@@ -23,6 +24,7 @@
         <document name="Stargate TCG Rulebook" icon="groups/removed.png" src="assets/Stargate_Rulebook.pdf" />
     </documents> 
   <globalvariables> 
+	<globalvariable name="players_loaded" value="0" /> 
   </globalvariables>
   <symbols>
 	<symbol name="Science" id="sci" src="assets/science.png" />
@@ -87,10 +89,15 @@
     <property name="Number" type="Integer"/>
 	<size name="mission" back="cards/back.jpg" front="cards/front.jpg" width="88" backWidth="63" height="63" backHeight="88" cornerRadius="3" backCornerRadius="3" />
   </card>
-  <gameboards src="board/playmat.png" x="-485" y="-147" width="971" height="362">
+  <gameboards src="board/playmat.png" x="-640" y="-360" width="1280" height="720">
     <gameboard name="invert" src="board/playmat2.png" x="-485" y="-215" width="971" height="462"/>
   </gameboards>
-  <table name="Table" visibility="undefined" width="971" height="362" background="board/wallpaper.jpg" backgroundStyle="uniformToFill" >
+  <table name="Table" visibility="undefined" width="1280" height="720" background="board/wallpaper.jpg" backgroundStyle="uniformToFill" >
+  
+	<!-- # ~~ DEBUG ~~ # -->
+	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
+	<!-- # ~~ DEBUG ~~ # -->
+  
     <groupaction menu="Pass" shortcut="tab" execute="passTurn" />
 	<cardaction menu="Stop" default="True" execute="stop" />
 	<cardaction menu="Assign" shortcut="ctrl+a" execute="assign" />

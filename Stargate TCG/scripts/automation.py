@@ -84,3 +84,4 @@ def registerTeam(args = None):
         #### Store the loaded card IDs
         me.Deck.shuffle()
         me.piles["Mission Pile"].shuffle()
+    pull_team()
