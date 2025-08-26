@@ -72,6 +72,15 @@ def draw(group, x = 0, y = 0):
     mute()
     group[0].moveTo(me.hand)
     notify("{} draws a card.".format(me))
+
+
+def drawN(number):
+    mute()
+    for _ in range(number):
+        card = me.Deck.top()
+        card.moveTo(me.hand)
+    notify("{} draws {} cards.".format(me, number))
+    
     
 def discardX(group, x = 0, y = 0):
     if len(group) == 0:

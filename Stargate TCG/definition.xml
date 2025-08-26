@@ -14,7 +14,7 @@
 	<script src="scripts/debug.py" />
   </scripts>
   <events>
-    <event name="OnDeckLoaded" action="registerTeam" />
+    <event name="OnDeckLoaded" action="game_setup" />
     <event name="OverrideCardsMoved" action="overrideCardsMoved" />
 	<event name="OnTurnPassed" action="turnPassed" />
   </events>
@@ -110,7 +110,10 @@
     <cardaction menu="Add a Promotion Counter" shortcut="ctrl+1" execute="addPromotion" />
   </table>
   <player summary="/ PWR:{#Power} / GLY:{#Glyph Win} / EXP:{#Experience Win} / VIL:{#Villain Win}">
-    <counter name="Power" icon="counters/mp.png" />
+    
+	<globalvariable name="victory_points" value="0" /> 
+	
+	<counter name="Power" icon="counters/mp.png" />
     <counter name="Glyph Win" icon="groups/mission.png" />
     <counter name="Experience Win" icon="counters/exp.png" />
     <counter name="Villain Win" icon="counters/ewin.png" />
@@ -120,7 +123,7 @@
     <group name="Deck" visibility="none" width="63" height="88" moveto="False" icon="groups/library.png">
 	  <groupaction menu="Draw" shortcut="ctrl+d" default="True" execute="draw" />
 	  <groupaction menu="Shuffle" shortcut="ctrl+s" execute="shuffle" />
-		<groupaction menu="Discard X" shortcut="ctrl+x" execute="discardX" />
+	  <groupaction menu="Discard X" shortcut="ctrl+x" execute="discardX" />
    </group>
     <group name="Discard" visibility="all" width="63" height="88" moveto="False" icon="groups/graveyard.png" >
 	</group>

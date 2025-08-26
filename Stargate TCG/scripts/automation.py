@@ -29,8 +29,6 @@ def overrideCardsMoved(args):
 
 def registerTeam(args = None):
     mute()
-    if args != None and args.player != me:  #only execute this event if its your own deck
-        return
     #### Verify deck contents
     validDeck = True
     whisper("~~~VALIDATING DECKS~~~")
@@ -84,4 +82,4 @@ def registerTeam(args = None):
         #### Store the loaded card IDs
         me.Deck.shuffle()
         me.piles["Mission Pile"].shuffle()
-    pull_team()
+    return validDeck
