@@ -1,5 +1,6 @@
 def game_setup(args = None):
     mute()
+    whisper("ID: {}".format(me._id))
     if args != None and args.player != me:  #only execute this event if its your own deck
         return    
     if not registerTeam():
@@ -27,20 +28,21 @@ def pull_team():
         card.moveToTable(x, y, False)
         x += (73 * pos["invert_mod"])
     setGlobalVariable("players_loaded", str(n+1))
-  
-  
+
+
 def set_victory(check, victory = 0):
     mute()
+    tyler = tyler_check(table)
     if check == 0:
         for card in table:
             if card.controller == me:
                 victory += int(card.Cost)
+        if tyler: 
+            victory = int(victory / 2)
         player = [p for p in players if p != me][0]
-        whisper("Player: {}, Victory: {}".format(player, victory))
         remoteCall(player, "set_victory", [1, victory])
     elif check == 1:
         me.counters['Experience Win'].value = victory
-        whisper("Victory total set to {}.".format(victory))
     else:
         return
     
@@ -48,12 +50,15 @@ def set_victory(check, victory = 0):
 def complete_setup():
     mute()
     first = determine_first()
-    if first == me:
+    opp = [p for p in players if p != me][0]
+    if first != me:
         setup_stop_char()
+        setPhase(1)
     else:
-        remoteCall(first, "setup_stop_char", [])
+        remoteCall(opp, "setup_stop_char", [])
+        remoteCall(opp, "setPhase", [1])
     drawN(8)
-    remoteCall([p for p in players if p != me][0], "drawN", [8])
+    remoteCall(opp, "drawN", [8])
     
     
 def determine_first():
@@ -67,16 +72,14 @@ def determine_first():
         else:
             opp += int(card.Cost)
     if host > opp:
-        setActivePlayer(me)
         winner = me
     elif opp > host:
-        setActivePlayer(opponent)
         winner = opponent
     else:
         n = rnd(0, 1)
-        setActivePlayer(players[n])
         winner = players[n]
     notify("{} will be the first player.".format(winner))
+    setActivePlayer(winner)
     return winner
     
     

@@ -10,6 +10,7 @@ def assign(card, x = 0, y = 0):
     else:
         notify("{} assigns {} to the mission.".format(me, card))
 
+
 def ready(card, x = 0, y = 0):
     mute()
     if card.filter != None:
@@ -20,6 +21,7 @@ def ready(card, x = 0, y = 0):
             card.orientation = Rot0
         notify("{} readies {}.".format(me, card))
 
+
 def block(card, x = 0, y = 0):
     mute()
     if card.filter == None:
@@ -29,6 +31,7 @@ def block(card, x = 0, y = 0):
         card.filter = None
         whisper("{} unblocks {} from the mission.".format(me, card))
 
+
 def stop(card, x = 0, y = 0):
     mute()
     if card.orientation != Rot90:
@@ -37,6 +40,7 @@ def stop(card, x = 0, y = 0):
     else:
         card.orientation = Rot0
         whisper("{} readies {}.".format(me, card))
+
 
 def incapacitate(card, x = 0, y = 0):
     mute()
@@ -49,6 +53,7 @@ def incapacitate(card, x = 0, y = 0):
         card.isFaceUp = True
         whisper("{} removes incapacitation from {}.".format(me, card))
 
+
 def destroy(card, x = 0, y = 0):
     mute()
     src = card.group
@@ -57,6 +62,7 @@ def destroy(card, x = 0, y = 0):
         notify("{} destroys {}.".format(me, card))
     else:
         notify("{} discards {} from their {}.".format(me, card, src.name))
+
 
 def flip(card, x = 0, y = 0):
     mute()
@@ -67,10 +73,12 @@ def flip(card, x = 0, y = 0):
         card.isFaceUp = True
         notify("{} flips {} face up.".format(me, card))
 
+
 def draw(group, x = 0, y = 0):
     if len(group) == 0: return
     mute()
     group[0].moveTo(me.hand)
+    _sort_hand()
     notify("{} draws a card.".format(me))
 
 
@@ -79,9 +87,10 @@ def drawN(number):
     for _ in range(number):
         card = me.Deck.top()
         card.moveTo(me.hand)
+    _sort_hand()
     notify("{} draws {} cards.".format(me, number))
-    
-    
+
+
 def discardX(group, x = 0, y = 0):
     if len(group) == 0:
         return
@@ -93,17 +102,28 @@ def discardX(group, x = 0, y = 0):
         card.moveTo(card.owner.Discard)
     notify("{} discards {} cards from {} (top).".format(me, count, group.name))
 
+
+def playFaceDown(card, x=0, y=0):
+    mute()
+    pos = get_my_position()
+    x, y = pos["complication"]
+    card.moveToTable(x, y, True)
+    card.peek()
+    
+    
 def shuffle(group, x = 0, y = 0):
     if len(group) > 0:
         group.shuffle()
+
 
 def activateAbility(card, x = 0, y = 0):
     mute()
     notify("{} activates {}'s ability.".format(me, card))
 
-def passTurn(group, x = 0, y = 0):
-    mute()
-    notify("{} passes.".format(me))
+
+def nextPhase(*args):
+    phase_process()
+    
     
 def addPromotion(card, x = 0, y = 0):
     mute()
@@ -143,20 +163,21 @@ def isDebug():
         DebugMode = getSetting("debugMode", False)
     return DebugMode
 
+
 def turnPassed(args):
     mute()
-    if me.isActive:
-        if me.isInverted:
-            table.board = "invert"
-        else:
-            table.board = ""
-        for c in table:
-            if c.controller == me:
-                if not c.isFaceUp and c.orientation == Rot90:
-                    c.isFaceUp = True
-                elif c.orientation == Rot90:
-                    c.orientation = Rot0
-                elif c.filter != None:
-                    c.filter = None
+    # if me.isActive:
+        # if me.isInverted:
+            # table.board = "invert"
+        # else:
+            # table.board = ""
+        # for c in table:
+            # if c.controller == me:
+                # if not c.isFaceUp and c.orientation == Rot90:
+                    # c.isFaceUp = True
+                # elif c.orientation == Rot90:
+                    # c.orientation = Rot0
+                # elif c.filter != None:
+                    # c.filter = None
 
 

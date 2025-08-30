@@ -31,8 +31,11 @@ def registerTeam(args = None):
     mute()
     #### Verify deck contents
     validDeck = True
+    maxteam = 4
     whisper("~~~VALIDATING DECKS~~~")
-    if len(me.Team) != 4:
+    if tyler_check(me.Team):
+        maxteam = 5
+    if len(me.Team) != maxteam:
         whisper("Team Error: You need exactly 4 Team Characters. ({} of 4)".format(len(me.Team)))
         validDeck = False
     deckCount = {}
@@ -83,3 +86,53 @@ def registerTeam(args = None):
         me.Deck.shuffle()
         me.piles["Mission Pile"].shuffle()
     return validDeck
+
+
+def tyler_check(group):
+    tyler = False
+    for card in group:
+        if card.controller == me:
+            if card.model == TYLER:
+                tyler = True
+    return tyler
+
+
+def toggle_sort(*args):
+    if me.getGlobalVariable("sort_hand") == "True":
+        me.setGlobalVariable("sort_hand", "False")
+        whisper("Hand sorting disabled.")
+    else:
+        me.setGlobalVariable("sort_hand", "True")
+        whisper("Hand sorting enabled.")
+
+
+def show_if_host(*args):
+    if me._id == 1:
+        return True
+    else:
+        return False
+
+
+def toggle_phase(*args):
+    if getGlobalVariable("phase_actions") == "True":
+        setGlobalVariable("phase_actions", "False")
+        whisper("Phase actions disabled.")
+    else:
+        setGlobalVariable("phase_actions", "True")
+        whisper("Phase actions enabled.")
+        
+        
+def _sort_hand(args = None):
+    if me.getGlobalVariable("sort_hand") != "True":
+        return
+    hand = list(me.Hand) # Freeze current order so we can do a stable regroup
+    heroes   = [c for c in hand if c.Allegiance == "Hero"]
+    villains = [c for c in hand if c.Allegiance == "Villain"]
+    others   = [c for c in hand if c.Allegiance not in ("Hero", "Villain")]
+    desired = others + villains + heroes
+
+    for i, card in enumerate(desired):
+        card.moveTo(me.Hand, i)
+
+
+            

@@ -10,7 +10,6 @@ def nextPhase(*args):
     else:
         setPhase(phase+1)
         phase_name = currentPhase()[0]
-        notify("{} advances to the {}.".format(me, phase_name))
 
 
 def phase_check(number):
