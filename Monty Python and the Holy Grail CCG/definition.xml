@@ -97,14 +97,15 @@
 		<cardaction menu="Remove - Combat" default="False" execute="remMinusCombat" />
 	</cardactions>
 	
-	<cardseparator />
 	<cardactions menu="Wits Markers">
 		<cardaction menu="Grant + Wits" default="False" execute="plusWits" />
 		<cardaction menu="Remove + Wits" default="False" execute="remPlusWits" />
 		<cardaction menu="Grant - Wits" default="False" execute="minusWits" />
 		<cardaction menu="Remove - Wits" default="False" execute="remMinusWits" />
 	</cardactions>
-	 
+	
+	<cardaction menu="Add Custom Marker" default="False" execute="custom_marker" />
+	
 	<cardseparator />
 	<cardactions menu="Highlight">
 		<cardaction menu="Red" default="False" shortcut="F1" execute="red" />
@@ -143,6 +144,9 @@
 		<groupaction menu="Black" default="False" execute="blackpawn" />
 		<groupaction menu="Grey" default="False" execute="greypawn" />
 	</groupactions>
+	<groupaction menu="Create A NEWT?!" default="False" execute="create_newt" />
+	<groupaction menu="Searched!" default="False" execute="create_searched" />
+	
 	
 	<groupactions menu="Take Opponent's Cards"> 
 		<groupaction menu="Draw from Opponent's Deck" execute="opp_draw" />

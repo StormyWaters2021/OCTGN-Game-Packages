@@ -28,7 +28,7 @@
   <globalvariables> 
 	<globalvariable name="players_loaded" value="0" /> 
 	<globalvariable name="phase_actions" value="True" /> 
-	<globalvariable name="phase_notes" value="True" /> 
+	<globalvariable name="phase_notes" value="False" /> 
   </globalvariables>
   <symbols>
 	<symbol name="Science" id="sci" src="assets/science.png" />
@@ -103,7 +103,7 @@
 	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
 	<!-- # ~~ DEBUG ~~ # -->
   
-    <groupaction menu="Next Phase" shortcut="tab" execute="nextPhase" />
+    <groupaction menu="Next Phase" shortcut="f12" execute="nextPhase" />
 	<cardaction menu="Stop" default="True" execute="stop" />
 	<cardaction menu="Assign" shortcut="ctrl+a" execute="assign" />
 	<cardaction menu="Ready" shortcut="ctrl+r" execute="ready" />
@@ -119,6 +119,7 @@
 	<groupactions menu="Automation" >
 		<groupaction menu="Toggle Hand Sorting" execute="toggle_sort" />
 		<groupaction menu="Toggle Phase Actions" showIf="show_if_host" execute="toggle_phase" />
+		<groupaction menu="Toggle Phase Notes" showIf="show_if_host" execute="toggle_notes" />
 	</groupactions>
 	
   

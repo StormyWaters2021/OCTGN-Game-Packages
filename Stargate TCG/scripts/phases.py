@@ -8,16 +8,26 @@ PHASE_NOTES = {
 
 
 def phase_process():
+    global fail_offset
     if getActivePlayer() != me:
         return
     if currentPhase()[1] >= NUMBER_PHASES:
         if len(players) == 1:
             return
         _set_power(0)
+        fail_offset = 0
         players[1].setActive()
         notify("{} passes the turn.".format(me))
+    if currentPhase()[0] == "Mission Phase":
+        mission = confirm("Would you like to start a new mission?")
+        if mission:
+            failed_mission()
+            phase_actions()
+        else:
+            setPhase(currentPhase()[1]+1)
     else:
         setPhase(currentPhase()[1]+1)
+    
         
 
 def _set_power(power):
@@ -28,7 +38,7 @@ def _set_power(power):
         remoteCall(players[1], "_set_power", [power])
 
 
-def phase_actions(args):
+def phase_actions(args = None):
     if getActivePlayer() != me:
         return
     if getGlobalVariable("phase_actions") != "True":
@@ -38,7 +48,6 @@ def phase_actions(args):
         notes = True
         
     phase = currentPhase()[0]
-    whisper("Phase: {}".format(phase))
     if phase == "Power Phase": # gain power
         if notes:
             notify(PHASE_NOTES["Power Phase"])
@@ -56,20 +65,19 @@ def phase_actions(args):
 
 def start_mission_phase(decide = False):
     pos = get_my_position()
-    if decide:
-        x, y = pos["failed_mission"]
-        failed_mission(x, y, pos["invert_mod"])
     x, y = pos["mission"]
     mission = me.piles["Mission Pile"].top()
     mission.moveToTable(x, y, False)
-    mission.anchor = True
     
     
 def failed_mission(x=0, y=0, invert_mod=1):
+    mute()
     global fail_offset
+    pos = get_my_position()
     for card in table:
         if card.controller == me:
             if card.position == pos["mission"]:
-                card.moveToTable(x + (invert_mod * 20), y)
-                card.orientation = 1
+                x, y = pos["failed_mission"]
+                card.moveToTable(x + (pos["invert_mod"] * fail_offset * 20), y)
+                card.orientation = 3
     fail_offset += 1

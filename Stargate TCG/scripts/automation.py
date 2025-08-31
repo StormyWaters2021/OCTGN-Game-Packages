@@ -120,6 +120,15 @@ def toggle_phase(*args):
     else:
         setGlobalVariable("phase_actions", "True")
         whisper("Phase actions enabled.")
+
+
+def toggle_notes(*args):
+    if getGlobalVariable("phase_notes") == "True":
+        setGlobalVariable("phase_notes", "False")
+        whisper("Phase notes disabled.")
+    else:
+        setGlobalVariable("phase_notes", "True")
+        whisper("Phase notes enabled.")
         
         
 def _sort_hand(args = None):

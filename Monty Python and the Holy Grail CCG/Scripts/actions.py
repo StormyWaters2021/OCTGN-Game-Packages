@@ -289,7 +289,13 @@ def createDown(group, x, y):
 # ~~~~~~~~~~~~~~~~~~~ #
 # ~~~~~ MARKERS ~~~~~ #   
 # ~~~~~~~~~~~~~~~~~~~ #
-    
+
+def custom_marker(card, x=0, y=0):
+    marker, qty = askMarker()
+    if qty == 0: return
+    card.markers[marker] += qty
+
+
 def addMarker(card, marker):
    mute()
    card.markers[marker] += 1
@@ -440,14 +446,28 @@ PAWNS = {
 "grey": "b312e61c-8df4-49f3-a6cb-5880ec93abcb",
 }
 
+NEWT = "4261224c-6e22-4619-bed5-d02de9c437ec"
+SEARCHED = "efad4eaa-ea5f-46c3-9908-bf67e7df50a8"
+
 def create_pawn(color, x = 0, y = 0):
     mute()
-    card = table.create(PAWNS[color], x, y, persist = True)
+    card = table.create(PAWNS[color], x, y, persist = False)
     card.properties["Card Type"] = "{}'s Pawn".format(me.name)
     card.highlight = "#ffffff"
     notify("{} creates a {} pawn.".format(me, color))
 
 
+def create_newt(group, x=0, y=0):
+    mute()
+    card = table.create(NEWT, x, y, persist = False)
+    notify("{} creates A NEWT?!".format(me))
+    
+    
+def create_searched(group, x=0, y=0):
+    mute()
+    card = table.create(SEARCHED, x, y, persist = False)
+    
+    
 def redpawn(group, x=0, y=0):
     create_pawn("red", x, y)
 
