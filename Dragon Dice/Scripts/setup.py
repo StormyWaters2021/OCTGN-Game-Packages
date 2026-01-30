@@ -161,20 +161,31 @@ def load_armies():
         for _ in range(0, len(sorted)):
             if len(me.piles[loc]) > 0:
                 die = sorted[die_count]
+
                 if me.isInverted:
-                    die.moveToTable(x + 70 - die.width + (die_shift * offset), y + 60 - die.height)
-                else:
-                    die.moveToTable(x + (die_shift * offset), y)
-                die_shift += die.width + 5
-                die_count += 1
-                if me.isInverted: 
-                    if die.position[0] < coords[loc][2] + 60:
+                    cand_x = x + 70 - die.width + (die_shift * offset)
+                    # Wrap BEFORE placing if the left edge would cross the box edge
+                    if cand_x - (die.width / 2) < coords[loc][2]:
                         die_shift = 10
                         y += 70 * offset
-                elif not me.isInverted:
-                    if die.position[0] > coords[loc][2] - 50:                
+                        cand_x = x + 70 - die.width + (die_shift * offset)
+
+                    die.moveToTable(cand_x, y + 60 - die.height)
+
+                else:
+                    cand_x = x + (die_shift * offset)
+                    # Wrap BEFORE placing if the right edge would cross the box edge
+                    if cand_x + (die.width / 2) > coords[loc][2]:
                         die_shift = 0
                         y += 70 * offset
+                        cand_x = x + (die_shift * offset)
+
+                    die.moveToTable(cand_x, y)
+
+                die_shift += die.width + 5
+                die_count += 1
+
+
         army_count += 1
 
 

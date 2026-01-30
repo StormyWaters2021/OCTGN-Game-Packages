@@ -4,7 +4,7 @@
    name="Dragon Dice (SFR)" 
    id="0000ac4a-0bf6-4c10-8f05-e32e53e57518" 
    octgnVersion="3.1.2.0" 
-   version="1.2.1.5"
+   version="1.2.2.0"
    scriptVersion="3.1.0.2"
    markersize="20"
    setsurl="http://www.dragondice.com"
@@ -23,6 +23,7 @@
 		<script src="Scripts/species.py" />
 		<script src="Scripts/temp.py" />
 		<script src="Scripts/changelog.py" />
+		<script src="Scripts/api_ext.py" />
 	</scripts>
 	<events>
 		<event name="OnGameStarted" action="set_scatter_list"/>
@@ -102,7 +103,7 @@
 
 		<cardaction menu="Roll Die" default="True" batchExecute="roll_dice"/>
 		<cardaction menu="Reset Die to ID" default="False" execute="reset_die"/>
-		<!-- <cardaction menu="Check Position" default="False" execute="check_coord"/> -->
+		<!-- <cardaction menu="Check Position (DEBUG)" default="False" execute="check_coord"/> -->
 
 		<cardseparator/>
 
@@ -133,6 +134,7 @@
 		<cardaction menu="Set My Frontier Terrain" default="False" execute="set_frontier" showIf="terrain_check"/>
 		
 <!-- Group Action List Goes Here -->
+		<!-- <groupaction menu="Place Corner Dice (DEBUG)" default="False" execute="dice_in_corners"/> -->
 		<groupaction menu="Roll for Melee" default="False" execute="melee_roll" showIf="terrain_check_melee" />
 		<groupaction menu="Roll for Missile" default="False" execute="missile_roll" showIf="terrain_check_missile" />
 		<groupaction menu="Roll for Magic" default="False" execute="magic_roll" showIf="terrain_check_magic" />

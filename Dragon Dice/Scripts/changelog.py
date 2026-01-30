@@ -1,8 +1,14 @@
 changelog = {
+    1020200: ("1.2.2.0", "30 January 2026", [ 
+        "Improved roll calculations",
+        "Updated terrain rolling algorithms",
+        "Improved zone-detection code",
+        ]),
     1020105: ("1.2.1.5", "16 April 2024", [ 
         "Added a changelog dialog that displays when a game is started.",
         "Fixed a bug in the roll calculator.",
-        ]),}
+        ]),
+        }
 
 
 def show_changelog():

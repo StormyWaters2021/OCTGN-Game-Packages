@@ -81,7 +81,12 @@ def melee_roll(table, x, y):
         return
     roll_army(location)
     roll_calc = calculate_army(location, MELEE, "Melee")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
 
 
 def missile_roll(table, x, y):
@@ -91,7 +96,12 @@ def missile_roll(table, x, y):
         return
     roll_army(location)
     roll_calc = calculate_army(location, MISSILE, "Missile")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
     
 
 def magic_roll(table, x, y):
@@ -101,7 +111,12 @@ def magic_roll(table, x, y):
         return
     roll_army(location)
     roll_calc = calculate_army(location, MAGIC, "Magic")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
     
     
 def maneuver_roll(table, x, y):
@@ -111,7 +126,12 @@ def maneuver_roll(table, x, y):
         return
     roll_army(location)
     roll_calc = calculate_army(location, MANEUVER, "Maneuver")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
     
     
 def save_roll(table, x, y):
@@ -121,7 +141,12 @@ def save_roll(table, x, y):
         return
     roll_army(location)
     roll_calc = calculate_army(location, SAVE, "Save")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
     
 
 # These functions pass an army and action type to calculate without rolling again
@@ -132,7 +157,12 @@ def melee_calc(table, x, y):
         whisper("You didn't select a valid area. Please try again.")
         return
     roll_calc = calculate_army(location, MELEE, "Melee")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
 
 
 def missile_calc(table, x, y):
@@ -141,7 +171,12 @@ def missile_calc(table, x, y):
         whisper("You didn't select a valid area. Please try again.")
         return
     roll_calc = calculate_army(location, MISSILE, "Missile")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
     
 
 def magic_calc(table, x, y):
@@ -150,7 +185,12 @@ def magic_calc(table, x, y):
         whisper("You didn't select a valid area. Please try again.")
         return
     roll_calc = calculate_army(location, MAGIC, "Magic")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
     
     
 def maneuver_calc(table, x, y):
@@ -159,7 +199,12 @@ def maneuver_calc(table, x, y):
         whisper("You didn't select a valid area. Please try again.")
         return
     roll_calc = calculate_army(location, MANEUVER, "Maneuver")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
     
     
 def save_calc(table, x, y):
@@ -168,7 +213,13 @@ def save_calc(table, x, y):
         whisper("You didn't select a valid area. Please try again.")
         return
     roll_calc = calculate_army(location, SAVE, "Save")
-    notify(roll_calc["final"])
+
+    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
+    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
+    if roll_calc["orange"]:
+        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
+    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
+
 
 
 # These functions figure out which actions are available to us automatically

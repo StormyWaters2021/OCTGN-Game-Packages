@@ -39,14 +39,109 @@ def roll_dice(dice, x=0, y=0):
     update_bank(dice)
     global roll_bank
     global roll_count
+
     for die in dice:
-        if check_terrain(die):
-        # Checks to see if the die is a terrain, and confirms that the player wants to roll it
-        # to prevent players from accidentally rolling terrain if they didn't mean to.
-            num_sides = len(die.alternates)
+        num_sides = len(die.alternates)
+        if num_sides == 0:
+            continue
+
+        # --- MAJOR TERRAIN  ---
+        if die.Type == "Major Terrain":
+            # Confirm if the player wants to roll it
+            if not check_terrain(die):
+                # Player chose "No" – skip this die
+                continue
+
+            alts = [a for a in die.alternates]
+
+            if roll_count >= len(roll_bank[num_sides]):
+                roll_count = 0
+            new_index = roll_bank[num_sides][roll_count]
+            roll_count += 1
+
+            die.alternate = alts[new_index]
+
+            # Read the face number from die.Icons, e.g. "7 Melee", "6 Melee", "8 Standing Stones"
+            icons = getattr(die, "Icons", "")
+            if not icons:
+                # fall back to property lookup if needed
+                try:
+                    icons = die.properties["Icons"]
+                except:
+                    icons = ""
+
+            icons = icons.strip()
+
+            # Roll until not an 8
+            rerolled = False
+            while icons.startswith("8 "):
+                try:
+                    _extapi.notify("{} rolled 8th face, rerolling...".format(die), ChatColors.Orange)
+                except:
+                    pass
+
+                if roll_count >= len(roll_bank[num_sides]):
+                    roll_count = 0
+                new_index = roll_bank[num_sides][roll_count]
+                roll_count += 1
+                die.alternate = alts[new_index]
+
+                icons = getattr(die, "Icons", "")
+                if not icons:
+                    try:
+                        icons = die.properties["Icons"]
+                    except:
+                        icons = ""
+                icons = icons.strip()
+                rerolled = True
+
+            # Turn a 7 down to a 6
+            if icons.startswith("7 "):
+                forced = False
+                for alt in alts:
+                    die.alternate = alt
+                    alt_icons = getattr(die, "Icons", "")
+                    if not alt_icons:
+                        try:
+                            alt_icons = die.properties["Icons"]
+                        except:
+                            alt_icons = ""
+                    alt_icons = alt_icons.strip()
+                    if alt_icons.startswith("6 "):
+                        forced = True
+                        break
+
+                if forced:
+                    try:
+                        _extapi.notify("{} rolled 7th face, turning down to 6.".format(die),ChatColors.Orange)
+                    except:
+                        pass
+
+            # Scatter the die after the final face is set
+            _extapi.notify("{} landed on {}.".format(die, die.properties["Icons"]), ChatColors.Green)
+            scatter(die)
+
+        # --- MINOR TERRAIN ---
+        elif die.Type == "Minor Terrain":
+            # Confirm if the player wants to roll it
+            if not check_terrain(die):
+                continue
+
+            if roll_count >= len(roll_bank[num_sides]):
+                roll_count = 0
             new_face = roll_bank[num_sides][roll_count]
+            roll_count += 1
             die.alternate = die.alternates[new_face]
-            roll_count +=1
+            _extapi.notify("{} landed on {}.".format(die, die.properties["Icons"]), ChatColors.Green)
+            scatter(die)
+
+        # --- All other dice ---
+        else:
+            if roll_count >= len(roll_bank[num_sides]):
+                roll_count = 0
+            new_face = roll_bank[num_sides][roll_count]
+            roll_count += 1
+            die.alternate = die.alternates[new_face]
             scatter(die)
 
 
@@ -206,40 +301,206 @@ def build_army(loc):
     for _ in range(0, len(sorted)):
         if len(sorted) > 0:
             die = sorted[die_count]
+
             if me.isInverted:
-                die.moveToTable(x + 70 - die.width + (die_shift * offset), y + 60 - die.height)
-            else:
-                die.moveToTable(x + (die_shift * offset), y)
-            die_shift += die.width + 5
-            die_count += 1
-            if me.isInverted: 
-                if die.position[0] < coords[loc][2] + 60:
+                # Candidate center X for this die
+                cand_x = x + 70 - die.width + (die_shift * offset)
+                # If this candidate would cross the left edge of the box, wrap BEFORE placing
+                if cand_x - (die.width / 2) < coords[loc][2]:
                     die_shift = 10
                     y += 70 * offset
-            elif not me.isInverted:
-                if die.position[0] > coords[loc][2] - 50:                
+                    cand_x = x + 70 - die.width + (die_shift * offset)
+
+                die.moveToTable(cand_x, y + 60 - die.height)
+
+            else:
+                # Non-inverted: place from left edge towards the right
+                cand_x = x + (die_shift * offset)
+                # If this candidate would cross the right edge of the box, wrap BEFORE placing
+                if cand_x + (die.width / 2) > coords[loc][2]:
                     die_shift = 0
                     y += 70 * offset
+                    cand_x = x + (die_shift * offset)
+
+                die.moveToTable(cand_x, y)
+
+            die_shift += die.width + 5
+            die_count += 1
+
+
                     
 
 def results_splitter(die):
     result = die.Icons.split(" ", 1)
     return result
-  
-  
-def calculate_army(location, action, action_word):
-# Complex result calculation. Will total up relevant normal icons,
-# as well as icons that deal damage without allowing a save,
-# as well as all other icons that may apply to the chosen action.
 
-# counters to keep track of situational species bonuses
+
+def prepare_army(location):
+    """Return a cleaned list of dice in the given location, excluding terrain."""
+    start_army = get_army(location)
+    army = [d for d in start_army if d.set != "Terrain"]
+    return army
+
+
+def apply_reroll_sais(army, action):
+    """
+    Handle SAIs that cause rerolls (e.g. Rend/Tail/Flurry).
+    For each die, keep rolling while its icon is in action['reroll'],
+    adding the numeric values to a running total.
+    """
+    total_sai = 0
+    for die in army:
+        total_sai += roll_and_reroll(die, action, 0)
+    return total_sai
+
+
+def collect_roll_results(all_results, action, action_word):
+    """
+    Given a list of [value, icon] pairs, total:
+        - normal results
+        - SAIs that count as normal (including ANY_ROLL['count'])
+        - ID results
+        - no-save results
+        - 'extra' SAIs that need to be listed separately
+    """
+    normal = 0
+    nosave = 0
+    ids = 0
+    sai_from_faces = 0
+    other_sai = []
+    other_counts = []
+
+    for item in all_results:
+        # item[0] = numeric value (string), item[1] = icon name
+
+        # Total all normal, non-ID, non-SAI results
+        if item[1] in action["normal"]:
+            normal += int(item[0])
+
+        # Total all icons from SAIs that count as normal results
+        if item[1] in action["count"] or item[1] in ANY_ROLL["count"]:
+            sai_from_faces += int(item[0])
+
+        # IDs (separate bucket, but still part of the final total)
+        elif item[1] == "ID":
+            ids += int(item[0])
+
+        # Icons that generate results that don't allow a save (Smite, Stone, etc.)
+        elif item[1] in action["nosave"]:
+            nosave += int(item[0])
+
+        # SAIs relevant to this type of roll but not counted as normal
+        elif item[1] in action["extra"] or item[1] in ANY_ROLL["extra"]:
+            if item[1] not in other_sai:
+                other_sai.append(item[1])
+                other_counts.append(int(item[0]))
+            else:
+                index = other_sai.index(item[1])
+                other_counts[index] += int(item[0])
+
+        # Non-maneuver SAIs that may apply on non-maneuver rolls
+        elif action_word != "Maneuver" and item[1] in NON_MANEUVER["extra"]:
+            if item[1] not in other_sai:
+                other_sai.append(item[1])
+                other_counts.append(int(item[0]))
+            else:
+                index = other_sai.index(item[1])
+                other_counts[index] += int(item[0])
+
+    return normal, nosave, ids, sai_from_faces, other_sai, other_counts
+
+
+def apply_species_bonuses(army, location, action_word):
+    """
+    Sum immediate (always-applied) species bonuses for all relevant dice.
+    Conditional bonuses are still handled via globals inside species_check().
+    """
+    species_total = 0
+    for die in army:
+        if die.Type == "Unit" or die.Type == "Monster" or die.Type == "Champion":
+            species_total += species_check(die, location, action_word)
+    return species_total
+
+
+def build_other_sai_report(other_sai, other_counts, dwarves, feral, firewalkers, scalders):
+    """
+    Build the descriptive text block listing uncounted SAIs and
+    conditional species bonuses.
+    """
+    report = ""
+
+    # Create a report of all the results that weren't already totaled
+    if len(other_sai) > 0:
+        report = "The following SAIs were not included in the calculation:\n"
+    for num in range(0, len(other_sai)):
+        report += str(other_counts[num]) + " " + other_sai[num] + "\n"
+
+    if dwarves > 0:
+        report += "Add an additional " + str(dwarves) + " results if this is a counter-attack, from the Dwarves species ability. "
+    if feral > 0:
+        report += "Add an additional " + str(feral) + " results if this is a counter-attack, from the Feral species ability. "
+    if firewalkers > 0:
+        report += "Add an additional " + str(firewalkers) + " results if this is not a counter-attack, from the Fire Walkers species ability. "
+    if scalders > 0:
+        report += "Add an additional " + str(scalders) + " results if this is a save roll vs missiles, from the Scalders species ability. "
+
+    return report
+
+
+def build_magic_breakdown(army):
+    """
+    If this is a Magic roll, call calculate_magic() and build the
+    per-color magic summary text.
+    """
+    magic_results = "\nMagic results break down to a maximum of:\n"
+    calculate_magic(army)
+
+    global ivory
+    global black
+    global blue
+    global green
+    global red
+    global yellow
+    global bronze
+    global silver
+    global gold
+
+    if ivory != 0:
+        magic_results += str(ivory) + " ivory magic\n"
+    if black != 0:
+        magic_results += str(black) + " black magic\n"
+    if blue != 0:
+        magic_results += str(blue) + " blue magic\n"
+    if green != 0:
+        magic_results += str(green) + " green magic\n"
+    if red != 0:
+        magic_results += str(red) + " red magic\n"
+    if yellow != 0:
+        magic_results += str(yellow) + " yellow magic\n"
+    if bronze != 0:
+        magic_results += str(bronze) + " bronze magic\n"
+    if silver != 0:
+        magic_results += str(silver) + " silver magic\n"
+    if gold != 0:
+        magic_results += str(gold) + " gold magic\n"
+
+    return magic_results
+
+
+def calculate_army(location, action, action_word):
+    # Complex result calculation. Will total up relevant normal icons,
+    # as well as icons that deal damage without allowing a save,
+    # as well as all other icons that may apply to the chosen action.
+
+    # counters to keep track of situational species bonuses
     global dwarves; dwarves = 0
     global feral; feral = 0
     global firewalkers; firewalkers = 0
     global scalders; scalders = 0
-    
+
     start_army = get_army(location)
     army = [d for d in start_army if d.set != "Terrain"]
+
     normal = 0
     nosave = 0
     ids = 0
@@ -249,7 +510,6 @@ def calculate_army(location, action, action_word):
     all_results = []
     other_sai = []
     other_counts = []
-    spell_list = []
     report = ""
     nosave_report = ""
     autosavereport = ""
@@ -265,6 +525,7 @@ def calculate_army(location, action, action_word):
         result = results_splitter(die)
         all_results.append(result)
 
+    # Process all the face results
     for item in all_results:
 
         # Total all normal, non-ID, non-SAI results
@@ -309,10 +570,12 @@ def calculate_army(location, action, action_word):
                 index = other_sai.index(item[1])
                 other_counts[index] += int(item[0])
     
+    # Species abilities
     for die in army:
         if die.Type == "Unit" or die.Type == "Monster" or die.Type == "Champion":
             species += species_check(die, location, action_word)
     
+    # Autosaves are added to the normal total only on Save rolls
     if action_word == "Save":
         autosave = autosave_check(army)
         normal += autosave
@@ -322,22 +585,24 @@ def calculate_army(location, action, action_word):
     if nosave > 0:
         nosave_report = str(nosave) + " damage that can't be saved.\n"
 
-    # Create a report of all the results that weren't already totaled
+    # Build SAI “not included” text + conditional species bonuses
+    sai_report = ""
     if len(other_sai) > 0:
-        report = "The following SAIs were not included in the calculation:\n"
+        sai_report = "The following SAIs were not included in the calculation:\n"
     for num in range(0, len(other_sai)):
-        report += str(other_counts[num]) + " " + other_sai[num] + "\n"
+        sai_report += str(other_counts[num]) + " " + other_sai[num] + "\n"
     
     if dwarves > 0:
-        report += "Add an additional " + str(dwarves) + " results if this is a counter-attack, from the Dwarves species ability. "
+        sai_report += "Add an additional " + str(dwarves) + " results if this is a counter-attack, from the Dwarves species ability. "
     if feral > 0:
-        report += "Add an additional " + str(feral) + " results if this is a counter-attack, from the Feral species ability. "
+        sai_report += "Add an additional " + str(feral) + " results if this is a counter-attack, from the Feral species ability. "
     if firewalkers > 0:
-        report += "Add an additional " + str(firewalkers) + " results if this is not a counter-attack, from the Fire Walkers species ability. "
+        sai_report += "Add an additional " + str(firewalkers) + " results if this is not a counter-attack, from the Fire Walkers species ability. "
     if scalders > 0:
-        report += "Add an additional " + str(scalders) + " results if this is a save roll vs missiles, from the Scalders species ability. "
+        sai_report += "Add an additional " + str(scalders) + " results if this is a save roll vs missiles, from the Scalders species ability. "
     
     # Build list of magic results by color
+    magic_results = ""
     if action_word == "Magic":
         magic_results = "\nMagic results break down to a maximum of:\n"
         calculate_magic(army)
@@ -368,14 +633,64 @@ def calculate_army(location, action, action_word):
             magic_results = magic_results + str(silver) + " silver magic\n"
         if gold != 0:
             magic_results = magic_results + str(gold) + " gold magic\n"
-        report += magic_results
-    
-    # Build a dict of each of these results for later use
-    final = me.name + " performed a " + action_word + " roll with their " + location + ": \n" + str(normal + ids + sai + species) + " normal results (including " + str(ids) + " ID results, " + str(sai) + " normal results from SAIs, " + autosavereport + "and " + str(species) + " results from species abilities).\n" + nosave_report + report + "This calculation does NOT account for any eighth-face doubling. "
-    results_dict = {"normal": normal, "ids": ids, "sai": sai, "species": species, "final": final}
-    
-    # Finally, report these totals to the chat window. 
-    # notify("{} performed a {} roll with their {}: \n{} normal results (including {} ID results, {} normal results from SAIs, and {} results from species abilities).\n{}{}".format(me, action_word, location, normal + ids + sai + species, ids, sai, species, nosave_report, report))
+
+    # Build totals
+    total = normal + ids + sai + species
+
+    # RED line:
+    # "{Player} rolled their {location} army for {action}: {Total} total results."
+    red_text = (
+        "{} rolled their {} army for {}: {} total results."
+        .format(me, location, action_word, total)
+    )
+
+    # "(X normal results including ..." etc, plus no-save + magic breakdown
+    blue_parts = []
+
+    # Breakdown of how the total was obtained.
+    if autosave > 0:
+        autosave_text = " (including {} autosaves)".format(autosave)
+    else:
+        autosave_text = ""
+
+    blue_core = (
+        "Breakdown: {} from normal icons{}, {} from ID icons, {} from SAIs, {} from species abilities."
+        .format(normal, autosave_text, ids, sai, species)
+    )
+    blue_parts.append(blue_core)
+
+
+    if nosave_report:
+        blue_parts.append(nosave_report.rstrip("\n"))
+
+    if magic_results:
+        blue_parts.append(magic_results.rstrip("\n"))
+
+    blue_text = "\n".join(blue_parts)
+
+    # ORANGE line:
+    # "The following SAIs were not included..." (only if there are any)
+    orange_text = sai_report.rstrip("\n")
+
+    # Keep old-style combined string as 'final' in case anything else uses it
+    final = (
+        red_text + "\n" +
+        blue_text + "\n" +
+        (orange_text + "\n" if orange_text else "") +
+        "Does NOT include eighth-face doubling."
+    )
+
+    results_dict = {
+        "normal": normal,
+        "ids": ids,
+        "sai": sai,
+        "species": species,
+        "total": total,
+        "red": red_text,
+        "blue": blue_text,
+        "orange": orange_text,
+        "final": final
+    }
     
     return results_dict
 

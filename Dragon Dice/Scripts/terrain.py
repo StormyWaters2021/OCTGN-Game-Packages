@@ -67,7 +67,7 @@ def terrain_randomizer(die, x=0, y=0):
     else:
         while alts.index(die.alternate) == 7:
             roll_dice(die)
-    if alts.index(die.altnerate) == 6:
+    if alts.index(die.alternate) == 6:
         die.alternate = die.alternates[5]
     notify("{} has randomized {} to {}.".format(me, die.Name, die.Icons))
     
