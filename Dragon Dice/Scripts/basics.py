@@ -49,7 +49,7 @@ def roll_dice(dice, x=0, y=0):
         if die.Type == "Major Terrain":
             # Confirm if the player wants to roll it
             if not check_terrain(die):
-                # Player chose "No" – skip this die
+                # Player chose "No"
                 continue
 
             alts = [a for a in die.alternates]
@@ -585,7 +585,7 @@ def calculate_army(location, action, action_word):
     if nosave > 0:
         nosave_report = str(nosave) + " damage that can't be saved.\n"
 
-    # Build SAI “not included” text + conditional species bonuses
+    # SAIs that were not included in calculations
     sai_report = ""
     if len(other_sai) > 0:
         sai_report = "The following SAIs were not included in the calculation:\n"
