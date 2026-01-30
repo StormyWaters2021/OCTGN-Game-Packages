@@ -1,4 +1,8 @@
 changelog = {
+    1000204: ("1.0.2.4", "29 January 2026", [
+        "Minor improvements",
+        "Bug fixes",
+        ]),
     1000200: ("1.0.2.0", "14 August 2025", [
         "Added changelog feature",
         "Implemented multiplayer setup",

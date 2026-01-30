@@ -158,6 +158,9 @@ def starting_agents(*args):
 
 def starting_xfile(*args):
     mute()
+    if me.getGlobalVariable("position_var") == "None":
+        whisper("Error. It appears you have not loaded a deck yet.")
+        return
     position_var = me.getGlobalVariable("position_var")
     pos = BOARD_POSITIONS[position_var]
     
@@ -176,6 +179,7 @@ def starting_xfile(*args):
     xfile = table.create(card, x, y, quantity = 1, persist = True)
     xfile.isFaceUp = False
     xfile.peek()
+    xfile.anchor = True
     addXfile(xfile, x = 0, y = 0)
     return True
     
@@ -185,7 +189,3 @@ def no_starting_xfile(*args):
         return True
     else:
         return False
-    
-# def position(card, x=0, y=0):
-    # position = card.position
-    # whisper("Position = {}.".format(str(position)))

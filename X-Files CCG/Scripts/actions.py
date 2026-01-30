@@ -65,8 +65,9 @@ def pickCardToDiscard(cards, owner):
 def flipCard(card, x = 0, y = 0):
     mute()
     if card.type == "X-File":
-        if not confirm("You are about to turn an X-File face-up. Are you sure?"):
-            return
+        if not card.isFaceUp:
+            if not confirm("You are about to turn an X-File face-up. Are you sure?"):
+                return
     if card.isFaceUp:
         notify("{} turns {} face down.".format(me, card))
         card.isFaceUp = False

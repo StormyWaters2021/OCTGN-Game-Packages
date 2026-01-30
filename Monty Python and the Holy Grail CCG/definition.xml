@@ -2,8 +2,8 @@
 <game
     id="20d48baa-8c8f-4c1e-891e-8a206a05407d"
     name="Monty Python and the Holy Grail CCG"
-	markersize="10"
-    version="1.0.0.1"
+	markersize="15"
+    version="1.0.0.2"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -34,8 +34,8 @@
   </globalvariables>
   
   <events>
-	<event name="OnCardsMoved" action="fix_rotation"/>
-	<event name="OnScriptedCardsMoved" action="fix_rotation"/>
+	<event name="OnCardsMoved" action="correct_cards"/>
+	<event name="OnScriptedCardsMoved" action="correct_cards"/>
 	<event name="OnDeckLoaded" action="deck_loaded"/>
 	<event name="OnGlobalVariableChanged" action="loaded_check"/>
 	<!-- <event name="OnCardArrowTargeted" action="attach_card"/> -->
@@ -118,15 +118,8 @@
 		<cardaction menu="Clear Highlight" default="False" shortcut="F8" execute="clear" />
 	</cardactions>
 	
-	
-	<groupseparator />
-	
-	<groupactions menu="Random"> 
-		<groupaction menu="Roll a die" execute="rollDie" />
-		<groupaction menu="Roll an X-sided die" execute="rollX" />
-		<groupaction menu="Flip a coin" execute="coinFlip" />
-	</groupactions>
-	
+	<cardaction menu="Show Owner" default="False" execute="whisper_owner" />
+		
 	<groupactions menu="Add New Card to Table"> 
 		<groupaction menu="Add a Face-Up Card" execute="createUp" />
 		<groupaction menu="Add a Face-Down Card" execute="createDown" />
@@ -148,12 +141,21 @@
 	<groupaction menu="Searched!" default="False" execute="create_searched" />
 	
 	
-	<groupactions menu="Take Opponent's Cards"> 
+	<groupactions menu="Opponent's Cards"> 
 		<groupaction menu="Draw from Opponent's Deck" execute="opp_draw" />
+		<groupaction menu="Take Randomly from Opponent's Hand" execute="opp_random_from_hand" />
+		<groupaction menu="Rearrange Top of Opponent's Deck" execute="rearrange_opp_deck" />
+		
 	</groupactions>
 	
 	<groupaction menu="Random Card from Dead Carts" execute="random_dead" />
 	
+	<groupseparator />
+	<groupactions menu="Random"> 
+		<groupaction menu="Roll a die" execute="rollDie" />
+		<groupaction menu="Roll an X-sided die" execute="rollX" />
+		<groupaction menu="Flip a coin" execute="coinFlip" />
+	</groupactions>
 	
 </table>
 
@@ -190,7 +192,7 @@
 	</group>
 	
 	<group name="Eliminated" visibility="me" ordered="False" viewState="collapsed" icon="Images/rfg.png" />
-	
+	<group name="Extra" visibility="none" ordered="False" viewState="collapsed" icon="Images/deck.png" />
 	<!-- <globalvariable name="eliminated_options" value="" />  -->
 	<!-- <globalvariable name="starting_xfile" value="0" />  -->
 	

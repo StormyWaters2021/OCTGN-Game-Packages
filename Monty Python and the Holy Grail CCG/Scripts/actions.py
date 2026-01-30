@@ -120,9 +120,12 @@ def rotate_left(card, x = 0, y = 0):
         rotate_card(card, (card.orientation - 1) % 4)
 
 
-def fix_rotation(args):
-    if args.player != me:
-        return
+def whisper_owner(card, x=0, y=0):
+    mute()
+    whisper("{} is the owner of {}.".format(card.owner, card))
+
+
+def correct_cards(args):
     for card in args.cards:
         if card.controller != me:
             continue
@@ -133,6 +136,7 @@ def fix_rotation(args):
         for i in SIDEWAYS:
             if i in card.properties["Card Type"]:
                 card.orientation = 3
+    automated_highlight()
 
 
 def random_dead(group, x=0, y=0):
@@ -197,10 +201,54 @@ def look_at_top(group, player):
 
 def opp_draw(group, x=0, y=0):
     mute()
-    if len(players) < 1:
-        return
-    opp = [p for p in players if p != me]    
+    if len(players) < 1: return
+    opp = [p for p in players if p != me]
+    if len(opp.Deck) < 1: return
     remoteCall(opp[0], "_passFaceDown", [opp[0].Deck.top(), me])
+    notify("{} drew a card from {}'s deck.".format(me, opp))
+
+
+def opp_random_from_hand(group, x=0, y=0):
+    mute()
+    if len(players) < 1: return
+    opp = [p for p in players if p != me][0]
+    if len(opp.Hand) < 1: return
+    index = rnd(0, len(opp.Hand)-1)
+    remoteCall(opp, "_passFaceDown", [opp.Hand[index], me])
+    notify("{} randomly took a card from {}'s hand.".format(me, opp))
+    
+
+def rearrange_opp_deck(group, x=0, y=0):
+    mute()
+    opps = [p for p in players if p != me]
+    if not opps: return
+    opp = opps[0]
+    n = askInteger("How many of the top cards do you want to rearrange from {}'s deck?".format(opp), 0)
+    if not n or n <= 0: return
+    cards = list(opp.Deck.top(n))
+    if not cards: return
+    dlg = cardDlg(cards)
+    dlg.title = "Rearrange Cards"
+    dlg.text = "Cards on the left will be above cards on the right."
+    dlg.min = 0
+    dlg.max = 0
+    dlg.show()
+    ordered = dlg.list
+    if not ordered: return
+    remoteCall(opp, "_apply_rearrange", [ordered[:n]])
+    notify("{} rearranged the top {} cards of {}'s deck.".format(me, n, opp))
+
+
+def _apply_rearrange(card_list):
+    mute()
+    if not card_list: return
+    local = [Card(getattr(c, "_id", None)) for c in card_list if hasattr(c, "_id")]
+    i = 0
+    for c in local:
+        if c and c.group == me.Deck:
+            c.moveTo(me.Deck, i)
+            i += 1
+    update()
 
 
 def _passFaceDown(card, opponent):
@@ -213,7 +261,7 @@ def _passFaceDown(card, opponent):
 def _grab_passed_card(card):
     mute()
     card.moveTo(me.Hand)
-
+    
 
 def reveal_hand(group, x=0, y=0):
     mute()
@@ -428,6 +476,20 @@ def clear(card, x = 0, y = 0):
     mute()
     card.highlight = None
     
+
+def automated_highlight():
+    cards = [c for c in table if c.controller == me and c.highlight == None]
+    if me.isInverted:
+        color = "#ffff00"
+    else:
+        color = "#0000ff"
+
+    for card in cards:
+        if card.Name == "Pawn": continue
+        elif card.Name == "A Newt": continue        
+        else:
+            card.highlight = color
+
 
 # ~~~~~~~~~~~~~~~~~ #
 # ~~~~~ PAWNS ~~~~~ #   
