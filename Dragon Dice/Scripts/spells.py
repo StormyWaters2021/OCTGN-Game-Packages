@@ -52,6 +52,14 @@ def is_spell(cards, x=0, y=0):
             return True
         else: 
             return False
+            
+            
+def is_not_spell(cards, x=0, y=0):
+    for card in cards:
+        if card.set == "Spell Cards":
+            return False
+        else: 
+            return True
  
  
 def duplicate_spell(card, x=0, y=0):

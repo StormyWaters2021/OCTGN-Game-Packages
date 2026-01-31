@@ -4,7 +4,7 @@
    name="Dragon Dice (SFR)" 
    id="0000ac4a-0bf6-4c10-8f05-e32e53e57518" 
    octgnVersion="3.1.2.0" 
-   version="1.2.2.0"
+   version="1.2.2.1"
    scriptVersion="3.1.0.2"
    markersize="20"
    setsurl="http://www.dragondice.com"
@@ -100,9 +100,14 @@
     </card>
 	<gameboards src="Images/board.jpg" x="-750" y="-580" width="1500" height="1160" />
 	<table name="Table" visibility="undefined" ordered="False" width="1500" height="1160" background="Images/table.jpg" backgroundStyle="uniform" >
-
-		<cardaction menu="Roll Die" default="True" batchExecute="roll_dice"/>
-		<cardaction menu="Reset Die to ID" default="False" execute="reset_die"/>
+		<cardaction menu="Advance Terrain" default="False" shortcut="Up" execute="terrain_up" showIf="terrain_check" />
+		<cardaction menu="Lower Terrain" default="False" shortcut="Down" execute="terrain_down" showIf="terrain_check" />
+		
+		<cardaction menu="Duplicate Spell Card" default="False" execute="duplicate_spell" showIf="is_spell" />
+		<cardaction menu="Remove Spell Card" default="False" execute="delete_card" showIf="is_spell" shortcut="Del" />
+		
+		<cardaction menu="Roll Die" default="True" batchExecute="roll_dice" showIf="is_not_spell" />
+		<cardaction menu="Reset Die to ID" default="False" execute="reset_die" showIf="is_not_spell" />
 		<!-- <cardaction menu="Check Position (DEBUG)" default="False" execute="check_coord"/> -->
 
 		<cardseparator/>
@@ -117,16 +122,6 @@
 			<cardaction menu="Send to DUA" default="False" execute="send_to_dua"/>
 			<cardaction menu="Send to BUA" default="False" execute="send_to_bua"/>
 		</cardactions>
-
-		<cardseparator/>
-
-		<cardaction menu="Advance Terrain" default="False" shortcut="Up" execute="terrain_up" showIf="terrain_check" />
-		<cardaction menu="Lower Terrain" default="False" shortcut="Down" execute="terrain_down" showIf="terrain_check" />
-
-		<cardseparator/>
-
-		<cardaction menu="Duplicate Spell Card" default="False" execute="duplicate_spell" showIf="is_spell" />
-		<cardaction menu="Remove Spell Card" default="False" execute="delete_card" showIf="is_spell" shortcut="Del" />
 		
 		<cardseparator />
 		
@@ -150,19 +145,17 @@
 
 		<groupseparator />
 
-		<!-- <groupactions menu="Reset Armies"> -->
-			<groupaction menu="Reset This Army" default="False" execute="reset_location"/>
-		<!-- </groupactions> -->
+		<groupaction menu="Reset This Army" default="False" execute="reset_location"/>
 
 		<groupseparator />
-		<groupactions menu="Calculate This Army...">
-			<groupaction menu="Calculate Melee" default="False" execute="melee_calc"/>
-			<groupaction menu="Calculate Missile" default="False" execute="missile_calc"/>
-			<groupaction menu="Calculate Magic" default="False" execute="magic_calc"/>
-			<groupaction menu="Calculate Maneuvers" default="False" execute="maneuver_calc"/>
-			<groupaction menu="Calculate Saves" default="False" execute="save_calc"/>
-		</groupactions>
-		<groupseparator />
+		<!-- <groupactions menu="Calculate This Army..."> -->
+			<!-- <groupaction menu="Calculate Melee" default="False" execute="melee_calc"/> -->
+			<!-- <groupaction menu="Calculate Missile" default="False" execute="missile_calc"/> -->
+			<!-- <groupaction menu="Calculate Magic" default="False" execute="magic_calc"/> -->
+			<!-- <groupaction menu="Calculate Maneuvers" default="False" execute="maneuver_calc"/> -->
+			<!-- <groupaction menu="Calculate Saves" default="False" execute="save_calc"/> -->
+		<!-- </groupactions> -->
+		<!-- <groupseparator /> -->
 		<groupactions menu="Dice Scattering">
 			<groupaction menu="Enable Dice Scattering" default="False" execute="scatter_on"/>
 			<groupaction menu="Disable Dice Scattering" default="False" execute="scatter_off"/>

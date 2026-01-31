@@ -82,11 +82,27 @@ def melee_roll(table, x, y):
     roll_army(location)
     roll_calc = calculate_army(location, MELEE, "Melee")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    # First line (headline)
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
 
 
 def missile_roll(table, x, y):
@@ -97,12 +113,27 @@ def missile_roll(table, x, y):
     roll_army(location)
     roll_calc = calculate_army(location, MISSILE, "Missile")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
-    
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
+
 
 def magic_roll(table, x, y):
     location = zone_check(x, y)
@@ -112,13 +143,28 @@ def magic_roll(table, x, y):
     roll_army(location)
     roll_calc = calculate_army(location, MAGIC, "Magic")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
-    
-    
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
+
+
 def maneuver_roll(table, x, y):
     location = zone_check(x, y)
     if location == None:
@@ -127,13 +173,28 @@ def maneuver_roll(table, x, y):
     roll_army(location)
     roll_calc = calculate_army(location, MANEUVER, "Maneuver")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
-    
-    
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
+
+
 def save_roll(table, x, y):
     location = zone_check(x, y)
     if location == None:
@@ -142,11 +203,27 @@ def save_roll(table, x, y):
     roll_army(location)
     roll_calc = calculate_army(location, SAVE, "Save")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
+
     
 
 # These functions pass an army and action type to calculate without rolling again
@@ -158,11 +235,26 @@ def melee_calc(table, x, y):
         return
     roll_calc = calculate_army(location, MELEE, "Melee")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
 
 
 def missile_calc(table, x, y):
@@ -172,12 +264,27 @@ def missile_calc(table, x, y):
         return
     roll_calc = calculate_army(location, MISSILE, "Missile")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
-    
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
+
 
 def magic_calc(table, x, y):
     location = zone_check(x, y)
@@ -186,13 +293,28 @@ def magic_calc(table, x, y):
         return
     roll_calc = calculate_army(location, MAGIC, "Magic")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
-    
-    
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
+
+
 def maneuver_calc(table, x, y):
     location = zone_check(x, y)
     if location == None:
@@ -200,13 +322,28 @@ def maneuver_calc(table, x, y):
         return
     roll_calc = calculate_army(location, MANEUVER, "Maneuver")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
-    
-    
+    lines = roll_calc["lines"]
+    if not lines:
+        return
+
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
+
+
 def save_calc(table, x, y):
     location = zone_check(x, y)
     if location == None:
@@ -214,12 +351,26 @@ def save_calc(table, x, y):
         return
     roll_calc = calculate_army(location, SAVE, "Save")
 
-    _extapi.notify(roll_calc["red"], ChatColors.Red, bold=True)
-    _extapi.notify(roll_calc["blue"], ChatColors.Blue)
-    if roll_calc["orange"]:
-        _extapi.notify(roll_calc["orange"], ChatColors.Orange)
-    _extapi.notify("Does NOT include eighth-face doubling.", ChatColors.Purple)
+    lines = roll_calc["lines"]
+    if not lines:
+        return
 
+    _extapi.notify(lines[0], ChatColors.Red, bold=True)
+
+    in_orange = False
+    for msg in lines[1:]:
+        if msg == "Does NOT include eighth-face doubling.":
+            color = ChatColors.Purple
+            in_orange = False
+        elif "The following SAIs were not included in the calculation" in msg:
+            color = ChatColors.Orange
+            in_orange = True
+        elif in_orange:
+            color = ChatColors.Orange
+        else:
+            color = ChatColors.Blue
+
+        _extapi.notify(msg, color)
 
 
 # These functions figure out which actions are available to us automatically

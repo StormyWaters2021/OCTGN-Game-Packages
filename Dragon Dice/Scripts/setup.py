@@ -131,7 +131,6 @@ def set_frontier(die, x=0, y=0):
 #        Army Setup         #
 #############################
 
-
 def load_armies():
     # Searches each player's deck and moves all the units to their appropriate zones
     # See the function 'build_army' for more detailed notes
@@ -139,14 +138,17 @@ def load_armies():
     coords = invert_check()
     
     # Offset determines if dice are placed left-to-right or right-to-left.
-    # Shift places the dice slightly differently for the inverted player since
-    # The coordinates are calculated based on the non-inverted player's view.
+    # Vertical shift accounts for the fact that the zones are defined larger
+    # than the actual spaces on the board, because dice position is defined
+    # by the top-left corner, making some dice outside the zones even if
+    # they are mostly within the drawn spaces.
     if me.isInverted:
         offset = -1
-        shift = 75
+        vertical_shift = DICE_VERTICAL_SHIFT_INVERTED
     else:
         offset = 1
-        shift = 0
+        vertical_shift = DICE_VERTICAL_SHIFT
+
     army_count = 0
     
     # Iterate through the four initial zones (Home, Campaign, Horde, and Summoning Pool)
@@ -154,17 +156,21 @@ def load_armies():
         loc = ARMIES[army_count]
         full_army = [d for d in me.piles[loc]]
         sorted = sort_army(full_army)
+
+        # Base position for this zone
         x = coords[loc][0]
-        y = coords[loc][1]
+        y = coords[loc][1] + vertical_shift
+
         die_shift = 0
         die_count = 0
+
         for _ in range(0, len(sorted)):
             if len(me.piles[loc]) > 0:
                 die = sorted[die_count]
 
                 if me.isInverted:
                     cand_x = x + 70 - die.width + (die_shift * offset)
-                    # Wrap BEFORE placing if the left edge would cross the box edge
+                    # Wrap before placing if the left edge would cross the box edge
                     if cand_x - (die.width / 2) < coords[loc][2]:
                         die_shift = 10
                         y += 70 * offset
@@ -174,7 +180,7 @@ def load_armies():
 
                 else:
                     cand_x = x + (die_shift * offset)
-                    # Wrap BEFORE placing if the right edge would cross the box edge
+                    # Wrap before placing if the right edge would cross the box edge
                     if cand_x + (die.width / 2) > coords[loc][2]:
                         die_shift = 0
                         y += 70 * offset
@@ -184,7 +190,6 @@ def load_armies():
 
                 die_shift += die.width + 5
                 die_count += 1
-
 
         army_count += 1
 

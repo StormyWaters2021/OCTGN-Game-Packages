@@ -12,6 +12,7 @@ roll_count = 0
 scatter_bank = []
 scatter_count = 0
 
+
 def update_bank(dice, x=0, y=0):
 # Updates the roll bank account for new die sizes and to refresh lists when
 # the player has used all the previously-generated numbers.
@@ -209,16 +210,19 @@ def sort_army(dice):
     
  
 def rearrange_army(location):
-    # Rearranges an army, then sets all the dice to their ID
+    # Rearranges an army into ordered rows
     army = get_army(location)
     army = sort_army(army)
     build_army(location)
     return army
-    
+
+
 def reset_army(location):
+    # Rearranges army and turns all non-terrain dice to their ID face
     army = rearrange_army(location)
     for die in army:
-        reset_die(die)
+        if die.Type not in ("Minor Terrain", "Major Terrain"):
+            reset_die(die)
 
 
 def invert_check():
@@ -239,14 +243,24 @@ def roll_army(location):
 
 
 def move_to_army(location, die):
-    # Sends selected dice to a chosen location, then resets that location
-    # to organize by size and turn all dice to IDs. 
-    if die.Type == "Major Terrain": return
+    # Sends selected dice to a chosen location, then arranges that location
+    # to organize by size. 
+    if die.Type == "Major Terrain":
+        return
+
     coords = invert_check()
+
+    if me.isInverted:
+        y_base = coords[location][1] + DICE_VERTICAL_SHIFT_INVERTED
+    else:
+        y_base = coords[location][1] + DICE_VERTICAL_SHIFT
+
     x = coords[location][0]
-    y = coords[location][1]
+    y = y_base
+
     die.moveToTable(x, y)
     rearrange_army(location)
+
 
 
 def get_army(location):
@@ -287,12 +301,16 @@ def build_army(loc):
     # Determine which direction (left or right) to place dice (since one player is inverted)
     if me.isInverted:
         offset = -1
+        vertical_shift = DICE_VERTICAL_SHIFT_INVERTED
     else:
         offset = 1
+        vertical_shift = DICE_VERTICAL_SHIFT
 
-    # Get the first die's starting position from the coordinate dictionary
+    # Get the first die's starting position from the coordinate dictionary,
+    # then apply the vertical shift for this player orientation.
     x = coords[loc][0]
-    y = coords[loc][1]
+    y = coords[loc][1] + vertical_shift
+    
     die_shift = 0
     die_count = 0
     
@@ -311,6 +329,7 @@ def build_army(loc):
                     y += 70 * offset
                     cand_x = x + 70 - die.width + (die_shift * offset)
 
+                # For inverted, keep your original vertical offset logic but based on shifted y
                 die.moveToTable(cand_x, y + 60 - die.height)
 
             else:
@@ -327,8 +346,6 @@ def build_army(loc):
             die_shift += die.width + 5
             die_count += 1
 
-
-                    
 
 def results_splitter(die):
     result = die.Icons.split(" ", 1)
@@ -424,27 +441,42 @@ def apply_species_bonuses(army, location, action_word):
 
 def build_other_sai_report(other_sai, other_counts, dwarves, feral, firewalkers, scalders):
     """
-    Build the descriptive text block listing uncounted SAIs and
+    Build a list of single-line messages describing uncounted SAIs and
     conditional species bonuses.
     """
-    report = ""
+    lines = []
 
-    # Create a report of all the results that weren't already totaled
+    # Section: SAIs not included
     if len(other_sai) > 0:
-        report = "The following SAIs were not included in the calculation:\n"
-    for num in range(0, len(other_sai)):
-        report += str(other_counts[num]) + " " + other_sai[num] + "\n"
+        lines.append("The following SAIs were not included in the calculation:")
 
+        for num in range(len(other_sai)):
+            lines.append(str(other_counts[num]) + " " + other_sai[num])
+
+    # Section: species bonuses
     if dwarves > 0:
-        report += "Add an additional " + str(dwarves) + " results if this is a counter-attack, from the Dwarves species ability. "
+        lines.append(
+            "Add an additional {} results if this is a counter-attack, from the Dwarves species ability."
+            .format(dwarves)
+        )
     if feral > 0:
-        report += "Add an additional " + str(feral) + " results if this is a counter-attack, from the Feral species ability. "
+        lines.append(
+            "Add an additional {} results if this is a counter-attack, from the Feral species ability."
+            .format(feral)
+        )
     if firewalkers > 0:
-        report += "Add an additional " + str(firewalkers) + " results if this is not a counter-attack, from the Fire Walkers species ability. "
+        lines.append(
+            "Add an additional {} results if this is not a counter-attack, from the Fire Walkers species ability."
+            .format(firewalkers)
+        )
     if scalders > 0:
-        report += "Add an additional " + str(scalders) + " results if this is a save roll vs missiles, from the Scalders species ability. "
+        lines.append(
+            "Add an additional {} results if this is a save roll vs missiles, from the Scalders species ability."
+            .format(scalders)
+        )
 
-    return report
+    return lines
+
 
 
 def build_magic_breakdown(army):
@@ -510,7 +542,7 @@ def calculate_army(location, action, action_word):
     all_results = []
     other_sai = []
     other_counts = []
-    report = ""
+
     nosave_report = ""
     autosavereport = ""
 
@@ -644,7 +676,7 @@ def calculate_army(location, action, action_word):
         .format(me, location, action_word, total)
     )
 
-    # "(X normal results including ..." etc, plus no-save + magic breakdown
+    # BLUE block:
     blue_parts = []
 
     # Breakdown of how the total was obtained.
@@ -659,7 +691,6 @@ def calculate_army(location, action, action_word):
     )
     blue_parts.append(blue_core)
 
-
     if nosave_report:
         blue_parts.append(nosave_report.rstrip("\n"))
 
@@ -668,17 +699,28 @@ def calculate_army(location, action, action_word):
 
     blue_text = "\n".join(blue_parts)
 
-    # ORANGE line:
-    # "The following SAIs were not included..." (only if there are any)
+    # ORANGE block:
     orange_text = sai_report.rstrip("\n")
 
-    # Keep old-style combined string as 'final' in case anything else uses it
-    final = (
-        red_text + "\n" +
-        blue_text + "\n" +
-        (orange_text + "\n" if orange_text else "") +
-        "Does NOT include eighth-face doubling."
-    )
+    lines = []
+
+    # Red line (headline)
+    lines.append(red_text)
+
+    # Blue lines
+    if blue_text:
+        for line in blue_text.split("\n"):
+            if line.strip():
+                lines.append(line)
+
+    # Orange lines (SAI extras), if any
+    if orange_text:
+        for line in orange_text.split("\n"):
+            if line.strip():
+                lines.append(line)
+
+    # Footer note
+    lines.append("Does NOT include eighth-face doubling.")
 
     results_dict = {
         "normal": normal,
@@ -689,10 +731,11 @@ def calculate_army(location, action, action_word):
         "red": red_text,
         "blue": blue_text,
         "orange": orange_text,
-        "final": final
+        "lines": lines,
     }
     
     return results_dict
+
 
 
 def calculate_magic(army):

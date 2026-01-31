@@ -1,4 +1,8 @@
 changelog = {
+    1020201: ("1.2.2.1", "31 January 2026", [ 
+        "Cleaned up right-click menus",
+        "Minor big fixes",
+        ]),
     1020200: ("1.2.2.0", "30 January 2026", [ 
         "Improved roll calculations",
         "Updated terrain rolling algorithms",
