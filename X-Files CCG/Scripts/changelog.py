@@ -1,4 +1,7 @@
 changelog = {
+    1000205: ("1.0.2.5", "2 March 2026", [
+        "Added image downloader plugin for deck builder",
+        ]),
     1000204: ("1.0.2.4", "29 January 2026", [
         "Minor improvements",
         "Bug fixes",
