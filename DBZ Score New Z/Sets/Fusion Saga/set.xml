@@ -1,0 +1,1503 @@
+<?xml version='1.0' encoding='utf-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Fusion Saga" id="22ac7b37-6694-4237-8ca4-e7e64877214b" gameId="b5df32b4-59b4-4a67-aa6c-8636ae8daf07" gameVersion="3.0.0.0" version="3.0.0.0">
+  <cards>
+    <card id="95f9e2ae-7f64-49d9-92df-a8a12b1b7a1a" name="Fusion Saga PAT">
+      <property name="Card Number" value="PAT" />
+      <property name="Rarity" value="PAT" />
+      <property name="Type" value="Physical Attack Table" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Fusion Saga Physical Attack Table." />
+    </card>
+    <card id="26db9b08-382b-4bbd-928e-396513beb9db" name="Black High Kick">
+      <property name="Card Number" value="1" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 3. Physical attack. This attack does +2 life cards of damage for each Dragon Ball you control." />
+      <property name="Style" value="Black" />
+      <property name="Endurance" value="3" />
+    </card>
+    <card id="d7a13a0a-860d-4970-a814-31e8f433949c" name="Black Jaw Hammer">
+      <property name="Card Number" value="2" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="(If you discard this card for your Black Style Mastery, place this card at the bottom of your Life Deck instead.) Endurance 2. Physical attack doing +3 power stages of damage. Raise your anger 1 level. Lower your opponent's anger 1 level." />
+      <property name="Style" value="Black" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="942d02af-fe30-4291-8ef8-a6ae132def97" name="Black Shift Kick">
+      <property name="Card Number" value="3" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing +4 power stages of damage. Stops an energy attack during your opponent's next &quot;Attacker Attacks&quot; phase. Place the bottom 2 cards of your discard pile at the bottom of your Life Deck." />
+      <property name="Style" value="Black" />
+    </card>
+    <card id="65815170-ccf2-4b07-8d0f-536ff8b10bf3" name="Blue Knockdown">
+      <property name="Card Number" value="4" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing +5 power stages of damage. Raise your Main Personality to his highest power stage. Place at the bottom of your Life Deck after use." />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="e6321219-aa4a-415e-b2ed-286a02c69400" name="Determination Drill">
+      <property name="Card Number" value="5" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="At the end of your turn, if you skipped Combat, you may place the bottom card of your discard pile under this Drill. All of your attacks do +1 power stages of damage for each card under this Drill. You can only have 1 &quot;Determination Drill&quot; in play at a time." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="1842eb3c-39b0-455c-805f-d58c7d48c958" name="Dimension Scream">
+      <property name="Card Number" value="6" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Discard a Battleground or Location in play. If used by Majin Buu, raise your anger 1 level." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="b4329b16-7046-410b-92b1-7c4a7a48009c" name="Hercule's Assault Drill">
+      <property name="Card Number" value="7" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="All of your attacks do +1 life cards of damage and gain &quot;If successful, the personality that performed this attack gains 1 power stage.&quot;" />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="9eded363-7d43-4453-a2ae-0dc4aa323c28" name="Hercule's Immunity">
+      <property name="Card Number" value="8" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Sensei Deck. Hercule only. For the remainder of Combat, Majin Buu cannot perform attacks while your Hercule is in control of Combat as your Ally or Main Personality. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="e170b523-164c-47fe-b097-ad2605719a72" name="Heroic Effort">
+      <property name="Card Number" value="9" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Heroes only. Energy attack doing 6 life cards of damage. If performed against a villain, this attack is focused, gain 2 power stages, and for the remainder of Combat, your opponent cannot have Allies take control of Combat." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="dc4b4580-4909-43fb-890b-4aebdf668756" name="Majin Buu, Evil Buu">
+      <property name="Card Number" value="10" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Physical attack doing +3 power stages of damage. If stopped, draw a card." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="4f0760d4-76de-41e7-9340-73ee1620de8e" name="Majin Buu's Heel Kick">
+      <property name="Card Number" value="11" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 1. Physical attack doing +4 power stages of damage. Remove 5 cards in your opponent's discard pile from the game. The personality performing this attack gains 3 power stages." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="d936dd14-6efb-4c24-85a1-713983c89f99" name="Majin Buu's Taunt">
+      <property name="Card Number" value="12" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="You may raise your opponent's anger by up to 2 levels if one of your attacks has been successful this Combat. Prevent 3 life cards of damage from the next attack your opponent performs against you this Combat." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="6caac11e-b626-49e0-a273-fdc0aba432a0" name="Nooooooooooooooo!">
+      <property name="Card Number" value="13" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="(If you declared a Namekian Tokui-Waza, this is a Namekian Styled Card.) Use when your opponent uses a card effect to discard or remove from the game one of your Battleground or Locations in play. Your Battleground or Location stays in play. Your opponent discards the top 3 cards of his Life Deck." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="e035bdfb-e946-4312-b15a-7035dd1041cb" name="Orange Splitting Headache">
+      <property name="Card Number" value="14" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Energy attack doing 6 life cards of damage. You may place 2 cards from your discard pile under all of your Drills that have cards under them." />
+      <property name="Style" value="Orange" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="3b1d718a-391f-4be1-8dbd-eda2088e2921" name="Orange Strength">
+      <property name="Card Number" value="15" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Physical attack doing +2 power stages of damage. Raise your Main Personality to his highest power stage." />
+      <property name="Style" value="Orange" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="3eb39b00-ab22-484c-8eae-c036ddf1f79a" name="Paused Pose">
+      <property name="Card Number" value="16" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Use when your opponent fuses. Your opponent fuses at the beginning of his next turn instead." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="da73c341-8b4f-4dd6-8b23-bd5a21c7a3d4" name="Red Holding Drill">
+      <property name="Card Number" value="17" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="All of your attacks do +1 power stages of damage. When an opponent would shuffle one or more cards into his Life Deck, he must place them at the bottom of his Life Deck instead." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="d77af159-8415-477c-87e5-9384a788292c" name="Red Striking Drill">
+      <property name="Card Number" value="18" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. All of your physical attacks do +2 power stages of damage. Any cards in your Life Deck with Endurance have their Endurance increase by +1." />
+      <property name="Style" value="Red" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="5328f67d-7604-4518-99ea-a4bfcd49dbb2" name="Release">
+      <property name="Card Number" value="19" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Sensei Deck. Raise your Main Personality to his highest power stage. Discard all cards attached to all personalities in play. Place the bottom card of your discard pile at the bottom of your Life Deck." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="5c3a45bd-83d6-4c0e-933b-5b9b6877759b" name="Saiyan Neutralization">
+      <property name="Card Number" value="20" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Stops an energy attack. Lower your opponent's anger 1 level. Your opponent must skip his next &quot;Attacker Attacks&quot; phase. Shuffle into your Life Deck after use." />
+      <property name="Style" value="Saiyan" />
+    </card>
+    <card id="2594a106-81c3-4513-a833-551b87361917" name="Saiyan Power">
+      <property name="Card Number" value="21" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. Empower 2. Search your Life Deck for 1 copy of a Saiyan Style Drill that adds damage to your attacks and place it into play. Lower your opponent's anger 2 levels." />
+      <property name="Style" value="Saiyan" />
+    </card>
+    <card id="a91d563d-312d-4580-8f3c-e4a0010c7855" name="Saiyan Spindletop Punch">
+      <property name="Card Number" value="22" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Physical attack doing +4 power stages of damage. Name a card. If successful and the named card was one of the life cards of damage from this attack, remove your opponent's discard pile from the game and raise your anger 1 level." />
+      <property name="Style" value="Saiyan" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="f8736691-f202-4309-b330-1d02a76ec907" name="Taking Cover">
+      <property name="Card Number" value="23" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="For the remainder of Combat, when you prevent damage from an attack you may prevent twice as much damage from the attack." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="d4a32529-e25b-4cd8-aa1b-142e9f14e389" name="Tien's Surprise Technique">
+      <property name="Card Number" value="24" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="(If your Main Personality is Tien when you use this card's Endurance, your opponent discards the top 2 cards of his Life Deck and this card is placed into your hand instead of being removed from the game.) Endurance 0. Energy attack doing 5 life cards of damage. Lower your opponent's anger 3 levels." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="0" />
+    </card>
+    <card id="141c5f0d-2a24-4aae-ada0-260a4992a971" name="Underdog Drill">
+      <property name="Card Number" value="25" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="If your Main Personality's highest power rating is below 500,000, then prevent 2 life cards of damage from all attacks your opponent performs, and all attacks do +1 power stages of damage." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="a2197811-a63d-46a1-88ec-94a1846fb9c9" name="Underdog Drop Kick">
+      <property name="Card Number" value="26" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Physical attack doing +2 power stages of damage, or if your Main Personality's highest power rating is below 500,000 stops a physical or energy attack. Gain 4 power stages. Place at the bottom of your Life Deck after use." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="9b45298b-efd3-4333-a29d-985ab7e2b7f8" name="Up Close and Personal">
+      <property name="Card Number" value="27" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Use when you perform an energy attack. This energy attack does +3 life cards of damage. Draw a card." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="f3e8ff5d-26d8-4967-b32d-b605c459b7b1" name="Vegito's Charged Blast">
+      <property name="Card Number" value="28" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. If used by a Fused Personality, this attack does an additional +X life cards of damage. X the Base Damage on the Physical Attack Table. Place this card and the bottom 2 cards of your discard pile at the bottom of your Life Deck after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="a9bdcd5d-f2e8-4f28-9257-7d574b0cad9a" name="Vegito's Drop Kick">
+      <property name="Card Number" value="29" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Focused physical attack doing +X power stages of damage. X = the attacking personality's PUR and personality level added together. Raise your anger 1 level. If used by a Fused Personality, place this card amd the bottom card of your discard pile at the bottom of your Life Deck after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="15077fb3-95ab-4b64-9c07-904a931a93e8" name="Vegito's Leg Catch">
+      <property name="Card Number" value="30" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Stops a physical attack. Lower your opponent's anger 1 level. If used by a Fused Personality, raise your Main Personality to his highest power stage, remove your opponent's discard pile from the game, and place this card at the bottom of your Life Deck after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="19be5e7c-964e-4b01-8777-786af6417146" name="Vegito's Uppercut">
+      <property name="Card Number" value="31" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing +4 power stages of damage. Lower your opponent's anger 1 level. If used by a Fused Personality, damage from this attack cannot be prevented, gain 3 power stages, and place this card at the bottom of your Life Deck after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="e3878deb-c308-4f90-81f0-4a47b5bcedf9" name="Advanced Basics">
+      <property name="Card Number" value="32" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Main Personalities only. If your Main Personality is at level 2 or higher, you may use one of your Main Personality's lower personality level's powers (excluding Constant Combat Powers and powers that can be used multiple times per Combat.) If it is an attack, it does +3 power stages of damage. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="db3997a3-742e-490b-bf63-548f419b1482" name="Apocalyptic Battle">
+      <property name="Card Number" value="33" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="You and your opponent discard the top card of your Life Decks. The player who discarded the card with the lowest card number may choose to give up winning by the Most Powerful Personality Victory this game to choose a personality level that both players' MPs can reach. All MPs are advanced or lowered to the chosen level, if there is a tie, nothing happens." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="31de4e18-3d17-489f-828f-232aa45aff15" name="Black Big Bang">
+      <property name="Card Number" value="34" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Energy attack. Empower 2. If you declared a Tokui-Waza and your opponent declared a Namekian Tokui-Waza, this attack does +10 life cards of damage and if shuffled into your Life Deck after use." />
+      <property name="Style" value="Black" />
+    </card>
+    <card id="75e7faf4-6572-46d5-8bcb-5eccf390f565" name="Black Dark Energy">
+      <property name="Card Number" value="35" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Energy attack doing 5 life cards of damage. Choose any cards in your hand and shuffle them into your Life Deck and draw an amount of cards equal to the amount you put into your Life Deck." />
+      <property name="Style" value="Black" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="a90feacf-58e8-4709-99cc-7cac86dd6526" name="Black Jawbreaker">
+      <property name="Card Number" value="36" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing +3 power stages of damage. Attach to your opponent's Main Personality. While attached, all attacks performed by that personality do +2 power stages of damage. Discard this card when the attached personality reaches his highest power stage." />
+      <property name="Style" value="Black" />
+    </card>
+    <card id="32b514d5-68ee-4305-b36a-385cf5e151b9" name="Black Karmic Strike">
+      <property name="Card Number" value="37" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing +3 power stages of damage. If your opponent performed a successful physical attack in his previous &quot;Attacker Attacks&quot; phase, any power stages of damage this attack deals are life cards of damage instead. If successful and you declared a Tokui-Waza, look at the top 6 cards of your opponent's Life Deck and place them back in any order." />
+      <property name="Style" value="Black" />
+    </card>
+    <card id="6e36d8f1-b4ee-4a51-a6fa-64c57a6fb524" name="Black Protection Orb">
+      <property name="Card Number" value="38" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Stops an energy attack. If you declared a Tokui-Waza, then for the remainder of Combat during your &quot;Defender Defends&quot; phase, you may remove from the game 2 cards in your Sensei Deck to stop an energy attack. Remove from the game after use. Limit 1 per deck." />
+      <property name="Style" value="Black" />
+    </card>
+    <card id="6dd33458-34a2-43ba-b057-9d58ba0fbdfd" name="Black Restraint">
+      <property name="Card Number" value="39" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Use only if you performed a successful physical attack in your last &quot;Attacker Attacks&quot; phase this Combat. Stops a physical attack. If you declared a Tokui-Waza, then for the remainder of Combat, stops all physical attacks performed by your opponent. Remove from the game after use. Limit 1 per deck." />
+      <property name="Style" value="Black" />
+    </card>
+    <card id="5e4bea22-af77-4017-a714-02f8dec0ab98" name="Black Spin Kick">
+      <property name="Card Number" value="40" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing +4 power stages of damage. Lower your opponent's anger 1 level. If successful, place 3 cards from your discard pile with the word &quot;Kick&quot; in the title on top of your Life Deck and remove this card from the game." />
+      <property name="Style" value="Black" />
+    </card>
+    <card id="307d6de2-3f1e-4983-8178-9c56d2ec76a1" name="Blue Beatdown">
+      <property name="Card Number" value="41" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 3. Physical attack doing +3 power stages of damage. Raise your anger 1 level. If successful, for the remainder of Combat, all of your physical attacks have a Base Damage of X when you use the Physical Attack Table. X = 4 minus your opponent's anger level." />
+      <property name="Style" value="Blue" />
+      <property name="Endurance" value="3" />
+    </card>
+    <card id="16a3415c-044c-4010-a0e1-c641427feea1" name="Blue Energy Guard">
+      <property name="Card Number" value="42" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Stops an energy attack. If you declared a Tokui-Waza, prevents all life cards of damage from energy attacks your opponent performs for the remainder of Combat. Remove from the game after use. Limit 1 per deck." />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="98755e2b-ae72-4615-b587-09ca3134680e" name="Blue Forceful Explosion">
+      <property name="Card Number" value="43" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. Raise your anger 1 level. For the remainder of Combat, prevent 1 power stage of damage from your opponent's physical attacks for each Ally you have in play. Remove from the game after use." />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="6a0d7aef-f537-4fd6-8ef7-5ef54ce72b1f" name="Blue Gut Implosion">
+      <property name="Card Number" value="44" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Physical attack doing +4 power stages of damage. If you declared a Tokui-Waza, shuffle 7 cards in your discard pile into your Life Deck and lower your opponent's Main Personality 1 personality level. Remove from the game after use." />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="69324ff0-6bb5-4372-aa3a-787e4d81d38e" name="Blue Longshot">
+      <property name="Card Number" value="45" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Energy attack. Lower your opponent's anger 2 levels. For the remainder of Combat, all of your energy attacks gain &quot;If successful, raise your anger 1 level.&quot; Remove from the game after use." />
+      <property name="Style" value="Blue" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="518b92c3-226d-4c3c-ab00-fd2ebd4cfa27" name="Blue Multi-Jab">
+      <property name="Card Number" value="46" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing +1 power stages of damage. This attack stays on the table to be used 1 more time this Combat. Cards that can lower your Main Personality any amount of personality levels cannot be played or used for the remainder of Combat." />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="f4186426-e267-47cf-9e5a-3263bf439086" name="Blue Stopping Technique">
+      <property name="Card Number" value="47" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 3. Stops an energy attack. Raise your anger 1 level. Choose 2 Non-Combat cards in your discard pile and place them on top of your Life Deck. Remove from the game after use." />
+      <property name="Style" value="Blue" />
+      <property name="Endurance" value="3" />
+    </card>
+    <card id="aa71e522-2395-468d-a2dc-a29c3c108a49" name="Blue Weaving">
+      <property name="Card Number" value="48" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Stops a physical attack. If you declared a Tokui-Waza, for the remainder of Combat, when taking life cards of damage from a physical attack, all cards in your Life Deck with no Endurance gain Endurance 3. Remove from the game after use. Limit 1 per deck." />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="c17d204f-e3e2-47ba-b885-87e38441ab25" name="Boomstick">
+      <property name="Card Number" value="49" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing 5 life cards of damage. Raise your or your opponent's anger 1 level. If &quot;Locked On&quot; is attached to your opponent's Main Personality, this attack cannot be stopped. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="254ca501-9977-4114-aec1-e18b001305d0" name="Devious Moves">
+      <property name="Card Number" value="50" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Physical attack doing +4 power stages of damage. If used by Majin Buu, raise your anger 1 level. This attack cannot be stopped by floating effects and Defense Shields. Place at the bottom of your Life Deck after use." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="e04ed8e1-8621-42c5-97a9-95e8ddd78492" name="Elder Kai's Sacrifice">
+      <property name="Card Number" value="51" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Discard one of your Allies in play to search your discard pile for another Ally of any level and place it into play at 5 power stages above 0." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="97cd5869-5295-43ee-a051-030a565a3b64" name="Gohan's Forearm Block">
+      <property name="Card Number" value="52" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 1. Stops a physical attack. Raise your anger 1 level. If your personality in control of Combat has a higher power rating than your opponent's Main Personality, this card can stop physical attacks that cannot be stopped." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="d4b7f1e9-184f-4653-9207-e796e3959d8b" name="Gohan's Left Energy Release">
+      <property name="Card Number" value="53" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Sensei Deck. Endurance 2. Heroes only. Energy attack. Lower your opponent's anger 2 levels. If successful, your MP gains 5 power stages, and you may reduce the amount of power stages your MP would gain to shuffle a card from your discard pile back into your Life Deck for each power stage reduced. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="1a378bd3-3750-4483-9c19-fb1d5d9f3443" name="Heroic Charge">
+      <property name="Card Number" value="54" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Physical attack doing +4 power stages of damage. If performed against a Majin, choose a card in your hand that can perform an attack or stop an attack and place it into play. That card is now a Non-Combat card instead of its normal type until it leaves play." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="7b940df0-4ddd-4cd7-a75e-4e067a417f7c" name="Intensity Drill">
+      <property name="Card Number" value="55" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="When one of your attacks deals 5 or more life cards of damage, place the bottom card of your discard pile under this Drill. If there are 3 or more cards under this Drill, during your &quot;Attacker Attacks&quot; phase you may discard this Drill. If you do, you cannot win by the Most Powerful Personality Victory, and you may advance or lower your MP to any level." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="4093be41-389d-421a-9d3e-706a499bd6da" name="Krillin's Sacrifice">
+      <property name="Card Number" value="56" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Krillin only. Physical attack doing +4 power stages of damage. For the remainder of Combat, all of your other attacks do +3 life cards of damage, and damage from your opponent's attacks are doubled after modifiers are applied. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="20274728-9ab9-4dd9-8e4f-d785d469b857" name="Majin Buu, Piccolo Absorbed">
+      <property name="Card Number" value="57" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: All of your attacks do +3 life cards of damage. When Majin Buu gains power stages from a card effect, he gains double the amount of power stages. When you gain anger, increase that amount by +1." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="919302dc-fafe-47a2-9b58-9a021bff242a" name="Majin Buu, Super Buu">
+      <property name="Card Number" value="58" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: All of your attacks do +X power stages of damage. X = your current anger level. At the end of every turn, place the bottom card of your discard pile at the bottom of your Life Deck." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="c0d64970-5389-4cb4-afc0-76b0a4238729" name="Majin Buu's Bicycle Kick">
+      <property name="Card Number" value="59" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Physical attack doing +5 power stages of damage. If successful, lower your opponent's anger 2 levels, and if he has 0 anger, lower his Main Personality 1 personality level." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="b90cfd11-d37e-4b57-8063-931bd00b54db" name="Majin Buu's Goo">
+      <property name="Card Number" value="60" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 2. Physical attack doing 3 power stages of damage and +1 life cards of damage for each of your attached cards in play. Lower your opponent's anger 3 levels." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="3487ba74-62bf-438e-a6f1-5be1fa3639da" name="Majin Buu's Stomach">
+      <property name="Card Number" value="61" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Location" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Sensei Deck. All attacks do +2 power stages of damage. All Fused Personalities in play defuse, and cannot fuse while this Location is in play." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="563afc8f-1093-4c52-b850-532a7eb998ca" name="Majin Static Orb">
+      <property name="Card Number" value="62" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Majin only. Energy attack. Costs 3 power stages to perform. This attack does an additional +X life cards of damage. X = All of your Allies' PUR's added together. Raise your anger 1 level." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="872d9908-e3cc-45d8-a299-0a6a5ad39b76" name="Namekian Finger Blast">
+      <property name="Card Number" value="63" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="2" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. For the remainder of Combat, all Namekian Style cards in your Life Deck without Endurance gain Endurance 1. For the remainder of Combat, when you use Endurance your Main Personality gains an amount of power stages equal to the damage actually prevented after damage is dealt. Limit 2 per deck. Remove from the game after use." />
+      <property name="Style" value="Namekian" />
+    </card>
+    <card id="e697d59b-27c9-4c51-8801-31b578eb00ec" name="Narrow Escape">
+      <property name="Card Number" value="64" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="2" />
+      <property name="Text" value="Stops a physical or energy attack. If your Main Personality is at level 2 or above and you have a &quot;Freestyle Mastery&quot; in play, stops all physical attacks and all energy attacks your opponent performs for the remainder of Combat. Remove from the game after use. Limit 2 per deck." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="f7d459d1-1976-49b9-88b6-b7bbe8a9c3d3" name="Orange Energy Break">
+      <property name="Card Number" value="65" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Energy attack doing 5 life cards of damage. For the remainder of Combat, you do not discard any of your Drills in play when your Main Personality advances or loses a personality level." />
+      <property name="Style" value="Orange" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="4285e573-fabf-47fd-8aa0-32ff5e6dae79" name="Orange Headshot">
+      <property name="Card Number" value="66" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Physical attack doing +5 power stages of damage. Lower your opponent's anger 2 levels. If you declared a Tokui-Waza and your opponent declared a Blue Tokui-Waza, discard any 2 of your opponent's Non-Combat, Allies, Location, Battleground, and/or attached cards in play." />
+      <property name="Style" value="Orange" />
+    </card>
+    <card id="1a43118d-8666-4b9d-b280-f88efdd6a2e3" name="Orange Laser Drill">
+      <property name="Card Number" value="67" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="When you perform an Orange Style attack, you may add an additional +2 power stages to the cost to have the attack do +2 power stages of damage and +1 life cards of damage. You may only use this Drill once per attack." />
+      <property name="Style" value="Orange" />
+    </card>
+    <card id="e9e04c84-d7e4-4724-a992-2f1e3a747712" name="Orange Protection Drill">
+      <property name="Card Number" value="68" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="2" />
+      <property name="Text" value="If you declared a Tokui-Waza, you may remove this Drill from the game when you stop a physical or energy attack to stop all of your opponent's attacks of the same type for the remainder of Combat. Limit 2 per deck." />
+      <property name="Style" value="Orange" />
+    </card>
+    <card id="dd32d9dc-091b-4ba4-b35c-c91101bba22d" name="Orange Rush">
+      <property name="Card Number" value="69" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. Costs 1 life card to perform. The next Orange Style attack you perform this Combat does an additional +1 life cards of damage for each Drill you have in play when you perform that attack." />
+      <property name="Style" value="Orange" />
+    </card>
+    <card id="ccf3df8b-83d0-46f8-b77e-6dd1d1a6ee60" name="Overcharge">
+      <property name="Card Number" value="70" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Use when you pay for the cost of an energy attack. The personality performing the attack may pay up to 3 additional power stages for the energy attack. For each additional power stage paid, the energy attack does an additional +2 life cards of damage. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="dcf0b4c1-a4a2-41fa-9851-361b0dc7a262" name="Ready for Action">
+      <property name="Card Number" value="71" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Use when your Main Personality advances a personality level or when you fuse. Your opponent skips his next &quot;Attacker Attacks&quot; phase. For the remainder of Combat, all of your attacks do +3 life cards of damage. Place the bottom 3 cards of your discard pile at the bottom of your Life Deck. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="e872ac25-4248-470c-a027-b3940909af70" name="Red Cross Slash">
+      <property name="Card Number" value="72" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. If successful, shuffle 5 Red Style cards in your discard pile into your Life Deck. Remove from the game after use." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="f3d17c59-db11-4e05-9dbb-0da24515196d" name="Red Energy Slap">
+      <property name="Card Number" value="73" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Stops an energy attack. If you declared a Tokui-Waza and your opponent declared an Orange Tokui-Waza and your opponent has not performed a successful attack this Combat, stops the next 2 non-focused energy attacks your opponent performs this Combat." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="2d2684b4-5343-4975-9d39-6552437b80db" name="Red Physical Fortification">
+      <property name="Card Number" value="74" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Stops a physical attack. If you declared a Tokui-Waza and your opponent's current anger level is 0, stops all physical attacks performed against you for the remainder of Combat. Remove from the game after use. Limit 1 per deck." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="3e2c16ed-8992-4956-a645-408e8edfe77b" name="Red Rapid Deflection">
+      <property name="Card Number" value="75" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Stops an energy attack. If you declared a Tokui-Waza and your anger level is 1 or higher, stops all energy attacks performed against you for the remainder of Combat. Remove from the game after use. Limit 1 per deck." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="c466f397-7579-4a8e-bea4-d9f667d43ee8" name="Red Rapid Energy">
+      <property name="Card Number" value="76" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. Lower your opponent's anger 2 levels. Empower 3. Place all cards in your discard pile with &quot;Energy&quot; in the title at the bottom of your Life Deck. Remove from the game after use." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="03d27907-5fbb-4a21-94e2-354e22f3cd4b" name="Red Repeating Flares">
+      <property name="Card Number" value="77" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Energy attack doing 2 life cards of damage. This attack stays on the table to be used 2 more times this Combat. You may discard a card from your hand when you perform this attack to do an additional +3 life cards of damage. Remove from the game after use." />
+      <property name="Style" value="Red" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="cfda7f9b-60fe-426b-8a6a-b17468d9de6e" name="Red Static Shot">
+      <property name="Card Number" value="78" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. For the remainder of Combat, your opponent cannot use Endurance again your Red Style attacks. If successful, raise your anger 2 levels." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="ac6cc479-a6da-4e7e-81fa-1d0b06d9d598" name="Redeemed">
+      <property name="Card Number" value="79" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="(This card does not cause you to have an illegal deck because of the hero/villain alignment.) If your Main Personality is a villain, he is a hero until the end of the turn. If your Main Personality is a hero, he is a villain until the end of the turn." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="70d212e0-8e9a-421d-850c-e7dbbe95b5d5" name="Saiyan Blitz">
+      <property name="Card Number" value="80" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="(When you perform a physical attack, you may discard this card from your hand to have that attack do an additional +4 power stages of damage and raise your anger 1 level.) Physical attack doing +3 power stages of damage. Empower 2. For the remainder of Combat, when you use Empower, you still use all of the effects after the Empower." />
+      <property name="Style" value="Saiyan" />
+    </card>
+    <card id="4f481640-072d-4abc-a59f-81e9b0d0023e" name="Saiyan Elusion">
+      <property name="Card Number" value="81" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Stops an energy attack. If you declared a Tokui-Waza, for the remainder of Combat, during your &quot;Defender Defends&quot; phase you may discard a card from your hand to stop an energy attack. Remove from the game after use. Limit 1 per deck." />
+      <property name="Style" value="Saiyan" />
+    </card>
+    <card id="24b0dc8e-5336-4610-afe0-5eadf50a91b1" name="Saiyan Explosion">
+      <property name="Card Number" value="82" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Energy attack doing 5 life cards of damage. Raise your anger 1 level. Empower 2. If you declared a Tokui-Waza and your opponent declared a Black Tokui-Waza, for the remainder of Combat, your opponent's Combat, Physical Combat, and Energy Combat cards cost +1 power stage to use. Shuffle into your Life Deck after use." />
+      <property name="Style" value="Saiyan" />
+    </card>
+    <card id="ab423550-ec24-42eb-8cf9-89fefea3ba96" name="Saiyan Gut Kick">
+      <property name="Card Number" value="83" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Physical attack doing +3 power stages of damage. Lower your opponent's anger 1 level. If successful and you declared a Tokui-Waza, search your Life Deck for a Dragon Ball and place it into play. Remove from the game after use." />
+      <property name="Style" value="Saiyan" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="a232456b-582d-4351-8388-dc3975192db8" name="Saiyan Neckbreaker">
+      <property name="Card Number" value="84" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Physical attack doing +3 power stages of damage. Raise your anger 1 level. Empower 2. For the remainder of Combat, all your physical attacks gain &quot;This attack does an additional +X power stages of damage. X = the amount of times you have used Endurance after you played a 'Saiyan Neckbreaker'.&quot;" />
+      <property name="Style" value="Saiyan" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="80462166-2f85-48bf-b208-27d85616fd62" name="Saiyan Perfect Defense">
+      <property name="Card Number" value="85" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Use only if your Main Personality has a higher power rating than your opponent's Main Personality. Stops a physical attack. If you declared a Tokui-Waza, this card stays on the table to be used multiple times this Combat. Remove from the game at the end of Combat. Limit 1 per deck." />
+      <property name="Style" value="Saiyan" />
+    </card>
+    <card id="8d2c971f-131b-4f5e-843c-2e0e6dbf0ffd" name="Saiyan Push">
+      <property name="Card Number" value="86" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Stops an energy attack. The next energy attack you perform this Combat gains all the secondary effect text of the attack you just stopped. Remove from the game after use." />
+      <property name="Style" value="Saiyan" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="b63ae995-28ed-4eda-8373-bad9f23460bf" name="Saiyan Two Gun Woo">
+      <property name="Card Number" value="87" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage. If your Main Personality has a higher power rating than your opponent's Main Personality, this is a focused attack. For the remainder of Combat, when you use Endurance, your Main Personality gains 1 power stage." />
+      <property name="Style" value="Saiyan" />
+    </card>
+    <card id="997e9765-692c-4b53-9df1-319ccf410edf" name="Sneaky Tricks">
+      <property name="Card Number" value="88" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="The cost of this card is discarding a card from your hand. Search the bottom 7 cards of your Life Deck for a Combat, Physical Combat, or Energy Combat card that can perform an attack. Immediately use that card and remove it from the game after use. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="ce52017c-9db6-4843-87b2-b61ea5421787" name="Unlocked Potential">
+      <property name="Card Number" value="89" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Main Personalities only. If one of your MP's higher personality levels has a Constant Combat Power, you may use that Constant Combat Power for the remainder of the turn. You may only choose 1 Constant Combat Power for each copy of &quot;Unlocked Potential&quot; used." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="e40fff83-e8a2-4c37-897a-2571508cad79" name="Orange Charge Kick">
+      <property name="Card Number" value="90" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Physical attack doing +3 power stages of damage. Empower 2. If successful, take control of one of your opponent's Freestyle Drills in play." />
+      <property name="Style" value="Orange" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="47ab3b5e-0056-4a5a-8437-aec2c8e476bd" name="Vegeta's Blurred Kick">
+      <property name="Card Number" value="91" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 2. Physical attack doing +3 power stages of damage. Gain 3 power stages. Empower 2. If successful, capture an opponent's Dragon Ball. If successful and used by Vegeta, capture 2 of your opponent's Dragon Balls instead. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="8c1943b1-6e92-4a95-8cb4-09e4c1689189" name="Yamcha, the Amazing">
+      <property name="Card Number" value="92" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="When entering Combat, you may remove 3 cards in your discard pile from the game to search your discard pile for a card that can perform an energy attack with a Base Damage of less than 6 life cards and place it into your hand." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="be6c2f13-8f3b-4797-a98d-9644ee1855c6" name="Black Energy Swirl">
+      <property name="Card Number" value="93" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck only. Energy attack doing 5 life cards of damage. If you declared a Tokui-Waza, name a word that is not a Martial Arts Style and raise your anger 2 levels. For the remainder of Combat, your opponent cannot play any cards with the named word in the title. Remove from the game after use." />
+      <property name="Style" value="Black" />
+    </card>
+    <card id="76051ac7-0474-4048-9a05-d957efeecc73" name="Black Uppercut">
+      <property name="Card Number" value="94" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Physical attack doing +3 power stages of damage. Raise your anger 1 level. If successful, end any of your opponent's floating effects that do not stop attacks and that last &quot;for the remainder of Combat.&quot;" />
+      <property name="Style" value="Black" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="5173fe21-f4d4-4bdc-b765-edc46510241c" name="Blue Backhand">
+      <property name="Card Number" value="95" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Physical attack doing 5 power stages of damage. For the remainder of Combat, all of your Non-Combat/Non-Drill cards that do not remove themselves from the game after use are placed at the bottom of your Life Deck after use." />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="69df3d54-e12d-4d21-a6a0-03c380cfdd87" name="Blue Leapfrog Drill">
+      <property name="Card Number" value="96" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck only. At the end of every turn, you may place a Non-Combat card in your discard pile at the bottom of your Life Deck. During your &quot;Defender Defends&quot; phase you may discard one of your Non-Combat cards in play to stop an energy attack." />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="311056ab-9ff8-47af-89a0-2e4ab7475dfb" name="Blue Lunge">
+      <property name="Card Number" value="97" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Physical attack doing +5 power stages of damage. Search the top 5 cards of your Life Deck for a Non-Combat card and place it into play. Place the remaining cards at the bottom of your Life Deck in any order. Remove from the game after use." />
+      <property name="Style" value="Blue" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="5ba441d8-0810-4414-b877-3dfd39d6cf76" name="Dazed">
+      <property name="Card Number" value="98" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Your opponent must pass in his next 2 &quot;Attacker Attacks&quot; phases this Combat. This card has no effect on your opponent if he has the card &quot;Breakfall&quot; in his discard pile and/or his removed from the game pile. Remove from the game after use. Limit 1 per deck." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="a864cfe7-3024-4bc1-9249-68ac5ae26aec" name="Den-Goku">
+      <property name="Card Number" value="99" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: At the end of your turn, place the bottom 5 cards of your discard pile at the bottom of your Life Deck. All of your attacks gain &quot;Den-Goku gains 3 power stages.&quot;" />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="dd6eaa2a-f358-4a5f-8877-262a1d597983" name="Gohan, Earth's Protector">
+      <property name="Card Number" value="100" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Energy attack doing 10 life cards of damage. Costs 0 power stages to perform. This cost cannot be modified by any cards." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="5" />
+    </card>
+    <card id="35d86916-fe4a-4e22-a928-d20adac89809" name="Gohan, Mystic Empowered">
+      <property name="Card Number" value="101" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Physical attack doing +5 power stages of damage or energy attack doing 7 life cards of damage. You may discard the top 3 cards of your Life Deck to make this a focused attack and raise your anger 1 level." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="28c217ca-84a5-4c84-8e7e-7d21e6b2ee79" name="Gotenks' Kamikaze Ghost">
+      <property name="Card Number" value="102" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="6" />
+      <property name="Text" value="(You can have up to 6 copies of this card in your Life Deck.) Gotenks only. Place this card in play. While this card is in play, you may remove it from the game during your &quot;Attacker Attacks&quot; phase to discard the top 6 cards of your opponent's Life Deck." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="5f73da2b-804f-4ad3-94b5-79d47182b9bc" name="Hercule-Goku">
+      <property name="Card Number" value="103" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: You may use &quot;Villains only&quot; cards. Prevent 2 power stages and 1 life card of damage from all attacks performed against you." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="7e42c863-019d-4eb4-b0a3-d596897c6d81" name="Last Ditch Effort">
+      <property name="Card Number" value="104" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 1. Energy attack doing 5 life cards of damage. Raise your anger 1 level. If successful, shuffle all cards with Endurance in your discard pile into your Life Deck. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="f43f149f-f6cc-4942-b8f0-f5515fb2d484" name="Majin Buu, Gohan Absorbed">
+      <property name="Card Number" value="105" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Physical attack doing +6 power stages of damage. If your opponent is a hero, you may use this power to stop a physical attack instead. Place the bottom 5 cards of your discard pile at the bottom of your Life Deck." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="5" />
+    </card>
+    <card id="aa302723-943f-4332-a0c4-b387978db6a5" name="Majin Buu, Gotenks Absorbed">
+      <property name="Card Number" value="106" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: You may discard down to 2 cards instead of 1 during any Discard Step. When Majin Buu performs an attack, you may pay an additional +2 power stages to make it a focused attack and do +2 life cards of damage." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="1406304f-5cc0-4df5-adde-344fc169fab5" name="Majin Buu's Energy Spray">
+      <property name="Card Number" value="107" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Majin only. Energy attack doing 5 life cards of damage. Raise your anger 2 levels. If successful, choose a &quot;Majin only&quot; Energy Combat card in your discard pile and place it into your hand. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="2b5e76af-e114-4faa-9fb0-448e674add4e" name="Majin Buu's Kamikaze Ghost">
+      <property name="Card Number" value="108" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="6" />
+      <property name="Text" value="(Only Majin Buu may have this personality as an Ally. He may have up to 6 copies of this Ally in his Life Deck and may have multiple copies in play.) Remove this personality from the game to discard the top 4 cards of your opponent's Life Deck." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="8a651b18-cd36-4fd7-a612-13865c4d67db" name="Majin Buu's New House">
+      <property name="Card Number" value="109" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Location" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="All players play with their hands faceup on the table. All Named cards in all players' Life Decks without Endurance gain Endurance 1." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="87ff1bcb-f79e-4858-a1fb-846310271a72" name="Majin Planet Destruction Blast">
+      <property name="Card Number" value="110" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Majin only. Energy attack. This attack does an additional +1 life cards of damage for each &quot;Majin only&quot; card in your discard pile. If successful, shuffle 5 &quot;Majin only&quot; cards in your discard pile into your Life Deck. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="8b04d5bc-772a-454f-b738-ecc8b4fbca2f" name="Majin Thrust">
+      <property name="Card Number" value="111" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Majin only. Energy attack doing 7 life cards of damage. For the remainder of Combat, all &quot;Majin only&quot; cards in your Life Deck without Endurance gain Endurance 1. If your opponent's MP is at a higher personality level than your MP, for the remainder of Combat, all of your other attacks do +2 life cards of damage." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="4ad719de-c8bc-46f1-b1e7-1d38c89722bf" name="Namekian Door Explosion">
+      <property name="Card Number" value="112" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Energy attack doing 6 life cards of damage. If successful, while the current Battleground or Location is in play, your opponent cannot place a new Battleground or Location into play and cannot discard or remove from the game the current Battleground or Location unless he plays &quot;Dimension Scream.&quot;" />
+      <property name="Style" value="Namekian" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="56572701-f63b-46ca-a3df-f0f3c30691cc" name="Orange Reflex">
+      <property name="Card Number" value="113" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Sensei Deck only. Energy attack. You may pay +4 power stages to search your Life Deck for an Energy Combat card that performs an energy attack and use that card (including its secondary effects) for no cost, instead of this one. Limit 1 per deck." />
+      <property name="Style" value="Orange" />
+    </card>
+    <card id="2a3aa565-81e6-4b6d-bc3e-cd5937edf698" name="Potara Earrings">
+      <property name="Card Number" value="114" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="If you have Goku in play choose one of your Vegeta, Hercule, or Dende personality cards in play. If your Goku and the chosen personality are at the same personality level, they may fuse. Attach this card to the Fused personality. They only defuse when this card is no longer attached." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="ac72aabc-cb45-4b53-aeb6-87a024f588bc" name="Red Drop">
+      <property name="Card Number" value="115" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck only. Physical attack doing +3 power stages of damage. For the remainder of Combat, all of your other attacks do +X power stages of damage. X = your MP's current personality level. Raise your anger 1 level. Shuffle into your Life Deck after use." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="38de6ea9-afd5-44ff-af8c-dde3bbe5612d" name="Red Leverage Blast">
+      <property name="Card Number" value="116" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing +X power stages of damage. X = the Base Damage on the Physical Attack Table. Costs 3 power stages to perform. Raise your anger 1 level. If successful, place 3 Energy Combat cards in your discard pile on top of your Life Deck. Remove from the game after use." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="50d5904e-6ef3-4abf-b480-27a6df964dba" name="Red Mouth Cannon">
+      <property name="Card Number" value="117" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage or lower your opponent's Main Personality 1 personality level. Remove from the game after use." />
+      <property name="Style" value="Red" />
+    </card>
+    <card id="a7fb4d32-79fe-4517-84ae-a2aee4d9e3bd" name="Red Whiplash">
+      <property name="Card Number" value="118" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Physical attack doing +4 power stages of damage. Raise your anger 1 level. Empower 2. If stopped, search your Life Deck for a Physical Combat card and place it into your hand. The remaining cards are placed on top of your Life Deck in any order." />
+      <property name="Style" value="Red" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="7255d82a-5ee6-460f-8bf2-7ed8061e694c" name="Saiyan Overcharged Blast">
+      <property name="Card Number" value="119" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck only. Energy attack doing +2 power stages of damage. If the personality performing this attack has a higher power rating than your opponent's MP's power rating, this attack costs 0 power stages to perform. Lower your opponent's anger 1 level. This attack stays on the table to be used 1 more time this Combat. Remove from the game after use." />
+      <property name="Style" value="Saiyan" />
+    </card>
+    <card id="46872ba2-c5c3-4dd4-9ba5-8d58081e558f" name="Straining Power Move">
+      <property name="Card Number" value="120" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Energy attack doing +1 life cards of damage for each Straining Move card in your discard pile. Lower your opponent's anger 2 levels." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="208da0b0-2373-4e7e-8fd7-6ab66812d581" name="Transformation">
+      <property name="Card Number" value="121" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Use at the end of Combat. You cannot win by the Most Powerful Personality Victory for the remainder of the game. Advance or lower your Main Personality's personality level to X. X = your current anger. If X is higher than your MP's highest level, your MP advances to his highest level. If X = 0, then lower your MP to his lowest level." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="2b8cd893-ae5d-4276-8432-856b88db019f" name="Vegeta's Fury">
+      <property name="Card Number" value="122" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Vegeta and Majin Vegeta only. Attach to your &quot;Majin Vegeta's Rage&quot; that is attached to a &quot;Vegeta's Quickness Drill.&quot; While attached, all your Freestyle cards (excluding Non-Combat cards) gain &quot;Remove from the game after use&quot; and when you draw cards with &quot;Majin Vegeta's Rage&quot; and &quot;Vegeta's Quickness Drill&quot; you may choose the cards in your discard pile instead." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="f35916a7-fde8-46d2-80fd-38b0a6714a27" name="Vegito">
+      <property name="Card Number" value="123" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: All Goku and Vegeta Named cards that perform attacks do +3 life cards of damage. You do not have to pay costs for any cards unless the card allows you to pay any amount." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="4f6bc336-2dce-4544-b78e-bceab70ba210" name="Gotenks, Super Saiyan 3">
+      <property name="Card Number" value="124" />
+      <property name="Rarity" value="Ultra Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Physical attack doing +7 power stages of damage. Lower your opponent's anger to 0. Gain 5 power stages. Place the bottom 3 cards of your discard pile at the bottom of your Life Deck. This power may be used a second time this Combat." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="6c5a2423-4636-4461-b304-d84ba5095c97" name="Vegito, Super Saiyan">
+      <property name="Card Number" value="125" />
+      <property name="Rarity" value="Ultra Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Your opponent discards the top 7 cards of his Life Deck." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="9256434a-88a2-4ae8-aab6-1192df7a02cd" name="Goku's Flight">
+      <property name="Card Number" value="Preview1" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Stops a physical or energy attack. Raise your or your opponent's anger 1 level. If you declared a Freestyle Tokui-Waza, stops the next physical or energy attack performed against you this Combat. If used by Goku, place this card at the bottom of your Life Deck after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="616fabf9-223f-484e-847e-e82deb4a1d8d" name="Majin Buu's Choke Hold">
+      <property name="Card Number" value="Preview2" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Physical attack doing +4 power stages of damage. Empower 2. For the remainder of Combat, your opponent's Main Personality loses 1 power stage at the beginning of each of his &quot;Attacker Attacks&quot; phases. If successful, search your Life Deck for a card with &quot;Throw&quot; in the title and place it into your hand." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="537e2183-4948-410c-8cd6-1c062c040865" name="Majin Bibidi, the Mastermind">
+      <property name="Card Number" value="Preview3" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="For the remainder of Combat, when one of your personalities performs an attack with his personality power, it now does +3 power stages of damage if Majin Babidi is in play." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="dd8552ac-8f26-482f-bcf7-f7b482231080" name="Peaceful Times">
+      <property name="Card Number" value="Preview4" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Use during your Non-Combat Step if you did not put this card into play this turn. If you and your opponent did not declare Combat on your previous turns, raise your Main Personality to his highest power stage and place 6 cards in your discard pile at the bottom of your Life Deck." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="6c5337ab-25ef-42b6-b20d-7b895b262044" name="The Power of Porunga">
+      <property name="Card Number" value="Preview5" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="2" />
+      <property name="Text" value="You may search your Life Deck for a Namek Dragon Ball and place it into play, or you may use this card to win the game when you have 7 Namek Dragon Balls in play and your opponent uses a card to delay your Dragon Ball Victory. Remove from the game after use. Limit 2 per deck." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="34351879-8880-4e68-b02a-dd7a8b1442ee" name="Devastation Drill">
+      <property name="Card Number" value="Preview6" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="All of your physical attacks do +5 power stages of damage. Discard this Drill if you have any other Non-Combat cards in play." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="c0774700-666c-477c-b336-139645cb3067" name="Gotenks' Fast Action">
+      <property name="Card Number" value="P01" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Fused characters only. Physical attack doing +3 power stages of damage. Lower your opponent's anger 1 level. Gain 2 power stages. This attack stays on the table to be used 1 more time this Combat." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="f009a01b-92c0-404a-946a-4ec6961c1545" name="Hercule Draws Steel">
+      <property name="Card Number" value="P02" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 3. Physical attack doing 4 power stages of damage. Shuffle any &quot;Hercule Draws Steel&quot; cards in your discard pile into your Life Deck." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="3" />
+    </card>
+    <card id="6651688a-249d-4762-8000-b03c422b56ff" name="Heroic Head Throw">
+      <property name="Card Number" value="P03" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Heroes only. Physical attack doing +3 power stages of damage. If performed against a Majin, this attack doing +6 power stages of damage instead and stops the next focused attack your opponent performs this Combat. Raise your anger 1 level." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="0ca758fc-a337-48cf-9eb2-a994e0f07a01" name="Human Extinction Attack">
+      <property name="Card Number" value="P04" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 2. Energy attack doing 8 life cards of damage. Costs 5 power stages to perform. If successful and used by Majin Buu, remove from the game all Allies in play and in all Life Decks." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="99a8f8ce-4276-419d-9cb2-3dc023f80509" name="Locked On">
+      <property name="Card Number" value="P05" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Attach to your opponent's Main Personality. While the attached personality is in control of Combat, damage from your attacks cannot be redirected to Allies." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="f675374a-74b0-4b86-bb20-e204386b4ec8" name="Orange Blitzkrieg">
+      <property name="Card Number" value="P06" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 4. Energy attack doing 6 life cards of damage. If successful, attach to one of your Freestyle Drills in play. While attached and a card would discard the attached Drill, this card is discarded instead." />
+      <property name="Style" value="Orange" />
+      <property name="Endurance" value="4" />
+    </card>
+    <card id="e8892c35-7913-4b35-b00b-7ca136c45bc5" name="Vegeta, the Celestial">
+      <property name="Card Number" value="P07" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Rogue" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: If you declared a Tokui-Waza, any of your Freestyle Physical Combat cards that say &quot;Remove from the game after use&quot; gain the text &quot;Place at the bottom of your Life Deck after use&quot; instead. All of your physical attacks do +1 power stages of damage." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="91337a7a-b01f-411f-ae64-08dcfcb56b52" name="Orange Palm Technique">
+      <property name="Card Number" value="P08" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. Lower your opponent's anger 2 levels. For the remainder of Combat, as a defense you may remove from the game any amount of cards in your discard pile with Endurance to prevent X life cards of damage. X = the total amount of Endurance on those cards." />
+      <property name="Style" value="Orange" />
+    </card>
+    <card id="0727ad87-a6dd-4eb8-9b59-0b408885a737" name="Orange Power Point">
+      <property name="Card Number" value="P09" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 3. Energy attack doing 6 life cards of damage. If successful, search your Life Deck for an Orange Style Drill and place it into play." />
+      <property name="Style" value="Orange" />
+      <property name="Endurance" value="3" />
+    </card>
+    <card id="2bcdc13b-71fd-4276-8a01-20f146eab141" name="Taking a Break">
+      <property name="Card Number" value="P10" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="You cannot use this card during your first &quot;Attacker Attacks&quot; phase in Combat. If you have passed in all of your &quot;Attacker Attacks&quot; phases so far this Combat, place 5 cards in your discard pile at the bottom of your Life Deck and raise your Main Personality to his highest power stage. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="82ab62cf-32e4-4632-8d0f-f8fd2205bb5e" name="Supreme West Kai">
+      <property name="Card Number" value="CA01" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="0" />
+      <property name="Text" value="Constant Combat Power: When entering Combat, shuffle up to 5 cards from your discard pile into your Life Deck." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="ce38354a-c72b-4046-91e2-f9865b91499b" name="Supreme West Kai">
+      <property name="Card Number" value="CA02" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="0" />
+      <property name="Text" value="Constant Combat Power: When entering Combat, draw the bottom of top card of your discard pile." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="19ae6342-6ce9-4c26-976b-5d04b2fdb303" name="Supreme West Kai">
+      <property name="Card Number" value="CA03" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="0" />
+      <property name="Text" value="Constant Combat Power: When entering Combat, shuffle up to 5 cards in your discard pile into your Life Deck and draw the top or bottom card of your discard pile." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="cdd20c3c-2965-46d3-bfe7-1f2926d2dad9" name="Dr. Willow">
+      <property name="Card Number" value="CA04" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="(Dr. Willow cannot win by the Most Powerful Personality Victory.) Constant Combat Power: When entering Combat, remove the top card of your Life Deck from the game to remove the top 2 cards of your opponent's Life Deck from the game and raise your anger 3 levels." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="cbcbf5da-867f-44f0-89f6-c4fd61f8274b" name="Dr. Willow">
+      <property name="Card Number" value="CA05" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="(Dr. Willow cannot win by the Most Powerful Personality Victory.) Discard 3 cards from your hand to search your opponent's Life Deck for any 5 cards. Your opponent chooses 1 of those cards and puts it into his hand. The others are removed from the game. If Dr. Willow is your Main Personality, advance him 1 personality level at the end of Combat." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="3bd98df6-a43a-4ace-859c-6501dfd01750" name="Dr. Willow">
+      <property name="Card Number" value="CA06" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="(Dr. Willow cannot win by the Most Powerful Personality Victory.) Constant Combat Power: When entering Combat, draw 2 cards. When a player performs a successful attack, gain 2 anger. If Dr. Willow is your Main Personality, then when you reach 5 or more anger, he loses 2 personality levels." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="29ded85f-41af-4657-a87f-40fc68569bc0" name="Zarbon">
+      <property name="Card Number" value="CA07" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: All of your attacks gain &quot;If successful, raise your anger 1 level and gain 2 power stages.&quot; Power: Focused energy attack." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="756cf635-92bf-408b-b5d1-33b80f9c1af2" name="Zarbon, Transformed">
+      <property name="Card Number" value="CA08" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: When entering Combat, draw the bottom cards of your discard pile. All of your attacks gain &quot;If successful, raise your anger 1 level and gain 3 power stages.&quot; After damage is dealt to Zarbon, if Zarbon's Power Rating is 0 then lose 1 personality level." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="3cbd40b0-e929-44a3-a5df-9c9e2aeea397" name="Zarbon, Fanatical">
+      <property name="Card Number" value="CA09" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: When entering Combat, draw one of the bottom 3 cards of your discard pile. All of your attacks gain &quot;If successful, gain 4 power stages and remove the bottom 2 cards of your opponent's discard pile from the game.&quot; After damage is dealt to Zarbon, if Zarbon's Power Rating is 0 then lose 1 personality level." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="96709977-7a50-4463-a762-3efe88c94df1" name="Turles, the Mysterious">
+      <property name="Card Number" value="CA10" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: Damage from your attacks cannot be redirected. Power: Physical attack doing +1 power stages of damage for each personality in play. Raise your anger 1 level." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="0f3a5752-d4ac-43dd-8b5e-973d5f580a1f" name="Turles, the Proud">
+      <property name="Card Number" value="CA11" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: Damage from your attacks cannot be redirected or reduced. Power: Physical attack doing +3 power stages of damage. You may remove an Ally in play from the game. If you do, raise your anger 1 level." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="12d82ecb-3b8b-4822-a3ff-89d5c5aee4ca" name="Turles, the Saiyan Warrior">
+      <property name="Card Number" value="CA12" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: Damage from your attacks cannot be redirected, reduced, or prevented. Power: Energy attack doing +1 power stages of damage for each Ally in your and your opponent's removed from the game piles. If &quot;Tree of Might&quot; is in play, this attack does +2 power stages for each Ally instead." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="f4f8935a-a567-4889-983f-1cdadb3f5906" name="Caterpy">
+      <property name="Card Number" value="CA13" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: All your physical attacks do +1 power stages of damage. Power: Your opponent discards a card at random from your hand for you to draw a card. Raise your anger 1 level." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="eb21612f-f809-4f2b-8c6d-6cdcdc7c47eb" name="Caterpy, the Grappler">
+      <property name="Card Number" value="CA14" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: All your physical attacks do +2 power stages of damage. Power: When entering Combat, you may discard a Non-Combat card you have in play to raise your anger 2 levels and name a Non-Combat card. Search your Life Deck for a copy of that Non-Combat card and set it aside. That Non-Combat card comes into play at the end of the turn." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="3a826bb0-1800-4dc2-bd6d-7738b407b2c6" name="Caterpy, the Tenacious">
+      <property name="Card Number" value="CA15" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Constant Combat Power: All your physical attacks do +3 power stages of damage. Power: Discard a card from your hand to search your Life Deck for a card of the same card type as the card discarded, including Dragon Balls, and put it into your hand." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="d1c028d6-8cca-4268-be8f-dd1153f82905" name="Gohan's Immense Power">
+      <property name="Card Number" value="CA16" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Gohan only. If Gohan is your Main Personality, you may give up winning by the Most Powerful Personality Victory this turn to advance your Main Personality 2 personality levels, if possible. If you do, lower your Main Personality 2 personality levels at the end of the turn." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="c66d7511-58e3-4ee1-8430-3c3bf1525fad" name="Goku's Power Pole">
+      <property name="Card Number" value="CA17" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Goku only. Attach to your Goku in play. While attached, all of your attacks do +2 power stages of damage and gain &quot;if successful, discard one of your opponent's Allies in play.&quot; You can only have 1 &quot;Goku's Power Pole&quot; attached at a time." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="38c77e21-1095-4e01-8d63-fb7c2f86844e" name="Energetic Fruit">
+      <property name="Card Number" value="CA18" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Raise your Main Personality to his highest power stage. Attach this card to your Main Personality. While attached, your Main Personality's PUR is increased by +2, and if &quot;Tree of Might&quot; is in play, you need 1 less anger to advance a personality level. You can only have 1 &quot;Energetic Fruit&quot; attached at a time." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="ed1a5bde-b73c-4250-8e27-6b12583f5395" name="Icarus">
+      <property name="Card Number" value="CA19" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="If Gohan is your Main Personality, draw a card and raise your anger 1 level." />
+      <property name="Style" value="Freestyle" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="c1b714ec-50a5-4c3a-9410-2fbdaa7211d3" name="Tree of Might">
+      <property name="Card Number" value="CA20" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Battleground" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="All attacks do +2 power stages of damage. When entering Combat, each player may search his Life Deck for a Freestyle Drill and place it into play." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="56971ddd-17ea-492f-b750-bc6ce8ed7d7c" name="Goku's Super Saiyan Catch">
+      <property name="Card Number" value="CA21" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 1. Stops a physical attack. Raise your anger 1 level. If used by a personality with &quot;Saiyan&quot; in the title, raise your anger 2 levels instead and place this card at the bottom of your Life Deck." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="340b1138-65ff-49a1-95b5-4a145e93b059" name="Knowledge Transfer">
+      <property name="Card Number" value="CA22" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Endurance 3. Look at your opponent's hand. Look at the top 5 cards of your opponent's Life Deck and place them back in the same order. Your opponent skips his next &quot;Attacker Attacks&quot; phase and his Main Personality loses 2 power stages." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="3" />
+    </card>
+    <card id="4a67669b-58af-4cd7-ba21-e212eb74b92b" name="Piccolo's Power Blast">
+      <property name="Card Number" value="CA23" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="(If your Main Personality is Piccolo, this card has Endurance 3.) Energy attack doing 6 life cards of damage. Costs 3 power stages to perform. All life cards of damage dealt from this attack are removed from the game instead of discarded. Shuffle into your Life Deck after use." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="3" />
+    </card>
+    <card id="c6d8221d-ab22-4fd5-a246-afbb7c74050a" name="Cooler's Surprise Attack">
+      <property name="Card Number" value="CA24" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 2. Stops an energy attack. Raise your anger 1 level. If used by Cooler, search your Life Deck for a Freestyle Drill and place it into play, and your opponent discardards X life cards. X = the amount of life cards of damage the stopped attack would have dealt." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="cc6d90bf-ec11-4af4-a877-2892e891113c" name="Returning the Favor">
+      <property name="Card Number" value="CA25" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Energy attack. Costs 1 power stage to perform. If your opponent preformed a successful energy attack in his previous &quot;Attacker Attacks&quot; phase, this attack does the same amount of damage that his attack dealt. Damage from this attack cannot be modified by your other effects." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="29df0679-8870-469b-bf6f-c19648876794" name="Ingrain in the Membrane">
+      <property name="Card Number" value="CA26" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Attach to one of your Non-Combat cards in play that is not &quot;Orange Focusing Drill.&quot; While attached, when another card effect would discard or remove from the game the attached Non-Combat card, this card is discarded or removed instead." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="a97ca415-339c-4bb6-9f98-74b77d1ca7e7" name="Alt. Earth Dragon Ball 3">
+      <property name="Card Number" value="CA27" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Dragon Ball" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="Draw 2 cards. While you control this Dragon Ball, all Styled cards in your Life Deck without Endurance gain Endurance 1, and your opponent's attacks need to deal 7 or more life cards of damage to capture a Dragon Ball instead of 5." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="9078b858-fc8d-46f2-b0a1-44a1418f3fbd" name="Goku's Quick Dodge">
+      <property name="Card Number" value="CA28" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Stops a physical attack. Raise your Main Personality to his highest power stage, and for the remainder of Combat, prevent 1 power stage of damag from all of your opponent's attacks." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="2cc56e46-d4a0-45e1-96c4-5539b34b00d3" name="Energy Pouch">
+      <property name="Card Number" value="CA29" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Stops an energy attack. Raise your anger 1 level. Place the top card of your discard pile at the bottom of your Life Deck. This card can stop attacks that cannot be stopped. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="3db568d9-3530-4f25-a51d-43ffd32f1c5a" name="Master Roshi's Back Kick">
+      <property name="Card Number" value="CA30" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Physical attack doing +3 power stages of damage. Discard one of your opponent's Allies in play. For each Ally in your opponent's discard pile, your opponent discards the top card of his Life Deck. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="35d9686f-2b7f-43b7-a88f-bb4c1187565d" name="Gohan's Energy Deflection">
+      <property name="Card Number" value="CA31" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 1. Stops an energy attack. Raise your anger 1 level. If used by Gohan gain 3 power stages and for the remainder of the turn, your Allies cannot be discarded or removed from the game." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="1" />
+    </card>
+    <card id="15de8334-4e69-45a2-849b-2280848c8b32" name="Makyo Star">
+      <property name="Card Number" value="CA32" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Attach to a Battleground or Location in play. While attached, your Main Personality's PUR is increased by +2 and all of your attacks do +1 power stages of damage." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="73b27607-a156-43fb-89ab-f396313c9afc" name="Piccolo's Destruction Attack">
+      <property name="Card Number" value="CA33" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Limit per Deck" value="4" />
+      <property name="Text" value="Endurance 2. Physical attack doing +4 power stages of damage. Gain 4 power stages. If successful and this attack deals life cards of damage, remove from the game up to X cards in your opponent's discard pile. X = twice as many life cards of damage that this attack dealt." />
+      <property name="Style" value="Freestyle" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="e4747214-7d02-4fff-b98a-c6d9f9688284" name="Blue Style Mastery">
+      <property name="Card Number" value="CA34" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Mastery" />
+      <property name="Limit per Deck" value="1" />
+      <property name="Text" value="(This is an MRP of the Trunks Saga Blue Style Mastery.) Your opponent must reach 6 anger to advance a personality level. All of your Blue Style attacks again &quot;If successful, raise or lower your opponent's anger 1 level.&quot;" />
+      <property name="Style" value="Blue" />
+    </card>
+    <card id="825d5a6a-27fc-4ebf-aa75-f40ebaa173f4" name="A Hero's Heart is Strong">
+      <property name="Card Number" value="CA35" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="Sensei Deck. Remove all cards in all discard piles from the game. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+    <card id="24c7bfdf-621c-449e-b73b-c5b3c1417265" name="Black Scout Maneuver">
+      <property name="Card Number" value="CA36" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Event Combat" />
+      <property name="Limit per Deck" value="3" />
+      <property name="Text" value="(This is not a Black Style card.) Sensei Deck only. Name any Combat, Physical Combat, or Energy Combat card. All of your opponents must search their Life Decks for all copies of that card and remove them from the game. Unless you declared a Black Tokui-Waza, limit 2 per deck. Remove from the game after use." />
+      <property name="Style" value="Freestyle" />
+    </card>
+  </cards>
+</set>
