@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
       xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-      name="Dragon Ball Z TCG/CCG - NZ Format" 
+      name="Dragon Ball Z TCG CCG - NZ Format" 
       id="b5df32b4-59b4-4a67-aa6c-8636ae8daf07" 
       octgnVersion="3.1.2.0" 
       version="1.0.3.9"
@@ -78,11 +78,6 @@
 <player summary="Anger: {#Anger} / Hand: {#Hand}">
    <globalvariable name="phase" value="0" /> 
 	<counter name="Anger" icon="Counters/anger.png" default="0" />
-	<hand name="Hand" visibility="me" ordered="False" icon="groups/hand.png">
-	<cardaction menu="Play Card" default="True" execute="play" />
-	<groupaction menu="Random Discard" execute="randomDiscard" />
-	<groupaction menu="Show a Card at Random" default="False" execute="showatrandom"/>
-</hand>
 	<group name="Life Deck" visibility="none" icon="groups/library.png" shortcut="F5">
     <groupaction menu="Draw" default="True" shortcut="Ctrl+D" execute="draw" />
     <groupaction menu="Draw X..." shortcut="Ctrl+X" execute="drawMany" />
