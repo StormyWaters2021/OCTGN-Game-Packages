@@ -234,6 +234,13 @@ def invert_check():
         return P1_COORDS
 
 
+def get_coords():
+    if len(players) >= 3:
+        return getMyCoords()
+    else:
+        return invert_check()
+        
+
 def roll_army(location):
     # Selects all dice in a designated area of the table and passes
     # that list to the dice rolling function
@@ -248,7 +255,7 @@ def move_to_army(location, die):
     if die.Type == "Major Terrain":
         return
 
-    coords = invert_check()
+    coords = get_coords()
 
     if me.isInverted:
         y_base = coords[location][1] + DICE_VERTICAL_SHIFT_INVERTED
@@ -268,7 +275,7 @@ def get_army(location):
     
     army = []
     if me.isInverted:
-        coords = P2_COORDS
+        coords = get_coords()
         for c in table:
             if c.controller == me:
                 if c.position[0] <= coords[location][0] + 75 and c.position[0] >= coords[location][2]:
@@ -276,7 +283,7 @@ def get_army(location):
                         if c.set != "Spell Cards":
                             army.append(c)
     else:
-        coords = P1_COORDS
+        coords = get_coords()
         for c in table:
             if c.controller == me:
                 if c.position[0] >= coords[location][0] and c.position[0] <= coords[location][2]:
@@ -296,7 +303,7 @@ def build_army(loc):
     sorted = sort_army(full_army)
     
     # Determine which coordinate dictionary to use
-    coords = invert_check()
+    coords = get_coords()
     
     # Determine which direction (left or right) to place dice (since one player is inverted)
     if me.isInverted:
@@ -811,7 +818,7 @@ def autosave_check(army):
 def zone_check(x, y):
     # Determines which zone a player has clicked in, to automatically select the right area to roll/reset
     # Returns the name of the army, eg: "Home Army", "Campaign Army", etc.
-    coords = invert_check()
+    coords = get_coords()
     if me.isInverted:
         for location in coords:
             if x < coords[location][0] and x > coords[location][2] and y < coords[location][1] and y > coords[location][3]:
