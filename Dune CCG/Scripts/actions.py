@@ -140,6 +140,7 @@ def chooseWell(limit, choiceText, default = None):
    return choice
    
 def download_o8c(group,x=0,y=0):
+   return
    openUrl("http://dbzer0.com/pub/Dune/sets/Dune-Sets-Bundle.o8c")
 #---------------------------------------------------------------------------
 # Card Placement functions

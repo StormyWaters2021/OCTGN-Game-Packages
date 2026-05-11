@@ -1,0 +1,1604 @@
+<?xml version='1.0' encoding='utf-8'?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Showdown" id="8f6af0e6-f1c5-4087-b5a2-b604252cf760" gameId="8f6af0e6-f1c5-4087-b5a0-b604252cf760" gameVersion="3.0.0.0" version="3.0.0.0">
+  <cards>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf001" name="Black Energy Beam">
+      <property name="Number" value="1" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2: SUCCESSFUL - Remove from the game the bottom X cards of your opponent's discards. X = the base damage of this attack." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf002" name="Black Gut Punch">
+      <property name="Number" value="2" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="5" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="3: It this attack is Unstoppable, this attack does +3 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf003" name="Black Injury">
+      <property name="Number" value="3" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: CONSTANT - Your &quot;Unstoppable&quot; attacks deal +1 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf004" name="Black Interrogation">
+      <property name="Number" value="4" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: Your next Black styled attack this turn gains &quot;Unpreventable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf005" name="Black Monkey Smash">
+      <property name="Number" value="5" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(If you have a Level 3 MP, this attack does +4 damage and costs -2 stages.) 3, Mastery:" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf006" name="Black Twin Blast">
+      <property name="Number" value="6" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="4" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2: If this attack is &quot;Unstoppable,&quot; your opponent cannot use his Mastery for this turn and the next." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf007" name="Blue Bodyguard">
+      <property name="Number" value="7" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(When this Support is removed from the game, discard it instead.) 1: Your next physical attack this turn does +3 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf008" name="Blue Deflection">
+      <property name="Number" value="8" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(This card costs -1 stage for each Blue styled Support you have in play.) 3: Stop a physical attack. Draw a card." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf009" name="Blue Epic Uppercut">
+      <property name="Number" value="9" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(If your MP is Level 3, this card costs -2 stages.) 3, Mastery: This attack does +2 damage for each Support you have in play." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf010" name="Blue Face Swipe">
+      <property name="Number" value="10" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="7" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="3:" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf011" name="Blue Neck Wrench">
+      <property name="Number" value="11" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2, Mastery: SUCCESSFUL - Capture!" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf012" name="Blue Surprise">
+      <property name="Number" value="12" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: Put into your hand up to 3 Blue styled Supports from your discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf013" name="Bulma - Capsule Princess">
+      <property name="Number" value="13" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="" />
+      <property name="Type" value="Ally" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="Human" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="2" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="1: This attack deals +X damage. X = the number of Events you played this turn." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf014" name="Bulma's Angry Barrage">
+      <property name="Number" value="14" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="0" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(Unstoppable.) 2: This attack deals +X damage. X = the number of Freestyle cards in your discards to a max of 10." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf015" name="Dodoria - Big Pinky">
+      <property name="Number" value="15" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="1" />
+      <property name="PUR" value="5" />
+      <property name="Trait" value="Alien" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="CONSTANT - After one of your successful energy attacks deals damage, you may remove from the game a Combat Event or Support in your opponent's discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf016" name="Dodoria's Empowering Rage">
+      <property name="Number" value="16" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="0: For this turn and the next, your attacks count as energy attacks for your effects." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf017" name="Friends Help Friends">
+      <property name="Number" value="17" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 3: Discard 2 cards from your hand to put 1 card from your discards into your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf018" name="Gohan - Playful Saiyan">
+      <property name="Number" value="18" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="2" />
+      <property name="PUR" value="4" />
+      <property name="Trait" value="Saiyan; Human" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="3" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="1: Instead of discarding for your Mastery this turn, you may draw a card." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf019" name="Krillin - Unlocked Potential">
+      <property name="Number" value="19" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="2" />
+      <property name="PUR" value="4" />
+      <property name="Trait" value="Human" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="CONSTANT - Your Refocused Energy attacks cost -1 stage to a minimum of 1." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf020" name="Krillin's Predicament">
+      <property name="Number" value="20" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 1: Your opponent may take up to 5 damage. For each damage he does not take, you may put a card from your discards at the bottom of your life deck." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf021" name="Launch's Gun Assault">
+      <property name="Number" value="21" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="6" />
+      <property name="Damage" value="13" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(Unstoppable.) 6: You may put this card on top of your life deck after use instead of discarding it. SUCCESSFUL - Capture!" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf022" name="Namekian Double Elbow">
+      <property name="Number" value="22" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="3: If your MP's level is higher than your opponent's MP's level, you may put this card at the top of your life deck after use instead of discarding it." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf023" name="Namekian Energy Shield">
+      <property name="Number" value="23" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1, Namek: Stop an energy attack of 8 base damage or less. Your MP's PUR gains -1 for this turn and the next." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf024" name="Namekian Finger Lasers">
+      <property name="Number" value="24" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use.) 2: SUCCESSFUL - If your MP is a Namek, put the top 2 Namekian styled discards at the bottom of your life deck." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf025" name="Namekian Forearm Block">
+      <property name="Number" value="25" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: Stop a physical attack. If your MP is a Namek, shuffle this card into your life deck after use." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf026" name="Namekian Palm Blast">
+      <property name="Number" value="26" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use.) 4: If you have 6 or more Namekian styled cards in your discards, draw a card." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf027" name="Namekian Vacation">
+      <property name="Number" value="27" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 2: If your have 6 or more Namekian styled cards in your discards, put up to 3 Freestyle cards from your discards at the bottom of your life deck." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf028" name="Orange High Kick">
+      <property name="Number" value="28" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="1" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(Limit 1 per deck.) 1: If you have 6 or more Orange styled cards in your discards, this attack deals +X damage. X = the number of Orange Styled Supports in your discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf029" name="Orange Leg Capture">
+      <property name="Number" value="29" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2, Mastery: If this Personality's current power rating is 1,000 or less, you may put in play a Support from your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf030" name="Orange Phone Call">
+      <property name="Number" value="30" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: CONSTANT - Once per turn during your Attack Phase, you may discard a card from your hand to put an Orange styled Support from your discards into your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf031" name="Orange Rejuvenation">
+      <property name="Number" value="31" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="3: CONSTANT - When you perform an attack, you may pay +1 stage for that attack to deal +2 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf032" name="Orange Sky Blasts">
+      <property name="Number" value="32" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="4" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2, Mastery: If this Personality's current power rating is 1,000 or less, this attack does +AT damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf033" name="Orange Wide Bursts">
+      <property name="Number" value="33" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="3" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use.) 2: Your Supports cannot be removed from the game by your opponent's effects for this turn." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf034" name="Red Concentration">
+      <property name="Number" value="34" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="3: CONSTANT - When you Refocus with a Red styled attack, its damage gains +2." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf035" name="Red Cross Block">
+      <property name="Number" value="35" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="3: Stop a physical attack. For this turn, when you Refocus, your opponent takes 1 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf036" name="Red Cross Punch">
+      <property name="Number" value="36" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="7" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="3: SUCCESSFUL - Capture!" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf037" name="Red Enraged Burst">
+      <property name="Number" value="37" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2: When you Refocus with this attack, its damage gains +2." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf038" name="Red Frantic Blasts">
+      <property name="Number" value="38" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2: When you Refocus with this attack, your opponent takes 3 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf039" name="Red Light Jab">
+      <property name="Number" value="39" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2: Your opponent cannot Refocus against this attack." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf040" name="Saiyan Double Ki Ball">
+      <property name="Number" value="40" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="3: SUCCESSFUL - Capture!" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf041" name="Saiyan Dragon Ball Affinity">
+      <property name="Number" value="41" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: For this turn, your Saiyan styled attacks gain, &quot;Successful - Capture!&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf042" name="Saiyan Focused Blast">
+      <property name="Number" value="42" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="3" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2: SUCCESSFUL - You may take 4 damage to draw a card." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf043" name="Saiyan Guarded Block">
+      <property name="Number" value="43" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2, Mastery: Stop a physical attack. If your opponent stops your next attack this turn, you may draw a card." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf044" name="Saiyan Head Smash">
+      <property name="Number" value="44" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(Remove from the game after use.) 2: If this personality is a Saiyan, your opponent cannot perform an attack in his next Attack Phase unless a Saiyan personality performs it." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf045" name="Saiyan Hiding">
+      <property name="Number" value="45" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: Search your life deck for a Saiyan styled attack and put it in your hand. Discard a random card from your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf046" name="Vegeta's Strength">
+      <property name="Number" value="46" />
+      <property name="Rarity" value="Common" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="6" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2: If you have taken at least 6 damage this turn, this attack deals +3 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf047" name="Black Braced Block">
+      <property name="Number" value="47" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="3, Mastery: Stop a physical attack. Your next Black styled attack this turn gains &quot;Unpreventable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf048" name="Black Destruction">
+      <property name="Number" value="48" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: Your opponent chooses one of his Supports in play. You may discard that Support, or you may have him discard a card from his hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf049" name="Black Energy Ball">
+      <property name="Number" value="49" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="4" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2: If you Refocus with this card, remove from the game the bottom 2 cards of your opponent's discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf050" name="Black Forceful Slam">
+      <property name="Number" value="50" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="8" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(This card costs -1 stage for each card you have in your hand more than your opponent) 4:" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf051" name="Black Narrow Escape">
+      <property name="Number" value="51" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: Stop an energy attack. Your next Black styled attack this turn gains &quot;Unstoppable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf052" name="Blue Braced Blast">
+      <property name="Number" value="52" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="2" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use.) 1: SUCCESSFUL- You may pay 1 stage to put into your hand a physical attack from your discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf053" name="Blue Destiny">
+      <property name="Number" value="53" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Limit 1 per deck.) 1: Discard a Blue styled Support from your hand to make your next Blue styled attack this turn deal +4 damage and cost -3 stages to a minimum of 1." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf054" name="Blue Surprised Jump">
+      <property name="Number" value="54" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2, Mastery: Stop an energy attack. You may discard a Blue styled Support from your hand to gain 2 stages." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf055" name="Blue Teamwork">
+      <property name="Number" value="55" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2, Mastery: You may discard any Blue styled physical attacks from your hand. Your next Blue styled attack this turn does +X damage. X = the total base costs of the discarded cards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf056" name="Bulma - Technological Genius">
+      <property name="Number" value="56" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="1" />
+      <property name="PUR" value="3" />
+      <property name="Trait" value="Human" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="CONSTANT - Your Freestyle Events and Freestyle Supports cost -1 stage to a minimum of 1." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf057" name="Determined Strike">
+      <property name="Number" value="57" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="4" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2: This attack does +X damage. X = Your MP's Level times 2." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf058" name="Dodoria - Scourge of Saiyans">
+      <property name="Number" value="58" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="" />
+      <property name="Type" value="Ally" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="Alien" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="2" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="1: This attack does +X damage. X = the number of Saiyans your opponent has." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf059" name="Dodoria's Mouth Cannon">
+      <property name="Number" value="59" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="7" />
+      <property name="Damage" value="19" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Unstoppable.) 7: SUCCESSFUL - Capture!" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf060" name="Frieza - Interplanetary Conqueror">
+      <property name="Number" value="60" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="" />
+      <property name="Type" value="Ally" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="Alien" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="5" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2: For this turn, your other attacks performed by Aliens do +1 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf061" name="Frieza's Reinforcements">
+      <property name="Number" value="61" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 2: You may put a Named card from your discard pile into your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf062" name="Gohan's Anger">
+      <property name="Number" value="62" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: Your opponent may lose up to 3 stages. Gain X stages. X = the number of stages your opponent did not lose." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf063" name="Goku's Determination">
+      <property name="Number" value="63" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 1: Take X damage. For this turn, your attacks deal +X damage. X = this personality's level." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf064" name="Launch - Girl Next Door">
+      <property name="Number" value="64" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="1" />
+      <property name="PUR" value="3" />
+      <property name="Trait" value="Human" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: If all your personalities are Humans, put into play a Freestyle Support from your discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf065" name="Namekian Cavalry">
+      <property name="Number" value="65" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 3: Put into play a Namekian styled Support from your discards and draw 2 cards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf066" name="Namekian Double Axe Handle">
+      <property name="Number" value="66" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="4: This attack deals +X damage. X = the number of stages you gained this Combat." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf067" name="Namekian Formation">
+      <property name="Number" value="67" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: Name a card in your opponent's discards. Your opponent cannot play and/or use a card with that title this turn." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf068" name="Namekian Interrupted Meditation">
+      <property name="Number" value="68" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: Your opponent may lose a stage. If he does not, your next attack this turn costs -3 stages to a minimum of 1." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf069" name="Namekian Persuasion">
+      <property name="Number" value="69" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 1: If the top and bottom cards of your discards are both Namekian styled, you may put one of those cards into your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf070" name="Orange Danger">
+      <property name="Number" value="70" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 2: If you have at least 4 Supports in your discards, you may put in play an Orange styled Support from your discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf071" name="Orange Destruction">
+      <property name="Number" value="71" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 1: For this turn, when a Support is discarded from your life deck as damage, you may discard a card from your hand to put that Support in play." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf072" name="Orange Fist Catch">
+      <property name="Number" value="72" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: Stop a physical attack. Put an Orange styled Support from your discards into your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf073" name="Orange Full Body Block">
+      <property name="Number" value="73" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: Stop an energy attack of X base cost or less. X = the number of Orange Supports you have in play." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf074" name="Orange Mentoring">
+      <property name="Number" value="74" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 3: Discard any number of cards from your hand to draw the same number of cards. You may put in play any Supports from your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf075" name="Red Advice">
+      <property name="Number" value="75" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 1: Draw X cards. X = the number of times you Refocused this turn." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf076" name="Red Empowerment">
+      <property name="Number" value="76" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2, Mastery: If you Refocused at least once this turn, your opponent cannot Refocus against your attacks this Combat." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf077" name="Red Escape">
+      <property name="Number" value="77" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 1, Mastery: If you prevented all the damage from 2 or more of your opponent's attacks this turn with your Red styled cards, your opponent cannot use &quot;Successful - &quot; effects for this turn and the next." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf078" name="Red Stomach Catch">
+      <property name="Number" value="78" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: Stop an energy attack. You cannot Refocus during your opponent's next attack this turn." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf079" name="Saiyan Confrontation">
+      <property name="Number" value="79" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: CONSTANT - While your MP's level is higher than your opponent's MP's level, cards your opponent plays as a defense cost +1 stage to use." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf080" name="Saiyan Gut Breaker">
+      <property name="Number" value="80" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="5" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(If your MP is Level 3, this attack's base damage is twice the AT instead.) 5, Mastery: You may take 6 damage to have this attack deal +6 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf081" name="Saiyan Ki Push">
+      <property name="Number" value="81" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2, Mastery: You may take 4 damage to have your PUR gain +1 for this turn and the next." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf082" name="Saiyan Knee Crush">
+      <property name="Number" value="82" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="3" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2: You may remove from the game 10 Saiyan styled cards from your discards to have your next Saiyan styled attack this Combat gain, &quot;Unpreventable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf083" name="Surprised">
+      <property name="Number" value="83" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="0" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 0: All players draw the top card of their discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf084" name="Zarbon - Transformed">
+      <property name="Number" value="84" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="2" />
+      <property name="PUR" value="4" />
+      <property name="Trait" value="Alien" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="4" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2: Search your life deck for a Zarbon Named card and put it in your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf085" name="Zarbon's Crushing Bear Hug">
+      <property name="Number" value="85" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="7" />
+      <property name="Damage" value="17" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(Unstoppable.) 7: If your opponent has any Saiyans, this attack does +4 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf086" name="Black Assistance">
+      <property name="Number" value="86" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="2: Discard a Black styled card from your hand to have your next Black styled attack this turn gain &quot;Unstoppable&quot; and &quot;Unpreventable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf087" name="Black Reflection">
+      <property name="Number" value="87" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 2, Mastery: Discard a random card from your opponent's hand. Search your opponent's life deck and hand for any copies of that card and discard them." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf088" name="Black Strained Blast">
+      <property name="Number" value="88" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="3" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="2, Mastery: SUCCESSFUL - Choose for your opponent to discard a card from his hand or to have his MP lose 2 stages." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf089" name="Black Transformation">
+      <property name="Number" value="89" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Black" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: Your next &quot;Unstoppable&quot; Black styled attack this turn costs -3 stages to a minimum of 1." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf090" name="Blue Destructive Blast">
+      <property name="Number" value="90" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="4" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use.) 2: If you Refocus with this card, you may put into your hand a Blue styled Physical Combat card from your discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf091" name="Blue Face Annihilation">
+      <property name="Number" value="91" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="6" />
+      <property name="Damage" value="15" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(This card costs -1 stage for each Blue styled Support you have in play.) 6:" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf092" name="Blue Knee Lift">
+      <property name="Number" value="92" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="5" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2: You may discard a Blue styled Support from your hand to have this attack gain &quot;Unpreventable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf093" name="Blue Scouting">
+      <property name="Number" value="93" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 1: Put a Blue styled Physical Combat from your discards into your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf094" name="Blue Skull Bash">
+      <property name="Number" value="94" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Blue" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="0" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(Remove from the game after use.) 1, Mastery: For this turn, you count as having performed +1 Blue styled physical attack." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf095" name="Bulma's Relaxation">
+      <property name="Number" value="95" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 2: Search your life deck for a Freestyle Event and put it in your hand. Your opponent takes 2 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf096" name="Determined Ki Charge">
+      <property name="Number" value="96" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="4" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Unstoppable.) 2: If your opponent prevents damage from this attack, draw a card." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf097" name="Frieza - Decisive Leader">
+      <property name="Number" value="97" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="1" />
+      <property name="PUR" value="4" />
+      <property name="Trait" value="Alien" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="CONSTANT - Your first attack each Combat does +X damage. X = the number of Aliens you have." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf098" name="Frieza's Fingertip Ball">
+      <property name="Number" value="98" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="8" />
+      <property name="Damage" value="21" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Unstoppable.) 8: Your opponent's non-Aliens each lose 1 stage. SUCCESSFUL - Capture!" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf099" name="Goku - 100x Gravity Trained">
+      <property name="Number" value="99" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="2" />
+      <property name="PUR" value="4" />
+      <property name="Trait" value="Saiyan" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="CONSTANT - Once per turn, you may remove from the game X cards from your discards to stop an energy attack. X = the attack's base damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf100" name="Launch's Catering">
+      <property name="Number" value="100" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use.) 2: You may shuffle up to 3 Freestyle cards from your discards into your life deck." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf101" name="Launch - Femme Fatale">
+      <property name="Number" value="101" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="" />
+      <property name="Type" value="Ally" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="Human" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="3" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2: If have Tien and Chiaotzu, this attack does +3 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf102" name="Namekian Multi-Blast">
+      <property name="Number" value="102" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="5" />
+      <property name="Damage" value="10" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="5: Put your top 3 discards at the bottom of your life deck. This attack deals +X damage. X = the number of Namekian styled cards you put at the bottom with this effect." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf103" name="Namekian Flying Kick">
+      <property name="Number" value="103" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="5" />
+      <property name="Damage" value="12" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="5, Mastery: Your attacks that do a base damage of AT cost -1 stage to a minimum of 1 for this turn." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf104" name="Namekian Friendship">
+      <property name="Number" value="104" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Limit 1 per deck.) 2: CONSTANT - When your opponent passes in his Attack Phase, you may put the top card of your discards at the bottom of your life deck." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf105" name="Namekian Throat Jab">
+      <property name="Number" value="105" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Namekian" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="5" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2, Mastery: If your MP's level is higher than your opponent's MP's level, this attack deals +3 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf106" name="Orange Amazement">
+      <property name="Number" value="106" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="3: CONSTANT - While your MP's power rating is 1,000 or less, attacks performed by your MP gain &quot;Unstoppable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf107" name="Orange Body Blow">
+      <property name="Number" value="107" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="2, Mastery: SUCCESSFUL - Search your life deck for an Orange styled Support you have in play and put it into play." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf108" name="Orange Stance">
+      <property name="Number" value="108" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Support" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Limit 1 per deck.) 2: CONSTANT - Your first Orange styled attack each turn deals +X damage. X = the number of Supports you have with Constant effects." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf109" name="Orange Team Attack">
+      <property name="Number" value="109" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Orange" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="6" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use.) 3, Mastery: Put in play an Orange styled Support from your discards." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf110" name="Red Beatdown">
+      <property name="Number" value="110" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="4" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="(Remove from the game after use.) 2: If you Refocus with this attack, then for the rest of the turn your Red styled attacks cost -1 stage to a minimum of 1." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf111" name="Red Empowered Ball">
+      <property name="Number" value="111" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="6" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 3, Mastery: For this turn, when you Refocus with an attack, you may draw a card." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf112" name="Red Jump Kick">
+      <property name="Number" value="112" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="8" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="3: If your opponent has 6 or more stages, this attack gains &quot;Unstoppable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf113" name="Red Ki Ball">
+      <property name="Number" value="113" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="4" />
+      <property name="Damage" value="10" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="4: For this turn, when you Refocus with an attack, that attack gains, &quot;Capture!&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf114" name="Red Lunging Blast">
+      <property name="Number" value="114" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Red" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="2" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 2: For this turn, when you Refocus with an attack, your next attack this turn gains, &quot;Unpreventable.&quot;" />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf115" name="Saiyan Desparation Blast">
+      <property name="Number" value="115" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="2" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="1: You may choose for your next attack this Combat to have a base damage of AT instead of its printed base damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf116" name="Saiyan Ki Flurry">
+      <property name="Number" value="116" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="6" />
+      <property name="Attack Type" value="Energy" />
+      <property name="Text" value="(Remove from the game after use.) 3: SUCCESSFUL - Your opponent discards a card from his hand after he performs a physical attack this turn." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf117" name="Saiyan Prepared Block">
+      <property name="Number" value="117" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="3" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. If your MP is level 2 or higher, this card costs 1 stage instead.) 3, Mastery: Stop an energy attack. Put a Saiyan styled attack from your discards into your hand." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf118" name="Saiyan Rush">
+      <property name="Number" value="118" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Saiyan" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="1: For this turn, your Saiyan styled attacks deal +X damage. X = the number of personalities your opponent has. Limit 1 per deck." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf119" name="Vegeta - Oozaru">
+      <property name="Number" value="119" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="3" />
+      <property name="PUR" value="3" />
+      <property name="Trait" value="Saiyan" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="AT" />
+      <property name="Attack Type" value="Physical" />
+      <property name="Text" value="1: For this turn, when you take damage to use one of your effects, take 4 less damage to use that effect instead." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf120" name="Zarbon - Loyal Henchman">
+      <property name="Number" value="120" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="" />
+      <property name="Type" value="Ally" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="Alien" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="CONSTANT - Physical attacks performed by this personality do +1 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf121" name="Zarbon's Calm">
+      <property name="Number" value="121" />
+      <property name="Rarity" value="Rare" />
+      <property name="Style" value="Freestyle" />
+      <property name="Type" value="Event Combat" />
+      <property name="Level" value="" />
+      <property name="PUR" value="" />
+      <property name="Trait" value="" />
+      <property name="Cost" value="1" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="(Remove from the game after use. Limit 1 per deck.) 1: You may take up to 5 damage to gain X stages. X = the amount of damage you took with this effect." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf122" name="Vegeta - Vengeful Saiyan">
+      <property name="Number" value="P14" />
+      <property name="Rarity" value="Promo" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="2" />
+      <property name="PUR" value="4" />
+      <property name="Trait" value="Saiyan" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="CONSTANT - When you perform a Saiyan styled attack, you may take 1 damage to have that attack deal +1 damage." />
+    </card>
+    <card id="8f6af0e6-f1c5-4087-b5a2-b604252cf123" name="Goku - Combat Hungry">
+      <property name="Number" value="P15" />
+      <property name="Rarity" value="Promo" />
+      <property name="Style" value="" />
+      <property name="Type" value="MP" />
+      <property name="Level" value="1" />
+      <property name="PUR" value="4" />
+      <property name="Trait" value="Saiyan" />
+      <property name="Cost" value="" />
+      <property name="Damage" value="" />
+      <property name="Attack Type" value="" />
+      <property name="Text" value="CONSTANT - Your opponent takes 2 damage when he attacks or prevents damage from an attack performed by this Personality." />
+    </card>
+  </cards>
+</set>
