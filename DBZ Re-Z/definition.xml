@@ -4,7 +4,7 @@
       name="Dragon Ball Z TCG (2005) - ReZ" 
       id="8f6af0e6-f1c5-4087-b5a0-b604252cf760" 
       octgnVersion="3.1.2.0" 
-      version="0.0.0.2"
+      version="0.0.0.3"
       markersize="20"
       tags="Dragon Ball Z, DBZ, DBZ CCG, DBZ TCG, DBZ Card Game"
       description="2005 Score Dragon Ball Z Game - ReZ"
@@ -25,7 +25,7 @@
 </scripts>
 
 <events>
-   <event name="OnLoadDeck" action="loadDeck" />
+   <event name="OnDeckLoaded" action="loadDeck" />
    <event name="OnGameStarted" action="boardInit" />
    <event name="OnCardsMoved" action="CardsMoved" />
    <event name="OnScriptedCardsMoved" action="scriptedCardsMoved" />
@@ -33,13 +33,26 @@
 
 <fonts />
 
+<markers>
+	<marker name="Power Stages" id="16db7493-da77-49f8-b496-0c6e5cc5e0dd" src="Images/stages.png" />
+</markers>
+
 <proxygen definitionsrc="proxy/proxydef.xml" />
+
+<phases>
+	<phase name="Draw Step" icon="groups/draw.png" />
+	<phase name="Power Up Step" icon="groups/powerup.png" />
+	<phase name="Combat Step" icon="groups/combat.png" />
+</phases> 
 
 <documents>
 	<document name="Rule Book" icon="documents/manual.png" src="documents/rulebook.pdf" />
 </documents>
 
-<globalvariables />
+<globalvariables>
+	<globalvariable name="numLoadedDecks" value="0" />
+</globalvariables>
+
 
 <card back="Images/cardback.jpg" front="Images/cardback.jpg" width="63" height="88">
 	<property name="Level" type="String" />
@@ -116,7 +129,6 @@
 <shared />
 
 <deck>
-	<section name="Starting" group="Starting" />
 	<section name="Life Deck" group="Life Deck" />
 </deck>
 

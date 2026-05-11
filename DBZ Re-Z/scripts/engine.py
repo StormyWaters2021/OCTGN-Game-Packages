@@ -21,9 +21,9 @@ import re
 def gameSetup():
     faceUpAll()
     me.piles["Life Deck"].shuffle()
-    for c in table:
-        if c.controller == me and c.properties["Card Level"] is not "":
-            c.markers[CounterMarker] = 5
+    # for c in table:
+        # if c.controller == me and c.properties["Level"] is not "":
+            # c.markers[CounterMarker] = 5
 
 # determineFirstPlayer
 # This function should be called on behalf of one player.
@@ -32,7 +32,7 @@ def gameSetup():
 # TODO: Add "Before the first turn" effects (Currently
 # just Saiyan Dynamic Mastery)
 def determineFirstPlayer():
-    n = rnd(0, 1)
+    n = rnd(0, len(players)-1)
     notify("OCTGN randomly determined {} will choose which player takes the first turn".format(players[n]))
     if players[n] == me:
         chooseFirstPlayer()

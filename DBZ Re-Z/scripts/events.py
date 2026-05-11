@@ -43,30 +43,40 @@ def gameInit():
 # Automation.
 def loadDeck(args):
     mute()
-    if not eval(getGlobalVariable("automationEnabled")):
-        return
+    whisper("Deck loaded")
+    ally_counter = 0
     if not me.isInverted:
         mp_x_offset = HostPlayerMP_x_Offset
         mp_y_offset = HostPlayerMP_y_Offset
         mastery_x_offset = HostPlayerMastery_x_Offset
         mastery_y_offset = HostPlayerMastery_y_Offset
+        ally_x_offset = HostPlayerAlly_x_Offset
+        ally_y_offset = HostPlayerAlly_y_Offset
     else:
         mp_x_offset = GuestPlayerMP_x_Offset
         mp_y_offset = GuestPlayerMP_y_Offset
         mastery_x_offset = GuestPlayerMastery_x_Offset
         mastery_y_offset = GuestPlayerMastery_y_Offset
+        ally_x_offset = GuestPlayerAlly_x_Offset
+        ally_y_offset = GuestPlayerAlly_y_Offset
 
     if args.player == me:
-        setGlobalVariable("numLoadedDecks", str( 1 + eval(getGlobalVariable("numLoadedDecks")) ) )
+        setGlobalVariable("numLoadedDecks", str( 1 + int(getGlobalVariable("numLoadedDecks")) ) )
         args.player.setGlobalVariable("maxHandSize", 1)
-        for card in args.player.piles["Starting"]:
+        for card in me.piles["Life Deck"]:
+            whisper("One card")
             if card.Type == "Mastery":
                 card.moveToTable(mastery_x_offset, mastery_y_offset, True)
-            elif card.properties["Card Level"] == "1":
+            elif card.Type == "MP":
                 card.moveToTable(mp_x_offset, mp_y_offset, True)
-        if eval(getGlobalVariable("numLoadedDecks")) > 1:
+            elif card.Type == "Ally":
+                card.moveToTable(ally_x_offset[ally_counter], ally_y_offset, True)
+                ally_counter += 1
+                
+        if int(getGlobalVariable("numLoadedDecks")) >= len(players):
             gameSetup()
-            remoteCall(players[1], "gameSetup", [])
+            if len(players) > 1:
+                remoteCall(players[1], "gameSetup", [])
             update()
             determineFirstPlayer()
 

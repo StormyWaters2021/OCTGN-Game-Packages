@@ -35,6 +35,7 @@ def flipCoin(group, x = 0, y = 0):
         notify("{} flips tails.".format(me))
 
 def powerUp(group, x = 0, y = 0):
+    # Currently non-functional
         mute()
         personalitiesInTable = [c for c in table if c.controller == me]
         for card in personalitiesInTable:
@@ -86,12 +87,12 @@ def banishBottom(group, x = 0, y = 0):
 
 def addCounter(card, x = 0, y = 0):
 	mute()
-	notify("{} adds 1 counter to {}.".format(me, card))
+	notify("{} powers up {}.".format(me, card))
 	card.markers[CounterMarker] += 1
 
 def removeCounter(card, x = 0 , y = 0):
 	mute()
-	notify("{} removes 1 counter to {}.".format(me, card))
+	notify("{} powers down {}.".format(me, card))
 	card.markers[CounterMarker] -= 1
 	  
 def setCounter(card, x = 0, y = 0):
