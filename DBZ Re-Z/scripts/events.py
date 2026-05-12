@@ -43,7 +43,6 @@ def gameInit():
 # Automation.
 def loadDeck(args):
     mute()
-    whisper("Deck loaded")
     ally_counter = 0
     if not me.isInverted:
         mp_x_offset = HostPlayerMP_x_Offset
@@ -64,7 +63,6 @@ def loadDeck(args):
         setGlobalVariable("numLoadedDecks", str( 1 + int(getGlobalVariable("numLoadedDecks")) ) )
         args.player.setGlobalVariable("maxHandSize", 1)
         for card in me.piles["Life Deck"]:
-            whisper("One card")
             if card.Type == "Mastery":
                 card.moveToTable(mastery_x_offset, mastery_y_offset, True)
             elif card.Type == "MP":
@@ -72,7 +70,16 @@ def loadDeck(args):
             elif card.Type == "Ally":
                 card.moveToTable(ally_x_offset[ally_counter], ally_y_offset, True)
                 ally_counter += 1
-                
+        
+        for card in me.piles["Starting"]:
+            if card.Type == "Mastery":
+                card.moveToTable(mastery_x_offset, mastery_y_offset, True)
+            elif card.Type == "MP":
+                card.moveToTable(mp_x_offset, mp_y_offset, True)
+            elif card.Type == "Ally":
+                card.moveToTable(ally_x_offset[ally_counter], ally_y_offset, True)
+                ally_counter += 1
+        
         if int(getGlobalVariable("numLoadedDecks")) >= len(players):
             gameSetup()
             if len(players) > 1:
