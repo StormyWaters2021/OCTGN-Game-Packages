@@ -4,7 +4,7 @@
       name="Dragon Ball Z TCG (2005) - ReZ" 
       id="8f6af0e6-f1c5-4087-b5a0-b604252cf760" 
       octgnVersion="3.1.2.0" 
-      version="0.0.0.4"
+      version="0.0.0.5"
       markersize="20"
       tags="Dragon Ball Z, DBZ, DBZ CCG, DBZ TCG, DBZ Card Game"
       description="2005 Score Dragon Ball Z Game - ReZ"
@@ -25,10 +25,10 @@
 </scripts>
 
 <events>
-   <event name="OnDeckLoaded" action="loadDeck" />
-   <event name="OnGameStarted" action="boardInit" />
-   <event name="OnCardsMoved" action="CardsMoved" />
-   <event name="OnScriptedCardsMoved" action="scriptedCardsMoved" />
+   <!-- <event name="OnDeckLoaded" action="loadDeck" /> -->
+   <!-- <event name="OnGameStarted" action="boardInit" /> -->
+   <!-- <event name="OnCardsMoved" action="CardsMoved" /> -->
+   <!-- <event name="OnScriptedCardsMoved" action="scriptedCardsMoved" /> -->
 </events>
 
 <fonts />
