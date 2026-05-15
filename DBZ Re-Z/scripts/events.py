@@ -15,6 +15,10 @@ import time
 # Sets the default value (disabled) for automationEnabled
 def boardInit():
     mute()
+    if me._id != 1:
+        return
+    attack_table = table.create(PAT, 200, -44, quantity = 1, persist = True)
+    attack_table.anchor = True
     # setGlobalVariable("automationEnabled", "False")
     # whisper("Press Ctrl+A to enable Game Setup Automation for both players.")
     # whisper("This automation will play your MP and Mastery (face down) to the table when your deck is loaded.")

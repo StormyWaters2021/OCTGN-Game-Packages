@@ -4,6 +4,7 @@
 ####################################################
 
 CounterMarker =("Power Stages", "16db7493-da77-49f8-b496-0c6e5cc5e0dd")
+PAT = "8f6af0e6-f1c5-4087-b5a5-b604252cf001"
 
 HostPlayerMP_x_Offset = 0
 HostPlayerMP_y_Offset = 12

@@ -318,7 +318,7 @@
       <property name="Rarity" value="Common" />
       <property name="Style" value="" />
       <property name="Type" value="Ally" />
-      <property name="Level" value="1" />
+      <property name="Level" value="" />
       <property name="PUR" value="" />
       <property name="Trait" value="Human" />
       <property name="Cost" value="" />
@@ -337,7 +337,7 @@
       <property name="Cost" value="2" />
       <property name="Damage" value="5" />
       <property name="Attack Type" value="Energy" />
-      <property name="Text" value="2: This personality cannot attack again this turn." />
+      <property name="Text" value="2: This personality cannot attack or refocus this turn." />
     </card>
     <card id="8f6af0e6-f1c5-4087-b5a1-b604252cf027" name="Earth Dragon Ball 1">
       <property name="Number" value="27" />
@@ -402,7 +402,7 @@
       <property name="Cost" value="1" />
       <property name="Damage" value="5" />
       <property name="Attack Type" value="Physical" />
-      <property name="Text" value="1: This personality cannot attack again this turn and the next." />
+      <property name="Text" value="1: This personality cannot attack or refocus this turn and the next." />
     </card>
     <card id="8f6af0e6-f1c5-4087-b5a1-b604252cf032" name="Gohan's Dream">
       <property name="Number" value="32" />
@@ -1520,7 +1520,7 @@
       <property name="Cost" value="7" />
       <property name="Damage" value="19" />
       <property name="Attack Type" value="Energy" />
-      <property name="Text" value="(Unstoppable.) 7: This personality cannot attack, prevent damage or stop attacks for this turn. SUCCESSFUL - Capture!" />
+      <property name="Text" value="(Unstoppable.) 7: This personality cannot attack, refocus, prevent damage or stop attacks for this turn. SUCCESSFUL - Capture!" />
     </card>
     <card id="8f6af0e6-f1c5-4087-b5a1-b604252cf118" name="Chiaotzu's Help">
       <property name="Number" value="118" />
@@ -1780,7 +1780,7 @@
       <property name="Cost" value="2" />
       <property name="Damage" value="0" />
       <property name="Attack Type" value="Physical" />
-      <property name="Text" value="2: Draw a card for each Saiyan in play." />
+      <property name="Text" value="2: Draw a card for each of your Saiyans in play." />
     </card>
     <card id="8f6af0e6-f1c5-4087-b5a1-b604252cf138" name="Nappa - Ki Charged">
       <property name="Number" value="138" />
@@ -1819,7 +1819,7 @@
       <property name="Cost" value="2" />
       <property name="Damage" value="" />
       <property name="Attack Type" value="" />
-      <property name="Text" value="2: Pur in play an Orange styled Support from your discards." />
+      <property name="Text" value="2: Put in play an Orange styled Support from your discards." />
     </card>
     <card id="8f6af0e6-f1c5-4087-b5a1-b604252cf141" name="Orange Finger Detonation">
       <property name="Number" value="141" />
@@ -2105,7 +2105,7 @@
       <property name="Cost" value="5" />
       <property name="Damage" value="" />
       <property name="Attack Type" value="" />
-      <property name="Text" value="5: Cards with Constant effects that you use as a defense cost -1 stage to play to a minimum of 1." />
+      <property name="Text" value="5: Cards without Constant effects that you use as a defense cost -1 stage to use to a minimum of 1." />
     </card>
     <card id="8f6af0e6-f1c5-4087-b5a1-b604252cf163" name="Red Right Hook">
       <property name="Number" value="163" />
@@ -2196,7 +2196,7 @@
       <property name="Cost" value="2" />
       <property name="Damage" value="" />
       <property name="Attack Type" value="" />
-      <property name="Text" value="2: CONSTANT - After you paid the cost to perform a Saiyan Styled attack, you may gain 1 stage." />
+      <property name="Text" value="(Limit 1 per deck.) 2: CONSTANT - After you paid the cost to perform a Saiyan Styled attack, you may gain 1 stage." />
     </card>
     <card id="8f6af0e6-f1c5-4087-b5a1-b604252cf170" name="Saiyan Ki Flare">
       <property name="Number" value="170" />
@@ -3135,7 +3135,7 @@
       <property name="Text" value="CONSTANT - Your attacks do +1 damage." />
     </card>
     <card id="8f6af0e6-f1c5-4087-b5a1-b604252cf242" name="Vegeta's Gallic Gun">
-      <property name="Number" value="241" />
+      <property name="Number" value="242" />
       <property name="Rarity" value="Rare" />
       <property name="Style" value="Freestyle" />
       <property name="Type" value="Energy Combat" />
