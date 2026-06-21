@@ -4,7 +4,7 @@
       name="Dragon Ball Z TCG CCG - NZ Format" 
       id="b5df32b4-59b4-4a67-aa6c-8636ae8daf07" 
       octgnVersion="3.1.2.0" 
-      version="1.0.3.14"
+      version="1.0.4.0"
       markersize="20"
       tags="Dragon Ball Z, DBZ, DBZ CCG, DBZ TCG, DBZ Card Game"
       description="Community-Driven Format for mixing the 2001 Score Entertainment Dragon Ball Z CCG with the NZ Fan Sets"
@@ -18,6 +18,7 @@
 <script src="scripts/actions.py" />
 <script src="scripts/generic.py" />
 <script src="scripts/constants.py" />
+<script src="scripts/changelog.py" />
 <script src="scripts/engine.py" />
 <script src="scripts/events.py" />
 <script src="scripts/plugin.py" />
@@ -28,6 +29,7 @@
    <event name="OnLoadDeck" action="loadDeck" />
    <event name="OnCardsMoved" action="CardsMoved" />
    <event name="OnScriptedCardsMoved" action="scriptedCardsMoved" />
+   <event name="OnTableLoaded" action="show_changelog"/>
 </events>
 
 <fonts />
