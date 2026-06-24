@@ -1,4 +1,8 @@
 changelog = {
+    1000401: ("1.0.4.1", "23 June 2026", [ 
+        "Overhaul of card names to eliminate duplicates.",
+        "Fix some minor typos."
+        ]),    
     1000400: ("1.0.4.0", "21 June 2026", [ 
         "Added a changelog dialog that displays when a game is started.",
         "Added NZ 10 - Mortal Combat set.",

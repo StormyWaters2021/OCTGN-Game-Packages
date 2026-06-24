@@ -4,7 +4,7 @@
       name="Dragon Ball Z TCG CCG - NZ Format" 
       id="b5df32b4-59b4-4a67-aa6c-8636ae8daf07" 
       octgnVersion="3.1.2.0" 
-      version="1.0.4.0"
+      version="1.0.4.1"
       markersize="20"
       tags="Dragon Ball Z, DBZ, DBZ CCG, DBZ TCG, DBZ Card Game"
       description="Community-Driven Format for mixing the 2001 Score Entertainment Dragon Ball Z CCG with the NZ Fan Sets"
@@ -46,14 +46,15 @@
 	<property name="Card Level" type="String" />
 	<property name="Card Number" type="String"/>
 	<property name="Style" type="String" />
-	<property name="Endurance" type="Integer" />
+	<property name="Endurance" type="String" />
 	<property name="Type" type="String" />
 	<property name="Rarity" type="String" />
 	<property name="PUR" type="String" />
 	<property name="Power Rating" type="String" />
 	<property name="Text" type="String" />
 	<property name="Traits" type="String" />
-	<property name="Limit per Deck" type="Integer" />
+	<property name="Limit" type="String" />	
+	<property name="True Type" type="String" />	
 </card>
 
 <table name="Table" visibility="undefined" ordered="False" width="500" height="380" background="Board/background.png" backgroundStyle="uniformToFill">
