@@ -4,7 +4,7 @@
       name="Dragon Ball Z TCG CCG - NZ Format" 
       id="b5df32b4-59b4-4a67-aa6c-8636ae8daf07" 
       octgnVersion="3.1.2.0" 
-      version="1.0.4.1"
+      version="1.0.4.2"
       markersize="20"
       tags="Dragon Ball Z, DBZ, DBZ CCG, DBZ TCG, DBZ Card Game"
       description="Community-Driven Format for mixing the 2001 Score Entertainment Dragon Ball Z CCG with the NZ Fan Sets"
@@ -28,6 +28,7 @@
 <events>
    <event name="OnLoadDeck" action="loadDeck" />
    <event name="OnCardsMoved" action="CardsMoved" />
+   <event name="OverrideCardsMoved" action="OverrideCardsMoved" />
    <event name="OnScriptedCardsMoved" action="scriptedCardsMoved" />
    <event name="OnTableLoaded" action="show_changelog"/>
 </events>
@@ -42,7 +43,7 @@
 
 <globalvariables />
 
-<card back="Cards/back.png" front="Cards/front.png" width="63" height="88">
+<card back="cards/back.png" front="cards/front.png" width="63" height="88">
 	<property name="Card Level" type="String" />
 	<property name="Card Number" type="String"/>
 	<property name="Style" type="String" />
@@ -55,6 +56,9 @@
 	<property name="Traits" type="String" />
 	<property name="Limit" type="String" />	
 	<property name="True Type" type="String" />	
+	<size name="Vertical" width="63" height="88" backWidth="63" backHeight="88" back="cards/back.png" front="cards/front.png" cornerRadius="3"/>	
+	<size name="Horizontal" width="88" height="63" backWidth="63" backHeight="88" back="cards/back.png" front="cards/front.png" cornerRadius="3"/>
+	<size name="Gatefold" width="126" height="88" backWidth="63" backHeight="88" back="cards/back.png" front="cards/front.png" cornerRadius="3"/>
 </card>
 
 <table name="Table" visibility="undefined" ordered="False" width="500" height="380" background="Board/background.png" backgroundStyle="uniformToFill">

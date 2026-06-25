@@ -1,4 +1,7 @@
 changelog = {
+    1000402: ("1.0.4.2", "24 June 2026", [ 
+        "Fixed size and orientation of gatefold cards and horizontal cards. Please download the images using the plugin inside the deck builder.",
+        ]),       
     1000401: ("1.0.4.1", "23 June 2026", [ 
         "Overhaul of card names to eliminate duplicates.",
         "Fix some minor typos."

@@ -103,7 +103,56 @@ revealTopMode = False
 def CardsMoved(args):
     mute()
     CardsMovedTopRevealCheck(args)
+    index = 0
+    for card in args.cards:
+        if args.toGroups[index].name == "Table":
+            if len(card.alternates) > 1:
+                card.alternate = card.alternates[1]
+        elif args.toGroups[index].name == "Discard Pile":
+            card.alternate = card.alternates[0]
+        elif args.toGroups[index].name == "Removed from game":
+            card.alternate = card.alternates[0]
+        else:
+            if len(card.alternates) > 1:
+                card.alternate = card.alternates[1]
+        index += 1
+        
+        
+def OverrideCardsMoved(args):
+    mute()
+    CardsMovedTopRevealCheck(args)
+    index = 0
+    for card in args.cards:
+        if args.toGroups[index].name == "Table":
+            card.moveToTable(args.xs[index], args.ys[index])
+            if len(card.alternates) > 1:
+                card.alternate = card.alternates[1]
+        elif args.toGroups[index].name == "Discard Pile":
+            card.alternate = card.alternates[0]
+            card.moveTo(me.piles["Discard Pile"])
+        elif args.toGroups[index].name == "Removed from game":
+            card.alternate = card.alternates[0]
+            card.moveTo(me.piles["Removed from game"])
+        else:
+            card.moveTo(args.toGroups[index])
+            if len(card.alternates) > 1:
+                card.alternate = card.alternates[1]
+        index += 1
+
 
 def scriptedCardsMoved(args):
     mute()
     CardsMovedTopRevealCheck(args)
+    index = 0
+    for card in args.cards:
+        if args.toGroups[index].name == "Table":
+            if len(card.alternates) > 1:
+                card.alternate = card.alternates[1]
+        elif args.toGroups[index].name == "Discard Pile":
+            card.alternate = card.alternates[0]
+        elif args.toGroups[index].name == "Removed from game":
+            card.alternate = card.alternates[0]
+        else:
+            if len(card.alternates) > 1:
+                card.alternate = card.alternates[1]
+        index += 1
