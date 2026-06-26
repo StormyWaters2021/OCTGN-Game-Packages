@@ -25,14 +25,6 @@ def shuffle_into_deck(card, x=0, y=0):
     card.moveTo(DECK)
     shuffle(DECK)
     notify("{} shuffles {} into their deck.".format(me, card))
-
-
-def shuffle_all_into_deck(group, x=0, y=0):
-    mute()
-    for card in group:
-        card.moveTo(DECK)
-    shuffle(DECK)
-    notify("{} shuffles all the cards in {} into their deck.".format(me, group.name))
   
   
 def draw(group, x=0, y=0):
@@ -145,6 +137,20 @@ def copyCard(card, x = 0, y = 0):
     token_copy = table.create(guid, x+mod, y+mod, quantity = 1, persist = False)
     notify("{} creates a copy of {}.".format(me, card))
     
+    
+def createToken(guid):
+    mute()
+    if not me.isInverted:
+        x, y = TABLESPACE
+    else:
+        x, y = TABLESPACEINV
+    
+    table.create(guid, x, y, quantity = 1, persist = False)
+    notify("{} creates a token.".format(me))
+
+
+def create_drone(*args):
+    createToken("e4cb71a6-e66c-4995-a275-f0a73983471d")
 
 def rotate_right(card, x = 0, y = 0):
     # Rot90, Rot180, etc. are just aliases for the numbers 0-3

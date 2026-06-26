@@ -3,7 +3,7 @@
     id="8a39cc51-d6f9-4e25-a3b4-6166b053d9c2"
     name="Neuroscape TCG"
 	markersize="15"
-    version="1.0.0.0"
+    version="1.0.0.1"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -89,6 +89,8 @@
 	<cardseparator />
 	
 	<groupaction menu="Roll a d20" shortcut="Ctrl+R" execute="rolld20" />
+	<groupaction menu="Create Drone token" execute="create_drone" />
+	
 	
 </table>
 

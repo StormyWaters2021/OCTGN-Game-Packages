@@ -1,4 +1,7 @@
 changelog = {
+    1000001: ("1.0.0.1", "26 June 2026", [ 
+        "Added functionality for Drone tokens."
+        ]),
     1000000: ("1.0.0.0", "25 June 2026", [ 
         "Initial release",
         "Welcome to Neuroscape TCG!",
