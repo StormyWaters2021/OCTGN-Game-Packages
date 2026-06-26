@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<game
+    id="8a39cc51-d6f9-4e25-a3b4-6166b053d9c2"
+    name="Neuroscape TCG"
+	markersize="15"
+    version="1.0.0.0"
+    octgnVersion="3.1.0.2"
+    scriptVersion="3.1.0.2"
+	setsurl="http://www.TCGBuilder.net"
+    gameurl="http://www.TCGBuilder.net"
+    authors="StormyWaters2021"
+    description="Boot up and dive into a high-stakes digital battleground in this next-gen, tactical cyberpunk trading card game!"
+    tags="cyberpunk"
+	iconurl="https://www.tcgbuilder.net/games/neuroscape-tcg/art/logo.jpg"
+	>
+  
+  <scripts>
+	<script src="Scripts/actions.py" />
+	<script src="Scripts/setup.py" />
+	<script src="Scripts/changelog.py" />
+	  
+  </scripts>
+  
+  <proxygen definitionsrc="Proxy/proxydef.xml"/>
+  
+  <globalvariables>
+	<globalvariable name="decks_loaded" value="0" /> 
+  </globalvariables>
+  
+  <events>
+	<event name="OnTableLoaded" action="make_references"/>
+	<event name="OnDeckLoaded" action="deck_loaded"/>
+  </events>
+  
+<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="60" height="84" cornerRadius="3" backCornerRadius="3">
+	<property name="Card Number" type="Integer" hidden="True"/>
+	<property name="Set Code" type="String" hidden="True"/>
+	<property name="Type" type="String" hidden="False"/>
+	<property name="Factions" type="String" hidden="False"/>
+	<property name="Rarity" type="String" hidden="False"/>
+	<property name="Artist" type="String" hidden="False"/>
+	<property name="Text" type="String" hidden="False"/>
+	<property name="Flavor Text" type="String" hidden="False"/>
+	<property name="Limit" type="Integer" hidden="False"/>
+	<property name="RAM Cost" type="Integer" hidden="False"/>
+	<property name="Attack" type="Integer" hidden="False"/>
+	<property name="Defence" type="Integer" hidden="False"/>
+	<property name="Attack Type" type="String" hidden="False"/>
+	<property name="Program Class" type="String" hidden="False"/>
+	<property name="Cyberware Class" type="String" hidden="False"/>
+	<property name="Iconic" type="String" hidden="False"/>
+	<property name="Reprint" type="String" hidden="True"/>
+</card>
+
+<markers>
+	<marker name="INVERT MF" id="invert_mf" src="Markers/invert_mf.png" />
+	<marker name="INVERT BF" id="invert_bf" src="Markers/invert_bf.png" />
+	<marker name="Generic" id="generic_marker" src="Markers/generic.png" />
+	<marker name="+1/+1" id="plus1plus1" src="Markers/plus1plus1.png" />
+	<marker name="-1/-1" id="neg1neg1" src="Markers/neg1neg1.png" />
+	<marker name="+1/+0" id="plus1plus0" src="Markers/plus1plus0.png" />
+	<marker name="+0/+1" id="plus0plus1" src="Markers/plus0plus1.png" />
+	
+</markers>
+
+<phases />
+  
+<gameboards src="images/playmat.png" x="-340" y="-340" width="680" height="680" />
+
+<table name="Table" visibility="undefined" ordered="False" width="680" height="680" background="Images/table.jpg" backgroundStyle="uniform" >
+	<cardaction menu="Run / Refresh" default="True" execute="tap_untap"/>
+	<cardaction menu="Flip Card" shortcut="Ctrl+F" execute="flipCard" />
+	<cardaction menu="Create a Copy" execute="copyCard" />
+	<cardseparator />
+	
+	<cardactions menu="Add Counters">
+		<cardaction menu="INVERT MF" default="False" execute="add_invertmf"/>
+		<cardaction menu="INVERT BF" default="False" execute="add_invertbf"/>
+		<cardaction menu="+1/+1" default="False" execute="add_p1p1"/>
+		<cardaction menu="-1/-1" default="False" execute="add_n1n1"/>
+		<cardaction menu="+1/+0" default="False" execute="add_p1p0"/>
+		<cardaction menu="+0/+1" default="False" execute="add_p0p1"/>
+		<cardaction menu="Custom" default="False" execute="add_generic"/>
+	</cardactions>
+	
+	<cardaction menu="Send to Recycle Bin" shortcut="DEL" execute="discard" />
+	<cardaction menu="Send to Purge" execute="remove_from_game" />
+	
+	<cardseparator />
+	
+	<groupaction menu="Roll a d20" shortcut="Ctrl+R" execute="rolld20" />
+	
+</table>
+
+<player summary="Hand: {#Hand} || Main: {#Mainframe} || Bio: {#Bioframe}">
+	<counter name="Mainframe" default="20" icon="Images/mainframe.png" />
+	<counter name="Bioframe" default="20" icon="Images/bioframe.png" />
+
+	<group name="Hand" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded">
+	
+	<cardaction menu="Play" default="True" execute="moveFaceUp" />
+	<cardaction menu="Play Face Down" execute="moveFaceDown" />
+	
+	<cardseparator />
+	<cardaction menu="Send to Recycle Bin" shortcut="DEL" execute="discard" />
+	<cardaction menu="Send to Purge" execute="remove_from_game" />
+	</group>
+	
+	<group name="Cyberdeck" visibility="none" ordered="True" icon="Images/deck.png">
+	<groupaction menu="Draw" shortcut="CTRL+D" default="True" execute="draw"/>
+	<groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle"/>
+	</group>
+	
+	<group name="RAM Deck" visibility="none" ordered="True" viewState="pile" icon="Images/deck.png">
+	<groupaction menu="Install RAM" default="True" execute="moveFaceUpRAM" />
+	<groupaction menu="Shuffle" shortcut="CTRL+S" execute="shuffle"/>
+	</group>
+	
+	<group name="Recycle Bin" visibility="all" ordered="False" viewState="pile" icon="Images/rfg.png" />
+	<group name="Purge" visibility="all" ordered="False" viewState="pile" icon="Images/discard.png" />
+	<group name="Sideboard" visibility="none" ordered="False" viewState="collapsed" icon="Images/deck.png" />
+	
+</player>	
+	
+  <deck>
+    <section name="Mainframe" group="Cyberdeck" />
+    <section name="Cyberdeck" group="Cyberdeck" />
+	<section name="RAM Deck" group="RAM Deck" />
+	<section name="Sideboard" group="Sideboard" />
+  </deck>
+
+</game>
