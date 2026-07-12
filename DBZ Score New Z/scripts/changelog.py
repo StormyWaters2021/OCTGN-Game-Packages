@@ -1,4 +1,9 @@
 changelog = {
+    1000404: ("1.0.4.4", "12 July 2026", [ 
+        "ALERT - PLEASE READ",
+        "Some images have been updated. Please use the plugin in the deck builder to download new card images. Make sure to select the option to overwrite existing images.",
+        "Cards that contain the word 'Duplicate' in their names will be removed in a future update. Please swap to the versions that do not contain the word 'Duplicate' to prevent errors when loading decks.",
+        ]), 
     1000403: ("1.0.4.3", "25 June 2026", [ 
         "Fixed Rejuv bug.",
         ]),  
