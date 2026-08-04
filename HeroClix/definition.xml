@@ -9,8 +9,8 @@
 	setsurl="http://www.TCGBuilder.net"
     gameurl="https://mandalornl.github.io/x-files-ccg/"
     authors="StormyWaters2021"
-    description=""
-    tags=""
+    description="HeroClix by WizKids"
+    tags="heroclix"
 	iconurl="https://www.tcgbuilder.net/games/x-files-ccg/art/logo.jpg"
 	>
   
@@ -41,43 +41,41 @@
   
   <!-- Card Properties -->
 <card back="Images/cardback.jpg" front="Images/cardback.jpg" width="136" height="188" cornerRadius="10" backCornerRadius="5">
-  
-    <property name="Card Number" type="String" hidden="True"/>
-    <property name="Rarity" type="String" hidden="True"/>
-    <property name="Episode" type="String" hidden="True"/>
-    <property name="Type" type="String" hidden="False"/>
-    <property name="Cost" type="String" hidden="False"/>
+	<!-- Visible Card Properties -->
+    <property name="Unit Type" type="String" hidden="False"/>
+    <property name="Rarity" type="String" hidden="False"/>
+    <property name="Point Values" type="String" hidden="False"/>
+    <property name="Team Abilities" type="String" hidden="False"/>
     <property name="Keywords" type="String" hidden="False"/>
-    <property name="Activators" type="String" hidden="False"/>
-    <property name="Text" type="String" hidden="False"/>
-    <property name="Tags" type="String" hidden="True"/>
-    <property name="Long Range Combat" type="String" hidden="False"/>
-    <property name="Close Range Combat" type="String" hidden="False"/>
-    <property name="Health" type="String" hidden="False"/>
-    <property name="Game Effect" type="String" hidden="False"/>
-    <property name="Behavioral" type="String" hidden="False"/>
-    <property name="Criminal Investigation" type="String" hidden="False"/>
-    <property name="Evidence Collection" type="String" hidden="False"/>
-    <property name="Observation" type="String" hidden="False"/>
-    <property name="Occult Investigation" type="String" hidden="False"/>
-    <property name="Subterfuge" type="String" hidden="False"/>
-    <property name="Resources" type="String" hidden="False"/>
-    <property name="Computer" type="String" hidden="False"/>
-    <property name="Medical" type="String" hidden="False"/>
-    <property name="Sciences" type="String" hidden="False"/>
-    <property name="Prerequisite" type="String" hidden="False"/>
-    <property name="Question" type="String" hidden="False"/>
-    <property name="Dialogue" type="String" hidden="True"/>
-	<property name="XFile" type="String" hidden="True"/>
-    <property name="Bio" type="String" hidden="True"/>
-    <property name="Bureaucracy" type="String" hidden="False"/>
-    <property name="Alien Investigation" type="String" hidden="False"/>
-    <property name="Affiliation" type="String" hidden="False"/>
-    <property name="Motive" type="String" hidden="False"/>
-    <property name="Method" type="String" hidden="False"/>
-    <property name="Result" type="String" hidden="False"/>
-  
-  </card>
+    <property name="Traits and Special Powers" type="String" hidden="False"/>
+    <property name="Combat Symbols" type="String" hidden="False"/>
+	<property name="Properties" type="String" hidden="False"/>
+	<property name="Improved Movement" type="String" hidden="False"/>
+	<property name="Improved Targeting" type="String" hidden="False"/>
+    <property name="Range" type="String" hidden="False"/>
+    <property name="Targets" type="String" hidden="False"/>
+	<property name="Collector Number" type="String" hidden="False"/>
+	
+	<!-- Hidden Card Properties -->
+	<property name="Click Number" type="String" hidden="True"/>
+    <property name="Starting Line" type="String" hidden="True"/>
+    <property name="Speed" type="String" hidden="True"/>
+    <property name="Speed Ability" type="String" hidden="True"/>
+    <property name="Attack" type="String" hidden="True"/>
+    <property name="Attack Ability" type="String" hidden="True"/>
+    <property name="Defense" type="String" hidden="True"/>
+    <property name="Defense Ability" type="String" hidden="True"/>
+    <property name="Damage" type="String" hidden="True"/>
+    <property name="Damage Ability" type="String" hidden="True"/>
+    
+	<!-- Card Sizes -->
+	<size name="1x1" width="136" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="1x2" width="272" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="2x2" width="272" height="376" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="Card" width="136" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="16x16" width="2176" height="3008" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+
+</card>
 
 <markers>
 	<marker id="dam_marker" name="Damage" src="Images/damage.png" />
