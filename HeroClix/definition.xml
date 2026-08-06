@@ -28,6 +28,7 @@
   </globalvariables>
   
   <events>
+    <event name="OnCardsMoved" action="table_config" />
 	<!-- <event name="OnDeckLoaded" action="deck_loaded"/> -->
 	<!-- <event name="OnGlobalVariableChanged" action="loaded_check"/> -->
 	<!-- <event name="OnCardArrowTargeted" action="attach_card"/> -->
@@ -65,7 +66,7 @@
     <property name="Damage Ability" type="String" hidden="True"/>
     
 	<!-- Card Sizes -->
-	<size name="1x1" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="1x1" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="100" backCornerRadius="100" />
 	<size name="1x2" width="272" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="2x2" width="272" height="376" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="Card" width="371" height="250" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
@@ -87,12 +88,17 @@
 	<!-- # ~~ DEBUG ~~ # -->
 	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
 	<!-- # ~~ DEBUG ~~ # -->
-	<cardaction menu="Add Action Counter" default="True" execute="add_action" />
-	<cardaction menu="Remove Action Counter" execute="remove_action" />
+	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
+	<cardaction menu="Add Action Counter" showIf="is_not_map" default="True" execute="add_action" />
+	<cardaction menu="Remove Action Counter" showIf="is_not_map" execute="remove_action" />
 	<cardseparator />
-	<cardaction menu="Take 1 Damage" shortcut="Down" execute="take_one_damage" />
+	<cardaction menu="Take 1 Damage" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
+	
+	
 	<!-- <cardaction menu="Take X Damage" execute="take_x_damage" /> -->
 	<!-- <cardaction menu="Heal 1 Damage" shortcut="Up" execute="heal_one_damage" /> -->
+	
+	<groupaction menu="Load Map" execute="load_map" />
 	
 </table>
 
