@@ -17,10 +17,6 @@
   <scripts>
       <script src="Scripts/actions.py" />
 	  <script src="Scripts/setup.py" />
-	  <script src="Scripts/phases.py" />
-	  <script src="Scripts/xfile.py" />
-	  <script src="Scripts/attach_mod.py" />
-	  <script src="Scripts/api_ext.py" />
 	  <script src="Scripts/debug.py" />
 	  <script src="Scripts/changelog.py" />
   </scripts>
@@ -32,15 +28,15 @@
   </globalvariables>
   
   <events>
-	<event name="OnDeckLoaded" action="deck_loaded"/>
-	<event name="OnGlobalVariableChanged" action="loaded_check"/>
-	<event name="OnCardArrowTargeted" action="attach_card"/>
-	<event name="OnGameStarted" action="game_started"/>
-	<event name="OnTableLoaded" action="initializeGame" />
+	<!-- <event name="OnDeckLoaded" action="deck_loaded"/> -->
+	<!-- <event name="OnGlobalVariableChanged" action="loaded_check"/> -->
+	<!-- <event name="OnCardArrowTargeted" action="attach_card"/> -->
+	<!-- <event name="OnGameStarted" action="game_started"/> -->
+	<!-- <event name="OnTableLoaded" action="initializeGame" /> -->
   </events>
   
   <!-- Card Properties -->
-<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="136" height="188" cornerRadius="10" backCornerRadius="5">
+<card back="Images/cardback.jpg" front="Images/cardback.jpg" width="185" height="250" cornerRadius="10" backCornerRadius="5">
 	<!-- Visible Card Properties -->
     <property name="Unit Type" type="String" hidden="False"/>
     <property name="Rarity" type="String" hidden="False"/>
@@ -69,29 +65,34 @@
     <property name="Damage Ability" type="String" hidden="True"/>
     
 	<!-- Card Sizes -->
-	<size name="1x1" width="136" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="1x1" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="1x2" width="272" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="2x2" width="272" height="376" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
-	<size name="Card" width="136" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
-	<size name="16x16" width="2176" height="3008" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="Card" width="371" height="250" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="16x16" width="1600" height="1600" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 
 </card>
 
 <markers>
 	<marker id="action_marker" name="Action" src="Images/action.png" />
+	<marker id="action_marker_x2" name="2x Action" src="Images/actionx2.png" />
 </markers>
 
 <phases />
   
 <gameboards src="images/playmat.jpg" x="-2300" y="-1600" width="4600" height="3200" />
 
-<table name="Table" visibility="undefined" ordered="False" width="1500" height="1160" background="Images/table.jpg" backgroundStyle="uniform" >
+<table name="Table" visibility="undefined" ordered="False" width="4600" height="3200" background="Images/table.jpg" backgroundStyle="uniform" >
 
 	<!-- # ~~ DEBUG ~~ # -->
 	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
 	<!-- # ~~ DEBUG ~~ # -->
-	
-	
+	<cardaction menu="Add Action Counter" default="True" execute="add_action" />
+	<cardaction menu="Remove Action Counter" execute="remove_action" />
+	<cardseparator />
+	<cardaction menu="Take 1 Damage" shortcut="Down" execute="take_one_damage" />
+	<!-- <cardaction menu="Take X Damage" execute="take_x_damage" /> -->
+	<!-- <cardaction menu="Heal 1 Damage" shortcut="Up" execute="heal_one_damage" /> -->
 	
 </table>
 
