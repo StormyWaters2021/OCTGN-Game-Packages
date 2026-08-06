@@ -1,11 +1,26 @@
 ACTION_MARKER = ("Action", "action_marker")
 ACTION_MARKERX2 = ("2x Action", "action_marker_x2")
 
+PAC_GUID = "7db159f2-1eb2-425f-aaac-5492e36d755b"
+PAC_POSITIONS = (-1500, -210)
+
+DICE_POSITIONS = [(-950, -50), (-950, 50)]
+DICE_GUID = "fdbd1ec7-702f-4c29-bd6f-3f628af80a39"
+
+NO_ACTIONS = ["PAC", "Dice", "Map"]
+
+RED = "#ff0000"
+
 def add_action(card, x=0, y=0):
     mute()
+    
+    if card.properties["Unit Type"] in NO_ACTIONS:
+        return
+    
     if ACTION_MARKER in card.markers:
         card.markers[ACTION_MARKER] = 0
         card.markers[ACTION_MARKERX2] = 1
+        card.highlight = RED
         notify("{} gives {} a second Action token.".format(me, card))
     
     elif ACTION_MARKERX2 in card.markers: 
@@ -19,6 +34,7 @@ def add_action(card, x=0, y=0):
 
 def remove_action(card, x=0, y=0):
     mute()
+    
     if ACTION_MARKERX2 in card.markers:
         card.markers[ACTION_MARKERX2] = 0
         card.markers[ACTION_MARKER] = 1
@@ -83,6 +99,7 @@ def fix_position(card):
         y += 100 - y_remainder
 
     card.moveToTable(x, y)
+    card.index = 999
     
     
 def table_config(args):
@@ -91,10 +108,7 @@ def table_config(args):
         return
     for card in args.cards:
         fix_position(card)
-        
-    for card in table:
-        if card.properties["Unit Type"] == "Map":
-            card.index = 0
+    
 
 def is_map(card, x=0, y=0):
     mute()
@@ -103,3 +117,77 @@ def is_map(card, x=0, y=0):
 def is_not_map(card, x=0, y=0):
     mute()
     return card[0].properties["Unit Type"] != "Map"
+
+
+DICE_FACES = {
+    1: "Face1",
+    2: "Face2",
+    3: "Face3",
+    4: "Face4",
+    5: "Face5",
+    6: "",
+}
+
+
+def create_dice():
+    mute()
+    count = 0
+    for card in table:
+        if card.size == "Dice":
+            count += 1
+    
+    if count != 0:
+        return
+    
+    for p in DICE_POSITIONS:
+        x, y = p
+        dice = table.create(DICE_GUID, x, y)
+        dice.anchor
+
+
+def _grab_dice(card):
+    mute()
+    p = card.controller
+    remoteCall(p, "_pass_dice", [card, me])
+
+
+def _pass_dice(card, player):
+    mute()
+    card.controller = player
+
+
+def roll_dice(group, x=0, y=0):
+    mute()
+
+    create_dice()
+
+    for card in table:
+        if card.size == "Dice":
+            if card.controller != me:
+                _grab_dice(card)
+        
+    total = 0
+    results = ""
+    
+    for card in table:
+        if card.size == "Dice":
+            face = rnd(1, 6)
+            card.alternate = DICE_FACES[face]
+            total += face
+            results += str(face) + ", "
+    
+    notify("{} rolled {}with a total of {}.".format(me, results, total))
+    
+
+def create_pac(group, x=0, y=0):
+    mute()
+    count = 0
+    for card in table:
+        if card.size == "PAC":
+            count += 1
+    if count >= 1:
+        whisper("PAC is already on the table.")
+        return
+    else:
+        x, y = PAC_POSITIONS
+        table.create(PAC_GUID, x, y)

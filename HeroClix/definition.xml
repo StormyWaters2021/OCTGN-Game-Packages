@@ -66,12 +66,16 @@
     <property name="Damage Ability" type="String" hidden="True"/>
     
 	<!-- Card Sizes -->
-	<size name="1x1" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="100" backCornerRadius="100" />
+	<size name="1x1" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="50" backCornerRadius="50" />
 	<size name="1x2" width="272" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="2x2" width="272" height="376" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="Card" width="371" height="250" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="16x16" width="1600" height="1600" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
-
+	<size name="Dice" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	<size name="PAC" width="510" height="421" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
+	
+	
+	
 </card>
 
 <markers>
@@ -94,11 +98,14 @@
 	<cardseparator />
 	<cardaction menu="Take 1 Damage" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
 	
-	
+	<groupaction menu="Roll Dice" shortcut="Ctrl+R" execute="roll_dice" />
+	<groupseparator />
 	<!-- <cardaction menu="Take X Damage" execute="take_x_damage" /> -->
 	<!-- <cardaction menu="Heal 1 Damage" shortcut="Up" execute="heal_one_damage" /> -->
 	
 	<groupaction menu="Load Map" execute="load_map" />
+	<groupaction menu="Create PAC" execute="create_pac" />
+	
 	
 </table>
 
