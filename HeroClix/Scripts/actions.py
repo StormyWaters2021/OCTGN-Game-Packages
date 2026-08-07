@@ -11,7 +11,21 @@ NO_ACTIONS = ["PAC", "Dice", "Map"]
 
 RED = "#ff0000"
 
-def add_action(card, x=0, y=0):
+
+def double_click(card, x=0, y=0):
+    mute()
+    
+    if card.properties["Unit Type"] == "Dice":
+        roll_dice(card, 0, 0)
+        return
+    
+    if card.properties["Unit Type"] in NO_ACTIONS:
+        return
+        
+    add_action(card)
+
+
+def add_action(card):
     mute()
     
     if card.properties["Unit Type"] in NO_ACTIONS:
@@ -191,3 +205,12 @@ def create_pac(group, x=0, y=0):
     else:
         x, y = PAC_POSITIONS
         table.create(PAC_GUID, x, y)
+        
+
+def create_bystander(group, x=0, y=0):
+    mute()
+    guid, quantity = askCard({"Unit Type":"Bystander"}, title="Generate a Bystander:")
+    if guid is None:
+        return
+        
+    card = table.create(guid, 1000, 0, quantity = 1, persist = False)
