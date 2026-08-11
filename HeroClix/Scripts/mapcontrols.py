@@ -4,6 +4,7 @@ MAP_POSITIONS = {
     "24x24": (-1200, -1200)
 }
 
+
 MAP_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 MAP_NUMBERS = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24']
 
@@ -55,9 +56,9 @@ def _check_map_rotation():
         return -1
     else:
         return maps[0].orientation
-        
 
-def _test(unit, x=0, y=0):
+
+def _report_movement(x, y):
     mute()
 
     gamemap = None
@@ -85,12 +86,15 @@ def _test(unit, x=0, y=0):
         _position_map(gamemap)
 
     aax, aay = _get_map_position(gamemap)
-    unitx, unity = unit.position
 
-    offsetx = int(round((unitx - aax) / 100))
-    offsety = int(round((unity - aay) / 100))
+    offsetx = int(round((x - aax) / 100))
+    offsety = int(round((y - aay) / 100))
+
+    if offsetx > width - 1 or offsety > height - 1:
+        return
+    if offsetx < 0 or offsety < 0:
+        return
 
     intersection = columns[offsetx] + rows[offsety]
 
-    whisper(intersection)
-    
+    return intersection

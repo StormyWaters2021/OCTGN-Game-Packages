@@ -24,6 +24,13 @@ def double_click(card, x=0, y=0):
     add_action(card)
 
 
+def calculate_attack(card, x=0, y=0):
+    mute()
+    total = askInteger("What is your attack value?", 0)
+    roll = roll_dice("quiet", 0, 0)
+    notify("{} attacks with a value of {} and a roll of {} for a total of {}.".format(card, total, roll, total+roll))
+
+
 def add_action(card):
     mute()
     
@@ -126,15 +133,29 @@ def table_config(args):
     if args.player != me:
         return
     
+    movement_report = ""
+    
     for card in args.cards:
         if is_map([card], 0, 0):
             _position_map(card)
         else:
             idx = args.cards.index(card)
+            
             if args.toGroups[idx] == table:
                 fix_position(card)
+                x = args.xs[idx]
+                y = args.ys[idx]
+                start_position = _report_movement(x, y)
+                if start_position != None:
+                    movement_report += card.name + " moves from " + start_position + " to "
+                    x, y = card.position
+                    end_position = _report_movement(x, y)
+                    if end_position != None:
+                        movement_report += end_position + "."
+                        notify(movement_report)
             if args.fromGroups[idx] != table:
                 make_model(card)
+            
 
 
 def make_model(card):
@@ -241,8 +262,9 @@ def roll_dice(group, x=0, y=0):
             card.alternate = DICE_FACES[face]
             total += face
             results += str(face) + ", "
-    
-    notify("{} rolled {}with a total of {}.".format(me, results, total))
+    if group != "quiet":
+        notify("{} rolled {}with a total of {}.".format(me, results, total))
+    return total
     
 
 def create_pac():

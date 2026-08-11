@@ -95,9 +95,11 @@
 	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
 	<cardaction menu="Test" showIf="fail_check" shortcut="alt+t" execute="_test" />
 	<!-- # ~~ DEBUG ~~ # -->
+	<cardaction menu="Attack" showIf="is_not_map" execute="calculate_attack" />
 	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
 	<cardaction menu="Add Action Counter" showIf="is_not_map" default="True" execute="double_click" />
 	<cardaction menu="Remove Action Counter" showIf="is_not_map" execute="remove_action" />
+	
 	<cardseparator />
 	<cardaction menu="Take 1 Damage" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
 	<cardaction menu="Take X Damage" showIf="is_not_map" execute="take_x_damage" />
