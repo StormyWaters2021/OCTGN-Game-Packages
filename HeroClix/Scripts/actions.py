@@ -154,12 +154,14 @@ def table_config(args):
     mute()
     if args.player != me:
         return
+    
     for card in args.cards:
         if is_map([card], 0, 0):
             position_map(card)
         else:
-            fix_position(card)
             idx = args.cards.index(card)
+            if args.toGroups[idx] == table:
+                fix_position(card)
             if args.fromGroups[idx] != table:
                 make_model(card)
 
@@ -297,10 +299,19 @@ def create_bystander(group, x=0, y=0):
     
 def create_terrain(group, x=0, y=0):
     mute()
-    guid, quantity = askCard({"Unit Type":"Terrain"}, title="Generate a Bystander:")
+    guid, quantity = askCard({"Unit Type":"Terrain"}, title="Generate a Terrain Tile:")
     if guid is None:
         return
     card = me.Team.create(guid, quantity)
+
+
+def create_one_shot(group, x=0, y=0):
+    mute()
+    guid, quantity = askCard({"Unit Type":"One Shot"}, title="Generate a One Shot:")
+    if guid is None:
+        return
+    card = me.Team.create(guid, quantity)
+
     
     
 def flip_card(card, x = 0, y = 0):

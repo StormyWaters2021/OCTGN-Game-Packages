@@ -115,11 +115,12 @@
 	<groupactions menu="Generate...">
 		<groupaction menu="Generate Bystander" execute="create_bystander" />
 		<groupaction menu="Generate Terrain" execute="create_terrain" />
+		<groupaction menu="Generate One Shot" execute="create_one_shot" />
 	</groupactions>
 	
 </table>
 
-<player summary="Hand: {#Hand}">
+<player summary="Team: {#Team}">
 
 	<group name="Team" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded" />
 	<group name="Sideline" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded" />
