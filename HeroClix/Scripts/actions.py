@@ -1,5 +1,4 @@
 ACTION_MARKER = ("Action", "action_marker")
-ACTION_MARKERX2 = ("2x Action", "action_marker_x2")
 
 PAC_GUID = "7db159f2-1eb2-425f-aaac-5492e36d755b"
 PAC_POSITIONS = (-1500, -210)
@@ -7,7 +6,7 @@ PAC_POSITIONS = (-1500, -210)
 DICE_POSITIONS = [(-950, -50), (-950, 50)]
 DICE_GUID = "fdbd1ec7-702f-4c29-bd6f-3f628af80a39"
 
-NO_ACTIONS = ["PAC", "Dice", "Map"]
+NO_ACTIONS = ["PAC", "Dice", "Map", "Terrain"]
 
 RED = "#ff0000"
 
@@ -16,7 +15,7 @@ def double_click(card, x=0, y=0):
     mute()
     
     if card.properties["Unit Type"] == "Dice":
-        roll_dice(card, 0, 0)
+        roll_dice(table, 0, 0)
         return
     
     if card.properties["Unit Type"] in NO_ACTIONS:
@@ -28,37 +27,31 @@ def double_click(card, x=0, y=0):
 def add_action(card):
     mute()
     
+    
     if card.properties["Unit Type"] in NO_ACTIONS:
         return
     
-    if ACTION_MARKER in card.markers:
-        card.markers[ACTION_MARKER] = 0
-        card.markers[ACTION_MARKERX2] = 1
-        card.highlight = RED
-        notify("{} gives {} a second Action token.".format(me, card))
-    
-    elif ACTION_MARKERX2 in card.markers: 
+    elif card.markers[ACTION_MARKER] >=2: 
         whisper("{} already has two Action tokens.".format(card))
         return
-        
+    
     else:
-        card.markers[ACTION_MARKER] = 1
+        card.markers[ACTION_MARKER] += 1
         notify("{} gives {} an Action token.".format(me, card))
 
 
 def remove_action(card, x=0, y=0):
     mute()
     
-    if ACTION_MARKERX2 in card.markers:
-        card.markers[ACTION_MARKERX2] = 0
-        card.markers[ACTION_MARKER] = 1
-        notify("{} removes the second Action token from {}.".format(me, card))
-    elif ACTION_MARKER in card.markers: 
-        card.markers[ACTION_MARKER] = 0
-        notify("{} clears all Action tokens from {}.".format(me, card))
+    if ACTION_MARKER in card.markers:
+        card.markers[ACTION_MARKER] -= 1
+        notify("{} removes an Action token from {}.".format(me, card))
 
 
 def take_one_damage(card, x=0, y=0):
+    mute()
+    if card.properties["Unit Type"] in NO_ACTIONS:
+        return
     clicks = [a for a in card.alternates]
     current_click = card.alternate
     current_index = clicks.index(current_click)
@@ -68,7 +61,43 @@ def take_one_damage(card, x=0, y=0):
         current_index += 1
         card.alternate = card.alternates[current_index]
         notify("{} takes one damage and goes to click {}.".format(card, current_index))
-        
+
+def take_x_damage(card, x=0, y=0):
+    mute()
+    if card.properties["Unit Type"] in NO_ACTIONS:
+        return
+    damage = askInteger("How many clicks of damage?", 0)
+    clicks = [a for a in card.alternates]
+    current_click = card.alternate
+    current_index = clicks.index(current_click)
+    
+    if current_index == len(card.alternates) - 1:
+        notify("{} is already on its last click.".format(card.Name))
+
+    if current_index + damage >= len(card.alternates):
+        card.alternate = card.alternate = "KO"
+        notify("{} is KO'd!".format(card))
+
+    else:
+        current_index += damage
+        card.alternate = card.alternates[current_index]
+        notify("{} takes {} damage and goes to click {}.".format(card, damage, current_index))
+
+
+def heal_one_damage(card, x=0, y=0):
+    mute()
+    if card.properties["Unit Type"] in NO_ACTIONS:
+        return
+    clicks = [a for a in card.alternates]
+    current_click = card.alternate
+    current_index = clicks.index(current_click)
+    if current_index <= 1:
+        notify("{} is already on its first click.".format(card.Name))
+    else:
+        current_index -= 1
+        card.alternate = card.alternates[current_index]
+        notify("{} heals one damage and goes to click {}.".format(card, current_index))
+
 
 def get_map_position(gamemap):
     if gamemap.size == "16x16":
@@ -82,6 +111,11 @@ def load_map(group, x=0, y=0):
         return
         
     card = table.create(guid, 0, 0, quantity = 1, persist = False)
+    position_map(card)
+
+
+def position_map(card):
+    mute()
     x, y = get_map_position(card)
     card.moveToTable(x, y)
     card.anchor = True
@@ -121,8 +155,28 @@ def table_config(args):
     if args.player != me:
         return
     for card in args.cards:
-        fix_position(card)
-    
+        if is_map([card], 0, 0):
+            position_map(card)
+        else:
+            fix_position(card)
+            idx = args.cards.index(card)
+            if args.fromGroups[idx] != table:
+                make_model(card)
+
+
+def make_model(card):
+    mute()
+    if card.properties["Unit Type"] == "Bystander":
+        return
+    offset = -100
+    if me.isInverted:
+        offset = 100
+    if "Click1" in card.alternates:
+        guid = card.model
+        x, y = card.position
+        fig = table.create(guid, x + offset, y)
+        fig.alternate = "Click1"
+
 
 def is_map(card, x=0, y=0):
     mute()
@@ -170,10 +224,35 @@ def _pass_dice(card, player):
     card.controller = player
 
 
+def roll_single_die(group, x=0, y=0):
+    mute()
+    for card in table:
+        if card.size == "Dice":
+            if card.controller != me:
+                _grab_dice(card)
+        
+    count = 0
+    results = ""
+    
+    for card in table:
+        if card.size == "Dice":
+            if count < 1:
+                face = rnd(1, 6)
+                card.alternate = DICE_FACES[face]
+                count += 1
+                results += str(face)
+    
+    notify("{} rolled {} on a single die.".format(me, results))
+    
+
+def roll_d20(group, x=0, y=0):
+    mute()
+    roll = rnd(1, 20)
+    notify("{} rolled {} on a d20.".format(me, roll))
+
+
 def roll_dice(group, x=0, y=0):
     mute()
-
-    create_dice()
 
     for card in table:
         if card.size == "Dice":
@@ -193,7 +272,7 @@ def roll_dice(group, x=0, y=0):
     notify("{} rolled {}with a total of {}.".format(me, results, total))
     
 
-def create_pac(group, x=0, y=0):
+def create_pac():
     mute()
     count = 0
     for card in table:
@@ -213,4 +292,30 @@ def create_bystander(group, x=0, y=0):
     if guid is None:
         return
         
-    card = table.create(guid, 1000, 0, quantity = 1, persist = False)
+    card = me.Team.create(guid, quantity)
+    
+    
+def create_terrain(group, x=0, y=0):
+    mute()
+    guid, quantity = askCard({"Unit Type":"Terrain"}, title="Generate a Bystander:")
+    if guid is None:
+        return
+    card = me.Team.create(guid, quantity)
+    
+    
+def flip_card(card, x = 0, y = 0):
+    mute()
+    if card.isFaceUp:
+        notify("{} turns {} face down.".format(me, card))
+        card.isFaceUp = False
+    else:
+        card.isFaceUp = True
+        notify("{} turns {} face up.".format(me, card))
+        
+        
+def setup_table():
+    mute()
+    if me._id != 1:
+        return
+    create_dice()
+    create_pac()

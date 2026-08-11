@@ -3,15 +3,15 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.0"
+    version="1.0.0.1"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
-    gameurl="https://mandalornl.github.io/x-files-ccg/"
+    gameurl="https://heroclix.com"
     authors="StormyWaters2021"
     description="HeroClix by WizKids"
     tags="heroclix"
-	iconurl="https://www.tcgbuilder.net/games/x-files-ccg/art/logo.jpg"
+	iconurl="https://www.tcgbuilder.net/games/heroclix/art/logo.jpg"
 	>
   
   <scripts>
@@ -19,6 +19,7 @@
 	  <script src="Scripts/setup.py" />
 	  <script src="Scripts/debug.py" />
 	  <script src="Scripts/changelog.py" />
+	  <script src="Scripts/hcu.py" />
   </scripts>
   
   <proxygen definitionsrc="Proxy/proxydef.xml"/>
@@ -33,7 +34,7 @@
 	<!-- <event name="OnGlobalVariableChanged" action="loaded_check"/> -->
 	<!-- <event name="OnCardArrowTargeted" action="attach_card"/> -->
 	<!-- <event name="OnGameStarted" action="game_started"/> -->
-	<!-- <event name="OnTableLoaded" action="initializeGame" /> -->
+	<event name="OnTableLoaded" action="setup_table" />
   </events>
   
   <!-- Card Properties -->
@@ -55,6 +56,7 @@
 	
 	<!-- Hidden Card Properties -->
 	<property name="Click Number" type="String" hidden="True"/>
+	<property name="Set Code" type="String" hidden="True" />
     <property name="Starting Line" type="String" hidden="True"/>
     <property name="Speed" type="String" hidden="True"/>
     <property name="Speed Ability" type="String" hidden="True"/>
@@ -66,7 +68,7 @@
     <property name="Damage Ability" type="String" hidden="True"/>
     
 	<!-- Card Sizes -->
-	<size name="1x1" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="50" backCornerRadius="50" />
+	<size name="1x1" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="0" backCornerRadius="0" />
 	<size name="1x2" width="272" height="188" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="2x2" width="272" height="376" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
 	<size name="Card" width="371" height="250" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="10" backCornerRadius="5" />
@@ -80,7 +82,6 @@
 
 <markers>
 	<marker id="action_marker" name="Action" src="Images/action.png" />
-	<marker id="action_marker_x2" name="2x Action" src="Images/actionx2.png" />
 </markers>
 
 <phases />
@@ -97,15 +98,24 @@
 	<cardaction menu="Remove Action Counter" showIf="is_not_map" execute="remove_action" />
 	<cardseparator />
 	<cardaction menu="Take 1 Damage" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
+	<cardaction menu="Take X Damage" showIf="is_not_map" execute="take_x_damage" />
+	<cardaction menu="Heal 1 Damage" showIf="is_not_map" shortcut="Up" execute="heal_one_damage" />
+	<cardseparator />
+	<cardaction menu="Flip Card Over" showIf="is_not_map" execute="flip_card" />
 	
-	<groupaction menu="Roll Dice" shortcut="Ctrl+R" execute="roll_dice" />
-	<groupseparator />
-	<!-- <cardaction menu="Take X Damage" execute="take_x_damage" /> -->
-	<!-- <cardaction menu="Heal 1 Damage" shortcut="Up" execute="heal_one_damage" /> -->
-	
+	<groupactions menu="Dice">
+		<groupaction menu="Roll Two Dice" shortcut="Ctrl+R" execute="roll_dice" />
+		<groupaction menu="Roll Single Die" execute="roll_single_die" />
+		<groupaction menu="Roll d20" execute="roll_d20" />
+	</groupactions>
+
 	<groupaction menu="Load Map" execute="load_map" />
-	<groupaction menu="Create PAC" execute="create_pac" />
-	<groupaction menu="Generate Bystander" execute="create_bystander" />
+	<groupaction menu="Load Team from HCUnits" execute="importHCUnits" />
+
+	<groupactions menu="Generate...">
+		<groupaction menu="Generate Bystander" execute="create_bystander" />
+		<groupaction menu="Generate Terrain" execute="create_terrain" />
+	</groupactions>
 	
 </table>
 

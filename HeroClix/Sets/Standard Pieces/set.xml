@@ -2,7 +2,7 @@
 
 <set 
 	xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
-	name="Game Tools" 
+	name="Standard Game Pieces" 
 	id="fa942363-479c-4cc0-97ff-fdff9fbf3e96" 
 	gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" 
 	gameVersion="1.0.0.0" 
@@ -19,6 +19,21 @@
 			<alternate name="3" type="Face3" size="Dice" />
 			<alternate name="4" type="Face4" size="Dice" />
 			<alternate name="5" type="Face5" size="Dice" />
+	</card>
+	<card id="c9f48353-e39f-4066-9063-7807df3cb154" name="Smoke" size="1x1">
+		<property name="Unit Type" value="Terrain" />
+	</card>
+	<card id="ff83db33-9871-446c-9013-28f1f36d9326" name="Debris" size="1x1">
+		<property name="Unit Type" value="Terrain" />
+	</card>
+	<card id="a43d1c01-68f6-4492-b928-8e5149333c5b" name="Water" size="1x1">
+		<property name="Unit Type" value="Terrain" />
+	</card>
+	<card id="ad0e3ad3-101e-4674-93f5-5b82b9ffa2e4" name="Blocking" size="1x1">
+		<property name="Unit Type" value="Terrain" />
+	</card>
+	<card id="1bf5e637-bd54-4011-9655-8e0ab7e2327a" name="Elevated" size="1x1">
+		<property name="Unit Type" value="Terrain" />
 	</card>
   </cards>
 </set>
