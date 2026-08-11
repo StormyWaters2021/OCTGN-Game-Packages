@@ -16,6 +16,7 @@
   
   <scripts>
       <script src="Scripts/actions.py" />
+	  <script src="Scripts/mapcontrols.py" />
 	  <script src="Scripts/setup.py" />
 	  <script src="Scripts/debug.py" />
 	  <script src="Scripts/changelog.py" />
@@ -92,6 +93,7 @@
 
 	<!-- # ~~ DEBUG ~~ # -->
 	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
+	<cardaction menu="Test" showIf="fail_check" shortcut="alt+t" execute="_test" />
 	<!-- # ~~ DEBUG ~~ # -->
 	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
 	<cardaction menu="Add Action Counter" showIf="is_not_map" default="True" execute="double_click" />

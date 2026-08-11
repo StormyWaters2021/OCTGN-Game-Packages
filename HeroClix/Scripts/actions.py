@@ -99,35 +99,6 @@ def heal_one_damage(card, x=0, y=0):
         notify("{} heals one damage and goes to click {}.".format(card, current_index))
 
 
-def get_map_position(gamemap):
-    if gamemap.size == "16x16":
-        return (-800, -700)
-
-
-def load_map(group, x=0, y=0):
-    mute()
-    guid, quantity = askCard({"Unit Type":"Map"}, title="Select a Map")
-    if guid is None:
-        return
-        
-    card = table.create(guid, 0, 0, quantity = 1, persist = False)
-    position_map(card)
-
-
-def position_map(card):
-    mute()
-    x, y = get_map_position(card)
-    card.moveToTable(x, y)
-    card.anchor = True
-    card.index = 0
-
-def rotate_map(card, x=0, y=0):
-    mute()
-    if card.orientation == 0:
-        card.orientation = 2
-    else:
-        card.orientation = 0
-    card.index = 0
 
 def fix_position(card):
     mute()
@@ -157,7 +128,7 @@ def table_config(args):
     
     for card in args.cards:
         if is_map([card], 0, 0):
-            position_map(card)
+            _position_map(card)
         else:
             idx = args.cards.index(card)
             if args.toGroups[idx] == table:
