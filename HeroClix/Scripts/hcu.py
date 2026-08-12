@@ -25,8 +25,7 @@ def importHCUnits(group, x=0, y=0):
     entries = re.findall(
         r'"section"\s*:\s*"([^"]+)".*?'
         r'"unit"\s*:\s*\{.*?'
-        r'"set_id"\s*:\s*"([^"]+)".*?'
-        r'"collector_number"\s*:\s*"([^"]+)"',
+        r'"id"\s*:\s*"([^"]+)"',
         match.group(1),
         re.S
     )
@@ -38,17 +37,16 @@ def importHCUnits(group, x=0, y=0):
     imported = 0
     missing = []
 
-    for section, setCode, number in entries:
+    for section, unitId in entries:
         if section == "scratch_space":
             continue
 
         cards = queryCard({
-            "Set Code": setCode,
-            "Collector Number": number
+            "Unit ID": unitId
         }, True)
 
         if not cards:
-            missing.append(setCode + number)
+            missing.append(unitId)
             continue
 
         if section == "sideline":
