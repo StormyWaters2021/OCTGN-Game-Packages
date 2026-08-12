@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="DC Starter 2026" id="42521721-470d-4190-a0e8-351017c921bb" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="004a837f-e110-476c-b578-6015143b166c" name="Batman" size="Card">
+      <property name="Unit ID" value="d26001a" />
+      <property name="Collector Number" value="001a" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="Justice League" />
+      <property name="Keywords" value="Batman Family | Gotham City | Justice League | Martial Artist | Detective" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] BASIC CARD&#10;If Batman is 50 points, use this card.&#10;&#10;[Trait] STALKING THE SHADOWS&#10;When Batman moves, until your next turn opposing characters can't draw lines of fire to him (He can still be targeted by close attacks).&#10;&#10;[Attack] CHAINED STRIKES&#10;Powers: Precision Strike&#10;Precision Strike. // Once per turn when Batman hits, after resolutions he may make an attack targeting a single character he hit this turn." />
+      <alternate name="Batman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - CHAINED STRIKES" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Batman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CHAINED STRIKES" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Batman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Batman" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CHAINED STRIKES" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CHAINED STRIKES" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="610a4aa1-525a-46f7-a7d5-c59768245b49" name="Batman" size="Card">
+      <property name="Unit ID" value="d26001b" />
+      <property name="Collector Number" value="001b" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Justice League" />
+      <property name="Keywords" value="Batman Family | Gotham City | Justice League | Martial Artist | Detective" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ADVANCED CARD&#10;If Batman is 75 points, use this card.&#10;&#10;[Trait] CRASHING THROUGH A SKYLIGHT&#10;Powers: Stealth&#10;Stealth. // FREE: Place Batman in a square of different elevation within 4 squares and line of fire. If you do, after resolutions give an action token to each adjacent opposing character.&#10;&#10;[Attack] EXPERT TAKEDOWN&#10;Powers: Quake&#10;Quake. // When Batman hits, increase the damage dealt to each hit character by the number of action tokens on that hit character." />
+      <alternate name="Batman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - EXPERT TAKEDOWN" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Batman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EXPERT TAKEDOWN" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Batman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Batman" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EXPERT TAKEDOWN" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EXPERT TAKEDOWN" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="a808e48f-c81d-412f-b88e-7a33797c20af" name="Supergirl" size="Card">
+      <property name="Unit ID" value="d26002a" />
+      <property name="Collector Number" value="002a" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="Justice League" />
+      <property name="Keywords" value="Justice League | Kryptonian | Legion Of Super Heroes | Metropolis | Reporter" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] BASIC CARD&#10;If Supergirl is 50 points, use this card.&#10;&#10;[Attack] POWERFUL BLOWS&#10;Powers: Super Strength&#10;Super Strength. // When Supergirl knocks back an adjacent opposing character, they're knocked back 6 squares instead of 3.&#10;&#10;[Defense] KRYPTONIAN INVINCIBILITY&#10;Powers: Invincible&#10;Invincible. // When an opposing character hits Supergirl with a close attack, after resolutions deal that character 1 damage." />
+      <alternate name="Supergirl" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - KRYPTONIAN INVINCIBILITY" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Supergirl" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - KRYPTONIAN INVINCIBILITY" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Supergirl" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - KRYPTONIAN INVINCIBILITY" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Supergirl" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWERFUL BLOWS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWERFUL BLOWS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - POWERFUL BLOWS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - POWERFUL BLOWS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - POWERFUL BLOWS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="391b2d47-0469-4252-820a-0ed8b6890c8d" name="Supergirl" size="Card">
+      <property name="Unit ID" value="d26002b" />
+      <property name="Collector Number" value="002b" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Justice League" />
+      <property name="Keywords" value="Justice League | Kryptonian | Legion Of Super Heroes | Metropolis | Reporter" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ADVANCED CARD&#10;If Supergirl is 75 points, use this card.&#10;&#10;[Attack] CATCH!&#10;Powers: Super Strength&#10;Super Strength. // When Supergirl knocks an adjacent character back, she may choose the direction of the knockback path. If she does and the character she knocked back is stopped by another opposing character, deal both those opposing characters 1 damage.&#10;&#10;[Defense] LAST DAUGHTER OF KRYPTON&#10;Powers: Invincible, Super Senses&#10;Invincible, Super Senses. // Opposing characters modify their attack and damage -1 when attacking characters adjacent to Supergirl." />
+      <alternate name="Supergirl" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - LAST DAUGHTER OF KRYPTON" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Supergirl" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - LAST DAUGHTER OF KRYPTON" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Supergirl" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - LAST DAUGHTER OF KRYPTON" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Supergirl" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CATCH!" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CATCH!" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - CATCH!" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - CATCH!" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - CATCH!" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Supergirl" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="aaa96fba-8ea4-4f54-8522-aee0f667ff18" name="The Flash" size="Card">
+      <property name="Unit ID" value="d26003a" />
+      <property name="Collector Number" value="003a" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="Justice League" />
+      <property name="Keywords" value="Justice League | Police | Scientist | Speedster" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] BASIC CARD&#10;If The Flash is 50 points, use this card.&#10;&#10;[Speed] SPEED FORCE SHOCKWAVE&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. Once per turn when The Flash uses it, when he moves into a square he may knock back an opposing character adjacent to that square (Resolve the knockback before The Flash continues to move).&#10;&#10;[Damage] THINK FAST!&#10;Once per turn, The Flash may reroll any roll he makes (including single d6 rolls like Super Senses)." />
+      <alternate name="The Flash" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - SPEED FORCE SHOCKWAVE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="The Flash" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - SPEED FORCE SHOCKWAVE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="The Flash" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - SPEED FORCE SHOCKWAVE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="The Flash" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - THINK FAST!" />
+      </alternate>
+      <alternate name="The Flash" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - THINK FAST!" />
+      </alternate>
+      <alternate name="The Flash" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - THINK FAST!" />
+      </alternate>
+      <alternate name="The Flash" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - THINK FAST!" />
+      </alternate>
+      <alternate name="The Flash" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - THINK FAST!" />
+      </alternate>
+      <alternate name="The Flash" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="b27b304b-ac16-4a39-ad1f-d4ab24501655" name="The Flash" size="Card">
+      <property name="Unit ID" value="d26003b" />
+      <property name="Collector Number" value="003b" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Justice League" />
+      <property name="Keywords" value="Justice League | Police | Scientist | Speedster" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ADVANCED CARD&#10;If The Flash is 75 points, use this card.&#10;&#10;[Speed] EVERYWHERE AT ONCE&#10;POWER: [im:blocking,characters,elevated]. Move The Flash up to his speed value, then make a close attack targeting each opposing character adjacent to a square he moved through regardless of adjacency.&#10;&#10;[Damage] SPEED FORCE TIME TRAVEL&#10;Powers: Probability Control&#10;Probability Control. The Flash may use it up to 3 times a turn, but can't reroll the same roll multiple times." />
+      <alternate name="The Flash" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - EVERYWHERE AT ONCE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="The Flash" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - EVERYWHERE AT ONCE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="The Flash" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - EVERYWHERE AT ONCE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="The Flash" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - SPEED FORCE TIME TRAVEL" />
+      </alternate>
+      <alternate name="The Flash" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - SPEED FORCE TIME TRAVEL" />
+      </alternate>
+      <alternate name="The Flash" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - SPEED FORCE TIME TRAVEL" />
+      </alternate>
+      <alternate name="The Flash" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - SPEED FORCE TIME TRAVEL" />
+      </alternate>
+      <alternate name="The Flash" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - SPEED FORCE TIME TRAVEL" />
+      </alternate>
+      <alternate name="The Flash" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="048da5ba-6de9-4e26-b653-460d3257be9f" name="Green Lantern" size="Card">
+      <property name="Unit ID" value="d26004a" />
+      <property name="Collector Number" value="004a" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="Justice League" />
+      <property name="Keywords" value="Green Lantern Corps | Herald | Justice League | Soldier" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] BASIC CARD&#10;If Green Lantern is 50 points, use this card.&#10;&#10;[Trait] LANTERN CONSTRUCTS&#10;At the end of your turn, Green Lantern may generate a standard blocking terrain marker in a square within range and line of fire. At the beginning of your next turn (even if this is lost), remove that marker from the game.&#10;&#10;[Attack] LONG-DISTANCE CONSTRUCT&#10;If Green Lantern hasn't been moved or placed this turn, he has a range of 8." />
+      <alternate name="Green Lantern" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LONG-DISTANCE CONSTRUCT" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LONG-DISTANCE CONSTRUCT" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LONG-DISTANCE CONSTRUCT" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LONG-DISTANCE CONSTRUCT" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - LONG-DISTANCE CONSTRUCT" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Green Lantern" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="3d2c69a6-079f-40b3-a6d6-b36a003e6f36" name="Green Lantern" size="Card">
+      <property name="Unit ID" value="d26004b" />
+      <property name="Collector Number" value="004b" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Justice League" />
+      <property name="Keywords" value="Green Lantern Corps | Herald | Justice League | Soldier" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ADVANCED CARD&#10;If Green Lantern is 75 points, use this card.&#10;&#10;[Trait] CONSTRUCT MASTERY&#10;Powers: Barrier&#10;Barrier. Barrier as FREE, but only to generate 2 markers.&#10;&#10;[Attack] CONSTRUCT PLATOON&#10;RANGE: Make a range attack targeting each opposing character within range and line of fire. Instead of normal damage, hit characters are dealt damage equal to Green Lantern's printed damage value." />
+      <alternate name="Green Lantern" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CONSTRUCT PLATOON" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CONSTRUCT PLATOON" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CONSTRUCT PLATOON" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CONSTRUCT PLATOON" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - CONSTRUCT PLATOON" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Green Lantern" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Green Lantern" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="af265a02-53ce-49be-a5cd-b64c681f76ea" name="Civilian" size="1x1">
+      <property name="Unit ID" value="d26b001" />
+      <property name="Collector Number" value="b001" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="5" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <alternate name="Civilian" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+      </alternate>
+    </card>
+    <card id="a7f5c626-f60f-4eca-b1da-81d3a0e9e850" name="Parademon" size="1x1">
+      <property name="Unit ID" value="d26b002" />
+      <property name="Collector Number" value="b002" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="15" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Parademon" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+    <card id="b88e584c-3e52-421a-a497-647392640153" name="Darkseid" size="1x1">
+      <property name="Unit ID" value="d26b003" />
+      <property name="Collector Number" value="b003" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="35" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <alternate name="Darkseid" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+      </alternate>
+    </card>
+    <card id="9390c31c-5a1e-40ec-9ed1-6d1b71c2c58c" name="Training Dummy" size="1x1">
+      <property name="Unit ID" value="d26b004" />
+      <property name="Collector Number" value="b004" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="5" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <alternate name="Training Dummy" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="0" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="0" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="0" />
+      </alternate>
+    </card>
+    <card id="1bd33905-89d6-4824-bae4-8966bf94bcfb" name="Evil Training Dummy" size="1x1">
+      <property name="Unit ID" value="d26b005" />
+      <property name="Collector Number" value="b005" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="5" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] RETRIBUTION&#10;When an opposing character misses Evil Training Dummy, after resolutions knock that character back." />
+      <alternate name="Evil Training Dummy" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="0" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="0" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+      </alternate>
+    </card>
+    <card id="1e13d012-f03b-4b36-b50e-f4fcdaab20ae" name="Big Belly Burger" size="16x16">
+      <property name="Unit ID" value="d26M001" />
+      <property name="Collector Number" value="M001" />
+      <property name="Unit Type" value="Map" />
+    </card>
+    <card id="3b24c6ec-b9aa-4cfc-982a-2b4f0ec08146" name="Hamburger" size="1x1">
+      <property name="Unit ID" value="d26TM001" />
+      <property name="Collector Number" value="TM001" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+    </card>
+  </cards>
+</set>

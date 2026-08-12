@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Dungeons &amp; Dragons Iconix" id="87b7e45e-2d9f-4bae-914d-dcff7770400f" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="bc12e696-77cd-4d2b-93f3-11c5f7426469" name="Beholder" size="Card">
+      <property name="Unit ID" value="dndicnDNDX-001" />
+      <property name="Collector Number" value="DNDX-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="300/150" />
+      <property name="Keywords" value="Ruler | Monster | Mystical" />
+      <property name="Range" value="7" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Improved Targeting" value="Hindering | Characters | Adjacent" />
+      <property name="Traits and Special Powers" value="[Trait] PLANS ON PLANS&#10;Powers: Super Senses, Willpower&#10;Super Senses, Willpower. SAFEGUARD: Outwit.&#10;&#10;[Attack] EYE RAYS&#10;Powers: Precision Strike&#10;Precision Strike. // When Beholder attacks, roll a d20.&#10;1-2: Charm Ray. Hit characters modify attack -2 until your next turn.&#10;3-4: Paralyzing Ray. Hit characters can't use attack powers until your next turn.&#10;5-6: Fear Ray. Hit characters modify combat values -1 until your next turn.&#10;7-8: Slowing Ray. Hit characters can't use Speed powers until your next turn.&#10;9-10: Ennervation Ray. Increase damage dealt to hit targets by the number of action tokens they have.&#10;11-12: Telekinetic Ray. KNOCKBACK.&#10;13-14: Sleep Ray. Hit characters are given 2 action tokens.&#10;15-16: Petrification Ray. Hit characters have Immobile until your next turn.&#10;17-18: Disintegration Ray. After resolutions, remove any equipment equipped to hit characters from the game.&#10;19-20: Death Ray. Damage from this attack is penetrating. If this attack is a critical hit, after resolutions KO a hit target.&#10;&#10;[Defense] LEGENDARY ACTION: EYE RAY&#10;Powers: Stop, Impervious&#10;STOP. Impervious. // The first time this click is revealed, after resolutions the turn ends. // Once per turn, Beholder may reroll a d20 they rolled.&#10;&#10;[Damage] ANTI-MAGIC CONE&#10;Powers: Outwit&#10;Outwit. // FREE: Choose an opposing character within range and line of fire. The chosen character can't use the EFFECT of equipment until your next turn." />
+      <alternate name="Beholder" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="20" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="5" />
+        <property name="Damage Ability" value="Special - ANTI-MAGIC CONE" />
+      </alternate>
+      <alternate name="Beholder" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Beholder" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - ANTI-MAGIC CONE" />
+      </alternate>
+      <alternate name="Beholder" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Beholder" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - LEGENDARY ACTION: EYE RAY" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - ANTI-MAGIC CONE" />
+      </alternate>
+      <alternate name="Beholder" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Beholder" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - ANTI-MAGIC CONE" />
+      </alternate>
+      <alternate name="Beholder" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Beholder" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ANTI-MAGIC CONE" />
+      </alternate>
+      <alternate name="Beholder" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Beholder" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE RAYS" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - LEGENDARY ACTION: EYE RAY" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ANTI-MAGIC CONE" />
+      </alternate>
+      <alternate name="Beholder" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="8d7e72f0-ae8e-43b5-b78d-ed70cba394ce" name="Displacer Beast" size="Card">
+      <property name="Unit ID" value="dndicnDNDX-002" />
+      <property name="Collector Number" value="DNDX-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="125/50" />
+      <property name="Keywords" value="Animal | Monster | Mystical" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] DISPLACEMENT&#10;Powers: Shape Change&#10;Shape Change. When Displacer Beast uses it, roll a d20 instead. If the result is higher than the attacker's attack value, it succeeds and you may place Displacer Beast up to 2 squares away from its current square. Protected: Outwit.&#10;&#10;[Trait] LOVE OF THE KILL&#10;Giant Reach: 2. // Modify Displayer Beast's attack +1 for each opposing character within 4 squares that is not on its starting click.&#10;&#10;[Speed] AMBUSH&#10;Powers: Sidestep, Stealth, Charge, Exploit Weakness&#10;Sidestep, Stealth. // If Displacer Beast was placed since your last turn, Charge, Exploit Weakness." />
+      <alternate name="Displacer Beast" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - AMBUSH" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - AMBUSH" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - AMBUSH" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - AMBUSH" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Displacer Beast" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Displacer Beast" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="14649138-47bc-4043-8f32-34189a84f226" name="Mimic" size="Card">
+      <property name="Unit ID" value="dndicnDNDX-003" />
+      <property name="Collector Number" value="DNDX-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Sideline Active | Generic | Unique" />
+      <property name="Point Values" value="15" />
+      <property name="Keywords" value="Monster | Monstrosity | Neutral" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] FALSE APPEARANCE&#10;SIDELINE ACTIVE - If Mimic is on your Sideline, when an opposing character would pick up a terrain marker, or equip an equipment it's holding or in the square of, you may roll a d20.&#10;1: Critical Fail. Remove Mimic from the game without scoring it.&#10;10+: Shape Changer. Instead, immediately end that character's action without any effect, remove that terrain marker from the game, and generate Mimic from your Sideline adjacent to that character. If the d20 result was 20, Mimic has IMMUNE until your next turn.&#10;&#10;[Speed] ADHESIVE&#10;Powers: Plasticity, Probability Control&#10;Plasticity. // Probability Control, but only for breakaway rolls and only to target itself or adjacent opposing characters.&#10;&#10;[Attack] BITE&#10;Powers: Blades Claws Fangs, Poison&#10;Blades/Claws/Fangs, Poison." />
+      <alternate name="Mimic" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="3" />
+        <property name="Speed Ability" value="Special - ADHESIVE" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - BITE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Mimic" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="3" />
+        <property name="Speed Ability" value="Special - ADHESIVE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - BITE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Mimic" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="3" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Mimic" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="5817b2c6-d0a2-401f-add8-5a700f694cb3" name="Owlbear" size="Card">
+      <property name="Unit ID" value="dndicnDNDX-004" />
+      <property name="Collector Number" value="DNDX-004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="100/50" />
+      <property name="Keywords" value="Animal | Brute | Monster | Monstrosity | Mystical" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] KEEN SIGHT AND SMELL&#10;If no opposing characters are within 4 squares and line of fire of Owlbear, when Owlbear uses Charge they do not halve speed.&#10;&#10;[Trait] PREDATOR AND PREY&#10;When a friendly character with the Animal or Monster keyword KOs an opposing character, after resolutions that character may use Regeneration as FREE.&#10;&#10;[Speed] BEAK AND CLAW&#10;Powers: Charge, Flurry&#10;Charge, Flurry." />
+      <alternate name="Owlbear" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - BEAK AND CLAW" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Owlbear" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - BEAK AND CLAW" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Owlbear" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - BEAK AND CLAW" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Owlbear" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - BEAK AND CLAW" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Owlbear" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - BEAK AND CLAW" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Owlbear" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Owlbear" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Owlbear" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Owlbear" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - BEAK AND CLAW" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Owlbear" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="fb2d9c81-828f-4cba-a456-83c05fc4ccb6" name="Baby Owlbear" size="Card">
+      <property name="Unit ID" value="dndicnDNDX-005" />
+      <property name="Collector Number" value="DNDX-005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="15" />
+      <property name="Keywords" value="Animal | Monster | Monstrosity | Mystical" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] DISTRESSED CUB&#10;At the beginning of your turn, if an opposing character is within 4 squares, you may roll a d20.&#10;15+: Vengeful Parent: Generate a [set:dndicn] #DNDX-004 Owlbear on their red starting line and Baby Owlbear can't use this trait for the rest of the game. After resolutions, unless a 20 was rolled, turn that Owlbear to click #8.&#10;&#10;[Trait] HUNGRY!&#10;When an adjacent friendly character with the Animal keyword heals, after resolutions heal Baby Owlbear the same number of clicks." />
+      <alternate name="Baby Owlbear" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Baby Owlbear" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Baby Owlbear" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Baby Owlbear" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Baby Owlbear" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="23365a2b-0c45-4ebc-96af-d5f23c0e9847" name="Treasure Chest" size="1x1">
+      <property name="Unit ID" value="dndicnDNDX-s001" />
+      <property name="Collector Number" value="DNDX-s001" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Sideline Active" />
+      <property name="Point Values" value="5" />
+      <property name="Traits and Special Powers" value="Unnamed Ability&#10;Powers: Leap Climb, Stealth, Shape Change, Super Strength, Super Senses, Regeneration, Support, Blades Claws Fangs, Pulse Wave, Invincible&#10;At the beginning of your turn, roll a d20. Until your next turn, Treasure Chest has &quot;Characters in the same square as or adjacent to Treasure Chest can use the resulting effect.&quot;&#10;1-2: Hempen Rope - Leap/Climb.&#10;3-4: Cloak of Invisibility - Stealth.&#10;5-6: Broom of Flying - [cs:wing].&#10;7-8: Cloak of Displacement - Shape Change.&#10;9-10: Gauntlets of Ogre Power - Super Strength.&#10;11-12: Boots of Elvenkind - Super Senses.&#10;13-14: Staff of Healing - Regeneration, Support.&#10;15-16: Dancing Sword - Blades/Claws/Fangs, Giant Reach: 3.&#10;17-18: Javelin of Lightning - Pulse Wave.&#10;19: Mithril Armor - Invincible.&#10;20: Choose another result and roll again. (Characters will use both results.)&#10;&#10;MORE LOOT!&#10;SIDELINE ACTIVE - When an opposing character is KO'd by a friendly effect, after resolutions generate this object from your Sideline in the square it last occupied." />
+    </card>
+    <card id="d5df87ce-5cd5-42e3-9fca-bf7379cf4714" name="Bag of Holding" size="Card">
+      <property name="Unit ID" value="dndicnDNDX-s002" />
+      <property name="Collector Number" value="DNDX-s002" />
+      <property name="Unit Type" value="Equipment" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="10" />
+      <property name="Traits and Special Powers" value="EFFECT&#10;When this character picks up an object you may place it on Bag of Holding's card. // POWER: Place an object on Bag of Holding's card into an adjacent square. // FREE: Choose an EFFECT from an object on Bag of Holding's card for this character to use until they choose again." />
+    </card>
+    <card id="9ea8f320-996b-4220-a258-117b958bca0c" name="+1 Longsword" size="Card">
+      <property name="Unit ID" value="dndicnDNDX-s003" />
+      <property name="Collector Number" value="DNDX-s003" />
+      <property name="Unit Type" value="Equipment" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="10" />
+      <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Close Combat Expert, Blades Claws Fangs&#10;Close Combat Expert. // Blades/Claws/Fangs. When this character uses it, increase damage dealt by +1." />
+    </card>
+    <card id="83650560-2bda-4e44-aef4-ece0c1f2333b" name="Ring of Telekinesis" size="Card">
+      <property name="Unit ID" value="dndicnDNDX-s004" />
+      <property name="Collector Number" value="DNDX-s004" />
+      <property name="Unit Type" value="Equipment" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="10" />
+      <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Telekinesis, Perplex&#10;Telekinesis as FREE, but only to place terrain markers. // Perplex, but only to target a character adjacent to a terrain marker this character placed this turn regardless of range and line of fire." />
+    </card>
+  </cards>
+</set>

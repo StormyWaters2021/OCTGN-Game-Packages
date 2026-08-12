@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Marvel 25th Anniversary" id="c52c48f3-9a76-49e8-a085-958191b37fc0" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="96211d1b-6546-4b73-bd25-f54c3009aa6c" name="Wasp" size="Card">
+      <property name="Unit ID" value="m25a009" />
+      <property name="Collector Number" value="009" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="35" />
+      <property name="Team Abilities" value="Avengers" />
+      <property name="Keywords" value="Celebrity | Avengers" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
+      <property name="Traits and Special Powers" value="[Damage] A NATURAL LEADER&#10;Powers: Leadership&#10;Leadership. // At the end of your turn, for all characters with this power, you may remove an action token from a friendly character with [ta:avengers]." />
+      <alternate name="Wasp" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - A NATURAL LEADER" />
+      </alternate>
+      <alternate name="Wasp" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - A NATURAL LEADER" />
+      </alternate>
+      <alternate name="Wasp" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - A NATURAL LEADER" />
+      </alternate>
+      <alternate name="Wasp" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wasp" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="321ac6ee-cbd8-46a2-87ca-783863370d94" name="Sue Storm" size="Card">
+      <property name="Unit ID" value="m25a028" />
+      <property name="Collector Number" value="028" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="Fantastic Four" />
+      <property name="Keywords" value="Celebrity | Avengers | S.H.I.E.L.D. | Scientist | Fantastic Four" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] FADE FROM SIGHT&#10;Friendly characters within range with [ta:fantastic_four] don't block lines of fire from friendly characters." />
+      <alternate name="Sue Storm" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Sue Storm" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Sue Storm" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Sue Storm" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Sue Storm" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Sue Storm" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Sue Storm" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="c0b97bf7-405f-4a82-a362-1fbd704f5653" name="Pyro" size="Card">
+      <property name="Unit ID" value="m25a034" />
+      <property name="Collector Number" value="034" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="50/30" />
+      <property name="Team Abilities" value="Brotherhood Of Mutants" />
+      <property name="Keywords" value="Brotherhood Of Mutants | Marauders | Pirate | Reporter" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE BROTHERHOOD: LIVING FLAME&#10;For all characters with this trait, when a friendly character uses [ta:brotherhood_of_mutants] and removes an action token, after resolutions you may destroy up to one piece of blocking terrain (anywhere on the map).&#10;&#10;[Attack] LET IT ALL BURN&#10;Powers: Energy Explosion, Precision Strike&#10;Energy Explosion, Precision Strike. // When Pyro makes a range attack, after resolutions, generate Fire smoke terrain markers in the squares of each hit target. At the beginning of your next turn, deal 1 damage to each character occupying those markers, then remove those markers." />
+      <alternate name="Pyro" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LET IT ALL BURN" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Pyro" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LET IT ALL BURN" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Pyro" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LET IT ALL BURN" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Pyro" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - LET IT ALL BURN" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Pyro" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - LET IT ALL BURN" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Pyro" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - LET IT ALL BURN" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Pyro" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="c9ba7ff2-2d27-47d0-99a1-34618905fcbd" name="Silver Surfer" size="Card">
+      <property name="Unit ID" value="m25a062" />
+      <property name="Collector Number" value="062" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Ultra Chase" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Keywords" value="Annihilators | Cosmic | Herald | Scientist | Defenders | Fantastic Four" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE POWER TO CHANGE DESTINY&#10;At the beginning of your turn, choose an effect that Silver Surfer can use until your next turn:*Game Elements on an opponent's Sideline can't use SIDELINE ACTIVE effects.*Once per turn, Silver Surfer may reroll any roll.*Silver Surfer has &quot;Friendly characters within range have SAFEGUARD: Pulse Wave.&quot;&#10;Protected: Pulse Wave.&#10;&#10;[Defense] YOU MISTAKE RESTRAINT FOR WEAKNESS&#10;Powers: Stop, Impervious&#10;STOP. Impervious. // Silver Surfer can reduce penetrating damage and can't be healed.&#10;&#10;[Damage] COSMIC AWARENESS&#10;Powers: Outwit, Perplex, Defend, Support&#10;Outwit, Perplex. // Defend, Support. When Silver Surfer uses either, he considers friendly characters within range as adjacent to himself." />
+      <alternate name="Silver Surfer" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - COSMIC AWARENESS" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - COSMIC AWARENESS" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - COSMIC AWARENESS" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - YOU MISTAKE RESTRAINT FOR WEAKNESS" />
+        <property name="Damage" value="5" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - YOU MISTAKE RESTRAINT FOR WEAKNESS" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - YOU MISTAKE RESTRAINT FOR WEAKNESS" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Silver Surfer" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Warner Bros. Iconix" id="21f56675-6a05-4227-ac5d-2a94040084a5" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="4b7d1876-78dc-44b8-b139-8bea58f8cfcf" name="Betelgeuse" size="Card">
+      <property name="Unit ID" value="wbicnWBX1-001" />
+      <property name="Collector Number" value="WBX1-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Unique | Sideline Active" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Mystics" />
+      <property name="Keywords" value="Ghost Realm | Monster | Mystical | Demon Legion" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Destroy Blocking | Characters" />
+      <property name="Traits and Special Powers" value="[Trait] FIRST YOU GOTTA SAY MY NAME&#10;SIDELINE ACTIVE - If Betelgeuse is on your Sideline, friendly standard characters have &quot;POWER: Give Betelgeuse a Name token.&quot; // When Betelgeuse has three Name tokens, remove them, generate Betelgeuse adjacent to the last character who gave him a Name token, and roll a d6. Turn Betelgeuse to the resulting click number.&#10;&#10;[Trait] IT'S SHOWTIME!&#10;Powers: Sidestep&#10;Sidestep. // Other characters can't be given FREE actions. // At the end of your turn, if Betelgeuse wasn't part of your starting force, choose one: *Return Betelgeuse to your Sideline. *Roll a d6 and deal another friendly standard character unavoidable damage equal to half the result.&#10;&#10;[Damage] BIO-EXORCIST&#10;Powers: Probability Control, Shape Change&#10;Probability Control, Shape Change. // Betelgeuse deals penetrating damage to opposing characters with lower point values than himself." />
+      <alternate name="Betelgeuse" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - BIO-EXORCIST" />
+      </alternate>
+      <alternate name="Betelgeuse" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - BIO-EXORCIST" />
+      </alternate>
+      <alternate name="Betelgeuse" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - BIO-EXORCIST" />
+      </alternate>
+      <alternate name="Betelgeuse" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="13" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - BIO-EXORCIST" />
+      </alternate>
+      <alternate name="Betelgeuse" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - BIO-EXORCIST" />
+      </alternate>
+      <alternate name="Betelgeuse" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="20" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - BIO-EXORCIST" />
+      </alternate>
+      <alternate name="Betelgeuse" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="3" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Betelgeuse" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="ad818e3e-618b-42a9-a7df-4b2d607a5881" name="Lion-O" size="Card">
+      <property name="Unit ID" value="wbicnWBX3-001" />
+      <property name="Collector Number" value="WBX3-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="100/50" />
+      <property name="Keywords" value="Animal | Ruler | Warrior | Thundercats" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THUNDERCATS HO!&#10;Powers: Empower, Leadership&#10;Empower, Leadership. Once per game when Lion-O uses Leadership, before rolling you may place any number of friendly characters with the ThunderCats keyword adjacent to him.&#10;&#10;[Speed] CLAW SHIELD GRAPPLE&#10;Powers: Charge&#10;Charge. // FREE: Place Lion-O in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Attack] SWORD OF OMENS&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. // Opposing characters within range can't use Shape Change or Stealth." />
+      <alternate name="Lion-O" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - CLAW SHIELD GRAPPLE" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - SWORD OF OMENS" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Lion-O" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - CLAW SHIELD GRAPPLE" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - SWORD OF OMENS" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Lion-O" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - CLAW SHIELD GRAPPLE" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - SWORD OF OMENS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Lion-O" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - CLAW SHIELD GRAPPLE" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - SWORD OF OMENS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Lion-O" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Lion-O" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Lion-O" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Lion-O" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - CLAW SHIELD GRAPPLE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - SWORD OF OMENS" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Lion-O" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - CLAW SHIELD GRAPPLE" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - SWORD OF OMENS" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Lion-O" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="bcbcc3ed-422a-4717-84eb-f649b59e2223" name="Cheetara" size="Card">
+      <property name="Unit ID" value="wbicnWBX3-002" />
+      <property name="Collector Number" value="WBX3-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="100/50" />
+      <property name="Keywords" value="Animal | Speedster | Warrior | Thundercats" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Characters" />
+      <property name="Traits and Special Powers" value="[Trait] FASTEST OF THE THUNDERCATS&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed, KNOCKBACK.&#10;&#10;[Attack] EXTENDING STAFF&#10;Powers: Precision Strike&#10;Giant Reach: 3, Precision Strike.&#10;&#10;[Damage] SIXTH SENSE&#10;Once per turn, Cheetara may reroll the roll of a character within 4 squares. If she does, after resolutions deal her 1 unavoidable damage." />
+      <alternate name="Cheetara" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EXTENDING STAFF" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SIXTH SENSE" />
+      </alternate>
+      <alternate name="Cheetara" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EXTENDING STAFF" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SIXTH SENSE" />
+      </alternate>
+      <alternate name="Cheetara" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EXTENDING STAFF" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SIXTH SENSE" />
+      </alternate>
+      <alternate name="Cheetara" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SIXTH SENSE" />
+      </alternate>
+      <alternate name="Cheetara" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Cheetara" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Cheetara" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - EXTENDING STAFF" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Cheetara" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - EXTENDING STAFF" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Cheetara" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - EXTENDING STAFF" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Cheetara" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="e40e3d29-bc31-41ad-bb25-ab55bfe0b7da" name="Tygra" size="Card">
+      <property name="Unit ID" value="wbicnWBX3-003" />
+      <property name="Collector Number" value="WBX3-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="100/50" />
+      <property name="Keywords" value="Animal | Scientist | Warrior | Thundercats" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Move Through" />
+      <property name="Traits and Special Powers" value="[Trait] INVISIBILITY&#10;Opposing characters can't draw lines of fire to Tygra unless he has 2 action tokens.&#10;&#10;[Attack] BOLO-WHIP&#10;Giant Reach: 4. // When Tygra attacks, after resolutions give each hit character an action token.&#10;&#10;[Damage] MIND-POWER&#10;Powers: Shape Change&#10;Friendly characters that are adjacent or have the ThunderCats keyword can use Shape Change." />
+      <alternate name="Tygra" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - MIND-POWER" />
+      </alternate>
+      <alternate name="Tygra" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - MIND-POWER" />
+      </alternate>
+      <alternate name="Tygra" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - MIND-POWER" />
+      </alternate>
+      <alternate name="Tygra" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - MIND-POWER" />
+      </alternate>
+      <alternate name="Tygra" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Tygra" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Tygra" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Tygra" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - MIND-POWER" />
+      </alternate>
+      <alternate name="Tygra" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - BOLO-WHIP" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - MIND-POWER" />
+      </alternate>
+      <alternate name="Tygra" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="ccb75662-ebc4-4a9b-aa0c-230f1031ed51" name="Panthro" size="Card">
+      <property name="Unit ID" value="wbicnWBX3-004" />
+      <property name="Collector Number" value="WBX3-004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="100/50" />
+      <property name="Keywords" value="Animal | Pilot | Scientist | Warrior | Thundercats | Vehicle" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] CHIEF ENGINEER&#10;At the beginning of your turn, you may heal Panthro and up to one adjacent friendly character 1 click.&#10;&#10;[Attack] FIGHTING STICKS&#10;Powers: Poison, Super Strength&#10;Poison, Super Strength. // When Panthro damages an opposing character, that character modifies their defense -1 until your next turn.&#10;&#10;[Damage] THE THUNDERTANK&#10;[cs:passenger]: 3. // Panthro has a range of 6." />
+      <alternate name="Panthro" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - THE THUNDERTANK" />
+      </alternate>
+      <alternate name="Panthro" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - THE THUNDERTANK" />
+      </alternate>
+      <alternate name="Panthro" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - THE THUNDERTANK" />
+      </alternate>
+      <alternate name="Panthro" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - THE THUNDERTANK" />
+      </alternate>
+      <alternate name="Panthro" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - FIGHTING STICKS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Panthro" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - FIGHTING STICKS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Panthro" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - FIGHTING STICKS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Panthro" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - FIGHTING STICKS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Panthro" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - FIGHTING STICKS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Panthro" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="904f13b1-4bfb-4a83-b713-907d6b2a2588" name="Mumm-Ra" size="Card">
+      <property name="Unit ID" value="wbicnWBX3-005" />
+      <property name="Collector Number" value="WBX3-005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="300" />
+      <property name="Team Abilities" value="Cosmic Energy | Mystics" />
+      <property name="Keywords" value="Past | Ruler | Monster | Mystical" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Destroy Blocking" />
+      <property name="Improved Targeting" value="Destroy Blocking" />
+      <property name="Traits and Special Powers" value="[Trait] SCHEMES ACROSS THIRD EARTH&#10;At the beginning of the game, generate 6 Mutant bystanders in your starting area, place Mumm-Ra on his card, and choose one of the listed effects for Mumm-Ra to use while on his card until he's removed from his card. *Opposing characters can't use the EFFECT of equipment. *Opposing characters can't use damage powers. *Opposing characters can't remove action tokens except by clearing.&#10;&#10;[Trait] THE EVER-LIVING!&#10;Powers: Mastermind&#10;Mastermind. // If Mumm-Ra is on his card, when a Mutant bystander is KO'd, after resolutions roll a d6. If the result is greater than the number of friendly Mutant bystanders on the map, place Mumm-Ra from his card into a square within 3 squares of an opposing character.&#10;&#10;[Defense] RETURN TO THE SARCOPHAGUS&#10;Powers: Stop, Invincible&#10;STOP. Invincible. // When this click is revealed, after resolutions you may place Mumm-Ra up to 3 squares away from his current square." />
+      <alternate name="Mumm-Ra" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - RETURN TO THE SARCOPHAGUS" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - RETURN TO THE SARCOPHAGUS" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - RETURN TO THE SARCOPHAGUS" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Mumm-Ra" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="28a68d27-b0ab-4df2-a85b-6015d6f7ef51" name="Mutant" size="1x1">
+      <property name="Unit ID" value="wbicnWBX3-005bt" />
+      <property name="Collector Number" value="WBX3-005bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Mutant" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+    <card id="deaa55ed-09ef-4ee6-b782-6b85d010613c" name="Wilykit" size="1x1">
+      <property name="Unit ID" value="wbicnWBX3-b001" />
+      <property name="Collector Number" value="WBX3-b001" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="5" />
+      <property name="Keywords" value="Thundercats" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Wilykit" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+    </card>
+    <card id="34a64572-4344-41d5-96ea-af89531efd7c" name="Wilykat" size="1x1">
+      <property name="Unit ID" value="wbicnWBX3-b002" />
+      <property name="Collector Number" value="WBX3-b002" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="5" />
+      <property name="Keywords" value="Thundercats" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Wilykat" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+    </card>
+    <card id="71d42d55-37bc-48df-8c83-9dd2a7f54d00" name="Snarf" size="1x1">
+      <property name="Unit ID" value="wbicnWBX3-b003" />
+      <property name="Collector Number" value="WBX3-b003" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="10" />
+      <property name="Keywords" value="Thundercats" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
+      <alternate name="Snarf" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="0" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+    </card>
+  </cards>
+</set>

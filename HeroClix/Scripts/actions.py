@@ -157,6 +157,13 @@ def table_config(args):
                 make_model(card)
             
 
+def rotate_model(card, x=0, y=0):
+    mute()
+    rotation = card.orientation
+    if rotation == 3:
+        card.orientation = 0
+    else:
+        card.orientation += 1
 
 def make_model(card):
     mute()
@@ -180,6 +187,9 @@ def is_not_map(card, x=0, y=0):
     mute()
     return card[0].properties["Unit Type"] != "Map"
 
+def is_one_shot(card, x=0, y=0):
+    mute()
+    return card[0].properties["Unit Type"] == "One Shot"
 
 DICE_FACES = {
     1: "Face1",
