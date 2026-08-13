@@ -167,8 +167,8 @@ def rotate_model(card, x=0, y=0):
 
 def make_model(card):
     mute()
-    if card.properties["Unit Type"] == "Bystander":
-        return
+    # if card.properties["Unit Type"] == "Bystander":
+        # return
     offset = -100
     if me.isInverted:
         offset = 100
