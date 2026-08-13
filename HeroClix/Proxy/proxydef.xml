@@ -29,4 +29,23 @@
       <link block="Title"><property name="name" /></link>
     </textblocks>
     </template> 
+	
+	<template src="Proxy/pac.jpg" default="False">
+    <matches>
+      <match name="Unit Type" value="PAC" />
+    </matches>
+	
+	<overlayblocks>
+		<conditional>
+			<switch property="name">
+				<case value="XXXXXXXXX">
+					<link block="over" />
+				</case>
+			</switch>
+		</conditional>
+	</overlayblocks>
+    <textblocks>
+      <link block="Title"><property name="name" /></link>
+    </textblocks>
+    </template> 
 </templates>

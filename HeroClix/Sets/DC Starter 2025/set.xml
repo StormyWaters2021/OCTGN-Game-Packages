@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="DC Starter 2025" id="b0785bfa-c393-43b3-81e6-37099a79b174" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="04278ef6-25eb-4718-91d8-1c0b90ce4eaf" name="Batman" size="Card">
@@ -801,12 +800,13 @@
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
     </card>
-    <card id="a40d79d8-698b-4342-b094-dc0694c02d76" name="Broken Path" size="1x1">
+    <card id="a40d79d8-698b-4342-b094-dc0694c02d76" name="Broken Path" size="Card">
       <property name="Unit ID" value="d25TM001" />
       <property name="Collector Number" value="TM001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Broken Path" type="Tile" size="1x1" />
     </card>
   </cards>
 </set>

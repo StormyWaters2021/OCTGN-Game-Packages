@@ -1,4 +1,7 @@
 changelog = {
+    1000007: ("1.0.0.7", "13 August 2026", [
+        "Added most of the missing terrain tiles. Use Image Downloader plugin again to retreive missing images.",
+        ]),
     1000006: ("1.0.0.6", "13 August 2026", [
         "Replaced main playmat image, added several new options. Right-click the table to swap.",
         ]),

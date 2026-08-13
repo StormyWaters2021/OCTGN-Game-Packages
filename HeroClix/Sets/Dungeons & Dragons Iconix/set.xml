@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Dungeons &amp; Dragons Iconix" id="87b7e45e-2d9f-4bae-914d-dcff7770400f" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="bc12e696-77cd-4d2b-93f3-11c5f7426469" name="Beholder" size="Card">
@@ -508,7 +507,7 @@
         <property name="Damage" value="KO" />
       </alternate>
     </card>
-    <card id="23365a2b-0c45-4ebc-96af-d5f23c0e9847" name="Treasure Chest" size="1x1">
+    <card id="23365a2b-0c45-4ebc-96af-d5f23c0e9847" name="Treasure Chest" size="Card">
       <property name="Unit ID" value="dndicnDNDX-s001" />
       <property name="Collector Number" value="DNDX-s001" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -516,6 +515,7 @@
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="5" />
       <property name="Traits and Special Powers" value="Unnamed Ability&#10;Powers: Leap Climb, Stealth, Shape Change, Super Strength, Super Senses, Regeneration, Support, Blades Claws Fangs, Pulse Wave, Invincible&#10;At the beginning of your turn, roll a d20. Until your next turn, Treasure Chest has &quot;Characters in the same square as or adjacent to Treasure Chest can use the resulting effect.&quot;&#10;1-2: Hempen Rope - Leap/Climb.&#10;3-4: Cloak of Invisibility - Stealth.&#10;5-6: Broom of Flying - [cs:wing].&#10;7-8: Cloak of Displacement - Shape Change.&#10;9-10: Gauntlets of Ogre Power - Super Strength.&#10;11-12: Boots of Elvenkind - Super Senses.&#10;13-14: Staff of Healing - Regeneration, Support.&#10;15-16: Dancing Sword - Blades/Claws/Fangs, Giant Reach: 3.&#10;17-18: Javelin of Lightning - Pulse Wave.&#10;19: Mithril Armor - Invincible.&#10;20: Choose another result and roll again. (Characters will use both results.)&#10;&#10;MORE LOOT!&#10;SIDELINE ACTIVE - When an opposing character is KO'd by a friendly effect, after resolutions generate this object from your Sideline in the square it last occupied." />
+      <alternate name="Treasure Chest" type="Tile" size="1x1" />
     </card>
     <card id="d5df87ce-5cd5-42e3-9fca-bf7379cf4714" name="Bag of Holding" size="Card">
       <property name="Unit ID" value="dndicnDNDX-s002" />

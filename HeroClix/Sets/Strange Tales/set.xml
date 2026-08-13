@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Strange Tales" id="8a2290ee-ce75-4df2-87cc-15cfcb7994b2" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="829d4713-9e0f-4569-907c-8aadc9a793b2" name="Dr. Strange" size="Card">
@@ -7805,28 +7804,31 @@
       <property name="Unit Type" value="Tarot Card" />
       <property name="Traits and Special Powers" value="Unnamed Ability&#10;When a character takes damage from an attack, after resolutions you may remove an action token from them." />
     </card>
-    <card id="3974f327-a1f0-43d6-b717-19fa422062cc" name="Fountain" size="2x2">
+    <card id="3974f327-a1f0-43d6-b717-19fa422062cc" name="Fountain" size="Card">
       <property name="Unit ID" value="stTM001" />
       <property name="Collector Number" value="TM001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
+      <alternate name="Fountain" type="Tile" size="2x2" />
     </card>
-    <card id="9a7d552f-3561-4e3e-9790-26a5deadf788" name="Brick Block" size="2x2">
+    <card id="9a7d552f-3561-4e3e-9790-26a5deadf788" name="Brick Block" size="Card">
       <property name="Unit ID" value="stTM002" />
       <property name="Collector Number" value="TM002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Range" value="3" />
+      <alternate name="Brick Block" type="Tile" size="2x2" />
     </card>
-    <card id="5f26ece2-19c1-467e-a7bb-1b090801e2f3" name="Mainframe" size="1x4">
+    <card id="5f26ece2-19c1-467e-a7bb-1b090801e2f3" name="Mainframe" size="Card">
       <property name="Unit ID" value="stTM003" />
       <property name="Collector Number" value="TM003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Mainframe" type="Tile" size="1x4" />
     </card>
     <card id="5b7f70ed-0ae9-4ee8-8f71-a28514d45356" name="Queen of Pentacles" size="Card">
       <property name="Unit ID" value="stTP013" />

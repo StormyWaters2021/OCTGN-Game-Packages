@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Marvel HeroClix 400" id="e783ea61-c020-460d-83ef-f3585247f6ae" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="96c1bb49-9fb0-40ac-9753-0906f5899e9e" name="Black Panther" size="Card">
@@ -493,7 +492,7 @@
         <property name="Damage" value="KO" />
       </alternate>
     </card>
-    <card id="dcff08f2-ff96-42de-9cb2-77af362dcde7" name="Vibranium" size="1x1">
+    <card id="dcff08f2-ff96-42de-9cb2-77af362dcde7" name="Vibranium" size="Card">
       <property name="Unit ID" value="m400BP-t001" />
       <property name="Collector Number" value="BP-t001" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -501,8 +500,9 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="2" />
       <property name="Traits and Special Powers" value="EFFECT&#10;When Vibranium would be destroyed by another effect, if it's on the map instead roll a d6.&#10;[d:1]-[d:2]: Destroy Vibranium and place a Vibranium token on the active player's Sideline.&#10;[d:3]-[d:6]: Place a Vibranium token on the active player's Sideline." />
+      <alternate name="Vibranium" type="Tile" size="1x1" />
     </card>
-    <card id="ce4c6391-31a5-4724-8666-acd717ee16a0" name="Heart-Shaped Herb" size="1x1">
+    <card id="ce4c6391-31a5-4724-8666-acd717ee16a0" name="Heart-Shaped Herb" size="Card">
       <property name="Unit ID" value="m400BP-t002" />
       <property name="Collector Number" value="BP-t002" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -510,6 +510,7 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="1" />
       <property name="Traits and Special Powers" value="EFFECT&#10;At the end of each player's turn, heal any characters friendly to that player occupying or adjacent to Heart-Shaped Herb 1 click." />
+      <alternate name="Heart-Shaped Herb" type="Tile" size="1x1" />
     </card>
     <card id="c1a3d8f9-da91-41a9-9df8-01e30ae67f38" name="Star-Lord" size="Card">
       <property name="Unit ID" value="m400GG-001" />

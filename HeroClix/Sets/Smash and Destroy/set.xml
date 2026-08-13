@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Smash and Destroy" id="1ec5cd38-dcf8-424e-980e-063e140dd1f2" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="7e7b5972-9c38-479b-8540-ddf28783115e" name="Hulk" size="Card">
@@ -6380,29 +6379,32 @@
         <property name="Damage" value="KO" />
       </alternate>
     </card>
-    <card id="a860de17-fe34-4af4-a34e-1d6c2c7cc5ac" name="Lost Gods" size="1x1">
+    <card id="a860de17-fe34-4af4-a34e-1d6c2c7cc5ac" name="Lost Gods" size="Card">
       <property name="Unit ID" value="sd046ta" />
       <property name="Collector Number" value="046ta" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Immobile. Lost Gods can't be used in terrain actions. // Friendly characters within 4 squares modify attack +1." />
+      <alternate name="Lost Gods" type="Tile" size="1x1" />
     </card>
-    <card id="e6e7a469-5391-4859-b69a-0d894d2b8592" name="Ragnarok" size="1x1">
+    <card id="e6e7a469-5391-4859-b69a-0d894d2b8592" name="Ragnarok" size="Card">
       <property name="Unit ID" value="sd046tb" />
       <property name="Collector Number" value="046tb" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Immobile. Ragnarok can't be used in terrain actions. // Friendly characters within 4 squares modify defense +1." />
+      <alternate name="Ragnarok" type="Tile" size="1x1" />
     </card>
-    <card id="e7c9c83a-7ee9-41b7-a0f3-3888e33989c3" name="War of the Realms" size="1x1">
+    <card id="e7c9c83a-7ee9-41b7-a0f3-3888e33989c3" name="War of the Realms" size="Card">
       <property name="Unit ID" value="sd046tc" />
       <property name="Collector Number" value="046tc" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Immobile. War of the Realms can't be used in terrain actions. // Friendly characters within 4 squares have SAFEGUARD: Opposing Perplex and Opposing Probability Control." />
+      <alternate name="War of the Realms" type="Tile" size="1x1" />
     </card>
     <card id="ec9415b3-4968-43c2-a169-f9dd2a03e761" name="Captain Marvel" size="Card">
       <property name="Unit ID" value="sd047" />
@@ -7745,57 +7747,64 @@
       <property name="Collector Number" value="M004" />
       <property name="Unit Type" value="Map" />
     </card>
-    <card id="308251e6-5221-40e0-9a63-14bd5e30068f" name="Fire Hydrant" size="1x1">
+    <card id="308251e6-5221-40e0-9a63-14bd5e30068f" name="Fire Hydrant" size="Card">
       <property name="Unit ID" value="sdMV58-t001" />
       <property name="Collector Number" value="MV58-t001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Force Blast&#10;Immobile. // Characters in this square can use Force Blast, and when they knock back a character generate water terrain in each square that character occupied when getting knocked back." />
+      <alternate name="Fire Hydrant" type="Tile" size="1x1" />
     </card>
-    <card id="278c05e5-fde7-4094-9683-f62734ce0618" name="Smashed Car" size="1x2">
+    <card id="278c05e5-fde7-4094-9683-f62734ce0618" name="Smashed Car" size="Card">
       <property name="Unit ID" value="sdMV58-t002" />
       <property name="Collector Number" value="MV58-t002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="Smashed Car" type="Tile" size="1x2" />
     </card>
-    <card id="bc29496d-e3ac-415a-905a-1a543e9cddfc" name="Motorbike" size="1x2">
+    <card id="bc29496d-e3ac-415a-905a-1a543e9cddfc" name="Motorbike" size="Card">
       <property name="Unit ID" value="sdMV58-t003" />
       <property name="Collector Number" value="MV58-t003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="Motorbike" type="Tile" size="1x2" />
     </card>
-    <card id="506dc546-97d0-44f8-8e3e-5d48edc5374f" name="Statue" size="1x1">
+    <card id="506dc546-97d0-44f8-8e3e-5d48edc5374f" name="Statue" size="Card">
       <property name="Unit ID" value="sdMV58-t004" />
       <property name="Collector Number" value="MV58-t004" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="Statue" type="Tile" size="1x1" />
     </card>
-    <card id="e7e75d06-5699-4eb2-9f81-281a4c75aa82" name="Gamma Radiation" size="1x1">
+    <card id="e7e75d06-5699-4eb2-9f81-281a4c75aa82" name="Gamma Radiation" size="Card">
       <property name="Unit ID" value="sdMV58-t005" />
       <property name="Collector Number" value="MV58-t005" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
+      <alternate name="Gamma Radiation" type="Tile" size="1x1" />
     </card>
-    <card id="2b11c5c0-5591-495f-9ef0-3921d3830261" name="Meteor" size="1x1">
+    <card id="2b11c5c0-5591-495f-9ef0-3921d3830261" name="Meteor" size="Card">
       <property name="Unit ID" value="sdMV58-t006" />
       <property name="Collector Number" value="MV58-t006" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="Meteor" type="Tile" size="1x1" />
     </card>
-    <card id="34f14b2a-3ef3-4595-94e8-f0ebe9aab381" name="Dumpster Fire" size="1x2">
+    <card id="34f14b2a-3ef3-4595-94e8-f0ebe9aab381" name="Dumpster Fire" size="Card">
       <property name="Unit ID" value="sdMV58-t007" />
       <property name="Collector Number" value="MV58-t007" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Characters within 3 squares modify their attack -1." />
+      <alternate name="Dumpster Fire" type="Tile" size="1x2" />
     </card>
-    <card id="99dd4df8-7ffd-4d04-b74c-1671c780c4ac" name="Laser Turret" size="1x2">
+    <card id="99dd4df8-7ffd-4d04-b74c-1671c780c4ac" name="Laser Turret" size="Card">
       <property name="Unit ID" value="sdMV58-t008" />
       <property name="Collector Number" value="MV58-t008" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -7803,8 +7812,9 @@
       <property name="Point Values" value="5" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;At the beginning of your turn, Laser Turret makes a ranged attack with an attack of 11 and a damage of 3, targeting all opposing characters occupying its squares. // When Laser Turret is destroyed by an opposing character, after resolutions deal that character 1 penetrating damage." />
+      <alternate name="Laser Turret" type="Tile" size="1x2" />
     </card>
-    <card id="9b89aaa4-0434-402c-aabe-f38bdf5f27a1" name="Snake Pit" size="1x2">
+    <card id="9b89aaa4-0434-402c-aabe-f38bdf5f27a1" name="Snake Pit" size="Card">
       <property name="Unit ID" value="sdMV58-t009" />
       <property name="Collector Number" value="MV58-t009" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -7812,6 +7822,7 @@
       <property name="Point Values" value="5" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;At the beginning of your turn, deal 1 penetrating damage to all characters in Snake Pit's squares. // When an opposing character destroys Snake Pit, after resolutions generate a Snake bystander adjacent to them." />
+      <alternate name="Snake Pit" type="Tile" size="1x2" />
     </card>
     <card id="18872971-d6a5-4aa3-bdbf-98834234de8a" name="Snake" size="Card">
       <property name="Unit ID" value="sdMV58-t009bt" />
@@ -7833,7 +7844,7 @@
         <property name="Damage" value="1" />
       </alternate>
     </card>
-    <card id="520e4d72-85f2-4ce3-a9ba-fee9bd4fd942" name="Piranha Tank" size="1x2">
+    <card id="520e4d72-85f2-4ce3-a9ba-fee9bd4fd942" name="Piranha Tank" size="Card">
       <property name="Unit ID" value="sdMV58-t010" />
       <property name="Collector Number" value="MV58-t010" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -7841,6 +7852,7 @@
       <property name="Point Values" value="5" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;At the beginning of your turn, roll a d6. Divide damage equal to half the result among all opposing characters in Piranha Tank's squares. // When an opposing character destroys Piranha Tank, after resolutions generate a Piranha bystander adjacent to them. // This marker can be held, destroyed, and used in terrain actions as though it were hindering terrain." />
+      <alternate name="Piranha Tank" type="Tile" size="1x2" />
     </card>
     <card id="7555bc90-35cb-4147-a203-84587687691a" name="Piranha" size="Card">
       <property name="Unit ID" value="sdMV58-t010bt" />
@@ -7862,7 +7874,7 @@
         <property name="Damage" value="0" />
       </alternate>
     </card>
-    <card id="a556c881-b93b-4104-92ff-6b2e54e48502" name="Flamethrower" size="1x2">
+    <card id="a556c881-b93b-4104-92ff-6b2e54e48502" name="Flamethrower" size="Card">
       <property name="Unit ID" value="sdMV58-t011" />
       <property name="Collector Number" value="MV58-t011" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -7870,8 +7882,9 @@
       <property name="Point Values" value="5" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;At the beginning of your turn, deal 2 damage to all opposing characters in or adjacent to Flamethrower's squares. // When an opposing character destroys Flamethrower, after resolutions deal that character and all opposing characters adjacent to them 1 damage." />
+      <alternate name="Flamethrower" type="Tile" size="1x2" />
     </card>
-    <card id="94f37e2d-8aaa-4acc-bb40-62608f9459a9" name="Pit Trap" size="1x2">
+    <card id="94f37e2d-8aaa-4acc-bb40-62608f9459a9" name="Pit Trap" size="Card">
       <property name="Unit ID" value="sdMV58-t012" />
       <property name="Collector Number" value="MV58-t012" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -7879,47 +7892,54 @@
       <property name="Point Values" value="5" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Opposing characters occupying Pit Trap's squares modify their attack and speed -1 and must break away in order to move. // When Pit Trap is destroyed by an opposing character, after resolutions give that character an action token. If you can't, deal them 1 unavoidable damage." />
+      <alternate name="Pit Trap" type="Tile" size="1x2" />
     </card>
-    <card id="741ee51e-3b2b-4469-82d3-0ae007f5cfe8" name="Stone Tablet" size="1x1">
+    <card id="741ee51e-3b2b-4469-82d3-0ae007f5cfe8" name="Stone Tablet" size="Card">
       <property name="Unit ID" value="sdMV58-t013" />
       <property name="Collector Number" value="MV58-t013" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="Stone Tablet" type="Tile" size="1x1" />
     </card>
-    <card id="e1a23f58-c32d-4d60-90e0-4e94eaa392a8" name="Lamppost" size="1x1">
+    <card id="e1a23f58-c32d-4d60-90e0-4e94eaa392a8" name="Lamppost" size="Card">
       <property name="Unit ID" value="sdMV58-t014" />
       <property name="Collector Number" value="MV58-t014" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="Lamppost" type="Tile" size="1x1" />
     </card>
-    <card id="254db495-ce1d-4f73-afec-56ef491820c2" name="School Bus" size="1x3">
+    <card id="254db495-ce1d-4f73-afec-56ef491820c2" name="School Bus" size="Card">
       <property name="Unit ID" value="sdMV58-t015" />
       <property name="Collector Number" value="MV58-t015" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="School Bus" type="Tile" size="1x3" />
     </card>
-    <card id="ca6bf006-6152-413f-afe4-8680b2570875" name="Stop Sign" size="1x1">
+    <card id="ca6bf006-6152-413f-afe4-8680b2570875" name="Stop Sign" size="Card">
       <property name="Unit ID" value="sdMV58-t016" />
       <property name="Collector Number" value="MV58-t016" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="Stop Sign" type="Tile" size="1x1" />
     </card>
-    <card id="c1c70960-a580-4781-a671-c00edf21c4de" name="Mail Box" size="1x1">
+    <card id="c1c70960-a580-4781-a671-c00edf21c4de" name="Mail Box" size="Card">
       <property name="Unit ID" value="sdMV58-t017" />
       <property name="Collector Number" value="MV58-t017" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
+      <alternate name="Mail Box" type="Tile" size="1x1" />
     </card>
-    <card id="aff9ff00-0272-40cc-9677-4cfe1b07bbff" name="Poison Cloud" size="1x1">
+    <card id="aff9ff00-0272-40cc-9677-4cfe1b07bbff" name="Poison Cloud" size="Card">
       <property name="Unit ID" value="sdMV58-t018" />
       <property name="Collector Number" value="MV58-t018" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
+      <alternate name="Poison Cloud" type="Tile" size="1x1" />
     </card>
     <card id="fc589cf0-de20-4ea4-bb95-36e2616cf157" name="You Wouldn't Like Me When I'm Angry" size="Card">
       <property name="Unit ID" value="sdOS001" />

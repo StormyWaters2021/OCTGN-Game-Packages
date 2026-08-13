@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="WizKids Marvel 2025" id="dc3ab9f5-a070-4c6a-896e-d7f1d23c562b" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="fc3fe1ca-34f8-4e92-af49-e14bb0be2ae4" name="Venom Galactus" size="Card">
@@ -2611,37 +2610,41 @@
       <property name="Point Values" value="5" />
       <property name="Traits and Special Powers" value="EFFECT&#10;When a friendly character hits a single opposing character that is larger than them, or has the Robot keyword, you may choose that the damage dealt is penetrating and, until your next turn, the hit character can't use Willpower." />
     </card>
-    <card id="6ac59adc-72ef-4ec0-90cd-c18cf47779ba" name="Sentinel Arms" size="1x2">
+    <card id="6ac59adc-72ef-4ec0-90cd-c18cf47779ba" name="Sentinel Arms" size="Card">
       <property name="Unit ID" value="wkm25t001" />
       <property name="Collector Number" value="t001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;Characters adjacent to or occupying this terrain have &quot;POWER: Choose an opposing character within 3 squares and line of fire. Knock them back 3 squares. Any knockback damage they take this action is penetrating.&quot;" />
+      <alternate name="Sentinel Arms" type="Tile" size="1x2" />
     </card>
-    <card id="c8b5768a-68dd-4a4c-a664-17e15eb8bc25" name="Lower Body" size="1x2">
+    <card id="c8b5768a-68dd-4a4c-a664-17e15eb8bc25" name="Lower Body" size="Card">
       <property name="Unit ID" value="wkm25t002" />
       <property name="Collector Number" value="t002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;Powers: Quake&#10;Characters adjacent to or occupying this terrain have &quot;POWER: Move this character up to 4 squares with [im:elevated,outdoor_blocking]. If that character changes elevation during this movement, after resolutions it may use Quake as FREE.&quot;" />
+      <alternate name="Lower Body" type="Tile" size="1x2" />
     </card>
-    <card id="9a818279-fedd-4dbe-af43-2bad10206f75" name="Upper Body" size="2x2">
+    <card id="9a818279-fedd-4dbe-af43-2bad10206f75" name="Upper Body" size="Card">
       <property name="Unit ID" value="wkm25t003" />
       <property name="Collector Number" value="t003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;When a character occupying this terrain marker would take damage, they may choose to destroy this terrain. If they do, they take a maximum of 1 damage." />
+      <alternate name="Upper Body" type="Tile" size="2x2" />
     </card>
-    <card id="dbd203e5-f894-4687-a1af-4641e906a37a" name="Head" size="1x1">
+    <card id="dbd203e5-f894-4687-a1af-4641e906a37a" name="Head" size="Card">
       <property name="Unit ID" value="wkm25t004" />
       <property name="Collector Number" value="t004" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;Opposing characters within 3 squares can't use Shape Change, Stealth, [ta:brotherhood_of_mutants] or [ta:x_men]." />
+      <alternate name="Head" type="Tile" size="1x1" />
     </card>
   </cards>
 </set>

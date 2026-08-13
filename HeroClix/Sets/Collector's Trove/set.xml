@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Collector's Trove" id="12098b6e-e758-471f-87ad-fd7add02e645" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="d9f81305-fc62-4623-8c3c-6b1bf876a659" name="The Collector" size="Card">
@@ -6369,7 +6368,7 @@
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Mind Control, Willpower&#10;Mind Control, Willpower. When this character uses Mind Control, a hit character may be given a CLOSE or RANGE as FREE instead of making an attack." />
     </card>
-    <card id="6f59c625-bdc8-47e1-bf1d-1349669de90e" name="Collector's Display Case" size="2x2">
+    <card id="6f59c625-bdc8-47e1-bf1d-1349669de90e" name="Collector's Display Case" size="Card">
       <property name="Unit ID" value="cltrs009" />
       <property name="Collector Number" value="s009" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -6377,6 +6376,7 @@
       <property name="Point Values" value="20" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Other terrain markers can't be placed on this. // Characters in this marker's squares must break away to move and can't be placed by effects." />
+      <alternate name="Collector's Display Case" type="Tile" size="2x2" />
     </card>
     <card id="c3fb9471-4dc7-4827-977d-f6dbf719082f" name="Flying Carpet" size="Card">
       <property name="Unit ID" value="cltrs010" />
@@ -6434,33 +6434,37 @@
       <property name="Point Values" value="5" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Energy Shield Deflection&#10;Energy Shield/Deflection." />
     </card>
-    <card id="5f5f3bb3-c9c9-4a5e-8490-e266a577a943" name="Dumpsters" size="1x4">
+    <card id="5f5f3bb3-c9c9-4a5e-8490-e266a577a943" name="Dumpsters" size="Card">
       <property name="Unit ID" value="cltrTM001" />
       <property name="Collector Number" value="TM001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Dumpsters" type="Tile" size="1x4" />
     </card>
-    <card id="2b005013-06b2-4434-9eaa-b23737eb27fa" name="Alien Plants" size="2x2">
+    <card id="2b005013-06b2-4434-9eaa-b23737eb27fa" name="Alien Plants" size="Card">
       <property name="Unit ID" value="cltrTM002" />
       <property name="Collector Number" value="TM002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Alien Plants" type="Tile" size="2x2" />
     </card>
-    <card id="0526ad08-d698-4e05-bd54-352863094524" name="Broken Pipe" size="1x2">
+    <card id="0526ad08-d698-4e05-bd54-352863094524" name="Broken Pipe" size="Card">
       <property name="Unit ID" value="cltrTM003" />
       <property name="Collector Number" value="TM003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Broken Pipe" type="Tile" size="1x2" />
     </card>
-    <card id="6158e61d-5337-42f8-839d-4c0ec458da4a" name="Stairs" size="1x3">
+    <card id="6158e61d-5337-42f8-839d-4c0ec458da4a" name="Stairs" size="Card">
       <property name="Unit ID" value="cltrTM004" />
       <property name="Collector Number" value="TM004" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Stairs" type="Tile" size="1x3" />
     </card>
   </cards>
 </set>

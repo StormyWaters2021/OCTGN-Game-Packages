@@ -177,6 +177,11 @@ def make_model(card):
         x, y = card.position
         fig = table.create(guid, x + offset, y)
         fig.alternate = "Click1"
+    elif "Tile" in card.alternates:
+        guid = card.model
+        x, y = card.position
+        fig = table.create(guid, x + offset, y)
+        fig.alternate = "Tile"
 
 
 def is_map(card, x=0, y=0):
@@ -302,7 +307,7 @@ def create_bystander(group, x=0, y=0):
     
 def create_terrain(group, x=0, y=0):
     mute()
-    guid, quantity = askCard({"Unit Type":"Terrain"}, title="Generate a Terrain Tile:")
+    guid, quantity = askCard({"Unit Type":"Terrain Marker"}, title="Generate a Terrain Tile:")
     if guid is None:
         return
     card = me.Team.create(guid, quantity)

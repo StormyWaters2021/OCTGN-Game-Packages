@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Spider-Verse" id="5c0db2ca-aa0b-46e0-8251-a60272aab529" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="3b244965-7b5a-45e8-aac3-188ac265bf14" name="Spider-Man" size="Card">
@@ -4577,12 +4576,13 @@
         <property name="Damage" value="KO" />
       </alternate>
     </card>
-    <card id="716a2e7a-f217-42e6-8fd4-12232b309317" name="Silvermane Head" size="1x1">
+    <card id="716a2e7a-f217-42e6-8fd4-12232b309317" name="Silvermane Head" size="Card">
       <property name="Unit ID" value="spv046s" />
       <property name="Collector Number" value="046s" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
       <property name="Traits and Special Powers" value="Unnamed Ability&#10;Powers: Mastermind, Perplex&#10;This object is Indestructible and can't be used in CLOSE/RANGE Terrain Actions. // Characters that have this object attached or are holding it can use Mastermind and Perplex." />
+      <alternate name="Silvermane Head" type="Tile" size="1x1" />
     </card>
     <card id="0c1311a5-620d-49a0-856d-0a166121068e" name="Superior Octopus" size="Card">
       <property name="Unit ID" value="spv047a" />
@@ -7724,26 +7724,29 @@
       <property name="Point Values" value="5" />
       <property name="Traits and Special Powers" value="EFFECT&#10;When a friendly character uses Leadership and succeeds, you may choose a copyable team ability a friendly character can use. Until your next turn all friendly characters can use that team ability, and treat each other as adjacent when they use it (if applicable)." />
     </card>
-    <card id="a5f7f45c-a00a-4e69-a430-d6ad2155d11a" name="Round Plant" size="1x1">
+    <card id="a5f7f45c-a00a-4e69-a430-d6ad2155d11a" name="Round Plant" size="Card">
       <property name="Unit ID" value="spvTM001" />
       <property name="Collector Number" value="TM001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="6" />
+      <alternate name="Round Plant" type="Tile" size="1x1" />
     </card>
-    <card id="c5e466f6-5c89-4eaa-a920-ed11562471dd" name="L-Shaped Desk" size="3x3">
+    <card id="c5e466f6-5c89-4eaa-a920-ed11562471dd" name="L-Shaped Desk" size="Card">
       <property name="Unit ID" value="spvTM002" />
       <property name="Collector Number" value="TM002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="L-Shaped Desk" type="Tile" size="3x3" />
     </card>
-    <card id="816aabb5-ec8a-464d-b9de-4d2a6df925c4" name="Laser Cannon" size="2x3">
+    <card id="816aabb5-ec8a-464d-b9de-4d2a6df925c4" name="Laser Cannon" size="Card">
       <property name="Unit ID" value="spvTM003" />
       <property name="Collector Number" value="TM003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="3" />
+      <alternate name="Laser Cannon" type="Tile" size="2x3" />
     </card>
   </cards>
 </set>

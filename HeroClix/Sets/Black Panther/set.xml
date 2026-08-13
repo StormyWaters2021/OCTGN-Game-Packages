@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Black Panther" id="7e06b661-93cf-488e-828e-2d98583de62d" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="42a0e1ec-a447-44ed-8027-1c199d522ccc" name="Black Panther" size="Card">
@@ -8236,7 +8235,7 @@
       <property name="Collector Number" value="M004" />
       <property name="Unit Type" value="Map" />
     </card>
-    <card id="cfc31c25-5e86-4fcd-a9b6-2aa9054e3b80" name="Vibranium" size="1x1">
+    <card id="cfc31c25-5e86-4fcd-a9b6-2aa9054e3b80" name="Vibranium" size="Card">
       <property name="Unit ID" value="bps001" />
       <property name="Collector Number" value="s001" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -8244,8 +8243,9 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="2" />
       <property name="Traits and Special Powers" value="EFFECT&#10;When Vibranium would be destroyed by another effect, if it's on the map instead roll a d6.&#10;[d:1]-[d:2]: Destroy Vibranium and place a Vibranium token on the active player's Sideline.&#10;[d:3]-[d:6]: Place a Vibranium token on the active player's Sideline." />
+      <alternate name="Vibranium" type="Tile" size="1x1" />
     </card>
-    <card id="7c6c186d-83d5-4afc-8ed1-5ce7533c2dbf" name="Heart-Shaped Herb" size="1x1">
+    <card id="7c6c186d-83d5-4afc-8ed1-5ce7533c2dbf" name="Heart-Shaped Herb" size="Card">
       <property name="Unit ID" value="bps002" />
       <property name="Collector Number" value="s002" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -8253,14 +8253,16 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="1" />
       <property name="Traits and Special Powers" value="EFFECT&#10;At the end of each player's turn, heal any characters friendly to that player occupying or adjacent to Heart-Shaped Herb 1 click." />
+      <alternate name="Heart-Shaped Herb" type="Tile" size="1x1" />
     </card>
-    <card id="65302ae7-4a41-4272-ac06-11d220274f5e" name="Vibranium Chunk" size="1x1">
+    <card id="65302ae7-4a41-4272-ac06-11d220274f5e" name="Vibranium Chunk" size="Card">
       <property name="Unit ID" value="bps003" />
       <property name="Collector Number" value="s003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="0" />
       <property name="Range" value="2" />
+      <alternate name="Vibranium Chunk" type="Tile" size="1x1" />
     </card>
   </cards>
 </set>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Venom" id="a2f7309b-0b4d-45a1-b5c0-2a958fb6b888" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="566afb82-4d26-40eb-bc95-61c2b52e9bbe" name="Venom" size="Card">
@@ -2172,7 +2171,7 @@
         <property name="Damage" value="KO" />
       </alternate>
     </card>
-    <card id="9ff8bf68-e60b-4858-a411-d24ade8fbc8e" name="Symbiote Surface" size="1x1">
+    <card id="9ff8bf68-e60b-4858-a411-d24ade8fbc8e" name="Symbiote Surface" size="Card">
       <property name="Unit ID" value="ve026" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -2180,8 +2179,9 @@
       <property name="Properties" value="Not Unique" />
       <property name="Point Values" value="0" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Symbiote Surface isn't Unique. // At the beginning of your turn, you may generate a Slime water terrain marker into a square within 4 squares. This game that marker has &quot;Characters that began the turn on this marker can't be placed or use [im:] abilities.&quot;" />
+      <alternate name="Symbiote Surface" type="Tile" size="1x1" />
     </card>
-    <card id="6a585ddf-ab5b-44e4-a15d-710b20c1c6de" name="Manhole Cover" size="1x1">
+    <card id="6a585ddf-ab5b-44e4-a15d-710b20c1c6de" name="Manhole Cover" size="Card">
       <property name="Unit ID" value="ve027" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -2189,6 +2189,7 @@
       <property name="Properties" value="Not Unique" />
       <property name="Point Values" value="0" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;Manhole Cover isn't Unique. // The square Manhole Cover occupies is water terrain. // When Manhole Cover is used in a RANGE terrain action, after resolutions give a hit character 2 action tokens." />
+      <alternate name="Manhole Cover" type="Tile" size="1x1" />
     </card>
     <card id="63815a54-f178-4ef6-b3e4-966e16f27e76" name="Chasm" size="Card">
       <property name="Unit ID" value="ve028" />
@@ -7564,45 +7565,50 @@
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="EFFECT&#10;When a friendly character occupying water terrain is hit, after resolutions you may place them in a non-adjacent square of water terrain." />
     </card>
-    <card id="a2588742-1686-49ac-b9cf-03e15da0c824" name="Alien Vine (A)" size="2x2">
+    <card id="a2588742-1686-49ac-b9cf-03e15da0c824" name="Alien Vine (A)" size="Card">
       <property name="Unit ID" value="veTM001" />
       <property name="Collector Number" value="TM001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Alien Vine (A)" type="Tile" size="2x2" />
     </card>
-    <card id="a9f2677b-099b-4aae-86a0-f4165c60c3c0" name="Alien Vine (B)" size="2x2">
+    <card id="a9f2677b-099b-4aae-86a0-f4165c60c3c0" name="Alien Vine (B)" size="Card">
       <property name="Unit ID" value="veTM002" />
       <property name="Collector Number" value="TM002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Alien Vine (B)" type="Tile" size="2x2" />
     </card>
-    <card id="2824cb3b-4f32-4f0f-acda-74cdeeba73b2" name="Tendril" size="1x1">
+    <card id="2824cb3b-4f32-4f0f-acda-74cdeeba73b2" name="Tendril" size="Card">
       <property name="Unit ID" value="veTM003" />
       <property name="Collector Number" value="TM003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Tendril" type="Tile" size="1x1" />
     </card>
-    <card id="94759961-6d82-470f-9b8d-4e68c95c7cca" name="Alien Plant" size="1x1">
+    <card id="94759961-6d82-470f-9b8d-4e68c95c7cca" name="Alien Plant" size="Card">
       <property name="Unit ID" value="veTM004" />
       <property name="Collector Number" value="TM004" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
+      <alternate name="Alien Plant" type="Tile" size="1x1" />
     </card>
-    <card id="6b88f437-ea0c-4c82-a9e9-2d3cf2054ca5" name="Stone" size="2x2">
+    <card id="6b88f437-ea0c-4c82-a9e9-2d3cf2054ca5" name="Stone" size="Card">
       <property name="Unit ID" value="veTM005" />
       <property name="Collector Number" value="TM005" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Range" value="3" />
+      <alternate name="Stone" type="Tile" size="2x2" />
     </card>
   </cards>
 </set>

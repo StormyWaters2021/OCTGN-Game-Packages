@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="WizKids 2025" id="1107aacb-548c-4699-89a3-c569a3057fb8" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="7f49ba46-8c06-47e5-b41f-59fbf2fbff8d" name="Young Red Dragon" size="Card">
@@ -301,22 +300,24 @@
         <property name="Damage Ability" value="Enhancement" />
       </alternate>
     </card>
-    <card id="5dd4c449-d05b-4659-a1f2-2bb5918c6829" name="Treasure Chest" size="1x1">
+    <card id="5dd4c449-d05b-4659-a1f2-2bb5918c6829" name="Treasure Chest" size="Card">
       <property name="Unit ID" value="wk25DND25-s001" />
       <property name="Collector Number" value="DND25-s001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
+      <alternate name="Treasure Chest" type="Tile" size="1x1" />
     </card>
-    <card id="6991d8c7-fc22-48ba-b19f-303405f1b6ea" name="Red Dragon Egg" size="1x1">
+    <card id="6991d8c7-fc22-48ba-b19f-303405f1b6ea" name="Red Dragon Egg" size="Card">
       <property name="Unit ID" value="wk25DND25-s002" />
       <property name="Collector Number" value="DND25-s002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Traits and Special Powers" value="EFFECT&#10;At the beginning of your turn, roll a d6. [d:6]: Generate a character with &quot;Wyrmling&quot; in its name of 10 points or less." />
+      <alternate name="Red Dragon Egg" type="Tile" size="1x1" />
     </card>
-    <card id="aee73bf3-c2e2-4fa2-b72b-f8644e63410f" name="Treasure Horde" size="2x2">
+    <card id="aee73bf3-c2e2-4fa2-b72b-f8644e63410f" name="Treasure Horde" size="Card">
       <property name="Unit ID" value="wk25DND25-t001" />
       <property name="Collector Number" value="DND25-t001" />
       <property name="Unit Type" value="Terrain Marker" />
@@ -324,6 +325,7 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="3" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Characters with the Dragon keyword occupying this terrain marker modify range and defense +1." />
+      <alternate name="Treasure Horde" type="Tile" size="2x2" />
     </card>
     <card id="b8d12988-5268-4f80-8958-5d278264efd6" name="Ancient Labyrinth" size="16x16">
       <property name="Unit ID" value="wk25M001" />
