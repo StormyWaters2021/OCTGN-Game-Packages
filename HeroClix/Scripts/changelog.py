@@ -1,10 +1,13 @@
 changelog = {
+    1000006: ("1.0.0.6", "13 August 2026", [
+        "Replaced main playmat image, added several new options. Right-click the table to swap.",
+        ]),
     1000000: ("1.0.0.0", "9 August 2026", [
         "Initial test build",
         ]),
         }
 
-extra_memo = "\n\n## Visit TCGBuilder.net to download image packs. ##\n## More X-Files CCG content at youtube.com/@AlienInvestigations_xfilesccg ##"
+extra_memo = "\n\n## Download images using the OCTGN Deck Builder plugin \n\n## Send feedback to info@tcgbuilder.net"
 
 def initializeGame():
     mute()

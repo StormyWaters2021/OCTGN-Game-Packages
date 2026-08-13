@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.5"
+    version="1.0.0.6"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -21,6 +21,7 @@
 	  <script src="Scripts/debug.py" />
 	  <script src="Scripts/changelog.py" />
 	  <script src="Scripts/hcu.py" />
+	  <script src="Scripts/boards.py" />
   </scripts>
   
   <proxygen definitionsrc="Proxy/proxydef.xml"/>
@@ -94,7 +95,15 @@
 
 <phases />
   
-<gameboards src="images/playmat.jpg" x="-2300" y="-1600" width="4600" height="3200" />
+<gameboards src="Images/playmat.png" x="-2300" y="-1600" width="4600" height="3200" >
+	<gameboard name="DC Badges" src="Images/dc_badges.jpg" x="-2300" y="-1600" width="4600" height="3200" />
+	<gameboard name="JLA" src="Images/jla.jpg" x="-2300" y="-1600" width="4600" height="3200" />
+	<gameboard name="X-Men Collage" src="Images/xmen-collage.jpg" x="-2300" y="-1600" width="4600" height="3200" />
+	<gameboard name="Spiderweb" src="Images/spiderweb.jpg" x="-2300" y="-1600" width="4600" height="3200" />
+	<gameboard name="Avengers Collage" src="Images/avengers-collage.jpg" x="-2300" y="-1600" width="4600" height="3200" />
+	<gameboard name="Hulk and Hulkbuster" src="Images/hulk_and_buster.jpg" x="-2300" y="-1600" width="4600" height="3200" />
+	
+</gameboards>
 
 <table name="Table" visibility="undefined" ordered="False" width="4600" height="3200" background="Images/table.jpg" backgroundStyle="uniform" >
 
@@ -129,6 +138,16 @@
 		<groupaction menu="Generate Bystander" execute="create_bystander" />
 		<groupaction menu="Generate Terrain" execute="create_terrain" />
 		<groupaction menu="Generate One Shot" execute="create_one_shot" />
+	</groupactions>
+	
+	<groupactions menu="Swap Playmat">
+		<groupaction menu="Default (Table)" execute="swap_board_default" />
+		<groupaction menu="DC Badges" execute="swap_board_dc_badges" />
+		<groupaction menu="JLA" execute="swap_board_jla" />
+		<groupaction menu="X-Men Collage" execute="swap_board_xmen_collage" />
+		<groupaction menu="Spiderweb" execute="swap_board_spiderweb" />
+		<groupaction menu="Avengers Collage" execute="swap_board_avengers_collage" />
+		<groupaction menu="Hulk and Hulkbuster" execute="swap_board_hulkbuster" />
 	</groupactions>
 	
 </table>

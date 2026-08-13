@@ -329,6 +329,7 @@ def flip_card(card, x = 0, y = 0):
         
 def setup_table():
     mute()
+    initializeGame()
     if me._id != 1:
         return
     create_dice()
