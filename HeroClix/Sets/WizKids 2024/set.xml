@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="WizKids 2024" id="65ab0b06-b589-4e6c-b92d-7b7064209a9a" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="769538c7-6fab-48dc-a59e-69dd4ae79dac" name="Surfing Gingerbread Man" size="Card">
+      <property name="Unit ID" value="wk24WK24-001" />
+      <property name="Collector Number" value="WK24-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="40" />
+      <property name="Team Abilities" value="Mystics | Snowfall" />
+      <property name="Keywords" value="Santa'S Workshop | Speedster | Mystical" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SURFING SWEET SEAS&#10;When Surfing Gingerbread Man moves, after resolutions generate a water terrain marker in each square he moved through. // Opposing characters within 4 squares that are occupying or adjacent to a water terrain marker must roll for break away if they don't already need to.&#10;&#10;[Trait] YOU CAN'T CATCH ME, I'M THE GINGERBREAD MAN!&#10;Surfing Gingerbread Man automatically breaks away.&#10;&#10;[Defense] HERALD OF THE HOLIDAYS&#10;Powers: Stop&#10;STOP. [cs:wing] [ta:cosmic_energy]." />
+      <alternate name="Surfing Gingerbread Man" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Surfing Gingerbread Man" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Surfing Gingerbread Man" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Surfing Gingerbread Man" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - HERALD OF THE HOLIDAYS" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Surfing Gingerbread Man" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="6578c597-7bb2-4b51-bdcb-bb199950ce0a" name="Lucas, PJ, &amp; Scott" size="1x1">
+      <property name="Unit ID" value="wk24WK24-B001" />
+      <property name="Collector Number" value="WK24-B001" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="5" />
+      <property name="Keywords" value="Podcaster | Mystical | Warrior" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] PLAYING COMPETITVELY!&#10;Lucas, PJ, &amp; Scott's and adjacent friendly characters' powers have Protected: Pulse Wave. Protected: Pulse Wave." />
+      <alternate name="Lucas, PJ, &amp; Scott" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="2" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+    </card>
+    <card id="cd4c841b-156e-4ef3-8933-7a26ebab7662" name="Jersey Devil" size="Card">
+      <property name="Unit ID" value="wk24WKD24-001" />
+      <property name="Collector Number" value="WKD24-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Sideline Active" />
+      <property name="Point Values" value="80/45" />
+      <property name="Team Abilities" value="Mystics" />
+      <property name="Keywords" value="Past | Monster | Mystical" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] AND LET THIS ONE BE A DEVIL!&#10;SIDELINE ACTIVE - For all friendly characters with this trait, when a friendly character is generated, give a character named Jersey Devil on your Sideline a Curse token. If he now has 13 Curse tokens, after resolutions remove that generated character from the game without scoring it and then generate Jersey Devil from your Sideline on its green starting line in a square that generated character last occupied.&#10;&#10;[Trait] STALKING THE BARRENS&#10;Powers: Stealth, Super Senses&#10;Stealth, Super Senses.&#10;&#10;[Attack] PIERCING SHRIEK&#10;Powers: Pulse Wave&#10;Pulse Wave. When Jersey Devil uses it, hit opposing characters modify their defense -1 until your next turn." />
+      <alternate name="Jersey Devil" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - PIERCING SHRIEK" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Jersey Devil" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - PIERCING SHRIEK" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Jersey Devil" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Jersey Devil" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Jersey Devil" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Jersey Devil" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - PIERCING SHRIEK" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Jersey Devil" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - PIERCING SHRIEK" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Jersey Devil" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - PIERCING SHRIEK" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Jersey Devil" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="413240d7-c861-460d-80c6-40bbc597ccc2" name="Unicorn" size="Card">
+      <property name="Unit ID" value="wk24WKD24-002" />
+      <property name="Collector Number" value="WKD24-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="100/50" />
+      <property name="Team Abilities" value="Mystics" />
+      <property name="Keywords" value="Animal | Past | Speedster | Mystical | Deity" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] RACE TO THE RAINBOW&#10;At the beginning of your turn, if a Rainbow terrain marker generated by Unicorn is not on the map, generate a Rainbow hindering terrain marker exactly 6 squares away. // When Unicorn moves through a Rainbow terrain marker, after resolutions you may place it on this card.&#10;&#10;[Trait] RAINBOW RUSH&#10;Powers: Charge, Hypersonic Speed, Close Combat Expert, Exploit Weakness&#10;FREE: Remove up to 3 Rainbow terrain markers from this card. For each terrain marker removed, until your next turn, modify speed +1 and Unicorn can use the following effects depending on the number of terrain markers removed:&#10;1+: Charge, [cs:wing].&#10;2+: Hypersonic Speed, [im:characters].&#10;3+: Close Combat Expert, Exploit Weakness.&#10;&#10;[Speed] THE RAREST CREATURE OF ALL&#10;Stealth. // Opposing characters with a blue, bronze, or purple rarity tab can't target Unicorn unless they began the turn adjacent to it. Protected: Pulse Wave." />
+      <alternate name="Unicorn" type="Click1" size="1x2">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Unicorn" type="Click2" size="1x2">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Unicorn" type="Click3" size="1x2">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Unicorn" type="Click4" size="1x2">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Unicorn" type="Click5" size="1x2">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Unicorn" type="Click6" size="1x2">
+        <property name="Click Number" value="6" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Unicorn" type="Click7" size="1x2">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Unicorn" type="Click8" size="1x2">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Unicorn" type="Click9" size="1x2">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Unicorn" type="Click10" size="1x2">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - THE RAREST CREATURE OF ALL" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Unicorn" type="KO" size="1x2">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="ae14fb6d-520b-49ed-93b9-11cd87c6a268" name="Zombie Unicorn" size="Card">
+      <property name="Unit ID" value="wk24WKD24-003" />
+      <property name="Collector Number" value="WKD24-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="100/75" />
+      <property name="Team Abilities" value="Mystics | Underworld" />
+      <property name="Keywords" value="Animal | Past | Monster | Mystical | Zombie Horde | Deity" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] UNDEATH IS MAGIC&#10;For all characters with this trait, when an opposing character within 5 squares or occupying a Grave terrain marker would heal, roll a d6.&#10;[d:5]-[d:6]: Instead deal that character unavoidable damage equal to the amount they would have healed.&#10;&#10;[Trait] YOUR TIME IS NEIGH&#10;When Zombie Unicorn damages an opposing character, after resolutions generate a Grave hindering terrain marker in the damaged character's square.&#10;&#10;[Attack] HORN OF DECAY&#10;Poison, Steal Energy. // When Zombie Unicorn is hit with a close attack, after resolutions roll a d6.&#10;[d:4]-[d:6]: Remove any equipment equipped to the attacker from the game and the attacker can't use attack powers until the end of their next turn." />
+      <alternate name="Zombie Unicorn" type="Click1" size="1x2">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click2" size="1x2">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click3" size="1x2">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click4" size="1x2">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click5" size="1x2">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click6" size="1x2">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click7" size="1x2">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click8" size="1x2">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click9" size="1x2">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="Click10" size="1x2">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HORN OF DECAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Zombie Unicorn" type="KO" size="1x2">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="7aec21c1-3291-4c78-b899-9f2b32f576e5" name="Zombie Shark" size="Card">
+      <property name="Unit ID" value="wk24WKD24-004" />
+      <property name="Collector Number" value="WKD24-004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="30" />
+      <property name="Team Abilities" value="Underworld" />
+      <property name="Keywords" value="Animal | Atlantis | Monster | Zombie Horde" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ROTTING TIDE&#10;Powers: Charge, Combat Reflexes&#10;If Zombie Shark occupies water terrain, they can use Charge and Combat Reflexes. // At the end of your turn, if Zombie Shark does not occupy water terrain, deal them 1 unavoidable damage.&#10;&#10;[Trait] WELCOME TO DAVEY JONES' LOCKER&#10;Powers: Sidestep, Steal Energy&#10;Sidestep, Steal Energy.&#10;&#10;[Damage] YOU'RE ALL CHUM&#10;Powers: Exploit Weakness&#10;Exploit Weakness. // When Zombie Shark KO's an opposing character, generate a Grave hindering terrain marker and a water terrain marker in distinct squares." />
+      <alternate name="Zombie Shark" type="Click1" size="1x2">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - YOU'RE ALL CHUM" />
+      </alternate>
+      <alternate name="Zombie Shark" type="Click2" size="1x2">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - YOU'RE ALL CHUM" />
+      </alternate>
+      <alternate name="Zombie Shark" type="Click3" size="1x2">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - YOU'RE ALL CHUM" />
+      </alternate>
+      <alternate name="Zombie Shark" type="Click4" size="1x2">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - YOU'RE ALL CHUM" />
+      </alternate>
+      <alternate name="Zombie Shark" type="Click5" size="1x2">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - YOU'RE ALL CHUM" />
+      </alternate>
+      <alternate name="Zombie Shark" type="KO" size="1x2">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="22d5ab9a-6b8e-4ded-afcf-a7ebfeccad00" name="Zombie George Washington" size="Card">
+      <property name="Unit ID" value="wk24WKD24-005" />
+      <property name="Collector Number" value="WKD24-005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Underworld" />
+      <property name="Keywords" value="Past | Politician | Ruler | Soldier | Monster | Zombie Horde" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE FIRST PRESIDENT AND THE FIRST ZOMBIE&#10;Powers: Leadership&#10;Leadership, but succeeds on a [d:4]-[d:6]. When Zombie George Washington uses it and succeeds, after resolutions generate a Grave hindering terrain marker adjacent to a friendly character.&#10;&#10;[Trait] ZOMBIE BITES FROM WOODEN TEETH&#10;Powers: Poison&#10;Poison. When Zombie George Washington uses it, characters he hit this turn can't reduce the damage.&#10;&#10;[Defense] I CANNOT TELL A LIE; YOU'RE DELICIOUS&#10;Powers: Stop, Regeneration&#10;STOP. Regeneration as FREE." />
+      <alternate name="Zombie George Washington" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Zombie George Washington" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Zombie George Washington" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Zombie George Washington" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Zombie George Washington" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Zombie George Washington" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Zombie George Washington" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Zombie George Washington" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Special - I CANNOT TELL A LIE; YOU'RE DELICIOUS" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Zombie George Washington" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="3e6ae538-f882-409a-99d9-9c5ead8f8392" name="Dinosaur Hatchling" size="Card">
+      <property name="Unit ID" value="wk24WKE24-002" />
+      <property name="Collector Number" value="WKE24-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="45" />
+      <property name="Keywords" value="Animal | Brute | Past" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
+      <property name="Traits and Special Powers" value="[Trait] THEY GROW UP SO FAST&#10;At the beginning of your turn and whenever Dinosaur Hatchling KO's an opposing character, give them a Growth token. // When Dinosaur Hatchling would be KO'd by an opposing effect, you may instead replace them with a character with the Animal keyword. Turn that character to their first KO click, then heal them 1 click for each Growth token on Dinosaur Hatchling.&#10;&#10;[Damage] TOO CUTE&#10;Powers: Shape Change&#10;Shape Change, but succeeds on a [d:4]-[d:6]. When Dinosaur Hatchling uses it and succeeds, this turn it can't be targeted by opposing characters." />
+      <alternate name="Dinosaur Hatchling" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - TOO CUTE" />
+      </alternate>
+      <alternate name="Dinosaur Hatchling" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - TOO CUTE" />
+      </alternate>
+      <alternate name="Dinosaur Hatchling" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - TOO CUTE" />
+      </alternate>
+      <alternate name="Dinosaur Hatchling" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - TOO CUTE" />
+      </alternate>
+      <alternate name="Dinosaur Hatchling" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - TOO CUTE" />
+      </alternate>
+      <alternate name="Dinosaur Hatchling" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="3a9a2d80-efd7-4938-bce2-61031fc59680" name="Battle Gnome" size="Card">
+      <property name="Unit ID" value="wk24WKE24-003" />
+      <property name="Collector Number" value="WKE24-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="30" />
+      <property name="Keywords" value="Gnome | Past | Mystical | Warrior" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
+      <property name="Traits and Special Powers" value="[Trait] DID THAT LAWN ORNAMENT JUST MOVE?&#10;Powers: Sidestep&#10;Sidestep. // Battle Gnome cannot be targeted by larger opposing characters unless he was given a costed action since your last turn or there are only friendly characters named Battle Gnome on your force.&#10;&#10;[Attack] ANIMATE OBJECTS ARE STILL OBJECTS&#10;Adjacent friendly characters can use Telekinesis as FREE, but only to choose Battle Gnome.&#10;&#10;[Damage] ADORABLE LITTLE MALLET&#10;Powers: Close Combat Expert, Shape Change, Battle Fury&#10;Close Combat Expert, Shape Change. When Battle Gnome uses Shape Change and succeeds, modify his combat values +1 and he can use Battle Fury until the end of your next turn." />
+      <alternate name="Battle Gnome" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - ANIMATE OBJECTS ARE STILL OBJECTS" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - ADORABLE LITTLE MALLET" />
+      </alternate>
+      <alternate name="Battle Gnome" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - ANIMATE OBJECTS ARE STILL OBJECTS" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - ADORABLE LITTLE MALLET" />
+      </alternate>
+      <alternate name="Battle Gnome" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - ANIMATE OBJECTS ARE STILL OBJECTS" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - ADORABLE LITTLE MALLET" />
+      </alternate>
+      <alternate name="Battle Gnome" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - ANIMATE OBJECTS ARE STILL OBJECTS" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - ADORABLE LITTLE MALLET" />
+      </alternate>
+      <alternate name="Battle Gnome" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="a07fd01c-560d-4914-beac-e4c3577d5f0f" name="Bigfoot" size="Card">
+      <property name="Unit ID" value="wk24WKE-004" />
+      <property name="Collector Number" value="WKE-004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="Team Player" />
+      <property name="Keywords" value="Animal | Monster | Mystical" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
+      <property name="Traits and Special Powers" value="[Trait] I SWEAR I SAW IT!&#10;Powers: Stealth&#10;Stealth. // If Bigfoot is outdoors, opposing lines of fire drawn to him are hindered. // At the beginning of your turn, if an opposing character is within 4 squares of Bigfoot, you may place Bigfoot on his card. If you do, at the beginning of your next turn place Bigfoot on the map within 4 squares of an opposing character." />
+      <alternate name="Bigfoot" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Bigfoot" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Bigfoot" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="4" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Bigfoot" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="4" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Bigfoot" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Bigfoot" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Bigfoot" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Bigfoot" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Bigfoot" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

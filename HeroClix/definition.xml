@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.9"
+    version="1.0.0.10"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -71,22 +71,25 @@
     <property name="Damage Ability" type="String" hidden="True"/>
     
 	<!-- Card Sizes -->
+	<size name="Card" width="371" height="250" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	
 	<size name="1x1" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="0" backCornerRadius="0" />
 	<size name="1x2" width="200" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
-	<size name="2x2" width="200" height="200" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
-	
-	<size name="1x4" width="400" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="0" backCornerRadius="0" />
 	<size name="1x3" width="300" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
-	<size name="3x3" width="300" height="300" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="1x4" width="400" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="0" backCornerRadius="0" />
+	
+	<size name="2x2" width="200" height="200" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	<size name="2x3" width="300" height="200" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="0" backCornerRadius="0" />
+	<size name="3x3" width="300" height="300" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="3x6" width="300" height="600" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 		
-	<size name="Card" width="371" height="250" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="16x8" width="1600" height="800" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	<size name="16x16" width="1600" height="1600" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="16x24" width="1600" height="2400" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	
 	<size name="Dice" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	<size name="PAC" width="510" height="421" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
-	
-	
-	
+
 </card>
 
 <markers>
