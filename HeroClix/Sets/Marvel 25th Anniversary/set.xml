@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Marvel 25th Anniversary" id="c52c48f3-9a76-49e8-a085-958191b37fc0" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="96211d1b-6546-4b73-bd25-f54c3009aa6c" name="Wasp" size="Card">
@@ -9,7 +8,9 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Celebrity | Avengers" />
+      <property name="Keywords Search" value="| Celebrity | Avengers |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
@@ -72,7 +73,9 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Fantastic Four" />
+      <property name="Team Abilities Search" value="| Fantastic Four |" />
       <property name="Keywords" value="Celebrity | Avengers | S.H.I.E.L.D. | Scientist | Fantastic Four" />
+      <property name="Keywords Search" value="| Celebrity | Avengers | S.H.I.E.L.D. | Scientist | Fantastic Four |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -155,7 +158,9 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50/30" />
       <property name="Team Abilities" value="Brotherhood Of Mutants" />
+      <property name="Team Abilities Search" value="| Brotherhood Of Mutants |" />
       <property name="Keywords" value="Brotherhood Of Mutants | Marauders | Pirate | Reporter" />
+      <property name="Keywords Search" value="| Brotherhood Of Mutants | Marauders | Pirate | Reporter |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -240,7 +245,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Annihilators | Cosmic | Herald | Scientist | Defenders | Fantastic Four" />
+      <property name="Keywords Search" value="| Annihilators | Cosmic | Herald | Scientist | Defenders | Fantastic Four |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />

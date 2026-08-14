@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="WizKids 2024" id="65ab0b06-b589-4e6c-b92d-7b7064209a9a" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="769538c7-6fab-48dc-a59e-69dd4ae79dac" name="Surfing Gingerbread Man" size="Card">
@@ -9,7 +8,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Mystics | Snowfall" />
+      <property name="Team Abilities Search" value="| Mystics | Snowfall |" />
       <property name="Keywords" value="Santa'S Workshop | Speedster | Mystical" />
+      <property name="Keywords Search" value="| Santa'S Workshop | Speedster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
@@ -68,6 +69,7 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="5" />
       <property name="Keywords" value="Podcaster | Mystical | Warrior" />
+      <property name="Keywords Search" value="| Podcaster | Mystical | Warrior |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -92,7 +94,9 @@
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="80/45" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Past | Monster | Mystical" />
+      <property name="Keywords Search" value="| Past | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -202,7 +206,9 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Animal | Past | Speedster | Mystical | Deity" />
+      <property name="Keywords Search" value="| Animal | Past | Speedster | Mystical | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -334,7 +340,9 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="100/75" />
       <property name="Team Abilities" value="Mystics | Underworld" />
+      <property name="Team Abilities Search" value="| Mystics | Underworld |" />
       <property name="Keywords" value="Animal | Past | Monster | Mystical | Zombie Horde | Deity" />
+      <property name="Keywords Search" value="| Animal | Past | Monster | Mystical | Zombie Horde | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -466,7 +474,9 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Animal | Atlantis | Monster | Zombie Horde" />
+      <property name="Keywords Search" value="| Animal | Atlantis | Monster | Zombie Horde |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
@@ -536,7 +546,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Past | Politician | Ruler | Soldier | Monster | Zombie Horde" />
+      <property name="Keywords Search" value="| Past | Politician | Ruler | Soldier | Monster | Zombie Horde |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -644,6 +656,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Animal | Brute | Past" />
+      <property name="Keywords Search" value="| Animal | Brute | Past |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
@@ -719,6 +732,7 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Gnome | Past | Mystical | Warrior" />
+      <property name="Keywords Search" value="| Gnome | Past | Mystical | Warrior |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
@@ -782,7 +796,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Animal | Monster | Mystical" />
+      <property name="Keywords Search" value="| Animal | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />

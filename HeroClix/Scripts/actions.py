@@ -1,16 +1,3 @@
-ACTION_MARKER = ("Action", "action_marker")
-
-PAC_GUID = "7db159f2-1eb2-425f-aaac-5492e36d755b"
-PAC_POSITIONS = (-1500, -210)
-
-DICE_POSITIONS = [(-950, -50), (-950, 50)]
-DICE_GUID = "fdbd1ec7-702f-4c29-bd6f-3f628af80a39"
-
-NO_ACTIONS = ["PAC", "Dice", "Map", "Terrain"]
-
-RED = "#ff0000"
-
-
 def double_click(card, x=0, y=0):
     mute()
     
@@ -196,15 +183,6 @@ def is_one_shot(card, x=0, y=0):
     mute()
     return card[0].properties["Unit Type"] == "One Shot"
 
-DICE_FACES = {
-    1: "Face1",
-    2: "Face2",
-    3: "Face3",
-    4: "Face4",
-    5: "Face5",
-    6: "",
-}
-
 
 def create_dice():
     mute()
@@ -320,8 +298,42 @@ def create_one_shot(group, x=0, y=0):
         return
     card = me.Team.create(guid, quantity)
 
+
+def create_character_filtered(group, x=0, y=0):
+    mute()
+    lookup_dict = {}
     
+    message = "Look up characters by:"
+    buttonList = ["Keywords", "Team Abilities", ]
+    colorList = ['#FF0000' for i in buttonList]
+    filter_choice = askChoice(message, buttonList, colorList)
+    if filter_choice == 0:
+        return
+    new_key = buttonList[filter_choice - 1] + " Search"
     
+    message = "Choose one:"
+    buttonList = [i for i in FILTER_CHOICE_LIST[filter_choice - 1]]
+    colorList = ['#FF0000' for i in buttonList]
+    choice = askChoice(message, buttonList, colorList)
+    if choice == 0:
+        return
+    
+    search = "| " + buttonList[choice - 1] + " |"
+    
+    lookup_dict[new_key] = search
+    
+    guid_list = queryCard(properties = lookup_dict, exact = False)
+    if len(guid_list) == 0:
+        whisper("No matches found.")
+        return
+    
+    chosen_card, quantity = askCard(properties = {"Model": guid_list}, operator = "or", title = "Select a Character: ")
+    if chosen_card is None:
+        return
+    
+    me.Team.create(chosen_card, quantity)
+    
+
 def flip_card(card, x = 0, y = 0):
     mute()
     if card.isFaceUp:

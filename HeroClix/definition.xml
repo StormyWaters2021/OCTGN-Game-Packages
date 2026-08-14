@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.10"
+    version="1.0.0.11"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -22,6 +22,7 @@
 	  <script src="Scripts/changelog.py" />
 	  <script src="Scripts/hcu.py" />
 	  <script src="Scripts/boards.py" />
+	  <script src="Scripts/variables.py" />
   </scripts>
   
   <proxygen definitionsrc="Proxy/proxydef.xml"/>
@@ -58,6 +59,8 @@
 	
 	<!-- Hidden Card Properties -->
 	<property name="Unit ID" type="String" hidden="True"/>
+    <property name="Team Abilities Search" type="String" hidden="True"/>
+    <property name="Keywords Search" type="String" hidden="True"/>
 	<property name="Click Number" type="String" hidden="True"/>
 	<property name="Set Code" type="String" hidden="True" />
     <property name="Starting Line" type="String" hidden="True"/>
@@ -141,6 +144,7 @@
 		<groupaction menu="Generate Bystander" execute="create_bystander" />
 		<groupaction menu="Generate Terrain" execute="create_terrain" />
 		<groupaction menu="Generate One Shot" execute="create_one_shot" />
+		<groupaction menu="Generate Character" execute="create_character_filtered" />
 	</groupactions>
 	
 	<groupactions menu="Swap Playmat">

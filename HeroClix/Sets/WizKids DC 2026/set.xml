@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="WizKids DC 2026" id="2a3782ea-9eea-454a-b786-0ef0ae506e3e" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="7246e62e-b202-4478-ab3f-f5759b09e894" name="Skeetz" size="Card">
@@ -9,6 +8,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="10" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
@@ -34,7 +34,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="63" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Future | Gotham City | Past | White Lantern Corps | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Future | Gotham City | Past | White Lantern Corps | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -151,7 +153,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Celebrity | Future | Justice League | Past" />
+      <property name="Keywords Search" value="| Celebrity | Future | Justice League | Past |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -248,6 +252,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -272,7 +277,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Cosmic Energy | Hypertime" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Hypertime |" />
       <property name="Keywords" value="Future | Justice League | Past" />
+      <property name="Keywords Search" value="| Future | Justice League | Past |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -342,6 +349,7 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="300/200/100/50" />
       <property name="Keywords" value="Animal | Monster | Dark Knights" />
+      <property name="Keywords Search" value="| Animal | Monster | Dark Knights |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Colossal" />
@@ -591,7 +599,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="150/70" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Armor | Justice League | Metropolis | Scientist" />
+      <property name="Keywords Search" value="| Armor | Justice League | Metropolis | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -711,7 +721,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Justice League | Martial Artist | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Justice League | Martial Artist | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="WizKids 2026" id="616cedbb-4885-4aa2-9158-53f6c3766b55" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="847da5b5-b1cd-4785-abea-dc80aa3b0711" name="Jim Hopper" size="Card">
@@ -9,7 +8,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Brute | Past | Police | Warrior | Detective | Hawkins" />
+      <property name="Keywords Search" value="| Brute | Past | Police | Warrior | Detective | Hawkins |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -107,7 +108,9 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Animal | Monster | Mystical | Upside Down" />
+      <property name="Keywords Search" value="| Animal | Monster | Mystical | Upside Down |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -202,6 +205,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -226,6 +230,7 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Celebrity | Past | Warrior | Hawkins" />
+      <property name="Keywords Search" value="| Celebrity | Past | Warrior | Hawkins |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -299,7 +304,9 @@
       <property name="Properties" value="Unique | Generic" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Animal | Monster | Mystical | Upside Down" />
+      <property name="Keywords Search" value="| Animal | Monster | Mystical | Upside Down |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
@@ -382,7 +389,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Cosmic Energy | Underworld" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Underworld |" />
       <property name="Keywords" value="Past | Ruler | Monster | Mystical | Upside Down" />
+      <property name="Keywords Search" value="| Past | Ruler | Monster | Mystical | Upside Down |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -507,6 +516,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="10" />
       <property name="Keywords" value="Cosmic | Podcaster | Mystical | Warrior | Vehicle" />
+      <property name="Keywords Search" value="| Cosmic | Podcaster | Mystical | Warrior | Vehicle |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -531,6 +541,7 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="120/75/40" />
       <property name="Keywords" value="Gnome | Past | Mystical | Warrior" />
+      <property name="Keywords Search" value="| Gnome | Past | Mystical | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
@@ -694,6 +705,7 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Cosmic | Past | Scientist | Monster" />
+      <property name="Keywords Search" value="| Cosmic | Past | Scientist | Monster |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -778,7 +790,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Mystics | Team Player" />
+      <property name="Team Abilities Search" value="| Mystics | Team Player |" />
       <property name="Keywords" value="Marksman | Santa'S Workshop | Speedster | Mystical" />
+      <property name="Keywords Search" value="| Marksman | Santa'S Workshop | Speedster | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -843,7 +857,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Mystics | Team Player" />
+      <property name="Team Abilities Search" value="| Mystics | Team Player |" />
       <property name="Keywords" value="Santa'S Workshop | Speedster | Mystical" />
+      <property name="Keywords Search" value="| Santa'S Workshop | Speedster | Mystical |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
