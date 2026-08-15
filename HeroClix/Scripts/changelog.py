@@ -1,5 +1,11 @@
 changelog = {
-    10000010: ("1.0.0.10", "13 August 2026", [
+    1000011: ("1.0.0.11", "14 August 2026", [
+        "Bug fix in changelog.",
+        "Added new feature to generate characters. Users can now generate any character in the database, after filtering by either Team Ability or Keyword.",
+        "No new images were added with this update.",
+        ]),
+
+    1000010: ("1.0.0.10", "13 August 2026", [
         "Added another ~20 sets. Use Image Downloader plugin again to retreive missing images.",
         ]),
     1000007: ("1.0.0.7", "13 August 2026", [
@@ -27,6 +33,12 @@ def initializeGame():
     currentVersion = v1 + v2 + v3 + v4  ## An integer interpretation of the version number, for comparisons later
     lastVersion = getSetting("lastVersion", convertToString(currentVersion - 1))  ## -1 is for players experiencing the system for the first time
     lastVersion = int(lastVersion)
+
+    # Migration: 1.0.0.10 was accidentally stored as 10000010
+    if lastVersion == 10000010:
+        lastVersion = 1000010
+        setSetting("lastVersion", convertToString(lastVersion))
+
     for log in sorted(changelog):  ## Sort the dictionary numerically
         if lastVersion < log:  ## Trigger a changelog for each update they haven't seen yet.
             stringVersion, date, text = changelog[log]

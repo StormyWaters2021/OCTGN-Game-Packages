@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Thunderbolts" id="70b70c0d-7f12-43a6-899f-eeebdb496a9f" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="72d91464-46e5-4cd1-b720-0d9c80db4505" name="Contessa Valentina Allegra de Fontaine" size="Card">
@@ -9,7 +8,9 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Hydra | Marksman | Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Hydra | Marksman | Spy | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -69,6 +70,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Lethal Legion | Marksman | Frightful Four | Scientist | Sinister Syndicate | Maggia" />
+      <property name="Keywords Search" value="| Lethal Legion | Marksman | Frightful Four | Scientist | Sinister Syndicate | Maggia |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -155,7 +157,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Minions Of Doom |" />
       <property name="Keywords" value="Celebrity | Martial Artist | Soldier | Thunderbolts" />
+      <property name="Keywords Search" value="| Celebrity | Martial Artist | Soldier | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />

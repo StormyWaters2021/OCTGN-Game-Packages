@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="WizKids DC 2023" id="79c82bd0-314a-4aae-ac2a-13def8357b64" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="4730b439-58eb-4c7d-be7e-d30b9cf82809" name="Batman" size="Card">
@@ -9,7 +8,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Atlantis | Batman Family | Gotham City | Martial Artist | Detective" />
+      <property name="Keywords Search" value="| Atlantis | Batman Family | Gotham City | Martial Artist | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
@@ -106,7 +107,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="80/60/30" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Celebrity | Cosmic | Police" />
+      <property name="Keywords Search" value="| Celebrity | Cosmic | Police |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -205,7 +208,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Cosmic Energy | Superman Ally" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Superman Ally |" />
       <property name="Keywords" value="Cosmic | Justice League | Kryptonian | Metropolis | Past | Reporter" />
+      <property name="Keywords Search" value="| Cosmic | Justice League | Kryptonian | Metropolis | Past | Reporter |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -324,7 +329,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="150/90" />
       <property name="Team Abilities" value="Wonder Woman Ally" />
+      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
       <property name="Keywords" value="Justice League | Past | Amazon | Warrior | Deity" />
+      <property name="Keywords Search" value="| Justice League | Past | Amazon | Warrior | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -452,7 +459,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Wonder Woman Ally" />
+      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
       <property name="Keywords" value="Justice League | Ruler | Amazon | Warrior | Deity" />
+      <property name="Keywords Search" value="| Justice League | Ruler | Amazon | Warrior | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -561,7 +570,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Wonder Woman Ally" />
+      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
       <property name="Keywords" value="Future | Justice League | Amazon | Warrior | Deity" />
+      <property name="Keywords Search" value="| Future | Justice League | Amazon | Warrior | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -669,7 +680,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Monster" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -745,7 +758,9 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Animal | Cosmic | Secret Society Of Super Villains" />
+      <property name="Keywords Search" value="| Animal | Cosmic | Secret Society Of Super Villains |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
@@ -809,7 +824,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Brute | Future | Gotham City Underworld | Robot | Royal Flush Gang" />
+      <property name="Keywords Search" value="| Brute | Future | Gotham City Underworld | Robot | Royal Flush Gang |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Giant" />
@@ -918,7 +935,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Keywords" value="Batman Family | Future | Gotham City Underworld | Royal Flush Gang" />
+      <property name="Keywords Search" value="| Batman Family | Future | Gotham City Underworld | Royal Flush Gang |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1000,7 +1019,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Future | Gotham City Underworld | Martial Artist | Royal Flush Gang" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld | Martial Artist | Royal Flush Gang |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1087,7 +1108,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Future | Gotham City Underworld | Royal Flush Gang | Ruler" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld | Royal Flush Gang | Ruler |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1185,7 +1208,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Future | Gotham City Underworld | Royal Flush Gang | Ruler" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld | Royal Flush Gang | Ruler |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1305,6 +1330,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="10" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1397,7 +1423,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Keywords" value="Batman Family | Future | Gotham City Underworld | Royal Flush Gang" />
+      <property name="Keywords Search" value="| Batman Family | Future | Gotham City Underworld | Royal Flush Gang |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1473,6 +1501,7 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Gotham City Underworld | Project Cadmus | Royal Flush Gang" />
+      <property name="Keywords Search" value="| Gotham City Underworld | Project Cadmus | Royal Flush Gang |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />

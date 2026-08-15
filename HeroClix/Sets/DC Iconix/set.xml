@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="DC Iconix" id="5320fd44-dead-47f3-ac0b-1dcdb295af0b" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="d241c83d-e22a-4d78-b9d1-b1d4ac1596c1" name="Batman" size="Card">
@@ -10,7 +9,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -181,7 +182,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Brute | Arkham Asylum | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Brute | Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -312,7 +315,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Keywords" value="Armor | Assassin | Batman Family | Gotham City | Gotham City Underworld | Mystical" />
+      <property name="Keywords Search" value="| Armor | Assassin | Batman Family | Gotham City | Gotham City Underworld | Mystical |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -410,7 +415,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Batman Ally | Superman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Ally | Superman Enemy |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist | Detective | Superman Revenge Squad" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist | Detective | Superman Revenge Squad |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -497,7 +504,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Team Player | Batman Ally" />
+      <property name="Team Abilities Search" value="| Team Player | Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist | Detective | Teen Titans" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist | Detective | Teen Titans |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -574,7 +583,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="160/35" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Justice League | Kryptonian | Metropolis | Reporter" />
+      <property name="Keywords Search" value="| Justice League | Kryptonian | Metropolis | Reporter |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -679,7 +690,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="300/175/125" />
       <property name="Team Abilities" value="Cosmic Energy | Superman Enemy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Superman Enemy |" />
       <property name="Keywords" value="Brute | Kryptonian | Monster | Superman Revenge Squad" />
+      <property name="Keywords Search" value="| Brute | Kryptonian | Monster | Superman Revenge Squad |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
@@ -822,7 +835,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="85/50" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Armor | Justice League | Metropolis | Scientist" />
+      <property name="Keywords Search" value="| Armor | Justice League | Metropolis | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -931,7 +946,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="185/75/40" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Kryptonian | Metropolis | Robot | Ruler | Scientist" />
+      <property name="Keywords Search" value="| Kryptonian | Metropolis | Robot | Ruler | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1052,7 +1069,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Team Player | Superman Ally" />
+      <property name="Team Abilities Search" value="| Team Player | Superman Ally |" />
       <property name="Keywords" value="Kryptonian | Metropolis | Suicide Squad | Young Justice | Teen Titans" />
+      <property name="Keywords Search" value="| Kryptonian | Metropolis | Suicide Squad | Young Justice | Teen Titans |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1125,7 +1144,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="120/50" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Cosmic | Kryptonian | Metropolis | Past | Robot" />
+      <property name="Keywords Search" value="| Cosmic | Kryptonian | Metropolis | Past | Robot |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1224,7 +1245,9 @@
       <property name="Properties" value="Unique | Sideline Active" />
       <property name="Point Values" value="90/50" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Armor | Kryptonian | Metropolis | Reporter" />
+      <property name="Keywords Search" value="| Armor | Kryptonian | Metropolis | Reporter |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1341,7 +1364,9 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Team Player | Superman Ally" />
+      <property name="Team Abilities Search" value="| Team Player | Superman Ally |" />
       <property name="Keywords" value="Cosmic | Kryptonian | Metropolis | Teen Titans" />
+      <property name="Keywords Search" value="| Cosmic | Kryptonian | Metropolis | Teen Titans |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1428,7 +1453,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/45" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1537,7 +1564,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/45" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1646,7 +1675,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Justice Society | Superman Ally" />
+      <property name="Team Abilities Search" value="| Justice Society | Superman Ally |" />
       <property name="Keywords" value="Justice League | Justice Society | Kryptonian | Metropolis | Past | Reporter" />
+      <property name="Keywords Search" value="| Justice League | Justice Society | Kryptonian | Metropolis | Past | Reporter |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1741,7 +1772,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/40" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Cosmic | Ruler | Mystical | Endless" />
+      <property name="Keywords Search" value="| Cosmic | Ruler | Mystical | Endless |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1863,7 +1896,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Suicide Squad" />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="Assassin | Martial Artist | Soldier | Suicide Squad" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Soldier | Suicide Squad |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1960,7 +1995,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Suicide Squad" />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="Animal | Suicide Squad" />
+      <property name="Keywords Search" value="| Animal | Suicide Squad |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
@@ -2013,7 +2050,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Suicide Squad" />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="A.R.G.U.S. | Scientist | Suicide Squad" />
+      <property name="Keywords Search" value="| A.R.G.U.S. | Scientist | Suicide Squad |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2086,7 +2125,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Suicide Squad" />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="Spy | Suicide Squad" />
+      <property name="Keywords Search" value="| Spy | Suicide Squad |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2161,7 +2202,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Suicide Squad" />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="Assassin | Martial Artist | Suicide Squad" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Suicide Squad |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2248,7 +2291,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Suicide Squad" />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="A.R.G.U.S. | Martial Artist | Police | Soldier | Spy | Suicide Squad" />
+      <property name="Keywords Search" value="| A.R.G.U.S. | Martial Artist | Police | Soldier | Spy | Suicide Squad |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2346,7 +2391,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Suicide Squad" />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="Assassin | Martial Artist | Soldier | Suicide Squad" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Soldier | Suicide Squad |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2443,7 +2490,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Martial Artist | Warrior" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2530,7 +2579,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Animal | Cosmic | Politician | Ruler | Monster" />
+      <property name="Keywords Search" value="| Animal | Cosmic | Politician | Ruler | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
@@ -2574,7 +2625,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Police | Suicide Squad" />
+      <property name="Team Abilities Search" value="| Police | Suicide Squad |" />
       <property name="Keywords" value="A.R.G.U.S. | Animal | Cosmic | Assassin | Soldier | Spy | Suicide Squad | Monster" />
+      <property name="Keywords Search" value="| A.R.G.U.S. | Animal | Cosmic | Assassin | Soldier | Spy | Suicide Squad | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2660,7 +2713,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="300/200/100" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Ruler | Mystical | Deity" />
+      <property name="Keywords Search" value="| Ruler | Mystical | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
@@ -2881,7 +2936,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Monster | Mystical | Teen Titans" />
+      <property name="Keywords Search" value="| Monster | Mystical | Teen Titans |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2979,7 +3036,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Justice League | Martial Artist | Scientist | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Justice League | Martial Artist | Scientist | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3077,7 +3136,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="20" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Soldier" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3135,7 +3196,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3228,6 +3291,7 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3251,7 +3315,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Gotham City Underworld | Scientist | Detective" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Scientist | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3339,7 +3405,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Gotham City Underworld | Police | Politician" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Police | Politician |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3425,7 +3493,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="90/50" />
       <property name="Team Abilities" value="Police | Justice League" />
+      <property name="Team Abilities Search" value="| Police | Justice League |" />
       <property name="Keywords" value="Celebrity | Central City | Justice League | Police | Scientist | Speedster" />
+      <property name="Keywords Search" value="| Celebrity | Central City | Justice League | Police | Scientist | Speedster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3535,7 +3605,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="90/50" />
       <property name="Team Abilities" value="Police | Justice League" />
+      <property name="Team Abilities Search" value="| Police | Justice League |" />
       <property name="Keywords" value="Celebrity | Central City | Justice League | Police | Scientist | Speedster" />
+      <property name="Keywords Search" value="| Celebrity | Central City | Justice League | Police | Scientist | Speedster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3639,7 +3711,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="90/50" />
       <property name="Team Abilities" value="Team Player | Titans" />
+      <property name="Team Abilities Search" value="| Team Player | Titans |" />
       <property name="Keywords" value="Celebrity | Central City | Justice League | Speedster | Teen Titans" />
+      <property name="Keywords Search" value="| Celebrity | Central City | Justice League | Speedster | Teen Titans |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3738,7 +3812,9 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Justice Society" />
+      <property name="Team Abilities Search" value="| Justice Society |" />
       <property name="Keywords" value="Central City | Justice Society | Past | Politician | Scientist | Speedster" />
+      <property name="Keywords Search" value="| Central City | Justice Society | Past | Politician | Scientist | Speedster |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3837,7 +3913,9 @@
       <property name="Properties" value="Unique | Sideline Active" />
       <property name="Point Values" value="150/100" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Cosmic | Future | Herald | Past | Speedster | Monster | Mystical | New Gods" />
+      <property name="Keywords Search" value="| Cosmic | Future | Herald | Past | Speedster | Monster | Mystical | New Gods |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />

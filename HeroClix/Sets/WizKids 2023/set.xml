@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="WizKids 2023" id="266fb214-b4ba-414c-8be2-b43299ddca11" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="c4a32c82-0012-4508-9cd0-b9fdce98fc3c" name="Scott Porter" size="Card">
@@ -10,7 +9,9 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="25" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Celebrity" />
+      <property name="Keywords Search" value="| Celebrity |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -75,6 +76,7 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Celebrity" />
+      <property name="Keywords Search" value="| Celebrity |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -136,6 +138,7 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="4" />
       <property name="Keywords" value="4 Points Gaming Club | Podcaster | Detective" />
+      <property name="Keywords Search" value="| 4 Points Gaming Club | Podcaster | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
