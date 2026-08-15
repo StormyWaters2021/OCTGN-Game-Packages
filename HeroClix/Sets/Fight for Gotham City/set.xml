@@ -9867,7 +9867,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
-      <alternate name="Gargoyle" type="Tile" size="Card" />
+      <alternate name="Gargoyle" type="Tile" size="1x1" />
     </card>
     <card id="151f994c-0250-4fa3-a6e1-546ba353629c" name="Titans Raft" size="Card">
       <property name="Collector Number" value="DC30-t002" />
@@ -9878,7 +9878,7 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;At the end of your turn, if a character in this square occupies water terrain, you may move them up to 2 squares." />
-      <alternate name="Titans Raft" type="Tile" size="Card" />
+      <alternate name="Titans Raft" type="Tile" size="1x1" />
     </card>
     <card id="7c38c2e9-fc1b-41df-9444-955299d1ecd7" name="Water Trough" size="Card">
       <property name="Collector Number" value="DC30-t003" />
@@ -9899,7 +9899,7 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Terrain markers adjacent to Museum Display Case can't be destroyed." />
-      <alternate name="Museum Display Case" type="Tile" size="Card" />
+      <alternate name="Museum Display Case" type="Tile" size="1x1" />
     </card>
     <card id="f025d643-526d-452e-8b9e-9d7a67c8641b" name="Fish Net" size="Card">
       <property name="Collector Number" value="DC30-t005" />
@@ -9921,7 +9921,7 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Characters occupying this marker's squares have &quot;FREE: Remove a Sword equipment equipped to this character from the game without scoring it. If you do, generate a Sword equipment from outside the game and equip it to this character.&quot;" />
-      <alternate name="Weapon Rack" type="Tile" size="Card" />
+      <alternate name="Weapon Rack" type="Tile" size="1x1" />
     </card>
     <card id="1f8ac89c-b27b-4d80-970e-45cddf5e8a20" name="Fire Escape" size="Card">
       <property name="Collector Number" value="DC30-t007" />
@@ -9964,7 +9964,7 @@
       <property name="Point Values" value="5" />
       <property name="Range" value="3" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Immobile. // When a character adjacent to this terrain would be dealt damage or be unequipped, they may choose to destroy this terrain instead." />
-      <alternate name="Safe" type="Tile" size="Card" />
+      <alternate name="Safe" type="Tile" size="1x1" />
     </card>
     <card id="f265159a-0c35-4b2d-9cd8-5795f4a2b882" name="Archery Target" size="Card">
       <property name="Collector Number" value="DC30-t011" />
@@ -9975,7 +9975,7 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Immobile, Indestructible. // Characters have &quot;POWER: If Archery Target is within this character's range and line and fire, roll 2d6. If the result is higher than the dice on Archery Target, or there are no dice on Archery Target, place that result on Archery Target, removing any other dice from it.&quot; // At the end of each player's turn, if the dice on Archery Target were put there by a character friendly to that player, they may remove an action token from a character." />
-      <alternate name="Archery Target" type="Tile" size="Card" />
+      <alternate name="Archery Target" type="Tile" size="1x1" />
     </card>
     <card id="18d23eb0-dab7-46b3-a227-00a0a028ca30" name="Lazarus Pit" size="Card">
       <property name="Collector Number" value="DC30-t012" />
@@ -9997,7 +9997,40 @@
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Immobile. // When a character within 6 squares uses Probability Control, roll a d6. [d:5]-[d:6]: Give all characters within 6 squares 2 action tokens, then destroy this object." />
-      <alternate name="Chronotron Bomb" type="Tile" size="Card" />
+      <alternate name="Chronotron Bomb" type="Tile" size="1x1" />
+    </card>
+	<card id="7c655acb-f617-480a-aff3-65a3ab15092d" name="Joker Sign" size="Card">
+      <property name="Collector Number" value="DC30-t014" />
+      <property name="Set Code" value="ffgc" />
+      <property name="Unit ID" value="ffgcDC30-t014" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="5" />
+      <property name="Traits and Special Powers" value="" />
+      <alternate name="Joker Sign" type="Tile" size="1x2" />
+    </card>
+	<card id="42b0f63a-37ec-4d9b-9402-a2fafe41a46b" name="Batmobile" size="Card">
+      <property name="Collector Number" value="DC30-t015" />
+      <property name="Set Code" value="ffgc" />
+      <property name="Unit ID" value="ffgcDC30-t015" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+      <property name="Traits and Special Powers" value="" />
+      <alternate name="Batmobile" type="Tile" size="2x3" />
+    </card>
+	<card id="b74f5ca9-4b12-41f2-b36b-85eadf2087ed" name="Shipping Containers" size="Card">
+      <property name="Collector Number" value="DC30-t016" />
+      <property name="Set Code" value="ffgc" />
+      <property name="Unit ID" value="ffgcDC30-t016" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+      <property name="Traits and Special Powers" value="" />
+      <alternate name="Chronotron Bomb" type="Tile" size="2x2" />
     </card>
     <card id="c75e1b81-ca18-430d-b137-b1c224a0443e" name="Maxie Zeus" size="Card">
       <property name="Collector Number" value="L027" />
