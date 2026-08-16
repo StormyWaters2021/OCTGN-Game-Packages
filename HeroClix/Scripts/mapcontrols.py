@@ -17,7 +17,7 @@ def load_map(group, x=0, y=0):
         
     card = table.create(guid, 0, 0, quantity = 1, persist = False)
     _position_map(card)
-
+    
 
 def rotate_map(card, x=0, y=0):
     mute()
@@ -38,7 +38,7 @@ def _position_map(gamemap):
     x, y = _get_map_position(gamemap)
     gamemap.moveToTable(x, y)
     gamemap.anchor = True
-    gamemap.index = 0
+    gamemap.sendToBack()
 
 
 def _check_map_rotation():

@@ -5,6 +5,10 @@ def double_click(card, x=0, y=0):
         roll_dice(table, 0, 0)
         return
     
+    if card.model == LOS_GUID:
+        _reset_los(card)
+        return
+    
     if card.properties["Unit Type"] in NO_ACTIONS:
         return
         
@@ -56,6 +60,7 @@ def take_one_damage(card, x=0, y=0):
         card.alternate = card.alternates[current_index]
         notify("{} takes one damage and goes to click {}.".format(card, current_index))
 
+
 def take_x_damage(card, x=0, y=0):
     mute()
     if card.properties["Unit Type"] in NO_ACTIONS:
@@ -93,7 +98,6 @@ def heal_one_damage(card, x=0, y=0):
         notify("{} heals one damage and goes to click {}.".format(card, current_index))
 
 
-
 def snap_to_grid(card):
     mute()
 
@@ -113,7 +117,9 @@ def snap_to_grid(card):
     
     newx, newy = _compensate_for_rotation(card, x, y)
     card.moveToTable(newx, newy)
-    card.index = 999
+    card.sendToFront()
+    
+    
     
 
 def _compensate_for_rotation(card, x, y):
@@ -169,6 +175,7 @@ def rotate_model(card, x=0, y=0):
         card.orientation = 1
     else:
         card.orientation = 0
+
 
 def make_model(card):
     mute()

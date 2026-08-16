@@ -1,51 +1,31 @@
-LOS_TYPES = {
-    (0, 1): 'LOS0x1',
-    (1, 10): 'LOS1x10',
-    (1, 9): 'LOS1x9',
-    (1, 8): 'LOS1x8',
-    (1, 7): 'LOS1x7',
-    (1, 6): 'LOS1x6',
-    (1, 5): 'LOS1x5',
-    (2, 9): 'LOS2x9',
-    (1, 4): 'LOS1x4',
-    (2, 7): 'LOS2x7',
-    (3, 10): 'LOS3x10',
-    (1, 3): 'LOS1x3',
-    (3, 8): 'LOS3x8',
-    (2, 5): 'LOS2x5',
-    (3, 7): 'LOS3x7',
-    (4, 9): 'LOS4x9',
-    (1, 2): 'LOS1x2',
-    (5, 9): 'LOS5x9',
-    (4, 7): 'LOS4x7',
-    (3, 5): 'LOS3x5',
-    (5, 8): 'LOS5x8',
-    (2, 3): 'LOS2x3',
-    (7, 10): 'LOS7x10',
-    (5, 7): 'LOS5x7',
-    (3, 4): 'LOS3x4',
-    (7, 9): 'LOS7x9',
-    (4, 5): 'LOS4x5',
-    (5, 6): 'LOS5x6',
-    (6, 7): 'LOS6x7',
-    (7, 8): 'LOS7x8',
-    (8, 9): 'LOS8x9',
-    (9, 10): 'LOS9x10',
-    (1, 1): 'LOS1x1',
-}
-
-
 def compute_gcf(a, b):
     while b != 0:
         a, b = b, a % b
     return abs(a)
 
-LOS_GUID = '056ca248-4adc-43df-9bfd-9cf64571972e'
+LOS_GUID = '0eccc91f-84e5-4426-9860-a5a0f7bf3517'
 LOS_OFFSET = 1000
+LOS_BASE_X = -1600
+LOS_BASE_Y = -150
 
-def _draw_los_line(*args):
+
+def create_los():
+    mute()
+    table.create(LOS_GUID, LOS_BASE_X, LOS_BASE_Y)
+
+
+def _reset_los(card):
+    mute()
+    card.alternate = ""
+    card.orientation = 0
+    card.moveToTable(LOS_BASE_X, LOS_BASE_Y)
+
+
+def _draw_los_line(args):
     mute()
     if me._id != 1:
+        return
+    if not args.targeted:
         return
 
     # We may need to rotate the line later
@@ -108,10 +88,18 @@ def _draw_los_line(*args):
         else:
             mirror = "B" if same_sign else "A"
 
-        los_line = "LOS" + str(short) + "x" + str(long) + mirror 
+        los_line = "LOS" + str(int(short)) + "x" + str(int(long)) + mirror 
     
+    count = 0
     for card in table:
         if card.model == LOS_GUID:
+            count += 1
             card.moveToTable(fromx - LOS_OFFSET, fromy - LOS_OFFSET)
             card.alternate = los_line
             card.orientation = rotation
+            
+    if count < 1:
+        line = table.create(LOS_GUID, fromx - LOS_OFFSET, fromy - LOS_OFFSET)
+        line.alternate = los_line
+        line.orientation = rotation
+        

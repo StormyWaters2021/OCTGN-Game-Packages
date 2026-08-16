@@ -1,10 +1,14 @@
 changelog = {
+    1000013: ("1.0.0.13", "16 August 2026", [
+        "Added Line of Sight tool - Experimental.",
+        "Shift-click and drag from one model to another to drop a line through the center of both. Zooming in first can prevent errors.",
+        "Double-click the line once you are done checking Line of Sight - if you don't, the line 'card' can interfere with gameplay.",
+        ]),
     1000011: ("1.0.0.11", "14 August 2026", [
         "Bug fix in changelog.",
         "Added new feature to generate characters. Users can now generate any character in the database, after filtering by either Team Ability or Keyword.",
         "No new images were added with this update.",
         ]),
-
     1000010: ("1.0.0.10", "13 August 2026", [
         "Added another ~20 sets. Use Image Downloader plugin again to retreive missing images.",
         ]),

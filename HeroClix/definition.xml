@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.11"
+    version="1.0.0.13"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -23,6 +23,7 @@
 	  <script src="Scripts/hcu.py" />
 	  <script src="Scripts/boards.py" />
 	  <script src="Scripts/variables.py" />
+	  <script src="Scripts/los.py" />
   </scripts>
   
   <proxygen definitionsrc="Proxy/proxydef.xml"/>
@@ -35,7 +36,7 @@
     <event name="OnCardsMoved" action="table_config" />
 	<!-- <event name="OnDeckLoaded" action="deck_loaded"/> -->
 	<!-- <event name="OnGlobalVariableChanged" action="loaded_check"/> -->
-	<!-- <event name="OnCardArrowTargeted" action="attach_card"/> -->
+	<event name="OnCardArrowTargeted" action="_draw_los_line"/>
 	<!-- <event name="OnGameStarted" action="game_started"/> -->
 	<event name="OnTableLoaded" action="setup_table" />
   </events>
@@ -92,6 +93,8 @@
 	
 	<size name="Dice" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	<size name="PAC" width="510" height="421" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="LOSBase" width="50" height="300" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="LOSLine" width="2100" height="2100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 
 </card>
 
