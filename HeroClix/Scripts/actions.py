@@ -94,27 +94,43 @@ def heal_one_damage(card, x=0, y=0):
 
 
 
-def fix_position(card):
+def snap_to_grid(card):
     mute()
 
     x, y = card.position
 
-    x_remainder = x % 100
-    if x_remainder <= 50:
+    x_remainder = x % GRID_SIZE
+    if x_remainder <= GRID_SIZE / 2:
         x -= x_remainder
     else:
-        x += 100 - x_remainder
+        x += GRID_SIZE - x_remainder
 
-    y_remainder = y % 100
-    if y_remainder <= 50:
+    y_remainder = y % GRID_SIZE
+    if y_remainder <= GRID_SIZE / 2:
         y -= y_remainder
     else:
-        y += 100 - y_remainder
-
-    card.moveToTable(x, y)
+        y += GRID_SIZE - y_remainder
+    
+    newx, newy = _compensate_for_rotation(card, x, y)
+    card.moveToTable(newx, newy)
     card.index = 999
     
-    
+
+def _compensate_for_rotation(card, x, y):
+    mute()
+    if card.orientation == 1:
+        if card.size in NOT_SQUARE_SIZES:
+            return (x, y + GRID_SIZE)
+    return (x, y)
+
+def _compensate_report_for_rotation(card, x, y):
+    mute()
+    if card.orientation == 1:
+        if card.size in NOT_SQUARE_SIZES:
+            return (x, y - GRID_SIZE)
+    return (x, y)
+
+  
 def table_config(args):
     mute()
     if args.player != me:
@@ -129,14 +145,16 @@ def table_config(args):
             idx = args.cards.index(card)
             
             if args.toGroups[idx] == table:
-                fix_position(card)
+                snap_to_grid(card)
                 x = args.xs[idx]
                 y = args.ys[idx]
-                start_position = _report_movement(x, y)
+                startx, starty = _compensate_report_for_rotation(card, x, y)
+                start_position = _report_movement(startx, starty)
                 if start_position != None:
                     movement_report += card.name + " moves from " + start_position + " to "
                     x, y = card.position
-                    end_position = _report_movement(x, y)
+                    newx, newy = _compensate_report_for_rotation(card, x, y)
+                    end_position = _report_movement(newx, newy)
                     if end_position != None:
                         movement_report += end_position + "."
                         notify(movement_report)
@@ -147,10 +165,10 @@ def table_config(args):
 def rotate_model(card, x=0, y=0):
     mute()
     rotation = card.orientation
-    if rotation == 3:
-        card.orientation = 0
+    if rotation == 0:
+        card.orientation = 1
     else:
-        card.orientation += 1
+        card.orientation = 0
 
 def make_model(card):
     mute()

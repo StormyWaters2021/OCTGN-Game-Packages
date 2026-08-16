@@ -14,6 +14,9 @@ DICE_FACES = {
     6: "",
 }
 
+GRID_SIZE = 100
+NOT_SQUARE_SIZES = ["1x2", ]
+
 NO_ACTIONS = ["PAC", "Dice", "Map", "Terrain"]
 
 KEYWORDS = [
