@@ -6,7 +6,8 @@ def fail_check(*args):
 def position(card, x=0, y=0):
     position = card.position
     whisper("Position = {}.".format(str(position)))
-    
+    whisper("isInverted attr: {}".format(card.isInverted))
+    whisper("isInverted call: {}".format(card.isInverted()))
     
 
 def _test(unit, x=0, y=0):

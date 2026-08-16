@@ -1140,29 +1140,32 @@
       <property name="Keywords Search" value="| Past | Detective |" />
       <property name="Traits and Special Powers" value="CLUE EFFECT: Elementary&#10;When a friendly character with a listed keyword uses Outwit to target an opposing character, after resolutions gain 1 Clue token.&#10;&#10;SUSPECT (3)&#10;Friendly characters can use Stealth.&#10;&#10;EVIDENCE (8)&#10;Friendly characters can use Poison.&#10;&#10;CASE CLOSED (12)&#10;When friendly characters use Poison, they deal penetrating damage." />
     </card>
-    <card id="3b4af8fd-e6ca-4fe7-b9e2-f8e8cde37f3d" name="Banana Pile" size="2x2">
+    <card id="3b4af8fd-e6ca-4fe7-b9e2-f8e8cde37f3d" name="Banana Pile" size="Card">
       <property name="Unit ID" value="wicnWKX-TM001" />
       <property name="Collector Number" value="WKX-TM001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="2" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Characters in these squares have POWER: Heal one click." />
+      <alternate name="Banana Pile" type="Tile" size="2x2" />
     </card>
-    <card id="b8f1c795-2076-426c-92c9-a0c7a1e1f1fb" name="Crushed Giant Bug" size="2x2">
+    <card id="b8f1c795-2076-426c-92c9-a0c7a1e1f1fb" name="Crushed Giant Bug" size="Card">
       <property name="Unit ID" value="wicnWKX-TM002" />
       <property name="Collector Number" value="WKX-TM002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="4" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Poison&#10;Characters holding this terrain can use Poison. If they do, remove this terrain from the game." />
+      <alternate name="Crushed Giant Bug" type="Tile" size="2x2" />
     </card>
-    <card id="4c5679a9-c038-4c29-b56a-dcefafca52c7" name="Twisted Metal" size="2x2">
+    <card id="4c5679a9-c038-4c29-b56a-dcefafca52c7" name="Twisted Metal" size="Card">
       <property name="Unit ID" value="wicnWKX-TM003" />
       <property name="Collector Number" value="WKX-TM003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="5" />
       <property name="Traits and Special Powers" value="EFFECT&#10;When this is targeted by a Destroy Action, before destroying it deal 1 damage to each adjacent character." />
+      <alternate name="Twisted Metal" type="Tile" size="2x2" />
     </card>
   </cards>
 </set>

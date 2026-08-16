@@ -2961,12 +2961,13 @@
         <property name="Damage" value="KO" />
       </alternate>
     </card>
-    <card id="138e3ff6-5762-4262-8b35-ffab898d2514" name="Trophy Case" size="1x2">
+    <card id="138e3ff6-5762-4262-8b35-ffab898d2514" name="Trophy Case" size="Card">
       <property name="Unit ID" value="wkm24TM001" />
       <property name="Collector Number" value="TM001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
       <property name="Range" value="5" />
+      <alternate name="Trophy Case" type="Tile" size="1x2" />
     </card>
   </cards>
 </set>

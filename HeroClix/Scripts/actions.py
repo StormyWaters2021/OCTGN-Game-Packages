@@ -102,6 +102,7 @@ def snap_to_grid(card):
     mute()
 
     x, y = card.position
+    x, y = _compensate_report_for_rotation(card, x, y)
 
     x_remainder = x % GRID_SIZE
     if x_remainder <= GRID_SIZE / 2:
@@ -119,23 +120,6 @@ def snap_to_grid(card):
     card.moveToTable(newx, newy)
     card.sendToFront()
     
-    
-    
-
-def _compensate_for_rotation(card, x, y):
-    mute()
-    if card.orientation == 1:
-        if card.size in NOT_SQUARE_SIZES:
-            return (x, y + GRID_SIZE)
-    return (x, y)
-
-def _compensate_report_for_rotation(card, x, y):
-    mute()
-    if card.orientation == 1:
-        if card.size in NOT_SQUARE_SIZES:
-            return (x, y - GRID_SIZE)
-    return (x, y)
-
   
 def table_config(args):
     mute()
@@ -168,31 +152,65 @@ def table_config(args):
                 make_model(card)
             
 
+def _rotation_offset(card):
+    if card.isInverted():
+        return (-GRID_SIZE, -GRID_SIZE)
+    return (0, GRID_SIZE)
+
+
+def _compensate_for_rotation(card, x, y):
+    mute()
+    offsetx, offsety = _rotation_offset(card)
+    if card.orientation == 1:
+        if card.size in NOT_SQUARE_SIZES:
+            x += offsetx
+            y += offsety
+    return (x, y)
+
+
+def _compensate_report_for_rotation(card, x, y):
+    mute()
+    offsetx, offsety = _rotation_offset(card)
+    if card.orientation == 1:
+        if card.size in NOT_SQUARE_SIZES:
+            x -= offsetx
+            y -= offsety
+    return (x, y)
+
+
 def rotate_model(card, x=0, y=0):
     mute()
-    rotation = card.orientation
-    if rotation == 0:
+    x, y = card.position
+    offsetx, offsety = _rotation_offset(card)
+    if card.orientation == 0:
         card.orientation = 1
+        if card.size in NOT_SQUARE_SIZES:
+            x += offsetx
+            y += offsety
     else:
+        if card.size in NOT_SQUARE_SIZES:
+            x -= offsetx
+            y -= offsety
         card.orientation = 0
-
+    card.moveToTable(x, y)
+        
 
 def make_model(card):
     mute()
-    # if card.properties["Unit Type"] == "Bystander":
-        # return
-    offset = -100
-    if me.isInverted:
-        offset = 100
+    x, y = card.position
+    if card.isInverted():
+        offsetx = card.width
+        offsety = card.height - GRID_SIZE
+    else:
+        offsetx = -GRID_SIZE
+        offsety = 0
     if "Click1" in card.alternates:
         guid = card.model
-        x, y = card.position
-        fig = table.create(guid, x + offset, y)
+        fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = "Click1"
     elif "Tile" in card.alternates:
         guid = card.model
-        x, y = card.position
-        fig = table.create(guid, x + offset, y)
+        fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = "Tile"
 
 

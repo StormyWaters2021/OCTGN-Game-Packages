@@ -1,4 +1,12 @@
 changelog = {
+    1000015: ("1.0.0.15", "16 August 2026", [
+        "Fixed minor display issues with cards rendering in the wrong size.",
+        "Corrected some issues with some terrain markers not being built correctly",
+        ]),
+    1000014: ("1.0.0.14", "16 August 2026", [
+        "Fixed graphical and positional issues with 1x2 models. They now rotate around a single end and properly report that end as being the position.",
+        "Fixed model generation code for inverted players, so the models should generate in the correct position for both sides of the table.",
+        ]),
     1000013: ("1.0.0.13", "16 August 2026", [
         "Added Line of Sight tool - Experimental.",
         "Shift-click and drag from one model to another to drop a line through the center of both. Zooming in first can prevent errors.",
