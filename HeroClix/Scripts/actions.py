@@ -74,7 +74,7 @@ def take_x_damage(card, x=0, y=0):
         notify("{} is already on its last click.".format(card.Name))
 
     if current_index + damage >= len(card.alternates):
-        card.alternate = card.alternate = "KO"
+        card.alternate = "KO"
         notify("{} is KO'd!".format(card))
 
     else:
@@ -226,6 +226,12 @@ def is_one_shot(card, x=0, y=0):
     mute()
     return card[0].properties["Unit Type"] == "One Shot"
 
+def has_map_image(card, x=0, y=0):
+    mute()
+    if "Image" in card[0].alternates:
+        return True
+    else:
+        return False
 
 def create_dice():
     mute()
@@ -385,6 +391,14 @@ def flip_card(card, x = 0, y = 0):
     else:
         card.isFaceUp = True
         notify("{} turns {} face up.".format(me, card))
+        
+
+def flip_map(card, x = 0, y = 0):
+    mute()
+    if card.alternate == "":
+        card.alternate = "Image"
+    else:
+        card.alternate = ""
         
         
 def setup_table():

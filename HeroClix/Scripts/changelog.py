@@ -1,4 +1,7 @@
 changelog = {
+    1000016: ("1.0.0.16", "24 August 2026", [
+        "Added a handful of actual map images - right click a map to swap if available.",
+        ]),
     1000015: ("1.0.0.15", "16 August 2026", [
         "Fixed minor display issues with cards rendering in the wrong size.",
         "Corrected some issues with some terrain markers not being built correctly",
