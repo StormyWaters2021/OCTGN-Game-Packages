@@ -1,4 +1,7 @@
 changelog = {
+    1000017: ("1.0.0.17", "26 August 2026", [
+        "Added a Test Menu to the right-click menu. Here you can see things I am testing, so please provide feedback!",
+        ]),
     1000016: ("1.0.0.16", "24 August 2026", [
         "Added a handful of actual map images - right click a map to swap if available.",
         ]),

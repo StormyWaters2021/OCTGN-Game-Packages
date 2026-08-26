@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.16"
+    version="1.0.0.17"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -24,6 +24,7 @@
 	  <script src="Scripts/boards.py" />
 	  <script src="Scripts/variables.py" />
 	  <script src="Scripts/los.py" />
+	  <script src="Scripts/test.py" />
   </scripts>
   
   <proxygen definitionsrc="Proxy/proxydef.xml"/>
@@ -120,6 +121,7 @@
 	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
 	<cardaction menu="Test" showIf="fail_check" shortcut="alt+t" execute="_test" />
 	<!-- # ~~ DEBUG ~~ # -->
+	
 	<cardaction menu="Attack" showIf="is_not_map" execute="calculate_attack" />
 	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
 	<cardaction menu="Swap Map Image" showIf="has_map_image" execute="flip_map" />
@@ -160,6 +162,16 @@
 		<groupaction menu="Avengers Collage" execute="swap_board_avengers_collage" />
 		<groupaction menu="Hulk and Hulkbuster" execute="swap_board_hulkbuster" />
 	</groupactions>
+	
+	<!-- # ~~ TEST MENU ~~ # -->
+	<cardactions menu="Test Menu">
+		<cardaction menu="Border > Set Color" showIf="is_not_map" execute="setBorder"/>
+		<cardaction menu="Border > Clear" showIf="is_not_map" execute="clearBorder"/>
+
+		<cardaction menu="Overlay > Set Color" showIf="is_not_map" execute="setOverlay"/>
+		<cardaction menu="Overlay > Clear" showIf="is_not_map" execute="clearOverlay"/>
+	</cardactions>
+	<!-- # ~~ TEST MENU ~~ # -->
 	
 </table>
 
