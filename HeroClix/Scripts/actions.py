@@ -25,7 +25,6 @@ def calculate_attack(card, x=0, y=0):
 def add_action(card):
     mute()
     
-    
     if card.properties["Unit Type"] in NO_ACTIONS:
         return
     

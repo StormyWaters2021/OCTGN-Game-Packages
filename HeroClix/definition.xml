@@ -101,6 +101,10 @@
 
 <markers>
 	<marker id="action_marker" name="Action" src="Images/action.png" />
+	<marker id="p1_marker" name="P1" canDrag="False" showCount="False" src="Images/p1.png" />
+	<marker id="p2_marker" name="P2" canDrag="False" showCount="False" src="Images/p2.png" />
+	<marker id="p3_marker" name="P3" canDrag="False" showCount="False" src="Images/p3.png" />
+	<marker id="p4_marker" name="P4" canDrag="False" showCount="False" src="Images/p4.png" />
 </markers>
 
 <phases />
@@ -167,9 +171,15 @@
 	<cardactions menu="Test Menu">
 		<cardaction menu="Border > Set Color" showIf="is_not_map" execute="setBorder"/>
 		<cardaction menu="Border > Clear" showIf="is_not_map" execute="clearBorder"/>
-
+		
 		<cardaction menu="Overlay > Set Color" showIf="is_not_map" execute="setOverlay"/>
 		<cardaction menu="Overlay > Clear" showIf="is_not_map" execute="clearOverlay"/>
+		
+		<cardaction menu="P1 Marker" showIf="is_not_map" execute="p1_marker"/>
+		<cardaction menu="P2 Marker" showIf="is_not_map" execute="p2_marker"/>
+		<cardaction menu="P3 Marker" showIf="is_not_map" execute="p3_marker"/>
+		<cardaction menu="P4 Marker" showIf="is_not_map" execute="p4_marker"/>
+		
 	</cardactions>
 	<!-- # ~~ TEST MENU ~~ # -->
 	

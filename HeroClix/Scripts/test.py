@@ -37,6 +37,30 @@ COLOR_OPTIONS = [
     ("Silver", SILVER),
 ]
 
+OWNER_MARKERS = {
+    0: ("P1", "p1_marker"),
+    1: ("P2", "p2_marker"),
+    2: ("P3", "p3_marker"),
+    4: ("P4", "p4_marker"),
+}
+
+
+def p1_marker(card, x=0, y=0):
+    mute()
+    card.markers[OWNER_MARKERS[0]] += 1
+
+def p2_marker(card, x=0, y=0):
+    mute()
+    card.markers[OWNER_MARKERS[1]] += 1
+
+def p3_marker(card, x=0, y=0):
+    mute()
+    card.markers[OWNER_MARKERS[2]] += 1
+
+def p4_marker(card, x=0, y=0):
+    mute()
+    card.markers[OWNER_MARKERS[3]] += 1
+
 
 def chooseColor(title):
     names = [name for name, color in COLOR_OPTIONS]
@@ -78,3 +102,8 @@ def setOverlay(card, x=0, y=0):
 
 def clearOverlay(card, x=0, y=0):
     card.filter = None
+    
+    
+def _mark_owner(color, card):
+    mute()
+    
