@@ -132,11 +132,28 @@
 	<cardaction menu="Rotate Model" showIf="is_not_map" execute="rotate_model" />
 
 	<cardseparator />
+	
 	<cardaction menu="Take 1 Damage" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
 	<cardaction menu="Take X Damage" showIf="is_not_map" execute="take_x_damage" />
 	<cardaction menu="Heal 1 Damage" showIf="is_not_map" shortcut="Up" execute="heal_one_damage" />
+	
+	<!-- # ~~ GALACTUS OPTIONS ~~ # -->
 	<cardaction menu="Advance Elemental Converter" showIf="_is_galactus" execute="advance_converter" />
+	<cardaction menu="Reverse Elemental Converter" showIf="_is_galactus" execute="reverse_converter" />
 	<cardaction menu="Advance Herald Dial" showIf="_is_galactus" execute="advance_herald" />
+	<cardaction menu="Reverse Herald Dial" showIf="_is_galactus" execute="reverse_herald" />
+	
+	
+	<!-- # ~~ VENOM GALACTUS OPTIONS ~~ # -->
+	<cardaction menu="Advance Tendrils" showIf="_is_venom_galactus" execute="advance_tendrils" />
+	<cardaction menu="Reverse Tendrils" showIf="_is_venom_galactus" execute="reverse_tendrils" />
+	<cardaction menu="Advance Planet Breaker" showIf="_is_venom_galactus" execute="advance_breaker" />
+	<cardaction menu="Reverse Planet Breaker" showIf="_is_venom_galactus" execute="reverse_breaker" />
+	<cardaction menu="Advance Maw" showIf="_is_venom_galactus" execute="advance_maw" />
+	<cardaction menu="Reverse Maw" showIf="_is_venom_galactus" execute="reverse_maw" />
+	<cardaction menu="Advance Cosmic Hunger" showIf="_is_venom_galactus" execute="advance_hunger" />
+	<cardaction menu="Reverse Cosmic Hunger" showIf="_is_venom_galactus" execute="reverse_hunger" />
+	
 	
 	<cardseparator />
 	<cardaction menu="Flip Card Over" showIf="is_one_shot" execute="flip_card" />
