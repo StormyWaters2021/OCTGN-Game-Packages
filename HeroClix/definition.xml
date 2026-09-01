@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.17"
+    version="1.0.0.18"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -24,6 +24,7 @@
 	  <script src="Scripts/boards.py" />
 	  <script src="Scripts/variables.py" />
 	  <script src="Scripts/los.py" />
+	  <script src="Scripts/multidial.py" />
 	  <script src="Scripts/test.py" />
   </scripts>
   
@@ -35,11 +36,8 @@
   
   <events>
     <event name="OnCardsMoved" action="table_config" />
-	<!-- <event name="OnDeckLoaded" action="deck_loaded"/> -->
-	<!-- <event name="OnGlobalVariableChanged" action="loaded_check"/> -->
 	<event name="OnCardArrowTargeted" action="_draw_los_line"/>
-	<!-- <event name="OnGameStarted" action="game_started"/> -->
-	<event name="OnTableLoaded" action="setup_table" />
+	<event name="OnGameStarted" action="setup_table" />
   </events>
   
   <!-- Card Properties -->
@@ -86,7 +84,7 @@
 	<size name="2x2" width="200" height="200" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	<size name="2x3" width="300" height="200" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="0" backCornerRadius="0" />
 	<size name="3x3" width="300" height="300" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
-	<size name="3x6" width="300" height="600" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="3x6" width="600" height="300" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 		
 	<size name="16x8" width="1600" height="800" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	<size name="16x16" width="1600" height="1600" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
@@ -132,12 +130,14 @@
 	<cardaction menu="Add Action Counter" showIf="is_not_map" default="True" execute="double_click" />
 	<cardaction menu="Remove Action Counter" showIf="is_not_map" execute="remove_action" />
 	<cardaction menu="Rotate Model" showIf="is_not_map" execute="rotate_model" />
-	
-	
+
 	<cardseparator />
 	<cardaction menu="Take 1 Damage" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
 	<cardaction menu="Take X Damage" showIf="is_not_map" execute="take_x_damage" />
 	<cardaction menu="Heal 1 Damage" showIf="is_not_map" shortcut="Up" execute="heal_one_damage" />
+	<cardaction menu="Advance Elemental Converter" showIf="_is_galactus" execute="advance_converter" />
+	<cardaction menu="Advance Herald Dial" showIf="_is_galactus" execute="advance_herald" />
+	
 	<cardseparator />
 	<cardaction menu="Flip Card Over" showIf="is_one_shot" execute="flip_card" />
 	
@@ -179,8 +179,11 @@
 		<cardaction menu="P2 Marker" showIf="is_not_map" execute="p2_marker"/>
 		<cardaction menu="P3 Marker" showIf="is_not_map" execute="p3_marker"/>
 		<cardaction menu="P4 Marker" showIf="is_not_map" execute="p4_marker"/>
-		
 	</cardactions>
+	
+	<groupactions menu="Test Menu">
+		<groupaction menu="Create Galactus" execute="build_galactus"/>
+	</groupactions>
 	<!-- # ~~ TEST MENU ~~ # -->
 	
 </table>

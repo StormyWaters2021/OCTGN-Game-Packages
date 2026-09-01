@@ -45,19 +45,38 @@ def remove_action(card, x=0, y=0):
         notify("{} removes an Action token from {}.".format(me, card))
 
 
-def take_one_damage(card, x=0, y=0):
+def _advance_dial(card):
     mute()
-    if card.properties["Unit Type"] in NO_ACTIONS:
-        return
     clicks = [a for a in card.alternates]
     current_click = card.alternate
     current_index = clicks.index(current_click)
     if current_index == len(card.alternates) - 1:
-        notify("{} is already on its last click.".format(card.Name))
+        return False
     else:
         current_index += 1
         card.alternate = card.alternates[current_index]
-        notify("{} takes one damage and goes to click {}.".format(card, current_index))
+        return True
+        
+
+def _retreat_dial(card):
+    mute()
+    clicks = [a for a in card.alternates]
+    current_click = card.alternate
+    current_index = clicks.index(current_click)
+    if current_index <= 1:
+        return False
+    else:
+        current_index -= 1
+        card.alternate = card.alternates[current_index]
+        return True
+
+
+def take_one_damage(card, x=0, y=0):
+    mute()
+    if card.properties["Unit Type"] in NO_ACTIONS:
+        return
+    if _advance_dial(card):
+        notify("{} takes one damage.".format(card))
 
 
 def take_x_damage(card, x=0, y=0):
@@ -86,15 +105,8 @@ def heal_one_damage(card, x=0, y=0):
     mute()
     if card.properties["Unit Type"] in NO_ACTIONS:
         return
-    clicks = [a for a in card.alternates]
-    current_click = card.alternate
-    current_index = clicks.index(current_click)
-    if current_index <= 1:
-        notify("{} is already on its first click.".format(card.Name))
-    else:
-        current_index -= 1
-        card.alternate = card.alternates[current_index]
-        notify("{} heals one damage and goes to click {}.".format(card, current_index))
+    if _retreat_dial(card):
+        notify("{} heals one damage.".format(card))
 
 
 def snap_to_grid(card):
@@ -122,33 +134,46 @@ def snap_to_grid(card):
   
 def table_config(args):
     mute()
+
     if args.player != me:
         return
-    
+
     movement_report = ""
-    
-    for card in args.cards:
+
+    for idx, card in enumerate(args.cards):
+
+        if args.fromGroups[idx] != table and args.toGroups[idx] == table:
+            make_model(card)
+
         if is_map([card], 0, 0):
             _position_map(card)
+
+        elif card.model in MULTI_DIAL_LIST:
+            base = _find_multidial_base(card.model)
+
+            if card.model == base and card.alternate != "":
+                _move_multidial(card, args.xs[idx], args.ys[idx])
+
         else:
-            idx = args.cards.index(card)
-            
             if args.toGroups[idx] == table:
                 snap_to_grid(card)
+
                 x = args.xs[idx]
                 y = args.ys[idx]
+
                 startx, starty = _compensate_report_for_rotation(card, x, y)
                 start_position = _report_movement(startx, starty)
+
                 if start_position != None:
                     movement_report += card.name + " moves from " + start_position + " to "
+
                     x, y = card.position
                     newx, newy = _compensate_report_for_rotation(card, x, y)
                     end_position = _report_movement(newx, newy)
+
                     if end_position != None:
                         movement_report += end_position + "."
                         notify(movement_report)
-            if args.fromGroups[idx] != table:
-                make_model(card)
             
 
 def _rotation_offset(card):
@@ -179,19 +204,45 @@ def _compensate_report_for_rotation(card, x, y):
 
 def rotate_model(card, x=0, y=0):
     mute()
-    x, y = card.position
+
+    old_x, old_y = card.position
     offsetx, offsety = _rotation_offset(card)
+
     if card.orientation == 0:
-        card.orientation = 1
+        new_orientation = 1
+
         if card.size in NOT_SQUARE_SIZES:
-            x += offsetx
-            y += offsety
+            new_x = old_x + offsetx
+            new_y = old_y + offsety
+        else:
+            new_x = old_x
+            new_y = old_y
+
     else:
+        new_orientation = 0
+
         if card.size in NOT_SQUARE_SIZES:
-            x -= offsetx
-            y -= offsety
-        card.orientation = 0
-    card.moveToTable(x, y)
+            new_x = old_x - offsetx
+            new_y = old_y - offsety
+        else:
+            new_x = old_x
+            new_y = old_y
+
+    if card.model in MULTI_DIAL:
+        secondary_models = MULTI_DIAL[card.model]
+
+        for secondary in table:
+            if secondary.model not in secondary_models:
+                continue
+
+            if secondary.position != (old_x, old_y):
+                continue
+
+            secondary.orientation = new_orientation
+            secondary.moveToTable(new_x, new_y)
+
+    card.orientation = new_orientation
+    card.moveToTable(new_x, new_y)
         
 
 def make_model(card):
@@ -203,6 +254,13 @@ def make_model(card):
     else:
         offsetx = -GRID_SIZE
         offsety = 0
+        
+    base = _find_multidial_base(card.model)
+    if base is not None:
+        if base == GALACTUS:
+            build_galactus(card, x, y + 200)
+        return
+    
     if "Click1" in card.alternates:
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
@@ -245,7 +303,7 @@ def create_dice():
     for p in DICE_POSITIONS:
         x, y = p
         dice = table.create(DICE_GUID, x, y)
-        dice.anchor
+        dice.anchor = True
 
 
 def _grab_dice(card):

@@ -1,4 +1,11 @@
 changelog = {
+    1000018: ("1.0.0.18", "31 August 2026", [
+        "GALACTUS HAS ARRIVED! Use the image downloader plugin to fetch the new images for this test build.",
+        "Adding Galactus, a Herald, or the Elemental Converter to your team will create a massive, multi-click model.",
+        "The game treats the A and B clicks as one long row of clicks.",
+        "To use the others, right click on Galactus and you will see options for the Converter and Herald."
+        "Please report any issues to info@tcgbuilder.net!"
+        ]),
     1000017: ("1.0.0.17", "26 August 2026", [
         "Added a Test Menu to the right-click menu. Here you can see things I am testing, so please provide feedback!",
         ]),
