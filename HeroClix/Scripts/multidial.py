@@ -18,14 +18,11 @@ def _is_galactus(cards, x=0, y=0):
 
 def _find_multidial_base(guid):
     if guid in MULTI_DIAL:
-        whisper("GUID: {}".format(guid))
         return guid
 
     for base, values in MULTI_DIAL.items():
         if guid in values:
-            whisper("GUID Base: {}".format(guid))
             return base
-    whisper("None")
     return None
 
 
