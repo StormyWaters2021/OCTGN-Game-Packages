@@ -13,7 +13,9 @@
       <property name="Keywords" value="Cosmic | Herald | Monster | Deity | Symbiote" />
       <property name="Keywords Search" value="| Cosmic | Herald | Monster | Deity | Symbiote |" />
       <property name="Traits and Special Powers" value="[Trait] MULTI-DIAL: VENOM GALACTUS&#10;During force construction, you may add Venom Galactus' Tendrils, Planet Breaker, and/or Maw dials to your force by paying each of their point costs. When Venom Galactus chooses a dial to be the active dial, he may only choose from among the dials that were paid for.&#10;// When Venom Galactus starts the game, at the beginning of your turn, and when one of his dials are KO'd, choose one of his dials to be the active dial. Venom Galactus uses the combat values, powers, and abilities of the active dial. Only the active dial is clicked when Venom Galactus is damaged or healed. // Each of Venom Galactus' dials are scored when KO'd, and he is KO'd when all his dials are KO'd." />
-    </card>
+      <property name="multidial_active" value="None" />
+	  
+	</card>
     <card id="650df7ac-847b-49f9-a785-81b21ed9f63d" name="Venom Galactus (Tendrils)" size="Card">
       <property name="Unit ID" value="wkm25G25-001A" />
       <property name="Collector Number" value="G25-001A" />

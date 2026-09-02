@@ -72,7 +72,8 @@
     <property name="Defense Ability" type="String" hidden="True"/>
     <property name="Damage" type="String" hidden="True"/>
     <property name="Damage Ability" type="String" hidden="True"/>
-    
+    <property name="multidial_active" type="String" hidden="True"/>
+	
 	<!-- Card Sizes -->
 	<size name="Card" width="371" height="250" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	
@@ -145,12 +146,15 @@
 	
 	
 	<!-- # ~~ VENOM GALACTUS OPTIONS ~~ # -->
-	<cardaction menu="Advance Tendrils" showIf="_is_venom_galactus" execute="advance_tendrils" />
-	<cardaction menu="Reverse Tendrils" showIf="_is_venom_galactus" execute="reverse_tendrils" />
-	<cardaction menu="Advance Planet Breaker" showIf="_is_venom_galactus" execute="advance_breaker" />
-	<cardaction menu="Reverse Planet Breaker" showIf="_is_venom_galactus" execute="reverse_breaker" />
-	<cardaction menu="Advance Maw" showIf="_is_venom_galactus" execute="advance_maw" />
-	<cardaction menu="Reverse Maw" showIf="_is_venom_galactus" execute="reverse_maw" />
+	
+	<!-- <cardaction menu="Advance Tendrils" showIf="_is_venom_galactus" execute="advance_tendrils" /> -->
+	<!-- <cardaction menu="Reverse Tendrils" showIf="_is_venom_galactus" execute="reverse_tendrils" /> -->
+	<!-- <cardaction menu="Advance Planet Breaker" showIf="_is_venom_galactus" execute="advance_breaker" /> -->
+	<!-- <cardaction menu="Reverse Planet Breaker" showIf="_is_venom_galactus" execute="reverse_breaker" /> -->
+	<!-- <cardaction menu="Advance Maw" showIf="_is_venom_galactus" execute="advance_maw" /> -->
+	<!-- <cardaction menu="Reverse Maw" showIf="_is_venom_galactus" execute="reverse_maw" /> -->
+	<cardaction menu="Set Active Dial" showIf="_is_venom_galactus" execute="set_venom_galactus_active_dial" />
+	<cardaction menu="Notify Active Dial" showIf="_is_venom_galactus" execute="notify_venom_galactus_active_dial" />
 	<cardaction menu="Advance Cosmic Hunger" showIf="_is_venom_galactus" execute="advance_hunger" />
 	<cardaction menu="Reverse Cosmic Hunger" showIf="_is_venom_galactus" execute="reverse_hunger" />
 	

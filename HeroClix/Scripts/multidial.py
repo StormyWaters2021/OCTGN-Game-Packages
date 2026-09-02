@@ -64,6 +64,28 @@ def build_venom_galactus(card, x, y):
     _create_multidial(VENOM_GALACTUS, x, y)
 
 
+def set_venom_galactus_active_dial(card, x=0, y=0):
+    mute()
+    choiceList = ['Tendrils', 'Planet Breaker', 'Maw', ]
+    colorsList = ['#FF0000', '#00FF00', '#0000FF', ] 
+    choice = askChoice("Select a dial to become active:", choiceList, colorsList)
+    if choice == 0:
+        whisper("No dial selected.")
+    else:
+        card.multidial_active = str(choice-1)
+        notify("{} has selected {} to be the active dial.".format(me, choiceList[choice-1]))
+
+
+def notify_venom_galactus_active_dial(card, x=0, y=0):
+    mute()
+    dials = ['Tendrils', 'Planet Breaker', 'Maw', ]
+    active_dial = _multidial_active_check(card)
+    if active_dial is None or active_dial is False:
+        return
+    else:
+        notify("{} is the active dial for {}.".format(dials[active_dial], card))
+        
+
 def advance_tendrils(card, x=0, y=0):
     mute()
     _advance_secondary_dial(card, 0)
@@ -106,6 +128,15 @@ def reverse_hunger(card, x=0, y=0):
 
 # # HELPERS # # 
 
+def _multidial_active_check(card):
+    if "multidial_active" not in card.properties:
+        return False
+    if card.multidial_active == "None":
+        whisper("No active dial selected, please select a dial from the right-click menu first.")
+        return None
+    return int(card.multidial_active)
+
+
 def _find_multidial_base(guid):
     if guid in MULTI_DIAL:
         return guid
@@ -116,6 +147,18 @@ def _find_multidial_base(guid):
     return None
 
 
+def _find_multidial_active(card, dial_number):
+    main_guid = card.model
+    if main_guid not in MULTI_DIAL.keys():
+        return card
+    x, y = card.position
+    for i in table:
+        ix, iy = i.position
+        if ix == x and iy == y:
+            if i.model == MULTI_DIAL[main_guid][dial_number]:
+                return i
+    
+    
 def _create_multidial(base, x, y):
     mute()
     if base not in MULTI_DIAL.keys():

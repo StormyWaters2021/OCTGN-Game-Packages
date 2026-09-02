@@ -47,6 +47,19 @@ def remove_action(card, x=0, y=0):
 
 def _advance_dial(card):
     mute()
+    
+    multi_click = _multidial_active_check(card)
+    if multi_click is None:
+        return False
+    if multi_click is not False:
+        active_card = _find_multidial_active(card, multi_click)
+    
+        if active_card is None:
+            whisper("The active dial could not be found.")
+            return False
+        
+        card = active_card
+    
     clicks = [a for a in card.alternates]
     current_click = card.alternate
     current_index = clicks.index(current_click)
@@ -60,6 +73,19 @@ def _advance_dial(card):
 
 def _retreat_dial(card):
     mute()
+    
+    multi_click = _multidial_active_check(card)
+    if multi_click is None:
+        return False
+    if multi_click is not False:
+        active_card = _find_multidial_active(card, multi_click)
+    
+        if active_card is None:
+            whisper("The active dial could not be found.")
+            return False
+        
+        card = active_card
+    
     clicks = [a for a in card.alternates]
     current_click = card.alternate
     current_index = clicks.index(current_click)
@@ -83,22 +109,36 @@ def take_x_damage(card, x=0, y=0):
     mute()
     if card.properties["Unit Type"] in NO_ACTIONS:
         return
+    original_card = card
+    multi_click = _multidial_active_check(card)
+    if multi_click is None:
+        return False
+    if multi_click is not False:
+        active_card = _find_multidial_active(card, multi_click)
+    
+        if active_card is None:
+            whisper("The active dial could not be found.")
+            return False
+        
+        card = active_card
+    
     damage = askInteger("How many clicks of damage?", 0)
     clicks = [a for a in card.alternates]
     current_click = card.alternate
     current_index = clicks.index(current_click)
     
     if current_index == len(card.alternates) - 1:
-        notify("{} is already on its last click.".format(card.Name))
+        notify("{} is already on its last click.".format(original_card.Name))
+        return
 
     if current_index + damage >= len(card.alternates):
         card.alternate = "KO"
-        notify("{} is KO'd!".format(card))
+        notify("{} is KO'd!".format(original_card))
 
     else:
         current_index += damage
         card.alternate = card.alternates[current_index]
-        notify("{} takes {} damage and goes to click {}.".format(card, damage, current_index))
+        notify("{} takes {} damage and goes to click {}.".format(original_card, damage, current_index))
 
 
 def heal_one_damage(card, x=0, y=0):
@@ -228,7 +268,7 @@ def rotate_model(card, x=0, y=0):
             new_x = old_x
             new_y = old_y
 
-    if card.model in MULTI_DIAL:
+    if card.model in MULTI_DIAL and card.alternate != "":
         secondary_models = MULTI_DIAL[card.model]
 
         for secondary in table:
@@ -259,6 +299,10 @@ def make_model(card):
     if base is not None:
         if base == GALACTUS:
             build_galactus(card, x, y + 200)
+            
+        elif base == VENOM_GALACTUS:
+            build_venom_galactus(card, x, y + 200)
+        
         return
     
     if "Click1" in card.alternates:
