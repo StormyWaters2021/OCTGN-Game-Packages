@@ -4,13 +4,13 @@ GALACTUS_HERALD = "ef162aa8-ada3-415f-9f2e-062e564adb05"
 
 VENOM_GALACTUS = "fc3fe1ca-34f8-4e92-af49-e14bb0be2ae4"
 VG_TENDRILS = "650df7ac-847b-49f9-a785-81b21ed9f63d"
-VG_BREAKER = "73e8df4a-9d46-4c56-a993-efd0efe5dafe"
-VG_MAW = "1e64fbb4-8e8c-4f27-9a45-fdec59fe1af3"
+VG_BREAKER = "1e64fbb4-8e8c-4f27-9a45-fdec59fe1af3"
+VG_MAW = "73e8df4a-9d46-4c56-a993-efd0efe5dafe"
 VG_HUNGER = "c5ab1d84-9c9b-42d1-9356-57f758af7208"
 
 MULTI_DIAL = {
     GALACTUS: [GALACTUS_CONVERTER, GALACTUS_HERALD],
-    VENOM_GALACTUS: [VG_TENDRILS, VG_BREAKER, VG_MAW, VG_HUNGER],
+    VENOM_GALACTUS: [VG_TENDRILS, VG_MAW, VG_BREAKER, VG_HUNGER],
             }
 
 MULTI_DIAL_LIST = [item for key, value in MULTI_DIAL.items() for item in [key] + value]
@@ -66,7 +66,7 @@ def build_venom_galactus(card, x, y):
 
 def set_venom_galactus_active_dial(card, x=0, y=0):
     mute()
-    choiceList = ['Tendrils', 'Planet Breaker', 'Maw', ]
+    choiceList = ['Tendrils', 'Maw', 'Planet Breaker', ]
     colorsList = ['#FF0000', '#00FF00', '#0000FF', ] 
     choice = askChoice("Select a dial to become active:", choiceList, colorsList)
     if choice == 0:
@@ -78,7 +78,7 @@ def set_venom_galactus_active_dial(card, x=0, y=0):
 
 def notify_venom_galactus_active_dial(card, x=0, y=0):
     mute()
-    dials = ['Tendrils', 'Planet Breaker', 'Maw', ]
+    dials = ['Tendrils', 'Maw', 'Planet Breaker', ]
     active_dial = _multidial_active_check(card)
     if active_dial is None or active_dial is False:
         return
@@ -93,12 +93,12 @@ def advance_tendrils(card, x=0, y=0):
     
 def advance_breaker(card, x=0, y=0):
     mute()
-    _advance_secondary_dial(card, 1)
+    _advance_secondary_dial(card, 2)
 
 
 def advance_maw(card, x=0, y=0):
     mute()
-    _advance_secondary_dial(card, 2)
+    _advance_secondary_dial(card, 1)
 
 
 def advance_hunger(card, x=0, y=0):
@@ -114,12 +114,12 @@ def reverse_tendrils(card, x=0, y=0):
     
 def reverse_breaker(card, x=0, y=0):
     mute()
-    _reverse_secondary_dial(card, 1)
+    _reverse_secondary_dial(card, 2)
 
 
 def reverse_maw(card, x=0, y=0):
     mute()
-    _reverse_secondary_dial(card, 2)
+    _reverse_secondary_dial(card, 1)
 
 
 def reverse_hunger(card, x=0, y=0):

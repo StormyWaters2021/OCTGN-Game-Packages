@@ -1,4 +1,7 @@
 changelog = {
+    1000021: ("1.0.0.21", "3 September 2026", [
+        "Minor bug fix for Venom Galactus"
+        ]),
     1000020: ("1.0.0.20", "3 September 2026", [
         "Thunderbolts and Hasbro Iconix added! Use the image downloader to get the new units!"
         ]),
