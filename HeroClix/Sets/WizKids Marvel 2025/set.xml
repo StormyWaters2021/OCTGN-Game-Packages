@@ -14,8 +14,9 @@
       <property name="Keywords Search" value="| Cosmic | Herald | Monster | Deity | Symbiote |" />
       <property name="Traits and Special Powers" value="[Trait] MULTI-DIAL: VENOM GALACTUS&#10;During force construction, you may add Venom Galactus' Tendrils, Planet Breaker, and/or Maw dials to your force by paying each of their point costs. When Venom Galactus chooses a dial to be the active dial, he may only choose from among the dials that were paid for.&#10;// When Venom Galactus starts the game, at the beginning of your turn, and when one of his dials are KO'd, choose one of his dials to be the active dial. Venom Galactus uses the combat values, powers, and abilities of the active dial. Only the active dial is clicked when Venom Galactus is damaged or healed. // Each of Venom Galactus' dials are scored when KO'd, and he is KO'd when all his dials are KO'd." />
       <property name="multidial_active" value="None" />
-	  
+	  <alternate name="Venom Galactus" type="Base" size="3x6" />
 	</card>
+	
     <card id="650df7ac-847b-49f9-a785-81b21ed9f63d" name="Venom Galactus (Tendrils)" size="Card">
       <property name="Unit ID" value="wkm25G25-001A" />
       <property name="Collector Number" value="G25-001A" />
@@ -224,6 +225,12 @@
         <property name="Damage" value="3" />
         <property name="Damage Ability" value="Outwit" />
       </alternate>
+	  <alternate name="Venom Galactus (Tendrils)" type="KO" size="3x6">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="73e8df4a-9d46-4c56-a993-efd0efe5dafe" name="Venom Galactus (Planet Breaker)" size="Card">
       <property name="Unit ID" value="wkm25G25-001B" />
@@ -423,6 +430,12 @@
         <property name="Damage" value="4" />
         <property name="Damage Ability" value="Special - CRACK THE PLANET" />
       </alternate>
+	  <alternate name="Venom Galactus (Planet Breaker)" type="KO" size="3x6">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="1e64fbb4-8e8c-4f27-9a45-fdec59fe1af3" name="Venom Galactus (Maw)" size="Card">
       <property name="Unit ID" value="wkm25G25-001C" />
@@ -539,6 +552,12 @@
         <property name="Defense Ability" value="Special - DEVOUR" />
         <property name="Damage" value="3" />
         <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+	  <alternate name="Venom Galactus (Maw)" type="KO" size="3x6">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
       </alternate>
     </card>
     <card id="c5ab1d84-9c9b-42d1-9356-57f758af7208" name="Venom Galactus (Cosmic Hunger)" size="Card">

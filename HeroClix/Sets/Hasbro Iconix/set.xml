@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Hasbro Iconix" id="d18c98cb-5a36-4c8e-b966-091018324ce6" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="1854b880-3f23-44b1-ac67-7b4bd63c83ad" name="Red Ranger" size="Card">
+      <property name="Unit ID" value="hbxHBX1-001" />
+      <property name="Collector Number" value="HBX1-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="60" />
+      <property name="Keywords" value="Armor | Martial Artist | Warrior | Vehicle | Power Rangers" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] GO! GO! POWER RANGERS!&#10;Once per game for all friendly characters with this trait, when a friendly character with this trait would be KO'd, you may instead turn all friendly characters with this trait to click #9. Protected: Pulse Wave.&#10;&#10;[Trait] THE LEADER&#10;Powers: Leadership&#10;Leadership. When Red Ranger uses it and succeeds, this turn friendly characters with the Power Rangers keyword modify attack +1.&#10;&#10;[Attack] POWER SWORD&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Red Ranger uses it and rolls a [d:1]-[d:2], after resolutions you may remove an action token from a friendly character with the Martial Artist or Power Rangers keyword.&#10;&#10;[Damage] ZORD: TYRANNOSAURUS&#10;Powers: Stop&#10;STOP. [cs:giant]. // Quake. When Red Ranger uses it, he has Giant Reach: 6." />
+      <alternate name="Red Ranger" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER SWORD" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Red Ranger" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER SWORD" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Red Ranger" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER SWORD" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Red Ranger" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER SWORD" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Red Ranger" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Red Ranger" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Red Ranger" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - ZORD: TYRANNOSAURUS" />
+      </alternate>
+      <alternate name="Red Ranger" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - ZORD: TYRANNOSAURUS" />
+      </alternate>
+      <alternate name="Red Ranger" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ZORD: TYRANNOSAURUS" />
+      </alternate>
+      <alternate name="Red Ranger" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="2c8fd93a-a7a3-4035-9d84-b9379cc98a2b" name="Blue Ranger" size="Card">
+      <property name="Unit ID" value="hbxHBX1-002" />
+      <property name="Collector Number" value="HBX1-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="60" />
+      <property name="Keywords" value="Armor | Martial Artist | Scientist | Warrior | Vehicle | Power Rangers" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] GO! GO! POWER RANGERS!&#10;Once per game for all friendly characters with this trait, when a friendly character with this trait would be KO'd, you may instead turn all friendly characters with this trait to click #9. Protected: Pulse Wave.&#10;&#10;[Trait] INVENTIONS AND STRATEGY&#10;At the beginning of your turn, for all characters with this trait, you may place a friendly character with the Power Rangers keyword up to 3 squares away from their current square.&#10;&#10;[Attack] POWER LANCE&#10;Powers: Quake&#10;Giant Reach: 2, Quake.&#10;&#10;[Defense] ZORD: TRICERATOPS&#10;Powers: Stop, Toughness&#10;STOP. [cs:giant], [im:destroy_blocking]. // Toughness." />
+      <alternate name="Blue Ranger" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER LANCE" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Blue Ranger" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER LANCE" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Blue Ranger" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER LANCE" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Blue Ranger" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - POWER LANCE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Blue Ranger" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Blue Ranger" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Blue Ranger" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - ZORD: TRICERATOPS" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Blue Ranger" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - ZORD: TRICERATOPS" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Blue Ranger" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - ZORD: TRICERATOPS" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Blue Ranger" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="b8105df0-57fd-4546-b786-ad4359ef4c01" name="Yellow Ranger" size="Card">
+      <property name="Unit ID" value="hbxHBX1-003" />
+      <property name="Collector Number" value="HBX1-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="60" />
+      <property name="Keywords" value="Armor | Martial Artist | Scientist | Warrior | Vehicle | Power Rangers" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] GO! GO! POWER RANGERS!&#10;Once per game for all friendly characters with this trait, when a friendly character with this trait would be KO'd, you may instead turn all friendly characters with this trait to click #9. Protected: Pulse Wave.&#10;&#10;[Trait] SAVING BULK AND SKULL... AGAIN&#10;Once per turn when a friendly character with the Power Rangers keyword hits, after resolutions you may remove an action token from them.&#10;&#10;[Attack] POWER DAGGERS&#10;Powers: Precision Strike&#10;Precision Strike. // Once per turn when Yellow Ranger misses, after that attack resolves she may immediately make an attack.&#10;&#10;[Damage] ZORD: SABRETOOTH TIGER&#10;Powers: Stop, Probability Control&#10;STOP. [cs:giant], Probability Control." />
+      <alternate name="Yellow Ranger" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER DAGGERS" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER DAGGERS" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - POWER DAGGERS" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - POWER DAGGERS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ZORD: SABRETOOTH TIGER" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ZORD: SABRETOOTH TIGER" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ZORD: SABRETOOTH TIGER" />
+      </alternate>
+      <alternate name="Yellow Ranger" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="2d0e1433-5e63-425a-b32b-fd2275ca691e" name="Black Ranger" size="Card">
+      <property name="Unit ID" value="hbxHBX1-004" />
+      <property name="Collector Number" value="HBX1-004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="60" />
+      <property name="Keywords" value="Armor | Martial Artist | Warrior | Vehicle | Power Rangers" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] GO! GO! POWER RANGERS!&#10;Once per game for all friendly characters with this trait, when a friendly character with this trait would be KO'd, you may instead turn all friendly characters with this trait to click #9. Protected: Pulse Wave.&#10;&#10;[Trait] FANCY FOOTWORK&#10;Powers: Combat Reflexes&#10;Friendly characters with the Power Rangers keyword can use Combat Reflexes.&#10;&#10;[Attack] POWER AXE&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, but may use it with close or range attacks.&#10;&#10;[Damage] ZORD: MASTODON&#10;Powers: Stop&#10;STOP. [cs:giant]. // When Black Ranger hits, give each hit character an action token." />
+      <alternate name="Black Ranger" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER AXE" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Black Ranger" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER AXE" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Black Ranger" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - POWER AXE" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Black Ranger" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - POWER AXE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Black Ranger" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Black Ranger" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Black Ranger" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ZORD: MASTODON" />
+      </alternate>
+      <alternate name="Black Ranger" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - ZORD: MASTODON" />
+      </alternate>
+      <alternate name="Black Ranger" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ZORD: MASTODON" />
+      </alternate>
+      <alternate name="Black Ranger" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="d5200990-6332-4f75-866c-2decd04e6a67" name="Pink Ranger" size="Card">
+      <property name="Unit ID" value="hbxHBX1-005" />
+      <property name="Collector Number" value="HBX1-005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="60" />
+      <property name="Keywords" value="Armor | Marksman | Martial Artist | Warrior | Vehicle | Power Rangers" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] GO! GO! POWER RANGERS!&#10;Once per game for all friendly characters with this trait, when a friendly character with this trait would be KO'd, you may instead turn all friendly characters with this trait to click #9. Protected: Pulse Wave.&#10;&#10;[Trait] GYMNASTICS AT THE JUICE BAR&#10;Powers: Super Senses&#10;Friendly characters with the Power Rangers keyword can use Super Senses.&#10;&#10;[Attack] POWER BOW&#10;Powers: Energy Explosion, Precision Strike&#10;Energy Explosion, Precision Strike.&#10;&#10;[Damage] ZORD: PTERODACTYL&#10;Powers: Stop&#10;STOP. [cs:wing], [cs:giant]." />
+      <alternate name="Pink Ranger" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER BOW" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Pink Ranger" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER BOW" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Pink Ranger" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - POWER BOW" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Pink Ranger" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Pink Ranger" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Pink Ranger" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Pink Ranger" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="20" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - ZORD: PTERODACTYL" />
+      </alternate>
+      <alternate name="Pink Ranger" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - ZORD: PTERODACTYL" />
+      </alternate>
+      <alternate name="Pink Ranger" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ZORD: PTERODACTYL" />
+      </alternate>
+      <alternate name="Pink Ranger" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="830f6ba1-61f1-424d-bb76-eb00a1efa400" name="Green Ranger" size="Card">
+      <property name="Unit ID" value="hbxHBX1-006" />
+      <property name="Collector Number" value="HBX1-006" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="100/60" />
+      <property name="Keywords" value="Martial Artist | Ruler | Monster | Warrior" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] RESISTING THE SWORD OF DARKNESS&#10;Powers: Blades Claws Fangs&#10;When establishing themed teams, choose one:*This game, Green Ranger can use Blades/Claws/Fangs and has [ta:mystics].* This game, Green Ranger loses the Monster keyword and gains the Power Rangers keyword, and has SAFEGUARD: Mind Control, Outwit.&#10;&#10;[Attack] DRAGON DAGGER&#10;Powers: Precision Strike&#10;Precision Strike, KNOCKBACK. // POWER: Once per game, generate a 2x2 Dragonzord bystander.&#10;&#10;[Damage] DRAGON ARMOR&#10;Powers: Perplex&#10;Close Combat Expert. Perplex, but may modify the chosen value +2 or -2 instead if the target is another character with the Power Rangers keyword." />
+      <alternate name="Green Ranger" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - DRAGON DAGGER" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Green Ranger" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Green Ranger" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Green Ranger" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - DRAGON DAGGER" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Green Ranger" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - DRAGON DAGGER" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Green Ranger" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - DRAGON DAGGER" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Green Ranger" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - DRAGON DAGGER" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - DRAGON ARMOR" />
+      </alternate>
+      <alternate name="Green Ranger" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - DRAGON DAGGER" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - DRAGON ARMOR" />
+      </alternate>
+      <alternate name="Green Ranger" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - DRAGON ARMOR" />
+      </alternate>
+      <alternate name="Green Ranger" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="ab80509d-a524-4f4c-9515-3a92b75741be" name="Dragonzord" size="Card">
+      <property name="Unit ID" value="hbxHBX1-006bt" />
+      <property name="Collector Number" value="HBX1-006bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
+      <property name="Traits and Special Powers" value="[Trait] CONTROLLED BY THE DRAGON DAGGER&#10;When Dragonzord would be KO'd, you may instead deal a friendly character named Green Ranger 1 unavoidable damage. Protected: Pulse Wave.&#10;&#10;[Attack] FINGER MISSILES&#10;Powers: Energy Explosion&#10;Energy Explosion, but deals 3 damage instead of 2." />
+      <alternate name="Dragonzord" type="Click1" size="2x2">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - FINGER MISSILES" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+    <card id="e24864bf-9a0a-4d13-93fb-48a359823ac8" name="Rita Repulsa" size="Card">
+      <property name="Unit ID" value="hbxHBX1-007" />
+      <property name="Collector Number" value="HBX1-007" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="300/235" />
+      <property name="Team Abilities" value="Cosmic Energy | Mystics" />
+      <property name="Keywords" value="Cosmic | Ruler | Monster | Mystical" />
+      <property name="Range" value="7" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Targeting" value="Elevated | Hindering" />
+      <property name="Traits and Special Powers" value="[Trait] MAGIC WAND, MAKE MY MONSTER GROW&#10;At the beginning of the game, you may generate a character with the Monster keyword of 60 points or less from your Sideline on its starting click. This game, that character has &quot;The first time this character would be KO'd, you may instead turn them to their last non-KO click and heal them 2 clicks. If you do, this game they have [cs:colossal] and modify their combat values +1.&quot;&#10;&#10;[Trait] FINSTER, MAKE ME PUTTIES!&#10;Powers: Probability Control, Leadership&#10;Probability Control. Leadership, but succeeds on a [d:4]-[d:6]. // At the beginning of the game, and when Rita Repulsa uses Leadership and succeeds, generate 2 Putty Patroller bystanders [MAX 6].&#10;&#10;[Defense] AFTER 10,000 YEARS, I'M FREE!&#10;Powers: Invincible, Mastermind, Super Senses&#10;Invincible, Mastermind, Super Senses." />
+      <alternate name="Rita Repulsa" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - AFTER 10,000 YEARS, I'M FREE!" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - AFTER 10,000 YEARS, I'M FREE!" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - AFTER 10,000 YEARS, I'M FREE!" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - AFTER 10,000 YEARS, I'M FREE!" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - AFTER 10,000 YEARS, I'M FREE!" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Rita Repulsa" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="4db04ce2-ccd2-4bf0-97ba-00fa9c942f5a" name="Putty Patroller" size="Card">
+      <property name="Unit ID" value="hbxHBX1-007bt" />
+      <property name="Collector Number" value="HBX1-007bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <alternate name="Putty Patroller" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+    </card>
+  </cards>
+</set>

@@ -103,6 +103,7 @@ def advance_maw(card, x=0, y=0):
 
 def advance_hunger(card, x=0, y=0):
     mute()
+    notify("{} advances {}'s Cosmic Hunger.".format(me, card))
     _advance_secondary_dial(card, 3)
 
 
@@ -123,6 +124,7 @@ def reverse_maw(card, x=0, y=0):
 
 def reverse_hunger(card, x=0, y=0):
     mute()
+    notify("{} reverses {}'s Cosmic Hunger.".format(me, card))
     _reverse_secondary_dial(card, 3)
 
 
@@ -131,10 +133,13 @@ def reverse_hunger(card, x=0, y=0):
 def _multidial_active_check(card):
     if "multidial_active" not in card.properties:
         return False
+    if card.multidial_active == "":
+        return False
     if card.multidial_active == "None":
         whisper("No active dial selected, please select a dial from the right-click menu first.")
         return None
-    return int(card.multidial_active)
+    num = int(card.multidial_active)
+    return num
 
 
 def _find_multidial_base(guid):

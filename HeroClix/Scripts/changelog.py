@@ -1,4 +1,14 @@
 changelog = {
+    1000020: ("1.0.0.20", "3 September 2026", [
+        "Thunderbolts and Hasbro Iconix added! Use the image downloader to get the new units!"
+        ]),
+    1000019: ("1.0.0.19", "2 September 2026", [
+        "VENOM GALACTUS HAS ARRIVED! Use the image downloader plugin to fetch the new images for this test build.",
+        "Venom Galactus brings the second HUGE 3x6 model, with four independent dials!",
+        "As with the physical unit, you need to select which dial is active, so right-click to make that selection!",
+        "You can also control Venom Galactus' Cosmic Hunger independently."
+        "Please report any issues to info@tcgbuilder.net!"
+        ]),
     1000018: ("1.0.0.18", "31 August 2026", [
         "GALACTUS HAS ARRIVED! Use the image downloader plugin to fetch the new images for this test build.",
         "Adding Galactus, a Herald, or the Elemental Converter to your team will create a massive, multi-click model.",

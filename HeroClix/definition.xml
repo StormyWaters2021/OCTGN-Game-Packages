@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.18"
+    version="1.0.0.20"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -138,6 +138,8 @@
 	<cardaction menu="Take X Damage" showIf="is_not_map" execute="take_x_damage" />
 	<cardaction menu="Heal 1 Damage" showIf="is_not_map" shortcut="Up" execute="heal_one_damage" />
 	
+	<cardseparator />
+	
 	<!-- # ~~ GALACTUS OPTIONS ~~ # -->
 	<cardaction menu="Advance Elemental Converter" showIf="_is_galactus" execute="advance_converter" />
 	<cardaction menu="Reverse Elemental Converter" showIf="_is_galactus" execute="reverse_converter" />
@@ -161,15 +163,15 @@
 	
 	<cardseparator />
 	<cardaction menu="Flip Card Over" showIf="is_one_shot" execute="flip_card" />
-	
+
+	<groupaction menu="Load Map" execute="load_map" />
+	<groupaction menu="Load Team from HCUnits" execute="importHCUnits" />
+
 	<groupactions menu="Dice">
 		<groupaction menu="Roll Two Dice" shortcut="Ctrl+R" execute="roll_dice" />
 		<groupaction menu="Roll Single Die" execute="roll_single_die" />
 		<groupaction menu="Roll d20" execute="roll_d20" />
 	</groupactions>
-
-	<groupaction menu="Load Map" execute="load_map" />
-	<groupaction menu="Load Team from HCUnits" execute="importHCUnits" />
 
 	<groupactions menu="Generate...">
 		<groupaction menu="Generate Bystander" execute="create_bystander" />
@@ -204,6 +206,7 @@
 	
 	<groupactions menu="Test Menu">
 		<groupaction menu="Create Galactus" execute="build_galactus"/>
+		<groupaction menu="Create Venom Galactus" execute="build_venom_galactus"/>
 	</groupactions>
 	<!-- # ~~ TEST MENU ~~ # -->
 	
