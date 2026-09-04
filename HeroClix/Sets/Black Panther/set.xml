@@ -1081,6 +1081,7 @@
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Common" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Defense +1" />
+      <alternate name="Vibranium Armor" type="Tile" size="1x1" />
     </card>
     <card id="a7558e34-5c09-449f-887e-0b4cccd924ed" name="Colleen Wing" size="Card">
       <property name="Unit ID" value="bp015" />
@@ -2366,6 +2367,7 @@
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Common" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Defense +1" />
+      <alternate name="Vibranium Armor" type="Tile" size="1x1" />
     </card>
     <card id="fc44a00e-6713-4a0d-975b-f994a5959495" name="Vibranium Weapon" size="Card">
       <property name="Unit ID" value="bp029tb" />
@@ -2373,6 +2375,7 @@
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Common" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Damage +1" />
+      <alternate name="Vibranium Weapon" type="Tile" size="1x1" />
     </card>
     <card id="fef97480-64da-4aa1-8db8-ec2772409251" name="Thor" size="Card">
       <property name="Unit ID" value="bp030" />
@@ -2746,6 +2749,7 @@
       <property name="Keywords" value="Armor | Politician | S.H.I.E.L.D. | Soldier | Stark Industries" />
       <property name="Keywords Search" value="| Armor | Politician | S.H.I.E.L.D. | Soldier | Stark Industries |" />
       <property name="Traits and Special Powers" value="[Trait] REMOTE DRONE PILOTING&#10;During force construction, you may add 5 points to Col. James Rhode's cost up to 6 times. For each time you choose to do so, add a War Machine Drone bystander to your starting force. // Leadership. When Col. James Rhodes uses it and succeeds, after resolutions generate a War Machine Drone bystander [MAX 6]." />
+      <alternate name="Col. James Rhodes (War Machine Drone)" type="Tile" size="1x1" />
     </card>
     <card id="a3e5cde4-bc44-4161-be36-a24f69326d6f" name="Queen Storm" size="Card">
       <property name="Unit ID" value="bp032" />
@@ -4137,6 +4141,7 @@
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Common" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Damage +1" />
+      <alternate name="Vibranium Weapon" type="Tile" size="1x1" />
     </card>
     <card id="f9653aff-4e79-4282-b079-278b5139cff1" name="Black Panther" size="Card">
       <property name="Unit ID" value="bp043b" />
@@ -5379,6 +5384,7 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="[Trait] AVATAR OF BAST&#10;Powers: Outwit, Willpower&#10;SIDELINE ACTIVE - During force construction you may pay 10 points to choose another friendly character to be Bast's Avatar. If the chosen character has the Herald keyword, pay 0 points instead. That character can't be equipped or chosen to be any other character's Avatar. This game, Bast's Avatar can use Outwit and Willpower and also scores the points paid with this trait when they are KO'd." />
+      <alternate type="Tile" size="1x1" name="Avatar of Bast" />
     </card>
     <card id="2f676345-cb5d-42d3-b8c8-e086429c5cef" name="Gaea" size="Card">
       <property name="Unit ID" value="bp054" />
@@ -5533,6 +5539,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Traits and Special Powers" value="[Trait] MOTHER NATURE&#10;SIDELINE ACTIVE - During force construction, you may choose a character with the Animal or Asgardian keyword to be Gaea's Avatar. That character can't be equipped or be chosen to be another character's Avatar. This game lines of fire drawn to that character are hindered, and that character has &quot;At the beginning of your turn, heal this character 1 click. // When this character clears action tokens, if they're not named Gaea, deal them 2 unavoidable damage.&quot;&#10;&#10;[Trait] ELDER GOD: FONT OF CREATION&#10;SIDELINE ACTIVE - When the character chosen for Mother Nature is KO'd, you may immediately generate Gaea from your Sideline or KO area on click #1 in the square that character last occupied. If you do, this game at the end of each of your turns deal all friendly characters 3 unavoidable damage." />
+      <alternate type="Tile" size="1x1" name="Avatar of Gaea" />
     </card>
     <card id="4628ffd8-abbb-48f4-b8e8-864be277b8f5" name="Atum" size="Card">
       <property name="Unit ID" value="bp055" />
@@ -5686,6 +5693,7 @@
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Traits and Special Powers" value="[Trait] EMPOWERING THE SUN KING&#10;SIDELINE ACTIVE - During force construction, you may choose a character with the Martial Artist or Warrior keyword to be Atum's Avatar. That character can't be equipped or be chosen to be another character's Avatar. This game the chosen character deals penetrating damage and has a minimum range of 6. When that character attacks, if they're not named Atum, after resolutions deal them 1 unavoidable damage.&#10;&#10;[Trait] ELDER GOD: THE DEMOGORGE&#10;SIDELINE ACTIVE - When the character chosen for Empowering the Sun King is KO'd, you may immediately generate Atum from your Sideline or KO area on click #1 in the square that character last occupied. If you do, at the end of your next turn remove Atum from the game without scoring him, then KO a friendly character of your opponent's choice." />
+      <alternate type="Tile" size="1x1" name="Avatar of Atum" />
     </card>
     <card id="2ee8438a-749f-41e7-bd25-5bd76b28513c" name="Odin and Ravens" size="Card">
       <property name="Unit ID" value="bp056" />
@@ -8259,6 +8267,7 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="[Trait] AVATAR OF SETH&#10;Powers: Poison&#10;SIDELINE ACTIVE - During force construction you may pay 10 points to choose another friendly character to be Seth's Avatar. If the chosen character has the Herald keyword, pay 0 points instead. That character can't be equipped or chosen to be any other character's Avatar. This game, Seth's Avatar can use Poison and [ta:mystics] and also scores the points paid with this trait when they are KO'd." />
+      <alternate type="Tile" size="1x1" name="Avatar of Seth" />
     </card>
     <card id="e449e50f-8966-4e08-90bb-d7970e3d0aaf" name="Ironheart" size="Card">
       <property name="Unit ID" value="bpL056" />

@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.0.21"
+    version="1.0.0.22"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -131,7 +131,8 @@
 	<cardaction menu="Add Action Counter" showIf="is_not_map" default="True" execute="double_click" />
 	<cardaction menu="Remove Action Counter" showIf="is_not_map" execute="remove_action" />
 	<cardaction menu="Rotate Model" showIf="is_not_map" execute="rotate_model" />
-
+	<cardaction menu="Duplicate Model" showIf="is_not_map" execute="duplicate_model" />
+	
 	<cardseparator />
 	
 	<cardaction menu="Take 1 Damage" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />

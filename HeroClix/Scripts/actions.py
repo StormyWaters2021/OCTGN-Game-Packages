@@ -315,6 +315,15 @@ def make_model(card):
         fig.alternate = "Tile"
 
 
+def duplicate_model(card, x=0, y=0):
+    mute()
+    guid = card.model
+    alt = card.alternate
+    fig = table.create(guid, x + 150, y)
+    fig.alternate = alt
+    notify("{} creates a copy of {}.".format(me, card))
+    
+
 def is_map(card, x=0, y=0):
     mute()
     return card[0].properties["Unit Type"] == "Map"

@@ -14,9 +14,8 @@
       <property name="Keywords Search" value="| Cosmic | Herald | Monster | Deity | Symbiote |" />
       <property name="Traits and Special Powers" value="[Trait] MULTI-DIAL: VENOM GALACTUS&#10;During force construction, you may add Venom Galactus' Tendrils, Planet Breaker, and/or Maw dials to your force by paying each of their point costs. When Venom Galactus chooses a dial to be the active dial, he may only choose from among the dials that were paid for.&#10;// When Venom Galactus starts the game, at the beginning of your turn, and when one of his dials are KO'd, choose one of his dials to be the active dial. Venom Galactus uses the combat values, powers, and abilities of the active dial. Only the active dial is clicked when Venom Galactus is damaged or healed. // Each of Venom Galactus' dials are scored when KO'd, and he is KO'd when all his dials are KO'd." />
       <property name="multidial_active" value="None" />
-	  <alternate name="Venom Galactus" type="Base" size="3x6" />
-	</card>
-	
+      <alternate name="Venom Galactus" type="Base" size="3x6" />
+    </card>
     <card id="650df7ac-847b-49f9-a785-81b21ed9f63d" name="Venom Galactus (Tendrils)" size="Card">
       <property name="Unit ID" value="wkm25G25-001A" />
       <property name="Collector Number" value="G25-001A" />
@@ -225,7 +224,7 @@
         <property name="Damage" value="3" />
         <property name="Damage Ability" value="Outwit" />
       </alternate>
-	  <alternate name="Venom Galactus (Tendrils)" type="KO" size="3x6">
+      <alternate name="Venom Galactus (Tendrils)" type="KO" size="3x6">
         <property name="Speed" value="KO" />
         <property name="Attack" value="KO" />
         <property name="Defense" value="KO" />
@@ -430,7 +429,7 @@
         <property name="Damage" value="4" />
         <property name="Damage Ability" value="Special - CRACK THE PLANET" />
       </alternate>
-	  <alternate name="Venom Galactus (Planet Breaker)" type="KO" size="3x6">
+      <alternate name="Venom Galactus (Planet Breaker)" type="KO" size="3x6">
         <property name="Speed" value="KO" />
         <property name="Attack" value="KO" />
         <property name="Defense" value="KO" />
@@ -553,7 +552,7 @@
         <property name="Damage" value="3" />
         <property name="Damage Ability" value="Exploit Weakness" />
       </alternate>
-	  <alternate name="Venom Galactus (Maw)" type="KO" size="3x6">
+      <alternate name="Venom Galactus (Maw)" type="KO" size="3x6">
         <property name="Speed" value="KO" />
         <property name="Attack" value="KO" />
         <property name="Defense" value="KO" />
@@ -1498,6 +1497,7 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="[Trait] BRINGER OF LIFE AND DEATH&#10;Powers: Poison, Regeneration&#10;SIDELINE ACTIVE - During force construction you may pay 10 points to choose another friendly character to be Phoenix Force's Avatar. If the chosen character has the Phoenix Force keyword pay 0 points instead. That character can't be equipped or chosen to be any other character's Avatar. This game, Phoenix Force's Avatar can use Poison and Regeneration and also scores the points paid with this trait when they are KO'd." />
+      <alternate type="Tile" size="1x1" name="Avatar of Phoenix Force" />
     </card>
     <card id="88856edb-f5d1-46ae-a606-1ecd0bbec04c" name="Deadpool" size="Card">
       <property name="Unit ID" value="wkm25MVP25-008" />

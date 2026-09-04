@@ -1,4 +1,8 @@
 changelog = {
+    1000022: ("1.0.0.22", "3 September 2026", [
+        "Added several more images for equipment and attachments.",
+        "Added `Duplicate Model' feature to the right-click menu, allowing you to create copies of any model.",
+        ]),
     1000021: ("1.0.0.21", "3 September 2026", [
         "Minor bug fix for Venom Galactus"
         ]),
