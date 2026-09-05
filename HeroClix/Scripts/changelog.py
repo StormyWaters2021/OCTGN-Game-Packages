@@ -1,4 +1,7 @@
 changelog = {
+    1000023: ("1.0.0.23", "5 September 2026", [
+        "Fixed issues importing D&D Iconix units.",
+        ]),
     1000022: ("1.0.0.22", "3 September 2026", [
         "Added several more images for equipment and attachments.",
         "Added `Duplicate Model' feature to the right-click menu, allowing you to create copies of any model.",
