@@ -1,10 +1,3 @@
-MAP_POSITIONS = {
-    "16x16": (-800, -800),
-    "16x24": (-800, -1200),
-    "24x24": (-1200, -1200)
-}
-
-
 MAP_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 MAP_NUMBERS = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24']
 
@@ -29,8 +22,8 @@ def rotate_map(card, x=0, y=0):
 
 
 def _get_map_position(gamemap):
-    if gamemap.size in MAP_POSITIONS.keys():
-        return MAP_POSITIONS[gamemap.size]
+    width, height = [int(x) for x in gamemap.size.split("x")]
+    return -(width * 50), -(height * 50)
 
 
 def _position_map(gamemap):
