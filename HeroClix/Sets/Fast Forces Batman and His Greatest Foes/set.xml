@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Fast Forces: Batman and His Greatest Foes" id="0eaaa9e5-9c24-4614-a1f0-5838e3171347" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="976066b0-4f3f-4f81-8830-e012decde55b" name="Batman" size="Card">
+      <property name="Unit ID" value="ffjw001" />
+      <property name="Collector Number" value="001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Batman Ally" />
+      <property name="Keywords" value="Batman Family | Gotham City | Martial Artist | Detective" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] STUDENT OF ALL MARTIAL ARTS&#10;Powers: Toughness&#10;Batman can use Toughness. Batman modifies his attack value by +1 for each adjacent opposing character.&#10;&#10;[Speed] HIT YOU WITH MY HANDS AND FEET&#10;Give Batman a close combat action and he may make a close attack targeting each adjacent opposing character, dealing normal damage to each hit character.&#10;&#10;[Defense] EQUILIBRIUM, BALANCE, AND ALL THINGS IN ORDER&#10;Powers: Combat Reflexes, Willpower&#10;Batman can use Combat Reflexes and Willpower." />
+      <alternate name="Batman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - HIT YOU WITH MY HANDS AND FEET" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - EQUILIBRIUM, BALANCE, AND ALL THINGS IN ORDER" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Batman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - HIT YOU WITH MY HANDS AND FEET" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - EQUILIBRIUM, BALANCE, AND ALL THINGS IN ORDER" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Batman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - HIT YOU WITH MY HANDS AND FEET" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Batman" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Batman" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Batman" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Batman" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Batman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="8d34370b-c4ef-4265-b9ec-f602fe55be8a" name="The Joker" size="Card">
+      <property name="Unit ID" value="ffjw002" />
+      <property name="Collector Number" value="002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Keywords" value="Arkham Asylum | Gotham City | Monster" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] NEVER AS DEAD AS YOU'D EXPECT&#10;At the beginning of your turn, if The Joker took damage since your last turn, roll a d6. Heal The Joker half the result." />
+      <alternate name="The Joker" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Joker" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Joker" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="The Joker" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Joker" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="7" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Joker" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="The Joker" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="15f0e94e-3bcc-424e-aa92-e973640df0db" name="Harley Quinn" size="Card">
+      <property name="Unit ID" value="ffjw003" />
+      <property name="Collector Number" value="003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Keywords" value="Arkham Asylum | Gotham City" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Speed] YA DIDN'T NOTICE I HAD A HAMMER?&#10;Once per game, give Harley Quinn a free action to equip her with FF:JW #S001 Harley's Hammer from outside the game. While equipped with Harley's Hammer, Harley Quinn can use Charge.&#10;&#10;[Defense] MY BABIES KEEP MY HOPPING&#10;Powers: Combat Reflexes, Super Senses&#10;Harley Quinn can use Combat Reflexes and Super Senses." />
+      <alternate name="Harley Quinn" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MY BABIES KEEP MY HOPPING" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Harley Quinn" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MY BABIES KEEP MY HOPPING" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Harley Quinn" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Special - YA DIDN'T NOTICE I HAD A HAMMER?" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - MY BABIES KEEP MY HOPPING" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Harley Quinn" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Special - YA DIDN'T NOTICE I HAD A HAMMER?" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Harley Quinn" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Special - YA DIDN'T NOTICE I HAD A HAMMER?" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Harley Quinn" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="cb76f615-1704-4980-8c2d-2733c5558151" name="The Penguin" size="Card">
+      <property name="Unit ID" value="ffjw004" />
+      <property name="Collector Number" value="004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="25" />
+      <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Keywords" value="Gotham City | Gotham City Underworld | Politician" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] DEALMAKER&#10;At the beginning of the game, place a Loyalty token on another friendly character's card. The character with the Loyalty token modifies its attack and range values by +1. Any adjacent character can be given a free action to make a close attack targeting The Penguin. If hit, place the Loyalty token on the character card of the attacker's choice instead of dealing damage. When The Penguin is KO'd, remove the Loyalty token from the game." />
+      <alternate name="The Penguin" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="The Penguin" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="The Penguin" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="The Penguin" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="4" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="The Penguin" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="121c98a8-305a-439f-b561-a336c6bebe19" name="Mr. Freeze" size="Card">
+      <property name="Unit ID" value="ffjw005" />
+      <property name="Collector Number" value="005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Keywords" value="Arkham Asylum | Armor | Gotham City | Scientist" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Attack] FREEZE RAY&#10;When Mr. Freeze makes a range attack, hit characters are given a Frozen token unless they already have one. Characters with a Frozen token must remove the Frozen token instead of clearing action tokens." />
+      <alternate name="Mr. Freeze" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - FREEZE RAY" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Mr. Freeze" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - FREEZE RAY" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Mr. Freeze" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - FREEZE RAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Mr. Freeze" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - FREEZE RAY" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Mr. Freeze" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Special - FREEZE RAY" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Mr. Freeze" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Special - FREEZE RAY" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Mr. Freeze" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="59aab0bb-2078-455e-aa68-6e6eb63d5dba" name="The Riddler" size="Card">
+      <property name="Unit ID" value="ffjw006" />
+      <property name="Collector Number" value="006" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Keywords" value="Arkham Asylum | Gotham City" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] RIDDLE ME THIS&#10;Powers: Shape Change&#10;The Riddler can use Shape Change.&#10;&#10;[Damage] RIDDLER ME THAT&#10;When The Riddler is attacked, choose a number from 1-6. If the chosen number appears on either die, modify the Attack Total by -2. If the chosen number appears on both dice, also decrease the damage dealt to The Riddler by 2." />
+      <alternate name="The Riddler" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - RIDDLER ME THAT" />
+      </alternate>
+      <alternate name="The Riddler" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - RIDDLER ME THAT" />
+      </alternate>
+      <alternate name="The Riddler" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Riddler" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Riddler" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Riddler" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="6d6f1225-0782-4ebb-a01e-3db57038a4ef" name="Harley's Hammer" size="Card">
+      <property name="Unit ID" value="ffjws001" />
+      <property name="Collector Number" value="s001" />
+      <property name="Unit Type" value="Equipment" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="3" />
+      <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Quake&#10;Character can use Quake and Giant Reach: 2. After making a close attack, roll a d6. On a result of [d:1], Harley's Hammer is KO'd." />
+      <alternate name="Harley's Hammer" type="Tile" size="1x1" />
+    </card>
+  </cards>
+</set>

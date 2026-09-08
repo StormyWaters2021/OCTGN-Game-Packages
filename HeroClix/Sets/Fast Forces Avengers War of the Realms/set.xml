@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Fast Forces: Avengers: War of the Realms" id="febfa157-8e71-4162-ae74-aa856f84016e" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="89030e35-03ea-4f4e-a019-9d881286d84c" name="Thor" size="Card">
+      <property name="Unit ID" value="ffwotr001" />
+      <property name="Collector Number" value="001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75/50" />
+      <property name="Team Abilities" value="Avengers" />
+      <property name="Keywords" value="Asgardian | Avengers | Celebrity | Deity" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Attack] LIGHTNING STRIKE&#10;Powers: Quake&#10;Quake. Giant Reach: 6, but may only target a single opposing character." />
+      <alternate name="Thor" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Thor" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Thor" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LIGHTNING STRIKE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Thor" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LIGHTNING STRIKE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Thor" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - LIGHTNING STRIKE" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Thor" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Thor" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="10" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Thor" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="9" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Thor" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Thor" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Thor" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="df0beef5-a5b6-48fb-ad5c-725b81496a94" name="Black Widow" size="Card">
+      <property name="Unit ID" value="ffwotr002" />
+      <property name="Collector Number" value="002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50/25" />
+      <property name="Team Abilities" value="Team Player" />
+      <property name="Keywords" value="Avengers | Martial Artist | Spy | S.H.I.E.L.D." />
+      <property name="Range" value="4" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Attack] THE WIDOW'S BITE&#10;Powers: Penetrating Psychic Blast, Poison&#10;Penetrating/Psychic Blast, Poison." />
+      <alternate name="Black Widow" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - THE WIDOW'S BITE" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Widow" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - THE WIDOW'S BITE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Widow" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Widow" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Widow" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Widow" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Black Widow" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Black Widow" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Widow" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Widow" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="996c35de-fc9b-45e8-8315-8aae52a86981" name="Black Panther" size="Card">
+      <property name="Unit ID" value="ffwotr003" />
+      <property name="Collector Number" value="003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50/25" />
+      <property name="Team Abilities" value="Avengers" />
+      <property name="Keywords" value="Avengers | Ruler | Warrior | Wakanda" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Speed] THE MANTLE OF THE BLACK PANTHER&#10;Powers: Charge, Stealth&#10;Charge, Stealth." />
+      <alternate name="Black Panther" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - THE MANTLE OF THE BLACK PANTHER" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Panther" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - THE MANTLE OF THE BLACK PANTHER" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Panther" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Panther" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Panther" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - THE MANTLE OF THE BLACK PANTHER" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Panther" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Panther" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Panther" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Black Panther" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Panther" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="1c58efca-b1e0-4aba-8a13-69ea9003dc79" name="Loki" size="Card">
+      <property name="Unit ID" value="ffwotr004" />
+      <property name="Collector Number" value="004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50/25" />
+      <property name="Team Abilities" value="Mystics" />
+      <property name="Keywords" value="Asgardian | Mystical | Deity" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Speed] PRINCE OF LIES&#10;Powers: Stealth, Sidestep&#10;Stealth, Sidestep." />
+      <alternate name="Loki" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Loki" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - PRINCE OF LIES" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Loki" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - PRINCE OF LIES" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Loki" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - PRINCE OF LIES" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Loki" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Loki" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Loki" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Loki" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Loki" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Loki" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="9fb6b111-a287-46a5-8554-c642f1ead3ea" name="The Enchantress" size="Card">
+      <property name="Unit ID" value="ffwotr005" />
+      <property name="Collector Number" value="005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50/25" />
+      <property name="Team Abilities" value="Mystics" />
+      <property name="Keywords" value="Asgardian | Mystical" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Speed] ENCHANTING&#10;Powers: Mind Control, Sidestep&#10;Mind Control, Sidestep." />
+      <alternate name="The Enchantress" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - ENCHANTING" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Enchantress" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - ENCHANTING" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Enchantress" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - ENCHANTING" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Enchantress" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Enchantress" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Enchantress" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Enchantress" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Enchantress" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="The Enchantress" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Barrier" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="The Enchantress" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="8a18a5e9-1512-45e7-8bb9-3293a2a2d67f" name="The Executioner" size="Card">
+      <property name="Unit ID" value="ffwotr006" />
+      <property name="Collector Number" value="006" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50/25" />
+      <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Keywords" value="Asgardian | Masters Of Evil | Warrior" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Speed] CHARGING IN&#10;Powers: Charge, Sidestep&#10;Charge, Sidestep." />
+      <alternate name="The Executioner" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - CHARGING IN" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="The Executioner" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - CHARGING IN" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="The Executioner" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - CHARGING IN" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="The Executioner" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Executioner" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Executioner" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="The Executioner" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="The Executioner" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="The Executioner" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="The Executioner" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

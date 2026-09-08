@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Fast Forces: Earth X" id="abf63174-9b41-4e34-83c4-9ad42bbd5c5f" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="4db93e47-54b0-4f40-bd7a-968d9fae46b8" name="Spiders Man" size="Card">
+      <property name="Unit ID" value="ffeax101" />
+      <property name="Collector Number" value="101" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Keywords" value="Animal | Earth X | Monster" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Speed] ILLUSION CASTING THROUGH WEBS&#10;Powers: Plasticity, Sidestep, Stealth&#10;Plasticity, Sidestep, Stealth. UNIQUE MODIFIER - Adjacent opposing characters modify their combat values -1 for each token on them." />
+      <alternate name="Spiders Man" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - ILLUSION CASTING THROUGH WEBS" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Spiders Man" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - ILLUSION CASTING THROUGH WEBS" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Spiders Man" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ILLUSION CASTING THROUGH WEBS" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Spiders Man" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ILLUSION CASTING THROUGH WEBS" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Spiders Man" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ILLUSION CASTING THROUGH WEBS" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Spiders Man" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="808c2bb6-8cef-40a4-85f5-f8921584b519" name="Black Panther" size="Card">
+      <property name="Unit ID" value="ffeax102" />
+      <property name="Collector Number" value="102" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75/50" />
+      <property name="Keywords" value="Animal | Earth X | Ruler | Wakanda" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] WAKANDA IS A REFUGE&#10;Powers: Leadership, Stealth&#10;Leadership, Stealth. POWER: Generate an Ani-Men bystander [MAX 2]. If Black Panther started the game on his red starting line, the MAX for this effect is 3 instead." />
+      <alternate name="Black Panther" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Red" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Panther" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Panther" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Blue" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Black Panther" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Black Panther" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Black Panther" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Black Panther" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="25f847af-79df-4201-9ab8-d55f5068afc6" name="Ani-Men" size="Card">
+      <property name="Unit ID" value="ffeax102bt" />
+      <property name="Collector Number" value="102bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <alternate name="Ani-Men" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+    </card>
+    <card id="9d46672e-5ef3-47c0-8fc4-4af8279a7eab" name="Spider-Man" size="Card">
+      <property name="Unit ID" value="ffeax103" />
+      <property name="Collector Number" value="103" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50/25" />
+      <property name="Team Abilities" value="Police" />
+      <property name="Keywords" value="Earth X | Police | Reporter | Spider Man Family" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Improved Movement" value="Elevated | Hindering" />
+      <alternate name="Spider-Man" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Spider-Man" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Spider-Man" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Spider-Man" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Spider-Man" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Spider-Man" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Spider-Man" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="e15b409f-dcb0-452e-8291-02391af065fe" name="President Osborn" size="Card">
+      <property name="Unit ID" value="ffeax104" />
+      <property name="Collector Number" value="104" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Keywords" value="Hydra | Earth X | Politician | Sinister Syndicate" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Attack] I BIO-ENGINEERED THE HYDRA, AND I CAN DO THE SAME FOR YOU&#10;Adjacent friendly characters that share a keyword (with President Osborn) can use Regeneration, but heal 1 less click.&#10;&#10;[Damage] TWISTED LEADERSHIP&#10;Powers: Exploit Weakness, Leadership&#10;Exploit Weakness, Leadership. When President Osborn uses Leadership and succeeds, you may also give an action token to an opposing character within 6 squares and line of fire." />
+      <alternate name="President Osborn" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - TWISTED LEADERSHIP" />
+      </alternate>
+      <alternate name="President Osborn" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - TWISTED LEADERSHIP" />
+      </alternate>
+      <alternate name="President Osborn" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - I BIO-ENGINEERED THE HYDRA, AND I CAN DO THE SAME FOR YOU" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="President Osborn" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - I BIO-ENGINEERED THE HYDRA, AND I CAN DO THE SAME FOR YOU" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="President Osborn" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - I BIO-ENGINEERED THE HYDRA, AND I CAN DO THE SAME FOR YOU" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="President Osborn" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="6ee72aa1-a7c2-46f7-b679-db780b179414" name="The Skull" size="Card">
+      <property name="Unit ID" value="ffeax105" />
+      <property name="Collector Number" value="105" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Keywords" value="Earth X | Ruler" />
+      <property name="Range" value="8" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Targeting" value="Characters" />
+      <property name="Traits and Special Powers" value="[Defense] MY DRONES WOULD GIVE THEIR LIFE&#10;Powers: Mastermind, Super Senses&#10;Mastermind, Super Senses." />
+      <alternate name="The Skull" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MY DRONES WOULD GIVE THEIR LIFE" />
+        <property name="Damage" value="0" />
+      </alternate>
+      <alternate name="The Skull" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="0" />
+      </alternate>
+      <alternate name="The Skull" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MY DRONES WOULD GIVE THEIR LIFE" />
+        <property name="Damage" value="0" />
+      </alternate>
+      <alternate name="The Skull" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="0" />
+      </alternate>
+      <alternate name="The Skull" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MY DRONES WOULD GIVE THEIR LIFE" />
+        <property name="Damage" value="0" />
+      </alternate>
+      <alternate name="The Skull" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="134eb560-0bae-43ea-bdf1-76aaa3965b14" name="King Britain" size="Card">
+      <property name="Unit ID" value="ffeax106" />
+      <property name="Collector Number" value="106" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50/25" />
+      <property name="Keywords" value="Earth X | Ruler | Mystical | Excalibur" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] FREE MY TEAMMATES FROM THEIR STONY PRISONS&#10;If an opposing effect would cause a friendly character to be given an action token, roll a d6. [d:3]-[d:6]: The friendly character does not get the action token." />
+      <alternate name="King Britain" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="King Britain" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="King Britain" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="King Britain" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="King Britain" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="King Britain" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="King Britain" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="0443fd9e-c0f7-452c-9d66-d58bc04ac306" name="Stark Tower" size="16x24">
+      <property name="Unit ID" value="ffeaxM001" />
+      <property name="Collector Number" value="M001" />
+      <property name="Unit Type" value="Map" />
+      <property name="Traits and Special Powers" value="[Location] Iron Avengers, Assemble&#10;The bystanders printed on this map are 'Iron Avengers'. At the beginning of the game, choose a friendly character of 50 points or more. That characer has 'POWER: Roll a d6. If the result is odd, generate the matching Iron Avengers in the square equal to the result if that Iron Avenger isn't already on the map.&#10;&#10;Unnamed Ability&#10;If [set:eax] #056 Iron Man is on your starting force, he must be the chosen character. If so, he can't otherwise generate Iron Avengers. Instead, this Location bonus is a FREE action and he generates an Iron Avenger on any result (not just on odd number results).&#10;1: Tank&#10;2: Monolith&#10;3: Crimson Sage&#10;4: Steelbow&#10;5: Bolt&#10;6: Sting&#10;&#10;[Consolation] Consolation&#10;At the beginning of the game, generate a Tank, Crimson Sage, or Bolt bystander in your starting area." />
+    </card>
+    <card id="13b0dd06-a6e2-4196-8c2d-63e29965251c" name="Tank" size="Card">
+      <property name="Unit ID" value="ffeaxM001bta" />
+      <property name="Collector Number" value="M001bta" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Tank" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+    <card id="9d085868-799c-48fb-8ceb-6ce0fb464e5b" name="Monolith" size="Card">
+      <property name="Unit ID" value="ffeaxM001btb" />
+      <property name="Collector Number" value="M001btb" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Giant" />
+      <alternate name="Monolith" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+    </card>
+    <card id="1f2b416b-7b6f-4cef-af40-81f0342ac093" name="Crimson Sage" size="Card">
+      <property name="Unit ID" value="ffeaxM001btc" />
+      <property name="Collector Number" value="M001btc" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Crimson Sage" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+    </card>
+    <card id="5d929495-0cd9-4c7c-8be8-91cdda01e0f4" name="Steelbow" size="Card">
+      <property name="Unit ID" value="ffeaxM001btd" />
+      <property name="Collector Number" value="M001btd" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Steelbow" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+    </card>
+    <card id="f6a4c6af-eef4-46b7-acaa-363b0f595a50" name="Bolt" size="Card">
+      <property name="Unit ID" value="ffeaxM001bte" />
+      <property name="Collector Number" value="M001bte" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Bolt" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+    </card>
+    <card id="3a0f330f-6b48-49c5-99e2-82b979537c3e" name="Sting" size="Card">
+      <property name="Unit ID" value="ffeaxM001btf" />
+      <property name="Collector Number" value="M001btf" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
+      <alternate name="Sting" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+    </card>
+    <card id="744caf97-9a4f-4c1e-8320-ced089b94410" name="Wakanda Earth X" size="16x24">
+      <property name="Unit ID" value="ffeaxM002" />
+      <property name="Collector Number" value="M002" />
+      <property name="Unit Type" value="Map" />
+      <property name="Traits and Special Powers" value="[Location] The Living Spirits Will Guide Us&#10;Once per turn, a friendly character occupying hindering, obscuring, or water terrain may reroll its d6 roll for either Blades/Claws/Fangs or Super Senses.&#10;&#10;Unnamed Ability&#10;If a character named Black Panther is on your force or your force is an Animal themed team, friendly character's Blades/Claws/Fangs and Super Senses have Protected: Outwit.&#10;&#10;[Consolation] Consolation&#10;Once per game, you may reroll a friendly character's roll for Blades/Claws/Fangs. Once per game, you may reroll a friendly character's roll for Super Senses." />
+    </card>
+  </cards>
+</set>

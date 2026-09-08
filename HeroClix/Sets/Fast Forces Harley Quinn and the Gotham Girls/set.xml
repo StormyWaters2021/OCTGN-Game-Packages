@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Fast Forces: Harley Quinn and the Gotham Girls" id="f4c5353e-18af-43dd-8f18-95ac1d334170" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="ff92e302-cb7e-46b8-a587-772358dca010" name="Batgirl" size="Card">
+      <property name="Unit ID" value="ffhq001" />
+      <property name="Collector Number" value="001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Batman Ally" />
+      <property name="Keywords" value="Batman Family | Gotham City" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] VERY DYNAMIC DUO&#10;UNIQUE MODIFIER - While Batgirl is adjacent to a friendly character named Batman or Robin, modify all of their attack values +1.&#10;&#10;[Attack] SONIC FLARES&#10;Powers: Incapacitate&#10;Incapacitate, [it:hindering].&#10;&#10;[Damage] WELL-PLACED CROSSBOW BOLTS&#10;Powers: Ranged Combat Expert&#10;Ranged Combat Expert. When Batgirl uses it, hit characters can't make range attacks until your next turn." />
+      <alternate name="Batgirl" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - WELL-PLACED CROSSBOW BOLTS" />
+      </alternate>
+      <alternate name="Batgirl" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - WELL-PLACED CROSSBOW BOLTS" />
+      </alternate>
+      <alternate name="Batgirl" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - SONIC FLARES" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - WELL-PLACED CROSSBOW BOLTS" />
+      </alternate>
+      <alternate name="Batgirl" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - SONIC FLARES" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Batgirl" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - SONIC FLARES" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Batgirl" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - SONIC FLARES" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Batgirl" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="9bbfcbac-19a0-40dd-8335-d8c09def6c8b" name="Robin" size="Card">
+      <property name="Unit ID" value="ffhq002" />
+      <property name="Collector Number" value="002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Batman Ally" />
+      <property name="Keywords" value="Batman Family | Gotham City" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] DYNAMITE DUO&#10;Adjacent friendly characters named Batgirl or Batman have [cs:bolt][cs:bolt] instead of [cs:bolt].&#10;&#10;[Defense] MAYBE YOU'D BETTER GET USED TO FASTER-MOVING TARGETS&#10;Powers: Combat Reflexes, Super Senses&#10;Combat Reflexes. Super Senses, but only when targeted by a ranged attack.&#10;&#10;[Damage] OUT FOR REVENGE&#10;Modify attack and damage +1 while attacking an opposing character that damaged a friendly character since your last turn." />
+      <alternate name="Robin" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MAYBE YOU'D BETTER GET USED TO FASTER-MOVING TARGETS" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Robin" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MAYBE YOU'D BETTER GET USED TO FASTER-MOVING TARGETS" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Robin" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - OUT FOR REVENGE" />
+      </alternate>
+      <alternate name="Robin" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - OUT FOR REVENGE" />
+      </alternate>
+      <alternate name="Robin" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - OUT FOR REVENGE" />
+      </alternate>
+      <alternate name="Robin" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - OUT FOR REVENGE" />
+      </alternate>
+      <alternate name="Robin" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="54283c42-f51e-4610-b40b-5ee0a8df221b" name="Batman" size="Card">
+      <property name="Unit ID" value="ffhq003" />
+      <property name="Collector Number" value="003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Batman Ally" />
+      <property name="Keywords" value="Batman Family | Gotham City | Police | Detective" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] DYNAMICAL DUO&#10;UNIQUE MODIFIER - While Batman is adjacent to a friendly character named Batgirl or Robin modify all of their defense values +1.&#10;&#10;[Speed] NOT SO FAST, WE'VE GOT UNFINISHED BUSINESS&#10;Powers: Charge, Plasticity&#10;Charge, Plasticity.&#10;&#10;[Damage] HIDING BEHIND THE MASK&#10;Powers: Shape Change&#10;Shape Change. When Batman uses it, on a result of [d:6], remove an action token from him." />
+      <alternate name="Batman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - HIDING BEHIND THE MASK" />
+      </alternate>
+      <alternate name="Batman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - HIDING BEHIND THE MASK" />
+      </alternate>
+      <alternate name="Batman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - NOT SO FAST, WE'VE GOT UNFINISHED BUSINESS" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - NOT SO FAST, WE'VE GOT UNFINISHED BUSINESS" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Batman" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - NOT SO FAST, WE'VE GOT UNFINISHED BUSINESS" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Batman" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - NOT SO FAST, WE'VE GOT UNFINISHED BUSINESS" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Batman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="bc7c1da7-fe33-4dd1-9303-580fbf2381d7" name="The Joker" size="Card">
+      <property name="Unit ID" value="ffhq004" />
+      <property name="Collector Number" value="004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Underworld" />
+      <property name="Keywords" value="Celebrity | Gotham City Underworld | Politician" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] FINGERNAILS POLISHED WITH TOXIC LACQUER&#10;Powers: Poison&#10;Poison. When an opposing character is damaged by The Joker, give them a Toxin token. After resolutions of a costed action given to a character with a Toxin token, deal that character 1 damage. When a character with a Toxin token clears action tokens, remove a Toxin token from them.&#10;&#10;[Damage] KISS OF DEATH&#10;Powers: Exploit Weakness&#10;Exploit Weakness. When The Joker uses it and hits an opposing character, after resolutions give them an action token." />
+      <alternate name="The Joker" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="The Joker" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="The Joker" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Joker" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="The Joker" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - KISS OF DEATH" />
+      </alternate>
+      <alternate name="The Joker" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - KISS OF DEATH" />
+      </alternate>
+      <alternate name="The Joker" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="4595991f-9360-492b-9beb-b372cecc0be5" name="Harley Quinn" size="Card">
+      <property name="Unit ID" value="ffhq005" />
+      <property name="Collector Number" value="005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="Underworld" />
+      <property name="Keywords" value="Gotham City Underworld" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] AMERICA'S BRIGHT FUTURE&#10;If Harley Quinn has 0 action tokens: Stealth, Shape Change, she does not block friendly line of fire.&#10;&#10;[Damage] PLAY NICE, OR PLAY DEAD&#10;Powers: Close Combat Expert&#10;Close Combat Expert. She can use it as a CLOSE action, but only to target characters that made an attack since your last turn." />
+      <alternate name="Harley Quinn" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - PLAY NICE, OR PLAY DEAD" />
+      </alternate>
+      <alternate name="Harley Quinn" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - PLAY NICE, OR PLAY DEAD" />
+      </alternate>
+      <alternate name="Harley Quinn" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - PLAY NICE, OR PLAY DEAD" />
+      </alternate>
+      <alternate name="Harley Quinn" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Harley Quinn" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Harley Quinn" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="6f72b867-7f58-4e4a-af6e-1bc665a00c4d" name="Corrupt GCPD Cop" size="Card">
+      <property name="Unit ID" value="ffhq006" />
+      <property name="Collector Number" value="006" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Unique | Generic" />
+      <property name="Point Values" value="40" />
+      <property name="Team Abilities" value="Police | Underworld" />
+      <property name="Keywords" value="Gotham City Underworld | Police" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] LOOK THE OTHER WAY&#10;At the beginning of the game, choose one friendly character of 50 or more points to be the &quot;Boss&quot; for all characters with this trait.&#10;&#10;[Trait] ALWAYS MORE CORRUPT COPS&#10;When a countdown click is revealed, stop turning the dial and remove Corrupt GCPD Cop from the map. At the beginning of your turn, if Corrupt GCPD Cop is off the map on a countdown click, click her dial once. If a non-countdown click is revealed, place her in your starting area. When the &quot;Boss&quot; is KO'd, removed from the map, or if no &quot;Boss&quot; was chosen, all countdown clicks become KO clicks for the rest of the game. Protected: Pulse Wave." />
+      <alternate name="Corrupt GCPD Cop" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="Click12" size="1x1">
+        <property name="Click Number" value="12" />
+      </alternate>
+      <alternate name="Corrupt GCPD Cop" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

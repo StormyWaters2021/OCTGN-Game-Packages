@@ -1,0 +1,2885 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="WWE" id="2ba06c25-fafb-469d-8cf2-cb98c883574e" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="5c68dfb4-4640-4056-86be-311803553307" name="The Rock" size="Card">
+      <property name="Unit ID" value="wwe001" />
+      <property name="Collector Number" value="001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="90/40" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Corporation | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: PEOPLE'S ELBOW&#10;CLOSE: [im:characters]. If The Rock has 1 action token, move him up to 2 squares then make a close attack, modifying attack +1. If he hits, friendly characters modify damage +1 when attacking that hit character this turn. (Including this attack's damage)&#10;&#10;[Speed] SPINEBUSTER&#10;Powers: Slam, Slingshot&#10;Slam, Slingshot. When The Rock uses Slingshot, he can use Slam at no cost instead of making the close attack." />
+      <alternate name="The Rock" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Rock" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Rock" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="The Rock" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="The Rock" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="The Rock" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - SPINEBUSTER" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Rock" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - SPINEBUSTER" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Rock" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - SPINEBUSTER" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Rock" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Rock" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="87439442-eb6d-4fb9-932f-d6d4e379a6ba" name="Stone Cold Steve Austin" size="Card">
+      <property name="Unit ID" value="wwe002" />
+      <property name="Collector Number" value="002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="80/50" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: STONE COLD STUNNER&#10;CLOSE: KNOCKBACK. If Stone Cold Steve Austin has 1 action token, make a close attack. If he hits, after resolutions choose one: give a hit target an action token; -or- remove an action token from Stone Cold Steve Austin.&#10;&#10;[Speed] VEHICULAR ASSAULT&#10;Powers: Charge&#10;Charge. When Stone Cold Steve Austin uses it, you may choose to not halve his speed. If you do, he has [im:characters,hindering] and modifies damage +1, but can only move in a direct path." />
+      <alternate name="Stone Cold Steve Austin" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - VEHICULAR ASSAULT" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - VEHICULAR ASSAULT" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="1c7feaa2-6308-4ecf-a28b-e899fa911c37" name="Triple H" size="Card">
+      <property name="Unit ID" value="wwe003" />
+      <property name="Collector Number" value="003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="85/45" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Assassin | Authority | Corporate Ministry | D Generation X | Politician | Wwe | Evolution" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: PEDIGREE&#10;CLOSE: If Triple H has 1 action token, make a close attack, modifying damage +1. After resolutions, choose one: a hit target modifies attack -1 -or- give a hit target an action token.&#10;&#10;[Damage] NUMBERS GAME&#10;Powers: Empower&#10;Empower. Friendly characters that are adjacent or share a keyword with him besides WWE can use Empower." />
+      <alternate name="Triple H" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - NUMBERS GAME" />
+      </alternate>
+      <alternate name="Triple H" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - NUMBERS GAME" />
+      </alternate>
+      <alternate name="Triple H" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - NUMBERS GAME" />
+      </alternate>
+      <alternate name="Triple H" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - NUMBERS GAME" />
+      </alternate>
+      <alternate name="Triple H" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - NUMBERS GAME" />
+      </alternate>
+      <alternate name="Triple H" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Triple H" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Triple H" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Triple H" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="8c54b70b-84ab-46d6-9a1b-fd6dcfda0b6b" name="Ric Flair" size="Card">
+      <property name="Unit ID" value="wwe004" />
+      <property name="Collector Number" value="004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="85/45" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Heenan Family | Wwe | Evolution" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: FIGURE-FOUR LEGLOCK&#10;CLOSE: If Ric Flair has 1 action token, make a close attack modifying damage +1 for each Injured Leg token on his target. If he hits, both he and his target gain Immobile until your next turn.&#10;&#10;[Trait] WORK THE LEG / WALK IT OFF&#10;Once per turn when Ric Flair damages an opposing character, give them an Injured Leg token. Characters modify speed -1 for each Injured Leg token they have, and defense -1 for every 2 Injured Leg tokens they have. When a character with an Injured Leg token is given a MOVE action, after resoutions remove one of their Injured Leg tokens.&#10;&#10;[Damage] DIRTIEST PLAYER IN THE GAME&#10;Powers: Exploit Weakness, Probability Control&#10;Exploit Weakness, Probability Control." />
+      <alternate name="Ric Flair" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - DIRTIEST PLAYER IN THE GAME" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - DIRTIEST PLAYER IN THE GAME" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - DIRTIEST PLAYER IN THE GAME" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - DIRTIEST PLAYER IN THE GAME" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - DIRTIEST PLAYER IN THE GAME" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Ric Flair" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="97e1fe50-6f49-4514-8c2d-046034f26201" name="AJ Styles" size="Card">
+      <property name="Unit ID" value="wwe005" />
+      <property name="Collector Number" value="005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="70/40" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Martial Artist | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: STYLES CLASH&#10;Powers: Slam&#10;If AJ Styles has 1 action token, Slam. When he uses it, hit characters modify their attack -2 and damage -1 until your next turn." />
+      <alternate name="AJ Styles" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="AJ Styles" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="9b66de63-47f2-4390-9433-06ee52ff14b5" name="Sasha Banks" size="Card">
+      <property name="Unit ID" value="wwe006" />
+      <property name="Collector Number" value="006" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="70/40" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Four Horsewomen | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: BANKS STATEMENT&#10;CLOSE: If Sasha Banks has 1 action token, make a close attack. If she hits, after resolutions, you may place a hit character in a different square adjacent to her. If you do, deal them 1 damage and they gain Immobile until your next turn.&#10;&#10;[Trait] THE BOSS DOESN'T NEED FRIENDS, BUT THE ONES I DO HAVE I KEEP VERY CLOSE&#10;Once per force, when Sasha Banks is KO'd, do not remove her from the game. Instead, after resolutions, place her in the square she last occupied on click #5. She is now friendly to your opponent's force and isn't scored again." />
+      <alternate name="Sasha Banks" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Sasha Banks" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="5c5278e5-7df6-4726-b05c-d3b99727e8b6" name="Finn Bálor" size="Card">
+      <property name="Unit ID" value="wwe007" />
+      <property name="Collector Number" value="007" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="70/45" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Mystical | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: 1916&#10;Powers: Slam&#10;If Finn Bálor has 1 action token, Slam. When he uses it, hit characters modify their defense -2 until your next turn." />
+      <alternate name="Finn Bálor" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Finn Bálor" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="6fed5630-7f2c-4b26-9a34-0bebe8499f12" name="Ronda Rousey" size="Card">
+      <property name="Unit ID" value="wwe008" />
+      <property name="Collector Number" value="008" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="95/45" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Martial Artist | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: ARMBAR&#10;CLOSE: [im:characters]. If Ronda Rousey has 1 action token, move up to 2 squares, then make a close attack. After resolutions, choose one: Deal 1 penetrating damage to a hit character -or- for the rest of the game, a hit character can't be healed if Ronda Rousey is on the map.&#10;&#10;[Attack] PIPER'S PIT&#10;Powers: Reversal, Slam&#10;Reversal, Slam. When she uses Slam and chooses to place the target, she may place them in a square within line of fire up to 3 squares away instead of adjacent and then may place herself adjacent to them.&#10;&#10;[Damage] TOYING WITH HER OPPONENT&#10;Powers: Perplex&#10;Perplex, but she can't target friendly characters or choose damage. She may use it twice per turn." />
+      <alternate name="Ronda Rousey" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - TOYING WITH HER OPPONENT" />
+      </alternate>
+      <alternate name="Ronda Rousey" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - TOYING WITH HER OPPONENT" />
+      </alternate>
+      <alternate name="Ronda Rousey" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - PIPER'S PIT" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - TOYING WITH HER OPPONENT" />
+      </alternate>
+      <alternate name="Ronda Rousey" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - PIPER'S PIT" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Ronda Rousey" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - PIPER'S PIT" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Ronda Rousey" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Ronda Rousey" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Ronda Rousey" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Ronda Rousey" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="490bfdfc-e51d-4c7d-91ae-e6ed01613f9d" name="John Cena" size="Card">
+      <property name="Unit ID" value="wwe009" />
+      <property name="Collector Number" value="009" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="80/50" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: STF&#10;CLOSE: If John Cena has 1 action token, make a close attack. Hit characters gain Immobile until your next turn, and for each 5 or 6 in the attack roll, choose one: modify damage +1; -or- after resolutions, give a hit character an action token.&#10;&#10;[Defense] NEVER GIVE UP!&#10;Powers: Combat Reflexes, Super Senses, Toughness&#10;Combat Reflexes, Super Senses, Toughness." />
+      <alternate name="John Cena" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - NEVER GIVE UP!" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="John Cena" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - NEVER GIVE UP!" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="John Cena" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - NEVER GIVE UP!" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="John Cena" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - NEVER GIVE UP!" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="John Cena" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="John Cena" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="John Cena" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="John Cena" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="John Cena" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="8b4665fe-24bb-457f-be0e-8bd46697f0e4" name="&quot;Macho Man&quot; Randy Savage" size="Card">
+      <property name="Unit ID" value="wwe010" />
+      <property name="Collector Number" value="010" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="100/60" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | New World Order | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: FLYING ELBOW&#10;CLOSE: [im:hindering,move_through]. If &quot;Macho Man&quot; Randy Savage has 1 action token, move up to 3 squares then make a close attack. If he began the action adjacent to 2+ Ropes, modify damage +X, where X is the amount your attack total exceeded the hit character's defense value.&#10;&#10;[Damage] ONE OF THE GREATEST TALKERS IN WWE HISTORY&#10;Powers: Perplex&#10;Perplex. When &quot;Macho Man&quot; Randy Savage uses it to target himself, he may modify a value except damage +2 instead of +1. When he uses it to target an opposing character, until your next turn that character can't use Outwit or Perplex." />
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ONE OF THE GREATEST TALKERS IN WWE HISTORY" />
+      </alternate>
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - ONE OF THE GREATEST TALKERS IN WWE HISTORY" />
+      </alternate>
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - ONE OF THE GREATEST TALKERS IN WWE HISTORY" />
+      </alternate>
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - ONE OF THE GREATEST TALKERS IN WWE HISTORY" />
+      </alternate>
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="&quot;Macho Man&quot; Randy Savage" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="c77f5154-1f52-4020-9b16-3d998e3adf1e" name="Trish Stratus" size="Card">
+      <property name="Unit ID" value="wwe011" />
+      <property name="Collector Number" value="011" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="75/40" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: STRATUSFACTION&#10;CLOSE: If Trish Stratus has 1 action token, make a close attack. If she's adjacent to 2+ Ropes, until your next turn a hit character can't make an attack and modifies defense -2.&#10;&#10;[Damage] CHICK KICK&#10;CLOSE: Make a close attack, modifying damage +1 for each action token on the target." />
+      <alternate name="Trish Stratus" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Trish Stratus" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Trish Stratus" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CHICK KICK" />
+      </alternate>
+      <alternate name="Trish Stratus" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CHICK KICK" />
+      </alternate>
+      <alternate name="Trish Stratus" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CHICK KICK" />
+      </alternate>
+      <alternate name="Trish Stratus" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CHICK KICK" />
+      </alternate>
+      <alternate name="Trish Stratus" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Trish Stratus" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Trish Stratus" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="18a331ff-410e-43bb-b12d-67e10a314650" name="Asuka" size="Card">
+      <property name="Unit ID" value="wwe012" />
+      <property name="Collector Number" value="012" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="80/40" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Martial Artist | Future | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: FLYING HIP ATTACK&#10;Powers: Lightning Speed&#10;If Asuka has 1 action token, Lightning Speed. When she uses it, if she moves only in a direct path and then hits, modify damage +1 for each square she moved through.&#10;&#10;[Trait] NO ONE IS READY FOR ASUKA&#10;When Asuka KO's an opposing character, choose a combat value that she has not chosen for this ability this game, and modify it +1 for the rest of the game. If she has already chosen 4 combat values, heal her 2 clicks instead. (She can't be healed above her starting click.)&#10;&#10;[Attack] ASUKA LOCK&#10;Powers: Submission Hold&#10;Submission Hold. When Asuka uses it, increase damage dealt +1 for each Asuka Lock token the target has, and after resolutions give her target an Asuka Lock token (maximum 2). When a character hit Asuka, remove their Asuka Lock tokens." />
+      <alternate name="Asuka" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Asuka" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Asuka" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - ASUKA LOCK" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Asuka" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - ASUKA LOCK" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Asuka" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - ASUKA LOCK" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Asuka" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - ASUKA LOCK" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Asuka" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - ASUKA LOCK" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Asuka" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - ASUKA LOCK" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Asuka" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="449e4979-6687-45ef-bb60-8fe77d1deffb" name="Undertaker" size="Card">
+      <property name="Unit ID" value="wwe013" />
+      <property name="Collector Number" value="013" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="100/70" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Corporate Ministry | Monster | Mystical | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: TOMBSTONE PILEDRIVER&#10;CLOSE: If Undertaker has 1 action token, make a close attack. Modify attack and damage +1 for each action token on the target, and an additional attack +1 if the target has Immobile.&#10;&#10;[Trait] BIG GUY&#10;Giant Reach: 2. Undertaker can't be knocked back or be given action tokens by opposing characters.&#10;&#10;[Defense] THE UNDERTAKER RISES&#10;Powers: Stop, Toughness&#10;STOP. Toughness. Undertaker can't be healed above this click. Whenever this click is revealed, after resolutions, knock back all adjacent opposing characters 1 square. (This knock back also occurs if he heals up to this click.)" />
+      <alternate name="Undertaker" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Undertaker" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Undertaker" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Undertaker" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Undertaker" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Undertaker" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - THE UNDERTAKER RISES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Undertaker" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Undertaker" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Undertaker" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Undertaker" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="06ae8589-d8a7-44ea-bb79-687747f701f8" name="Kane" size="Card">
+      <property name="Unit ID" value="wwe014" />
+      <property name="Collector Number" value="014" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="100/60" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Authority | Corporation | Politician | Monster | Mystical | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: CHOKESLAM&#10;CLOSE: If Kane has 1 action token and hasn't been moved or placed this turn, Slam. When he uses it modify his damage +X, where X is the amount your attack total exceeded the hit character's defense value by.&#10;&#10;[Trait] BIG GUY&#10;Giant Reach: 2. Kane can't be knocked back or be given action tokens by opposing effects.&#10;&#10;[Damage] FIERY POSTS&#10;POWER: Choose up to 4 opposing characters within 6 squares that are adjacent to 2+ Ropes. Make a close attack targeting all of them regardless of adjacency. Each hit character is dealt 2 penetrating damage instead of normal damage." />
+      <alternate name="Kane" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - FIERY POSTS" />
+      </alternate>
+      <alternate name="Kane" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Kane" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Kane" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Kane" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Kane" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Kane" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Kane" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Kane" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Kane" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="29d9d370-ccfa-4ec1-878b-f3fb43dbf0ec" name="Andre The Giant" size="Card">
+      <property name="Unit ID" value="wwe015" />
+      <property name="Collector Number" value="015" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="110/90" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Heenan Family | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: SCOOP SLAM&#10;Powers: Slam&#10;If Andre the Giant has 1 action token, Slam. When he uses it, he may choose both options.&#10;&#10;[Trait] BIG GUY&#10;Giant Reach: 2. Andre the Giant can't be knocked back or be given action tokens by opposing characters.&#10;&#10;[Speed] THE BIG BOOT&#10;Powers: Sidestep, Slingshot&#10;Sidestep, Slingshot. When an opposing character that moved this turn missed Andre the Giant with a close attack, after resolutions deal that character 2 damage and knock them back 2 squares.&#10;&#10;[Defense] THE 8TH WONDER OF THE WORLD&#10;Powers: Invulnerability&#10;Invulnerability. When Andre the Giant would be targeted by Outwit or opposing Probability Control, roll a d6. [d:4]-[d:6]: Instead that character can't use that power this turn." />
+      <alternate name="Andre The Giant" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - THE 8TH WONDER OF THE WORLD" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - THE 8TH WONDER OF THE WORLD" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - THE 8TH WONDER OF THE WORLD" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Andre The Giant" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="3" />
+        <property name="Speed Ability" value="Special - THE BIG BOOT" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Andre The Giant" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="c527fd26-412a-4542-99b4-65d0311869e2" name="Roman Reigns" size="Card">
+      <property name="Unit ID" value="wwe016" />
+      <property name="Collector Number" value="016" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="70/40" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Characters" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: SPEAR&#10;Powers: Charge&#10;If Roman Reigns has 1 action token, Charge. When he uses it, he doesn't halve his speed value and after resolutions heal him 1 click for each character he hit.&#10;&#10;[Speed] CLOTHESLINE INTO A SUPER PUNCH&#10;Powers: Sidestep, Flurry&#10;Sidestep, Flurry. When Roman Reigns uses Flurry, he may move 1 square after the first attack resolves." />
+      <alternate name="Roman Reigns" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Roman Reigns" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Roman Reigns" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - CLOTHESLINE INTO A SUPER PUNCH" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Roman Reigns" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - CLOTHESLINE INTO A SUPER PUNCH" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Roman Reigns" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - CLOTHESLINE INTO A SUPER PUNCH" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Roman Reigns" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - CLOTHESLINE INTO A SUPER PUNCH" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Roman Reigns" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Roman Reigns" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Roman Reigns" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="4143f332-9eb5-4ad8-afd2-dc0e4710caff" name="Eddie Guerrero" size="Card">
+      <property name="Unit ID" value="wwe017" />
+      <property name="Collector Number" value="017" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="70/55" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Warrior | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: THREE AMIGOS&#10;Powers: Flurry&#10;If Eddie Guerrero has 1 action token, Flurry. When Eddie Guerrero uses it, he can make 3 close attacks instead of 2 and his maximum damage value is 3.&#10;&#10;[Defense] VIVA LA RAZA&#10;Powers: Stop&#10;STOP. The first time this click is revealed, after resolutions, heal Eddie Guerrero 1 click.&#10;&#10;[Damage] LIE, CHEAT, AND STEAL&#10;Powers: Probability Control&#10;Probability Control, but you may choose to reroll only one die." />
+      <alternate name="Eddie Guerrero" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - LIE, CHEAT, AND STEAL" />
+      </alternate>
+      <alternate name="Eddie Guerrero" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - LIE, CHEAT, AND STEAL" />
+      </alternate>
+      <alternate name="Eddie Guerrero" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Eddie Guerrero" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Eddie Guerrero" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Eddie Guerrero" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - VIVA LA RAZA" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - LIE, CHEAT, AND STEAL" />
+      </alternate>
+      <alternate name="Eddie Guerrero" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="47fa257b-f9dc-4b2e-b86c-08d081b09ada" name="Big Show" size="Card">
+      <property name="Unit ID" value="wwe018" />
+      <property name="Collector Number" value="018" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="100/75" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Authority | Celebrity | Corporation | New World Order | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: KO PUNCH&#10;Powers: Quake&#10;If Big Show has 1 action token, Quake. When Big SHow uses it to target more than one character, he deals 3 damage instead of 2 to each hit target and friendly characters attacking those hit characters this turn modify damage +1.&#10;&#10;[Trait] BIG GUY&#10;Giant Reach: 2. Big Show can't be knocked back or be given action tokens by opposing effects.&#10;&#10;[Trait] TRAITOR&#10;Once per force, when Big Show is KO'd, do not remove him from the game. Instead, after resolutions, place him in the square he last occupied on click #7. He is now friendly to your opponent's force and isn't scored again." />
+      <alternate name="Big Show" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Big Show" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Big Show" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Big Show" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Big Show" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Big Show" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Slingshot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Big Show" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Big Show" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Big Show" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Big Show" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="f75bb259-641d-47b4-a6ce-1b6808dbb76f" name="The Rock" size="Card">
+      <property name="Unit ID" value="wwe101" />
+      <property name="Collector Number" value="101" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Corporation | Rock &amp; Sock Connection | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: ROCK BOTTOM&#10;CLOSE: If The Rock has 1 action token, make a close attack. Modify damage +2 if the target has no action tokens, or +1 if they have 1 action token. If he hits, a hit target modifies defense -1 this turn.&#10;&#10;[Damage] IT DOESN'T MATTER WHAT YOU THINK!&#10;When an opposing character would use Outwit, Perplex, or Probability Control to target The Rock or an adjacent friendly character, roll a d6. [d:4]-[d:6]: Instead, that opposing character can't use that power this turn." />
+      <alternate name="The Rock" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IT DOESN'T MATTER WHAT YOU THINK!" />
+      </alternate>
+      <alternate name="The Rock" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IT DOESN'T MATTER WHAT YOU THINK!" />
+      </alternate>
+      <alternate name="The Rock" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IT DOESN'T MATTER WHAT YOU THINK!" />
+      </alternate>
+      <alternate name="The Rock" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - IT DOESN'T MATTER WHAT YOU THINK!" />
+      </alternate>
+      <alternate name="The Rock" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - IT DOESN'T MATTER WHAT YOU THINK!" />
+      </alternate>
+      <alternate name="The Rock" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="The Rock" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="The Rock" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="The Rock" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="215a9f59-8209-4db0-aa35-242c33085f6f" name="Mankind" size="Card">
+      <property name="Unit ID" value="wwe102" />
+      <property name="Collector Number" value="102" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="70" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Rock &amp; Sock Connection | Monster | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: MR. SOCKO&#10;CLOSE: If Mankind has 1 action token, make a close attack. After resolutions, a hit target gains Immobile and is given an action token.&#10;&#10;[Damage] CACTUS JACK OR DUDE LOVE&#10;Powers: Perplex&#10;FREE: Choose one: Mankind can use Perplex until your next turn -or- heal Mankind 1 click." />
+      <alternate name="Mankind" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Mankind" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Mankind" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - CACTUS JACK OR DUDE LOVE" />
+      </alternate>
+      <alternate name="Mankind" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CACTUS JACK OR DUDE LOVE" />
+      </alternate>
+      <alternate name="Mankind" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CACTUS JACK OR DUDE LOVE" />
+      </alternate>
+      <alternate name="Mankind" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CACTUS JACK OR DUDE LOVE" />
+      </alternate>
+      <alternate name="Mankind" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CACTUS JACK OR DUDE LOVE" />
+      </alternate>
+      <alternate name="Mankind" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="4fe20372-1715-4593-9585-5ca859935f35" name="Stone Cold Steve Austin" size="Card">
+      <property name="Unit ID" value="wwe103" />
+      <property name="Collector Number" value="103" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: CRACK OPEN A SIX-PACK OF STUNNERS&#10;CLOSE: If Stone Cold Steve Austin has 1 action token, make a close attack. Each time he hits, after the attack resolves he may move up to 2 squares using [im:characters], and then make a close attack targeting a friendly or opposing character he hasn't attacked this turn. (He may repeat this as long as able).&#10;&#10;[Damage] STOMP A MUDHOLE AND WALK IT DRY&#10;POWER: Choose an adjacent opposing character. Make a number of close attacks (maximum 4) targeting the chosen character equal to the number of Ropes adjacent to that character." />
+      <alternate name="Stone Cold Steve Austin" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - STOMP A MUDHOLE AND WALK IT DRY" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - STOMP A MUDHOLE AND WALK IT DRY" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - STOMP A MUDHOLE AND WALK IT DRY" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - STOMP A MUDHOLE AND WALK IT DRY" />
+      </alternate>
+      <alternate name="Stone Cold Steve Austin" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="0a24e98d-a8ef-45f4-a3db-92ee4dfb8b5b" name="Triple H" size="Card">
+      <property name="Unit ID" value="wwe104" />
+      <property name="Collector Number" value="104" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="70" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Assassin | Authority | Corporate Ministry | Corporation | D Generation X | Politician | Wwe | Evolution" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: SPINEBUSTER&#10;CLOSE: If Triple H has 1 action token, make a close attack, modifying attack and damage +1 for each action token on the target.&#10;&#10;[Speed] GRANDEST ENTRANCE OF THEM ALL&#10;Powers: Charge&#10;Charge. The first opposing character to attack each turn modifies attack -1." />
+      <alternate name="Triple H" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - GRANDEST ENTRANCE OF THEM ALL" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Triple H" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Triple H" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Triple H" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Triple H" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Triple H" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Triple H" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Triple H" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="54eb512e-6a7a-4599-bee7-e4466da07379" name="Ric Flair" size="Card">
+      <property name="Unit ID" value="wwe105" />
+      <property name="Collector Number" value="105" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75" />
+      <property name="Keywords" value="Heenan Family | Wwe | Evolution" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: LOW BLOW WHILE THE REF IS DISTRACTED&#10;CLOSE: If Ric Flair has 1 action token, make a close attack. If he hits, instead of normal damage roll a d6 and deal the hit character damage equal to the result, minimum 3 damage dealt. If the result was 1, also give Ric Flair a Referee Warning token. // When Ric Flair uses his Signature Move, modify his attack -1 for each Referee Warning token he has.&#10;&#10;[Attack] EYE GOUGE&#10;Powers: Stun&#10;Stun, but hit characters modify attack -2 and damage -1 instead." />
+      <alternate name="Ric Flair" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - EYE GOUGE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE GOUGE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - EYE GOUGE" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - EYE GOUGE" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Ric Flair" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Ric Flair" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="0270feb0-2139-4083-9274-4b33759df6ad" name="Shawn Michaels" size="Card">
+      <property name="Unit ID" value="wwe106" />
+      <property name="Collector Number" value="106" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="D Generation X | New World Order | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: SWEET CHIN MUSIC&#10;CLOSE: [im:characters]. If Shawn Michaels has 1 action token, move him up to half his speed value and then make a close attack, modifying attack and damage +1 for each Tuning Up The Band token. After resolutions, remove those tokens.&#10;&#10;[Trait] TUNING UP THE BAND&#10;At the end of your turn, if Shawn Michaels was not given a costed action this turn, give him a Tuning Up The Band token. When Shawn Michaels is damaged by an attack, remove all of his Tuning Up The Band tokens.&#10;&#10;[Speed] I'VE GOT THE MOVES THAT REALLY MOVE 'EM&#10;Powers: Nimble, Sidestep&#10;Nimble, Sidestep." />
+      <alternate name="Shawn Michaels" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - I'VE GOT THE MOVES THAT REALLY MOVE 'EM" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Shawn Michaels" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - I'VE GOT THE MOVES THAT REALLY MOVE 'EM" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Shawn Michaels" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - I'VE GOT THE MOVES THAT REALLY MOVE 'EM" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Shawn Michaels" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Slam" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Shawn Michaels" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Flying Leap" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Shawn Michaels" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Shawn Michaels" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Shawn Michaels" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="e0fdca01-b411-43a0-80a6-350792d6693f" name="Charlotte Flair" size="Card">
+      <property name="Unit ID" value="wwe107" />
+      <property name="Collector Number" value="107" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Four Horsewomen | Phenomenal Flair | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: NATURAL SELECTION&#10;Powers: Lightning Speed&#10;If Charlotte Flair has 1 action token, Lightning Speed. When she uses it, if she moves only in a direct path and then hits, after resolutions give a hit character an action token.&#10;&#10;[Trait] MIXED MATCH CHALLENGE: PHENOMENAL FLAIR&#10;Powers: Slam&#10;Slam. When Charlotte Flair uses it and the target is adjacent to a character named AJ Styles, you may chose both options of Slam." />
+      <alternate name="Charlotte Flair" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Charlotte Flair" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Charlotte Flair" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Charlotte Flair" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Charlotte Flair" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Charlotte Flair" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Charlotte Flair" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Charlotte Flair" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="a8ad05d2-bb47-413b-a2db-cee880dc1b0d" name="Sasha Banks" size="Card">
+      <property name="Unit ID" value="wwe108" />
+      <property name="Collector Number" value="108" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Four Horsewomen | Wwe | Demon Boss" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: METEORA&#10;Powers: Flying Leap&#10;If Sasha Banks has 1 action token, Flying Leap. When she uses it and hits, after resolutions a hit character gains Immobile until your next turn and you may heal her 1 click.&#10;&#10;[Trait] MIXED MATCH CHALLENGE: DEMON BO$$&#10;Powers: Slingshot&#10;Slingshot. When Sasha Banks knocks back a character, until your next turn, if that character is adjacent to a character named Finn Bálor, modify its defense -1." />
+      <alternate name="Sasha Banks" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Reversal" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Sasha Banks" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Sasha Banks" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="13626768-b9bc-4cf3-8855-59b47c0e4d16" name="Finn Bálor" size="Card">
+      <property name="Unit ID" value="wwe109" />
+      <property name="Collector Number" value="109" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="70" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Mystical | Wwe | Demon Boss" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: COUP DE GRACE&#10;Powers: Flying Leap&#10;If Finn Bálor has 1 action token, Flying Leap. When he uses it, a hit character can't use defense powers until your next turn.&#10;&#10;[Trait] MXXED MATCH CHALLENGE: DEMON BO$$&#10;Powers: Slingshot&#10;Slingshot. When Finn Bálor knocks back a character, until your next turn, if that character is adjacent to a character named Sasha Banks, modify its defense -1." />
+      <alternate name="Finn Bálor" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Finn Bálor" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Finn Bálor" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="b69331c6-15ce-42c2-8f32-37c160ad20fb" name="AJ Styles" size="Card">
+      <property name="Unit ID" value="wwe110" />
+      <property name="Collector Number" value="110" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="70" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Phenomenal Flair | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: PHENOMENAL FOREARM&#10;Powers: Flying Leap&#10;If AJ Styles has 1 action token, Flying Leap. When he uses it, a hit character can't use speed or attack powers until your next turn.&#10;&#10;[Trait] MIXED MATCH CHALLENGE: PHENOMENAL FLAIR&#10;Powers: Slam&#10;Slam. When AJ Styles uses it and the target is adjacent to a character named Charlotte Flair, you may chose both options of Slam." />
+      <alternate name="AJ Styles" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Submission Hold" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="AJ Styles" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="AJ Styles" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="2b6bd0e0-038f-4f05-96fe-379e98586439" name="WWE Ring" size="Card">
+      <property name="Unit ID" value="wwe111" />
+      <property name="Collector Number" value="111" />
+      <property name="Unit Type" value="Special Terrain" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="5" />
+      <property name="Traits and Special Powers" value="[Trait] Consolation&#10;If you couldn't place this special terrain, instead you can use the Consolation effect below: At the beginning of the game, choose a friendly character. Once per game, you may reroll that character's attack. Once per game, you may reroll an attack targeting that character.&#10;&#10;[Trait] Unnamed Ability&#10;Ropes exist along the edge of the Ring. (When you knock a character back into the Ropes, you may choose that their knock back path continues in the opposite direction back along that same path.)&#10;&#10;[Trait] Unnamed Ability&#10;Once per turn, you may reroll the close attack of a friendly character in the Ring.&#10;&#10;[Trait] Unnamed Ability&#10;Once per turn, you may reroll the range attack of an opposing character outside the Ring that's targeting a friendly character inside the Ring." />
+      <alternate name="WWE Ring" type="Tile" size="5x5" />
+    </card>
+    <card id="21cc34a9-358c-4f07-9417-8bb44f307ecc" name="WWE Arena" size="16x24">
+      <property name="Unit ID" value="wweM001" />
+      <property name="Collector Number" value="M001" />
+      <property name="Unit Type" value="Map" />
+    </card>
+    <card id="40db3738-cf1f-4a75-8131-0ae47474ab14" name="WWE Backstage Area" size="16x24">
+      <property name="Unit ID" value="wweM002" />
+      <property name="Collector Number" value="M002" />
+      <property name="Unit Type" value="Map" />
+    </card>
+    <card id="3d616f46-3212-4fab-8fb0-d4722b282133" name="WWE WarGames" size="16x24">
+      <property name="Unit ID" value="wweM003" />
+      <property name="Collector Number" value="M003" />
+      <property name="Unit Type" value="Map" />
+    </card>
+    <card id="079f68de-0768-49e9-a2ce-a2c2526bd1c4" name="WWE Training Center" size="16x24">
+      <property name="Unit ID" value="wweM004" />
+      <property name="Collector Number" value="M004" />
+      <property name="Unit Type" value="Map" />
+    </card>
+  </cards>
+</set>

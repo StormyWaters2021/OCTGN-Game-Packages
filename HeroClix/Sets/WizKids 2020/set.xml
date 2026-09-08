@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="WizKids 2020" id="fb068a8d-dbc3-4a7b-8b03-81cc57f82a39" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="7084cfcc-8647-4c0d-9485-f0f213b110de" name="Tire Stack" size="Card">
+      <property name="Unit ID" value="wk20WK20-s001" />
+      <property name="Collector Number" value="WK20-s001" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="3" />
+      <property name="Traits and Special Powers" value="Unnamed Ability&#10;When this object is used in a close object attack that hits, until your next turn, a hit target modifies attack -2 and gains Immobile, even if this effect is lost." />
+      <alternate name="Tire Stack" type="Tile" size="1x1" />
+    </card>
+    <card id="13d6f449-8cfe-4223-a3be-2a95b0d0e033" name="Barrel" size="Card">
+      <property name="Unit ID" value="wk20WK20-s002" />
+      <property name="Collector Number" value="WK20-s002" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="2" />
+      <property name="Traits and Special Powers" value="Unnamed Ability&#10;When this object is used in a close object attack that hits, after resolutions this character can use Force Blast at no cost to target a hit character, and double that amount of knock back." />
+      <alternate name="Barrel" type="Tile" size="1x1" />
+    </card>
+    <card id="3374a33c-b64f-46ef-b33a-0fe365d4d08c" name="Fire Extinguisher" size="Card">
+      <property name="Unit ID" value="wk20WK20-s004" />
+      <property name="Collector Number" value="WK20-s004" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="2" />
+      <property name="Traits and Special Powers" value="Unnamed Ability&#10;Powers: Smoke Cloud&#10;While holding this object, Smoke Cloud. When this character uses it, after resolutions KO this object. Once per game, when a friendly character within 3 squares and line of fire would take damage from either Energy Explosion or Poison, you may choose they take no damage instead" />
+      <alternate name="Fire Extinguisher" type="Tile" size="1x1" />
+    </card>
+    <card id="872403fa-a7f0-4d97-8652-be90f104c2af" name="John Cena" size="Card">
+      <property name="Unit ID" value="wk20WP20-001" />
+      <property name="Collector Number" value="WP20-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="85/45" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Celebrity | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: ATTITUDE ADJUSTMENT&#10;Powers: Slam&#10;If John Cena has 1 action token, Slam. When he uses it, after resolutions a hit character can't use damage powers until your next turn.&#10;&#10;[Trait] YOU CAN'T SEE ME&#10;When John Cena hits, until your next turn he can't be the target of any attack unless he's the only character on your force." />
+      <alternate name="John Cena" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="John Cena" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="John Cena" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="John Cena" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="John Cena" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="John Cena" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="John Cena" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Nimble" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="John Cena" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="a29fc4bf-6cc5-44a1-9290-bbd867fc27d6" name="Ultimate Warrior" size="Card">
+      <property name="Unit ID" value="wk20WP20-002" />
+      <property name="Collector Number" value="WP20-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Wwe" />
+      <property name="Keywords" value="Mystical | Warrior | Wwe" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: GORILLA PRESS SLAM&#10;CLOSE: If Ultimate Warrior has 1 action token, make a close attack. After resolutions, exchange squares with a hit character and give that character an action token.&#10;&#10;[Speed] REPEATED CLOTHESLINES&#10;Powers: Lightning Speed&#10;Lightning Speed. When Ultimate Warrior uses it and hits, once per turn after resolutions he can use Lightning Speed at no cost.&#10;&#10;[Damage] SHAKE THE ROPES&#10;Powers: Perplex&#10;Perplex, but only to target himself. Once per turn when Ultimate Warrior uses it, if he's adjacent to 2+ Ropes, he may use it again." />
+      <alternate name="Ultimate Warrior" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - REPEATED CLOTHESLINES" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SHAKE THE ROPES" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SHAKE THE ROPES" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Lightning Speed" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SHAKE THE ROPES" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - REPEATED CLOTHESLINES" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SHAKE THE ROPES" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SHAKE THE ROPES" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Stun" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Ultimate Warrior" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

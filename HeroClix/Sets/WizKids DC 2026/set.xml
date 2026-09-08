@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="WizKids DC 2026" id="2a3782ea-9eea-454a-b786-0ef0ae506e3e" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="7246e62e-b202-4478-ab3f-f5759b09e894" name="Skeetz" size="Card">
@@ -8,11 +9,11 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="10" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
       <property name="Traits and Special Powers" value="[Damage] HISTORY'S BIGGEST HEADLINES&#10;Powers: Probability Control&#10;Probability Control, but only to reroll attack rolls that have a [d:1] or a [d:6] in them." />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <alternate name="Skeetz" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -34,14 +35,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="63" />
       <property name="Team Abilities" value="Batman Ally" />
-      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Future | Gotham City | Past | White Lantern Corps | Detective" />
-      <property name="Keywords Search" value="| Batman Family | Future | Gotham City | Past | White Lantern Corps | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] WORMHOLES IN TIME&#10;When an opposing character within range uses Probability Control, after resolutions Batman may generate a Jonah Hex bystander [MAX 1].&#10;&#10;[Defense] SEDA'S LANTERN RING&#10;Powers: Stop&#10;STOP. When this click is revealed, after resolutions you may place Batman on his card. At the beginning of your next turn, place Batman adjacent to an opposing character." />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
+      <property name="Keywords Search" value="| Batman Family | Future | Gotham City | Past | White Lantern Corps | Detective |" />
       <alternate name="Batman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -153,13 +154,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Justice League" />
-      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Celebrity | Future | Justice League | Past" />
-      <property name="Keywords Search" value="| Celebrity | Future | Justice League | Past |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] BLUE BESTIE&#10;When Booster Gold starts the game, generate a Blue Beetle bystander. // When Blue Beetle would be KO'd, you may deal Booster Gold 1 unavoidable damage instead.&#10;&#10;[Damage] &quot;BORROWED&quot; FUTURE TECH&#10;At the beginning of your turn, Booster Gold may choose an equipment on your Sideline. He can use the EFFECT of that equipment until he chooses again." />
+      <property name="Team Abilities Search" value="| Justice League |" />
+      <property name="Keywords Search" value="| Celebrity | Future | Justice League | Past |" />
       <alternate name="Booster Gold" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -252,10 +253,10 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Justice League" />
-      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <alternate name="Blue Beetle" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -277,13 +278,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Cosmic Energy | Hypertime" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Hypertime |" />
       <property name="Keywords" value="Future | Justice League | Past" />
-      <property name="Keywords Search" value="| Future | Justice League | Past |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TEMPORAL MERGE&#10;At the beginning of your turn, you may choose a character within range. Until your next turn, that character has SAFEGUARD: Probability Control.&#10;&#10;[Trait] CONVERGENCE&#10;At the beginning of your turn, you may roll a d6 and place the result on Waverider's card, removing any other dice on his card. // When a character within range and line of fire attacks, you may remove a die from Waverider's card and replace a die in that roll with it.&#10;&#10;[Defense] I HAVE TIME&#10;Powers: Stop, Regeneration, Super Senses&#10;STOP. Regeneration, Super Senses." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Hypertime |" />
+      <property name="Keywords Search" value="| Future | Justice League | Past |" />
       <alternate name="Waverider" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -349,12 +350,12 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="300/200/100/50" />
       <property name="Keywords" value="Animal | Monster | Dark Knights" />
-      <property name="Keywords Search" value="| Animal | Monster | Dark Knights |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Colossal" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] DARK ARMY OF BARBATOS&#10;Powers: Super Senses, Blades Claws Fangs, Regeneration&#10;If The Joker Dragon is on a themed team, he can use the corresponding effect: Animal: Super Senses, Blades/Claws/Fangs. Monster: Regeneration. Regeneration as FREE but only if The Joker Dragon has 2 action tokens. Dark Knights: Modify The Joker Dragon's combat values +1. Friendly characters with the Dark Knights Keyword may use Mastermind but only to target The Joker Dragon.&#10;&#10;[Trait] DIVE BOMB&#10;Powers: Quake&#10;MOVE: Move, then The Joker Dragon may use Quake as FREE. If The Joker Dragon does and misses all targets, after resolutions deal The Joker Dragon 1 unavoidable damage.&#10;&#10;[Attack] FLAMES OF GREEN&#10;Powers: Energy Explosion, Poison, Precision Strike&#10;Energy Explosion, Poison, Precision Strike. // The Joker Dragon deals penetrating damage." />
+      <property name="Keywords Search" value="| Animal | Monster | Dark Knights |" />
       <alternate name="The Joker Dragon" type="Click1" size="2x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -599,13 +600,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="150/70" />
       <property name="Team Abilities" value="Superman Ally" />
-      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Armor | Justice League | Metropolis | Scientist" />
-      <property name="Keywords Search" value="| Armor | Justice League | Metropolis | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Speed] THE MAN OF STEEL IS COMING THROUGH!&#10;Powers: Charge, Flurry&#10;[im:destroy_blocking], Charge. // Flurry. When Steel uses it and hits with the first attack, he has Giant Reach: 6 for the second attack.&#10;&#10;[Defense] FORGING THE FUTURE&#10;Powers: Invincible, Willpower&#10;Invincible, Willpower. Protected: Outwit.&#10;&#10;[Damage] DESIGNING SOLUTIONS&#10;Powers: Outwit&#10;Outwit. Steel may use it an additional time for each opposing character he hit this turn." />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
+      <property name="Keywords Search" value="| Armor | Justice League | Metropolis | Scientist |" />
       <alternate name="Steel" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -721,13 +722,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Ally" />
-      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Justice League | Martial Artist | Detective" />
-      <property name="Keywords Search" value="| Batman Family | Gotham City | Justice League | Martial Artist | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] APPEARS WHERE YOU LEAST EXPECT HIM&#10;At the beginning of your turn, if Batman has no action tokens, you may place him up to 4 squares away from his current square.&#10;&#10;[Damage] WORLD'S GREATEST DETECTIVE&#10;Powers: Outwit&#10;Outwit. When Batman uses it, he may instead target an opposing character that attacked since your last turn regardless of range and line of fire." />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Justice League | Martial Artist | Detective |" />
       <alternate name="Batman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -807,7 +808,365 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;Powers: Force Blast, Close Combat Expert&#10;Giant Reach: 3. [it:destroy_blocking,characters,elevated], but only for close attacks. // Force Blast. Close Combat Expert, but only when attacking a character at least 3 squares away." />
-      <alternate type="Tile" size="1x1" name="Kinetic Hammer" />
+      <alternate name="Kinetic Hammer" type="Tile" size="1x1" />
+    </card>
+    <card id="e4eab3c8-a572-4eb4-b3a5-315d44d38e62" name="Wonder Woman" size="Card">
+      <property name="Unit ID" value="wkd26DCOP26-001" />
+      <property name="Collector Number" value="DCOP26-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="90/50" />
+      <property name="Team Abilities" value="Wonder Woman Ally" />
+      <property name="Keywords" value="Bombshells | Past | Soldier | Amazon | Warrior" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] BLITZKRIEG&#10;Powers: Leadership&#10;Leadership. When Wonder Woman uses it, after resolutions you may choose a number of friendly characters equal to half the result. Move each of those characters up to 1 square.&#10;&#10;[Attack] LASSO OF TRUTH&#10;Powers: Precision Strike&#10;Precision Strike. // When Wonder Woman hits, hit characters can't be given FREE actions until your next turn.&#10;&#10;[Defense] INCOMING! GET BEHIND ME!&#10;Powers: Invulnerability, Super Senses&#10;Invulnerability, Super Senses. // Adjacent friendly characters modify defense +1." />
+      <alternate name="Wonder Woman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LASSO OF TRUTH" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - LASSO OF TRUTH" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - INCOMING! GET BEHIND ME!" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - INCOMING! GET BEHIND ME!" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - INCOMING! GET BEHIND ME!" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wonder Woman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="7839a67a-0a3c-49de-9015-d9a09dced794" name="Wonder Woman" size="Card">
+      <property name="Unit ID" value="wkd26DCOP26-002" />
+      <property name="Collector Number" value="DCOP26-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="70" />
+      <property name="Team Abilities" value="Wonder Woman Ally" />
+      <property name="Keywords" value="Justice League | Past | Amazon | Warrior | Deity" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] GODS AND MORTALS&#10;When Wonder Woman attacks and rolls doubles other than [d:1][d:1], after resolutions you may choose a game element on your opponent's Sideline. If you do, remove it from the game and end any durations created by it. Game elements removed this way only score the points paid to add them to a Sideline.&#10;&#10;[Defense] CLAY-BORN, GODDESS-BLESSED&#10;Powers: Combat Reflexes, Toughness&#10;Combat Reflexes, Toughness. // When Wonder Woman takes damage, after resolutions heal her 1 click." />
+      <alternate name="Wonder Woman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - CLAY-BORN, GODDESS-BLESSED" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - CLAY-BORN, GODDESS-BLESSED" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - CLAY-BORN, GODDESS-BLESSED" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - CLAY-BORN, GODDESS-BLESSED" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - CLAY-BORN, GODDESS-BLESSED" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Wonder Woman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="08156946-cffb-40d5-840e-7830d3f829e5" name="Wonder Woman" size="Card">
+      <property name="Unit ID" value="wkd26DCOP26-003" />
+      <property name="Collector Number" value="DCOP26-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="80" />
+      <property name="Team Abilities" value="Wonder Woman Ally" />
+      <property name="Keywords" value="Justice League | Future | Amazon | Warrior | Deity" />
+      <property name="Range" value="3" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] JERRY, THE WINGED HORSE&#10;At the beginning of the game, generate a Jerry bystander. // When Jerry carries Wonder Woman, after resolutions Wonder Woman may make an attack.&#10;&#10;[Speed] ALALALA!&#10;Powers: Running Shot, Sidestep&#10;Running Shot, Sidestep.&#10;&#10;[Damage] GOLDEN BOLAS&#10;Powers: Precision Strike&#10;Precision Strike. // Once per turn when an opposing character moves into a square within Wonder Woman's range and line of fire, you may roll a d6. If the result is equal or higher than the opposing character's printed damage value, it must end its movement." />
+      <alternate name="Wonder Woman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ALALALA!" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - GOLDEN BOLAS" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ALALALA!" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - GOLDEN BOLAS" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ALALALA!" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - GOLDEN BOLAS" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - GOLDEN BOLAS" />
+      </alternate>
+      <alternate name="Wonder Woman" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - GOLDEN BOLAS" />
+      </alternate>
+      <alternate name="Wonder Woman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="344d4579-648e-4b9f-81c2-95d66ef34c3c" name="Jerry" size="Card">
+      <property name="Unit ID" value="wkd26DCOP26-003bt" />
+      <property name="Collector Number" value="DCOP26-003bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <alternate name="Jerry" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+    </card>
+    <card id="666904ff-711b-4e82-bf62-b03c5d36ccf7" name="Lasso of Truth" size="Card">
+      <property name="Unit ID" value="wkd26DCOP26-OS001" />
+      <property name="Collector Number" value="DCOP26-OS001" />
+      <property name="Unit Type" value="One Shot" />
+      <property name="Point Values" value="5" />
+      <property name="Traits and Special Powers" value="EFFECT:&#10;When a friendly character hits, you may give a hit character an action token. If that friendly character has the Amazon keyword, the hit character also can't use defense powers (for this attack)." />
     </card>
   </cards>
 </set>

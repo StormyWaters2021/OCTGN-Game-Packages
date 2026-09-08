@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="WizKids 2022" id="e13ec085-01d0-4602-b935-4df74b6ee483" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="92999e5b-20ac-4dee-b8aa-fc861d4dea34" name="Spirit of the Game" size="Card">
+      <property name="Unit ID" value="wk22WK22-B001" />
+      <property name="Collector Number" value="WK22-B001" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="20" />
+      <property name="Keywords" value="Ghost Realm | Police | Mystical" />
+      <property name="Range" value="7" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Damage] FAMILIES COME IN ALL SHAPES AND SIZES&#10;If Spirit of the Game is on a themed team, at the beginning of your turn, Action Total +1." />
+      <alternate name="Spirit of the Game" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - FAMILIES COME IN ALL SHAPES AND SIZES" />
+      </alternate>
+    </card>
+  </cards>
+</set>

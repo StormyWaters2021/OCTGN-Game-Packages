@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="WizKids 2017" id="240ea27b-0b45-4c97-acf6-aba44d90ffee" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="9bbebe4e-4f49-4db5-812f-e82b11679a8d" name="Train Station" size="16x24">
+      <property name="Unit ID" value="wk17M001" />
+      <property name="Collector Number" value="M001" />
+      <property name="Unit Type" value="Map" />
+    </card>
+    <card id="da343d40-9bac-4fb9-9691-151f1e9bbdf9" name="Train Yard" size="16x24">
+      <property name="Unit ID" value="wk17M002" />
+      <property name="Collector Number" value="M002" />
+      <property name="Unit Type" value="Map" />
+    </card>
+    <card id="1daf8f2b-5c76-4487-81f7-58107562f819" name="Cyber Shredder" size="Card">
+      <property name="Unit ID" value="wk17TP17-001" />
+      <property name="Collector Number" value="TP17-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="125" />
+      <property name="Keywords" value="Robot | Tmnt Villain | Foot Clan" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] FOOLS, YOU CANNOT ESCAPE MY REACH... OR FORCE FIELD&#10;Powers: Energy Shield Deflection&#10;Cyber Shredder can use Energy Shield/Deflection and Giant Reach: 2.&#10;&#10;[Speed] CYBER BRAINWASHING&#10;Powers: Mind Control&#10;Cyber Shredder can use Mind Control with a range value of 6 and [cs:bolt][cs:bolt][cs:bolt][cs:bolt]. If the hit characters total point value is more than Cyber Shredder's point value, this Mind Control instead misses all targets except one of your choice.&#10;&#10;[Defense] MISS AND PARRY&#10;Powers: Impervious&#10;Cyber Shredder can use Impervious. When an adjacent opposing character attacks Cyber Shredder and he takes no damage from the attack, place a Counterattack token on Cyber Shredder. At the beginning of your turn, remove all Counterattack tokens and Cyber Shredder may make a close attack, increasing his attack value by 1 for each removed marker.&#10;&#10;[Damage] I CONTROL THE LIGHTS AND MAINFRAME&#10;Opposing characters can't target other characters that are 5 or more squares away from themselves." />
+      <alternate name="Cyber Shredder" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MISS AND PARRY" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Cyber Shredder" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MISS AND PARRY" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Cyber Shredder" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MISS AND PARRY" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Cyber Shredder" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - MISS AND PARRY" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Cyber Shredder" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - I CONTROL THE LIGHTS AND MAINFRAME" />
+      </alternate>
+      <alternate name="Cyber Shredder" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - CYBER BRAINWASHING" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - I CONTROL THE LIGHTS AND MAINFRAME" />
+      </alternate>
+      <alternate name="Cyber Shredder" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - CYBER BRAINWASHING" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - I CONTROL THE LIGHTS AND MAINFRAME" />
+      </alternate>
+      <alternate name="Cyber Shredder" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - CYBER BRAINWASHING" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - I CONTROL THE LIGHTS AND MAINFRAME" />
+      </alternate>
+      <alternate name="Cyber Shredder" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="181696b6-3a61-4ce1-935a-75272e37b36e" name="Pizza Face" size="Card">
+      <property name="Unit ID" value="wk17TP17-002" />
+      <property name="Collector Number" value="TP17-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="60" />
+      <property name="Keywords" value="Tmnt Villain" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] LIVING PIZZAS&#10;At the beginning of your first turn, choose an opponent. Place one Living Pizza bystander adjacent to your starting area for each non-bystander character that opponent has on the map.&#10;&#10;[Speed] PIZZA ZOMBIES&#10;Powers: Mind Control&#10;Pizza Face can use Mind Control with a range value of 8. When he does, you may choose to modify Pizza Face's attack value by +3. If you do after actions resolve, heal the hit target 1 click." />
+      <alternate name="Pizza Face" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Pizza Face" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - PIZZA ZOMBIES" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Pizza Face" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - PIZZA ZOMBIES" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Pizza Face" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - PIZZA ZOMBIES" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Pizza Face" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Special - PIZZA ZOMBIES" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Pizza Face" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Pizza Face" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="5e691547-992e-4fcf-999f-a175559200b5" name="Living Pizza" size="Card">
+      <property name="Unit ID" value="wk17TP17-002bt" />
+      <property name="Collector Number" value="TP17-002bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
+      <alternate name="Living Pizza" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+    </card>
+    <card id="068bd06e-5d51-48fb-89c6-4addd013cab5" name="Bebop And Rocksteady" size="Card">
+      <property name="Unit ID" value="wk17TP17-003" />
+      <property name="Collector Number" value="TP17-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="125" />
+      <property name="Keywords" value="Animal | Tmnt Villain | Foot Clan" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Improved Targeting" value="Adjacent" />
+      <property name="Traits and Special Powers" value="[Trait] YOU SHOOTS 'EM, I'LL PUNCH 'EM&#10;When Bebop and Rocksteady make a range attack, after actions resolve they may make a close attack.&#10;&#10;[Trait] INEPT MORON MINIONS&#10;Bebop and Rocksteady modify their defense by +2 when targeted by Mind Control. Once per turn, a friendly character of 25 points or more that shares a keyword may target Bebop and Rocksteady with Mind Control." />
+      <alternate name="Bebop And Rocksteady" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Bebop And Rocksteady" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

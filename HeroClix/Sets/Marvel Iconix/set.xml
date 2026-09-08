@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="Marvel Iconix" id="a4bd5924-867b-4e38-a6b4-379cb66bd3ee" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="760bcfbf-4736-4f3a-a403-83253fe44582" name="Spider-Man" size="Card">
@@ -8,13 +9,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Celebrity | Spider Man Family | Maggia" />
-      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Maggia |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THAT MAN'S AN IMPOSTER!&#10;At the beginning of your turn, choose a direct line away from Spider-Man and orient him so he's pointing at the line. Whenever Spider-Man is moved or placed, he remains pointing along that direct line. // The closest other character within line of fire that occupies the last direct line that Spider-Man chose to point in can use Shape Change. If they can already use Shape Change, instead increase the result of their roll for Shape Change by +1.&#10;&#10;[Trait] NO ONE WILL KNOW I'M NOT THE REAL SPIDER-MAN!&#10;Powers: Shape Change, Sidestep&#10;Shape Change, Sidestep. When Spider-Man uses Shape Change, if one or more other characters named Spider-Man are on the map, once per turn you may reroll the result.&#10;&#10;[Damage] ACCOMPLISHED ART THIEF&#10;Powers: Outwit&#10;Outwit. When Spider-Man uses it and chooses a standard power the target can use, he can use the chosen power until your next turn." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Maggia |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -85,13 +86,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Avengers | Reporter | Scientist | Spider Man Family" />
-      <property name="Keywords Search" value="| Avengers | Reporter | Scientist | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THAT MAN'S AN IMPOSTER!&#10;At the beginning of your turn, choose a direct line away from Spider-Man and orient him so he's pointing at the line. Whenever Spider-Man is moved or placed, he remains pointing along that direct line. // The closest other character within line of fire that occupies the last direct line that Spider-Man chose to point in can use Shape Change. If they can already use Shape Change, instead increase the result of their roll for Shape Change by +1.&#10;&#10;[Trait] THE REAL SPIDER-MAN&#10;Powers: Leap Climb, Sidestep&#10;Leap/Climb, Sidestep. // If no other friendly characters named Spider-Man are on the map, Spider-Man can use Sidestep twice a turn.&#10;&#10;[Speed] WEB NET&#10;Powers: Plasticity&#10;Plasticity. Opposing characters within range and line of fire must roll for breakaway as if they were adjacent to Spider-Man." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Avengers | Reporter | Scientist | Spider Man Family |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -163,13 +164,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="X Men" />
-      <property name="Team Abilities Search" value="| X Men |" />
       <property name="Keywords" value="Alpha Flight | X Men | Weapon X" />
-      <property name="Keywords Search" value="| Alpha Flight | X Men | Weapon X |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] PINING AFTER JEAN&#10;When Wolverine starts the game, choose another friendly character to be his Crush. // At the end of your turn, if Wolverine's Crush is within 2 squares, you may heal Wolverine 2 clicks. // If Wolverine's Crush is not within 2 squares, all other characters within 2 squares modify their attack and damage -1.&#10;&#10;[Trait] RAAAGH!&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. Once per game when Wolverine uses it, before rolling you may choose to increase the result by +1 for each character with [ta:x_men] in your KO Area.&#10;&#10;[Speed] LOCKED IN HIS ROOM&#10;Powers: Sidestep&#10;Sidestep. // Wolverine can only be targeted by characters within 2 squares." />
+      <property name="Team Abilities Search" value="| X Men |" />
+      <property name="Keywords Search" value="| Alpha Flight | X Men | Weapon X |" />
       <alternate name="Wolverine" type="Click1" size="1x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -249,14 +250,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Black Order | Cosmic | Minions Of Thanos | Ruler | Monster | Deity | Eternal" />
-      <property name="Keywords Search" value="| Black Order | Cosmic | Minions Of Thanos | Ruler | Monster | Deity | Eternal |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] THE GAUNTLET, COMPLETED&#10;Powers: Sidestep, Running Shot, Phasing Teleport, Mind Control, Penetrating Psychic Blast, Steal Energy, Pulse Wave, Invincible, Invulnerability, Regeneration, Ranged Combat Expert, Perplex, Close Combat Expert, Probability Control&#10;FREE: Choose a standard power on Thanos's card. Thanos can use the chosen power until your next turn.&#10;&#10;[Trait] *SNAP*&#10;When Thanos takes damage, give him a Gem token for each click of damage taken. // POWER: Once per game, remove 6 Gem tokens from Thanos. If you do, each player divides their opponent's force's character cards into two piles. Each player then chooses a pile of their own force's cards. Deal 3 unavoidable damage to all characters other than Thanos whose cards are in the chosen piles.&#10;&#10;[Defense] YOU SHOULD HAVE GONE FOR THE HEAD&#10;Powers: Stop, Invulnerability&#10;STOP. Invulnerability." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Black Order | Cosmic | Minions Of Thanos | Ruler | Monster | Deity | Eternal |" />
       <alternate name="Thanos" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -380,14 +381,14 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Past | Scientist | Stark Industries" />
-      <property name="Keywords Search" value="| Armor | Avengers | Past | Scientist | Stark Industries |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: HALL OF ARMORS&#10;FREE: If Iron Man began your turn on the map, replace him with another character with this trait on the same click number. If you did, after resolutions you may generate a character with this trait from your sideline on click #11 adjacent to the replacement character. This game the generated character can't use this trait and isn't scored when KO'd.&#10;&#10;[Attack] MICRO ROCKETS&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, Giant Reach: 4. When Iron Man uses Blades/Claws/Fangs, if the target has [ta:masters_of_evil], increase the result +1.&#10;&#10;[Damage] RAPID INNOVATION&#10;Powers: Perplex&#10;Perplex. When Iron Man uses it to target a character with the Armor or Robot keyword, after resolutions heal that character 1 click if it is friendly, or deal that character 1 penetrating damage if it is opposing." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Armor | Avengers | Past | Scientist | Stark Industries |" />
       <alternate name="Iron Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -502,13 +503,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Avengers Initiative" />
-      <property name="Team Abilities Search" value="| Avengers Initiative |" />
       <property name="Keywords" value="Celebrity | Armor | Avengers | Scientist | Stark Industries" />
-      <property name="Keywords Search" value="| Celebrity | Armor | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: HALL OF ARMORS&#10;FREE: If Iron Man began your turn on the map, replace him with another character with this trait on the same click number. If you did, after resolutions you may generate a character with this trait from your sideline on click #11 adjacent to the replacement character. This game the generated character can't use this trait and isn't scored when KO'd.&#10;&#10;[Speed] EM-ENHANCED REPULSORS&#10;Powers: Sidestep, Force Blast&#10;Sidestep, Force Blast. When Iron Man knocks back one or more opposing characters, after resolutions deal those characters 1 damage. If those characters can use [ta:x_men], the damage dealt to them is penetrating.&#10;&#10;[Damage] NANO-AUGMENTED INTELLIGENCE&#10;Powers: Outwit, Shape Change&#10;Outwit, Shape Change. When Iron Man is attacked by a character with the Scientist or Ruler keyword, increase the results of his Shape Change and Super Senses rolls by +1." />
+      <property name="Team Abilities Search" value="| Avengers Initiative |" />
+      <property name="Keywords Search" value="| Celebrity | Armor | Avengers | Scientist | Stark Industries |" />
       <alternate name="Iron Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -623,13 +624,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Shield" />
-      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Brute | Armor | Avengers | Scientist | Stark Industries" />
-      <property name="Keywords Search" value="| Brute | Armor | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Giant" />
       <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: HALL OF ARMORS&#10;FREE: If Iron Man began your turn on the map, replace him with another character with this trait on the same click number. If you did, after resolutions you may generate a character with this trait from your sideline on click #11 adjacent to the replacement character. This game the generated character can't use this trait and isn't scored when KO'd.&#10;&#10;[Attack] GO TO SLEEP!&#10;Powers: Incapacitate&#10;Incapacitate. When Iron Man uses it, choose one. If all hit targets have [cs:giant] or [cs:colossal], choose both: *Iron Man still deals normal damage. *Hit targets are given two action tokens instead.&#10;&#10;[Defense] COMPOSITE PLATING&#10;Powers: Impervious&#10;Impervious. When Iron Man uses it and succeeds, after resolutions remove an action token from him. Iron Man can reduce penetrating damage dealt by characters with the Monster keyword." />
+      <property name="Team Abilities Search" value="| Shield |" />
+      <property name="Keywords Search" value="| Brute | Armor | Avengers | Scientist | Stark Industries |" />
       <alternate name="Iron Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -744,13 +745,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Mystics" />
-      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Armor | Asgardian | Avengers | Scientist | Stark Industries" />
-      <property name="Keywords Search" value="| Armor | Asgardian | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: HALL OF ARMORS&#10;FREE: If Iron Man began your turn on the map, replace him with another character with this trait on the same click number. If you did, after resolutions you may generate a character with this trait from your sideline on click #11 adjacent to the replacement character. This game the generated character can't use this trait and isn't scored when KO'd.&#10;&#10;[Attack] CRYSTAL POWERED UNI-BEAM&#10;Powers: Energy Explosion&#10;Energy Explosion. When Iron Man uses it, targeted characters that have [ta:cosmic_energy] can't use powers (for this attack). // When Iron Man hits with a range attack, hit characters modify attack and damage -1 until your next turn.&#10;&#10;[Damage] ASGARDIAN ENCHANTMENTS&#10;Powers: Enhancement, Empower&#10;Enhancement, Empower. // When Iron Man hits one or more opposing characters that have the Deity keyword, after resolutions remove an action token from him." />
+      <property name="Team Abilities Search" value="| Mystics |" />
+      <property name="Keywords Search" value="| Armor | Asgardian | Avengers | Scientist | Stark Industries |" />
       <alternate name="Iron Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -865,13 +866,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Atlantis | Avengers | Scientist | Stark Industries" />
-      <property name="Keywords Search" value="| Armor | Atlantis | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: HALL OF ARMORS&#10;FREE: If Iron Man began your turn on the map, replace him with another character with this trait on the same click number. If you did, after resolutions you may generate a character with this trait from your sideline on click #11 adjacent to the replacement character. This game the generated character can't use this trait and isn't scored when KO'd.&#10;&#10;[Attack] ELECTRIC STUN FIELD&#10;Powers: Poison&#10;Poison, and when Iron Man uses it opposing characters within range that occupy water terrain are considered adjacent. // Iron Man deals penetrating damage to opposing characters that have the Armor or Ruler keywords.&#10;&#10;[Damage] DEEP TORPEDOES&#10;Lines of fire Iron Man draws to characters occupying water terrain can't be blocked. // When Iron Man attacks, opposing characters can't use [cs:dolphin]." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Armor | Atlantis | Avengers | Scientist | Stark Industries |" />
       <alternate name="Iron Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -986,13 +987,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Past | Scientist | Stark Industries" />
-      <property name="Keywords Search" value="| Armor | Avengers | Past | Scientist | Stark Industries |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SOLAR-POWERED FLIGHT&#10;When Iron Man is given a MOVE action, after resolutions remove an action token from him.&#10;&#10;[Defense] THE INVINCIBLE IRON MAN&#10;Powers: Invincible&#10;Invincible. // Once per turn, when another friendly character with [ta:avengers] is hit, that character may use Invincible (for that attack).&#10;&#10;[Damage] WE ARE... THE AVENGERS!&#10;Modify Iron Man's combat values +1 for each other friendly character that can use this power." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Armor | Avengers | Past | Scientist | Stark Industries |" />
       <alternate name="Iron Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1103,13 +1104,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Brute | Avengers | Scientist | Monster" />
-      <property name="Keywords Search" value="| Brute | Avengers | Scientist | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] NOTHING CAN HOLD THE HULK!&#10;FREE: Once per game, remove all action tokens from Hulk and destroy all terrain markers adjacent to him.&#10;&#10;[Speed] THE INCREDIBLE HULK&#10;Powers: Charge&#10;Charge. // Once per turn, another friendly character with [ta:avengers] can use Charge.&#10;&#10;[Damage] WE ARE... THE AVENGERS!&#10;Modify Hulk's combat values +1 for each other friendly character that can use this power." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Brute | Avengers | Scientist | Monster |" />
       <alternate name="Hulk" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1220,13 +1221,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Asgardian | Avengers | Scientist | Warrior | Deity" />
-      <property name="Keywords Search" value="| Asgardian | Avengers | Scientist | Warrior | Deity |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MJOLNIR'S MAGNETIC PULL&#10;Powers: Plasticity&#10;Plasticity. // When Thor attacks, before rolling, he may place an adjacent opposing character into any other square adjacent to himself.&#10;&#10;[Attack] THE MIGHTY THOR&#10;KNOCKBACK. // Once per turn when another friendly character with [ta:avengers] hits, they may knock back all hit characters.&#10;&#10;[Damage] WE ARE... THE AVENGERS!&#10;Modify Thor's combat values +1 for each other friendly character that can use this power." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Scientist | Warrior | Deity |" />
       <alternate name="Thor" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1340,13 +1341,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Scientist" />
-      <property name="Keywords Search" value="| Avengers | Scientist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
       <property name="Traits and Special Powers" value="[Trait] ANT TUNNEL CAVE-IN&#10;When Wasp and Ant-Man hits, after resolutions you may give each hit character an action token and remove any non-debris terrain markers in those character's squares from the game.&#10;&#10;[Speed] THE ASTONISHING ANT-MAN AND WONDERFUL WASP&#10;FREE: Choose one: *Move Wasp and Ant-Man up to 3 squares. *Make an attack.&#10;// Once per turn when another friendly character with [ta:avengers] hits, after resolutions you may give a hit character an action token.&#10;&#10;[Damage] WE ARE... THE AVENGERS!&#10;Modify Wasp and Ant-Man's combat values +1 for each other friendly character that can use this power." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Avengers | Scientist |" />
       <alternate name="Wasp &amp; Ant-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1458,13 +1459,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="300/50" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Asgardian | Mystical | Deity" />
-      <property name="Keywords Search" value="| Asgardian | Mystical | Deity |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MENTAL PROJECTIONS&#10;Powers: Mind Control&#10;Mind Control. Mind Control as FREE, but only if an opponent's force has two or more characters more than your force. // When Loki uses Mind Control, if he's 300 points, instead of rolling to hit targeted characters become hit.&#10;&#10;[Trait] SCHEMES AND TRICKS&#10;Powers: Probability Control&#10;Probability Control. When Loki uses it to reroll an attack and the attack misses, after resolutions he may deal 1 unavoidable damage to the attacker.&#10;&#10;[Attack] ISLE OF SILENCE&#10;Other characters within range can't be given FREE actions.&#10;&#10;[Damage] MEDDLING FROM AFAR&#10;Powers: Shape Change&#10;Shape Change. // [it:blocking,characters,elevated,hindering]." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
+      <property name="Keywords Search" value="| Asgardian | Mystical | Deity |" />
       <alternate name="Loki" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1602,11 +1603,11 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="15" />
       <property name="Keywords" value="X Force" />
-      <property name="Keywords Search" value="| X Force |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] METAMORPH&#10;Copycat can use standard powers adjacent characters can use." />
+      <property name="Keywords Search" value="| X Force |" />
       <alternate name="Copycat" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1624,13 +1625,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="15" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin" />
-      <property name="Keywords Search" value="| Assassin |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] CHEMOKINESIS&#10;When Valentine Vuong damages a character without any action tokens, give that character an action token." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Assassin |" />
       <alternate name="Valentine Vuong" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1651,12 +1652,12 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="20" />
       <property name="Team Abilities" value="Brotherhood Of Mutants" />
-      <property name="Team Abilities Search" value="| Brotherhood Of Mutants |" />
       <property name="Keywords" value="X Men" />
-      <property name="Keywords Search" value="| X Men |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Brotherhood Of Mutants |" />
+      <property name="Keywords Search" value="| X Men |" />
       <alternate name="Rogue" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1677,14 +1678,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="450/300/250/150/80" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Herald | Deity | Ultimates" />
-      <property name="Keywords Search" value="| Cosmic | Herald | Deity | Ultimates |" />
       <property name="Range" value="11" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="MULTI-DIAL&#10;When the G001a dial would be &quot;KOd&quot;, instead Galactus continues on click #1 of the G001b dial. Excess damage does not carry over. When Galactus is healed, he can't be healed above click #1 of the G001b dial or back onto the G001a dial.&#10;&#10;PLACEMENT WHEN STARTING THE GAME&#10;When Galactus is placed during game set-up or starts the game when generated by the Herald dial, he can be placed in blocking terrain and immediately destroys that terrain when doing so.&#10;&#10;[Trait] GALACTUS'S ARRIVAL&#10;POWER: Place Galactus anywhere on the map. Galactus may be placed on blocking terrain this way and immediately destroys that terrain when doing so. After resolutions, knock back all adjacent opposing characters.&#10;&#10;[Defense] THE WORLD SHAKES&#10;Powers: Stop, Impervious&#10;STOP. Impervious. Galactus can reduce penetrating damage. // When this click is revealed, after resolutions deal 1 penetrating damage to all other characters." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Herald | Deity | Ultimates |" />
       <alternate name="Galactus" type="Click1" size="3x6">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Green" />
@@ -2147,11 +2148,11 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="70/45" />
       <property name="Keywords" value="Animal | Brute | Assassin | Soldier | Weapon X" />
-      <property name="Keywords Search" value="| Animal | Brute | Assassin | Soldier | Weapon X |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MOVING IS THE THING I DO BEST!&#10;Powers: Regeneration, Super Senses&#10;Regeneration, Super Senses. When Wolverine uses either, after resolutions you may place him a number of squares away from his current square equal to the d6 result.&#10;&#10;[Speed] WOLVERINE IS COMING THROUGH!&#10;Powers: Charge, Flurry&#10;Charge, Flurry. // When Wolverine moves or is placed, after resolutions he may knock back an adjacent character.&#10;&#10;[Attack] YES, HULK, I SEE HOW STRONG YOU ARE...&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Wolverine uses it, he may choose a terrain marker equipped to or held by a hit character. If he does, after resolutions Wolverine may take a CLOSE Terrain Action as FREE as if he held the chosen terrain marker." />
+      <property name="Keywords Search" value="| Animal | Brute | Assassin | Soldier | Weapon X |" />
       <alternate name="Wolverine" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2267,11 +2268,11 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="95/45" />
       <property name="Keywords" value="Brute | Avengers | Monster" />
-      <property name="Keywords Search" value="| Brute | Avengers | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] CRASHING INTO CANADA&#10;When Hulk is given a MOVE action, after resolutions destroy all non-debris terrain markers within 3 squares, then make an attack.&#10;&#10;[Attack] HULK CAN THROW WHOLE FOREST!&#10;Powers: Super Strength&#10;Super Strength. // When the Hulk takes a CLOSE or RANGE Terrain Action, after resolutions he may generate and pick up an object.&#10;&#10;[Defense] WENDIGO CAN'T HURT HULK WITH JUST ONE TREE!&#10;Powers: Stop, Impervious&#10;STOP. Impervious. When Hulk uses it, if the attacker is equipped or holding a terrain marker, increase the result of the roll by +2." />
+      <property name="Keywords Search" value="| Brute | Avengers | Monster |" />
       <alternate name="Hulk" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2388,12 +2389,12 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="95/45" />
       <property name="Keywords" value="Animal | Brute | Monster | Mystical" />
-      <property name="Keywords Search" value="| Animal | Brute | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] CURSE OF THE WENDIGO&#10;At the beginning of the game, generate a Marie Cartier bystander. // When Wendigo is KO'd choose a friendly character. This game, that character can use Steal Energy and modifies their combat values +1.&#10;&#10;[Speed] WEN-DI-GO!&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Wendigo uses it, instead of making an attack he may take a CLOSE Terrain Action as FREE.&#10;&#10;[Defense] SPELL OF SUBJUGATION&#10;Powers: Stop, Invulnerability&#10;STOP. Invulnerability. The first time this click is revealed, after resolutions give all characters within 2 squares of either Wendigo or Marie Cartier an action token." />
+      <property name="Keywords Search" value="| Animal | Brute | Monster | Mystical |" />
       <alternate name="Wendigo" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2531,13 +2532,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="125/70" />
       <property name="Team Abilities" value="Avengers | Wakanda" />
-      <property name="Team Abilities Search" value="| Avengers | Wakanda |" />
       <property name="Keywords" value="Armor | Avengers | Robot | Vehicle | Wakanda" />
-      <property name="Keywords Search" value="| Armor | Avengers | Robot | Vehicle | Wakanda |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
       <property name="Traits and Special Powers" value="[Trait] VIBRANIUM ARMOR&#10;Powers: Super Senses&#10;Super Senses. // When Wakanda Hulkbuster is KO'd, you may generate a character named Black Panther from your sideline on their last non-KO click. That Black Panther can't be healed, replaced, and isn't scored when KO'd. Protected: Pulse Wave.&#10;&#10;[Speed] FIRST PROTOCOL: DISORIENTING SONICS&#10;Powers: Charge, Flurry&#10;Charge, Flurry. // Opposing characters can't be given more than one FREE action per turn.&#10;&#10;[Attack] SECOND PROTOCOL: DISABLING SPORE CLOUD&#10;Powers: Poison, Quake&#10;Poison, Quake. // When Wakanda Hulkbuster damages an opposing character, after resolutions give that character an action token.&#10;&#10;[Defense] THIRD PROTOCOL: ABSORB AND AMPLIFY&#10;Powers: Invulnerability&#10;Invulnerability. // Adjacent opposing characters modify their attack and defense -1 for every action token they have." />
+      <property name="Team Abilities Search" value="| Avengers | Wakanda |" />
+      <property name="Keywords Search" value="| Armor | Avengers | Robot | Vehicle | Wakanda |" />
       <alternate name="Wakanda Hulkbuster" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2653,13 +2654,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Avengers | Defenders" />
-      <property name="Team Abilities Search" value="| Avengers | Defenders |" />
       <property name="Keywords" value="Avengers | Invaders | Past | Soldier" />
-      <property name="Keywords Search" value="| Avengers | Invaders | Past | Soldier |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MY TRUSTY SHIELD&#10;Powers: Energy Shield Deflection&#10;Energy Shield/Deflection. // When Captain America hits, after resolutions give each hit target an action token.&#10;&#10;[Attack] I ALMOST FORGOT MYSELF&#10;When Captain America attacks a character he shares a keyword with, modify his attack +2.&#10;&#10;[Damage] CAPTAIN AMERICA THROWS HIS MIGHTY SHIELD&#10;Once per turn, when Captain America hits with a range attack, after resolutions he may make a range attack against an opposing character within 3 squares of the target regardless of range or line of fire." />
+      <property name="Team Abilities Search" value="| Avengers | Defenders |" />
+      <property name="Keywords Search" value="| Avengers | Invaders | Past | Soldier |" />
       <alternate name="Captain America" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2750,13 +2751,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player | Spider Man" />
-      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
       <property name="Keywords" value="Scientist | Spider Man Family" />
-      <property name="Keywords Search" value="| Scientist | Spider Man Family |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE ONE I DIDN'T STOP WHEN I HAD THE CHANCE&#10;Opposing characters don't stop moving when they become adjacent to Spider-Man and don't need to break away from him. // UNIQUE MODIFIER - When an opposing character moves through a square adjacent to Spider-Man, modify Spider-Man's attack and damage +1 until the end of your next turn.&#10;&#10;[Trait] WITH GREAT POWER...&#10;Adjacent opposing characters can't use Shape Change or Stealth.&#10;&#10;[Defense] IT WORKS!&#10;Powers: Super Senses&#10;Super Senses, but succeeds on a [d:3]-[d:6]. When Spider-Man uses it, decrease the result by -1 for each square between Spider-Man and the attacker. Protected: Outwit." />
+      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
+      <property name="Keywords Search" value="| Scientist | Spider Man Family |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2831,13 +2832,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Scientist | Spider Man Family" />
-      <property name="Keywords Search" value="| Scientist | Spider Man Family |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SIGNATURE MOVE: CARRY UP THE POLE&#10;CLOSE: If Spider-Man has one action token, make a close attack. If he hits, he and a hit character can't be targeted by close attacks until your next turn.&#10;&#10;[Speed] THREE MINUTES WITH CRUSHER HOGAN&#10;Powers: Leap Climb, Plasticity&#10;Leap/Climb, Plasticity. // Once per turn, you may reroll an adjacent opposing character's attack roll.&#10;&#10;[Attack] SUDDEN REVERSAL&#10;FREE: If Spider-Man has been given no other actions this turn, make a close attack targeting a character that, since your last turn, missed Spider-Man or failed to break away from Spider-Man." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Scientist | Spider Man Family |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2936,14 +2937,14 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="125/75" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Marksman | X Force | X Men | Deadpool Corps | Deity | Weapon X" />
-      <property name="Keywords Search" value="| Assassin | Marksman | X Force | X Men | Deadpool Corps | Deity | Weapon X |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Elevated | Hindering | Blocking | Characters" />
       <property name="Traits and Special Powers" value="[Trait] NEVER-ENDING QUIVER&#10;If Deadpool is equipped with Trick Arrow equipment, when his last face-down Trick Arrow card is turned face-up, after resolutions you may turn all his Trick Arrow cards face down.&#10;&#10;[Trait] MY LOVE FOR DEATH KEEPS ME OMNIPOTENT&#10;Powers: Steal Energy, Willpower&#10;Steal Energy, but with close and range attacks. Willpower. // Once per turn Deadpool may reroll one of his single d6 rolls.&#10;&#10;[Defense] TIME HEALS ALL WOUNDS&#10;Powers: Stop, Regeneration, Super Senses&#10;STOP. Regeneration, Super Senses." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Assassin | Marksman | X Force | X Men | Deadpool Corps | Deity | Weapon X |" />
       <alternate name="Deadpool" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3049,13 +3050,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Annihilators | Cosmic | Herald | Defenders | Fantastic Four" />
-      <property name="Keywords Search" value="| Annihilators | Cosmic | Herald | Defenders | Fantastic Four |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] HERALDS OF GALACTUS&#10;Powers: Invulnerability&#10;Invulnerability. // When Silver Surfer takes damage from an opposing effect, after resolutions he may generate a friendly character with a Heralds of Galactus trait from your Sideline on the same click number as himself. If you do, turn Silver Surfer to click #9 and this game he isn't scored when KO'd. Protected: Pulse Wave.&#10;&#10;[Trait] ENERGY ABSORPTION&#10;When Silver Surfer hits with a range attack, after resolutions you may heal him or an adjacent friendly character 1 click.&#10;&#10;[Damage] YOU KNOW NOT WHOM YOU OPPOSE&#10;Powers: Outwit&#10;Outwit. // FREE: Choose a character within range and line of fire. That character can't use Protected: Outwit or SAFEGUARD: Outwit until your next turn." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Annihilators | Cosmic | Herald | Defenders | Fantastic Four |" />
       <alternate name="Silver Surfer" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3157,13 +3158,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Herald | Robot | Nova Corps" />
-      <property name="Keywords Search" value="| Cosmic | Herald | Robot | Nova Corps |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] HERALDS OF GALACTUS&#10;Powers: Invulnerability&#10;Invulnerability. // When Air-Walker takes damage from an opposing effect, after resolutions he may generate a friendly character with a Heralds of Galactus trait from your Sideline on the same click number as himself. If you do, turn Air-Walker to click #9 and this game he isn't scored when KO'd. Protected: Pulse Wave.&#10;&#10;[Trait] GALACTUS' MOST FAVORED&#10;Opposing characters within 6 squares can't use Willpower or [ta:cosmic_energy].&#10;&#10;[Damage] HORN OF GABRIEL&#10;When Air-Walker attacks, you may choose that lines of fire he draws can't be blocked. If you do, hit characters take a maximum of 1 damage." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Herald | Robot | Nova Corps |" />
       <alternate name="Air-Walker" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3267,14 +3268,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Herald | Nova Corps" />
-      <property name="Keywords Search" value="| Cosmic | Herald | Nova Corps |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] HERALDS OF GALACTUS&#10;Powers: Invulnerability&#10;Invulnerability. // When Firelord takes damage from an opposing effect, after resolutions he may generate a friendly character with a Heralds of Galactus trait from your Sideline on the same click number as himself. If you do, turn Firelord to click #9 and this game he isn't scored when KO'd. Protected: Pulse Wave.&#10;&#10;[Trait] MINE IS NOT THE PALTRY FLAME BORN ON EARTH&#10;At the end of your turn, deal 1 damage to each opposing character within range occupying a square with a Smoke terrain marker. // Opposing characters within 6 squares can't use Energy Explosion or Pulse Wave.&#10;&#10;[Attack] MINE IS THE FIRE...&#10;Powers: Energy Explosion, Precision Strike, Smoke Cloud&#10;Energy Explosion, Precision Strike. // Smoke Cloud as FREE, but only to generate markers in the squares of characters Firelord hit this turn, regardless of range, line of fire, or adjacency to the other generated markers." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Herald | Nova Corps |" />
       <alternate name="Firelord" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3379,14 +3380,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Brute | Cabal | Cosmic | Herald | Ruler | Offenders" />
-      <property name="Keywords Search" value="| Brute | Cabal | Cosmic | Herald | Ruler | Offenders |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] HERALDS OF GALACTUS&#10;Powers: Invulnerability&#10;Invulnerability. // When Terrax the Tamer takes damage from an opposing effect, after resolutions he may generate a friendly character with a Heralds of Galactus trait from your Sideline on the same click number as himself. If you do, turn Terrax the Tamer to click #9 and this game he isn't scored when KO'd. Protected: Pulse Wave.&#10;&#10;[Trait] I WILL CRUSH YOU&#10;Powers: Super Strength&#10;Super Strength. // Opposing characters within 6 squares can't use Super Strength or Telekinesis.&#10;&#10;[Defense] THE EARTH ITSELF IS MINE TO COMMAND&#10;Powers: Barrier&#10;Barrier. Barrier as FREE, but only to generate two markers. // When Terrax the Tamer uses Barrier, after resolutions he may make a close attack targeting a character adjacent to one of the generated markers regardless of adjacency. If he does, instead of normal damage, deal damage equal to the number of blocking terrain markers adjacent to the target." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Brute | Cabal | Cosmic | Herald | Ruler | Offenders |" />
       <alternate name="Terrax the Tamer" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3490,13 +3491,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Herald | Defenders | Fantastic Four" />
-      <property name="Keywords Search" value="| Cosmic | Herald | Defenders | Fantastic Four |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] HERALDS OF GALACTUS&#10;Powers: Invulnerability&#10;Invulnerability. // When Nova takes damage from an opposing effect, after resolutions she may generate a friendly character with a Heralds of Galactus trait from your Sideline on the same click number as herself. If you do, turn Nova to click #9 and this game she isn't scored when KO'd. Protected: Pulse Wave.&#10;&#10;[Trait] YOU SHOULDN'T GET TOO CLOSE&#10;When Nova takes damage from a close attack, after resolutions deal the attacker 1 penetrating damage. // Opposing characters within 6 squares can't use Stealth or Improved Targeting abilities.&#10;&#10;[Attack] GRAVITATIONAL CONTROL&#10;Powers: Poison, Pulse Wave&#10;Poison, Pulse Wave. When Nova uses either, after resolutions choose one: *Place each damaged character adjacent to Nova. *Knock back all damaged characters." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Herald | Defenders | Fantastic Four |" />
       <alternate name="Nova" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3601,14 +3602,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Brute | Cosmic | Herald" />
-      <property name="Keywords Search" value="| Brute | Cosmic | Herald |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] HERALDS OF GALACTUS&#10;Powers: Invulnerability&#10;Invulnerability. // When Morg The Executioner takes damage from an opposing effect, after resolutions he may generate a friendly character with a Heralds of Galactus trait from your Sideline on the same click number as himself. If you do, turn Morg The Executioner to click #9 and this game he isn't scored when KO'd. Protected: Pulse Wave.&#10;&#10;[Trait] I DID NOT COME TO JOIN YOU, I CAME TO KILL YOU!&#10;SAFEGUARD: Mind Control. // When an opposing character within 6 squares stops turning the dial due to STOP, after resolutions deal them 1 unavoidable damage.&#10;&#10;[Attack] COSMIC AXE&#10;Powers: Blades Claws Fangs, Pulse Wave&#10;Blades/Claws/Fangs, Giant Reach: 2. // When Morg The Executioner hits with a close attack, after resolutions he may use Pulse Wave as FREE as if he occupied the square of a hit target." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Brute | Cosmic | Herald |" />
       <alternate name="Morg The Executioner" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3706,14 +3707,14 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="X Men" />
-      <property name="Team Abilities Search" value="| X Men |" />
       <property name="Keywords" value="Champions | Marksman | Pilot | X Men" />
-      <property name="Keywords Search" value="| Champions | Marksman | Pilot | X Men |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] FROM FIRST CLASS TO GRADUATION&#10;FREE: Heal an adjacent friendly character with [ta:x_men] 1 click. // When Cyclops is KO'd, before removing him from the map, he may generate a character from your Sideline named Cyclops on their last non-KO click. This game that character can't be replaced or healed, and if it would take damage instead remove it from the game without scoring it. Protected: Pulse Wave.&#10;&#10;[Trait] UNCANNY FORCE OF WILL&#10;Powers: Force Blast, Willpower&#10;Force Blast, Willpower. When Cyclops uses Willpower and succeeds, opposing characters' combat values can't be positively modified until your next turn.&#10;&#10;[Damage] X-MEN... ATTACK!&#10;Powers: Leadership, Ranged Combat Expert&#10;Leadership, Ranged Combat Expert, [it:destroy_blocking]. Protected: Outwit." />
+      <property name="Team Abilities Search" value="| X Men |" />
+      <property name="Keywords Search" value="| Champions | Marksman | Pilot | X Men |" />
       <alternate name="Cyclops" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3814,14 +3815,14 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="X Men" />
-      <property name="Team Abilities Search" value="| X Men |" />
       <property name="Keywords" value="Phoenix Force | X Men" />
-      <property name="Keywords Search" value="| Phoenix Force | X Men |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] FROM FIRST CLASS TO GRADUATION&#10;FREE: Heal an adjacent friendly character with [ta:x_men] 1 click. // When Jean Grey is KO'd, before removing her from the map, she may generate a character from your Sideline named Jean Grey on their last non-KO click. This game that character can't be replaced or healed, and if it would take damage instead remove it from the game without scoring it. Protected: Pulse Wave.&#10;&#10;[Trait] UNCANNY MENTAL DEXTERITY&#10;Powers: Mind Control, Willpower, Barrier&#10;Mind Control, Willpower. When Jean Grey uses Willpower and succeeds, this turn she may use Barrier and RANGE Terrain actions as FREE.&#10;&#10;[Damage] PSIONIC MARVEL&#10;Powers: Enhancement, Probability Control&#10;Enhancement, Probability Control. Protected: Outwit." />
+      <property name="Team Abilities Search" value="| X Men |" />
+      <property name="Keywords Search" value="| Phoenix Force | X Men |" />
       <alternate name="Jean Grey" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3926,13 +3927,13 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="X Men" />
-      <property name="Team Abilities Search" value="| X Men |" />
       <property name="Keywords" value="Champions | X Men | Defenders" />
-      <property name="Keywords Search" value="| Champions | X Men | Defenders |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] FROM FIRST CLASS TO GRADUATION&#10;FREE: Heal an adjacent friendly character with [ta:x_men] 1 click. // When Iceman is KO'd, before removing him from the map, he may generate a character from your Sideline named Iceman on their last non-KO click. This game that character can't be replaced or healed, and if it would take damage instead remove it from the game without scoring it. Protected: Pulse Wave.&#10;&#10;[Trait] UNCANNY IGLOO SHIELD&#10;Powers: Energy Shield Deflection, Willpower&#10;Energy Shield/Deflection, Willpower. When Iceman uses Willpower and succeeds, friendly characters modify defense +1 until your next turn.&#10;&#10;[Attack] ICE GRENADES&#10;Powers: Incapacitate&#10;Incapacitate. When Iceman uses it, after resolutions you may generate a blocking terrain marker adjacent to each hit character." />
+      <property name="Team Abilities Search" value="| X Men |" />
+      <property name="Keywords Search" value="| Champions | X Men | Defenders |" />
       <alternate name="Iceman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4037,14 +4038,14 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="X Men" />
-      <property name="Team Abilities Search" value="| X Men |" />
       <property name="Keywords" value="X Men" />
-      <property name="Keywords Search" value="| X Men |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Outdoor Blocking | Characters" />
       <property name="Traits and Special Powers" value="[Trait] FROM FIRST CLASS TO GRADUATION&#10;FREE: Heal an adjacent friendly character with [ta:x_men] 1 click. // When Beast is KO'd, before removing him from the map, he may generate a character from your Sideline named Beast on their last non-KO click. This game that character can't be replaced or healed, and if it would take damage instead remove it from the game without scoring it. Protected: Pulse Wave.&#10;&#10;[Trait] UNCANNY TOE TUMBLING&#10;Powers: Super Senses, Willpower&#10;Super Senses, Willpower. When Beast uses Willpower and succeeds, after resolutions place any number of friendly characters 1 square away from their current square.&#10;&#10;[Damage] YOU GOT IT, PAL!&#10;Powers: Empower, Perplex, Close Combat Expert&#10;Empower, Perplex. // When a friendly character uses Willpower and succeeds, Beast can use Close Combat Expert this turn." />
+      <property name="Team Abilities Search" value="| X Men |" />
+      <property name="Keywords Search" value="| X Men |" />
       <alternate name="Beast" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4149,14 +4150,14 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="X Men" />
-      <property name="Team Abilities Search" value="| X Men |" />
       <property name="Keywords" value="Champions | X Men | Defenders" />
-      <property name="Keywords Search" value="| Champions | X Men | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] FROM FIRST CLASS TO GRADUATION&#10;FREE: Heal an adjacent friendly character with [ta:x_men] 1 click. // When Angel is KO'd, before removing him from the map, he may generate a character from your Sideline named Angel on their last non-KO click. This game that character can't be replaced or healed, and if it would take damage instead remove it from the game without scoring it. Protected: Pulse Wave.&#10;&#10;[Trait] UNCANNY GLIDING MANEUVER&#10;Powers: Toughness, Willpower&#10;Toughness, Willpower. When Angel uses Willpower and succeeds, after resolutions you may move him up to 5 squares.&#10;&#10;[Speed] SPREAD MY WINGS&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Angel uses it, he has [cs:passenger]: 2 instead of [cs:passenger]: 0." />
+      <property name="Team Abilities Search" value="| X Men |" />
+      <property name="Keywords Search" value="| Champions | X Men | Defenders |" />
       <alternate name="Angel" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4256,14 +4257,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="295/175" />
       <property name="Team Abilities" value="Cosmic Energy | Brotherhood Of Mutants" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Brotherhood Of Mutants |" />
       <property name="Keywords" value="Brotherhood Of Mutants | Ruler | Acolytes" />
-      <property name="Keywords Search" value="| Brotherhood Of Mutants | Ruler | Acolytes |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Destroy Blocking | Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] ARCHENEMY OF THE X-MEN!&#10;When a character rolls a single d6 and the displayed face is a [d:5], after resolutions choose one: *Deal that character 1 unavoidable damage. *Heal Magneto 1 click.&#10;&#10;[Trait] ELECTROMAGNETIC FORCE FIELD&#10;Powers: Energy Shield Deflection&#10;Energy Shield/Deflection. // If Magneto is 295 points, opposing characters modify their combat values -X, where X is the number of costed actions that have resolved this turn. Protected: Pulse Wave.&#10;&#10;[Trait] MASTER OF MAGNETISM... AND MISSILES!&#10;Powers: Telekinesis&#10;Telekinesis. // POWER: Choose a square within range. Destroy all blocking terrain within 2 squares of the chosen square, then make a range attack targeting all other characters within 2 squares of the chosen square, regardless of line of fire. Hit targets are dealt 3 damage instead of normal damage. // If Magneto is 295 points, he activates the effects of this trait as FREE instead of POWER (Both Telekinesis and the POWER action)." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Brotherhood Of Mutants |" />
+      <property name="Keywords Search" value="| Brotherhood Of Mutants | Ruler | Acolytes |" />
       <alternate name="Magneto" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4401,7 +4402,7 @@
       <property name="Rarity" value="Special Edition" />
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="Unnamed Ability&#10;A force may only contain one Trick Arrow equipment. Once per game when this is equipped, place up to three Trick Arrow cards face down (you may look at them). // Once per turn when this character hits, you may flip over a face down Trick Arrow card and perform its ON REVEAL effect." />
-      <alternate type="Tile" size="1x1" name="Trick Arrow" />
+      <alternate name="Trick Arrow" type="Tile" size="1x1" />
     </card>
     <card id="3ecf186e-2942-4452-a035-0bc3035a07d8" name="Trick Arrow (Oops, That One Wasn't Cute)" size="Card">
       <property name="Unit ID" value="micnMVX-s002a" />
@@ -4409,8 +4410,8 @@
       <property name="Unit Type" value="Trick Arrow Card" />
       <property name="Rarity" value="Special Edition" />
       <property name="Keywords" value="Marksman" />
-      <property name="Keywords Search" value="| Marksman |" />
       <property name="Traits and Special Powers" value="EFFECT&#10;ON REVEAL: Instead of normal damage, deal a hit character 4 damage and knock them back." />
+      <property name="Keywords Search" value="| Marksman |" />
     </card>
     <card id="66f08dd0-ed1c-47a8-a0cc-0d41a7291e8c" name="Trick Arrow (Love Is In The Air)" size="Card">
       <property name="Unit ID" value="micnMVX-s002b" />
@@ -4418,8 +4419,8 @@
       <property name="Unit Type" value="Trick Arrow Card" />
       <property name="Rarity" value="Special Edition" />
       <property name="Keywords" value="Marksman" />
-      <property name="Keywords Search" value="| Marksman |" />
       <property name="Traits and Special Powers" value="EFFECT&#10;ON REVEAL: Instead of normal damage, choose a hit character. That character can't attack until your next turn." />
+      <property name="Keywords Search" value="| Marksman |" />
     </card>
     <card id="f6f3f2ea-56a7-4263-bdff-c5f425fe283d" name="Trick Arrow (Hug It Out)" size="Card">
       <property name="Unit ID" value="micnMVX-s002c" />
@@ -4427,8 +4428,8 @@
       <property name="Unit Type" value="Trick Arrow Card" />
       <property name="Rarity" value="Special Edition" />
       <property name="Keywords" value="Marksman" />
-      <property name="Keywords Search" value="| Marksman |" />
       <property name="Traits and Special Powers" value="EFFECT&#10;ON REVEAL: Instead of normal damage, place a hit character adjacent to a friendly character within 4 squares of the hit character. If you do, the hit character gains Immobile until your next turn." />
+      <property name="Keywords Search" value="| Marksman |" />
     </card>
     <card id="d832e921-7ab7-42c0-9d7b-4cf87d321797" name="Captain America" size="Card">
       <property name="Unit ID" value="micnMVX-t001" />
@@ -4474,6 +4475,890 @@
       </alternate>
       <alternate name="Captain America" type="Click12" size="1x2">
         <property name="Click Number" value="12" />
+      </alternate>
+    </card>
+    <card id="b07a23e5-8d5d-4f89-8714-22ec551ebc97" name="Sunfire" size="Card">
+      <property name="Unit ID" value="mvxGSX-B001" />
+      <property name="Collector Number" value="GSX-B001" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="15" />
+      <property name="Keywords" value="X Men" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Attack] ATOMIC FURY&#10;Powers: Energy Explosion, Precision Strike&#10;Energy Explosion, Precision Strike." />
+      <alternate name="Sunfire" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - ATOMIC FURY" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+    <card id="c90f2559-36eb-4090-bc75-4923e6a66599" name="Banshee" size="Card">
+      <property name="Unit ID" value="mvxGSX-B002" />
+      <property name="Collector Number" value="GSX-B002" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="15" />
+      <property name="Keywords" value="Police | X Men" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] COVER YER EARS LADS!&#10;Friendly characters with the X-Men keyword within range have SAFEGUARD: Pulse Wave. Protected: Pulse Wave." />
+      <alternate name="Banshee" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+    <card id="ef00f6bd-1d21-46a2-8664-39b08cb12a7c" name="Deadly Genesis!" size="Card">
+      <property name="Unit ID" value="mvxGSX-p001" />
+      <property name="Collector Number" value="GSX-p001" />
+      <property name="Unit Type" value="Attachment" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Unique | Sideline Active" />
+      <property name="Point Values" value="0" />
+      <property name="Traits and Special Powers" value="Unnamed Ability&#10;During force construction, you may add this marker to your Sideline by paying its point cost.&#10;&#10;EFFECT:&#10;SIDELINE ACTIVE - For all Key Issues on your Sideline, when a friendly character is healed by [ta:x_men], after resolutions you may attach Key Issue: Deadly Genesis! to that character. // When an attached character rolls one or more dice, you may replace a die on that roll with a [d:5]. If you do, return all Key Issues attached to that character to your Sideline. // When an attached character is KO'd, remove Key Issue: Deadly Genesis! from the game." />
+      <alternate name="Deadly Genesis!" type="Tile" size="1x1" />
+    </card>
+    <card id="e69a9b8d-bb66-47c5-a52f-518cdd21a6f5" name="Living Island" size="Card">
+      <property name="Unit ID" value="mvxGSX-t001" />
+      <property name="Collector Number" value="GSX-t001" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="3" />
+      <property name="Traits and Special Powers" value="EFFECT:&#10;Characters occupying or adjacent to this marker must roll breakaway to move if they don't already. // At the beginning of each player's turn that player may roll a d6.&#10;[d:4]-[d:6]: Place this marker up to 2 squares away from its current square." />
+      <alternate name="Living Island" type="Tile" size="2x2" />
+    </card>
+    <card id="3459a292-0ebd-4a17-bb0f-402a63434900" name="Galactus" size="Card">
+      <property name="Unit ID" value="mvxLG001b" />
+      <property name="Collector Number" value="LG001b" />
+      <property name="Unit Type" value="Legacy Card" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="150/80" />
+      <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Keywords" value="Cosmic | Herald | Ultimates | Deity" />
+      <property name="Range" value="11" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
+      <property name="Improved Targeting" value="Hindering" />
+      <property name="Traits and Special Powers" value="MULTI-DIAL&#10;When the G001a dial would be &quot;KOd&quot;, instead Galactus continues on click #1 of the G001b dial. Excess damage does not carry over. When Galactus is healed, he can't be healed above click #1 of the G001b dial or back onto the G001a dial.&#10;&#10;PLACEMENT WHEN STARTING THE GAME&#10;When Galactus is placed during game set-up or starts the game when generated by the Herald dial, he can be placed in blocking terrain and immediately destroys that terrain when doing so.&#10;&#10;[Trait] GALACTUS'S ARRIVAL&#10;POWER: Place Galactus anywhere on the map. Galactus may be placed on blocking terrain this way and immediately destroys that terrain when doing so. After resolutions, knock back all adjacent opposing characters.&#10;&#10;[Defense] THE WORLD SHAKES&#10;Powers: Stop, Impervious&#10;STOP. Impervious. Galactus can reduce penetrating damage. // When this click is revealed, after resolutions deal 1 penetrating damage to all other characters." />
+      <alternate name="Galactus" type="Click1" size="3x6">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Yellow" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Galactus" type="Click2" size="3x6">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Galactus" type="Click3" size="3x6">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="0" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Galactus" type="Click4" size="3x6">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="0" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Galactus" type="Click5" size="3x6">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Galactus" type="Click6" size="3x6">
+        <property name="Click Number" value="6" />
+        <property name="Starting Line" value="Purple" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Galactus" type="Click7" size="3x6">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Galactus" type="Click8" size="3x6">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Galactus" type="Click9" size="3x6">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="0" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Galactus" type="Click10" size="3x6">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="0" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Galactus" type="Click11" size="3x6">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - THE WORLD SHAKES" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+    </card>
+    <card id="9d91d065-c0ed-4b14-a884-8296d38d3e57" name="Storm" size="Card">
+      <property name="Unit ID" value="mvxMVX-037" />
+      <property name="Collector Number" value="MVX-037" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="70/45" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Morlocks | X Men | Wakanda" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ALL-NEW, ALL-DIFFERENT: STORM&#10;When Storm rolls one or more dice, if a [d:5] is displayed in that roll, dice in that roll can't be rerolled or replaced. // If Storm is part of an X-Men themed team, friendly characters modify their defense +1 against range attacks.&#10;&#10;[Attack] WINDS STRONG ENOUGH TO DEFLECT BOULDERS&#10;Powers: Telekinesis&#10;Telekinesis. // Once per turn, when Storm is given a RANGE Terrain Action, immediately after the attack resolves, she may make another range attack (following the rules for a RANGE Terrain Action) using that terrain marker." />
+      <alternate name="Storm" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - WINDS STRONG ENOUGH TO DEFLECT BOULDERS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Storm" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - WINDS STRONG ENOUGH TO DEFLECT BOULDERS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Storm" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - WINDS STRONG ENOUGH TO DEFLECT BOULDERS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Storm" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - WINDS STRONG ENOUGH TO DEFLECT BOULDERS" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Storm" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Storm" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Storm" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Storm" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Storm" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="04d470d4-0c41-425e-9c9b-1e06595e0621" name="Colossus" size="Card">
+      <property name="Unit ID" value="mvxMVX-038" />
+      <property name="Collector Number" value="MVX-038" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="70/45" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="X Men | Excalibur" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ALL-NEW, ALL-DIFFERENT: COLOSSUS&#10;When Colossus rolls one or more dice, if a [d:5] is displayed in that roll, dice in that roll can't be rerolled or replaced. // If Colossus is part of an X-Men themed team, friendly characters reduce damage by 1 in addition to any other effects that reduce damage.&#10;&#10;[Defense] SAVE YOU FROM THE TRACTOR&#10;Powers: Invincible&#10;Invincible. // Once per turn when another friendly character within 5 squares would be targeted by an attack, you may place Colossus adjacent to that character, and he becomes the target of the attack instead (even if illegal)." />
+      <alternate name="Colossus" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - SAVE YOU FROM THE TRACTOR" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Colossus" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - SAVE YOU FROM THE TRACTOR" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Colossus" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - SAVE YOU FROM THE TRACTOR" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Colossus" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - SAVE YOU FROM THE TRACTOR" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Colossus" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Colossus" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Colossus" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Colossus" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Colossus" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="624a3660-a0b3-4a72-ac87-71389cf49b3b" name="Wolverine" size="Card">
+      <property name="Unit ID" value="mvxMVX-039" />
+      <property name="Collector Number" value="MVX-039" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="70/45" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Alpha Flight | Soldier | X Men | Weapon X" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ALL-NEW, ALL-DIFFERENT: WOLVERINE&#10;When Wolverine rolls one or more dice, if a [d:5] is displayed in that roll, dice in that roll can't be rerolled or replaced. // If Wolverine is part of an X-Men themed team, friendly characters modify their defense +1 against close attacks.&#10;&#10;[Defense] I DON'T GO DOWN SO EASY&#10;Powers: Regeneration, Toughness&#10;Regeneration, Toughness.&#10;&#10;[Damage] IS THAT SUPPOSED TO IMPRESS ME?&#10;Opposing characters reduce their Leadership rolls by -1. // Opposing characters can't positively modify their attack, defense, or damage when attacking or attacked by Wolverine, unless they share a keyword with him." />
+      <alternate name="Wolverine" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IS THAT SUPPOSED TO IMPRESS ME?" />
+      </alternate>
+      <alternate name="Wolverine" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IS THAT SUPPOSED TO IMPRESS ME?" />
+      </alternate>
+      <alternate name="Wolverine" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IS THAT SUPPOSED TO IMPRESS ME?" />
+      </alternate>
+      <alternate name="Wolverine" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - IS THAT SUPPOSED TO IMPRESS ME?" />
+      </alternate>
+      <alternate name="Wolverine" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Wolverine" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - I DON'T GO DOWN SO EASY" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Wolverine" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - I DON'T GO DOWN SO EASY" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Wolverine" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="13" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - I DON'T GO DOWN SO EASY" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Wolverine" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="bfd46f11-9e4d-4e93-a902-dbc30f0b14a0" name="Cyclops" size="Card">
+      <property name="Unit ID" value="mvxMVX-040" />
+      <property name="Collector Number" value="MVX-040" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="70/45" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Alpha Flight | Soldier | X Men | Weapon X" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ALL-NEW, ALL-DIFFERENT: CYCLOPS&#10;When Cyclops rolls one or more dice, if a [d:5] is displayed in that roll, dice in that roll can't be rerolled or replaced. // If Cyclops is part of an X-Men themed team, when friendly characters use [ta:x_men] they may do so as FREE and automatically roll a [d:5].&#10;&#10;[Damage] THEY'RE UNTRAINED. I'LL HAVE TO MAKE UP FOR THAT&#10;Powers: Leadership, Sidestep&#10;Leadership. // Sidestep, but only if Cyclops used Leadership and failed this turn." />
+      <alternate name="Cyclops" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - THEY'RE UNTRAINED. I'LL HAVE TO MAKE UP FOR THAT" />
+      </alternate>
+      <alternate name="Cyclops" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - THEY'RE UNTRAINED. I'LL HAVE TO MAKE UP FOR THAT" />
+      </alternate>
+      <alternate name="Cyclops" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - THEY'RE UNTRAINED. I'LL HAVE TO MAKE UP FOR THAT" />
+      </alternate>
+      <alternate name="Cyclops" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - THEY'RE UNTRAINED. I'LL HAVE TO MAKE UP FOR THAT" />
+      </alternate>
+      <alternate name="Cyclops" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Cyclops" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Cyclops" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Cyclops" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Cyclops" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="c25d4b37-da7a-4b80-a4c7-1651717c4ba2" name="Nightcrawler" size="Card">
+      <property name="Unit ID" value="mvxMVX-041" />
+      <property name="Collector Number" value="MVX-041" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="70/45" />
+      <property name="Team Abilities" value="Underworld | X Men" />
+      <property name="Keywords" value="X Men | Excalibur" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Characters" />
+      <property name="Traits and Special Powers" value="[Trait] ALL-NEW, ALL-DIFFERENT: NIGHTCRAWLER&#10;When Nightcrawler rolls one or more dice, if a [d:5] is displayed in that roll, dice in that roll can't be rerolled or replaced. // If Nightcrawler is part of an X-Men themed team, friendly characters have [ta:underworld].&#10;&#10;[Speed] ICH BIN DER WUNDERVOLLE NIGHTCRAWLER&#10;Powers: Leap Climb, Stealth&#10;Leap/Climb, Stealth. // When Nightcrawler is given a MOVE action, after resolutions he may make a CLOSE as FREE and opposing characters within 1 square are considered adjacent to him (regardless of terrain) for that CLOSE." />
+      <alternate name="Nightcrawler" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - ICH BIN DER WUNDERVOLLE NIGHTCRAWLER" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Nightcrawler" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - ICH BIN DER WUNDERVOLLE NIGHTCRAWLER" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Nightcrawler" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - ICH BIN DER WUNDERVOLLE NIGHTCRAWLER" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Nightcrawler" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - ICH BIN DER WUNDERVOLLE NIGHTCRAWLER" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Nightcrawler" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Nightcrawler" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Nightcrawler" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ICH BIN DER WUNDERVOLLE NIGHTCRAWLER" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Nightcrawler" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ICH BIN DER WUNDERVOLLE NIGHTCRAWLER" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Nightcrawler" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="206e618e-8f3d-45b8-81a3-4b0380fb115a" name="Thunderbird" size="Card">
+      <property name="Unit ID" value="mvxMVX-042" />
+      <property name="Collector Number" value="MVX-042" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Special Edition" />
+      <property name="Point Values" value="70/45" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Warrior | X Men" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ALL-NEW, ALL-DIFFERENT: THUNDERBIRD&#10;When Thunderbird rolls one or more dice, if a [d:5] is displayed in that roll, dice in that roll can't be rerolled or replaced. // If Thunderbird is part of an X-Men themed team, friendly characters not on their starting clicks modify damage +1.&#10;&#10;[Speed] ...BUT I'M A MAN, XAVIER, A WARRIOR OF THE APACHE...&#10;Powers: Charge&#10;Charge, but don't halve speed.&#10;&#10;[Defense] ...AND TODAY I'M GONNA PROVE IT!!!&#10;Powers: Stop, Toughness&#10;STOP. Toughness. // FREE: Deal an adjacent opposing character 3 penetrating damage, then KO Thunderbird." />
+      <alternate name="Thunderbird" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ...BUT I'M A MAN, XAVIER, A WARRIOR OF THE APACHE..." />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Thunderbird" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ...BUT I'M A MAN, XAVIER, A WARRIOR OF THE APACHE..." />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Thunderbird" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ...BUT I'M A MAN, XAVIER, A WARRIOR OF THE APACHE..." />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Thunderbird" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - ...BUT I'M A MAN, XAVIER, A WARRIOR OF THE APACHE..." />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Thunderbird" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Thunderbird" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Thunderbird" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Thunderbird" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="4" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - ...AND TODAY I'M GONNA PROVE IT!!!" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Thunderbird" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="cd2c61e9-ac2d-4002-840f-1efa081d1b82" name="Professor X" size="Card">
+      <property name="Unit ID" value="mvxMVX-L034" />
+      <property name="Collector Number" value="MVX-L034" />
+      <property name="Unit Type" value="Legacy Card" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Illuminati | Shi'Ar | New Mutants | X Men" />
+      <property name="Range" value="10" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Targeting" value="Hindering | Characters" />
+      <property name="Traits and Special Powers" value="[Trait] RECRUITING A NEW TEAM OF X-MEN&#10;When establishing themed teams, you may choose up to two friendly characters of 50 points or less. Those characters gain the X-Men and New Mutants keywords and have [ta:x_men] this game.&#10;&#10;[Trait] BATTLING KRAKOA HALF A WORLD AWAY&#10;Powers: Outwit&#10;Outwit. // At the end of your turn, Professor X may choose an opposing character within range and line of fire. Give that character a Mental Lock token, removing it from any other character. // Characters with the Mental Lock token can't be given FREE actions and have &quot;At the beginning of your turn, you may roll 2d6 that can't be rerolled or replaced. If you do and the result is 8 or higher, remove the Mental Lock token. If the result is 7 or less, deal this character 1 unavoidable damage.&quot;&#10;&#10;[Damage] PROTECTING MY STUDENTS&#10;Powers: Shape Change&#10;Shape Change. // Adjacent friendly characters that share a keyword with Professor X modify their defense +1." />
+      <alternate name="Professor X" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="0" />
+      </alternate>
+      <alternate name="Professor X" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="0" />
+      </alternate>
+      <alternate name="Professor X" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="0" />
+        <property name="Damage Ability" value="Special - PROTECTING MY STUDENTS" />
+      </alternate>
+      <alternate name="Professor X" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="0" />
+        <property name="Damage Ability" value="Special - PROTECTING MY STUDENTS" />
       </alternate>
     </card>
   </cards>

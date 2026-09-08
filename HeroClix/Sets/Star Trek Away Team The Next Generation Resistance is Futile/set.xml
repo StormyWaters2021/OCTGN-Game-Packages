@@ -1,0 +1,2761 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Star Trek Away Team: The Next Generation: Resistance is Futile" id="20cef5a3-b638-48c1-b98e-56ff3d52d966" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="d24d04d4-2072-4689-8244-e05ca5f6fa0a" name="Klingon Crewman" size="Card">
+      <property name="Unit ID" value="trekrf001" />
+      <property name="Collector Number" value="001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="30" />
+      <property name="Team Abilities" value="Klingon Empire" />
+      <property name="Keywords" value="Klingon | Warrior" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] WE ARE KLINGONS!&#10;When Klingon Crewman is KO'd, choose a friendly character that's adjacent or has the Klingon keyword. After resolutions, heal that character 1 click." />
+      <alternate name="Klingon Crewman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Klingon Crewman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Klingon Crewman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Klingon Crewman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="660a31d3-ae30-4ff3-8441-eccee2ea10f8" name="Borg Drone" size="Card">
+      <property name="Unit ID" value="trekrf002a" />
+      <property name="Collector Number" value="002a" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="30" />
+      <property name="Team Abilities" value="Borg" />
+      <property name="Keywords" value="Borg | Robot" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] WE ARE BORG&#10;When another friendly character with the Borg keyword is damaged by an opponent's attack, after resolutions heal Borg Drone 1 click" />
+      <alternate name="Borg Drone" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Borg Drone" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Borg Drone" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Borg Drone" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="4" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Borg Drone" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="c487f36f-15ee-4cb9-b440-195bbfbad1f9" name="Hugh" size="Card">
+      <property name="Unit ID" value="trekrf002b" />
+      <property name="Collector Number" value="002b" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Prime" />
+      <property name="Point Values" value="45" />
+      <property name="Team Abilities" value="Borg | United Federation" />
+      <property name="Keywords" value="Borg | Robot | Starfleet" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] I WILL TRY TO REMEMBER YOU&#10;Friendly characters that are adjacent or have the Starfleet keyword modify defense +1 when attacked by a character with the Borg keyword. // Friendly characters that are adjacent or have the Borg keyword modify defense +1 when attacked by a character with the Starfleet keyword.&#10;&#10;[Damage] CHOOSE... WHAT I WANT&#10;Powers: Ranged Combat Expert, Enhancement&#10;FREE: Choose Ranged Combat Expert or Enhancement. Hugh can use the chosen power this turn." />
+      <alternate name="Hugh" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CHOOSE... WHAT I WANT" />
+      </alternate>
+      <alternate name="Hugh" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CHOOSE... WHAT I WANT" />
+      </alternate>
+      <alternate name="Hugh" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CHOOSE... WHAT I WANT" />
+      </alternate>
+      <alternate name="Hugh" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Hugh" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Hugh" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="f3f3a572-90ac-4d63-9cd7-f8557ab0bd1f" name="Captain Jean-Luc Picard" size="Card">
+      <property name="Unit ID" value="trekrf003" />
+      <property name="Collector Number" value="003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Politician | Starfleet" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] I DON'T FEEL COMFORTABLE AROUND CHILDREN&#10;When Captain Jean-Luc Picard is attacked by an opposing character with [cs:tiny], modify defense -1.&#10;&#10;[Defense] DO AS YOU MUST, BUT DON'T HARM MY CREW&#10;Powers: Defend, Energy Shield Deflection&#10;Defend, Energy Shield/Deflection.&#10;&#10;[Damage] CAPTAIN OF THE U.S.S. ENTERPRISE&#10;Powers: Leadership&#10;Leadership. When Captain Jean-Luc Picard uses it and the result is a [d:6], you may instead remove an action token from all friendly characters with the Starfleet keyword within 6 squares (including himself)." />
+      <alternate name="Captain Jean-Luc Picard" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DO AS YOU MUST, BUT DON'T HARM MY CREW" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CAPTAIN OF THE U.S.S. ENTERPRISE" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DO AS YOU MUST, BUT DON'T HARM MY CREW" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CAPTAIN OF THE U.S.S. ENTERPRISE" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DO AS YOU MUST, BUT DON'T HARM MY CREW" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - CAPTAIN OF THE U.S.S. ENTERPRISE" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="e2fb8109-6089-4bda-a07a-40d541eb7f96" name="Starfleet Ensign" size="Card">
+      <property name="Unit ID" value="trekrf004" />
+      <property name="Collector Number" value="004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="20/15" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Starfleet" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] REPORTING FOR DUTY, SIR&#10;During force construction, if using the 15 point value, you may not include more than 4 of Starfleet Ensign at that cost and when placing characters an opponent chooses a distinct starting line for each one included at that cost." />
+      <alternate name="Starfleet Ensign" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Starfleet Ensign" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Starfleet Ensign" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Green" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Starfleet Ensign" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Starfleet Ensign" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Green" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Starfleet Ensign" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Starfleet Ensign" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Starting Line" value="Green" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Starfleet Ensign" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Starfleet Ensign" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="f40f7b84-693b-4111-ad0b-92bb58d37856" name="Lt. Commander Data" size="Card">
+      <property name="Unit ID" value="trekrf005" />
+      <property name="Collector Number" value="005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Robot | Scientist | Starfleet" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: DATA&#10;FREE: If Lt. Commander Data began your turn on the map, replace him with another character with this trait on the same click number." />
+      <alternate name="Lt. Commander Data" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="91bdfeb0-5eb6-417f-8e56-86851c0111dd" name="Lt. Worf" size="Card">
+      <property name="Unit ID" value="trekrf006" />
+      <property name="Collector Number" value="006" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Klingon | Starfleet | Warrior" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: WORF&#10;FREE: If Lt. Worf began your turn on the map, replace him with another character with this trait on the same click number.&#10;&#10;[Damage] YOU'RE WITH ME, LIEUTENANT&#10;Powers: Empower&#10;Empower. Adjacent friendly characters modify defense +1 against range attacks." />
+      <alternate name="Lt. Worf" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - YOU'RE WITH ME, LIEUTENANT" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - YOU'RE WITH ME, LIEUTENANT" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - YOU'RE WITH ME, LIEUTENANT" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - YOU'RE WITH ME, LIEUTENANT" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Worf" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="0f9fe79b-9350-4413-ad92-c7bb8011e1c2" name="Dr. Beverly Crusher" size="Card">
+      <property name="Unit ID" value="trekrf007" />
+      <property name="Collector Number" value="007" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="30" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Scientist | Starfleet" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] REMOVING THE BORG IMPLANTS&#10;FREE: Choose an adjacent opposing character with the Borg or Robot keyword. Deal that character 1 penetrating damage and that character loses the Borg and Robot keywords (for the rest of the game).&#10;&#10;[Damage] HEAL ANY BEING IN NEED, REGARDLESS OF THE PRIME DIRECTIVE&#10;Powers: Support&#10;Support. FREE: If Dr. Beverly Crusher is adjacent to at least one opposing character, heal all adjacent characters 1 click. Opposing characters healed in this way can't attack Dr. Beverly Crusher until your next turn." />
+      <alternate name="Dr. Beverly Crusher" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - HEAL ANY BEING IN NEED, REGARDLESS OF THE PRIME DIRECTIVE" />
+      </alternate>
+      <alternate name="Dr. Beverly Crusher" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - HEAL ANY BEING IN NEED, REGARDLESS OF THE PRIME DIRECTIVE" />
+      </alternate>
+      <alternate name="Dr. Beverly Crusher" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="0" />
+        <property name="Damage Ability" value="Special - HEAL ANY BEING IN NEED, REGARDLESS OF THE PRIME DIRECTIVE" />
+      </alternate>
+      <alternate name="Dr. Beverly Crusher" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="0" />
+        <property name="Damage Ability" value="Special - HEAL ANY BEING IN NEED, REGARDLESS OF THE PRIME DIRECTIVE" />
+      </alternate>
+      <alternate name="Dr. Beverly Crusher" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="9777e166-0252-4566-8ae2-48753a7f6005" name="Counselor Troi" size="Card">
+      <property name="Unit ID" value="trekrf008" />
+      <property name="Collector Number" value="008" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Starfleet" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] CAPTAIN, I AM SENSING DEEP HOSTILITY TOWARDS US&#10;When a friendly character that's adjacent or has the Starfleet keyword would take 4 or more damage, roll a D6. [d:4]-[d:6]: That character takes 3 damage instead." />
+      <alternate name="Counselor Troi" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Counselor Troi" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Counselor Troi" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Counselor Troi" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Counselor Troi" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Counselor Troi" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="6d7a26c1-08b1-454c-a371-3afcf6a452b6" name="Klingon Warrior" size="Card">
+      <property name="Unit ID" value="trekrf009" />
+      <property name="Collector Number" value="009" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Generic" />
+      <property name="Point Values" value="40" />
+      <property name="Team Abilities" value="Klingon Empire" />
+      <property name="Keywords" value="Klingon | Warrior" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE BLOOD WILL TELL&#10;FREE: If a friendly character that's adjacent or has the Klingon keyword was attacked since your last turn, modify attack +1 this turn." />
+      <alternate name="Klingon Warrior" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Klingon Warrior" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Klingon Warrior" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Klingon Warrior" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Klingon Warrior" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="32dbdf6d-d919-4d1d-a559-38a673cac45c" name="Gowron" size="Card">
+      <property name="Unit ID" value="trekrf010" />
+      <property name="Collector Number" value="010" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Klingon Empire" />
+      <property name="Keywords" value="Klingon | Politician | Ruler | Warrior" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] YOUR BLOOD WILL PAINT THE WAY TO THE FUTURE!&#10;Once per turn, when a friendly character that's adjacent or has the Klingon keyword is damaged by an opponent's attack, after resolutions remove an action token from a friendly character that's adjacent or has the Klingon keyword&#10;&#10;[Damage] HE ACTS UNDER MY AUTHORITY AS CHANCELLOR OF THE KLINGON HIGH COUNCIL&#10;Powers: Leadership&#10;Leadership. When Gowron uses it and succeeds, choose a friendly character that's adjacent or has the Klingon keyword. That character has Autonomous this turn." />
+      <alternate name="Gowron" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - HE ACTS UNDER MY AUTHORITY AS CHANCELLOR OF THE KLINGON HIGH COUNCIL" />
+      </alternate>
+      <alternate name="Gowron" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - HE ACTS UNDER MY AUTHORITY AS CHANCELLOR OF THE KLINGON HIGH COUNCIL" />
+      </alternate>
+      <alternate name="Gowron" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - HE ACTS UNDER MY AUTHORITY AS CHANCELLOR OF THE KLINGON HIGH COUNCIL" />
+      </alternate>
+      <alternate name="Gowron" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Gowron" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Gowron" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Gowron" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="7c475771-678c-4644-8d68-b3d44bc69988" name="Borg Search Party" size="Card">
+      <property name="Unit ID" value="trekrf011" />
+      <property name="Collector Number" value="011" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="45" />
+      <property name="Team Abilities" value="Borg" />
+      <property name="Keywords" value="Borg | Robot" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] YOU WILL BE ASSIMILATED.... RESISTANCE IS FUTILE&#10;When Borg Search Party KO's an opposing character, after resolutions roll a d6. [d:5]-[d:6]: You may generate a [set:trekrf] #002a Borg Drone on click #4 in that character's square. That generated character has Autonomous this turn.&#10;&#10;[Attack] SEEKER PROGRAMMING&#10;Powers: Penetrating Psychic Blast&#10;Penetrating/Psychic Blast. FREE: Choose a friendly character that's adjacent or has the Borg keyword. This turn, that character modifies range +2 and can use [it:hindering]." />
+      <alternate name="Borg Search Party" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - SEEKER PROGRAMMING" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Borg Search Party" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - SEEKER PROGRAMMING" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Borg Search Party" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Borg Search Party" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Borg Search Party" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="ee3d110c-85f3-412c-b3dd-c92b4d73690d" name="Reginald Barclay" size="Card">
+      <property name="Unit ID" value="trekrf012" />
+      <property name="Collector Number" value="012" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="50/20" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Holodeck | Scientist | Starfleet" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Attack] I CAN CONTROL ALL SYSTEMS FROM THE HOLODECK&#10;POWER: Choose an opposing character that's adjacent to elevated or blocking terrain. Make a close attack targeting that character regardless of adjacency.&#10;&#10;[Defense] WHA.. WHAT IS HAPPENING TO ME?!?&#10;Powers: Stop&#10;STOP. When this click is revealed, if you paid 50 points for Reginald Barclay, turn him to click #5 or click #9.&#10;&#10;[Damage] I SEE EVERYTHING&#10;Powers: Outwit&#10;Outwit, but with minimum range 10 instead. When Reginald Barclay uses it, he can use [it:hindering,elevated,blocking]." />
+      <alternate name="Reginald Barclay" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="17" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - WHA.. WHAT IS HAPPENING TO ME?!?" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - I CAN CONTROL ALL SYSTEMS FROM THE HOLODECK" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - I SEE EVERYTHING" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - I CAN CONTROL ALL SYSTEMS FROM THE HOLODECK" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - I SEE EVERYTHING" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="0" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - I CAN CONTROL ALL SYSTEMS FROM THE HOLODECK" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - I SEE EVERYTHING" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Reginald Barclay" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="dc5660b8-8d15-4223-814b-f8181f285dd7" name="Thomas Riker" size="Card">
+      <property name="Unit ID" value="trekrf013" />
+      <property name="Collector Number" value="013" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Properties" value="Sideline Active" />
+      <property name="Point Values" value="40" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Soldier | Starfleet" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Improved Movement" value="Hindering" />
+      <property name="Traits and Special Powers" value="[Trait] UP UNTIL THAT TRANSPORTER ACCIDENT, THEY WERE THE SAME PERSON&#10;SIDELINE ACTIVE: Once per turn for all characters on your Sideline with this trait, when a friendly character with the name &quot;Commander William T. Riker&quot; is placed with Telekinesis, after resolutions place #013 Thomas Riker from your Sideline adjacent to that character on click #1, 2 or 3. This game, Thomas Riker can't: be carried, be equipped, be given DOUBLE POWER actions, replace, or be replaced. This game, he returns to your Sideline: at the beginning of your next turn, immediately if no square he occupies is within 5 squares of the friendly Commander William T. Riker, or he is removed from the map by another effect." />
+      <alternate name="Thomas Riker" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Thomas Riker" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Thomas Riker" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Thomas Riker" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Thomas Riker" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="7ba82372-27c7-4548-9241-d01cd0ad120e" name="Ensign Crusher" size="Card">
+      <property name="Unit ID" value="trekrf014" />
+      <property name="Collector Number" value="014" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="50/25" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Scientist | Starfleet" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] JOURNEY'S END&#10;If Ensign Crusher is 50 points, he has the Cosmic keyword. If he is 25 points, he's KO'd when his dial clicks past the red KO line. Protected: Pulse Wave.&#10;&#10;[Attack] I GOT IT, CAPTAIN!&#10;Once per turn, when a friendly character that's adjacent or has the Starfleet keyword rolls for Leadership, Shape Change, Super Senses, or Impevious they may re-roll that roll.&#10;&#10;[Defense] ASCEND WITH THE TRAVELER&#10;Powers: Stop, Willpower&#10;STOP. Willpower. Ensign Crusher has PROTECTED: Outwit and can't be healed.&#10;&#10;[Damage] SEE THE POSSIBILITIES&#10;Powers: Probability Control, Outwit&#10;Probability Control, Outwit" />
+      <alternate name="Ensign Crusher" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - I GOT IT, CAPTAIN!" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Ensign Crusher" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Special - I GOT IT, CAPTAIN!" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Ensign Crusher" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="8" />
+        <property name="Attack Ability" value="Special - I GOT IT, CAPTAIN!" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Ensign Crusher" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Ko" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - ASCEND WITH THE TRAVELER" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SEE THE POSSIBILITIES" />
+      </alternate>
+      <alternate name="Ensign Crusher" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - ASCEND WITH THE TRAVELER" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - SEE THE POSSIBILITIES" />
+      </alternate>
+      <alternate name="Ensign Crusher" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="f34d0a24-4620-4c99-9ca2-fb805d72f360" name="Lt. Worf" size="Card">
+      <property name="Unit ID" value="trekrf015" />
+      <property name="Collector Number" value="015" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Klingon | Starfleet | Warrior" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: WORF&#10;FREE: If Lt. Worf began your turn on the map, replace him with another character with this trait on the same click number.&#10;&#10;[Damage] WORF, GIVE US SOME COVER FIRE&#10;Powers: Enhancement&#10;Enhancement. Adjacent friendly characters modify defense +1 against range attacks." />
+      <alternate name="Lt. Worf" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - WORF, GIVE US SOME COVER FIRE" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - WORF, GIVE US SOME COVER FIRE" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - WORF, GIVE US SOME COVER FIRE" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - WORF, GIVE US SOME COVER FIRE" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Worf" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Worf" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="6fdf6986-6087-46e6-bc24-adc313db5b4e" name="Nurse Ogawa" size="Card">
+      <property name="Unit ID" value="trekrf016" />
+      <property name="Collector Number" value="016" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="15" />
+      <property name="Keywords" value="Scientist | Starfleet" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Damage] SICKBAY, STANDING BY&#10;Powers: Support&#10;Support. Once per turn, when an adjacent friendly character uses Support, you may reroll that 2d6 roll." />
+      <alternate name="Nurse Ogawa" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - SICKBAY, STANDING BY" />
+      </alternate>
+      <alternate name="Nurse Ogawa" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - SICKBAY, STANDING BY" />
+      </alternate>
+      <alternate name="Nurse Ogawa" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Nurse Ogawa" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="5fe74ac9-536c-4154-b2f7-db36e8a29ca6" name="Commander Shelby" size="Card">
+      <property name="Unit ID" value="trekrf017" />
+      <property name="Collector Number" value="017" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Scientist | Soldier | Starfleet" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] I'M THE BEST YOU GOT&#10;At the beginning of the game, choose a keyword. // Friendly characters that are are adjacent or have the Starfleet keyword modify attack +1 when attacking only opposing characters with the chosen keyword. If the chosen keyword is Robot or Borg, modify attack +2 instead." />
+      <alternate name="Commander Shelby" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Commander Shelby" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Commander Shelby" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Commander Shelby" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Commander Shelby" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Commander Shelby" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="8ed1f12e-c71e-4051-9e4b-5e035f276468" name="B'Etor" size="Card">
+      <property name="Unit ID" value="trekrf018" />
+      <property name="Collector Number" value="018" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="90/50" />
+      <property name="Team Abilities" value="Klingon Empire" />
+      <property name="Keywords" value="Klingon | Warrior" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] KLINGON CLOAKING DEVICE&#10;Friendly characters with 0 or 1 action tokens that are adjacent or have the Klingon keyword can use Stealth.&#10;&#10;[Defense] THIS IS NOT A THREAT, CAPTAIN, JUST AN UNFORTUNATE TRUTH&#10;Powers: Combat Reflexes, Toughness&#10;Combat Reflexes, Toughness" />
+      <alternate name="B'Etor" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - THIS IS NOT A THREAT, CAPTAIN, JUST AN UNFORTUNATE TRUTH" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="B'Etor" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - THIS IS NOT A THREAT, CAPTAIN, JUST AN UNFORTUNATE TRUTH" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="B'Etor" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - THIS IS NOT A THREAT, CAPTAIN, JUST AN UNFORTUNATE TRUTH" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="B'Etor" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="B'Etor" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="B'Etor" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - THIS IS NOT A THREAT, CAPTAIN, JUST AN UNFORTUNATE TRUTH" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="B'Etor" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="fe533c51-ea1e-47e7-98e8-0e061ba44949" name="K'mpec" size="Card">
+      <property name="Unit ID" value="trekrf019" />
+      <property name="Collector Number" value="019" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="Klingon Empire" />
+      <property name="Keywords" value="Klingon | Ruler | Warrior" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] I ASKED YOU TO LET THIS CHALLENGE GO UNANSWERE, BUT NOW IT'S COME TO THIS&#10;When a friendly character that's adjacent or has the Klingon keyword is damaged by an opponent's attack, give that character a Dishonor token. // When a friendly character makes an attack with a single target, you may remove any number of their Dishonor tokens. If you do and the attack hits, increase the damage dealt by the number of Dishonor tokens removed.&#10;&#10;[Attack] THE KLINGON WHO KILLS WITHOUT SHOWING HIS FACE HAS NO HONOR&#10;Friendly characters that are adjacent or have the Klingon keyword can use [it:hindering]." />
+      <alternate name="K'mpec" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - THE KLINGON WHO KILLS WITHOUT SHOWING HIS FACE HAS NO HONOR" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="K'mpec" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - THE KLINGON WHO KILLS WITHOUT SHOWING HIS FACE HAS NO HONOR" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="K'mpec" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - THE KLINGON WHO KILLS WITHOUT SHOWING HIS FACE HAS NO HONOR" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="K'mpec" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - THE KLINGON WHO KILLS WITHOUT SHOWING HIS FACE HAS NO HONOR" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="K'mpec" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="5" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="K'mpec" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="78fd81e6-f17b-4a05-be1f-a0bba7059f3a" name="Borg Boarding Party" size="Card">
+      <property name="Unit ID" value="trekrf020" />
+      <property name="Collector Number" value="020" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="Borg" />
+      <property name="Keywords" value="Borg | Robot" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] YOU WILL BE ASSIMILATED.... RESISTANCE IS FUTILE&#10;When Borg Boarding Party KO's an opposing character, after resolutions roll a d6. [d:5]-[d:6]: You may generate a [set:trekrf] #002a Borg Drone on click #4 in that character's square. That generated character has Autonomous this turn.&#10;&#10;[Trait] ADAPTATION&#10;When a friendly character that's adjacent or has the Borg keyword is targeted or damaged during an opposing character's action, after resolutions opposing characters can't use any standard power(s) activated during that action for the rest of the turn. Protected: Pulse Wave.&#10;&#10;[Speed] THEY ARE ABOARD!&#10;Powers: Phasing Teleport&#10;Phasing/Teleport. [cs:passenger]: 2, but only to carry characters with the Borg keyword." />
+      <alternate name="Borg Boarding Party" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - THEY ARE ABOARD!" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Borg Boarding Party" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Borg Boarding Party" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Borg Boarding Party" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Borg Boarding Party" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="d44ee9d0-f574-4e30-9727-16b27ca1a965" name="Wesley Crusher" size="Card">
+      <property name="Unit ID" value="trekrf021" />
+      <property name="Collector Number" value="021" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="15" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Scientist | Starfleet" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] CHILDREN DO NOT BELONG ON THE BRIDGE&#10;Wesley Crusher can't be carried.&#10;&#10;[Damage] SHUT UP, WESLEY!&#10;Powers: Perplex&#10;Perplex, but only to target friendly characters. When Wesley Crusher uses Perplex, after resolutions roll a d6. [d:1]-[d:2]: Deal Wesley Crusher 1 unavoidable damage; [d:6]: Remove an action token from the target of his Perplex." />
+      <alternate name="Wesley Crusher" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - SHUT UP, WESLEY!" />
+      </alternate>
+      <alternate name="Wesley Crusher" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="7" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - SHUT UP, WESLEY!" />
+      </alternate>
+      <alternate name="Wesley Crusher" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="7" />
+        <property name="Defense" value="15" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Wesley Crusher" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="70be9430-78e1-4bdb-a737-f3fc03da1bae" name="Commander William T. Riker" size="Card">
+      <property name="Unit ID" value="trekrf022" />
+      <property name="Collector Number" value="022" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="125/100" />
+      <property name="Team Abilities" value="Q Continuum" />
+      <property name="Keywords" value="Cosmic | Starfleet" />
+      <property name="Range" value="7" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] I SHOULD NEVER HAVE MADE YOU THAT PROMISE&#10;When a friendly character without a Promise token that's adjacent or has the Starfleet keyword would be KO'd by an opponent's attack, you may instead turn them to their last non-KO click and give them a Promise token. If you do, after resolutions deal Commander William T. Riker 2 unavoidable damage. If the character is 50 points or less, deal him 1 unavoidable damage instead.&#10;&#10;[Attack] USE YOUR POWERS TO SAVE THEM&#10;Powers: Telekinesis&#10;Telekinesis as FREE, but only to target a friendly character that's adjacent to an opposing character and to place them adjacent to Commander William T. Riker.&#10;&#10;[Defense] WITH JUST A SNAP OF THE FINGERS...&#10;Powers: Energy Shield Deflection, Super Senses&#10;Energy Shield/Deflection, Super Senses" />
+      <alternate name="Commander William T. Riker" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - USE YOUR POWERS TO SAVE THEM" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - WITH JUST A SNAP OF THE FINGERS..." />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Commander William T. Riker" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - USE YOUR POWERS TO SAVE THEM" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - WITH JUST A SNAP OF THE FINGERS..." />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Commander William T. Riker" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - USE YOUR POWERS TO SAVE THEM" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - WITH JUST A SNAP OF THE FINGERS..." />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Commander William T. Riker" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - USE YOUR POWERS TO SAVE THEM" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - WITH JUST A SNAP OF THE FINGERS..." />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Commander William T. Riker" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Commander William T. Riker" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Commander William T. Riker" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Commander William T. Riker" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="2d6a8cb1-ec45-4865-9560-859cb9da1ef2" name="Lore" size="Card">
+      <property name="Unit ID" value="trekrf023" />
+      <property name="Collector Number" value="023" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="60" />
+      <property name="Keywords" value="Borg | Robot" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] DATA, IS THAT YOU?&#10;Powers: Toughness, Shape Change&#10;Toughness, Shape Change. When Lore uses Shape Change, if the attacker has the Starfleet keyword, he succeeds on a [d:3]-[d:6]&#10;&#10;[Damage] I WILL BRING ORDER TO CHAOS&#10;Powers: Leadership, Probability Control&#10;At the beginning of your turn, choose one to use this turn: Leadership but succeeds on a [d:4]-[d:6] -or- Probability Control, but may target a friendly character regardless of line of fire." />
+      <alternate name="Lore" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - I WILL BRING ORDER TO CHAOS" />
+      </alternate>
+      <alternate name="Lore" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - I WILL BRING ORDER TO CHAOS" />
+      </alternate>
+      <alternate name="Lore" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - I WILL BRING ORDER TO CHAOS" />
+      </alternate>
+      <alternate name="Lore" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Lore" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Lore" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="0c36d6b7-5179-4bef-a362-1b5fbf86e6f0" name="Tasha Yar" size="Card">
+      <property name="Unit ID" value="trekrf024" />
+      <property name="Collector Number" value="024" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Martial Artist | Soldier | Starfleet" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] MR. DATA, YOU JEWEL!&#10;When Tasha Yar is adjacent to a friendly character named Lt. Commander Data, she reduces damage by 1 in addition to any other effects.&#10;&#10;[Defense] INTERSTELLAR AIKIDO&#10;Powers: Combat Reflexes, Toughness&#10;Combat Reflexes, Toughness. If an opposing character misses Tasha Yar with a close attack, after resolutions you may place that character adjacent to Tasha Yar." />
+      <alternate name="Tasha Yar" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - INTERSTELLAR AIKIDO" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Tasha Yar" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - INTERSTELLAR AIKIDO" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Tasha Yar" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - INTERSTELLAR AIKIDO" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Tasha Yar" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Tasha Yar" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Tasha Yar" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="9b3bae45-0877-47a7-891c-8453d610d2f8" name="Ensign Ro Laren" size="Card">
+      <property name="Unit ID" value="trekrf025" />
+      <property name="Collector Number" value="025" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="40" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Bajoran | Soldier | Spy | Starfleet" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] UNCERTAIN LOYALTIES&#10;Once per force, when Ensign Ro Laren is KO'd, do not remove her from the game. Instead, after resolutions, place her in the square she last occupied on click #1. She is now friendly to your opponent's force. // If she is not on her starting force, friendly characters can't use Probability Control." />
+      <alternate name="Ensign Ro Laren" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Ensign Ro Laren" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Ensign Ro Laren" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Ensign Ro Laren" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Ensign Ro Laren" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="1700810f-b44b-4aaa-99d9-2e4f6d92ceba" name="Lt. Commander Geordi La Forge" size="Card">
+      <property name="Unit ID" value="trekrf026" />
+      <property name="Collector Number" value="026" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="40" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Scientist | Starfleet" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Improved Targeting" value="Hindering" />
+      <property name="Traits and Special Powers" value="[Attack] WE ARE GOING TO HAVE TO TIME THIS JUST RIGHT...&#10;FREE: Choose a friendly character that's adjacent or has the Starfleet keyword and roll a d6. When the chosen character attacks this turn, modify it's damage +1 for each die in its attack roll that's the resulting number.&#10;&#10;[Damage] WAIT A SECOND... THERE WE GO, CAPTAIN, TRY IT NOW&#10;Powers: Probability Control&#10;Probability Control. When he uses it to reroll the attack roll of an adjacent friendly character, you may choose to reroll only one die." />
+      <alternate name="Lt. Commander Geordi La Forge" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - WE ARE GOING TO HAVE TO TIME THIS JUST RIGHT..." />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - WAIT A SECOND... THERE WE GO, CAPTAIN, TRY IT NOW" />
+      </alternate>
+      <alternate name="Lt. Commander Geordi La Forge" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - WE ARE GOING TO HAVE TO TIME THIS JUST RIGHT..." />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - WAIT A SECOND... THERE WE GO, CAPTAIN, TRY IT NOW" />
+      </alternate>
+      <alternate name="Lt. Commander Geordi La Forge" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Commander Geordi La Forge" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Lt. Commander Geordi La Forge" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="39d2d6cf-039a-4ae8-a736-8f7dfde012ba" name="Lursa" size="Card">
+      <property name="Unit ID" value="trekrf027" />
+      <property name="Collector Number" value="027" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="85/45" />
+      <property name="Team Abilities" value="Klingon Empire" />
+      <property name="Keywords" value="Klingon | Warrior" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Optional Trait] THE DURAS SISTERS&#10;If your force has exactly one [set:trekrf] #018 B'Etor, Lursa and B'Etor have PROTECTED: Outwit.&#10;&#10;[Trait] EXPOSED ALLIANCE WITH THE ROMULANS&#10;When a friendly character that's adjacent or has the Klingon keyword is damaged by a close attack, after resolutions deal the attacker 1 penetrating damage.&#10;&#10;[Defense] DECEITFIL AND SHADY&#10;Powers: Energy Shield Deflection, Toughness&#10;Energy Shield/Deflection, Toughness." />
+      <alternate name="Lursa" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - DECEITFIL AND SHADY" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Lursa" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - DECEITFIL AND SHADY" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Lursa" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - DECEITFIL AND SHADY" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Lursa" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Lursa" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Lursa" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - DECEITFIL AND SHADY" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Lursa" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="b9175a86-cdf1-44a7-b46b-5ca2cd990db1" name="Q" size="Card">
+      <property name="Unit ID" value="trekrf028" />
+      <property name="Collector Number" value="028" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Properties" value="Unique | Nonstandard" />
+      <property name="Point Values" value="300/225/125/50" />
+      <property name="Team Abilities" value="Q Continuum" />
+      <property name="Keywords" value="Cosmic | Past | Deity" />
+      <property name="Range" value="8" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] A GAME TO TEST IF YOU ARE WORTHY OF THE GREATEST GIFT THE Q CAN OFFER&#10;At the beginning of the game, generate a number of Alien Soldier bystanders corresponding Q's point value: 300 points: 4; 225 points: 3; 125 points: 2; 50 points: 0.&#10;&#10;[Trait] THIS GAME SHALL, IN FACT, BE COMPLETELY UNFAIR&#10;Q isn't a standard character (can't be equipped or a pilot). // At the beginning of your turn, if there is no d6 on this card, roll a d6 and place it on this card. // When a character within range rolls an attack roll or rolls for Super Senses, you may remove the d6 from this card and replace a die in the roll with it.&#10;&#10;[Defense] TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS...&#10;Powers: Mastermind, Super Senses&#10;Mastermind, Super Senses. Once per turn. when an opposing character attacks Q, after resolutions you may place a Penalty Box marker in their square. At the end of their turn, remove the Penalty Box marker. // Characters occupying a Penalty Box marker have Immobile. // When an attack targeting Q misses, deal a character occupying a Penalty Box marker 1 penetrating damage.&#10;&#10;[Damage] FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!&#10;Powers: Probability Control, Shape Change&#10;Probability Control, Shape Change." />
+      <alternate name="Q" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="5" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="5" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="5" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - TO USE A 20TH CENTURY TERM, SHE'S IN A PENALTY BOX. WHERE SHE WILL BE UNHARMED, UNLESS..." />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - FAIRNESS IS SUCH A HUMAN CONCEPT. THINK IMAGINATIVELY!" />
+      </alternate>
+      <alternate name="Q" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="a7f207d7-8469-4990-b532-4593cc46a130" name="Alien Soldier" size="Card">
+      <property name="Unit ID" value="trekrf028bt" />
+      <property name="Collector Number" value="028bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Autonomous | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] TRAIT&#10;Alien Soldier can't be given an action if they have 1 action token." />
+      <alternate name="Alien Soldier" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+    <card id="6d959602-2282-45e6-9e55-1f90341f5bd9" name="Captain Jean-Luc Picard" size="Card">
+      <property name="Unit ID" value="trekrf029a" />
+      <property name="Collector Number" value="029a" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="125" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Politician | Starfleet" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] DARMOK AND JALAD AT TANAGRA&#10;Powers: Leadership&#10;Leadership. When Captain Jean-Luc Picard uses it and removes an action token from a friendly character, choose a keyword that character has. Captain Jean-Luc Picard gains that keyword.&#10;&#10;[Speed] THE PICARD MANEUVER&#10;Powers: Phasing Teleport&#10;Phasing/Teleport as POWER. When Captain Jean-Luc Picard uses it, after resolutions he may make a range attack with a range value of 2 and modifying damage +1.&#10;&#10;[Damage] DIPLOMACY&#10;Powers: Perplex&#10;Perplex. If Captain Jean-Luc Picard uses it to positively modify an opposing character's defense, give that character a Pact toke. // Characters with Pact tokens modify their attack -1 and defense +1. // When a character with a Pact token makes an attack, after resolutions deal that character 1 penetrating damage and remove all Pact tokens from them." />
+      <alternate name="Captain Jean-Luc Picard" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - DIPLOMACY" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - DIPLOMACY" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - DIPLOMACY" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - THE PICARD MANEUVER" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - THE PICARD MANEUVER" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - THE PICARD MANEUVER" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - THE PICARD MANEUVER" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Captain Jean-Luc Picard" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="3c37594d-e9c4-4c50-b478-2c145a1884c4" name="Q" size="Card">
+      <property name="Unit ID" value="trekrf029b" />
+      <property name="Collector Number" value="029b" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Properties" value="Prime | Nonstandard" />
+      <property name="Point Values" value="175/30" />
+      <property name="Team Abilities" value="Q Continuum" />
+      <property name="Keywords" value="Cosmic | Deity" />
+      <property name="Range" value="8" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] LET'S PLAY A LITTLE GAME&#10;Q isn't a standard character (can't be equipped or a pilot). // At the beginning of your turn, if there is no d6 on this card, roll a d6 and place it on this card. // When a character within range rolls an attack roll or rolls for Super Senses, you may remove the d6 from this card and replace a die in the roll with it.&#10;&#10;[Attack] CAPTAIN, YOU MAY FIND YOU ARE NOT NEARLY CLEVER ENOUGH TO DEAL WITH WHAT LIES AHEAD FOR YOU.&#10;When Q attacks, roll a d6. If the attack is not a critical miss and either die in the attack roll is that resulting number, all targets become hit and damage dealt is penetrating.&#10;&#10;[Defense] TEMPER, TEMPER, MON CAPITAINE. I'M MERELY TRYING TO ASSIST A PITIFUL SPECIES&#10;Powers: Super Senses&#10;Super Senses. When Q is attacked, roll a d6. If the attack is not a critical hit and either die in the attack roll is that resulting number, Q becomes missed by the attack.&#10;&#10;[Damage] THE Q BECAME INTERESTED IN YOU&#10;Powers: Probability Control&#10;Probability Control. FREE: Choose an opposing character that attacked Q or damaged a friendly character since your last turn. Place Q such that he is within 6 squares and line of fire of that character." />
+      <alternate name="Q" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CAPTAIN, YOU MAY FIND YOU ARE NOT NEARLY CLEVER ENOUGH TO DEAL WITH WHAT LIES AHEAD FOR YOU." />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - TEMPER, TEMPER, MON CAPITAINE. I'M MERELY TRYING TO ASSIST A PITIFUL SPECIES" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Q" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CAPTAIN, YOU MAY FIND YOU ARE NOT NEARLY CLEVER ENOUGH TO DEAL WITH WHAT LIES AHEAD FOR YOU." />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - TEMPER, TEMPER, MON CAPITAINE. I'M MERELY TRYING TO ASSIST A PITIFUL SPECIES" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Q" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - CAPTAIN, YOU MAY FIND YOU ARE NOT NEARLY CLEVER ENOUGH TO DEAL WITH WHAT LIES AHEAD FOR YOU." />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - TEMPER, TEMPER, MON CAPITAINE. I'M MERELY TRYING TO ASSIST A PITIFUL SPECIES" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Q" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - CAPTAIN, YOU MAY FIND YOU ARE NOT NEARLY CLEVER ENOUGH TO DEAL WITH WHAT LIES AHEAD FOR YOU." />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - TEMPER, TEMPER, MON CAPITAINE. I'M MERELY TRYING TO ASSIST A PITIFUL SPECIES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Q" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - CAPTAIN, YOU MAY FIND YOU ARE NOT NEARLY CLEVER ENOUGH TO DEAL WITH WHAT LIES AHEAD FOR YOU." />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - TEMPER, TEMPER, MON CAPITAINE. I'M MERELY TRYING TO ASSIST A PITIFUL SPECIES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Q" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - CAPTAIN, YOU MAY FIND YOU ARE NOT NEARLY CLEVER ENOUGH TO DEAL WITH WHAT LIES AHEAD FOR YOU." />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - TEMPER, TEMPER, MON CAPITAINE. I'M MERELY TRYING TO ASSIST A PITIFUL SPECIES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Q" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="0" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - TEMPER, TEMPER, MON CAPITAINE. I'M MERELY TRYING TO ASSIST A PITIFUL SPECIES" />
+        <property name="Damage" value="0" />
+        <property name="Damage Ability" value="Special - THE Q BECAME INTERESTED IN YOU" />
+      </alternate>
+      <alternate name="Q" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="7aaa61a9-50a6-431e-9a0f-fe38f7efaa12" name="Locutus of Borg" size="Card">
+      <property name="Unit ID" value="trekrf030" />
+      <property name="Collector Number" value="030" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="75" />
+      <property name="Team Abilities" value="Borg" />
+      <property name="Keywords" value="Borg | Robot | Soldier" />
+      <property name="Range" value="7" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] I AM LOCUTUS OF BORG. FROM THIS TIME FORWARD, YOU WILL SERVICE US&#10;Powers: Steal Energy&#10;Friendly characters that are adjacent or have the Borg keyword can use Steal Energy. If they can already use Steal Energy, when they use it and heal, they heal an additional click.&#10;&#10;[Trait] ATTACKING THE ENTERPRISE&#10;Friendly characters that are adjacent or have the Borg keyword modify attack +2 when attacking only characters with the Starfleet keyword." />
+      <alternate name="Locutus of Borg" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Locutus of Borg" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Locutus of Borg" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Locutus of Borg" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Locutus of Borg" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Locutus of Borg" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Locutus of Borg" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="0c224d2c-4388-40bb-b7d5-05086fb895fd" name="Borg Queen, The One Who Is Many" size="Card">
+      <property name="Unit ID" value="trekrf031" />
+      <property name="Collector Number" value="031" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Properties" value="Title" />
+      <property name="Point Values" value="100" />
+      <property name="Team Abilities" value="Borg" />
+      <property name="Keywords" value="Borg | Robot | Ruler" />
+      <property name="Range" value="8" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Title Trait] STARTING PLOT POINTS&#10;0&#10;&#10;[Title Trait] CONTINUITY&#10;When Borg Queen, The One Who Is Many is KO'd, opposing characters can use Outwit on their next turn.&#10;&#10;[Plus Plot Points] ISN'T THIS EASIER?&#10;FREE: Choose one: MOVE -or- CLOSE -or- RANGE. Actions of the chocen type given to friendly characters that are adjacent or have the Borg keyword don't count against your action total this turn.&#10;&#10;[Minus Plot Points] TRANSPORTER&#10;FREE: Choose a character on your sideline with the Borg keyword and a starting line for that character. You may pay 1PP plus 1PP per 10 full points of the character's cost to place that character on the starting line in an unossupied square within 6 squares and line of fire. A force may only have one character placed by this effect on the map at a time. (Example: You would pay 5PP for a 40-49 point character.)&#10;&#10;[Minus Plot Points] ASSIMILATION&#10;FREE: Choose a character from your opponent's KO area. You may pay 1 PP plus 1 PP per 10 full points of that character's starting line played this game to place that character on that starting line in an unoccupied square within 6 squares and line of fire. That character becomes friendly to your force. A force may have only one character placed by this effect on the map at a time. (Example: You would remove 5 Plot Points for a 40-49 point character.)" />
+      <alternate name="Borg Queen, The One Who Is Many" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Borg Queen, The One Who Is Many" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Borg Queen, The One Who Is Many" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Borg Queen, The One Who Is Many" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Borg Queen, The One Who Is Many" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Borg Queen, The One Who Is Many" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Borg Queen, The One Who Is Many" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Borg Queen, The One Who Is Many" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="4a91252b-3a2e-4533-a7d1-d7a90cf2da3b" name="Lt. Commander Data" size="Card">
+      <property name="Unit ID" value="trekrf032" />
+      <property name="Collector Number" value="032" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="United Federation" />
+      <property name="Keywords" value="Holodeck | Robot | Starfleet | Detective" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] SHIFTING FOCUS: DATA&#10;FREE: If Lt. Commander Data began your turn on the map, replace him with another character with this trait on the same click number.&#10;&#10;[Trait] OUR ADVERSARY IS NONE OTHER THAN PROFESSOR MORIARTY HIMSELF&#10;When an opposing character within 6 squares would use Outwit, Perplex, or Probability Control, you and that opponent each roll 2d6, and you add Lt. Commander Data's Deduction tokens. If your result is higher, instead that opposing character can't use that power this turn and Lt. Commander Data gets a Deduction token.&#10;&#10;[Speed] COME, WATSON... THE GAME IS AFOOT!&#10;Powers: Sidestep, Stealth&#10;Sidestep, Stealth&#10;&#10;[Damage] ELEMENTARY, MY DEAR GEORDI&#10;Powers: Probability Control&#10;Probability Control. When Lt. Commander Data uses it, the result can't be further rerolled." />
+      <alternate name="Lt. Commander Data" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - COME, WATSON... THE GAME IS AFOOT!" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ELEMENTARY, MY DEAR GEORDI" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - COME, WATSON... THE GAME IS AFOOT!" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ELEMENTARY, MY DEAR GEORDI" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - COME, WATSON... THE GAME IS AFOOT!" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - ELEMENTARY, MY DEAR GEORDI" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Lt. Commander Data" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="49b9a88e-c66f-4bab-8fec-d45a42a0c800" name="Mirror Beverly Crusher" size="Card">
+      <property name="Unit ID" value="trekrf033" />
+      <property name="Collector Number" value="033" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="100/75" />
+      <property name="Team Abilities" value="Mirror Universe" />
+      <property name="Keywords" value="Mirror Universe | Scientist" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] OPPORTUNISTIC MANEUVER&#10;FREE: Once per turn, for all characters that can use this trait, choose a friendly character that took 2 or more damage from a single attack since your last turn. You may place Mirror Beverly Crusher within 6 squares and line of fire of the opposing character that made that attack. You may then replace Mirror Beverly Crusher with another character that can use the Opportunistic Maneuver trait from your sideline (on thesame click number).&#10;&#10;[Trait] ADVANCING THROUGH THE RANKS&#10;When this character is placed by a character's use of the Opportunistic Maneuvers trait, until your next turn, this character has &quot;Opposing characters within 6 squares can't use Willpower or be healed.&quot;&#10;&#10;[Trait] MIRROR, MIRROR&#10;Powers: Shape Change&#10;Shape Change. When Mirror Beverly Crusher uses Shape Change and succeeds, give her a Mirror token, and if she fails, remove all Mirror tokens. When she uses Shape Change, increase the result by +1 for each Mirror token (a roll of [d:1] always fails).&#10;&#10;[Damage] USE MY SON'S GENIUS TO ADVANCE MY CAREER&#10;Powers: Outwit, Perplex, Probability Control, Support&#10;Outwit, Perplex, Probability Control, Support" />
+      <alternate name="Mirror Beverly Crusher" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - USE MY SON'S GENIUS TO ADVANCE MY CAREER" />
+      </alternate>
+      <alternate name="Mirror Beverly Crusher" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - USE MY SON'S GENIUS TO ADVANCE MY CAREER" />
+      </alternate>
+      <alternate name="Mirror Beverly Crusher" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - USE MY SON'S GENIUS TO ADVANCE MY CAREER" />
+      </alternate>
+      <alternate name="Mirror Beverly Crusher" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Mirror Beverly Crusher" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Mirror Beverly Crusher" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Mirror Beverly Crusher" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="e3a630f9-7198-460a-b0e8-350ca72ee141" name="Mirror William Riker" size="Card">
+      <property name="Unit ID" value="trekrf034" />
+      <property name="Collector Number" value="034" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="100/75" />
+      <property name="Team Abilities" value="Mirror Universe" />
+      <property name="Keywords" value="Mirror Universe | Soldier | Spy" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] OPPORTUNISTIC MANEUVER&#10;FREE: Once per turn, for all characters that can use this trait, choose a friendly character that took 2 or more damage from a single attack since your last turn. You may place Mirror William Riker within 6 squares and line of fire of the opposing character that made that attack. You may then replace Mirror William Riker with another character that can use the Opportunistic Maneuver trait from your sideline (on the same click number).&#10;&#10;[Trait] ADVANCING THROUGH THE RANKS&#10;When this character is placed by a character's use of the Opportunistic Maneuvers trait, until your next turn, this character has &quot;Opposing characters within 6 squares can't use team abilities.&quot;&#10;&#10;[Trait] MIRROR, MIRROR&#10;Powers: Shape Change&#10;Shape Change. When Mirror William Riker uses Shape Change and succeeds, give him a Mirror token, and if he fails, remove all Mirror tokens. When he uses Shape Change, increase the result by +1 for each Mirror token (a roll of [d:1] always fails).&#10;&#10;[Damage] BEAT RESPECT INTO YOU&#10;When Mirror William Riker hits an opposing character with two action tokens, he deals penetrating damage. // When Mirror William Riker damages an opposing character with an attack, after resolutions give that character an action token." />
+      <alternate name="Mirror William Riker" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - BEAT RESPECT INTO YOU" />
+      </alternate>
+      <alternate name="Mirror William Riker" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - BEAT RESPECT INTO YOU" />
+      </alternate>
+      <alternate name="Mirror William Riker" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - BEAT RESPECT INTO YOU" />
+      </alternate>
+      <alternate name="Mirror William Riker" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mirror William Riker" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mirror William Riker" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mirror William Riker" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

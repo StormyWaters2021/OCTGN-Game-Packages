@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="WizKids 2021" id="d3be4380-fa6e-4744-b2c5-d586bee88442" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="0ead6897-a50a-4e94-b05c-12b34fea4de4" name="Scott Porter" size="Card">
+      <property name="Unit ID" value="wk21WK21-B001" />
+      <property name="Collector Number" value="WK21-B001" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Chase" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="20" />
+      <property name="Team Abilities" value="Team Player" />
+      <property name="Keywords" value="Celebrity | Politician | Speedster" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Damage] MAY ALL YOUR ROLLS BE CRITICAL HITS&#10;Powers: Perplex&#10;Perplex. When Scott Porter uses it to target another friendly character, when that character attacks, their rolls of 10 and 11 are also critical hits this turn." />
+      <alternate name="Scott Porter" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Special - MAY ALL YOUR ROLLS BE CRITICAL HITS" />
+      </alternate>
+    </card>
+    <card id="8ea5f3ee-15fe-4937-bbf4-fbc63939ff4d" name="The Gingerbread Man" size="Card">
+      <property name="Unit ID" value="wk21WP21-001" />
+      <property name="Collector Number" value="WP21-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Chase" />
+      <property name="Point Values" value="30" />
+      <property name="Team Abilities" value="Mystics | Snowfall" />
+      <property name="Keywords" value="Santa'S Workshop | Speedster | Mystical" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] YOU CAN'T CATCH ME, I'M THE GINGERBREAD MAN!&#10;The Gingerbread Man automatically breaks away.&#10;&#10;[Trait] OH NO!&#10;When an opposing character damages the Gingerbread Man with a close attack, after resolutions heal them 1 click.&#10;&#10;[Attack] GIANT CANDY CANE&#10;Giant Reach: 2. // FREE: Choose a single-based opposing character within 2 squares and line of fire. Place that character in a square adjacent to its current square." />
+      <alternate name="The Gingerbread Man" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - GIANT CANDY CANE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="The Gingerbread Man" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - GIANT CANDY CANE" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="The Gingerbread Man" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - GIANT CANDY CANE" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Gingerbread Man" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - GIANT CANDY CANE" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="The Gingerbread Man" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

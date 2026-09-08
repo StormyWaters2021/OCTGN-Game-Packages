@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Fast Forces: House of X" id="4edf7249-32b6-46da-a1ba-dc659a86c40b" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="1d2cdee3-29fc-417a-a0c9-e8d1b1ad2b10" name="Wolverine" size="Card">
+      <property name="Unit ID" value="ffhx001" />
+      <property name="Collector Number" value="001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75/50" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Animal | X Force | X Men" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE MUTANT C.I.A.&#10;Powers: Stealth&#10;Stealth. [im:hindering]. [it:hindering].&#10;&#10;[Speed] X-FORCE IS A GO!&#10;Powers: Charge&#10;Charge. // FREE: If Wolverine occupies hindering terrain, place him in a square of hindering terrain within 3 squares and line of fire.&#10;&#10;[Defense] THINK THIS ONE'S STILL ALIVE&#10;Powers: Stop, Impervious&#10;STOP. Impervious." />
+      <alternate name="Wolverine" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - X-FORCE IS A GO!" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wolverine" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - X-FORCE IS A GO!" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wolverine" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wolverine" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wolverine" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Wolverine" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - X-FORCE IS A GO!" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Special - THINK THIS ONE'S STILL ALIVE" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Wolverine" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - X-FORCE IS A GO!" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+      <alternate name="Wolverine" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="b2cec92f-c7f6-48c0-8fa7-42cd74f57165" name="Beast" size="Card">
+      <property name="Unit ID" value="ffhx002" />
+      <property name="Collector Number" value="002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Animal | Illuminati | Scientist | X Force | X Men" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE MUTANT C.I.A.&#10;Powers: Stealth&#10;Stealth. [im:hindering]. [it:hindering].&#10;&#10;[Trait] FIVE STEPS AHEAD&#10;When an opposing character takes a FREE action, give Beast a Planning token. // FREE: Remove 2 Planning tokens to remove an action token from a friendly character with the X-Men keyword." />
+      <alternate name="Beast" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="04d75d76-c90e-4e04-9b3c-68fa42adf4cb" name="Beast" size="Card">
+      <property name="Unit ID" value="ffhx002.01" />
+      <property name="Collector Number" value="002.01" />
+      <property name="Unit Type" value="Alternate Card" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Animal | Illuminati | Scientist | X Force | X Men" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] TEAM UP: ANGEL, ARCHANGEL, CYCLOPS, ICEMAN, JEAN GREY, MARVEL GIRL&#10;If 2+ listed friendly characters are on the map, Beast and listed friendly characters can use [ta:x_men] as FREE. If 4+ are on the map, when they use it, heal 2 clicks isntead. (After revealing forces, you may replace a game element's default card with an alternate card. You can't choose a Team Up card if any characters on your starting force share a name).&#10;&#10;[Trait] THE MUTANT C.I.A.&#10;Powers: Stealth&#10;Stealth. [im:hindering]. [it:hindering].&#10;&#10;[Trait] FIVE STEPS AHEAD&#10;When an opposing character takes a FREE action, give Beast a Planning token. // FREE: Remove 2 Planning tokens to remove an action token from a friendly character with the X-Men keyword." />
+      <alternate name="Beast" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+    </card>
+    <card id="59de8fa3-ba28-41c0-b29b-26597f43deaf" name="Beast" size="Card">
+      <property name="Unit ID" value="ffhx002.02" />
+      <property name="Collector Number" value="002.02" />
+      <property name="Unit Type" value="Alternate Card" />
+      <property name="Rarity" value="Common" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Animal | Illuminati | Scientist | X Force | X Men" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] TEAM UP: X-MEN THEMED TEAM&#10;If 3+ friendly characters with the X-Men keyword are on the map, Beast and friendly adjacent characters have PROTECTED: Poison. (After revealing forces, you may replace character cards with their alternates. You can't choose a Team Up if your starting characters share a name).&#10;&#10;[Trait] THE MUTANT C.I.A.&#10;Powers: Stealth&#10;Stealth. [im:hindering]. [it:hindering].&#10;&#10;[Trait] FIVE STEPS AHEAD&#10;When an opposing character takes a FREE action, give Beast a Planning token. // FREE: Remove 2 Planning tokens to remove an action token from a friendly character with the X-Men keyword." />
+      <alternate name="Beast" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Beast" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+    </card>
+    <card id="820226df-6e68-47c3-9462-806512ebd522" name="Marvel Girl" size="Card">
+      <property name="Unit ID" value="ffhx003" />
+      <property name="Collector Number" value="003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75/50" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Phoenix Force | Quiet Council | X Force | X Men" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE MUTANT C.I.A.&#10;Powers: Stealth&#10;Stealth. [im:hindering]. [it:hindering].&#10;&#10;[Trait] KRAKOAN REVIVAL&#10;For all characters with this trait, when a friendly standard character with the X-Men keyword and a lower point value would be KO'd by an opposing effect, you may instead choose to turn that character to it's starting click (this game) and place them adjacent to a friendly character that can use this trait. If you do, your opponent scores that character and generates a bystander on this card (of their choice) adjacent to any of their characters. Your opponent then scores 10 points for every bystander they generated this game via this trait, regardless of source.&#10;&#10;[Speed] PSYCHIC INTERROGATION&#10;Powers: Mind Control, Sidestep&#10;Mind Control, Sidestep." />
+      <alternate name="Marvel Girl" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - PSYCHIC INTERROGATION" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Marvel Girl" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - PSYCHIC INTERROGATION" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Marvel Girl" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - PSYCHIC INTERROGATION" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Marvel Girl" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Marvel Girl" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Marvel Girl" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Marvel Girl" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="ef0e703a-4a61-47cf-b008-cd4047509724" name="Domino" size="Card">
+      <property name="Unit ID" value="ffhx004" />
+      <property name="Collector Number" value="004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50/25" />
+      <property name="Keywords" value="Soldier | X Force | X Men" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE MUTANT C.I.A.&#10;Powers: Stealth&#10;Stealth. [im:hindering]. [it:hindering].&#10;&#10;[Attack] NEURO-RESPONSIVE WAR MITTEN ...IT'S NOT A &quot;BRANCH&quot;&#10;Powers: Blades Claws Fangs, Precision Strike&#10;FREE: Choose one power or ability to use this turn: Blades/Claws/Fangs, Precision Strike, Giant Reach: 2.&#10;&#10;[Damage] IT'S LIKE MY LUCK IS LESSER SOMEHOW, LIKE A RABBIT FOOT WITH THE FUR WORN OFF&#10;Powers: Probability Control&#10;Probability Control, but only to reroll one die of an attack roll." />
+      <alternate name="Domino" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - NEURO-RESPONSIVE WAR MITTEN ...IT'S NOT A &quot;BRANCH&quot;" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IT'S LIKE MY LUCK IS LESSER SOMEHOW, LIKE A RABBIT FOOT WITH THE FUR WORN OFF" />
+      </alternate>
+      <alternate name="Domino" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - NEURO-RESPONSIVE WAR MITTEN ...IT'S NOT A &quot;BRANCH&quot;" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - IT'S LIKE MY LUCK IS LESSER SOMEHOW, LIKE A RABBIT FOOT WITH THE FUR WORN OFF" />
+      </alternate>
+      <alternate name="Domino" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - NEURO-RESPONSIVE WAR MITTEN ...IT'S NOT A &quot;BRANCH&quot;" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - IT'S LIKE MY LUCK IS LESSER SOMEHOW, LIKE A RABBIT FOOT WITH THE FUR WORN OFF" />
+      </alternate>
+      <alternate name="Domino" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - NEURO-RESPONSIVE WAR MITTEN ...IT'S NOT A &quot;BRANCH&quot;" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - IT'S LIKE MY LUCK IS LESSER SOMEHOW, LIKE A RABBIT FOOT WITH THE FUR WORN OFF" />
+      </alternate>
+      <alternate name="Domino" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Domino" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+      </alternate>
+      <alternate name="Domino" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="7ef64f72-3aa2-42a2-9704-eadd47fa40eb" name="Forge" size="Card">
+      <property name="Unit ID" value="ffhx005" />
+      <property name="Collector Number" value="005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="75/50" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Armor | Scientist | X Force | X Men" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE MUTANT C.I.A.&#10;Powers: Stealth&#10;Stealth. [im:hindering]. [it:hindering].&#10;&#10;[Speed] I SAVE THE BEST TOYS FOR MYSELF&#10;Powers: Plasticity, Sidestep&#10;[cs:wing], Plasticity, Sidestep.&#10;&#10;[Damage] IF YOU'RE LOOKING FOR TOYS AND STUFFED ANIMALS, YOU CAME TO THE WRONG PLACE&#10;Unique Modifier - Other friendly characters that are adjacent or have the X-Men keyword modify damage +1." />
+      <alternate name="Forge" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - I SAVE THE BEST TOYS FOR MYSELF" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IF YOU'RE LOOKING FOR TOYS AND STUFFED ANIMALS, YOU CAME TO THE WRONG PLACE" />
+      </alternate>
+      <alternate name="Forge" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - I SAVE THE BEST TOYS FOR MYSELF" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - IF YOU'RE LOOKING FOR TOYS AND STUFFED ANIMALS, YOU CAME TO THE WRONG PLACE" />
+      </alternate>
+      <alternate name="Forge" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - I SAVE THE BEST TOYS FOR MYSELF" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - IF YOU'RE LOOKING FOR TOYS AND STUFFED ANIMALS, YOU CAME TO THE WRONG PLACE" />
+      </alternate>
+      <alternate name="Forge" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - I SAVE THE BEST TOYS FOR MYSELF" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Forge" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - I SAVE THE BEST TOYS FOR MYSELF" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Forge" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - I SAVE THE BEST TOYS FOR MYSELF" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Forge" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="be9969b8-0d45-430a-b3bb-65f77defcfca" name="Sage" size="Card">
+      <property name="Unit ID" value="ffhx006" />
+      <property name="Collector Number" value="006" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="X Men" />
+      <property name="Keywords" value="Hellfire Club | Scientist | X Force | X Men | Exiles" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] THE MUTANT C.I.A.&#10;Powers: Stealth&#10;Stealth. [im:hindering]. [it:hindering].&#10;&#10;[Trait] MONITORING WORLDWIDE FOR ANTI-MUTANT ACTIVITIES&#10;During each opponent's turn, their force can't use the following powers more than once each: Outwit, Perplex, Probability Control. (They can only use Outwit once, Perplex once, and Probability Control once.)" />
+      <alternate name="Sage" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Sage" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Sage" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Sage" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="0" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Sage" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+  </cards>
+</set>

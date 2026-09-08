@@ -7995,5 +7995,545 @@
       <property name="Point Values" value="5" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;When a friendly character with the Past keyword uses Probability Control, you may choose that they have a minimum range of 6 and [it:characters]." />
     </card>
+    <card id="68b507b5-c19f-43a6-86bf-69fe959a17d2" name="Death Locket" size="Card">
+      <property name="Unit ID" value="tb051" />
+      <property name="Collector Number" value="051" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Properties" value="Unique" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="Team Player | Masters Of Evil" />
+      <property name="Keywords" value="Avengers | Masters Of Evil | Robot | S.H.I.E.L.D." />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] DEATHLOK NANITES&#10;When Death Locket would be KO'd by an opposing effect, instead roll a d6.&#10;[d:1]-[d:3]: KO Death Locket.&#10;[d:4]-[d:6]: Turn Death Locket to click #5.&#10;// The first time Death Locket uses this trait, the d6 result is automatically a [d:6]. Protected: Pulse Wave.&#10;&#10;[Attack] FLAMETHROWER ARM&#10;Powers: Energy Explosion, Precision Strike&#10;Energy Explosion, Precision Strike. // When Death Locket makes a range attack, generate a Fire smoke terrain marker in the square of each targeted character and each square adjacent to them. At the beginning of your next turn (even if this is lost), deal 1 damage to each character occupying those markers, then remove those markers." />
+      <alternate name="Death Locket" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - FLAMETHROWER ARM" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Death Locket" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - FLAMETHROWER ARM" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Death Locket" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - FLAMETHROWER ARM" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Death Locket" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Death Locket" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Death Locket" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="c19a39e9-de48-4947-9da2-b7762ee810b5" name="Crossbones" size="Card">
+      <property name="Unit ID" value="tbL009" />
+      <property name="Collector Number" value="L009" />
+      <property name="Unit Type" value="Legacy Card" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="50" />
+      <property name="Team Abilities" value="Hydra | Masters Of Evil" />
+      <property name="Keywords" value="Brute | Hydra | Marksman | Skeleton Crew | Thunderbolts" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Targeting" value="Hindering | Characters" />
+      <property name="Traits and Special Powers" value="[Trait] SPRAYING BULLETS&#10;Powers: Mastermind, Sidestep&#10;Mastermind, Sidestep. // RANGE: Make a range attack targeting all opposing characters within 3 squares and line of fire. Instead of normal damage, hit characters are dealt 2 penetrating damage and given an action token.&#10;&#10;[Attack] HYDRA'S TOP SNIPER&#10;RANGE: [it:elevated]. Make a range attack. Modify Crossbone's attack and damage +1 if a target has [ta:avengers] or [ta:shield]." />
+      <alternate name="Crossbones" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Crossbones" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - HYDRA'S TOP SNIPER" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Crossbones" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HYDRA'S TOP SNIPER" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Crossbones" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - HYDRA'S TOP SNIPER" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Crossbones" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Crossbones" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="1" />
+      </alternate>
+    </card>
+    <card id="8988db40-353d-4b1b-8d8b-14bbb22f64e9" name="Black Ant" size="Card">
+      <property name="Unit ID" value="tbL028" />
+      <property name="Collector Number" value="L028" />
+      <property name="Unit Type" value="Legacy Card" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="60" />
+      <property name="Team Abilities" value="Team Player | Hydra" />
+      <property name="Keywords" value="Hydra | Illuminati | Masters Of Evil | Robot | Thunderbolts" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] TRULY IRREDEEMABLE BEHAVIOR&#10;Powers: Super Senses, Close Combat Expert&#10;FREE: Choose one for Black Ant to use until you choose again: [cs:tiny] or [cs:starburst]. // If Black Ant is [cs:tiny] he can use Super Senses. // If Black Ant is [cs:starburst] he can use Close Combat Expert.&#10;&#10;[Trait] PLAYING BOTH SIDES&#10;Powers: Stealth, Willpower&#10;Stealth, Willpower. // When Black Ant uses Shape Change and succeeds, after resolutions he may remove an action token from a friendly character with the Thunderbolts keyword.&#10;&#10;[Defense] I CAN'T STOP DYING...&#10;Powers: Stop, Combat Reflexes, Regeneration&#10;STOP. Combat Reflexes, Regeneration. // When this click is first revealed, after resolutions heal Black Ant 2 clicks." />
+      <alternate name="Black Ant" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Black Ant" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Ant" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Black Ant" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Black Ant" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Black Ant" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - I CAN'T STOP DYING..." />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+    </card>
+    <card id="f67e6333-4a8e-41e9-87ba-0df830139ccb" name="Superia" size="Card">
+      <property name="Unit ID" value="tbL032" />
+      <property name="Collector Number" value="L032" />
+      <property name="Unit Type" value="Legacy Card" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Point Values" value="70" />
+      <property name="Team Abilities" value="Hydra" />
+      <property name="Keywords" value="A.I.M. | H.A.M.M.E.R. | Scientist | Dark Avengers | Femizons" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] BRAINS AND BRAWN&#10;Powers: Close Combat Expert, Super Strength&#10;Close Combat Expert, Super Strength. // Once per turn, when Superia uses Perplex or Outwit, after resolutions she may immediately use it again but only to target the same character.&#10;&#10;[Attack] SURRENDER AT ONCE OR AROUSE MY IRE!&#10;Powers: Pulse Wave&#10;KNOCKBACK, Pulse Wave. When Superia uses Pulse Wave, after resolutions hit characters can't heal until your next turn." />
+      <alternate name="Superia" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Superia" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Superia" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Superia" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - SURRENDER AT ONCE OR AROUSE MY IRE!" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Superia" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - SURRENDER AT ONCE OR AROUSE MY IRE!" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Superia" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Special - SURRENDER AT ONCE OR AROUSE MY IRE!" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Superia" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - SURRENDER AT ONCE OR AROUSE MY IRE!" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+    </card>
+    <card id="01c31c5f-6e77-43f6-a707-8394995770fa" name="Citizen V" size="Card">
+      <property name="Unit ID" value="tbL036" />
+      <property name="Collector Number" value="L036" />
+      <property name="Unit Type" value="Legacy Card" />
+      <property name="Rarity" value="Rare" />
+      <property name="Point Values" value="40" />
+      <property name="Keywords" value="Marksman | Martial Artist | Police | Politician | Thunderbolts" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] I'LL JOIN YOU BECAUSE I DON'T TRUST YOU...&#10;At the beginning of the game, choose a team ability printed on a friendly character's base. Citizen V has that team ability this game.&#10;&#10;[Trait] AN IONIC GIFT&#10;Powers: Leap Climb&#10;Leap/Climb. // When Citizen V clears action tokens, heal her 1 click for each token removed.&#10;&#10;[Speed] YOU THINK ZEMO'S READY FOR THIS ONE?&#10;Powers: Charge, Sidestep&#10;Charge, Sidestep. // When Citizen V hits, after resolutions choose one: remove an action token from a friendly character or give an action token to a hit opposing character." />
+      <alternate name="Citizen V" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - YOU THINK ZEMO'S READY FOR THIS ONE?" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Citizen V" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - YOU THINK ZEMO'S READY FOR THIS ONE?" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Citizen V" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Citizen V" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Citizen V" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - YOU THINK ZEMO'S READY FOR THIS ONE?" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+    </card>
+    <card id="ad5acc42-32e1-48fd-a63c-31e972a61bb2" name="Taskmaster" size="Card">
+      <property name="Unit ID" value="tbL048b" />
+      <property name="Collector Number" value="L048b" />
+      <property name="Unit Type" value="Legacy Card" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="90/50" />
+      <property name="Team Abilities" value="Team Player | Minions Of Doom" />
+      <property name="Keywords" value="Assassin | Avengers | Hydra | Marksman | Martial Artist | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Targeting" value="Hindering | Characters" />
+      <property name="Traits and Special Powers" value="[Trait] MASTER OF ALL FORMS&#10;Powers: Sidestep, Willpower&#10;Sidestep, Willpower. // FREE: Choose a Technique special power a character within range can use. Taskmaster can use that power until he chooses again.&#10;&#10;[Trait] STOLEN DEFENSES&#10;When Taskmaster is attacked, he can use any standard defense powers the attacker can use and may replace his defense value with the attacker's defense value.&#10;&#10;[Damage] PHOTOGRAPHIC MEMORY&#10;Powers: Leadership, Perplex&#10;Leadership, Perplex. When Taskmaster uses Perplex, until your next turn he can use any standard damage powers the target can use (when Taskmaster used Perplex.)" />
+      <alternate name="Taskmaster" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - PHOTOGRAPHIC MEMORY" />
+      </alternate>
+      <alternate name="Taskmaster" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - PHOTOGRAPHIC MEMORY" />
+      </alternate>
+      <alternate name="Taskmaster" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - PHOTOGRAPHIC MEMORY" />
+      </alternate>
+      <alternate name="Taskmaster" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Leap Climb" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Taskmaster" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Taskmaster" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Taskmaster" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+    </card>
+    <card id="96f5130b-6c3f-4bdd-9cf9-f9a7283405d4" name="Darkforce" size="Card">
+      <property name="Unit ID" value="tbMV62-t008" />
+      <property name="Collector Number" value="MV62-t008" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+      <alternate name="Darkforce" type="Tile" size="1x2" />
+    </card>
+    <card id="b01853bf-a73a-4f62-b10d-354906766993" name="Iron Bars" size="Card">
+      <property name="Unit ID" value="tbMV62-t010" />
+      <property name="Collector Number" value="MV62-t010" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+      <alternate name="Iron Bars" type="Tile" size="1x2" />
+    </card>
+    <card id="08112939-719a-4668-b617-94a581470750" name="Secret Entrance [1]" size="Card">
+      <property name="Unit ID" value="tbMV62-t012" />
+      <property name="Collector Number" value="MV62-t012" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="4" />
+      <property name="Traits and Special Powers" value="EFFECT:&#10;Immobile. When a character moves into an adjacent square, they may choose to immediately place themselves adjacent to a Secret Entrance [2] within 3 squares of this marker. If they do, they end their movement." />
+      <alternate name="Secret Entrance [1]" type="Tile" size="1x1" />
+    </card>
+    <card id="04e8a3e5-b4fa-4837-860e-58a1a26b908c" name="Boulder" size="Card">
+      <property name="Unit ID" value="tbMV62-t014" />
+      <property name="Collector Number" value="MV62-t014" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="5" />
+      <alternate name="Boulder" type="Tile" size="1x1" />
+    </card>
+    <card id="ee408e5c-5641-496d-ac15-3076276753a6" name="Boulder Trap" size="Card">
+      <property name="Unit ID" value="tbMV62-t015" />
+      <property name="Collector Number" value="MV62-t015" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="5" />
+      <property name="Range" value="4" />
+      <property name="Traits and Special Powers" value="EFFECT:&#10;When an opposing character picks up or equips a terrain marker within 2 squares, after resolutions you may deal that character 2 damage and generate a blocking terrain marker adjacent to them. // When an opposing character destroys this marker, after resolutions deal them 2 damage and generate a blocking marker adjacent to them." />
+      <alternate name="Boulder Trap" type="Tile" size="1x2" />
+    </card>
+    <card id="89627276-371d-4b72-8f18-60989c1e0804" name="Pine Tree" size="Card">
+      <property name="Unit ID" value="tbMV62-t016" />
+      <property name="Collector Number" value="MV62-t016" />
+      <property name="Unit Type" value="Terrain Marker" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="3" />
+      <property name="Traits and Special Powers" value="EFFECT:&#10;Powers: Plasticity&#10;Characters holding or occupying this terrain have Plasticity." />
+      <alternate name="Pine Tree" type="Tile" size="1x1" />
+    </card>
+    <card id="06a3f53c-f660-45a3-b925-83f1ef37ad45" name="Justice Like Lightning!" size="Card">
+      <property name="Unit ID" value="tbOS001" />
+      <property name="Collector Number" value="OS001" />
+      <property name="Unit Type" value="One Shot" />
+      <property name="Point Values" value="5" />
+      <property name="Traits and Special Powers" value="EFFECT:&#10;When a standard friendly character is KO'd, after resolutions you may place a friendly character in the last square the KO'd character occupied." />
+    </card>
   </cards>
 </set>

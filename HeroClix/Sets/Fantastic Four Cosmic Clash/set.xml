@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Fantastic Four: Cosmic Clash" id="db3ace1a-36f9-4cfe-a16a-c4038ebe7978" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="b0307ba0-02d6-4fa9-9652-ae1468aa7c0e" name="Mr. Fantastic" size="Card">
+      <property name="Unit ID" value="ffcc001" />
+      <property name="Collector Number" value="001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100/75" />
+      <property name="Team Abilities" value="Fantastic Four" />
+      <property name="Keywords" value="Celebrity | Illuminati | Scientist | Fantastic Four" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Elevated | Hindering" />
+      <property name="Traits and Special Powers" value="[Trait] I'M PRETTY GOOD AT MULTI-TASKING&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. When Mr. Fantastic uses Shape Change, after resolutions place that D6 with that result on this card, replacing any here. Giant Reach: X, where X is 2 or the value of that die on this card, whichever is greater.&#10;&#10;[Defense] WE'RE GOING TO BE FINE, SUE&#10;Powers: Stop, Super Senses&#10;STOP, but only if another friendly character with the Fantastic Four keyword is on the map. Super Senses.&#10;&#10;[Damage] YOU'LL FIND MR. FANTASTIC MORE THAN A MATCH FOR YOU, EVERY TIME&#10;Powers: Leadership, Outwit&#10;Leadership, Outwit. FREE: Choose an opposing character of higher points within 4 squares and line of fire and a power (standard or special) they can use. The chosen character can't use that power until your next turn." />
+      <alternate name="Mr. Fantastic" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - YOU'LL FIND MR. FANTASTIC MORE THAN A MATCH FOR YOU, EVERY TIME" />
+      </alternate>
+      <alternate name="Mr. Fantastic" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Mr. Fantastic" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - YOU'LL FIND MR. FANTASTIC MORE THAN A MATCH FOR YOU, EVERY TIME" />
+      </alternate>
+      <alternate name="Mr. Fantastic" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - YOU'LL FIND MR. FANTASTIC MORE THAN A MATCH FOR YOU, EVERY TIME" />
+      </alternate>
+      <alternate name="Mr. Fantastic" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mr. Fantastic" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Mr. Fantastic" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Special - WE'RE GOING TO BE FINE, SUE" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - YOU'LL FIND MR. FANTASTIC MORE THAN A MATCH FOR YOU, EVERY TIME" />
+      </alternate>
+      <alternate name="Mr. Fantastic" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="f7bcb534-bd31-45d9-b2ca-63d22a2af881" name="Invisible Woman" size="Card">
+      <property name="Unit ID" value="ffcc002" />
+      <property name="Collector Number" value="002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100/75" />
+      <property name="Team Abilities" value="Fantastic Four" />
+      <property name="Keywords" value="Celebrity | Lady Liberators | Scientist | Fantastic Four" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
+      <property name="Improved Targeting" value="Hindering" />
+      <property name="Traits and Special Powers" value="[Trait] HIDE AND SEEK&#10;FREE: Choose one: Until your next turn, opposing characters can't target Invisible Woman unless they began their turn within 3 squares of her -or- Terrain markers are considered clear for line of fire this turn, if Invisible Women is within 4 squares of them.&#10;&#10;[Defense] YOU'D BE SURPRISED WHAT LENGTHS I CAN GO WHEN PUSHED&#10;Powers: Barrier, Toughness, Willpower&#10;Barrier, Toughness, Willpower. When Invisible Woman uses Barrier, after resolutions you may knock back 2 squares any number of opposing characters adjacent to these markers.&#10;&#10;[Damage] JOHNNY, STAY WITH ME!&#10;Powers: Stop, Shape Change&#10;STOP, but only if another friendly character with the Fantastic Four keyword is on the map. Shape Change." />
+      <alternate name="Invisible Woman" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - YOU'D BE SURPRISED WHAT LENGTHS I CAN GO WHEN PUSHED" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Invisible Woman" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Invisible Woman" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - YOU'D BE SURPRISED WHAT LENGTHS I CAN GO WHEN PUSHED" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Support" />
+      </alternate>
+      <alternate name="Invisible Woman" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - YOU'D BE SURPRISED WHAT LENGTHS I CAN GO WHEN PUSHED" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Invisible Woman" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Invisible Woman" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Incapacitate" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Invisible Woman" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - YOU'D BE SURPRISED WHAT LENGTHS I CAN GO WHEN PUSHED" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Special - JOHNNY, STAY WITH ME!" />
+      </alternate>
+      <alternate name="Invisible Woman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="da7f889e-c30c-41d7-ace1-e24715d540b3" name="The Thing" size="Card">
+      <property name="Unit ID" value="ffcc003" />
+      <property name="Collector Number" value="003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100/75" />
+      <property name="Team Abilities" value="Fantastic Four" />
+      <property name="Keywords" value="Celebrity | Guardians Of The Galaxy | Fantastic Four" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] IT'S CLOBBERIN' TIME&#10;POWER: If no other friendly character has been placed this turn, choose an opposing character that's within 4 squares of a friendly character with the Fantastic Four keyword that was attacked since your last turn. Place The Thing such that he can make a close attack targeting the chosen character, then do so. If he hits and his attack roll is 10+, after resolutions remove an action token from him.&#10;&#10;[Speed] SOMETIMES YOU GOTTA BREAK STUFF&#10;Powers: Charge&#10;Charge, [im:destroy_blocking].&#10;&#10;[Defense] AIN'T FEELIN' SO GOOD, STRETCHO&#10;Powers: Stop, Invulnerability&#10;STOP, but only if another friendly character with the Fantastic Four keyword is on the map. Invulnerability." />
+      <alternate name="The Thing" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Special - SOMETIMES YOU GOTTA BREAK STUFF" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+      </alternate>
+      <alternate name="The Thing" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Thing" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - SOMETIMES YOU GOTTA BREAK STUFF" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="The Thing" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - SOMETIMES YOU GOTTA BREAK STUFF" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="The Thing" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Thing" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="The Thing" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Special - SOMETIMES YOU GOTTA BREAK STUFF" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Super Strength" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - AIN'T FEELIN' SO GOOD, STRETCHO" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="The Thing" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="47f03baa-9316-4463-a403-437459db7f64" name="Human Torch" size="Card">
+      <property name="Unit ID" value="ffcc004" />
+      <property name="Collector Number" value="004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="100/75" />
+      <property name="Team Abilities" value="Fantastic Four" />
+      <property name="Keywords" value="Celebrity | Herald | Inhumans | Spider Man Family | Fantastic Four" />
+      <property name="Range" value="7" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
+      <property name="Improved Movement" value="Characters" />
+      <property name="Traits and Special Powers" value="[Trait] FLAME TRAIL&#10;Once per turn for all characters with this trait, when Human Torch moves, after resolutions you may choose a character he moved through or adjacent to and deal it 1 penetrating damage.&#10;&#10;[Attack] FLAME ON&#10;Powers: Poison&#10;Poison, but may use it even if moved or placed this turn.&#10;&#10;[Defense] BEN? WHERE ARE YOU?&#10;Powers: Stop, Energy Shield Deflection&#10;STOP, but only if another friendly character with the Fantastic Four keyword is on the map. Energy Shield/Deflection." />
+      <alternate name="Human Torch" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Human Torch" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - FLAME ON" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Human Torch" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Energy Explosion" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Human Torch" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - FLAME ON" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Human Torch" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Human Torch" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Hypersonic Speed" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - FLAME ON" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Human Torch" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - BEN? WHERE ARE YOU?" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Human Torch" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="e1d5de78-d327-42d6-93db-4d69eaff3b7c" name="Dr. Doom" size="Card">
+      <property name="Unit ID" value="ffcc005" />
+      <property name="Collector Number" value="005" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="300/200/100" />
+      <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Keywords" value="Armor | Cabal | Cosmic | Latveria | Politician | Ruler | Scientist | Mystical" />
+      <property name="Range" value="7" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ONLY DOOM IS FIT TO RULE&#10;Powers: Leadership&#10;Leadership, but instead removes the action token from himself. When Dr. Doom uses it and succeeds, until your next turn he has [it:hindering] and PROTECTED: Mind Control, Outwit. // Other powers and abilities can't remove action tokens from Dr. Doom.&#10;&#10;[Attack] PHOTON ARRAY&#10;Powers: Energy Explosion&#10;Energy Explosion. // When Dr. Doom hits with a ranged attack, after resolutions give each hit character an action token. If you can't, deal that character 1 penetrating damage.&#10;&#10;[Defense] YOU HAVE ANGERED DOOM!&#10;Powers: Stop, Toughness&#10;STOP. Toughness. When Dr. Doom is targeted by an attack, you may choose a standard defense power that you haven't chosen this turn. Dr. Doom can use that power for this attack.&#10;&#10;[Damage] FEW MEN ARE AS SUBTLE AS DR. DOOM&#10;Powers: Outwit&#10;Outwit. FREE: Choose an opposing character of lower points within 4 squares and line of fire and a power (standard or special) they can use. The chosen character can't use that power until your next turn." />
+      <alternate name="Dr. Doom" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - PHOTON ARRAY" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="5" />
+        <property name="Damage Ability" value="Special - FEW MEN ARE AS SUBTLE AS DR. DOOM" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - YOU HAVE ANGERED DOOM!" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - PHOTON ARRAY" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - FEW MEN ARE AS SUBTLE AS DR. DOOM" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - YOU HAVE ANGERED DOOM!" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - PHOTON ARRAY" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - FEW MEN ARE AS SUBTLE AS DR. DOOM" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - YOU HAVE ANGERED DOOM!" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Dr. Doom" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Phasing Teleport" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - FEW MEN ARE AS SUBTLE AS DR. DOOM" />
+      </alternate>
+      <alternate name="Dr. Doom" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="69374016-c3b4-44a5-acd8-b7a7fe723789" name="Silver Surfer" size="Card">
+      <property name="Unit ID" value="ffcc006" />
+      <property name="Collector Number" value="006" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="300/200/100" />
+      <property name="Team Abilities" value="Defenders | Power Cosmic" />
+      <property name="Keywords" value="Annihilators | Cosmic | Herald | Defenders" />
+      <property name="Range" value="8" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
+      <property name="Improved Movement" value="Characters" />
+      <property name="Traits and Special Powers" value="[Trait] BEHOLD THE POWER COSMIC!&#10;Powers: Blades Claws Fangs, Energy Explosion, Pulse Wave, Quake, Super Strength, Incapacitate, Penetrating Psychic Blast, Smoke Cloud, Precision Strike, Poison, Steal Energy, Telekinesis&#10;FREE: Choose a standard attack power. Until your next turn Silver Surfer can use the chosen power and characters he hits can't use the chosen power.&#10;&#10;[Speed] THE SURFER SOARS&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Silver Surfer uses it, he may be given a RANGE action at no cost instead of making an attack.&#10;&#10;[Damage] TRACKING THE SUBATOMIC ACROSS SPACE&#10;FREE: Choose an Improved Targeting ability except [it:blocking] to use until your next turn. (He may choose [it:destroy_blocking].)" />
+      <alternate name="Silver Surfer" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="13" />
+        <property name="Speed Ability" value="Special - THE SURFER SOARS" />
+        <property name="Attack" value="12" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="5" />
+        <property name="Damage Ability" value="Special - TRACKING THE SUBATOMIC ACROSS SPACE" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="13" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="12" />
+        <property name="Speed Ability" value="Special - THE SURFER SOARS" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Special - TRACKING THE SUBATOMIC ACROSS SPACE" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Impervious" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="11" />
+        <property name="Speed Ability" value="Special - THE SURFER SOARS" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - TRACKING THE SUBATOMIC ACROSS SPACE" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="10" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Silver Surfer" type="Click11" size="1x1">
+        <property name="Click Number" value="11" />
+        <property name="Speed" value="9" />
+        <property name="Speed Ability" value="Special - THE SURFER SOARS" />
+        <property name="Attack" value="10" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Special - TRACKING THE SUBATOMIC ACROSS SPACE" />
+      </alternate>
+      <alternate name="Silver Surfer" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="bd4d22cd-023c-4b38-b2e9-a8c04bd956ad" name="Yancy Gang" size="Card">
+      <property name="Unit ID" value="ffccB001" />
+      <property name="Collector Number" value="B001" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="15" />
+      <property name="Team Abilities" value="Underworld" />
+      <property name="Keywords" value="Brute" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <alternate name="Yancy Gang" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+    </card>
+    <card id="a439bf85-bdd9-4896-a2d0-94ae8c5852a8" name="Yancy Pickpocket" size="Card">
+      <property name="Unit ID" value="ffccB002" />
+      <property name="Collector Number" value="B002" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="20" />
+      <property name="Team Abilities" value="Underworld" />
+      <property name="Keywords" value="Brute" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <alternate name="Yancy Pickpocket" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Attack" value="8" />
+        <property name="Defense" value="16" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+    </card>
+    <card id="a78848d2-4c41-4ca5-b393-b9fd1b3c7c4d" name="Doombot" size="Card">
+      <property name="Unit ID" value="ffccB003" />
+      <property name="Collector Number" value="B003" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="25" />
+      <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Keywords" value="Latveria | Robot" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <alternate name="Doombot" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+    </card>
+    <card id="946608de-ff64-4d24-bac4-25e8d66769b2" name="Latverian Engineer" size="Card">
+      <property name="Unit ID" value="ffccB004" />
+      <property name="Collector Number" value="B004" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Common" />
+      <property name="Point Values" value="20" />
+      <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Keywords" value="Latveria | Scientist" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
+      <property name="Traits and Special Powers" value="[Damage] LATVERIAN TECH&#10;Powers: Perplex, Support&#10;Perplex and Support, but both only to target characters with the Armor, Robot, or Latveria keywords." />
+      <alternate name="Latverian Engineer" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="9" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="0" />
+        <property name="Damage Ability" value="Special - LATVERIAN TECH" />
+      </alternate>
+    </card>
+    <card id="4e72a285-d9f5-48f4-8aae-6ab2cb5ea85b" name="Doom Castle" size="16x24">
+      <property name="Unit ID" value="ffccM001" />
+      <property name="Collector Number" value="M001" />
+      <property name="Unit Type" value="Map" />
+      <property name="Traits and Special Powers" value="[Location] Reign of Terror&#10;(Or 0 POINTS if every character on your starting force has the Latveria keyword.)&#10;At the beginning of the game, choose a friendly character. Once per turn, when that character rolls for Leadership you may reroll the result. If that character is named Dr. Doom, they increase their roll for Leadership by +1.&#10;&#10;[Consolation] Consolation&#10;Once per game, when a friendly character would roll for Leadership, you may choose that they automatically succeed." />
+    </card>
+    <card id="8001009a-e82f-4a17-b335-268b3ff8b7c2" name="Testing Grounds" size="16x24">
+      <property name="Unit ID" value="ffccM002" />
+      <property name="Collector Number" value="M002" />
+      <property name="Unit Type" value="Map" />
+    </card>
+    <card id="9e0ffe63-9329-48aa-affe-40959adb37ac" name="Reed's Lab" size="16x24">
+      <property name="Unit ID" value="ffccM003" />
+      <property name="Collector Number" value="M003" />
+      <property name="Unit Type" value="Map" />
+      <property name="Traits and Special Powers" value="[Location] Unstable Molecules&#10;(Or 0 POINTS if every character on your starting force (minimum 4) has the Fantastic Four keyword)&#10;[This map has orange zones labeled 1-4.] When a friendly character in a numbered orange zone attacks or is attacked, modify their corresponding combat value +1.&#10;1=Attack&#10;2=Range&#10;3=Defense&#10;4=Damage&#10;If that character is named Mr. Fantastic, you can choose which combat value (except Speed) to modify.&#10;&#10;[Consolation] Consolation&#10;At the beginning of the game, generate 4 Past Experiment markers anywhere on the map not within 4 squares of a starting area. Friendly characters occupying those markers modify attack +1." />
+    </card>
+    <card id="46f0627f-b39b-4ff7-acd6-834c090ff1cd" name="Yancy Street" size="16x24">
+      <property name="Unit ID" value="ffccM004" />
+      <property name="Collector Number" value="M004" />
+      <property name="Unit Type" value="Map" />
+    </card>
+  </cards>
+</set>
