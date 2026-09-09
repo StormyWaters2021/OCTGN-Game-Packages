@@ -1,4 +1,10 @@
 changelog = {
+    1000100: ("1.0.1.0", "9 September 2026", [
+            "Silver Age is here!",
+            "This is a MASSIVE update adding thousands of new models and tens of thousands of new images.",
+            "You will need to use the deck builder plugin to download all the new images.",
+            "Please send feedback if you notice any problems or mistakes!",
+            ]),
     1000023: ("1.0.0.23", "5 September 2026", [
         "Fixed issues importing D&D Iconix units.",
         ]),
