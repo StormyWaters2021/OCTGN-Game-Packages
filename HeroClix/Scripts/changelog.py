@@ -1,4 +1,8 @@
 changelog = {
+    PENDING CHANGES:
+    1000101: ("1.0.1.1", "11 September 2026", [
+            "Fixed colors of buttons in Generate list to be more visually appealing.",
+            ]),
     1000100: ("1.0.1.0", "9 September 2026", [
             "Silver Age is here!",
             "This is a MASSIVE update adding thousands of new models and tens of thousands of new images.",

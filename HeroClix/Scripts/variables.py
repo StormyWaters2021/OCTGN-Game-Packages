@@ -3,6 +3,8 @@ ACTION_MARKER = ("Action", "action_marker")
 PAC_GUID = "7db159f2-1eb2-425f-aaac-5492e36d755b"
 PAC_POSITIONS = (-1500, -210)
 
+BUTTON_COLORS = ["#007fc2", "#4da5d4", "#99cce7", "#f14a50", "#f68e92", "#fbd2d3", "#82a43a", "#a8bf75", "#cddbb0", ]
+
 DICE_POSITIONS = [(-950, -50), (-950, 50)]
 DICE_GUID = "fdbd1ec7-702f-4c29-bd6f-3f628af80a39"
 DICE_FACES = {

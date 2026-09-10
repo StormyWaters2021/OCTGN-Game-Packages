@@ -458,13 +458,25 @@ def create_one_shot(group, x=0, y=0):
     card = me.Team.create(guid, quantity)
 
 
+def _make_color_list(buttonlist):
+    mute()
+    colorlist = []
+    count = 0
+    for i in buttonlist:
+        colorlist.append(BUTTON_COLORS[count])
+        count += 1
+        if count == len(BUTTON_COLORS):
+            count = 0
+    return colorlist
+
+
 def create_character_filtered(group, x=0, y=0):
     mute()
     lookup_dict = {}
     
     message = "Look up characters by:"
     buttonList = ["Keywords", "Team Abilities", ]
-    colorList = ['#FF0000' for i in buttonList]
+    colorList = _make_color_list(buttonList)
     filter_choice = askChoice(message, buttonList, colorList)
     if filter_choice == 0:
         return
@@ -472,7 +484,7 @@ def create_character_filtered(group, x=0, y=0):
     
     message = "Choose one:"
     buttonList = [i for i in FILTER_CHOICE_LIST[filter_choice - 1]]
-    colorList = ['#FF0000' for i in buttonList]
+    colorList = _make_color_list(buttonList)
     choice = askChoice(message, buttonList, colorList)
     if choice == 0:
         return
