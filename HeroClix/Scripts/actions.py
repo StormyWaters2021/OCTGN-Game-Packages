@@ -180,13 +180,21 @@ def table_config(args):
 
     movement_report = ""
 
-    for idx, card in enumerate(args.cards):
+    
 
+    for idx, card in enumerate(args.cards):
+        card.target(False)
+        
+        if card.model == LOS_GUID:
+            _reset_los(card)
+        
         if args.fromGroups[idx] != table and args.toGroups[idx] == table:
             make_model(card)
 
         if is_map([card], 0, 0):
-            _position_map(card)
+            snap_to_grid(card)
+            _sync_map_rotation(card)
+            card.sendToBack() 
 
         elif card.model in MULTI_DIAL_LIST:
             base = _find_multidial_base(card.model)

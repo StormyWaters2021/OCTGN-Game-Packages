@@ -14,10 +14,16 @@ def load_map(group, x=0, y=0):
 
 def rotate_map(card, x=0, y=0):
     mute()
-    if card.orientation == 0:
-        card.orientation = 2
+
+    rotation = _get_map_rotation()
+
+    if rotation == 0:
+        rotation = 2
     else:
-        card.orientation = 0
+        rotation = 0
+
+    _set_map_rotation(rotation)
+    _sync_map_rotation(card)
     card.index = 0
 
 
@@ -36,19 +42,22 @@ def _position_map(gamemap):
 
 def _check_map_rotation():
     mute()
+
     maps = []
-    
-    for m in table:
-        if m.properties["Unit Type"] == "Map":
-            maps.append(m)
+
+    for card in table:
+        if card.properties["Unit Type"] == "Map":
+            maps.append(card)
+
     if len(maps) > 1:
         notify("Multiple maps detected. Please remove all but one.")
         return -1
-    elif len(maps) < 1:
+
+    if len(maps) < 1:
         notify("No map detected. Please load a map.")
         return -1
-    else:
-        return maps[0].orientation
+
+    return _get_map_rotation()
 
 
 def _report_movement(x, y):
@@ -75,10 +84,7 @@ def _report_movement(x, y):
         columns = columns[::-1]
         rows = rows[::-1]
 
-    if gamemap.position != _get_map_position(gamemap):
-        _position_map(gamemap)
-
-    aax, aay = _get_map_position(gamemap)
+    aax, aay = gamemap.position
 
     offsetx = int(round((x - aax) / 100))
     offsety = int(round((y - aay) / 100))
@@ -91,3 +97,23 @@ def _report_movement(x, y):
     intersection = columns[offsetx] + rows[offsety]
 
     return intersection
+    
+
+def _get_map_rotation():
+    return int(getGlobalVariable("map_rotation") or 0)
+
+
+def _set_map_rotation(rotation):
+    setGlobalVariable("map_rotation", str(rotation))
+    
+    
+def _sync_map_rotation(card):
+    selected_rotation = _get_map_rotation()
+
+    if card.isInverted():
+        if selected_rotation == 0:
+            card.orientation = 2
+        else:
+            card.orientation = 0
+    else:
+        card.orientation = selected_rotation

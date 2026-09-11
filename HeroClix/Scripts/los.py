@@ -28,6 +28,8 @@ def _draw_los_line(args):
     if not args.targeted:
         return
 
+    for card in table:
+        card.target(False)
     # We may need to rotate the line later
     rotation = 0
     

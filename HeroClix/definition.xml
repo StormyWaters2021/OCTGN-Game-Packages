@@ -31,7 +31,7 @@
   <proxygen definitionsrc="Proxy/proxydef.xml"/>
   
   <globalvariables>
-    <globalvariable name="players_loaded" value="0" /> 
+    <globalvariable name="map_rotation" value="0" /> 
   </globalvariables>
   
   <events>
@@ -128,20 +128,23 @@
 	<cardaction menu="Position" showIf="fail_check" shortcut="alt+a" execute="position" />
 	<cardaction menu="Test" showIf="fail_check" shortcut="alt+t" execute="_test" />
 	<!-- # ~~ DEBUG ~~ # -->
-	
+
+
+	<!-- # ~~ CARD ACTIONS ~~ # -->
 	<cardaction menu="Attack" showIf="is_not_map" execute="calculate_attack" />
-	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
-	<cardaction menu="Swap Map Image" showIf="has_map_image" execute="flip_map" />
 	<cardaction menu="Add Action Counter" showIf="is_not_map" default="True" execute="double_click" />
 	<cardaction menu="Remove Action Counter" showIf="is_not_map" execute="remove_action" />
 	<cardaction menu="Rotate Model" showIf="is_not_map" execute="rotate_model" />
-	<cardaction menu="Duplicate Model" showIf="is_not_map" execute="duplicate_model" />
+	<cardaction menu="Duplicate Model" showIf="is_not_map" shortcut="Ctrl+C" execute="duplicate_model" />
+	<cardaction menu="Flip Card Over" showIf="is_one_shot" execute="flip_card" />
 	
 	<cardseparator />
 	
 	<cardaction menu="Take 1 Damage" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
 	<cardaction menu="Take X Damage" showIf="is_not_map" execute="take_x_damage" />
 	<cardaction menu="Heal 1 Damage" showIf="is_not_map" shortcut="Up" execute="heal_one_damage" />
+	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
+	<cardaction menu="Swap Map Image" showIf="has_map_image" execute="flip_map" />
 	
 	<cardseparator />
 	
@@ -153,28 +156,33 @@
 	
 	
 	<!-- # ~~ VENOM GALACTUS OPTIONS ~~ # -->
-	
-	<!-- <cardaction menu="Advance Tendrils" showIf="_is_venom_galactus" execute="advance_tendrils" /> -->
-	<!-- <cardaction menu="Reverse Tendrils" showIf="_is_venom_galactus" execute="reverse_tendrils" /> -->
-	<!-- <cardaction menu="Advance Planet Breaker" showIf="_is_venom_galactus" execute="advance_breaker" /> -->
-	<!-- <cardaction menu="Reverse Planet Breaker" showIf="_is_venom_galactus" execute="reverse_breaker" /> -->
-	<!-- <cardaction menu="Advance Maw" showIf="_is_venom_galactus" execute="advance_maw" /> -->
-	<!-- <cardaction menu="Reverse Maw" showIf="_is_venom_galactus" execute="reverse_maw" /> -->
 	<cardaction menu="Set Active Dial" showIf="_is_venom_galactus" execute="set_venom_galactus_active_dial" />
 	<cardaction menu="Notify Active Dial" showIf="_is_venom_galactus" execute="notify_venom_galactus_active_dial" />
 	<cardaction menu="Advance Cosmic Hunger" showIf="_is_venom_galactus" execute="advance_hunger" />
 	<cardaction menu="Reverse Cosmic Hunger" showIf="_is_venom_galactus" execute="reverse_hunger" />
-	
-	
-	<cardseparator />
-	<cardaction menu="Flip Card Over" showIf="is_one_shot" execute="flip_card" />
 
+	<!-- # ~~ TEST MENU ~~ # -->
+	<cardactions menu="Test Menu">
+		<cardaction menu="Border > Set Color" showIf="is_not_map" execute="setBorder"/>
+		<cardaction menu="Border > Clear" showIf="is_not_map" execute="clearBorder"/>
+		
+		<cardaction menu="Overlay > Set Color" showIf="is_not_map" execute="setOverlay"/>
+		<cardaction menu="Overlay > Clear" showIf="is_not_map" execute="clearOverlay"/>
+		
+		<cardaction menu="P1 Marker" showIf="is_not_map" execute="p1_marker"/>
+		<cardaction menu="P2 Marker" showIf="is_not_map" execute="p2_marker"/>
+		<cardaction menu="P3 Marker" showIf="is_not_map" execute="p3_marker"/>
+		<cardaction menu="P4 Marker" showIf="is_not_map" execute="p4_marker"/>
+	</cardactions>
+
+
+	<!-- # ~~ GROUP ACTIONS ~~ # -->
 	<groupaction menu="Load Map" execute="load_map" />
 	<groupaction menu="Load Team from HCUnits" execute="importHCUnits" />
 
 	<groupactions menu="Dice">
 		<groupaction menu="Roll Two Dice" shortcut="Ctrl+R" execute="roll_dice" />
-		<groupaction menu="Roll Single Die" execute="roll_single_die" />
+		<groupaction menu="Roll Single Die" shortcut="Ctrl+T" execute="roll_single_die" />
 		<groupaction menu="Roll d20" execute="roll_d20" />
 	</groupactions>
 
@@ -196,24 +204,11 @@
 	</groupactions>
 	
 	<!-- # ~~ TEST MENU ~~ # -->
-	<cardactions menu="Test Menu">
-		<cardaction menu="Border > Set Color" showIf="is_not_map" execute="setBorder"/>
-		<cardaction menu="Border > Clear" showIf="is_not_map" execute="clearBorder"/>
-		
-		<cardaction menu="Overlay > Set Color" showIf="is_not_map" execute="setOverlay"/>
-		<cardaction menu="Overlay > Clear" showIf="is_not_map" execute="clearOverlay"/>
-		
-		<cardaction menu="P1 Marker" showIf="is_not_map" execute="p1_marker"/>
-		<cardaction menu="P2 Marker" showIf="is_not_map" execute="p2_marker"/>
-		<cardaction menu="P3 Marker" showIf="is_not_map" execute="p3_marker"/>
-		<cardaction menu="P4 Marker" showIf="is_not_map" execute="p4_marker"/>
-	</cardactions>
-	
 	<groupactions menu="Test Menu">
 		<groupaction menu="Create Galactus" execute="build_galactus"/>
 		<groupaction menu="Create Venom Galactus" execute="build_venom_galactus"/>
 	</groupactions>
-	<!-- # ~~ TEST MENU ~~ # -->
+
 	
 </table>
 
