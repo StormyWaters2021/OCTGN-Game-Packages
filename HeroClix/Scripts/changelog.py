@@ -3,6 +3,7 @@ changelog = {
     1000101: ("1.0.1.1", "11 September 2026", [
             "Fixed colors of buttons in Generate list to be more visually appealing.",
             "Adjusted map handling and reporting to allow players to move maps. Right-click and select 'Unanchor' to move it, then 'Anchor' it after moving.",
+            "Added some Starter teams and Fast Forces to the package so players can jump right in. Click on the 'Game' menu and select 'Load Pre-Built Deck' to find them."
             ]),
     1000100: ("1.0.1.0", "9 September 2026", [
             "Silver Age is here!",
