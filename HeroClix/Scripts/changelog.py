@@ -1,5 +1,9 @@
 changelog = {
-    PENDING CHANGES:
+    1000102: ("1.0.1.2", "14 September 2026", [
+            "Completed nearly all multi-dial units. Please run image downloader again."
+            "Fixed issue with rotation of objects."
+            "Minor bug fixes.",           
+            ]),
     1000101: ("1.0.1.1", "11 September 2026", [
             "Fixed colors of buttons in Generate list to be more visually appealing.",
             "Adjusted map handling and reporting to allow players to move maps. Right-click and select 'Unanchor' to move it, then 'Anchor' it after moving.",

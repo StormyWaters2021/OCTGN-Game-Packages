@@ -180,8 +180,6 @@ def table_config(args):
 
     movement_report = ""
 
-    
-
     for idx, card in enumerate(args.cards):
         card.target(False)
         
@@ -192,9 +190,10 @@ def table_config(args):
             make_model(card)
 
         if is_map([card], 0, 0):
-            snap_to_grid(card)
-            _sync_map_rotation(card)
-            card.sendToBack() 
+            if args.toGroups[idx] == table:            
+                snap_to_grid(card)
+                _sync_map_rotation(card)
+                card.sendToBack() 
 
         elif card.model in MULTI_DIAL_LIST:
             base = _find_multidial_base(card.model)
@@ -256,25 +255,23 @@ def rotate_model(card, x=0, y=0):
     old_x, old_y = card.position
     offsetx, offsety = _rotation_offset(card)
 
-    if card.orientation == 0:
-        new_orientation = 1
+    is_character = card.properties.get("Unit Type", "") == "Character"
 
-        if card.size in NOT_SQUARE_SIZES:
-            new_x = old_x + offsetx
-            new_y = old_y + offsety
-        else:
-            new_x = old_x
-            new_y = old_y
-
+    if is_character:
+        new_orientation = 1 if card.orientation == 0 else 0
     else:
-        new_orientation = 0
+        new_orientation = (card.orientation + 1) % 4
 
-        if card.size in NOT_SQUARE_SIZES:
-            new_x = old_x - offsetx
-            new_y = old_y - offsety
+    new_x = old_x
+    new_y = old_y
+
+    if card.size in NOT_SQUARE_SIZES:
+        if card.orientation in (0, 2):
+            new_x += offsetx
+            new_y += offsety
         else:
-            new_x = old_x
-            new_y = old_y
+            new_x -= offsetx
+            new_y -= offsety
 
     if card.model in MULTI_DIAL and card.alternate != "":
         secondary_models = MULTI_DIAL[card.model]
@@ -305,18 +302,17 @@ def make_model(card):
         
     base = _find_multidial_base(card.model)
     if base is not None:
-        if base == GALACTUS:
-            build_galactus(card, x, y + 200)
-            
-        elif base == VENOM_GALACTUS:
-            build_venom_galactus(card, x, y + 200)
-        
+        _create_multidial(base, x, y + 200)
         return
-    
+        
     if "Click1" in card.alternates:
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = "Click1"
+    elif len(card.alternates) > 0 and card.alternates[0].size == "1x1":
+        guid = card.model
+        fig = table.create(guid, x + offsetx, y + offsety)
+        fig.alternate = fig.alternates[0]
     elif "Tile" in card.alternates:
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)

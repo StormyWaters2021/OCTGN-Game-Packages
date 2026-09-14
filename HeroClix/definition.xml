@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.1.0"
+    version="1.0.1.2"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -147,6 +147,9 @@
 	<cardaction menu="Swap Map Image" showIf="has_map_image" execute="flip_map" />
 	
 	<cardseparator />
+	
+	<cardaction menu="Advance Secondary Dial" showIf="_is_multidial_base" execute="advance_tendrils" />
+	<cardaction menu="Reverse Secondary Dial" showIf="_is_multidial_base" execute="reverse_tendrils" />
 	
 	<!-- # ~~ GALACTUS OPTIONS ~~ # -->
 	<cardaction menu="Advance Elemental Converter" showIf="_is_galactus" execute="advance_converter" />

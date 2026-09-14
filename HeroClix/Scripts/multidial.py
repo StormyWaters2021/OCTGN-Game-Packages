@@ -2,19 +2,53 @@ GALACTUS = "1fddb83d-8c87-4403-9ea2-eaa2f9d6a58b"
 GALACTUS_CONVERTER = "ffce23a6-3530-4c1a-89cc-5df238e5d9ae"
 GALACTUS_HERALD = "ef162aa8-ada3-415f-9f2e-062e564adb05"
 
+OG_GALACTUS = "5573fd58-62a2-4a99-a93e-b38fe35df648"
+OG_GALACTUS_CONVERTER = "036c50ef-a3f4-4b69-9914-d1f70ce4a42f"
+OG_GALACTUS_HERALD = "0bc4e06c-22ab-4a82-af5a-2468015ee105"
+
 VENOM_GALACTUS = "fc3fe1ca-34f8-4e92-af49-e14bb0be2ae4"
 VG_TENDRILS = "650df7ac-847b-49f9-a785-81b21ed9f63d"
 VG_BREAKER = "1e64fbb4-8e8c-4f27-9a45-fdec59fe1af3"
 VG_MAW = "73e8df4a-9d46-4c56-a993-efd0efe5dafe"
 VG_HUNGER = "c5ab1d84-9c9b-42d1-9356-57f758af7208"
 
+MASTER_MOLD_BASE = "b1ed37cc-0c22-4806-8007-2b766d792544"
+MASTER_MOLD_FACTORY = "8f0333e7-9e61-47ae-a946-39842186219f"
+
+BLACKBIRD_BASE = "6cf3331e-5e99-44a7-92e3-b965b0ca5814"
+BLACKBIRD_RESOURCE = "b8f5a952-c4b5-45f3-8bc6-1a4993c63f73"
+
+MERC_JET_BASE = "578c74a7-6b20-4b62-81fb-efc75e2a34b2"
+MERC_JET_TERRAIN = "fa9e1e74-e103-432f-8f88-faba8998b2db"
+
+INVISIBLE_PLANE_BASE = "97991c42-977a-4b3c-9f25-e95e2bd00cd2"
+INVISIBLE_PLANE_TERRAIN = "64197088-014a-4caa-80ea-aecc9e9a7fcf"
+
+PYM_PARTICLE_TANK_BASE = "b9e4aad6-519d-474f-b58e-26447aa6fa64"
+PYM_PARTICLE_TANK_AUTOPILOT = "d96099bf-66df-4c77-a0ba-cec9c4f470cc"
+
+THANOS_COPTER_BASE = "80990491-8c6e-42b8-b072-dfc8ff3653e5"
+THANOS_COPTER_SECONDARY = "97a992b2-c23f-4eeb-a545-d95d262b6667"
+
+BATMOBILE_BASE = "5cbcb52b-ae13-43c4-9b21-a473b8cd9f9e"
+BATMOBILE_CONTROLLED = "10788575-835f-461d-b675-a27bbfb35a99"
+
 MULTI_DIAL = {
     GALACTUS: [GALACTUS_CONVERTER, GALACTUS_HERALD],
+    OG_GALACTUS: [OG_GALACTUS_CONVERTER, OG_GALACTUS_HERALD],
     VENOM_GALACTUS: [VG_TENDRILS, VG_MAW, VG_BREAKER, VG_HUNGER],
+    MASTER_MOLD_BASE: [MASTER_MOLD_FACTORY],
+    BLACKBIRD_BASE: [BLACKBIRD_RESOURCE],
+    MERC_JET_BASE: [MERC_JET_TERRAIN],
+    INVISIBLE_PLANE_BASE: [INVISIBLE_PLANE_TERRAIN],
+    PYM_PARTICLE_TANK_BASE: [PYM_PARTICLE_TANK_AUTOPILOT],
+    THANOS_COPTER_BASE: [THANOS_COPTER_SECONDARY],
+    BATMOBILE_BASE: [BATMOBILE_CONTROLLED],
             }
 
 MULTI_DIAL_LIST = [item for key, value in MULTI_DIAL.items() for item in [key] + value]
 
+QUAD_DIALS = [GALACTUS, GALACTUS_CONVERTER, GALACTUS_HERALD, OG_GALACTUS, OG_GALACTUS_CONVERTER, OG_GALACTUS_HERALD, VENOM_GALACTUS, VG_TENDRILS, VG_MAW, VG_BREAKER, VG_HUNGER]
 
 # # GALACTUS # #
 
@@ -22,7 +56,10 @@ def _is_galactus(cards, x=0, y=0):
     mute()
     if cards[0].alternate == "":
         return False
-    return cards[0].model == GALACTUS
+    if cards[0].model == GALACTUS or cards[0].model == OG_GALACTUS:
+        return True
+    else:
+        return False
 
 
 def build_galactus(card, x, y):
@@ -129,6 +166,12 @@ def reverse_hunger(card, x=0, y=0):
 
 
 # # HELPERS # # 
+
+def _is_multidial_base(card, x=0, y=0):
+    if card[0].model in QUAD_DIALS:
+        return False
+    return card[0].model in MULTI_DIAL
+
 
 def _multidial_active_check(card):
     if "multidial_active" not in card.properties:
