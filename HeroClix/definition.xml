@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="35"
-    version="1.0.1.3"
+    version="1.0.1.4"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -137,6 +137,7 @@
 	<cardaction menu="Rotate Model" showIf="is_not_map" execute="rotate_model" />
 	<cardaction menu="Duplicate Model" showIf="is_not_map" shortcut="Ctrl+C" execute="duplicate_model" />
 	<cardaction menu="Flip Card Over" showIf="is_one_shot" execute="flip_card" />
+	<cardaction menu="Delete" showIf="is_not_map" execute="delete_card" />
 	
 	<cardseparator />
 	
@@ -184,8 +185,8 @@
 	<groupaction menu="Load Team from HCUnits" execute="importHCUnits" />
 
 	<groupactions menu="Dice">
-		<groupaction menu="Roll Two Dice" shortcut="Ctrl+R" execute="roll_dice" />
-		<groupaction menu="Roll Single Die" shortcut="Ctrl+T" execute="roll_single_die" />
+		<groupaction menu="Roll Two Dice" shortcut="F2" execute="roll_dice" />
+		<groupaction menu="Roll Single Die" shortcut="F1" execute="roll_single_die" />
 		<groupaction menu="Roll d20" execute="roll_d20" />
 	</groupactions>
 

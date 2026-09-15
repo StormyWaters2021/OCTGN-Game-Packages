@@ -255,9 +255,9 @@ def rotate_model(card, x=0, y=0):
     old_x, old_y = card.position
     offsetx, offsety = _rotation_offset(card)
 
-    is_character = card.properties.get("Unit Type", "") == "Character"
+    
 
-    if is_character:
+    if card.properties["Unit Type"] == "Character":
         new_orientation = 1 if card.orientation == 0 else 0
     else:
         new_orientation = (card.orientation + 1) % 4
@@ -326,7 +326,15 @@ def duplicate_model(card, x=0, y=0):
     fig = table.create(guid, x + 150, y)
     fig.alternate = alt
     notify("{} creates a copy of {}.".format(me, card))
-    
+
+
+def delete_card(card, x = 0, y = 0):
+    mute()
+    choice = confirm("Are you sure you want to delete this object? This cannot be undone.")
+    if choice:
+        card.delete()
+
+        
 
 def is_map(card, x=0, y=0):
     mute()
@@ -372,27 +380,6 @@ def _grab_dice(card):
 def _pass_dice(card, player):
     mute()
     card.controller = player
-
-
-def roll_single_die(group, x=0, y=0):
-    mute()
-    for card in table:
-        if card.size == "Dice":
-            if card.controller != me:
-                _grab_dice(card)
-        
-    count = 0
-    results = ""
-    
-    for card in table:
-        if card.size == "Dice":
-            if count < 1:
-                face = rnd(1, 6)
-                card.alternate = DICE_FACES[face]
-                count += 1
-                results += str(face)
-    
-    notify("{} rolled {} on a single die.".format(me, results))
     
 
 def roll_d20(group, x=0, y=0):
@@ -401,27 +388,59 @@ def roll_d20(group, x=0, y=0):
     notify("{} rolled {} on a d20.".format(me, roll))
 
 
-def roll_dice(group, x=0, y=0):
+def roll_single_die(group, x=0, y=0):
     mute()
 
-    for card in table:
-        if card.size == "Dice":
-            if card.controller != me:
-                _grab_dice(card)
-        
-    total = 0
-    results = ""
+    dice = []
     
     for card in table:
         if card.size == "Dice":
+            dice.append(card)
+            if card.controller != me:
+                _grab_dice(card)
+
+    face = rnd(1, 6)
+    results = str(face)
+
+    # Update the physical die if one exists
+    if dice:
+        dice[0].alternate = DICE_FACES[face]
+
+    notify("{} rolled {} on a single die.".format(me, results))
+
+
+def roll_dice(group, x=0, y=0):
+    mute()
+
+    dice = []
+    
+    for card in table:
+        if card.size == "Dice":
+            dice.append(card)
+            if card.controller != me:
+                _grab_dice(card)
+
+    total = 0
+    results = ""
+    
+    if len(dice) == 2:
+        for card in dice:
             face = rnd(1, 6)
             card.alternate = DICE_FACES[face]
             total += face
             results += str(face) + ", "
+
+    if len(dice) < 2:
+        for i in range(2):
+            face = rnd(1, 6)
+            total += face
+            results += str(face) + ", "
+
     if group != "quiet":
         notify("{} rolled {}with a total of {}.".format(me, results, total))
+
     return total
-    
+
 
 def create_pac():
     mute()

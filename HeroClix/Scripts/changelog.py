@@ -1,4 +1,8 @@
 changelog = {
+    1000104: ("1.0.1.4", "15 September 2026", [
+            "Rolling 1 die is now shortcut to the F1 key, and F2 rolls 2 dice.",
+            "Fixed rotation bug."          
+            ]),
     1000103: ("1.0.1.3", "15 September 2026", [
             "Fixed terrain generation bug."          
             ]),
