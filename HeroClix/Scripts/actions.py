@@ -309,14 +309,14 @@ def make_model(card):
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = "Click1"
-    elif len(card.alternates) > 0 and card.alternates[0].size == "1x1":
-        guid = card.model
-        fig = table.create(guid, x + offsetx, y + offsety)
-        fig.alternate = fig.alternates[0]
     elif "Tile" in card.alternates:
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = "Tile"
+    elif len(card.alternates) > 0 and card.alternates[0].size == "1x1":
+        guid = card.model
+        fig = table.create(guid, x + offsetx, y + offsety)
+        fig.alternate = fig.alternates[0]
 
 
 def duplicate_model(card, x=0, y=0):

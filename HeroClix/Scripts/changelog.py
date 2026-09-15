@@ -1,4 +1,7 @@
 changelog = {
+    1000103: ("1.0.1.3", "15 September 2026", [
+            "Fixed terrain generation bug."          
+            ]),
     1000102: ("1.0.1.2", "14 September 2026", [
             "Completed nearly all multi-dial units. Please run image downloader again."
             "Fixed issue with rotation of objects."
