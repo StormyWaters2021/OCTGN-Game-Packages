@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="WizKids Marvel 2023" id="a41d800e-7f9b-40e1-8998-7e14e9958fe9" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="80a6664e-7ed3-49a3-bc8d-ae02c6e652e6" name="Moon Knight" size="Card">
@@ -8,14 +9,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="200" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Marvel Knights | Mystical | Phoenix Force | Warrior | Deity | Detective" />
-      <property name="Keywords Search" value="| Cosmic | Marvel Knights | Mystical | Phoenix Force | Warrior | Deity | Detective |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] FAVORED BY KHONSHU&#10;When Moon Knight KO's an opposing character, give him an Avatar token if he doesn't already have one. // When Moon Knight would be KO'd, you may remove an Avatar token. If you do, instead turn him to click #4.&#10;&#10;[Trait] THE SPELLS OF STRANGE&#10;Powers: Energy Shield Deflection, Combat Reflexes, Barrier&#10;FREE: Choose one to use until your next turn: *Energy Shield/Deflection *Combat Reflexes *Barrier as FREE, but only to generate 1 marker.&#10;&#10;[Speed] THE SPIRIT OF VENGEANCE...WITH THE PHOENIX FORCE&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Moon Knight uses it, after resolutions he may deal 1 penetrating damage to a character he moved through that action." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Marvel Knights | Mystical | Phoenix Force | Warrior | Deity | Detective |" />
       <alternate name="Moon Knight" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -108,13 +109,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Reporter | Spider Man Family" />
-      <property name="Keywords Search" value="| Reporter | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TOO MANY SPIDER-MEN!&#10;Powers: Shape Change&#10;Friendly characters with [ta:spider_man] can use Shape Change, but only succeed on a [d:6]. // When Spider-Man uses Shape Change, increase the result by +2 if three or more friendly characters are named Spider-Man." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Reporter | Spider Man Family |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -185,13 +186,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Heroes For Hire | Scientist | Mystical | Warrior | Defenders | Excalibur" />
-      <property name="Keywords Search" value="| Avengers | Heroes For Hire | Scientist | Mystical | Warrior | Defenders | Excalibur |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] RECKLESS SWORDSMAN&#10;Powers: Blades Claws Fangs, Steal Energy&#10;Blades/Claws/Fangs, Steal Energy. // When Black Knight makes an attack with a single target and misses, after resolutions deal him and the target 1 unavoidable damage." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | Scientist | Mystical | Warrior | Defenders | Excalibur |" />
       <alternate name="Black Knight" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -277,13 +278,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Reporter | Spider Man Family" />
-      <property name="Keywords Search" value="| Reporter | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Damage] BITING QUIPS&#10;Powers: Perplex&#10;Perplex, but only to modify combat values by -2." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Reporter | Spider Man Family |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -354,11 +355,11 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="35" />
       <property name="Keywords" value="Brute | Scientist" />
-      <property name="Keywords Search" value="| Brute | Scientist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] CONTROLLED TEST SUBJECTS&#10;POWER: Generate a Test Subject bystander [MAX 2]. This turn, that character has Autonomous attack symbol.&#10;&#10;[Defense] UNETHICAL PAIN RESEARCH&#10;Powers: Mastermind, Toughness&#10;Mastermind, Toughness.&#10;&#10;[Damage] MY OWN UNTOUCHABLE SOLDIERS&#10;FREE: Choose an adjacent friendly character. That character can use Impervious until your next turn." />
+      <property name="Keywords Search" value="| Brute | Scientist |" />
       <alternate name="Harrow" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -434,13 +435,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Fantastic Four" />
-      <property name="Team Abilities Search" value="| Fantastic Four |" />
       <property name="Keywords" value="Illuminati | Scientist | Fantastic Four" />
-      <property name="Keywords Search" value="| Illuminati | Scientist | Fantastic Four |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Attack] GET OVER HERE FOR ROUND 2!&#10;POWER: Range: 4. Make a range attack. If Mr. Fantastic hits, after resolutions, place a hit character adjacent to Mr. Fantastic and make a close attack targeting that character.&#10;&#10;[Damage] PART OF MY PLAN&#10;Powers: Outwit&#10;Outwit. // Outwit as POWER. When Mr. Fantastic uses Outwit as POWER, after resolutions another friendly character may make a close attack targeting the chosen character (if able)." />
+      <property name="Team Abilities Search" value="| Fantastic Four |" />
+      <property name="Keywords Search" value="| Illuminati | Scientist | Fantastic Four |" />
       <alternate name="Mr. Fantastic" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -522,13 +523,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Fantastic Four" />
-      <property name="Team Abilities Search" value="| Fantastic Four |" />
       <property name="Keywords" value="Celebrity | Fantastic Four" />
-      <property name="Keywords Search" value="| Celebrity | Fantastic Four |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] BUILDING UP TO GO NOVA&#10;When Human Torch hits, give him a Flare token. // FREE: Remove 3 Flare tokens from Human Torch. If you do, deal 2 unavoidable damage to all other characters within 4 squares, then destroy all blocking terrain within 4 squares.&#10;&#10;[Speed] YOU CAN FEEL MY HEAT FROM OVER THERE!&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Human Torch uses it and would make an attack, he may instead deal 1 damage to each adjacent opposing character." />
+      <property name="Team Abilities Search" value="| Fantastic Four |" />
+      <property name="Keywords Search" value="| Celebrity | Fantastic Four |" />
       <alternate name="Human Torch" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -619,13 +620,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Cosmic Energy | Fantastic Four" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Fantastic Four |" />
       <property name="Keywords" value="Cosmic | Avengers | Fantastic Four" />
-      <property name="Keywords Search" value="| Cosmic | Avengers | Fantastic Four |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Rally Trait] RALLY&#10;Infinity Thing begins the game on click #2. // FREE: Remove 4 of Infinity Thing's RALLY dice. If you do, turn him to click #1.&#10;&#10;[Attack] NOW IS THE TIME OF THE CLOBBERING&#10;Powers: Pulse Wave&#10;[cs:wing]. // Pulse Wave. When Infinity Thing uses it, friendly characters have SAFEGUARD: Pulse Wave.&#10;&#10;[Defense] THE TIME IS NOT HERE YET&#10;Powers: Stop&#10;STOP. Infinity Thing can't be chosen for Mastermind and can't be healed except by [ta:fantastic_four]." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Fantastic Four |" />
+      <property name="Keywords Search" value="| Cosmic | Avengers | Fantastic Four |" />
       <alternate name="Infinity Thing" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -694,13 +695,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Fantastic Four" />
-      <property name="Team Abilities Search" value="| Fantastic Four |" />
       <property name="Keywords" value="Celebrity | Avengers | Fantastic Four" />
-      <property name="Keywords Search" value="| Celebrity | Avengers | Fantastic Four |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SHIELDS UP!&#10;POWER: If no friendly character had a Shield token, give a friendly character within range and line of fire a Shield token. // When the friendly character with Invisible Woman's Shield token would take damage from an attack, instead remove the Shield token and deal that character 1 unavoidable damage.&#10;&#10;[Attack] JUST A LITTLE BLOW TO THE HEAD&#10;Powers: Precision Strike, Telekinesis&#10;Precision Strike, Telekinesis. // When Invisible Woman hits, after resolutions give each hit character an action token.&#10;&#10;[Damage] NOT EVEN CLOSE TO WHERE I AM!&#10;Powers: Shape Change&#10;Shape Change. When Invisible Woman uses it and succeeds, after resolutions you may move her up to 2 squares." />
+      <property name="Team Abilities Search" value="| Fantastic Four |" />
+      <property name="Keywords Search" value="| Celebrity | Avengers | Fantastic Four |" />
       <alternate name="Invisible Woman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -768,6 +769,12 @@
         <property name="Damage" value="1" />
         <property name="Damage Ability" value="Probability Control" />
       </alternate>
+      <alternate name="Invisible Woman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="b26c9464-fb81-42e7-b364-4cbd5039d656" name="Captain America" size="Card">
       <property name="Unit ID" value="wkm23M23-001" />
@@ -776,14 +783,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="125/40" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Animal | Asgardian | Avengers | Past | Soldier | Warrior | Defenders" />
-      <property name="Keywords Search" value="| Animal | Asgardian | Avengers | Past | Soldier | Warrior | Defenders |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] TRUST ME, THEY CAN BE USEFUL&#10;Powers: Energy Shield Deflection, Leadership&#10;Energy Shield/Deflection, Leadership. // Other friendly characters that are adjacent or have the Asgardian or Avengers keywords can use Energy Shield/Deflection.&#10;&#10;[Speed] LEADING BY EXAMPLE&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Captain America uses it and hits, after resolutions choose up to 2 friendly characters. This turn the chosen characters can use Charge and modify speed +1 when they use it.&#10;&#10;[Attack] JARNBJORN&#10;When Captain America targets a single character with an attack, that character can't use defense powers." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Animal | Asgardian | Avengers | Past | Soldier | Warrior | Defenders |" />
       <alternate name="Captain America" type="Click1" size="1x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -888,14 +895,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Avengers | Shield" />
-      <property name="Team Abilities Search" value="| Avengers | Shield |" />
       <property name="Keywords" value="Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Detective | Young Avengers" />
-      <property name="Keywords Search" value="| Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Detective | Young Avengers |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering | Characters | Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] GRAPPLE ARROW&#10;FREE: Place Hawkeye &amp; Hawkeye in a square of a different elevation within range and line of fire. // Friendly bystanders named Kate Bishop can use this trait.&#10;&#10;[Trait] TWO HAWKEYES? DOESN'T THAT GET CONFUSING?&#10;Once per turn, when Hawkeye &amp; Hawkeye make an attack, after resolutions they may make an attack. // At the beginning of your turn, Hawkeye &amp; Hawkeye may generate a Kate Bishop bystander. If they do, they can't use this trait until Kate Bishop is removed from the game." />
+      <property name="Team Abilities Search" value="| Avengers | Shield |" />
+      <property name="Keywords Search" value="| Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Detective | Young Avengers |" />
       <alternate name="Hawkeye &amp; Hawkeye" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1007,14 +1014,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Cosmic | Herald | Deity" />
-      <property name="Keywords Search" value="| Cosmic | Herald | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Elevated | Hindering" />
       <property name="Traits and Special Powers" value="[Trait] KNOCK YOU INTO ANOTHER REALITY&#10;KNOCKBACK. // When The Watcher hits, after resolutions remove up to 3 non-debris terrain markers from within 4 squares of a hit character, then generate up to 3 terrain markers within 4 squares of that hit character.&#10;&#10;[Attack] I MUST BREAK MY OATH&#10;Powers: Pulse Wave&#10;Pulse Wave. When The Watcher uses it, if only one character is targeted, he instead deals his printed damage.&#10;&#10;[Defense] I'VE SEEN EVERYTHING, AND YET...WHAT THE HELL IS THIS?!&#10;Powers: Stop, Invincible, Super Senses&#10;STOP. Invincible, Super Senses." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
+      <property name="Keywords Search" value="| Cosmic | Herald | Deity |" />
       <alternate name="The Watcher" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1107,13 +1114,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="90/60" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Asgardian | Spider Man Family | Warrior | Deity" />
-      <property name="Keywords Search" value="| Celebrity | Asgardian | Spider Man Family | Warrior | Deity |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE ODINDAUGHTER DESERVES WORSHIP!&#10;Thorgwen starts the game with an Arrogance token. // When Thorgwen is hit, remove her Arrogance token. // When Thorgwen clears action tokens, give her an Arrogance token if she doesn't have one. Protected: Pulse Wave.&#10;&#10;[Trait] I SHALL BE ADORED!&#10;Powers: Super Senses&#10;If Thorgwen has an Arrogance token, she can use Super Senses and [ta:cosmic_energy].&#10;&#10;[Attack] POWER OF AN AESIR&#10;Powers: Energy Explosion, Penetrating Psychic Blast&#10;Energy Explosion, Penetrating/Psychic Blast.&#10;&#10;[Damage] AND THAT IS HOW YOU BARD!&#10;Powers: Close Combat Expert, Perplex&#10;Close Combat Expert, Perplex." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Asgardian | Spider Man Family | Warrior | Deity |" />
       <alternate name="Thorgwen" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1219,14 +1226,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="270/150" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Monster | Deity | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Monster | Deity | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] GOD OF HUNGER&#10;Powers: Shape Change, Steal Energy&#10;Shape Change, Steal Energy. When Venom, God of Symbiotes uses Steal Energy, instead of healing he may generate a Symbiote bystander [MAX 4].&#10;&#10;[Trait] KING OF ALL SYMBIOTES&#10;Powers: Leadership&#10;Leadership. // At the beginning of your turn, Venom, God of Symbiotes may generate a Symbiote bystander [MAX 4]. If Venom, God of Symbiotes is 270 points, he may generate it adjacent to a friendly character named Symbiote or that has the Symbiote keyword.&#10;&#10;[Speed] LEAVE MY BODY AND TUNE INTO THEIRS&#10;Powers: Charge&#10;Charge. When Venom, God of Symbiotes uses it, before moving he may choose a friendly character named Symbiote or with the Symbiote keyword. If he does, place him and the chosen character in each other's squares.&#10;&#10;[Defense] AN INFINITE NUMBER OF HOST BODIES&#10;Powers: Impervious&#10;Impervious. When Venom, God of Symbiotes uses it, increase his result by +1 for each friendly character named Symbiote. // If there are 4 or more friendly characters named Symbiote, Venom, God of Symbiotes can reduce penetrating damage." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Monster | Deity | Symbiote |" />
       <alternate name="Venom, God of Symbiotes" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1385,8 +1392,8 @@
       <property name="Unit Type" value="Mystery Card" />
       <property name="Rarity" value="Chase" />
       <property name="Keywords" value="Mystical | Detective" />
-      <property name="Keywords Search" value="| Mystical | Detective |" />
       <property name="Traits and Special Powers" value="CLUE EFFECT: Ennead Archaeology&#10;When a friendly character with a listed keyword is given an action, after resolutions, if they destroyed a piece of blocking terrain during that action, gain 1 Clue token.&#10;&#10;SUSPECT (4)&#10;When a friendly character KO's an opposing character, after resolutions heal them 1 click.&#10;&#10;EVIDENCE (6)&#10;When a friendly character deals damage to an opposing character occupying or adjacent to a debris marker, increase the damage dealt by 1.&#10;&#10;CASE CLOSED (8)&#10;When a friendly character KO's an opposing character, score 10 points." />
+      <property name="Keywords Search" value="| Mystical | Detective |" />
     </card>
     <card id="d6516847-faa4-4248-8975-a442a736db3d" name="Captain America" size="Card">
       <property name="Unit ID" value="wkm23MV23-007" />
@@ -1395,13 +1402,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Avengers Initiative" />
-      <property name="Team Abilities Search" value="| Avengers Initiative |" />
       <property name="Keywords" value="Avengers | Howling Commandos | Past | Soldier | Wakanda" />
-      <property name="Keywords Search" value="| Avengers | Howling Commandos | Past | Soldier | Wakanda |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] FOUGHT ALONGSIDE AZZURI THE WISE&#10;When establishing themed teams, other friendly characters with the Soldier keyword gain the Wakanda keyword.&#10;&#10;[Damage] RALLYING CRY&#10;Powers: Leadership&#10;Leadership. When Captain America uses it and succeeds, after resolutions you may move another friendly character up to 2 squares." />
+      <property name="Team Abilities Search" value="| Avengers Initiative |" />
+      <property name="Keywords Search" value="| Avengers | Howling Commandos | Past | Soldier | Wakanda |" />
       <alternate name="Captain America" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1472,13 +1479,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Fantastic Four" />
-      <property name="Team Abilities Search" value="| Fantastic Four |" />
       <property name="Keywords" value="Avengers | Illuminati | Ruler | Scientist | Warrior | Fantastic Four | Wakanda" />
-      <property name="Keywords Search" value="| Avengers | Illuminati | Ruler | Scientist | Warrior | Fantastic Four | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WAKANDA FOREVER!&#10;Powers: Stealth&#10;Stealth. // Friendly characters with the Wakanda keyword have [ta:fantastic_four]. When Black Panther is KO'd, this effect continues for the rest of the game. Protected: Pulse Wave.&#10;&#10;[Attack] ANTARCTIC VIBRANIUM CLAWS&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Black Panther uses it, hit characters can't use STOP." />
+      <property name="Team Abilities Search" value="| Fantastic Four |" />
+      <property name="Keywords Search" value="| Avengers | Illuminati | Ruler | Scientist | Warrior | Fantastic Four | Wakanda |" />
       <alternate name="Black Panther" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1560,13 +1567,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Ruler | Scientist | Mystical | Wakanda" />
-      <property name="Keywords Search" value="| Ruler | Scientist | Mystical | Wakanda |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WAKANDA DESIGN GROUP&#10;When establishing themed teams, other friendly characters with the Scientist keyword gain the Wakanda keyword.&#10;&#10;[Trait] THE ANCIENT FUTURE&#10;Powers: Shape Change, Close Combat Expert, Invulnerability&#10;FREE: Choose two listed effects. Shuri can use the chosen effects until she chooses again. *Shape Change *[cs:wing] *Close Combat Expert *Invulnerability" />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Ruler | Scientist | Mystical | Wakanda |" />
       <alternate name="Shuri" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1626,13 +1633,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Ruler | Scientist | Mystical | Wakanda" />
-      <property name="Keywords Search" value="| Ruler | Scientist | Mystical | Wakanda |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TEAM-UP: BLACK PANTHER&#10;When Shuri uses her The Ancient Future trait, choose a friendly character named Black Panther. That character can use the two options she didn't choose until she chooses again.&#10;&#10;[Trait] WAKANDA DESIGN GROUP&#10;When establishing themed teams, other friendly characters with the Scientist keyword gain the Wakanda keyword.&#10;&#10;[Trait] THE ANCIENT FUTURE&#10;Powers: Shape Change, Close Combat Expert, Invulnerability&#10;FREE: Choose two listed effects. Shuri can use the chosen effects until she chooses again. *Shape Change *[cs:wing] *Close Combat Expert *Invulnerability" />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Ruler | Scientist | Mystical | Wakanda |" />
       <alternate name="Shuri" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1678,6 +1685,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Perplex" />
       </alternate>
+      <alternate name="Shuri" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="a0e244f0-c2c3-4741-af88-d2002bf9af5c" name="Miles Morales" size="Card">
       <property name="Unit ID" value="wkm23MV23-010" />
@@ -1686,13 +1699,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Champions | Avengers | Spider Man Family | Spy | Ultimates" />
-      <property name="Keywords Search" value="| Champions | Avengers | Spider Man Family | Spy | Ultimates |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Miles Morales in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] UNDERCOVER AT ROXXON&#10;Powers: Stealth&#10;Stealth. // When an opposing character within range uses Perplex or Outwit, roll a d6. [d:4]-[d:6]: That power has no effect." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Champions | Avengers | Spider Man Family | Spy | Ultimates |" />
       <alternate name="Miles Morales" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1763,13 +1776,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Spider Man Family | Detective | Symbiote" />
-      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Detective | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTIC FUSION&#10;Powers: Plasticity, Super Senses&#10;Plasticity, Super Senses. // If Spider-Gwen is within 4 squares and line of fire of an opposing character, she can't be targeted by range attacks.&#10;&#10;[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Spider-Gwen in a square of different elevation within 4 squares and line of fire." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Detective | Symbiote |" />
       <alternate name="Spider-Gwen" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1829,13 +1842,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="70/55" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Avengers | Reporter | Scientist | Spider Man Family | X Men | Fantastic Four" />
-      <property name="Keywords Search" value="| Avengers | Reporter | Scientist | Spider Man Family | X Men | Fantastic Four |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ETHICS PROFESSOR OF THE JEAN GREY SCHOOL&#10;Friendly characters that are less points and share a keyword with Spider-Man have [ta:spider_man].&#10;&#10;[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Spider-Man in a square of different elevation within 4 squares and line of fire." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Avengers | Reporter | Scientist | Spider Man Family | X Men | Fantastic Four |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1918,13 +1931,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="70/55" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Avengers | Reporter | Scientist | Spider Man Family | X Men | Fantastic Four" />
-      <property name="Keywords Search" value="| Avengers | Reporter | Scientist | Spider Man Family | X Men | Fantastic Four |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TEAM-UP: MILES MORALES, SPIDER-GWEN, GHOST SPIDER&#10;If any of the listed characters are on your force, Spider-Man and the listed character's Super Senses have Protected: Outwit.&#10;&#10;[Trait] ETHICS PROFESSOR OF THE JEAN GREY SCHOOL&#10;Friendly characters that are less points and share a keyword with Spider-Man have [ta:spider_man].&#10;&#10;[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Spider-Man in a square of different elevation within 4 squares and line of fire." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Avengers | Reporter | Scientist | Spider Man Family | X Men | Fantastic Four |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1992,6 +2005,12 @@
         <property name="Defense Ability" value="Super Senses" />
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Spider-Man" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
       </alternate>
     </card>
   </cards>

@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="Notorious" id="dc66b511-572e-445b-a23b-53657168b5d6" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="b16b6439-3730-4543-a9de-374ff9df1d13" name="Lex Luthor" size="Card">
@@ -8,13 +9,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Superman Enemy" />
-      <property name="Team Abilities Search" value="| Superman Enemy |" />
       <property name="Keywords" value="Armor | Herald | Legion Of Doom | Metropolis | Scientist | Orange Lantern Corps" />
-      <property name="Keywords Search" value="| Armor | Herald | Legion Of Doom | Metropolis | Scientist | Orange Lantern Corps |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE MASTER PLAN&#10;Friendly characters that are adjacent or share a keyword with Lex Luthor have [ta:superman_enemy]." />
+      <property name="Team Abilities Search" value="| Superman Enemy |" />
+      <property name="Keywords Search" value="| Armor | Herald | Legion Of Doom | Metropolis | Scientist | Orange Lantern Corps |" />
       <alternate name="Lex Luthor" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -80,13 +81,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="85/50" />
       <property name="Team Abilities" value="Justice League | Superman Ally" />
-      <property name="Team Abilities Search" value="| Justice League | Superman Ally |" />
       <property name="Keywords" value="Future | Kryptonian | Legion Of Super Villains | Metropolis | Past | Ruler" />
-      <property name="Keywords Search" value="| Future | Kryptonian | Legion Of Super Villains | Metropolis | Past | Ruler |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ABSOLUTE POWER: SUPERMAN&#10;Superman deals penetrating damage to characters that have the team ability chosen for [ta:justice_league]." />
+      <property name="Team Abilities Search" value="| Justice League | Superman Ally |" />
+      <property name="Keywords Search" value="| Future | Kryptonian | Legion Of Super Villains | Metropolis | Past | Ruler |" />
       <alternate name="Superman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -178,13 +179,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="70/40" />
       <property name="Team Abilities" value="Batman Ally | Justice League" />
-      <property name="Team Abilities Search" value="| Batman Ally | Justice League |" />
       <property name="Keywords" value="Batman Family | Future | Gotham City | Legion Of Super Villains | Martial Artist | Past | Ruler | Detective" />
-      <property name="Keywords Search" value="| Batman Family | Future | Gotham City | Legion Of Super Villains | Martial Artist | Past | Ruler | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ABSOLUTE POWER: BATMAN&#10;When Batman attacks, opposing characters that have the team ability chosen for [ta:justice_league] can't use Shape Change or Super Senses." />
+      <property name="Team Abilities Search" value="| Batman Ally | Justice League |" />
+      <property name="Keywords Search" value="| Batman Family | Future | Gotham City | Legion Of Super Villains | Martial Artist | Past | Ruler | Detective |" />
       <alternate name="Batman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -277,13 +278,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Brute | Arkham Asylum | Gotham City | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Brute | Arkham Asylum | Gotham City | Gotham City Underworld |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: G.O.O.N.&#10;When G.O.O.N. is KO'd by an opposing character, after resolutions you may roll a D6.&#10;[d:3]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
+      <property name="Keywords Search" value="| Brute | Arkham Asylum | Gotham City | Gotham City Underworld |" />
       <alternate name="G.O.O.N." type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -356,11 +357,11 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30/0" />
       <property name="Keywords" value="Cosmic | Police | Robot | Sinestro Corps" />
-      <property name="Keywords Search" value="| Cosmic | Police | Robot | Sinestro Corps |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] NO MAN ESCAPES THE MANHUNTERS&#10;During force construction, for all characters with this trait, for every 3 [set:not] #005 Manhunters you paid to add to your force, you may add 1 [set:not] #005 Manhunter without paying its cost. (They're still scored normally.)" />
+      <property name="Keywords Search" value="| Cosmic | Police | Robot | Sinestro Corps |" />
       <alternate name="Manhunter" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -427,11 +428,11 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Assassin | Court Of Owls | Gotham City | Martial Artist" />
-      <property name="Keywords Search" value="| Assassin | Court Of Owls | Gotham City | Martial Artist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] STRIKE FROM THE SHADOWS&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, but only if Court of Owls Assassin occupies hindering terrain." />
+      <property name="Keywords Search" value="| Assassin | Court Of Owls | Gotham City | Martial Artist |" />
       <alternate name="Court of Owls Assassin" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -490,14 +491,14 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | League Of Assassins | Martial Artist" />
-      <property name="Keywords Search" value="| Assassin | League Of Assassins | Martial Artist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Outdoor Blocking | Move Through" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Speed] HIT AND RUN TACTICS&#10;Powers: Sidestep, Stealth&#10;Sidestep, Stealth." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Assassin | League Of Assassins | Martial Artist |" />
       <alternate name="League Assassin" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -552,11 +553,11 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Keywords" value="Animal | Brute | Gorilla City | Warrior" />
-      <property name="Keywords Search" value="| Animal | Brute | Gorilla City | Warrior |" />
       <property name="Range" value="2" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: GRODD'S ARMY&#10;When Gorilla City Warrior is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Generate an hindering terrain marker in the square Gorilla City Warrior last occupied.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Keywords Search" value="| Animal | Brute | Gorilla City | Warrior |" />
       <alternate name="Gorilla City Warrior" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -628,13 +629,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Brute | Arkham Asylum | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Brute | Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: JOKER'S POSSE&#10;When Joker Goon is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Generate an Smoke terrain marker in the square Joker Goon last occupied.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Brute | Arkham Asylum | Gotham City Underworld |" />
       <alternate name="Joker Goon" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -703,14 +704,14 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Animal | Brute | Arkham Asylum | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Animal | Brute | Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SIMIAN BODY, MOB BOSS BRAIN&#10;At the beginning of the game, Gorilla Boss may generate a character with an Expendable Goon trait on their 15 point line. If you're not the first player, you may generate 2 instead." />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
+      <property name="Keywords Search" value="| Animal | Brute | Arkham Asylum | Gotham City Underworld |" />
       <alternate name="Gorilla Boss" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -800,13 +801,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Animal | Brute | Arkham Asylum | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Animal | Brute | Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: NOTCHKA AND SHAKA&#10;When Polar Bear is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Generate an Ice blocking terrain marker in the square Polar Bear last occupied. This game, that marker has &quot;Adjacent characters must roll for break away if they don't already need to.&quot;&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Animal | Brute | Arkham Asylum | Gotham City Underworld |" />
       <alternate name="Polar Bear" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -879,13 +880,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Brute | Injustice League | Legion Of Doom | Pirate | Secret Society Of Super Villains" />
-      <property name="Keywords Search" value="| Brute | Injustice League | Legion Of Doom | Pirate | Secret Society Of Super Villains |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: BLACK MANTA'S CREW&#10;When Black Manta Goon is KO'd by an opposing character, after resolutions you may roll a D6.&#10;[d:1]-[d:3]: Generate a water terrain marker in the square Black Manta Goon last occupied.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Brute | Injustice League | Legion Of Doom | Pirate | Secret Society Of Super Villains |" />
       <alternate name="Black Manta Goon" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -957,13 +958,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="120/60" />
       <property name="Team Abilities" value="Superman Enemy" />
-      <property name="Team Abilities Search" value="| Superman Enemy |" />
       <property name="Keywords" value="Brute | Legion Of Doom | Metropolis | Outlaws | Monster" />
-      <property name="Keywords Search" value="| Brute | Legion Of Doom | Metropolis | Outlaws | Monster |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] PEOPLE NO TAKE BIZARRO SERIOUS&#10;When Bizarro starts the game, you may turn him to click #9. If you do, this game turn his dial in the direction of decreasing click numbers when he is damaged, and in the direction of increasing click numbers when he is healed. If he would be turned past his starting click, KO him. Protected: Pulse Wave. (If played at 60 points, his starting click is 5.)" />
+      <property name="Team Abilities Search" value="| Superman Enemy |" />
+      <property name="Keywords Search" value="| Brute | Legion Of Doom | Metropolis | Outlaws | Monster |" />
       <alternate name="Bizarro" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1080,13 +1081,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Brute | Arkham Asylum | Gotham City | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Brute | Arkham Asylum | Gotham City | Gotham City Underworld |" />
       <property name="Range" value="2" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: RIDDLER'S GANG&#10;When Riddler Goon is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Give the character who KO'd him an action token.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Brute | Arkham Asylum | Gotham City | Gotham City Underworld |" />
       <alternate name="Riddler Goon" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1154,13 +1155,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: TETCH'S TEA PARTY&#10;When White Rabbit Goon is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Place the character who KO'd him up to 2 squares away from their current square.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld |" />
       <alternate name="White Rabbit Goon" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1230,13 +1231,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Batman Enemy | Injustice League" />
-      <property name="Team Abilities Search" value="| Batman Enemy | Injustice League |" />
       <property name="Keywords" value="Brute | Gotham City | Injustice League | Legion Of Doom | Secret Society Of Super Villains | Monster | Mystical" />
-      <property name="Keywords Search" value="| Brute | Gotham City | Injustice League | Legion Of Doom | Secret Society Of Super Villains | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] RETURN FROM SLAUGHTER SWAMP&#10;FREE: If Solomon Grundy occupies water terrain, heal him 2 clicks. // Solomon Grundy has SAFEGUARD: Outwit." />
+      <property name="Team Abilities Search" value="| Batman Enemy | Injustice League |" />
+      <property name="Keywords Search" value="| Brute | Gotham City | Injustice League | Legion Of Doom | Secret Society Of Super Villains | Monster | Mystical |" />
       <alternate name="Solomon Grundy" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1313,11 +1314,11 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Keywords" value="Herald | Sinestro Corps | Warrior" />
-      <property name="Keywords Search" value="| Herald | Sinestro Corps | Warrior |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: SINESTRO'S WEAPONERS&#10;When Qwardian Thunderer is KO'd by an opposing character, after resolutions you may roll a D6.&#10;[d:1]-[d:3]: Generate a standard object in the square Qwardian Thunderer last occupied.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Keywords Search" value="| Herald | Sinestro Corps | Warrior |" />
       <alternate name="Qwardian Thunderer" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1389,13 +1390,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Herald | Legion Of Doom | Scientist | Sinestro Corps" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Herald | Legion Of Doom | Scientist | Sinestro Corps |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] PREYING ON YOUR FEARS&#10;Powers: Smoke Cloud&#10;Smoke Cloud as FREE, but only to generate 2 markers. If you weren't the first player, generate 4 instead. // When Scarecrow makes a close attack, opposing characters occupying his Smoke markers are considered adjacent to him." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Herald | Legion Of Doom | Scientist | Sinestro Corps |" />
       <alternate name="Scarecrow" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1489,11 +1490,11 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Project Cadmus | Robot | Spy" />
-      <property name="Keywords Search" value="| Project Cadmus | Robot | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] UPDATING PROTOCOLS&#10;OMAC starts the game on click #6. // Once per turn, when another friendly [set:not] #019a OMAC is KO'd, after resolution you may heal OMAC 2 clicks. OMAC may heal past his starting line this way." />
+      <property name="Keywords Search" value="| Project Cadmus | Robot | Spy |" />
       <alternate name="OMAC" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Speed" value="6" />
@@ -1574,12 +1575,12 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="175/100" />
       <property name="Keywords" value="Brute | Project Cadmus | Robot | Spy" />
-      <property name="Keywords Search" value="| Brute | Project Cadmus | Robot | Spy |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] ABSORPTION CELLS&#10;OMAC Prime can use the displayed standard powers of adjacent opposing characters.&#10;&#10;[Trait] OMAC VIRUS&#10;Powers: Leadership&#10;Leadership, but increase Action Total by +2 instead of +1 if OMAC Prime is on a themed team. // When an opposing character is KO'd by a friendly character with the Robot keyword, after resolutions you may generate a [set:not] #019a OMAC. // FREE: KO an adjacent bystander." />
+      <property name="Keywords Search" value="| Brute | Project Cadmus | Robot | Spy |" />
       <alternate name="OMAC Prime" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1717,13 +1718,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50/35" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Legion Of Doom | Detective" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Legion Of Doom | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] RIDDLE ME THIS&#10;Adjacent friendly characters have SAFEGUARD: Opposing Probability Control. // If you weren't the first player, opposing characters within range have SAFEGUARD: Friendly Probability Control.&#10;&#10;[Damage] A REAL STUMPER&#10;Powers: Outwit&#10;Outwit. When The Riddler uses it to target an opposing character that was targeted by Perplex since your last turn, after resolutions deal that character 1 damage." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Legion Of Doom | Detective |" />
       <alternate name="The Riddler" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1803,12 +1804,12 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Animal | Gorilla City | Legion Of Doom | Ruler" />
-      <property name="Keywords Search" value="| Animal | Gorilla City | Legion Of Doom | Ruler |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] GORILLA CITY SHALL RULE!&#10;Powers: Mind Control, Leadership&#10;Mind Control, Leadership. When Grodd uses Leadership and succeeds, after resolutions you may move a friendly character with the Animal keyword up to 3 squares.&#10;&#10;[Defense] RULE BY STRENGTH&#10;Powers: Invulnerability, Mastermind&#10;Invulnerability, Mastermind" />
+      <property name="Keywords Search" value="| Animal | Gorilla City | Legion Of Doom | Ruler |" />
       <alternate name="Grodd" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1898,12 +1899,12 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="115/50" />
       <property name="Keywords" value="Herald | Monster | Black Lantern Corps" />
-      <property name="Keywords Search" value="| Herald | Monster | Black Lantern Corps |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] THE BLACKEST NIGHT FALLS FROM THE SKIES&#10;FREE: Generate a Grave hindering terrain marker within range. If any characters were KO'd this turn, generate 2 instead.&#10;&#10;[Damage] THE DARKNESS GROWS&#10;Powers: Perplex&#10;Perplex. When Black Hand uses it, he can target characters occupying or adjacent to any friendly Grave terrain marker regardless of range or line of fire." />
+      <property name="Keywords Search" value="| Herald | Monster | Black Lantern Corps |" />
       <alternate name="Black Hand" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2008,13 +2009,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100/70/40" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Future | Legion Of Super Villains" />
-      <property name="Keywords Search" value="| Future | Legion Of Super Villains |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ADJUSTING THE PAST THROUGH FORCE&#10;Powers: Perplex&#10;Perplex. When Lightning Lord uses it, he may count squares for range and line of fire from friendly characters with the Legion of Super Villains keyword. // If Lightning Lord is 100 points, he can use Perplex twice a turn.&#10;&#10;[Trait] MONITORING EARTH FROM ORBIT&#10;If Lightning Lord is on a themed team, when he uses [ta:team_player] he may instead choose a copyable team ability an opposing character can use." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Future | Legion Of Super Villains |" />
       <alternate name="Lightning Lord" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2120,11 +2121,11 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Gotham City Underworld | Past | Robot | Soldier | Spy | Vehicle" />
-      <property name="Keywords Search" value="| Gotham City Underworld | Past | Robot | Soldier | Spy | Vehicle |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TRANSCHANGER&#10;[cs:passenger]: 2. // [cs:passenger]: 6, but only to carry characters with the Gotham City Underworld keyword.&#10;&#10;[Trait] ANTI-MIND CONTROL PLATING&#10;Sy Borgman and adjacent friendly characters that share a keyword with him have SAFEGUARD: Mind Control." />
+      <property name="Keywords Search" value="| Gotham City Underworld | Past | Robot | Soldier | Spy | Vehicle |" />
       <alternate name="Sy Borgman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2180,13 +2181,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="90/60" />
       <property name="Team Abilities" value="Injustice League" />
-      <property name="Team Abilities Search" value="| Injustice League |" />
       <property name="Keywords" value="Herald | Injustice League | Legion Of Doom | Ruler | Secret Society Of Super Villains | Sinestro Corps" />
-      <property name="Keywords Search" value="| Herald | Injustice League | Legion Of Doom | Ruler | Secret Society Of Super Villains | Sinestro Corps |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] LEADING BY FEAR&#10;Powers: Leadership&#10;Leadership. // Friendly characters with the Sinestro Corps keyword have [ta:injustice_league].&#10;&#10;[Trait] THE YELLOW RING&#10;Powers: Perplex&#10;Perplex, but only to negatively modify combat values. // When a friendly character with [ta:injustice_league] attacks an opposing character that has a negatively modified combat value, their attack rolls of 10 and 11 are critical hits." />
+      <property name="Team Abilities Search" value="| Injustice League |" />
+      <property name="Keywords Search" value="| Herald | Injustice League | Legion Of Doom | Ruler | Secret Society Of Super Villains | Sinestro Corps |" />
       <alternate name="Sinestro" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2280,13 +2281,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="80/30" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Cosmic | Injustice League | Robot | Scientist" />
-      <property name="Keywords Search" value="| Cosmic | Injustice League | Robot | Scientist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] NEW CONFIGURATIONS&#10;Powers: Leadership&#10;Leadership. // When Brainiac uses it, friendly characters within range that share a keyword with him are considered adjacent to him.&#10;&#10;[Damage] YOUR MIGHTIEST, DEFEATED BY MATH&#10;Powers: Outwit&#10;Outwit. When Brainiac uses it to target a character that can use Impervious and chooses a defense power, modify the target's combat values by -1 until your next turn. Protected: Outwit" />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Cosmic | Injustice League | Robot | Scientist |" />
       <alternate name="Brainiac" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2391,14 +2392,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Mystics | Suicide Squad" />
-      <property name="Team Abilities Search" value="| Mystics | Suicide Squad |" />
       <property name="Keywords" value="Ghost Realm | Past | Secret Society Of Super Villains | Suicide Squad | Monster | Mystical" />
-      <property name="Keywords Search" value="| Ghost Realm | Past | Secret Society Of Super Villains | Suicide Squad | Monster | Mystical |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] I'LL BE TAKING THAT&#10;Adjacent opposing characters can't use attack powers or the EFFECT of equipment.&#10;&#10;[Defense] HOW TERRIBLY RUDE&#10;Powers: Super Senses&#10;Super Senses. When Gentleman Ghost uses it and succeeds, after resolutions deal the attacker 1 penetrating damage." />
+      <property name="Team Abilities Search" value="| Mystics | Suicide Squad |" />
+      <property name="Keywords Search" value="| Ghost Realm | Past | Secret Society Of Super Villains | Suicide Squad | Monster | Mystical |" />
       <alternate name="Gentleman Ghost" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2466,14 +2467,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Team Player | Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Batman Family | Gotham City | Gotham City Underworld | Legion Of Doom | Scientist | Suicide Squad" />
-      <property name="Keywords Search" value="| Arkham Asylum | Batman Family | Gotham City | Gotham City Underworld | Legion Of Doom | Scientist | Suicide Squad |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] HARLEY'S PUTTING A CREW TOGETHER&#10;When establishing themed teams, Harley Quinn may choose a character that shares a keyword with her. That character gains the Gotham City Underworld keyword.&#10;&#10;[Trait] BFF GFFS&#10;FREE: Make an attack targeting an opposing character that attacked Harley Quinn or another friendly character with the Gotham City Underworld keyword since your last turn. // When Harley Quinn attacks a character that damaged a friendly character named Poison Ivy since your last turn, modify her attack and damage +1." />
+      <property name="Team Abilities Search" value="| Team Player | Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Batman Family | Gotham City | Gotham City Underworld | Legion Of Doom | Scientist | Suicide Squad |" />
       <alternate name="Harley Quinn" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2567,14 +2568,14 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Suicide Squad" />
-      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="Central City | Assassin | Injustice League | Rogues | Secret Society Of Super Villains | Suicide Squad" />
-      <property name="Keywords Search" value="| Central City | Assassin | Injustice League | Rogues | Secret Society Of Super Villains | Suicide Squad |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Blocking | Characters" />
       <property name="Traits and Special Powers" value="[Defense] DUPLICATES&#10;Powers: Super Senses&#10;Super Senses. When Mirror Master uses it and succeeds, after resolutions he may generate a [set:not] #029 Mirror Master on click #7 within range. This game, that character is not scored when KO'd. // When Mirror Master uses Super Senses, increase the result +1 if one or more adjacent characters are named Mirror Master. Protected: Outwit" />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
+      <property name="Keywords Search" value="| Central City | Assassin | Injustice League | Rogues | Secret Society Of Super Villains | Suicide Squad |" />
       <alternate name="Mirror Master" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2654,13 +2655,13 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Animal | Cosmic | Secret Society Of Super Villains | Sinestro Corps" />
-      <property name="Keywords Search" value="| Animal | Cosmic | Secret Society Of Super Villains | Sinestro Corps |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
       <property name="Traits and Special Powers" value="[Trait] ATTACHED TO YOUR FACE&#10;When an adjacent opposing character begins a move or is placed, after resolutions you may place Starrophyte adjacent to that character.&#10;&#10;[Trait] CHILD OF THE CONQUEROR&#10;If another friendly character has the Cosmic and Ruler keywords, modify Starrophyte's attack +1. // At the beginning of the game, if a friendly character is named Starro, generate a [set:not] #030 Starrophyte on click #1." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Animal | Cosmic | Secret Society Of Super Villains | Sinestro Corps |" />
       <alternate name="Starrophyte" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2718,13 +2719,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60/40" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Central City | Legion Of Doom | Rogues | Suicide Squad" />
-      <property name="Keywords Search" value="| Central City | Legion Of Doom | Rogues | Suicide Squad |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THERE ARE ONLY FOUR RULES...&#10;Powers: Leadership&#10;Leadership. When Captain Cold uses it and succeeds, this turn friendly characters automatically break away.&#10;&#10;[Attack] COLD GUN&#10;Powers: Incapacitate&#10;Incapacitate. // When Captain Cold hits, after resolutions he may generate an Ice blocking terrain marker adjacent to a hit character. This game, that terrain marker has &quot;Adjacent characters must roll breakaway to move if they don't already.&quot; At the beginning of your next turn (even if this is lost) remove it." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Central City | Legion Of Doom | Rogues | Suicide Squad |" />
       <alternate name="Captain Cold" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2807,14 +2808,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Superman Enemy" />
-      <property name="Team Abilities Search" value="| Superman Enemy |" />
       <property name="Keywords" value="Kryptonian | Ruler | Soldier" />
-      <property name="Keywords Search" value="| Kryptonian | Ruler | Soldier |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] KNEEL BEFORE ZOD&#10;FREE: Choose an opposing character within 4 squares and line of fire. Both you and that character's controller roll 2d6. If the chosen character is less than 90 points, increase your result by +2. If your result is higher, give that character an action token. If you can't give them an action token, deal them 1 unavoidable damage instead." />
+      <property name="Team Abilities Search" value="| Superman Enemy |" />
+      <property name="Keywords Search" value="| Kryptonian | Ruler | Soldier |" />
       <alternate name="Zod" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2908,13 +2909,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Celebrity | Gotham City Underworld | Suicide Squad" />
-      <property name="Keywords Search" value="| Celebrity | Gotham City Underworld | Suicide Squad |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] GIMMICKED POLKA-DOTS&#10;FREE: Roll a d6. Turn Polka-Dot Man to the resulting click number.&#10;[d:4]: Click #1&#10;[d:5]: Click #5&#10;[d:6]: Click #9&#10;&#10;[Trait] DOT'S ALL SHE WROTE!&#10;Polka-Dot Man takes a maximum of 2 damage from effects. // When Polka-Dot Man is KO'd, after resolutions other friendly characters that have the Suicide Squad keyword heal 2 clicks." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Celebrity | Gotham City Underworld | Suicide Squad |" />
       <alternate name="Polka-Dot Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3013,13 +3014,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="90/45" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Injustice League | Legion Of Doom | Pirate | Secret Society Of Super Villains | Suicide Squad" />
-      <property name="Keywords Search" value="| Assassin | Injustice League | Legion Of Doom | Pirate | Secret Society Of Super Villains | Suicide Squad |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] UNDERSEA SALVAGE&#10;UNIQUE MODIFIER: FREE: If Black Manta occupies or is adjacent to water terrain, roll a d6. All friendly characters with [cs:dolphin] modify the listed combat value(s) matching the numbers on the d6 by +1 until your next turn.&#10;[d:3]-[d:4]: Attack&#10;[d:5]: Damage&#10;[d:6]: Attack and Damage&#10;&#10;[Trait] RAMPANT PIRACY&#10;When a friendly character with [cs:dolphin] hits a single equipped opposing character, they may choose to deal a maximum of 1 damage to that target. If they do, they may equip any equipment equipped to the hit target.&#10;&#10;[Attack] DEVIL RAY&#10;Powers: Energy Explosion, Precision Strike&#10;Energy Explosion, Precision Strike, KNOCKBACK." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Assassin | Injustice League | Legion Of Doom | Pirate | Secret Society Of Super Villains | Suicide Squad |" />
       <alternate name="Black Manta" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3113,13 +3114,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Animal | Arkham Asylum | Assassin | Gotham City Underworld | Secret Society Of Super Villains | Suicide Squad | Monster" />
-      <property name="Keywords Search" value="| Animal | Arkham Asylum | Assassin | Gotham City Underworld | Secret Society Of Super Villains | Suicide Squad | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SEWER MAZE&#10;When placing characters during setup, if you're not the first player, you may place Killer Croc up to 6 squares from your starting area. If you do, generate 4 Water terrain markers anywhere on the map.&#10;&#10;[Trait] CROCODILE JAWS&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Killer Croc uses it, if the hit character occupies water terrain, the minimum result is instead his printed damage value +1.&#10;&#10;[Speed] REPTILIAN MUTATION&#10;Powers: Charge&#10;Charge. When Killer Croc uses it, if he occupies water terrain, before moving you may place him in a square of water terrain within 4 squares." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Animal | Arkham Asylum | Assassin | Gotham City Underworld | Secret Society Of Super Villains | Suicide Squad | Monster |" />
       <alternate name="Killer Croc" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3222,14 +3223,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Suicide Squad" />
-      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="Assassin | Gotham City | Secret Six | Suicide Squad" />
-      <property name="Keywords Search" value="| Assassin | Gotham City | Secret Six | Suicide Squad |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Elevated | Hindering | Characters" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] ONE SHOT, ONE KILL&#10;POWER: Range 8. Make a range attack that deals penetrating damage, but only to target opposing characters with a Target token regardless of line of fire." />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
+      <property name="Keywords Search" value="| Assassin | Gotham City | Secret Six | Suicide Squad |" />
       <alternate name="Deadshot" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3309,13 +3310,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | League Of Assassins | Martial Artist | Ruler" />
-      <property name="Keywords Search" value="| Assassin | League Of Assassins | Martial Artist | Ruler |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] LEADER OF THE LEAGUE&#10;FREE: If no opposing characters have a Target token, give an opposing character a Target token. Friendly characters with a &quot;The Target&quot; trait treat that token as if it were generated by that trait.&#10;&#10;[Defense] RESILIENT, UNDYING&#10;Powers: Mastermind, Super Senses, Toughness&#10;Mastermind, Super Senses, Toughness.&#10;&#10;[Damage] READY TO FACE YOUR BETTER, DETECTIVE?&#10;Powers: Leadership, Outwit&#10;Leadership, Outwit. When Ra's Al Ghul uses Leadership and succeeds, you may generate a [set:not] #007 League Assassin on click #3." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Assassin | League Of Assassins | Martial Artist | Ruler |" />
       <alternate name="Ra's Al Ghul" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3398,11 +3399,11 @@
       <property name="Properties" value="Prime | Sideline Active" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Brute | Assassin | League Of Assassins | Martial Artist | Ruler" />
-      <property name="Keywords Search" value="| Brute | Assassin | League Of Assassins | Martial Artist | Ruler |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE DEMON&#10;SIDELINE ACTIVE - Other friendly characters with the Assassin keyword modify attack +1. // SIDELINE ACTIVE - When another friendly character named Ra's Al Ghul is KO'd, you may generate Ra's Al Ghul from your Sideline on click #5 in the square that character last occupied. If you do, until your next turn he has IMMUNE.&#10;&#10;[Trait] THE LAZARUS PIT&#10;Powers: Regeneration&#10;Regeneration as FREE, but only if Ra's Al Ghul occupies water terrain or a square on the map edge.&#10;&#10;[Speed] FRENZIED AND REBORN&#10;Powers: Charge, Flurry, Sidestep&#10;Charge, Flurry, Sidestep." />
+      <property name="Keywords Search" value="| Brute | Assassin | League Of Assassins | Martial Artist | Ruler |" />
       <alternate name="Ra's Al Ghul" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3484,13 +3485,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80/30" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Assassin | Court Of Owls | Gotham City | Gotham City Underworld | Politician" />
-      <property name="Keywords Search" value="| Assassin | Court Of Owls | Gotham City | Gotham City Underworld | Politician |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] THE NEXT MAYOR OF GOTHAM CITY&#10;Powers: Leadership, Mastermind&#10;Leadership, Mastermind. When Lincoln March uses Leadership and succeeds, you may instead generate a [set:not] #006 Court of Owls Assassin on click #3.&#10;&#10;[Damage] POLITICS IS A NASTY BUSINESS&#10;Powers: Exploit Weakness, Outwit&#10;Exploit Weakness, Outwit." />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
+      <property name="Keywords Search" value="| Assassin | Court Of Owls | Gotham City | Gotham City Underworld | Politician |" />
       <alternate name="Lincoln March" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3593,13 +3594,13 @@
       <property name="Properties" value="Unique | Sideline Active" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Police | Suicide Squad" />
-      <property name="Team Abilities Search" value="| Police | Suicide Squad |" />
       <property name="Keywords" value="Arkham Asylum | Politician | Spy | Suicide Squad" />
-      <property name="Keywords Search" value="| Arkham Asylum | Politician | Spy | Suicide Squad |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] BOMB COLLARS&#10;When a friendly standard character is KO'd by an opponent's attack, after resolutions you may deal 1 penetrating damage to each opposing character adjacent to the last square they occupied.&#10;&#10;[Trait] WHAT'S THE PROBLEM HERE?&#10;SIDELINE ACTIVE - At the beginning of your turn, if two or more friendly characters that share a keyword with Amanda Waller were KO'd since your last turn, you may generate Amanda Waller from your Sideline into your starting area on click #1.&#10;&#10;[Damage] TASK FORCE X&#10;Powers: Leadership, Outwit, Perplex&#10;Leadership, Outwit, Perplex." />
+      <property name="Team Abilities Search" value="| Police | Suicide Squad |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Politician | Spy | Suicide Squad |" />
       <alternate name="Amanda Waller" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3665,13 +3666,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Armor | Gotham City Underworld | Injustice League | Scientist | Suicide Squad" />
-      <property name="Keywords Search" value="| Arkham Asylum | Armor | Gotham City Underworld | Injustice League | Scientist | Suicide Squad |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] FROZEN EARTH&#10;At the beginning of the game generate 2 Ice blocking terrain markers in any squares at least 3 squares from a map edge. This game those markers have &quot;Adjacent characters must roll breakaway to move if they don't already.&quot; If you're not the first player, generate 4 instead.&#10;&#10;[Trait] FROZEN IN FEAR&#10;When an opposing character fails a break away roll, after resolutions deal them 1 penetrating damage.&#10;&#10;[Attack] ICE GUN&#10;Powers: Incapacitate&#10;Incapacitate. When Mr. Freeze uses it, after resolutions deal each hit character damage equal to their action tokens." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Armor | Gotham City Underworld | Injustice League | Scientist | Suicide Squad |" />
       <alternate name="Mr. Freeze" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3765,13 +3766,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Ally" />
-      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Birds Of Prey | Assassin | Court Of Owls | Gotham City | Martial Artist | Past | Secret Six" />
-      <property name="Keywords Search" value="| Birds Of Prey | Assassin | Court Of Owls | Gotham City | Martial Artist | Past | Secret Six |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] MASTER ASSASSIN&#10;Powers: Shape Change&#10;Shape Change. When Strix uses it, if an opposing character has a Target token, increase the result by +1.&#10;&#10;[Speed] MOVING WITH THE SHADOWS&#10;Powers: Charge&#10;Charge. When Strix uses it, after moving you may place her in a square of hindering terrain within 4 squares and line of fire." />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
+      <property name="Keywords Search" value="| Birds Of Prey | Assassin | Court Of Owls | Gotham City | Martial Artist | Past | Secret Six |" />
       <alternate name="Strix" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3854,13 +3855,13 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Birds Of Prey | Assassin | Court Of Owls | Gotham City | Martial Artist" />
-      <property name="Keywords Search" value="| Birds Of Prey | Assassin | Court Of Owls | Gotham City | Martial Artist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] GHOST, MYTH, MORE THAN MORTAL&#10;Powers: Shape Change, Stealth, Regeneration&#10;Shape Change, Stealth. Regeneration as FREE.&#10;&#10;[Attack] TOOLS OF THE TRADE&#10;When a friendly character with the Assassin keyword attacks, opposing characters with a Target token can't use Defense powers. // Friendly characters with the Court of Owls keyword have SAFEGUARD: Opposing Probability Control." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Birds Of Prey | Assassin | Court Of Owls | Gotham City | Martial Artist |" />
       <alternate name="Talon" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3942,13 +3943,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100/70/40" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Future | Legion Of Super Villains" />
-      <property name="Keywords Search" value="| Future | Legion Of Super Villains |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ADJUSTING THE PAST THROUGH FORCE&#10;Powers: Probability Control&#10;Probability Control. When Saturn Queen uses it, she may count squares for range and line of fire from friendly characters with the Legion of Super Villains keyword. // If Saturn Queen is 100 points, she can use Probability Control twice a turn.&#10;&#10;[Damage] NOT THE PUSH-OVER YOU THOUGHT I WAS&#10;Powers: Shape Change&#10;Shape Change. When Saturn Queen uses it and succeeds, after resolutions deal the attacker 1 penetrating damage." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Future | Legion Of Super Villains |" />
       <alternate name="Saturn Queen" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4054,13 +4055,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100/70/40" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Future | Legion Of Super Villains | Scientist" />
-      <property name="Keywords Search" value="| Future | Legion Of Super Villains | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ADJUSTING THE PAST THROUGH FORCE&#10;Powers: Outwit&#10;Outwit. When Cosmic King uses it, he may count squares for range and line of fire from friendly characters with the Legion of Super Villains keyword. // If Cosmic King is 100 points, he can use Outwit twice a turn.&#10;&#10;[Attack] BRING THIS PLACE DOWN ON YOUR HEAD&#10;FREE: Choose a piece of blocking terrain within range and destroy it. After resolutions, deal 1 penetrating damage to each opposing character that was adjacent to the destroyed terrain." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Future | Legion Of Super Villains | Scientist |" />
       <alternate name="Cosmic King" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4166,14 +4167,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="125/75/40" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Herald | Monster | Black Lantern Corps | Deity" />
-      <property name="Keywords Search" value="| Herald | Monster | Black Lantern Corps | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] RISE...&#10;FREE: Generate a Grave hindering terrain marker within range and line of fire. // Friendly characters with the Black Lantern Corps keyword occupying or adjacent to any friendly Grave terrain markers may heal past their starting lines if healed by a character with the Black Lantern Corps keyword.&#10;&#10;[Trait] ...AND DEVOUR&#10;Powers: Steal Energy&#10;Steal Energy, but may use it with close or range attacks. // When an opposing character is KO'd, after resolutions heal a friendly character with the Black Lantern Corps keyword 2 clicks." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Herald | Monster | Black Lantern Corps | Deity |" />
       <alternate name="Nekron" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4279,13 +4280,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Herald | Scientist" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Herald | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] BFF GFFS&#10;FREE: Make an attack targeting an opposing character that attacked Poison Ivy or another friendly character with the Gotham City Underworld keyword since your last turn. // When Poison Ivy attacks a character that damaged a friendly character named Harley Quinn since your last turn, modify her attack and damage +1.&#10;&#10;[Trait] BLACK ROSE RESSURECTION&#10;The first time Poison Ivy would be KO'd, instead turn her to click #9 and KO any number of friendly Thorn Vine bystanders. Heal Poison Ivy 1 click for each Thorn Vine bystander KO'd this way.&#10;&#10;[Attack] ENTER THE GREEN&#10;FREE: Generate a Thorn Vine bystander [MAX 4] in a square within range and line of fire." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Herald | Scientist |" />
       <alternate name="Poison Ivy" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4390,10 +4391,10 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <alternate name="Thorn Vine" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4412,14 +4413,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="200/100" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Justice Society | Legion Of Doom | Past | Ruler | Secret Society Of Super Villains | Sinestro Corps | Mystical | Warrior | Deity" />
-      <property name="Keywords Search" value="| Justice Society | Legion Of Doom | Past | Ruler | Secret Society Of Super Villains | Sinestro Corps | Mystical | Warrior | Deity |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] THE LIVING LIGHTNING&#10;When Black Adam uses [ta:mystics] he also deals 1 penetrating damage to each opposing character within 3 squares of the attacker.&#10;&#10;[Defense] GUARDIAN OF KAHNDAQ&#10;Powers: Invincible&#10;Invincible. // Friendly characters within range and line of fire can use Mastermind, but only to choose Black Adam regardless of adjacency." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
+      <property name="Keywords Search" value="| Justice Society | Legion Of Doom | Past | Ruler | Secret Society Of Super Villains | Sinestro Corps | Mystical | Warrior | Deity |" />
       <alternate name="Black Adam" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4547,13 +4548,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Injustice League | Monster" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Injustice League | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TAP DANCE ON YOUR GRAVE&#10;Powers: Charge, Plasticity&#10;Charge, Plasticity. // When an opposing character within range is knocked back, after resolutions you may place The Joker adjacent to that character.&#10;&#10;[Trait] YOU GET WHAT YOU DESERVE&#10;Powers: Poison&#10;Poison. When The Joker uses it, characters occupying or adjacent to any friendly Smoke terrain markers within 6 squares are considered adjacent to him. // At the beginning of the game generate 2 Smoke terrain markers into any squares. If you aren't the first player, generate 4 instead.&#10;&#10;[Attack] WE'LL DO THIS DANCE FOREVER, BATS&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When The Joker uses it, after resolutions choose one: *Heal The Joker equal to half the result. *Place The Joker up to 2 squares away." />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Injustice League | Monster |" />
       <alternate name="The Joker" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4647,13 +4648,13 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Celebrity | Gotham City | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Celebrity | Gotham City | Gotham City Underworld |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TRAGEDY AND COMEDY IN ONE&#10;Powers: Perplex&#10;Perplex. Jokester can use Perplex up to three times a turn, but can't target the same character with it more than once a turn.&#10;&#10;[Trait] LEAVE THE JOKES TO THE PROFESSIONALS&#10;Powers: Probability Control&#10;Probability Control. // When an opposing character rerolls a roll or replaces a die in a roll, after resolutions give that character an action token. If you can't deal them 1 penetrating damage." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Celebrity | Gotham City | Gotham City Underworld |" />
       <alternate name="Jokester" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4733,14 +4734,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150/100" />
       <property name="Team Abilities" value="Justice League | Wonder Woman Ally" />
-      <property name="Team Abilities Search" value="| Justice League | Wonder Woman Ally |" />
       <property name="Keywords" value="Justice League | Amazon | Warrior | Deity" />
-      <property name="Keywords Search" value="| Justice League | Amazon | Warrior | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] THIS IS FOR SUPERMAN!&#10;When Wonder Woman KO's an oppposing character, give her a Regime Token. // FREE: Remove a Regime Token from Wonder Woman. If you do, remove an action token from her and heal 1 click.&#10;&#10;[Attack] SURRENDER WHILE YOU CAN&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Wonder Woman uses it, if the d6 roll is less than her printed damage, the damage dealt is penetrating.&#10;&#10;[Defense] THE OFFSPRING OF GODS&#10;Powers: Stop, Impervious, Super Senses&#10;STOP. Impervious, Super Senses." />
+      <property name="Team Abilities Search" value="| Justice League | Wonder Woman Ally |" />
+      <property name="Keywords Search" value="| Justice League | Amazon | Warrior | Deity |" />
       <alternate name="Wonder Woman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4856,13 +4857,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Superman Ally" />
-      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Justice League | Kryptonian | Metropolis | Ruler | Sinestro Corps" />
-      <property name="Keywords Search" value="| Justice League | Kryptonian | Metropolis | Ruler | Sinestro Corps |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] I'LL CRUSH YOU LIKE THE OTHERS!&#10;Superman deals penetrating damage.&#10;&#10;[Speed] JUSTICE REQUIRES ORDER&#10;Powers: Charge&#10;Charge. // Once per turn, when another friendly character is damaged by an attack, after resolutions you may place Superman adjacent to the attacker. If you do, Superman has Immune until your next turn.&#10;&#10;[Damage] ONE EARTH REGIME&#10;Powers: Leadership&#10;Leadership. When Superman uses it and succeeds, he may instead remove an action token from himself and have all friendly characters modify attack +1 this turn." />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
+      <property name="Keywords Search" value="| Justice League | Kryptonian | Metropolis | Ruler | Sinestro Corps |" />
       <alternate name="Superman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4975,13 +4976,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Police | Politician" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Police | Politician |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] HEADS I WIN...&#10;FREE: If Two-Face began the turn on the map, flip a coin. If it's Heads, modify his combat values +1 until your next turn. Otherwise, either replace Two-Face with [set:not] #050b Two-Face or deal him 1 unavoidable damage.&#10;&#10;[Trait] IT'S ALL 50/50&#10;When Two-Face makes an attack with a single target, instead of rolling a 2d6 you may flip a coin. *Heads: The attack is a critical hit. *Tails: The attack is a critical miss." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Police | Politician |" />
       <alternate name="Two-Face" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5063,13 +5064,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Police" />
-      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Police | Politician" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Police | Politician |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ...TAILS YOU LOSE&#10;Powers: Regeneration&#10;FREE: If Two-Face began the turn on the map, flip a coin. If it's Tails, give up to two opposing characters within range and line of fire an action token. Otherwise, either replace Two-Face with [set:not] #050a Two-Face or deal him 1 unavoidable damage.&#10;&#10;[Trait] TRY FOR DOUBLE OR NOTHING?&#10;When Two-Face would be hit by an attack, you may flip a coin. *Heads: The attack is instead a critical hit. *Tails: The attack is instead a critical miss." />
+      <property name="Team Abilities Search" value="| Police |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Police | Politician |" />
       <alternate name="Two-Face" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5151,13 +5152,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65/25" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Gotham City Underworld | Scientist" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ZOMBIE HUNTIN'&#10;If you were the first player, when an opposing character is damaged by a friendly character's attack, after resolutions deal that opposing character 1 unavoidable damage. If they're not KO'd, heal them 1 click. // UNIQUE MODIFIER - If an opponent's force has more characters than yours, friendly characters modify attack and damage +1.&#10;&#10;[Attack] DOUBLE BARRELS&#10;Powers: Energy Explosion&#10;KNOCKBACK. Energy Explosion. // Harley Quinn deals penetrating damage to characters with the Monster keyword.&#10;&#10;[Damage] LOOK AT ALL THESE KIDS WE CAN CORRUPT!&#10;Powers: Empower, Support&#10;Empower, Support." />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Scientist |" />
       <alternate name="Harley Quinn" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5251,14 +5252,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65/25" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Gotham City Underworld | Herald | Scientist | Suicide Squad" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Herald | Scientist | Suicide Squad |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] GROWING THE GOTHAM JUNGLE&#10;For all characters with this trait, when a character is given an action, if an opposing terrain marker was destroyed during that action, after resolutions score 5 victory points and generate a Plant Hindering terrain marker into a square of a destroyed terrain marker. This game, that marker has &quot;When this marker hinders line of fire, characters instead modify defense +2.&quot;&#10;&#10;[Speed] SHELTERING THE SURVIVORS&#10;Powers: Stealth, Plasticity&#10;Stealth, Plasticity. // Friendly characters occupying or adjacent to one or more terrain markers generated by Poison Ivy modify defense +1.&#10;&#10;[Attack] CRUSHING VINES&#10;Powers: Incapacitate&#10;Incapacitate. When Poison Ivy uses it, after resolutions deal each hit character with the Monster keyword 3 damage." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Herald | Scientist | Suicide Squad |" />
       <alternate name="Poison Ivy" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5352,14 +5353,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="115/80" />
       <property name="Team Abilities" value="Suicide Squad" />
-      <property name="Team Abilities Search" value="| Suicide Squad |" />
       <property name="Keywords" value="Animal | Brute | Gotham City Underworld | Secret Six | Secret Society Of Super Villains | Suicide Squad" />
-      <property name="Keywords Search" value="| Animal | Brute | Gotham City Underworld | Secret Six | Secret Society Of Super Villains | Suicide Squad |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] INSATIABLE HUNGER&#10;Powers: Regeneration&#10;Regeneration as FREE, but only if King Shark KO'd an opposing character or destroyed an opposing terrain marker this turn. If he did both, when he uses it don't halve the result.&#10;&#10;[Trait] ENRAGED SHARK MONSTER&#10;Powers: Battle Fury&#10;Battle Fury, but only if a character has been damaged since your last turn. // When King Shark destroys blocking terrain, after resolutions generate water terrain markers in the squares of the destroyed terrain.&#10;&#10;[Speed] EVEN FASTER IN WATER&#10;Powers: Charge, Plasticity, Hypersonic Speed, Flurry&#10;Charge, Plasticity. // Hypersonic Speed, but only if King Shark occupies water terrain. When King Shark uses it, he may use Flurry as FREE instead of making an attack." />
+      <property name="Team Abilities Search" value="| Suicide Squad |" />
+      <property name="Keywords Search" value="| Animal | Brute | Gotham City Underworld | Secret Six | Secret Society Of Super Villains | Suicide Squad |" />
       <alternate name="King Shark" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5476,14 +5477,14 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="110" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Animal | Ruler | Monster | Deity" />
-      <property name="Keywords Search" value="| Animal | Ruler | Monster | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Destroy Blocking | Move Through" />
       <property name="Traits and Special Powers" value="[Trait] PORTAL TO THE RED&#10;Powers: Blades Claws Fangs, Steal Energy&#10;Blades/Claws/Fangs, Steal Energy. // When Kamo moves, before moving, you may place him adjacent to a friendly character within 4 squares.&#10;&#10;[Trait] A GOD AMONGST FISH&#10;At the beginning of your turn, generate a Shark bystander [MAX 1]. // FREE: Choose a friendly bystander and move it up to its speed value. If the bystander has [cs:dolphin], it may make an attack.&#10;&#10;[Defense] SURVIVING HELLFIRE&#10;Powers: Stop, Impervious, Super Senses&#10;STOP. Impervious, Super Senses." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Animal | Ruler | Monster | Deity |" />
       <alternate name="Kamo" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5588,14 +5589,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Keywords" value="Animal | Batman Family | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Animal | Batman Family | Gotham City Underworld |" />
       <property name="Range" value="2" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] CATS HAVE NINE LIVES&#10;Catwoman takes a maximum of 1 damage from effects. // When Catwoman is damaged, after resolutions generate a Cat bystander.&#10;&#10;[Trait] I AM CATWOMAN, HEAR ME ROAR!&#10;Catwoman can't be chosen for Mastermind or healed." />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
+      <property name="Keywords Search" value="| Animal | Batman Family | Gotham City Underworld |" />
       <alternate name="Catwoman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5701,10 +5702,10 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <alternate name="Cat" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5723,13 +5724,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Team Player | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Team Player | Batman Enemy |" />
       <property name="Keywords" value="Birds Of Prey | Brute | Gotham City | Gotham City Underworld | Injustice League | Politician | Secret Society Of Super Villains" />
-      <property name="Keywords Search" value="| Birds Of Prey | Brute | Gotham City | Gotham City Underworld | Injustice League | Politician | Secret Society Of Super Villains |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] INFORMATION BROKER&#10;Once per turn, when a friendly character uses an Expendable Goon trait, you may reroll that d6. // At the beginning of the game, if you're not the first player, generate up to two characters with an Expendable Goon trait on their 15 point starting lines.&#10;&#10;[Attack] TRICK UMBRELLAS&#10;Powers: Poison, Smoke Cloud, Blades Claws Fangs, Precision Strike, Energy Explosion&#10;FREE: Choose an effect for The Penguin or an adjacent friendly character to use until your next turn: *Poison. Smoke Cloud as FREE, but only to generate 3 markers. *Blades/Claws/Fangs, Precision Strike *Energy Explosion, KNOCKBACK" />
+      <property name="Team Abilities Search" value="| Team Player | Batman Enemy |" />
+      <property name="Keywords Search" value="| Birds Of Prey | Brute | Gotham City | Gotham City Underworld | Injustice League | Politician | Secret Society Of Super Villains |" />
       <alternate name="The Penguin" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5801,13 +5802,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="2" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SOMEONE CARRY MY POT!&#10;Frank The Plant may be carried as if he had [cs:tiny]. // Frank The Plant may be given non-FREE actions after being carried.&#10;&#10;[Attack] SWALLOW WHOLE&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. // When Frank The Plant KOs an opposing character, after resolutions turn him to click #1.&#10;&#10;[Defense] TESTS POSTITIVELY WITH AUDIENCES&#10;Powers: Stop&#10;STOP." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld |" />
       <alternate name="Frank The Plant" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5878,13 +5879,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Gotham City Underworld | Scientist | Secret Six" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Scientist | Secret Six |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] IN THIS STYLE 10/6&#10;Powers: Mind Control&#10;Mind Control. When Jervis Tetch uses it, he may target characters with Control Chip tokens regardless of line of fire, and after resolutions give each hit character a Control Chip token. // At the beginning of the game, if you were not the first player, choose up to 2 opposing characters and give them a Control Chip token.&#10;&#10;[Trait] OH DEAR, YOU'RE ALL TURNED AROUND!&#10;UNIQUE MODIFIER - Opposing characters with one or more Control Chip tokens modify attack and damage -1. // When an opposing character attacks and hits all targets, after resolutions remove all Control Chip tokens from it.&#10;&#10;[Defense] OBSESSIVE&#10;Powers: Super Senses, Mastermind, Willpower&#10;Super Senses, Mastermind, Willpower." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Scientist | Secret Six |" />
       <alternate name="Jervis Tetch" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5944,14 +5945,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Superman Enemy" />
-      <property name="Team Abilities Search" value="| Superman Enemy |" />
       <property name="Keywords" value="Legion Of Doom | Metropolis | Scientist | Superman Revenge Squad" />
-      <property name="Keywords Search" value="| Legion Of Doom | Metropolis | Scientist | Superman Revenge Squad |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] I DEMAND MORE TOYS!&#10;Powers: Mind Control&#10;Mind Control. When Toyman uses it to target an opposing character with the Armor or Robot keyword, they may be given a second attack before reverting forces. // At the beginning of the game, if you weren't the first player, you may unequip an equipment from an opposing character and equip it to Toyman.&#10;&#10;[Damage] MURDEROUS TOYMAKER&#10;Powers: Empower, Enhancement&#10;Empower, Enhancement. When Toyman uses either, friendly characters that started the game on your opponent's force are considered adjacent to him." />
+      <property name="Team Abilities Search" value="| Superman Enemy |" />
+      <property name="Keywords Search" value="| Legion Of Doom | Metropolis | Scientist | Superman Revenge Squad |" />
       <alternate name="Toyman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6037,13 +6038,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="40/25" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] I GOT YA!&#10;Other friendly characters with the Gotham City Underworld keyword within 4 squares can use Mastermind, but only to choose Kite Man regardless of adjacency. When they do, after resolutions place them adjacent to Kite Man.&#10;&#10;[Trait] KITES ARE PRETTY CRUCIAL&#10;Other friendly characters that share a keyword with Kite Man have [cs:wing] if they are outdoors.&#10;&#10;[Speed] HELL YEAH&#10;Powers: Charge&#10;Charge. When Kite Man uses it and moves in a direct path, modify his attack and damage +1 for every 2 squares moved through. (This counts both the square he starts in and ends in.)" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld |" />
       <alternate name="Kite Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6132,14 +6133,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125/75" />
       <property name="Team Abilities" value="Superman Enemy" />
-      <property name="Team Abilities Search" value="| Superman Enemy |" />
       <property name="Keywords" value="Brute | Injustice League | Robot | Secret Society Of Super Villains | Soldier | Superman Revenge Squad" />
-      <property name="Keywords Search" value="| Brute | Injustice League | Robot | Secret Society Of Super Villains | Soldier | Superman Revenge Squad |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] METAL-ZERO&#10;Powers: Willpower&#10;Willpower. // When one or more action tokens are removed from Metallo, after resolutions you may give an action token to an adjacent opposing character or an opposing character that has the Kryptonian keyword within range.&#10;&#10;[Attack] GOODBYE, LOIS&#10;Powers: Pulse Wave&#10;Pulse Wave. When Metallo uses it and hits, he may choose to increase the damage dealt to each hit target by the number of action tokens on that target. If he does, after resolutions KO Metallo.&#10;&#10;[Defense] IT'LL BE WORTH IT&#10;Powers: Stop, Impervious&#10;STOP. Impervious. // When this power is first revealed after resolutions remove all action tokens from Metallo." />
+      <property name="Team Abilities Search" value="| Superman Enemy |" />
+      <property name="Keywords Search" value="| Brute | Injustice League | Robot | Secret Society Of Super Villains | Soldier | Superman Revenge Squad |" />
       <alternate name="Metallo" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6266,14 +6267,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="60/30" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Central City | Gotham City Underworld | Rogues" />
-      <property name="Keywords Search" value="| Central City | Gotham City Underworld | Rogues |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Speed] SPECIAL SKATES AND GOLDEN LIGHT&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. // UNIQUE MODIFIER - When Golden Glider moves through an opposing character, modify that character's attack -1 until your next turn.&#10;&#10;[Attack] CAMEL SPIN&#10;Powers: Blades Claws Fangs&#10;When Golden Glider makes a close attack she may choose to target all adjacent opposing characters. // Blades/Claws/Fangs, but may use it if targeting multiple characters and rolls a separate d6 for each hit character.&#10;&#10;[Defense] BORROWED THIS FROM MY BROTHER&#10;Powers: Super Senses&#10;Super Senses. When Golden Glider uses it and succeeds, generate an Ice blocking terrain marker within 4 squares and line of fire. This game, those markers haver &quot;Adjacent characters must roll breakaway to move if they don't already.&quot;" />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Central City | Gotham City Underworld | Rogues |" />
       <alternate name="Golden Glider" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6375,13 +6376,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="70/50" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Keywords" value="Assassin | Gotham City | Ruler | Monster | Dark Knights" />
-      <property name="Keywords Search" value="| Assassin | Gotham City | Ruler | Monster | Dark Knights |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] STOLEN TOYS&#10;When an opposing equipment would be dropped in a square within range, after resolutions Robin King may equip that equipment. If he does, he doesn't unequip any equipment currently equipped to him.&#10;&#10;[Damage] UTILITY BELT OF NIGHTMARES&#10;Powers: Outwit&#10;Outwit. When Robin King uses it to target an opposing character with a Target marker, modify that character's combat values -1 until your next turn." />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
+      <property name="Keywords Search" value="| Assassin | Gotham City | Ruler | Monster | Dark Knights |" />
       <alternate name="Robin King" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6475,14 +6476,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="70/40" />
       <property name="Team Abilities" value="Batman Ally" />
-      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Gotham City | Herald | Justice League | Monster | Black Lantern Corps | Detective" />
-      <property name="Keywords Search" value="| Gotham City | Herald | Justice League | Monster | Black Lantern Corps | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] OUT OF THE ETERNAL SHADOWS&#10;FREE: Generate a Grave hindering terrain marker in Batman's square. If there is already any friendly Grave marker in Batman's square, instead place him into any other square with any friendly Grave marker. // When it's not your turn, lines of fire drawn to friendly characters through any friendly Grave hindering terrain markers are blocked instead of hindered.&#10;&#10;[Speed] I SHOULD HAVE BEEN KILLING THIS WHOLE TIME!&#10;Powers: Flurry, Sidestep&#10;Flurry, Sidestep.&#10;&#10;[Damage] SPECTRAL DEDUCTION&#10;Powers: Outwit&#10;Outwit. When Batman uses it, he may instead choose to target all opposing characters occupying any friendly Grave markers. If he does, choose a color instead of a power. The targeted characters can't use standard powers of the chosen color until your next turn." />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
+      <property name="Keywords Search" value="| Gotham City | Herald | Justice League | Monster | Black Lantern Corps | Detective |" />
       <alternate name="Batman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6576,14 +6577,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="260/120" />
       <property name="Team Abilities" value="Superman Ally" />
-      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Herald | Justice League | Kryptonian | Monster | Black Lantern Corps" />
-      <property name="Keywords Search" value="| Herald | Justice League | Kryptonian | Monster | Black Lantern Corps |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] THE LAST TIME I INSPIRED ANYONE...&#10;Powers: Leadership&#10;Leadership. When Superman uses it and succeeds, after resolutions remove an action token from him and generate a Grave hindering terrain marker.&#10;&#10;[Speed] FASTER THAN A SCYTHING BLADE&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Superman uses it, he may be given a CLOSE or RANGE as FREE instead of making an attack.&#10;&#10;[Attack] MORE POWERFUL THAN A HEARSE&#10;Powers: Super Strength, Steal Energy&#10;Super Strength, Steal Energy. // When Superman uses any friendly Grave terrain marker to make a CLOSE/RANGE Terrain Action, modify his attack +1 and increase the damage dealt by 1.&#10;&#10;[Damage] ABLE TO DELETE TALL BUILDINGS IN A SINGLE BLOW&#10;Powers: Close Combat Expert, Exploit Weakness&#10;Close Combat Expert, Exploit Weakness. // Superman's other powers have Protected: Outwit." />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
+      <property name="Keywords Search" value="| Herald | Justice League | Kryptonian | Monster | Black Lantern Corps |" />
       <alternate name="Superman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6710,13 +6711,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="125/45" />
       <property name="Team Abilities" value="Wonder Woman Ally" />
-      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
       <property name="Keywords" value="Herald | Justice League | Monster | Amazon | Black Lantern Corps" />
-      <property name="Keywords Search" value="| Herald | Justice League | Monster | Amazon | Black Lantern Corps |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] BLACK LASSO THROUGH OPEN GRAVES&#10;When Wonder Woman hits, after resolutions you may place a hit character into any friendly Grave terrain marker within 4 squares and line of fire. // When Wonder Woman KO's an opposing character, after resolutions you may generate a Grave hindering terrain marker within 4 squares.&#10;&#10;[Trait] I HAVE SEEN THE FACE OF DEATH... AND SO SHALL YOU!&#10;Powers: Steal Energy&#10;Steal Energy. // Wonder Woman deals penetrating damage to opposing characters occupying squares with any friendly Grave terrain markers.&#10;&#10;[Defense] THE DANCE OF WAR AND DEATH&#10;Powers: Combat Reflexes, Super Senses&#10;Combat Reflexes, Super Senses. Wonder Woman increases her roll for Super Senses by +1 when attacked by a character occupying any friendly Grave terrain marker." />
+      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
+      <property name="Keywords Search" value="| Herald | Justice League | Monster | Amazon | Black Lantern Corps |" />
       <alternate name="Wonder Woman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6821,13 +6822,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/40" />
       <property name="Team Abilities" value="Justice League" />
-      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Atlantis | Herald | Justice League | Monster | Black Lantern Corps" />
-      <property name="Keywords Search" value="| Atlantis | Herald | Justice League | Monster | Black Lantern Corps |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WATERY GRAVE&#10;Clear squares adjacent to any friendly Grave terrain marker are considered water terrain. // FREE: Generate a Grave hindering terrain marker into a square of water terrain within 4 squares.&#10;&#10;[Attack] TRIDENT OF THE FALLEN KING&#10;Powers: Blades Claws Fangs, Steal Energy, Poison&#10;Blades/Claws/Fangs, Steal Energy. // Poison. When Aquaman uses it, opposing characters occupying water terrain within 6 squares are considered adjacent to him.&#10;&#10;[Defense] THE DEAD SEA&#10;Powers: Impervious&#10;Impervious. // If Aquaman occupies water terrain, he increases the results of his single d6 rolls by +1." />
+      <property name="Team Abilities Search" value="| Justice League |" />
+      <property name="Keywords Search" value="| Atlantis | Herald | Justice League | Monster | Black Lantern Corps |" />
       <alternate name="Aquaman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6921,14 +6922,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="160/60" />
       <property name="Team Abilities" value="Justice League" />
-      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Herald | Justice League | Monster | Black Lantern Corps | Detective" />
-      <property name="Keywords Search" value="| Herald | Justice League | Monster | Black Lantern Corps | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Blocking | Characters" />
       <property name="Traits and Special Powers" value="[Speed] WHISPERING WRAITH&#10;Powers: Sidestep, Stealth&#10;Sidestep, Stealth. // When Martian Manhunter is attacked, after resolutions you may move him up to 2 squares.&#10;&#10;[Attack] CORRUPT AND COMPEL&#10;Powers: Penetrating Psychic Blast, Steal Energy&#10;Penetrating/Psychic Blast. Steal Energy, but for close and range attacks. // RANGE: [it:characters,elevated,hindering]. Make a range attack. Hit characters not occupying any friendly Grave markers take a maximum of 1 damage. After resolutions move a hit character up to 4 squares, then generate a Grave hindering terrain marker into their square.&#10;&#10;[Damage] PSYCHIC TRAP&#10;Powers: Shape Change&#10;Shape Change. When Martian Manhunter uses it and succeeds, after resolutions deal the attacker damage equal to the number of action tokens on them." />
+      <property name="Team Abilities Search" value="| Justice League |" />
+      <property name="Keywords Search" value="| Herald | Justice League | Monster | Black Lantern Corps | Detective |" />
       <alternate name="Martian Manhunter" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7044,14 +7045,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Justice League" />
-      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Herald | Justice League | Justice Society | Martial Artist | Star City | Monster | Black Lantern Corps" />
-      <property name="Keywords Search" value="| Herald | Justice League | Justice Society | Martial Artist | Star City | Monster | Black Lantern Corps |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering | Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] THE GREATEST ARCHER, ALIVE OR DEAD&#10;Powers: Precision Strike, Steal Energy&#10;Precision Strike. Steal Energy, but may use it with close or range attacks. // When Green Arrow attacks, his targets can't positively modify their defense value.&#10;&#10;[Trait] BANKED SHOT OFF THE HEADSTONES&#10;Powers: Probability Control&#10;When Green Arrow attacks, he may use Probability Control any number of times. For each use past the first, he must remove a friendly Grave marker within 4 squares of the target from the game or that use of Probability Control has no effect.&#10;&#10;[Attack] GRAVEDIGGER ARROW&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, but instead only for range attacks. // When Green Arrow hits a single opposing character who is not occupying any friendly Grave marker, you may give that character an action token and generate a Grave hindering terrain marker in their square." />
+      <property name="Team Abilities Search" value="| Justice League |" />
+      <property name="Keywords Search" value="| Herald | Justice League | Justice Society | Martial Artist | Star City | Monster | Black Lantern Corps |" />
       <alternate name="Green Arrow" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7145,14 +7146,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="140/60" />
       <property name="Team Abilities" value="Green Lantern Corps" />
-      <property name="Team Abilities Search" value="| Green Lantern Corps |" />
       <property name="Keywords" value="Green Lantern Corps | Herald | Justice League | Monster | Black Lantern Corps" />
-      <property name="Keywords Search" value="| Green Lantern Corps | Herald | Justice League | Monster | Black Lantern Corps |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] ONLY ONE THING COMES TO THOSE WHO WAIT&#10;Powers: Willpower&#10;Willpower. // Friendly characters occupying any friendly Grave terrain markers can use Willpower. If they can already use Willpower, instead increase their Willpower roll +1.&#10;&#10;[Trait] YOUR FIGHT IS OVER...GIVE UP&#10;Powers: Steal Energy&#10;Steal Energy, but for close or range attacks. // When Hal Jordan hits, after resolutions give a hit character an action token. Until your next turn, that character can only remove action tokens by clearing.&#10;&#10;[Defense] TRAPPED IN ETERNAL BLACK&#10;Powers: Barrier, Energy Shield Deflection, Toughness&#10;Barrier, Energy Shield/Deflection, Toughness. When Hal Jordan uses Barrier, after resolutions generate a Grave hindering terrain marker adjacent to one of the blocking terrain markers." />
+      <property name="Team Abilities Search" value="| Green Lantern Corps |" />
+      <property name="Keywords Search" value="| Green Lantern Corps | Herald | Justice League | Monster | Black Lantern Corps |" />
       <alternate name="Hal Jordan" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7257,14 +7258,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="Batman Ally | Justice League" />
-      <property name="Team Abilities Search" value="| Batman Ally | Justice League |" />
       <property name="Keywords" value="Apokolips | Batman Family | Gotham City | Justice League | Martial Artist | Monster | Detective" />
-      <property name="Keywords Search" value="| Apokolips | Batman Family | Gotham City | Justice League | Martial Artist | Monster | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] DCEASED&#10;The first time Batman would be KO'd, you may instead turn him to click #9. If you do, this game he has &quot;When Batman would take damage from a game effect, he takes 1 unavoidable damage instead.&quot; and &quot;At the end of your turn, deal Batman 1 unavoidable damage.&quot; Protected: Pulse Wave.&#10;&#10;[Trait] THERE'S A MONSTER INSIDE OF US ALL&#10;When Batman attacks one or more characters that can use a light blue standard power, modify his attack and damage +1.&#10;&#10;[Speed] MY MOTHER USED TO TELL ME THERE WAS NO SUCH THING AS MONSTERS&#10;Powers: Charge, Sidestep&#10;Charge, Sidestep. // If Batman occupies hindering terrain, opposing characters can't use [it:] to target him or adjacent friendly characters.&#10;&#10;[Damage] THERE ISN'T ANYTHING MORE I CAN DO&#10;Friendly characters have SAFEGUARD: Mind Control and, when they attack, opposing characters can't use Shape Change." />
+      <property name="Team Abilities Search" value="| Batman Ally | Justice League |" />
+      <property name="Keywords Search" value="| Apokolips | Batman Family | Gotham City | Justice League | Martial Artist | Monster | Detective |" />
       <alternate name="Batman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7392,14 +7393,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="Justice League | Superman Ally" />
-      <property name="Team Abilities Search" value="| Justice League | Superman Ally |" />
       <property name="Keywords" value="Apokolips | Justice League | Kryptonian | Metropolis | Reporter | Monster" />
-      <property name="Keywords Search" value="| Apokolips | Justice League | Kryptonian | Metropolis | Reporter | Monster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] DCEASED&#10;The first time Superman would be KO'd, you may instead turn him to click #9. If you do, this game he has &quot;When Superman would take damage from a game effect, he takes 1 unavoidable damage instead.&quot; and &quot;At the end of your turn, deal Superman 1 unavoidable damage.&quot; Protected: Pulse Wave.&#10;&#10;[Trait] THERE'S A MONSTER INSIDE OF US ALL&#10;When Superman attacks one or more characters that can use a brown standard power, modify his attack and damage +1.&#10;&#10;[Speed] I DON'T HAVE TO CATCH UP TO HIM...I CAN COME FROM THE OTHER SIDE&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. // FREE: Place Superman adjacent to an opposing character within range and line of fire that moved since your last turn.&#10;&#10;[Attack] ...DRAINING THE SUN&#10;Powers: Pulse Wave&#10;Pulse Wave. When Superman uses it, he may use Range 8 instead of Range 4 and deals his printed damage value instead of 1 damage. If you do, after resolutions KO Superman." />
+      <property name="Team Abilities Search" value="| Justice League | Superman Ally |" />
+      <property name="Keywords Search" value="| Apokolips | Justice League | Kryptonian | Metropolis | Reporter | Monster |" />
       <alternate name="Superman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7526,13 +7527,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="Justice League | Wonder Woman Ally" />
-      <property name="Team Abilities Search" value="| Justice League | Wonder Woman Ally |" />
       <property name="Keywords" value="Apokolips | Justice League | Ruler | Soldier | Monster | Amazon | Warrior | Deity" />
-      <property name="Keywords Search" value="| Apokolips | Justice League | Ruler | Soldier | Monster | Amazon | Warrior | Deity |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] DCEASED&#10;The first time Wonder Woman would be KO'd, you may instead turn her to click #9. If you do, this game she has &quot;When Wonder Woman would take damage from a game effect, she takes 1 unavoidable damage instead.&quot; and &quot;At the end of your turn, deal Wonder Woman 1 unavoidable damage.&quot; Protected: Pulse Wave.&#10;&#10;[Trait] THERE'S A MONSTER INSIDE OF US ALL&#10;When Wonder Woman attacks one or more characters that can use a red standard power, modify her attack and damage +1.&#10;&#10;[Speed] DEATH IS FOREVER&#10;Powers: Charge, Flurry&#10;Charge, Flurry. // Adjacent opposing characters can't positively modify or replace their combat values.&#10;&#10;[Damage] KRYPTONITE-FUSED SWORD OF ATHENA&#10;Powers: Exploit Weakness, Leadership&#10;Exploit Weakness, Leadership. // When Wonder Woman hits, give each hit character a Slash token. This game, if those characters would reduce damage by more than 1 they reduce it by 1 instead." />
+      <property name="Team Abilities Search" value="| Justice League | Wonder Woman Ally |" />
+      <property name="Keywords Search" value="| Apokolips | Justice League | Ruler | Soldier | Monster | Amazon | Warrior | Deity |" />
       <alternate name="Wonder Woman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7660,13 +7661,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="Team Player | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Team Player | Batman Enemy |" />
       <property name="Keywords" value="Apokolips | Arkham Asylum | Gotham City Underworld | Monster" />
-      <property name="Keywords Search" value="| Apokolips | Arkham Asylum | Gotham City Underworld | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] DCEASED&#10;The first time The Joker would be KO'd, you may instead turn him to click #9. If you do, this game he has &quot;When The Joker would take damage from a game effect, he takes 1 unavoidable damage instead.&quot; and &quot;At the end of your turn, deal The Joker 1 unavoidable damage.&quot; Protected: Pulse Wave.&#10;&#10;[Trait] THERE'S A MONSTER INSIDE OF US ALL&#10;When The Joker attacks one or more characters that can use a black standard power, modify his attack and damage +1.&#10;&#10;[Speed] LIVING RENT-FREE IN YOUR HEAD&#10;Powers: Leap Climb, Plasticity, Sidestep&#10;Leap/Climb, Plasticity, Sidestep. // Once per turn when an adjacent friendly character begins a move or is placed, after resolutions you may place The Joker adjacent to that character.&#10;&#10;[Attack] THE LAST LAUGH&#10;Powers: Poison&#10;Poison. When Joker uses it he deal unavoidable damage instead. // The Joker has SAFEGUARD: Outwit." />
+      <property name="Team Abilities Search" value="| Team Player | Batman Enemy |" />
+      <property name="Keywords Search" value="| Apokolips | Arkham Asylum | Gotham City Underworld | Monster |" />
       <alternate name="The Joker" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7793,13 +7794,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/60" />
       <property name="Team Abilities" value="Justice League | Justice Society" />
-      <property name="Team Abilities Search" value="| Justice League | Justice Society |" />
       <property name="Keywords" value="Apokolips | Justice League | Justice Society | Past | Monster | Warrior" />
-      <property name="Keywords Search" value="| Apokolips | Justice League | Justice Society | Past | Monster | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] DCEASED&#10;The first time Hawkman would be KO'd, you may instead turn him to click #9. If you do, this game he has &quot;When Hawkman would take damage from a game effect, he takes 1 unavoidable damage instead.&quot; and &quot;At the end of your turn, deal Hawkman 1 unavoidable damage.&quot; Protected: Pulse Wave.&#10;&#10;[Trait] THERE'S A MONSTER INSIDE OF US ALL&#10;When Hawkman attacks one or more characters that can use a green standard power, modify his attack and damage +1.&#10;&#10;[Defense] STAND BACK, WE WILL HOLD THEM HERE&#10;Powers: Combat Reflexes, Toughness, Willpower&#10;Combat Reflexes, Toughness, Willpower. // Friendly characters with [ta:justice_league] have [ta:justice_society]. Protected: Outwit, Pulse Wave.&#10;&#10;[Damage] LEADING THE ANTI-LIFE ARMY&#10;Powers: Leadership&#10;Leadership, but succeeds on [d:4]-[d:6]. When Hawkman uses it and succeeds, this turn adjacent friendly characters have [cs:wing] and [im:characters]." />
+      <property name="Team Abilities Search" value="| Justice League | Justice Society |" />
+      <property name="Keywords Search" value="| Apokolips | Justice League | Justice Society | Past | Monster | Warrior |" />
       <alternate name="Hawkman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7927,14 +7928,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Superman Enemy" />
-      <property name="Team Abilities Search" value="| Superman Enemy |" />
       <property name="Keywords" value="Brute | Kryptonian | Ruler | Soldier | Superman Revenge Squad" />
-      <property name="Keywords Search" value="| Brute | Kryptonian | Ruler | Soldier | Superman Revenge Squad |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] FREED BY A BOMB TEST&#10;At the beginning of the game, place Zod, Ursa, Non on their card and give them 6 Phantom Zone tokens. // At the beginning of your turn, remove a Phantom Zone token from Zod, Ursa, Non. // When a character is given an action, after resolutions, if a terrain marker was destroyed during that action, remove a Phantom Zone token from Zod, Ursa, Non. // When the last Phantom Zone token is removed, or when no friendly characters are on the map, after resolutions place Zod, Ursa, Non in a square on any map edge or in a square with a debris marker that was placed this turn.&#10;&#10;[Trait] COORDINATED ATTACK&#10;Powers: Flurry, Willpower&#10;Flurry, Willpower. // FREE: If Zod, Ursa, Non doesn't have a Trio token, remove an action token from them and give them a Trio token. // When Zod, Ursa, Non clears action tokens, remove any Trio tokens from them.&#10;&#10;[Defense] MILITARY PRECISION&#10;Powers: Stop, Impervious&#10;STOP. Impervious." />
+      <property name="Team Abilities Search" value="| Superman Enemy |" />
+      <property name="Keywords Search" value="| Brute | Kryptonian | Ruler | Soldier | Superman Revenge Squad |" />
       <alternate name="Zod, Ursa, Non" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8049,13 +8050,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/60" />
       <property name="Team Abilities" value="Batman Enemy | Wonder Woman Ally" />
-      <property name="Team Abilities Search" value="| Batman Enemy | Wonder Woman Ally |" />
       <property name="Keywords" value="Arkham Asylum | Armor | Gotham City Underworld | Scientist | Amazon" />
-      <property name="Keywords Search" value="| Arkham Asylum | Armor | Gotham City Underworld | Scientist | Amazon |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WE BOTH HAVE OUR ROPES TO USE&#10;At the beginning of the game, if you weren't the first player, give Poison Ivy a Gaia's Armor token. // FREE: Generate a Plant hindering terrain marker. This game, those markers have &quot;When this marker hinders line of fire, characters instead modify defense +2.&quot;&#10;&#10;[Trait] MY MOTHER ALWAYS DRESSES ME FOR BATTLE&#10;Powers: Energy Shield Deflection, Impervious&#10;FREE: Remove 2 Plant hindering terrain markers within range from the map. If you do, give Poison Ivy a Gaia's Armor token. // If Poison Ivy has a Gaia's Armor token, she can use Energy Shield/Deflection, Impervious, and [cs:wing]. When Poison Ivy takes damage, after resolutions remove all her Gaia's Armor tokens.&#10;&#10;[Attack] TEAR THIS MOUNTAIN DOWN!&#10;Powers: Quake&#10;Quake. When Poison Ivy uses it, you may remove one of her Gaia's Armor tokens. If you do, instead target all opposing characters within 6 squares, regardless of adjacency." />
+      <property name="Team Abilities Search" value="| Batman Enemy | Wonder Woman Ally |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Armor | Gotham City Underworld | Scientist | Amazon |" />
       <alternate name="Poison Ivy" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8172,13 +8173,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Gotham City Underworld | Legion Of Doom | Detective" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Legion Of Doom | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WAR CAME TO GOTHAM&#10;At the beginning of the game, you may generate a [set:not] #M001 War of Jokes and Riddles onto an opponent's Sideline. This game it's friendly to that opponent's force. If you do, that opponent may choose a character friendly to them to gain the Detective keyword this game.&#10;&#10;[Attack] KNOCK KNOCK&#10;Powers: Incapacitate&#10;Incapacitate. When The Riddler uses it, after resolutions modify a hit character's combat values -1 for each action token they have until your next turn." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld | Legion Of Doom | Detective |" />
       <alternate name="The Riddler" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8250,13 +8251,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Assassin | Gotham City | Gotham City Underworld | Scientist | Suicide Squad" />
-      <property name="Keywords Search" value="| Arkham Asylum | Assassin | Gotham City | Gotham City Underworld | Scientist | Suicide Squad |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE YEARLY CYCLE&#10;Powers: Probability Control, Regeneration&#10;Probability Control, Regeneration.&#10;&#10;[Speed] THIRTY DAYS HAS SEPTEMBER&#10;Powers: Stealth&#10;Stealth. // If the game began on an even numbered day, Calendar Man has: [im:characters]. Otherwise, Calendar Man has &quot;FREE: Choose an opposing character within range and line of fire. Until your next turn, that character modifies its defense -1 and decreases its single d6 rolls by -1.&quot;&#10;&#10;[Attack] APRIL, JUNE AND NOVEMBER&#10;Powers: Precision Strike, Energy Explosion&#10;Precision Strike. // If the game began on a Sunday, Monday, Tuesday, or Wednesday, Calendar Man can use Energy Explosion and deals penetrating damage when he uses it. Otherwise modify his attack and damage +2.&#10;&#10;[Damage] ALL THE REST HAVE THIRTY ONE&#10;Powers: Probability Control&#10;If the game began on an even numbered month, Calendar Man has: &quot;FREE: Choose a standard power. Opposing characters within range can't use the chosen power until your next turn.&quot; Otherwise, Calendar Man can use Probability Control twice a turn and may use it regardless of range." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Assassin | Gotham City | Gotham City Underworld | Scientist | Suicide Squad |" />
       <alternate name="Calendar Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8299,6 +8300,12 @@
         <property name="Defense Ability" value="Mastermind" />
         <property name="Damage" value="1" />
       </alternate>
+      <alternate name="Calendar Man" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="1ee434a4-593d-4e83-89c1-f1a22f69e252" name="Deathstroke" size="Card">
       <property name="Unit ID" value="notL020b" />
@@ -8307,15 +8314,15 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100/40" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Arkham Asylum | Assassin | Gotham City Underworld | Injustice League | Martial Artist | Soldier | Suicide Squad" />
-      <property name="Keywords Search" value="| Arkham Asylum | Assassin | Gotham City Underworld | Injustice League | Martial Artist | Soldier | Suicide Squad |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] I KILLED THE TEEN TITANS&#10;Powers: Charge, Sidestep, Energy Shield Deflection, Ranged Combat Expert, Close Combat Expert, Combat Reflexes&#10;Charge, Sidestep. // FREE: Choose one to use until your next turn: *Energy Shield/Deflection, Ranged Combat Expert *Close Combat Expert, Combat Reflexes&#10;&#10;[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Attack] TIMED STRIKES&#10;Powers: Blades Claws Fangs, Precision Strike&#10;Blades/Claws/Fangs, Precision Strike. // When an opposing character moves through one or more squares adjacent to Deathstroke, after resolutions you may roll a d6. Deal that character damage equal to the result." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Assassin | Gotham City Underworld | Injustice League | Martial Artist | Soldier | Suicide Squad |" />
       <alternate name="Deathstroke" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8400,6 +8407,12 @@
         <property name="Damage" value="1" />
         <property name="Damage Ability" value="Exploit Weakness" />
       </alternate>
+      <alternate name="Deathstroke" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="9aa5d2e1-a8be-47e1-8237-e52ee1d0e0d5" name="Lyssa Drak" size="Card">
       <property name="Unit ID" value="notL021" />
@@ -8408,11 +8421,11 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Herald | Sinestro Corps | Monster | Black Lantern Corps" />
-      <property name="Keywords Search" value="| Herald | Sinestro Corps | Monster | Black Lantern Corps |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] BOOK OF THE BLACK&#10;When an opposing character uses Outwit, Steal Energy, or Regeneration, after resolutions you may generate a Grave hindering terrain marker in their square.&#10;&#10;[Trait] HELD BY THE BOOK&#10;Opposing characters occupying or adjacent to any friendly Grave terrain markers modify their combat values -1 when attacking or attacked by characters with the Black Lantern Corps keyword.&#10;&#10;[Attack] FEAR: OF DEATH&#10;Powers: Perplex&#10;Perplex, but only to negatively modify combat values. When she uses it, the target character can't heal until your next turn." />
+      <property name="Keywords Search" value="| Herald | Sinestro Corps | Monster | Black Lantern Corps |" />
       <alternate name="Lyssa Drak" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8474,6 +8487,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Exploit Weakness" />
       </alternate>
+      <alternate name="Lyssa Drak" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="12a34b2c-ab2e-4317-a080-134b6cfe228c" name="Ultraman" size="Card">
       <property name="Unit ID" value="notL025" />
@@ -8482,15 +8501,15 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="110/75" />
       <property name="Team Abilities" value="Crime Syndicate" />
-      <property name="Team Abilities Search" value="| Crime Syndicate |" />
       <property name="Keywords" value="Brute | Crime Syndicate | Ruler" />
-      <property name="Keywords Search" value="| Brute | Crime Syndicate | Ruler |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Blocking" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] HIDING FROM THE SUN&#10;Powers: Stealth, Willpower&#10;Stealth. // Willpower, but only if Ultraman occupies hindering terrain.&#10;&#10;[Trait] FAVOR BANK&#10;Powers: Regeneration&#10;Regeneration as FREE, but only if there are more action tokens on friendly characters than opposing characters." />
+      <property name="Team Abilities Search" value="| Crime Syndicate |" />
+      <property name="Keywords Search" value="| Brute | Crime Syndicate | Ruler |" />
       <alternate name="Ultraman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8575,6 +8594,12 @@
         <property name="Damage" value="4" />
         <property name="Damage Ability" value="Battle Fury" />
       </alternate>
+      <alternate name="Ultraman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="294d190b-1492-44db-b2c6-a8f9c9ee7838" name="Owlman" size="Card">
       <property name="Unit ID" value="notL026" />
@@ -8583,13 +8608,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70/25" />
       <property name="Team Abilities" value="Crime Syndicate" />
-      <property name="Team Abilities Search" value="| Crime Syndicate |" />
       <property name="Keywords" value="Crime Syndicate | Scientist | Detective" />
-      <property name="Keywords Search" value="| Crime Syndicate | Scientist | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WADING THROUGH REFUSE&#10;Powers: Sidestep&#10;Sidestep. Owlman can use it twice a turn, but only if there are more action tokens on friendly characters than opposing characters.&#10;&#10;[Defense] TRAINING AND TECHNIQUE&#10;Powers: Super Senses, Willpower&#10;Super Senses, Willpower.&#10;&#10;[Damage] SMARTER THAN YOU&#10;Powers: Outwit&#10;Outwit. When Owlman uses it, he may choose an additional power for every action token he has." />
+      <property name="Team Abilities Search" value="| Crime Syndicate |" />
+      <property name="Keywords Search" value="| Crime Syndicate | Scientist | Detective |" />
       <alternate name="Owlman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8666,6 +8691,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Exploit Weakness" />
       </alternate>
+      <alternate name="Owlman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="2859625d-c316-455c-bf2f-e4155fcbc316" name="Superwoman" size="Card">
       <property name="Unit ID" value="notL027" />
@@ -8674,13 +8705,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Crime Syndicate" />
-      <property name="Team Abilities Search" value="| Crime Syndicate |" />
       <property name="Keywords" value="Crime Syndicate | Amazon" />
-      <property name="Keywords Search" value="| Crime Syndicate | Amazon |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] LASSO OF SUBMISSION&#10;Powers: Mind Control&#10;When Superwoman hits, after resolutions Superwoman can use Mind Control as FREE, but only to target a hit character.&#10;&#10;[Trait] SADISTIC SUPERIORITY&#10;If there are more action tokens on friendly characters than opposing characters, modify Superwoman's attack +2." />
+      <property name="Team Abilities Search" value="| Crime Syndicate |" />
+      <property name="Keywords Search" value="| Crime Syndicate | Amazon |" />
       <alternate name="Superwoman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8757,6 +8788,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Close Combat Expert" />
       </alternate>
+      <alternate name="Superwoman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="f378ea98-7110-4c9d-ac8d-4fceed4857aa" name="Killer Moth" size="Card">
       <property name="Unit ID" value="notL035" />
@@ -8766,11 +8803,11 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="35" />
       <property name="Keywords" value="Gotham City | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Gotham City | Gotham City Underworld |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MY ALL-POWERFUL COCOON GUN!&#10;[cs:bolt][cs:bolt]. // When Killer Moth uses Incapacitate, modify his attack +2 and until your next turn targeted characters must roll for break away to move if they don't already need to. (Even if Killer Moth missed.)" />
+      <property name="Keywords Search" value="| Gotham City | Gotham City Underworld |" />
       <alternate name="Killer Moth" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8821,6 +8858,12 @@
         <property name="Defense Ability" value="Combat Reflexes" />
         <property name="Damage" value="2" />
       </alternate>
+      <alternate name="Killer Moth" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="b0424210-5f7e-4b5a-9096-4e532387aaa2" name="Hush" size="Card">
       <property name="Unit ID" value="notL037a" />
@@ -8829,13 +8872,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Celebrity | Gotham City Underworld" />
-      <property name="Keywords Search" value="| Celebrity | Gotham City Underworld |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] FIGHT ANOTHER DAY&#10;Powers: Precision Strike, Regeneration, Support&#10;Precision Strike. // Regeneration, Support. When Hush uses either, after resolutions you may move him up to the d6 result.&#10;&#10;[Defense] MANIPULATE YOUR WORST FOES&#10;Powers: Mastermind&#10;Mastermind. // FREE: Choose another friendly character within range and line of fire that shares a keyword with Hush. Place the chosen character into a square adjacent to Hush.&#10;&#10;[Damage] A WHISPER&#10;Powers: Shape Change&#10;Shape Change. // Other friendly characters within range that share a keyword with Hush have SAFEGUARD: Outwit." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Celebrity | Gotham City Underworld |" />
       <alternate name="Hush" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8902,6 +8945,12 @@
         <property name="Damage" value="1" />
         <property name="Damage Ability" value="Outwit" />
       </alternate>
+      <alternate name="Hush" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="bde55cf5-4760-4051-a1d2-86604a0c9ad0" name="Johnny Quick" size="Card">
       <property name="Unit ID" value="notL043" />
@@ -8910,14 +8959,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Crime Syndicate" />
-      <property name="Team Abilities Search" value="| Crime Syndicate |" />
       <property name="Keywords" value="Crime Syndicate | Speedster" />
-      <property name="Keywords Search" value="| Crime Syndicate | Speedster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] YOUR VIBRATIONAL FREQUENCY IS OFF&#10;When Johnny Quick attacks one or more characters that either have the Speedster keyword or that can use Hypersonic Speed, modify his attack +2 and the attack can't be evaded.&#10;&#10;[Damage] CRIMINAL PAST&#10;When Johnny Quick hits, if there are more action tokens on friendly characters than opposing characters, you may choose an equipment equipped to a hit character. Equip that equipment to Johnny Quick." />
+      <property name="Team Abilities Search" value="| Crime Syndicate |" />
+      <property name="Keywords Search" value="| Crime Syndicate | Speedster |" />
       <alternate name="Johnny Quick" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -8982,6 +9031,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Exploit Weakness" />
       </alternate>
+      <alternate name="Johnny Quick" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="e85d997d-e316-41c5-9811-255921b27a0a" name="Darkseid" size="Card">
       <property name="Unit ID" value="notL044" />
@@ -8990,14 +9045,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="250/175/125" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Apokolips | Ruler | Secret Society Of Super Villains | New Gods | Warrior | Deity" />
-      <property name="Keywords Search" value="| Cosmic | Apokolips | Ruler | Secret Society Of Super Villains | New Gods | Warrior | Deity |" />
       <property name="Range" value="10" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Characters | Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] DARKSEID IS&#10;Powers: Leadership, Mastermind&#10;Leadership, Mastermind. // If Darkseid hasn't used Outwit since your last turn, he can reduce penetrating damage.&#10;&#10;[Trait] THE ANTI-LIFE EQUATION&#10;When Darkseid or a friendly character that shares a keyword with him hits, after resolutions give an Anti-Life token to all hit characters that do not already have one. // Characters with an Anti-Life token modify attack and damage -1 and have &quot;When this character heals, remove their Anti-Life token.&quot;&#10;&#10;[Speed] CONQUER YOUR PLANET AND YOUR MINDS&#10;Powers: Mind Control, Phasing Teleport&#10;Mind Control. Mind Control as FREE, but only to target an opposing character with an Anti-Life token. // Phasing/Teleport. Phasing/Teleport as FREE, but only to move 3 squares.&#10;&#10;[Damage] THEIR SUFFERING IS MY WILL&#10;Powers: Outwit&#10;Outwit. When Darkseid uses it he may remove an Anti-Life token from the targeted character. If he does, choose one: *For this use of Outwit, Darkseid may choose two powers instead of one. *Until your next turn, when the targeted character attacks and misses one or more targets, after resolutions deal them 1 unavoidable damage." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Apokolips | Ruler | Secret Society Of Super Villains | New Gods | Warrior | Deity |" />
       <alternate name="Darkseid" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -9110,6 +9165,12 @@
         <property name="Damage" value="3" />
         <property name="Damage Ability" value="Special - THEIR SUFFERING IS MY WILL" />
       </alternate>
+      <alternate name="Darkseid" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="a646f4d9-4513-475b-a6c3-5867f1d4cde3" name="Queen of Fables" size="Card">
       <property name="Unit ID" value="notL049" />
@@ -9118,13 +9179,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100/60" />
       <property name="Team Abilities" value="Mystics" />
-      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Gotham City Underworld | Ruler | Mystical" />
-      <property name="Keywords Search" value="| Gotham City Underworld | Ruler | Mystical |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
       <property name="Traits and Special Powers" value="[Trait] ONCE UPON A TIME...&#10;Powers: Perplex, Outwit, Probability Control&#10;Perplex. // When Queen of Fables starts the game, choose either Outwit or Probability Control to use this game. If you were the second player, instead choose both.&#10;&#10;[Speed] TRAPPED IN THE US TAX CODE&#10;[cs:tiny]. Queen of Fables can't make range attacks. // Adjacent friendly characters can use Support, but only to choose Queen of Fables.&#10;&#10;[Attack] REWRITE THE STORY AS I SEE FIT&#10;Powers: Energy Explosion, Penetrating Psychic Blast&#10;Energy Explosion, Penetrating/Psychic Blast, KNOCKBACK." />
+      <property name="Team Abilities Search" value="| Mystics |" />
+      <property name="Keywords Search" value="| Gotham City Underworld | Ruler | Mystical |" />
       <alternate name="Queen of Fables" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -9223,6 +9284,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Shape Change" />
       </alternate>
+      <alternate name="Queen of Fables" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="58eb4292-98d3-4a5a-acdc-09480deb327f" name="Phantasm" size="Card">
       <property name="Unit ID" value="notL051" />
@@ -9231,14 +9298,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Mystics" />
-      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Assassin | Future | Gotham City | Project Cadmus" />
-      <property name="Keywords Search" value="| Assassin | Future | Gotham City | Project Cadmus |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] YOUR ANGEL OF DEATH AWAITS&#10;Powers: Sidestep, Smoke Cloud&#10;Sidestep. // Smoke Cloud as FREE.&#10;&#10;[Attack] WILLING TO GO FURTHER&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. // FREE: If the Phantasm occupies hindering terrain, make an attack.&#10;&#10;[Damage] MARK OF THE PHANTASM&#10;Powers: Exploit Weakness, Shape Change&#10;Exploit Weakness. // Shape Change, but succeeds on [d:4]-[d:6] if the attacker occupies one of The Phantasm's Smoke terrain markers or has a Target token." />
+      <property name="Team Abilities Search" value="| Mystics |" />
+      <property name="Keywords Search" value="| Assassin | Future | Gotham City | Project Cadmus |" />
       <alternate name="Phantasm" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -9306,6 +9373,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Special - MARK OF THE PHANTASM" />
       </alternate>
+      <alternate name="Phantasm" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="4460e863-001a-4708-b79a-b86e5dc8c560" name="Man-Bat" size="Card">
       <property name="Unit ID" value="notL055" />
@@ -9314,14 +9387,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Animal | Gotham City | Scientist" />
-      <property name="Keywords Search" value="| Animal | Gotham City | Scientist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] SCENT OF BLOOD&#10;When Man-Bat hits with a close attack, after resolutions give a hit character a Bleeding token. // When a character with one or more Bleeding tokens is dealt damage, increase the damage dealt by +1 for each Bleeding token on them.&#10;&#10;[Trait] SWOOPING DIVE&#10;Powers: Super Senses&#10;Super Senses. // When Man-Bat attacks, modify his attack +2 if he isn't occupying the square he began the turn in.&#10;&#10;[Attack] FEAST ON BLOOD&#10;Powers: Blades Claws Fangs, Steal Energy&#10;Blades/Claws/Fangs, Steal Energy. When Man-Bat uses Steal Energy, he instead heals equal to the damage hit characters took." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Animal | Gotham City | Scientist |" />
       <alternate name="Man-Bat" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -9377,6 +9450,12 @@
         <property name="Defense" value="15" />
         <property name="Damage" value="1" />
       </alternate>
+      <alternate name="Man-Bat" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="2d265a6e-cedc-4d8b-9956-92ae26c749cf" name="Mazahs!" size="Card">
       <property name="Unit ID" value="notL061" />
@@ -9385,13 +9464,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Mystics" />
-      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Crime Syndicate | Metropolis | Mystical" />
-      <property name="Keywords Search" value="| Crime Syndicate | Metropolis | Mystical |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TAKE YOUR POWER&#10;When Mazahs! KO's an opposing character, choose one. If the KO'd character was more points than Mazahs!, choose both: *Choose a combat value not already chosen for the effect for Mazahs! to modify +1 this game. *Choose a standard power listed on the KO'd character's card for Mazahs! to use this game.&#10;&#10;[Attack] THE DARK LIGHTNING&#10;Powers: Pulse Wave&#10;Pulse Wave as FREE, but only if Mazahs! moved this turn." />
+      <property name="Team Abilities Search" value="| Mystics |" />
+      <property name="Keywords Search" value="| Crime Syndicate | Metropolis | Mystical |" />
       <alternate name="Mazahs!" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -9474,6 +9553,12 @@
         <property name="Damage" value="3" />
         <property name="Damage Ability" value="Ranged Combat Expert" />
       </alternate>
+      <alternate name="Mazahs!" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="2f8a7a58-7e87-40fa-b378-dfae24b9d442" name="Cheshire" size="Card">
       <property name="Unit ID" value="notL070" />
@@ -9482,13 +9567,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | League Of Assassins | Martial Artist | Secret Six | Secret Society Of Super Villains" />
-      <property name="Keywords Search" value="| Assassin | League Of Assassins | Martial Artist | Secret Six | Secret Society Of Super Villains |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KO's an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] TOXIN EXPERT&#10;Powers: Poison&#10;Sidestep. // Poison, and when she uses it she instead deals 2 damage.&#10;&#10;[Attack] TOXIC CLAWS&#10;Powers: Precision Strike&#10;Precision Strike. // When Cheshire damages an opposing character, until your next turn that character can't reduce damage." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Assassin | League Of Assassins | Martial Artist | Secret Six | Secret Society Of Super Villains |" />
       <alternate name="Cheshire" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -9555,6 +9640,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Shape Change" />
       </alternate>
+      <alternate name="Cheshire" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="cae70a03-9e79-4271-9516-e8fc21d1c405" name="Brimstone" size="Card">
       <property name="Unit ID" value="notLG003" />
@@ -9563,13 +9654,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="290/175/90/50/15" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Apokolips | Robot" />
-      <property name="Keywords Search" value="| Apokolips | Robot |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
       <property name="Traits and Special Powers" value="[Speed] COLOSSAL RETALIATION: FLAMING BLADE&#10;POWER: If no other characters have been placed this turn, choose an opposing character that damaged a friendly character since your last turn. Place Brimstone such that he can make a close attack targeting the chosen character along a direct line of fire, then do so also targeting every other opposing character along that direct line between Brimstone and the chosen character. Instead of normal damage, roll a d6 and deal that much damage to each hit character.&#10;&#10;[Attack] THE FLAMES OF APOKOLIPS&#10;When Brimstone attacks, opposing characters can't use Super Senses or positively modify their combat values.&#10;&#10;[Defense] PLASMA CORE&#10;Powers: Stop, Toughness&#10;STOP. Toughness.&#10;&#10;[Damage] INTENSELY RADIOACTIVE&#10;Brimstone deals penetrating damage. // At the end of your turn, deal 1 damage to all opposing characters within a number of squares equal to Brimstone's printed damage value." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Apokolips | Robot |" />
       <alternate name="Brimstone" type="Click1" size="2x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -9791,6 +9882,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Special - INTENSELY RADIOACTIVE" />
       </alternate>
+      <alternate name="Brimstone" type="KO" size="2x2">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="a1018052-043e-4886-b600-6b10634957a5" name="War of Jokes and Riddles" size="Card">
       <property name="Unit ID" value="notM001" />
@@ -9798,8 +9895,8 @@
       <property name="Unit Type" value="Mystery Card" />
       <property name="Rarity" value="Chase" />
       <property name="Keywords" value="Batman Family | Detective" />
-      <property name="Keywords Search" value="| Batman Family | Detective |" />
       <property name="Traits and Special Powers" value="CLUE EFFECT: Gotham Knights&#10;When a friendly character with a listed keyword attacks or is attacked while occupying hindering terrain, after resolutions gain 1 Clue token.&#10;&#10;SUSPECT (0)&#10;When a friendly character uses Outwit, Perplex, or Probability Control roll a d6. 1-3: Give that character an action token.&#10;&#10;SUSPECT (3)&#10;When you use this Mystery Card's SUSPECT effect, increase the result of the roll by +1.&#10;&#10;CASE CLOSED (5)&#10;When this effect becomes active, after resolutions remove this Mystery Card from the game." />
+      <property name="Keywords Search" value="| Batman Family | Detective |" />
     </card>
     <card id="f6c32fdf-c6c5-4a68-8fca-c13d4c7dce8f" name="Iceberg Lounge" size="16x16">
       <property name="Unit ID" value="notM002" />

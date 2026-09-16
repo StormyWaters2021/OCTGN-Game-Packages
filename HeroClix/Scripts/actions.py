@@ -37,6 +37,15 @@ def add_action(card):
         notify("{} gives {} an Action token.".format(me, card))
 
 
+def add_custom_marker(card, x=0, y=0):
+    mute()
+    marker, qty = askMarker()
+    if qty == 0:
+        return
+    card.markers[marker] += qty
+    notify("{} puts a {} counter on {}.".format(me, marker[0], card))
+    
+
 def remove_action(card, x=0, y=0):
     mute()
     

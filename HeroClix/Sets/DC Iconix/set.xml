@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="DC Iconix" id="5320fd44-dead-47f3-ac0b-1dcdb295af0b" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="d241c83d-e22a-4d78-b9d1-b1d4ac1596c1" name="Batman" size="Card">
@@ -2600,6 +2601,12 @@
         <property name="Damage" value="1" />
         <property name="Damage Ability" value="Leadership" />
       </alternate>
+      <alternate name="Butterfly" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="cb8e6855-12f2-4299-8427-9b786f272b43" name="Butterfly Swarm" size="Card">
       <property name="Unit ID" value="dcxDCX-024bt" />
@@ -3705,6 +3712,12 @@
         <property name="Defense Ability" value="Regeneration" />
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Barry Allen" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
       </alternate>
     </card>
     <card id="6c47a357-6da9-481a-bc74-52ddf483953c" name="Wally West" size="Card">

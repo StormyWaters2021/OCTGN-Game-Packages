@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="Venom" id="a2f7309b-0b4d-45a1-b5c0-2a958fb6b888" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="566afb82-4d26-40eb-bc95-61c2b52e9bbe" name="Venom" size="Card">
@@ -8,14 +9,14 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Brute | Reporter | Sinister Syndicate | Spider Man Family | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Brute | Reporter | Sinister Syndicate | Spider Man Family | Monster | Symbiote |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venom is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Trait] FIGHT THE BLOODLUST&#10;Powers: Willpower, Battle Fury&#10;Willpower, but succeeds on a [d:4]-[d:6]. When Venom uses Willpower and fails, this turn he modifies his attack +1 and can use Battle Fury." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Brute | Reporter | Sinister Syndicate | Spider Man Family | Monster | Symbiote |" />
       <alternate name="Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -90,11 +91,11 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="20" />
       <property name="Keywords" value="A.I.M. | Animal | Assassin | Avengers | Monster | Deadpool Corps" />
-      <property name="Keywords Search" value="| A.I.M. | Animal | Assassin | Avengers | Monster | Deadpool Corps |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Tiny" />
       <property name="Traits and Special Powers" value="[Defense] TOO CUTE&#10;Jeff the Land Shark takes a maximum of 1 damage from opposing characters on their starting click." />
+      <property name="Keywords Search" value="| A.I.M. | Animal | Assassin | Avengers | Monster | Deadpool Corps |" />
       <alternate name="Jeff the Land Shark" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -152,13 +153,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="20" />
       <property name="Team Abilities" value="Police" />
-      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Police | Detective" />
-      <property name="Keywords Search" value="| Police | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] GUMSHOE FOR HIRE&#10;Powers: Plasticity&#10;Plasticity. // When establishing themed teams, choose a friendly character's keyword. Private Detective gains that keyword." />
+      <property name="Team Abilities Search" value="| Police |" />
+      <property name="Keywords Search" value="| Police | Detective |" />
       <alternate name="Private Detective" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -219,11 +220,11 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Animal | Revengers | Monster" />
-      <property name="Keywords Search" value="| Animal | Revengers | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SEWER TRAVEL&#10;Powers: Stealth&#10;Stealth. // FREE: If Vermin occupies a square of hindering or water terrain, place him in a square of hindering or water terrain within 4 squares." />
+      <property name="Keywords Search" value="| Animal | Revengers | Monster |" />
       <alternate name="Vermin" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -323,13 +324,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Reporter | Scientist | Spider Man Family | Symbiote" />
-      <property name="Keywords Search" value="| Reporter | Scientist | Spider Man Family | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Spider-Man in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] WHY AM I SO TIRED?!&#10;Powers: Willpower&#10;Willpower. When Spider-Man uses it and succeeds, once per game you may turn him to click #7." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Reporter | Scientist | Spider Man Family | Symbiote |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -428,11 +429,11 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Keywords" value="Past | Soldier | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Past | Soldier | Monster | Symbiote |" />
       <property name="Range" value="3" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: MERCURY TEAM&#10;When Symbiote Soldier is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Generate a Slime water terrain marker in the square this character last occupied. This game that marker has &quot;Characters that began the turn on this marker can't be placed or use [im:] abilities.&quot;&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Keywords Search" value="| Past | Soldier | Monster | Symbiote |" />
       <alternate name="Symbiote Soldier" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -504,12 +505,12 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Maximum Carnage | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Maximum Carnage | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] MAXIMUM CARNAGE&#10;Once per turn when Carnage hits, after resolutions deal 1 penetrating damage to up to 2 opposing characters that weren't hit but are adjacent to a hit character." />
+      <property name="Keywords Search" value="| Maximum Carnage | Monster | Symbiote |" />
       <alternate name="Carnage" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -599,11 +600,11 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="20" />
       <property name="Keywords" value="Monster | Symbiote" />
-      <property name="Keywords Search" value="| Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THEY'RE SPREADING!&#10;When Zombiote KOs an opposing character, after resolutions you may generate a [set:ve] #008 Zombiote on click #1 in the square that character last occupied." />
+      <property name="Keywords Search" value="| Monster | Symbiote |" />
       <alternate name="Zombiote" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -664,11 +665,11 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="15" />
       <property name="Keywords" value="Cosmic | Monster" />
-      <property name="Keywords Search" value="| Cosmic | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
       <property name="Traits and Special Powers" value="[Trait] ONE OF US...&#10;Hive has SAFEGUARD: Poison. // When Hive KOs an opposing character, after resolutions you may turn Hive to click #5.&#10;&#10;[Damage] STOLEN BODY&#10;Powers: Exploit Weakness&#10;[cs:starburst]. Exploit Weakness." />
+      <property name="Keywords Search" value="| Cosmic | Monster |" />
       <alternate name="Hive" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -747,13 +748,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Champions | Assassin | Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Thunderbolts" />
-      <property name="Keywords Search" value="| Champions | Assassin | Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ALCHEMAX INTEL&#10;[it:hindering], but only to target characters that have the team ability chosen for [ta:avengers]." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Champions | Assassin | Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Thunderbolts |" />
       <alternate name="Black Widow" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -849,12 +850,12 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="15" />
       <property name="Keywords" value="Robot | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Robot | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] BONDED SPIDER-BOT&#10;When Venom-Bot is KO'd by an opposing character, after resolutions deal that character 1 penetrating damage and generate a Slime water terrain marker in that character's square. This game that marker has &quot;Characters that began the turn on this marker can't be placed or use [im:] abilities.&quot;" />
+      <property name="Keywords Search" value="| Robot | Monster | Symbiote |" />
       <alternate name="Venom-Bot" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -898,11 +899,11 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50/15" />
       <property name="Keywords" value="Cosmic | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TAKING A HOST&#10;Powers: Poison, Shape Change&#10;Poison, Shape Change. // When Klyntar Symbiote is KO'd, you may place it on a friendly character's card. If you do, this game that character can use Poison, Shape Change, and has an additional [cs:bolt]." />
+      <property name="Keywords Search" value="| Cosmic | Monster | Symbiote |" />
       <alternate name="Klyntar Symbiote" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -985,13 +986,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Scientist | Spider Man Family | New Warriors | Symbiote" />
-      <property name="Keywords Search" value="| Scientist | Spider Man Family | New Warriors | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Spider-Man in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] THE SENSATIONAL SPIDER-MAN&#10;When Spider-Man hits, after resolutions give each hit character an action token. // Opposing characters within range can't remove action tokens except by clearing." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Scientist | Spider Man Family | New Warriors | Symbiote |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1092,12 +1093,12 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Celebrity | Martial Artist | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Celebrity | Martial Artist | Monster | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venom is within 4 squares and line of fire of an opposing character, she can't be targeted by range attacks.&#10;&#10;[Defense] ALL-NEW VENOM&#10;Powers: Combat Reflexes, Super Senses&#10;Combat Reflexes, Super Senses." />
+      <property name="Keywords Search" value="| Celebrity | Martial Artist | Monster | Symbiote |" />
       <alternate name="Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1175,12 +1176,12 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Armor | Future | Monster | Warrior | Symbiote" />
-      <property name="Keywords Search" value="| Armor | Future | Monster | Warrior | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SOLID PHYSIOLOGY&#10;Powers: Plasticity&#10;Plasticity, Giant Reach: 2. // Eganrac can reduce penetrating damage. // Adjacent opposing characters and characters attacking Eganrac can't use the EFFECT of equipment.&#10;&#10;[Trait] I AM THE ANTI-CARNAGE&#10;Powers: Willpower&#10;Willpower. // If Eganrac shares a keyword with an opposing character on the map, increase the results of his single d6 rolls by +1. If that keyword is Monster or Symbiote, also modify Eganrac's combat values +1.&#10;&#10;[Defense] GOLDEN OPPORTUNITY&#10;Powers: Impervious, Shape Change&#10;Impervious, Shape Change. When Eganrac uses Impervious and succeeds, after resolutions deal the attacker damage equal to their printed damage value. Protected: Outwit." />
+      <property name="Keywords Search" value="| Armor | Future | Monster | Warrior | Symbiote |" />
       <alternate name="Eganrac" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1276,11 +1277,11 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Animal | Cosmic | Scientist | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Animal | Cosmic | Scientist | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Tiny" />
       <property name="Traits and Special Powers" value="[Trait] CHEMICAL SYNTHESIS&#10;POWER: Generate a Slime water terrain marker within 4 squares and line of fire. This game that marker has &quot;Characters that began the turn on this marker can't be placed or use [im:] abilities.&quot;" />
+      <property name="Keywords Search" value="| Animal | Cosmic | Scientist | Monster | Symbiote |" />
       <alternate name="Sleeper" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1329,13 +1330,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Avengers | Reporter | Spider Man Family | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Avengers | Reporter | Spider Man Family | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MAN OF A THOUSAND SECOND CHANCES&#10;At the beginning of the game, remove a character with &quot;Venom&quot; in its name from your Sideline, turn them to any click, and place them on this card. // Eddie Brock can use the displayed standard powers of the character on his card.&#10;&#10;[Trait] THE COMEBACK KING&#10;When Eddie Brock would be KO'd, you may instead replace him with the character from his card on its last non-KO click, then heal it 2 clicks. Protected: Pulse Wave." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Avengers | Reporter | Spider Man Family | Monster | Symbiote |" />
       <alternate name="Eddie Brock" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1387,11 +1388,11 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Animal | Avengers | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Animal | Avengers | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Giant" />
       <property name="Traits and Special Powers" value="[Trait] EWW, SHARK SLOBBER!&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // When Venomized Jeff the Land Shark is hit by an opposing character, after resolutions you may generate a Slime water terrain marker in that character's square. This game that marker has &quot;Characters that began the turn on this marker can't be placed or use [im:] abilities.&quot;&#10;&#10;[Attack] TONGUE LASH&#10;Powers: Steal Energy&#10;Giant Reach: 4, Steal Energy." />
+      <property name="Keywords Search" value="| Animal | Avengers | Monster | Symbiote |" />
       <alternate name="Venomized Jeff the Land Shark" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1477,11 +1478,11 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Masters Of Evil | Sinister Syndicate | Dark Avengers | Detective | Thunderbolts" />
-      <property name="Keywords Search" value="| Masters Of Evil | Sinister Syndicate | Dark Avengers | Detective | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MULTIPLE MASKS&#10;At the beginning of the game, remove a character named Scorpion, Spider-Man, Venom, or Virus from your Sideline, turn them to any click, and place them on this card. // Mac Gargan can use the displayed standard powers of the characters on his card.&#10;&#10;[Trait] ANIMAL MUTATION EXPERIMENTS&#10;When Mac Gargan would be KO'd, you may instead replace him with the character from his card on its last non-KO click, then heal it 2 clicks. Protected: Pulse Wave." />
+      <property name="Keywords Search" value="| Masters Of Evil | Sinister Syndicate | Dark Avengers | Detective | Thunderbolts |" />
       <alternate name="Mac Gargan" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1533,13 +1534,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75/30" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Animal | Scientist | Sinister Syndicate | Monster" />
-      <property name="Keywords Search" value="| Animal | Scientist | Sinister Syndicate | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SEWER TRAVEL&#10;Powers: Stealth&#10;Stealth. // FREE: If Lizard occupies a square of hindering or water terrain, place him in a square of hindering or water terrain within 4 squares." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Animal | Scientist | Sinister Syndicate | Monster |" />
       <alternate name="Lizard" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1644,14 +1645,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Reporter | Spider Man Family | Symbiote" />
-      <property name="Keywords Search" value="| Reporter | Spider Man Family | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Spider-Man 2 is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Trait] CHOOSING PARKER'S LEGACY&#10;If a friendly character with [ta:spider_man] is in your KO area, Spider-Man 2 can use Super Senses and modifies his combat values by +1." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Reporter | Spider Man Family | Symbiote |" />
       <alternate name="Spider-Man 2" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1729,13 +1730,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Police | Underworld" />
-      <property name="Team Abilities Search" value="| Police | Underworld |" />
       <property name="Keywords" value="Past | S.H.I.E.L.D. | Soldier | Spy | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Past | S.H.I.E.L.D. | Soldier | Spy | Monster | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] GRENDEL PROGRAM&#10;Powers: Flurry, Stealth&#10;When establishing themed teams, friendly characters with the Soldier keyword gain the Symbiote keyword. // Friendly characters with both the Symbiote and Soldier keywords can use Flurry and Stealth." />
+      <property name="Team Abilities Search" value="| Police | Underworld |" />
+      <property name="Keywords Search" value="| Past | S.H.I.E.L.D. | Soldier | Spy | Monster | Symbiote |" />
       <alternate name="Rex Strickland" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1806,12 +1807,12 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Maximum Carnage | Soldier | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Maximum Carnage | Soldier | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] LIFE FOUNDATION SYMBIOTE&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If at least two other friendly characters have the Scientist or Symbiote keyword, once per turn Phage may reroll a d6 he rolled (including a single d6 in an attack roll).&#10;&#10;[Attack] SYMBIOTE BLADES&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, Giant Reach: 2." />
+      <property name="Keywords Search" value="| Maximum Carnage | Soldier | Monster | Symbiote |" />
       <alternate name="Phage" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1905,13 +1906,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Soldier | Maggia | Symbiote" />
-      <property name="Keywords Search" value="| Soldier | Maggia | Symbiote |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] VENOM INC.&#10;Powers: Shape Change&#10;Shape Change. // Friendly characters with the Symbiote keyword have [ta:underworld]." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Soldier | Maggia | Symbiote |" />
       <alternate name="Maniac" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1980,14 +1981,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75/35" />
       <property name="Team Abilities" value="Police" />
-      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Animal | Soldier | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Animal | Soldier | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] SCENT TRACKING&#10;If Lasher is on a themed team, friendly characters can use [it:hindering,characters]." />
+      <property name="Team Abilities Search" value="| Police |" />
+      <property name="Keywords Search" value="| Animal | Soldier | Monster | Symbiote |" />
       <alternate name="Lasher" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2090,13 +2091,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Assassin | Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Assassin | Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Monster | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] LETTING HER RUN LOOSE&#10;Powers: Stealth&#10;Stealth. // FREE: Once per game turn Sliver to click #7. If you do, this game she can't use Stealth or [ta:avengers].&#10;&#10;[Attack] ZOMBIOTE CORRUPTION&#10;Powers: Blades Claws Fangs, Steal Energy&#10;Blades/Claws/Fangs, Steal Energy. // When Sliver KOs an opposing character, after resolutions you may generate a [set:ve] #008 Zombiote on click #1 in the square the KO'd character last occupied." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Assassin | Avengers | Martial Artist | S.H.I.E.L.D. | Spy | Monster | Symbiote |" />
       <alternate name="Sliver" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2236,13 +2237,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Scientist | Spider Man Family | Monster | Mystical" />
-      <property name="Keywords Search" value="| Scientist | Spider Man Family | Monster | Mystical |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Improved Targeting" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] ALL THE POWER...&#10;When Chasm hits, after resolutions generate a Web smoke terrain marker in the squares of each hit character. This game, those markers have &quot;Characters occupying this marker must break away to move and can't automatically succeed in their breakaway rolls. Remove this marker from the game when no character occupies it.&quot;&#10;&#10;[Defense] ...NONE OF THE RESPONSIBILITY&#10;Powers: Super Senses&#10;Super Senses. When Chasm uses it and succeeds, after resolutions deal the attacker damage equal to their printed damage value. Protected: Outwit." />
+      <property name="Keywords Search" value="| Scientist | Spider Man Family | Monster | Mystical |" />
       <alternate name="Chasm" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2343,13 +2344,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="90/40" />
       <property name="Team Abilities" value="Masters Of Evil" />
-      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Armor | Masters Of Evil | Sinister Syndicate | Detective | Thunderbolts" />
-      <property name="Keywords Search" value="| Armor | Masters Of Evil | Sinister Syndicate | Detective | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] NEVER STOP HUNTING YOU!&#10;Powers: Energy Shield Deflection, Willpower&#10;Energy Shield/Deflection, Willpower. // If Virus is adjacent to an opposing character, increase the results of his single d6 rolls by +1.&#10;&#10;[Defense] RECYCLED WAR MACHINE PARTS&#10;Powers: Impervious, Super Senses&#10;Impervious, Super Senses." />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
+      <property name="Keywords Search" value="| Armor | Masters Of Evil | Sinister Syndicate | Detective | Thunderbolts |" />
       <alternate name="Virus" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2444,13 +2445,13 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Team Player | Spider Man" />
-      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
       <property name="Keywords" value="Avengers | Soldier | Spider Man Family | Monster | Thunderbolts | Symbiote" />
-      <property name="Keywords Search" value="| Avengers | Soldier | Spider Man Family | Monster | Thunderbolts | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ANTI-VENOM BURNS&#10;Opposing characters within range and line of fire can't use Shape Change or Super Senses.&#10;&#10;[Trait] HEAL MY UNIT&#10;At the beginning of your turn, you may heal a friendly character 1 click. // When another friendly character would be KO'd, you may instead turn them to their last non-KO click and heal them 2 clicks. If you do, Agent Anti-Venom can't use this trait this game. Protected: Pulse Wave.&#10;&#10;[Damage] EX-THUNDERBOLT&#10;Powers: Leadership&#10;Leadership. // When Agent Anti-Venom uses [ta:team_player], he may choose a team ability an opposing character can use." />
+      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
+      <property name="Keywords Search" value="| Avengers | Soldier | Spider Man Family | Monster | Thunderbolts | Symbiote |" />
       <alternate name="Agent Anti-Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2543,14 +2544,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="70/40" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Brute | Cosmic | Reporter | Scientist | Spider Man Family | Monster" />
-      <property name="Keywords Search" value="| Brute | Cosmic | Reporter | Scientist | Spider Man Family | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Poison Spider-Man in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] PART OF THE HIVE&#10;Poison Spider-Man has SAFEGUARD: Poison.&#10;&#10;[Damage] WAR WITH THE SYMBIOTES&#10;Powers: Exploit Weakness&#10;Exploit Weakness. // When Poison Spider-Man attacks, opposing characters decrease the results of their single d6 rolls by -1 (during that attack)." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Brute | Cosmic | Reporter | Scientist | Spider Man Family | Monster |" />
       <alternate name="Poison Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2652,13 +2653,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Heroes For Hire | Martial Artist | Thunderbolts | The Hand" />
-      <property name="Keywords Search" value="| Assassin | Heroes For Hire | Martial Artist | Thunderbolts | The Hand |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] DISARM&#10;When Elektra hits, after resolutions give each hit character an action token, then those characters unequip any equipment.&#10;&#10;[Speed] NINJA MASTERY&#10;Powers: Sidestep, Stealth&#10;Sidestep, Stealth." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Assassin | Heroes For Hire | Martial Artist | Thunderbolts | The Hand |" />
       <alternate name="Elektra" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2741,12 +2742,12 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Assassin | Martial Artist | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Assassin | Martial Artist | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] THE TARGET&#10;At the beginning of the game, for all friendly characters with this trait, give a Target token to an opposing character. // For all characters with this trait, when a friendly character with the Assassin keyword KOs an opposing character with a Target token, score 25 victory points.&#10;&#10;[Trait] TRACKING HEARTBEATS&#10;Powers: Plasticity&#10;Plasticity. // When an opposing character heals, after resolutions give them a Target token. Friendly characters with a &quot;The Target&quot; trait treat that token as if it were generated by that trait.&#10;&#10;[Speed] LIKE A TORNADO FILLED WITH KNIVES&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Carnage Elektra uses it, after resolutions deal 1 damage to each opposing character she moved through during that action." />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Monster | Symbiote |" />
       <alternate name="Carnage Elektra" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2839,14 +2840,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Avengers | Future | Horsemen | Spider Man Family | Symbiote" />
-      <property name="Keywords Search" value="| Avengers | Future | Horsemen | Spider Man Family | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Venomized Miles Morales in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venomized Miles Morales is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Attack] WE ARE READY TO HUNT&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, Giant Reach: 3." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Avengers | Future | Horsemen | Spider Man Family | Symbiote |" />
       <alternate name="Venomized Miles Morales" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2935,12 +2936,12 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Maximum Carnage | Soldier | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Maximum Carnage | Soldier | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] LIFE FOUNDATION SYMBIOTE&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If at least two other friendly characters have the Scientist or Symbiote keyword, once per turn Riot may reroll a d6 he rolled (including a single d6 in an attack roll).&#10;&#10;[Attack] SYMBIOTE SMASH!&#10;Powers: Super Strength&#10;Super Strength, Giant Reach: 2. // When Riot hits, until your next turn, the next time each hit character would roll a single d6, the result is [d:1] instead." />
+      <property name="Keywords Search" value="| Maximum Carnage | Soldier | Monster | Symbiote |" />
       <alternate name="Riot" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3034,14 +3035,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Brute | Sinister Syndicate | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Brute | Sinister Syndicate | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Speed] WALL-SMASHER&#10;FREE: Place Pork Grind adjacent to a piece of blocking terrain within 4 squares, then destroy that blocking terrain.&#10;&#10;[Attack] I'LL SHOW YOU TOON STUFF!&#10;POWER: Generate an equipment from your Sideline and equip it.&#10;&#10;[Defense] TOON PHYSIOLOGY&#10;If Pork Grind would take damage from an attack, unless the attack roll was doubles or part of a Terrain Action, instead the attacker knocks him back a number of squares equal to the damage dealt." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Brute | Sinister Syndicate | Monster | Symbiote |" />
       <alternate name="Pork Grind" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3142,13 +3143,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="120/65" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Assassin | Monster | Deity | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Assassin | Monster | Deity | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ALL-BLACK: GODSLAYER&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Gorr the God Butcher uses it, they may reroll the result if the targeted character has the Deity or Herald keyword. // When Gorr the God Butcher rolls a single d6, if the displayed result is [d:1]-[d:2], after resolutions generate a Black Berserker bystander.&#10;&#10;[Trait] PUT OUR FAITH IN ONLY OURSELVES AND ONE ANOTHER&#10;Other characters can't generate bystanders. // Modify Gorr the God Butcher's combat values by +1 for each character with the Deity keyword in an opponent's KO area." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Assassin | Monster | Deity | Symbiote |" />
       <alternate name="Gorr the God Butcher" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3273,13 +3274,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Animal | Spider Man Family" />
-      <property name="Keywords Search" value="| Animal | Spider Man Family |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Spider-Boy in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] RETURN FROM NONEXISTENCE&#10;Spider-Boy can't be targeted by opposing characters unless they either began the turn adjacent to him or no other friendly characters are on the map.&#10;&#10;[Damage] PSYCHOMETRY&#10;Powers: Probability Control&#10;Probability Control. Spider-Boy may use it twice a turn, but only if both uses targeted characters with [ta:spider_man]." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Animal | Spider Man Family |" />
       <alternate name="Spider-Boy" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3337,11 +3338,11 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="70/30" />
       <property name="Keywords" value="Cabal | Revengers | Scientist | Fantastic Four | Symbiote" />
-      <property name="Keywords Search" value="| Cabal | Revengers | Scientist | Fantastic Four | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTIC EXPERIMENTS&#10;When Maker starts the game, if he's unequipped generate and equip a Symbiote Prototype equipment token to him. // POWER: Generate and equip a Symbiote Prototype equipment token to a friendly character within 4 squares.&#10;&#10;[Attack] THE BURDEN OF SCIENCE&#10;Powers: Precision Strike&#10;Precision Strike, Giant Reach: 4." />
+      <property name="Keywords Search" value="| Cabal | Revengers | Scientist | Fantastic Four | Symbiote |" />
       <alternate name="Maker" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3429,7 +3430,7 @@
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Rare" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Shape Change&#10;Shape Change. When this character uses it and fails, after resolutions heal them 1 click and destroy Symbiote Prototype." />
-      <alternate type="Tile" size="1x1" name="Symbiote Prototype" />
+      <alternate name="Symbiote Prototype" type="Tile" size="1x1" />
     </card>
     <card id="bf0f24e1-da36-4610-b15a-8681f1d88634" name="Gwenom" size="Card">
       <property name="Unit ID" value="ve038" />
@@ -3438,13 +3439,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Spider Man Family | Detective | Symbiote" />
-      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Detective | Symbiote |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Gwenom in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Speed] PREDATOR MODE&#10;Powers: Sidestep&#10;Sidestep. // Non-adjacent opposing characters can't draw lines of fire to Gwenom.&#10;&#10;[Damage] SYMBIOTE&#10;Powers: Plasticity, Sidestep&#10;Plasticity, Shape Change." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Detective | Symbiote |" />
       <alternate name="Gwenom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3545,7 +3546,7 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;When this character hits, choose one:*Destroy all equipment equipped to a hit character.*Choose an opposing character adjacent to a hit character. That character also becomes a hit target of the attack (Both hit characters are dealt damage)." />
-      <alternate type="Tile" size="1x1" name="Venom's Axe" />
+      <alternate name="Venom's Axe" type="Tile" size="1x1" />
     </card>
     <card id="f7a3a964-3c6b-4ece-bcc0-33b12d0dcb09" name="All-Blood the Necrospear" size="Card">
       <property name="Unit ID" value="ve040" />
@@ -3554,7 +3555,7 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="10" />
       <property name="Traits and Special Powers" value="EFFECT:&#10;Powers: Battle Fury&#10;Battle Fury, Giant Reach: 3. // When this character attacks, before rolling you may choose that results of [d:1] in the attack roll are [d:6] instead. If you do and the attack is a critical hit, after resolutions remove this equipment from the game." />
-      <alternate type="Tile" size="1x1" name="All-Blood the Necrospear" />
+      <alternate name="All-Blood the Necrospear" type="Tile" size="1x1" />
     </card>
     <card id="70f5b702-23e3-4b9a-9817-86195026dd07" name="Poison Doom" size="Card">
       <property name="Unit ID" value="ve041" />
@@ -3563,14 +3564,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150/75" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Armor | Latveria | Ruler | Scientist | Monster | Mystical" />
-      <property name="Keywords Search" value="| Cosmic | Armor | Latveria | Ruler | Scientist | Monster | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering | Characters" />
       <property name="Traits and Special Powers" value="[Trait] ORDERS FROM DOOM&#10;Powers: Mastermind&#10;Mastermind. When Poison Doom uses it, if the chosen character is KO'd, after resolutions generate a [set:ve] #009 Hive on click #1 adjacent to the attacker.&#10;&#10;[Attack] WE'LL PEEL THEM APART&#10;Powers: Energy Explosion, Poison&#10;Energy Explosion, Poison. When Poison Doom uses either, opposing characters with the Cosmic or Symbiote keywords can't use defense powers.&#10;&#10;[Damage] THEY WILL KNEEL...&#10;Powers: Outwit&#10;Outwit. // When an opposing character within Poison Doom's range uses Blades/Claws/Fangs or Shape Change, Poison Doom may roll a d6. If he does, he may replace the opposing character's roll with his." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Armor | Latveria | Ruler | Scientist | Monster | Mystical |" />
       <alternate name="Poison Doom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3686,14 +3687,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125/65" />
       <property name="Team Abilities" value="Avengers" />
-      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Scientist | Stark Industries | Symbiote" />
-      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Stark Industries | Symbiote |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Iron Man is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Attack] EXTREMBIOTE DRAGON BREATH&#10;Powers: Precision Strike&#10;Precision Strike. // RANGE: [it:hindering,elevated,characters]. Make a range attack targeting each opposing character within range and line of fire along a direct line." />
+      <property name="Team Abilities Search" value="| Avengers |" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Stark Industries | Symbiote |" />
       <alternate name="Iron Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3804,12 +3805,12 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="80/40" />
       <property name="Keywords" value="Brute | Cosmic | Past | Soldier | Monster" />
-      <property name="Keywords Search" value="| Brute | Cosmic | Past | Soldier | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] POISON-ENHANCED SHIELD&#10;Poison Captain America can reduce penetrating damage.&#10;&#10;[Speed] RELENTLESS PURSUIT&#10;Powers: Running Shot&#10;Running Shot, [it:elevated].&#10;&#10;[Damage] LEADING THE SWARM&#10;Powers: Leadership&#10;Leadership. When Poison Captain America uses it and fails, after resolutions he may generate a [set:ve] #009 Hive on click #1." />
+      <property name="Keywords Search" value="| Brute | Cosmic | Past | Soldier | Monster |" />
       <alternate name="Poison Captain America" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3912,13 +3913,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="130/75" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Brute | Asgardian | Ruler | Monster | Mystical | Symbiote" />
-      <property name="Keywords Search" value="| Brute | Asgardian | Ruler | Monster | Mystical | Symbiote |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE WAR OF THE REALMS&#10;At the beginning of the game, choose a keyword. When Malekith hits a character with the chosen keyword, give that character an action token.&#10;&#10;[Speed] THE BLACK BIFROST&#10;Powers: Sidestep, Stealth&#10;Sidestep, Stealth, [cs:passenger]: 2. // FREE: Place Malekith or an adjacent friendly character that shares a keyword with him up to 2 squares away from their current square.&#10;&#10;[Attack] ALL-BLACK: ACCURSED&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Malekith uses it, he may reroll the result if the targeted character has the Deity or Herald keyword. // When Malekith rolls a single d6, if the displayed result is [d:1]-[d:2], opposing characters with the keyword chosen for &quot;The War of the Realms&quot; can't reduce damage this turn." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
+      <property name="Keywords Search" value="| Brute | Asgardian | Ruler | Monster | Mystical | Symbiote |" />
       <alternate name="Malekith" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4033,13 +4034,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="95/50" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Future | Past | Ruler | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Future | Past | Ruler | Monster | Symbiote |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Meridius is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Speed] SYMBIOTE DOMINATION&#10;Powers: Sidestep&#10;Sidestep. // At the beginning of your turn, you may place Meridius and another friendly character with the Symbiote keyword in each other's squares.&#10;&#10;[Damage] THE GARDEN OF TIME&#10;At the beginning of your turn, if no d6 is on Meridius's card, you may roll a d6 and place the result on Meridius's card. // When a character within range attacks or uses Shape Change, you may remove the d6 from this card and replace a die in that roll with it." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Future | Past | Ruler | Monster | Symbiote |" />
       <alternate name="Meridius" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4129,12 +4130,12 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Maximum Carnage | Soldier | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Maximum Carnage | Soldier | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] LIFE FOUNDATION SYMBIOTE&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If at least two other friendly characters have the Scientist or Symbiote keyword, once per turn Lasher may reroll a d6 he rolled (including a single d6 in an attack roll).&#10;&#10;[Attack] SYMBIOTE TENDRILS&#10;Powers: Precision Strike&#10;Giant Reach: 3, Precision Strike. // When Lasher hits, after resolutions you may place each hit target into a square adjacent to Lasher." />
+      <property name="Keywords Search" value="| Maximum Carnage | Soldier | Monster | Symbiote |" />
       <alternate name="Lasher" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4228,13 +4229,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Maximum Carnage | Sentinel | Soldier | Monster | Thunderbolts | Symbiote" />
-      <property name="Keywords Search" value="| Maximum Carnage | Sentinel | Soldier | Monster | Thunderbolts | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] LIFE FOUNDATION SYMBIOTE&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If at least two other friendly characters have the Scientist or Symbiote keyword, once per turn Agony may reroll a d6 she rolled (including a single d6 in an attack roll).&#10;&#10;[Attack] SYMBIOTE ACID&#10;Powers: Poison&#10;Poison. // When Agony damages an opposing character with an attack or Poison, after resolutions deal that character 1 penetrating damage.&#10;&#10;[Damage] CORROSION&#10;Powers: Outwit, Perplex&#10;Outwit, Perplex. When Agony uses either, she may only target a character that was damaged this turn." />
+      <property name="Keywords Search" value="| Maximum Carnage | Sentinel | Soldier | Monster | Thunderbolts | Symbiote |" />
       <alternate name="Agony" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4328,12 +4329,12 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Maximum Carnage | Soldier | Monster | Wild Pack | Symbiote" />
-      <property name="Keywords Search" value="| Maximum Carnage | Soldier | Monster | Wild Pack | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] LIFE FOUNDATION SYMBIOTE&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If at least two other friendly characters have the Scientist or Symbiote keyword, once per turn Scream may reroll a d6 she rolled (including a single d6 in an attack roll).&#10;&#10;[Trait] SEPARATION ANXIETY&#10;Powers: Mastermind&#10;Mastermind. // When an adjacent friendly standard character is KO'd, after resolutions you may heal Scream 3 clicks.&#10;&#10;[Attack] SONIC KNIFE&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, Giant Reach: 3. // Adjacent opposing characters can't use Plasticity or Shape Change.&#10;&#10;[Damage] TAKE CONTROL OF YOUR OTHER!&#10;Powers: Leadership&#10;Leadership. When Scream uses it and fails, after resolutions you may heal another friendly character with the Symbiote keyword 2 clicks." />
+      <property name="Keywords Search" value="| Maximum Carnage | Soldier | Monster | Wild Pack | Symbiote |" />
       <alternate name="Scream" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4450,13 +4451,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Ruler | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Ruler | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WE ARE ONE HIVE&#10;POWER: Choose another character with the Symbiote keyword within 4 squares. If it's opposing to your force, it becomes friendly to your force and immediately after resolutions it reverts forces. Move the chosen character up to 2 squares and then it may make an attack.&#10;&#10;[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Codex is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Attack] ALL-BLACK: PRINCE IN BLACK&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Codex uses it, he may reroll the result if the targeted character has the Deity or Herald keyword. // When Codex rolls a single d6, if the displayed result is [d:1]-[d:2], after resolutions deal 1 penetrating damage to an adjacent opposing character." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Cosmic | Ruler | Monster | Symbiote |" />
       <alternate name="Codex" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4549,13 +4550,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="95" />
       <property name="Team Abilities" value="Mystics" />
-      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Monster | Mystical | Symbiote" />
-      <property name="Keywords Search" value="| Monster | Mystical | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Host Rider is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Trait] FEED THE HELLCHARGER&#10;Powers: Charge&#10;Charge. // When Host Rider KOs an opposing character, after resolutions heal him 1 click and remove all action tokens from him.&#10;&#10;[Damage] PENANCE KISS&#10;Powers: Exploit Weakness&#10;Exploit Weakness. // When Host Rider attacks, characters that took damage from [ta:mystics] since your last turn can't use Mastermind, Shape Change, or Super Senses." />
+      <property name="Team Abilities Search" value="| Mystics |" />
+      <property name="Keywords Search" value="| Monster | Mystical | Symbiote |" />
       <alternate name="Host Rider" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4651,13 +4652,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Masters Of Evil | Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Masters Of Evil | Sinister Syndicate |" />
       <property name="Keywords" value="Animal | Brute | Armor | Masters Of Evil | Sinister Syndicate | Detective" />
-      <property name="Keywords Search" value="| Animal | Brute | Armor | Masters Of Evil | Sinister Syndicate | Detective |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Scorpion in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Attack] TAIL STING&#10;Powers: Poison, Quake&#10;Giant Reach: 3, Poison, Quake. When Scorpion uses Poison, he considers characters he hit this turn to be adjacent to him.&#10;&#10;[Defense] STILLWELL'S ENHANCEMENTS&#10;Powers: Super Senses, Toughness&#10;Super Senses, Toughness." />
+      <property name="Team Abilities Search" value="| Masters Of Evil | Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Animal | Brute | Armor | Masters Of Evil | Sinister Syndicate | Detective |" />
       <alternate name="Scorpion" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4751,14 +4752,14 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Brute | Sinister Syndicate | Monster | Dark Avengers | Detective | Thunderbolts | Symbiote" />
-      <property name="Keywords Search" value="| Brute | Sinister Syndicate | Monster | Dark Avengers | Detective | Thunderbolts | Symbiote |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venom is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Trait] THE SINISTER TWELVE&#10;When a standard friendly character with the Sinister Syndicate keyword is KO'd by damage from an opposing effect (including Venom), after resolutions generate a character with the Sinister Syndicate keyword from your Sideline on its last non-KO click adjacent to an opposing character. This game the generated character isn't scored when KO'd. Protected: Pulse Wave.&#10;&#10;[Attack] VENOMED TAIL STRIKE&#10;Powers: Blades Claws Fangs, Poison&#10;Giant Reach: 3, Blades/Claws/Fangs, Poison. // The first time Venom deals damage each turn, the damage dealt is penetrating." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Brute | Sinister Syndicate | Monster | Dark Avengers | Detective | Thunderbolts | Symbiote |" />
       <alternate name="Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4863,14 +4864,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Reporter | Sinister Syndicate | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Reporter | Sinister Syndicate | Monster | Symbiote |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE SIX&#10;Powers: Plasticity, Shape Change&#10;Friendly characters with the Sinister Syndicate keyword can use Plasticity and Shape Change. // If Venom is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Trait] THE ALIEN&#10;Opposing characters within range decrease the result of their Super Senses rolls by -1. // When Venom attacks, characters with [ta:spider_man] can't use Super Senses.&#10;&#10;[Attack] COME HERE, LITTLE SPIDER!&#10;KNOCKBACK. // CLOSE: Choose an opposing character within 4 squares and line of fire. Place that character in a square adjacent to Venom, then make a close attack targeting that character." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Reporter | Sinister Syndicate | Monster | Symbiote |" />
       <alternate name="Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4971,14 +4972,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Animal | Future | Martial Artist | Monster | Symbiote | Weapon X" />
-      <property name="Keywords Search" value="| Animal | Future | Martial Artist | Monster | Symbiote | Weapon X |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] MULTIVERSAL RESISTANCE&#10;The bystanders on this card are Resistance. At the beginning of your turn, Old Man Venom may generate a Resistance bystander that hasn't been generated this game. // When Old Man Venom would be KO'd, if a friendly Resistance bystander is on the map, instead turn Old Man Venom to click #7. If you do, KO a friendly Resistance bystander. Protected: Pulse Wave.&#10;&#10;[Trait] WE'RE NOT DEAD YET, WADE&#10;Powers: Leadership&#10;Leadership. // At the beginning of your turn, heal Old Man Venom 1 click." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Animal | Future | Martial Artist | Monster | Symbiote | Weapon X |" />
       <alternate name="Old Man Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5131,13 +5132,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="300/75" />
       <property name="Team Abilities" value="Cosmic Energy | Underworld" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Underworld |" />
       <property name="Keywords" value="Cosmic | Minions Of Thanos | Ruler | Monster | Warrior | Deity" />
-      <property name="Keywords Search" value="| Cosmic | Minions Of Thanos | Ruler | Monster | Warrior | Deity |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] HIVE COMMANDER&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // At the beginning of your turn, generate a [set:ve] #009 Hive on click #1.&#10;&#10;[Trait] WE POISONS WILL CONQUER THEM ALL!&#10;Friendly characters with &quot;Hive&quot; or &quot;Poison&quot; in their name have [ta:underworld], and when they use Poison the damage can't be reduced below 1.&#10;&#10;[Attack] ONE BY ONE THEY FALL&#10;Powers: Poison&#10;Poison. When Poison Thanos uses it, he instead deals 3 damage to characters with the Cosmic or Symbiote keywords." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Underworld |" />
+      <property name="Keywords Search" value="| Cosmic | Minions Of Thanos | Ruler | Monster | Warrior | Deity |" />
       <alternate name="Poison Thanos" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5275,14 +5276,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Cosmic Energy | X Men" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | X Men |" />
       <property name="Keywords" value="Cosmic | Ruler | Monster | Phoenix Force | X Men | Deity | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Ruler | Monster | Phoenix Force | X Men | Deity | Symbiote |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Elevated | Hindering" />
       <property name="Traits and Special Powers" value="[Trait] OMEGA SYMBIOTE&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. When Venomized Phoenix Force uses Shape Change, she increases the result by +1 for each other time she's used Shape Change this turn.&#10;&#10;[Trait] QUEEN IN BLACK&#10;Powers: Leadership, Poison, Mind Control&#10;Leadership, Poison. Mind Control as FREE, but only to target characters damaged by a character with the Symbiote keyword this turn.&#10;&#10;[Attack] MANY HUNGRY MOUTHS TO FEED&#10;Powers: Steal Energy, Telekinesis&#10;Steal Energy, Telekinesis. // Telekinesis as FREE but only to target a character with the Symbiote keyword." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | X Men |" />
+      <property name="Keywords Search" value="| Cosmic | Ruler | Monster | Phoenix Force | X Men | Deity | Symbiote |" />
       <alternate name="Venomized Phoenix Force" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5409,12 +5410,12 @@
       <property name="Properties" value="Unique | Sideline Active" />
       <property name="Point Values" value="250/125" />
       <property name="Keywords" value="Police | Soldier | Monster | New Warriors | Symbiote" />
-      <property name="Keywords Search" value="| Police | Soldier | Monster | New Warriors | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking | Characters" />
       <property name="Traits and Special Powers" value="[Trait] MUST FIND OTHER&#10;SIDELINE ACTIVE - When a friendly character is KO'd and at least two friendly characters named Agony, Lasher, Phage, or Riot are in your KO area, after resolutions you may generate Hybrid from your Sideline on its red starting line in a square that character last occupied. If all four of the listed characters are in your KO area, you may generate Hybrid on its green starting line instead.&#10;&#10;[Trait] HYBRID SYMBIOTE&#10;Powers: Plasticity, Shape Change&#10;Giant Reach: 3, Plasticity, Shape Change. // Opposing characters within 4 squares can't make range attacks. Protected: Pulse Wave.&#10;&#10;[Defense] THIS IS OUR HOME&#10;Powers: Invincible, Willpower&#10;Invincible, Willpower. // When Hybrid hits, until your next turn opposing characters can't generate characters or use Carry." />
+      <property name="Keywords Search" value="| Police | Soldier | Monster | New Warriors | Symbiote |" />
       <alternate name="Hybrid" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5552,14 +5553,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="250/125" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Brute | Cosmic | Maximum Carnage | Ruler | Monster | Deity | Symbiote" />
-      <property name="Keywords Search" value="| Brute | Cosmic | Maximum Carnage | Ruler | Monster | Deity | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTIC HUNGER&#10;Powers: Flurry, Shape Change, Steal Energy&#10;Flurry, Shape Change, Steal Energy. // When Carnage, God of Symbiotes rolls a single d6, if the displayed result is [d:1]-[d:2], after resolutions you may generate a Symbiote bystander within 4 squares [MAX 4].&#10;&#10;[Attack] GOD OF VIOLENCE&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. // When a friendly character uses Blades/Claws/Fangs, you may reroll the result.&#10;&#10;[Defense] NECROTIC ARMOR&#10;Powers: Stop, Invincible, Mastermind&#10;STOP. Invincible, Mastermind." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Brute | Cosmic | Maximum Carnage | Ruler | Monster | Deity | Symbiote |" />
       <alternate name="Carnage, God of Symbiotes" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5718,15 +5719,15 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="225/125/50" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Cosmic | Asgardian | Ruler | Monster | Mystical | Deity | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Asgardian | Ruler | Monster | Mystical | Deity | Symbiote |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Improved Targeting" value="Hindering | Characters | Adjacent" />
       <property name="Traits and Special Powers" value="[Attack] ALL-BLACK: THE ALL-BUTCHER&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Loki the All-Butcher uses it, he may reroll the result if the targeted character has the Deity or Herald keyword. // When Loki the All-Butcher rolls a single d6, if the displayed result is a [d:1]-[d:2], after resolutions give an opposing character an action token.&#10;&#10;[Defense] REKINDLE THE SUN&#10;Powers: Stop, Impervious&#10;STOP. Impervious. // The first time this click is revealed, after resolutions deal 1 penetrating damage to each opposing character within range.&#10;&#10;[Damage] KING LOKI&#10;Powers: Probability Control, Shape Change&#10;Probability Control. Shape Change, but succeeds on a [d:4]-[d:6]." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
+      <property name="Keywords Search" value="| Cosmic | Asgardian | Ruler | Monster | Mystical | Deity | Symbiote |" />
       <alternate name="Loki the All-Butcher" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5865,13 +5866,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="120/75" />
       <property name="Team Abilities" value="Cosmic Energy | Spider Man" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Spider Man |" />
       <property name="Keywords" value="Cosmic | Future | Spider Man Family | Monster | Deity" />
-      <property name="Keywords Search" value="| Cosmic | Future | Spider Man Family | Monster | Deity |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EVERY SYMBIOTE... EXCEPT US&#10;Powers: Super Senses&#10;At the beginning of the game, generate an Arachniote bystander. // Spider-Man and Arachniote can use Super Senses, but only if they're within 4 squares of each other.&#10;&#10;[Trait] ALL-BLACK: VENOM'S FIRST HOST&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Spider-Man uses it, he may reroll the result if the targeted character has the Deity or Herald keyword. // When Spider-Man rolls a single d6, if the displayed result is [d:1]-[d:2], after resolutions you may place Spider-Man in a square within range and line of fire.&#10;&#10;[Damage] EVERY SYMBIOTE, EVERY MOMENT&#10;Powers: Probability Control&#10;Probability Control, but can use it to target characters with the Symbiote keyword regardless of range and line of fire." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Spider Man |" />
+      <property name="Keywords Search" value="| Cosmic | Future | Spider Man Family | Monster | Deity |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5972,10 +5973,10 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <alternate name="Arachniote" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5996,14 +5997,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="255" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Cosmic | Past | Ruler | Monster | Deity | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Past | Ruler | Monster | Deity | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] KING IN BLACK&#10;Powers: Shape Change, Stealth&#10;Shape Change, Stealth. // At the beginning of the game, generate up to two standard characters each of 40 points or less with the Symbiote keyword on their starting lines.&#10;&#10;[Trait] DECIMATE&#10;When Knull KOs an opposing character, after resolutions KO all other opposing characters that share a name with that character.&#10;&#10;[Attack] ALL-BLACK: SLICER OF WORLDS&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Knull uses it, he may reroll the result if the targeted character has the Deity or Herald keyword. // When Knull rolls a single d6, if the displayed result is [d:1]-[d:2], after resolutions heal Knull equal to the displayed result.&#10;&#10;[Defense] LORD OF THE ABYSS&#10;Powers: Stop, Impervious, Regeneration&#10;STOP. Impervious. Regeneration as FREE." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
+      <property name="Keywords Search" value="| Cosmic | Past | Ruler | Monster | Deity | Symbiote |" />
       <alternate name="Knull" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6141,11 +6142,11 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Cosmic | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Monster | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
       <property name="Traits and Special Powers" value="[Trait] WHAT'S WORSE THAN A SYMBIOTE?&#10;When Klyntar starts the game, place them on their card. Klyntar can be given actions and use their powers and abilities while on the card. // At the beginning of your turn, if no friendly characters with the Symbiote keyword are on the map, KO Klyntar.&#10;&#10;[Trait] A WHOLE PLANET OF THEM.&#10;At the beginning of your turn, choose a friendly character with the Symbiote keyword or a square of water terrain. Until your next turn, when Klyntar uses a power or ability, they may do so as if they occupied the chosen character or terrain's square and opposing characters must break away from Klyntar as if it occupied that square. // When Klyntar is given an action, after resolutions roll a d6. [d:1]-[d:3]: Deal Klyntar 1 unavoidable damage.&#10;&#10;[Trait] IT'S ALL LIKE LIVING QUICKSAND&#10;POWER: Generate a [set:ve] #012 Klyntar Symbiote on its red starting line. // FREE: Generate a [set:ve] #026 Symbiote Surface." />
+      <property name="Keywords Search" value="| Cosmic | Monster | Symbiote |" />
       <alternate name="Klyntar" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6202,14 +6203,14 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Hydra" />
-      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Brute | Battleworld: Other | Hydra | Soldier | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Brute | Battleworld: Other | Hydra | Soldier | Monster | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venom is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Trait] VENOM NEVER WORKS ALONE&#10;At the beginning of the game, generate 3 Viper bystanders. // When Venom KOs an opposing character, after resolutions you may generate a Viper bystander [MAX 4] in a square the KO'd character last occupied." />
+      <property name="Team Abilities Search" value="| Hydra |" />
+      <property name="Keywords Search" value="| Brute | Battleworld: Other | Hydra | Soldier | Monster | Symbiote |" />
       <alternate name="Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6295,10 +6296,10 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Hydra" />
-      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <alternate name="Viper" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6319,13 +6320,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Team Player | Spider Man" />
-      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
       <property name="Keywords" value="Celebrity | Avengers | Reporter | Scientist | Spider Man Family | Fantastic Four" />
-      <property name="Keywords Search" value="| Celebrity | Avengers | Reporter | Scientist | Spider Man Family | Fantastic Four |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place Spider-Man in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] WEB-SLINGER&#10;Powers: Incapacitate&#10;Once per turn when Spider-Man is placed during your turn, after resolutions he may make an attack using Incapacitate.&#10;&#10;[Defense] SPECTACULAR SPIDEY SENSE&#10;Powers: Super Senses&#10;Super Senses. When Spider-Man uses it, after resolutions place him up to 3 squares away from his current square. Protected: Outwit." />
+      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Avengers | Reporter | Scientist | Spider Man Family | Fantastic Four |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6415,12 +6416,12 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Brute | Maximum Carnage | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Brute | Maximum Carnage | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Carnage is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Trait] MY BLOOD WANTS BLOOD!&#10;Powers: Flurry&#10;Flurry, Giant Reach: 2. // When Carnage KOs an opposing character, after resolutions heal him 2 clicks. If that character was 30 points or less, score 10 Victory Points." />
+      <property name="Keywords Search" value="| Brute | Maximum Carnage | Monster | Symbiote |" />
       <alternate name="Carnage" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6509,11 +6510,11 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Animal | Monster | Symbiote | Vehicle" />
-      <property name="Keywords Search" value="| Animal | Monster | Symbiote | Vehicle |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] PILOT: AREN'T WE ALL... VENOM HORSE?&#10;When revealing your force, you may choose a single base character on your Sideline that has the Symbiote keyword and turn it to any click. Venom Horse can use the standard attack and damage powers displayed on that character's dial. // When Venom Horse is KO'd, before removing him from the map generate the chosen character from your Sideline on it's last non-KO click. This game that character can't be healed or replaced and is removed from the game without being scored if it would take damage. Protected: Pulse Wave.&#10;&#10;[Speed] VENOM HORSE IS IN THE ____!&#10;Powers: Quake&#10;[im:elevated,destroy_blocking]. // When Venom Horse moves, after resolutions he may use Quake as FREE.&#10;&#10;[Attack] ALL ART IS QUITE USELESS&#10;KNOCKBACK. // Characters within 4 squares can't use Perplex or Probability Control." />
+      <property name="Keywords Search" value="| Animal | Monster | Symbiote | Vehicle |" />
       <alternate name="Venom Horse" type="Click1" size="1x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6607,12 +6608,12 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="300/200/100/50" />
       <property name="Keywords" value="Animal | Past | Symbiote" />
-      <property name="Keywords Search" value="| Animal | Past | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] CHOMP&#10;When Venom T-Rex KOs an opposing character of less points than himself, after resolutions heal him 1 click and score 10 Victory Points.&#10;&#10;[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venom T-Rex is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Speed] RECKLESS PURSUIT&#10;Powers: Charge&#10;Charge, but don't halve speed.&#10;&#10;[Attack] DEVOUR&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs. When Venom T-Rex uses it, you may instead roll 2d6 and choose one to be the result. If you do, after resolutions heal Venom T-Rex a number of clicks equal to half the result not chosen. Protected: Outwit." />
+      <property name="Keywords Search" value="| Animal | Past | Symbiote |" />
       <alternate name="Venom T-Rex" type="Click1" size="2x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6891,14 +6892,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Guardians | Spider Man" />
-      <property name="Team Abilities Search" value="| Guardians | Spider Man |" />
       <property name="Keywords" value="Cosmic | Spaceknight | Spider Man Family | Guardians Of The Galaxy | Thunderbolts | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Spaceknight | Spider Man Family | Guardians Of The Galaxy | Thunderbolts | Symbiote |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] VOICE OF THE COSMOS&#10;POWER: If no characters have been placed this turn, choose an opposing character that damaged a friendly character since your last turn, place Venom, Space Knight such that he can make an attack targeting the chosen character, then do so. // UNIQUE MODIFIER - If three or more friendly characters have the Guardians of the Galaxy keyword, they modify their attack +1.&#10;&#10;[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venom, Space Knight is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks." />
+      <property name="Team Abilities Search" value="| Guardians | Spider Man |" />
+      <property name="Keywords Search" value="| Cosmic | Spaceknight | Spider Man Family | Guardians Of The Galaxy | Thunderbolts | Symbiote |" />
       <alternate name="Venom, Space Knight" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6966,6 +6967,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Battle Fury" />
       </alternate>
+      <alternate name="Venom, Space Knight" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="2dec620a-eab3-49d3-8056-6c28d9b5afa3" name="Anti-Venom" size="Card">
       <property name="Unit ID" value="veL025" />
@@ -6975,11 +6982,11 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Reporter | Spider Man Family | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Reporter | Spider Man Family | Monster | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Damage] FORCED CURE&#10;When Anti-Venom attacks a single character, that character can't use powers until your next turn." />
+      <property name="Keywords Search" value="| Reporter | Spider Man Family | Monster | Symbiote |" />
       <alternate name="Anti-Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7054,6 +7061,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Special - FORCED CURE" />
       </alternate>
+      <alternate name="Anti-Venom" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="a359be5a-42ab-4f88-9250-c19231d7bf93" name="Demogoblin" size="Card">
       <property name="Unit ID" value="veL029" />
@@ -7062,13 +7075,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Maximum Carnage | Sinister Syndicate | Monster | Mystical" />
-      <property name="Keywords Search" value="| Maximum Carnage | Sinister Syndicate | Monster | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MAXIMUM CARNAGE&#10;Once per turn when Demogoblin hits, after resolutions deal 1 penetrating damage to up to 2 opposing characters that weren't hit but are adjacent to a hit character.&#10;&#10;[Trait] FLAMING GLIDER&#10;Powers: Energy Shield Deflection&#10;Energy Shield/Deflection.&#10;&#10;[Damage] RIGHTEOUS WRATH&#10;Powers: Ranged Combat Expert&#10;Ranged Combat Expert. // When Demogoblin hits, after resolutions give each hit character an action token. If a hit character can't be given an action token, that character can't use defense powers until your next turn." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Maximum Carnage | Sinister Syndicate | Monster | Mystical |" />
       <alternate name="Demogoblin" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7132,6 +7145,12 @@
         <property name="Damage" value="1" />
         <property name="Damage Ability" value="Battle Fury" />
       </alternate>
+      <alternate name="Demogoblin" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="21354e47-a2e2-4fdc-a318-3e4848b1c7d6" name="Carrion" size="Card">
       <property name="Unit ID" value="veL038" />
@@ -7140,12 +7159,12 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Maximum Carnage | Scientist | Monster" />
-      <property name="Keywords Search" value="| Maximum Carnage | Scientist | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] MAXIMUM CARNAGE&#10;Once per turn when Carrion hits, after resolutions deal 1 penetrating damage to up to 2 opposing characters that weren't hit but are adjacent to a hit character.&#10;&#10;[Attack] TOUCH OF DECAY&#10;Powers: Poison, Steal Energy&#10;Poison, Steal Energy.&#10;&#10;[Defense] INTANGIBLE CORPSE&#10;Powers: Super Senses&#10;Super Senses, but succeeds on a [d:4]-[d:6]. When Carrior uses it, after resolutions you may move him up to the d6 result.&#10;&#10;[Damage] SPREADING ROT&#10;When Carrior attacks a single target, modify his attack by +X, where X is half the target's click number (rounded up)." />
+      <property name="Keywords Search" value="| Maximum Carnage | Scientist | Monster |" />
       <alternate name="Carrion" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7237,6 +7256,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Exploit Weakness" />
       </alternate>
+      <alternate name="Carrion" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="3bfe5ed1-9f2a-4917-b032-83cd29513955" name="Shriek" size="Card">
       <property name="Unit ID" value="veL048" />
@@ -7245,11 +7270,11 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Maximum Carnage | Monster" />
-      <property name="Keywords Search" value="| Maximum Carnage | Monster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MAXIMUM CARNAGE&#10;Once per turn when Shriek hits, after resolutions deal 1 penetrating damage to up to 2 opposing characters that weren't hit but are adjacent to a hit character.&#10;&#10;[Trait] PSYCHICALLY TRANSMITTED RAGE&#10;At the beginning of your turn, choose one for Shriek to use until your next turn: *Opposing characters within range can use Battle Fury. *Other friendly characters within range can use Battle Fury.&#10;&#10;[Attack] ESCAPING THE ENDLESS ABYSS&#10;[it:hindering]. // When Shriek deals damage to a character that can use Steal Energy, increase the damage dealt by +1." />
+      <property name="Keywords Search" value="| Maximum Carnage | Monster |" />
       <alternate name="Shriek" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7301,6 +7326,12 @@
         <property name="Defense Ability" value="Toughness" />
         <property name="Damage" value="2" />
       </alternate>
+      <alternate name="Shriek" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="341c7c85-2e1a-4a1b-bb88-893194c7242f" name="Doppelganger" size="Card">
       <property name="Unit ID" value="veL053a" />
@@ -7309,11 +7340,11 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="60/30" />
       <property name="Keywords" value="Maximum Carnage | Monster" />
-      <property name="Keywords Search" value="| Maximum Carnage | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] MAXIMUM CARNAGE&#10;Once per turn when Doppleganger hits, after resolutions deal 1 penetrating damage to up to 2 opposing characters that weren't hit but are adjacent to a hit character.&#10;&#10;[Trait] MOTHER...&#10;Once per turn when another friendly character with the Maximum Carnage keyword is damaged, after resolutions move Doppelganger up to his speed value and remove an action token from him.&#10;&#10;[Speed] RELENTLESS PURSUIT AND RAZOR WEBS&#10;Powers: Charge, Flurry, Plasticity&#10;Charge, Flurry, Plasticity. // When an opposing character fails to break away from Doppelganger, or is adjacent to Doppelganger at the end of their turn, after resolutions deal them 1 penetrating damage." />
+      <property name="Keywords Search" value="| Maximum Carnage | Monster |" />
       <alternate name="Doppelganger" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7382,6 +7413,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Battle Fury" />
       </alternate>
+      <alternate name="Doppelganger" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="a3c4c47c-11c5-4904-87ec-154aa612faa9" name="Venom Iceman" size="Card">
       <property name="Unit ID" value="veL054" />
@@ -7390,14 +7427,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Defenders | X Men" />
-      <property name="Team Abilities Search" value="| Defenders | X Men |" />
       <property name="Keywords" value="Champions | Monster | X Factor | X Men | Defenders | Symbiote" />
-      <property name="Keywords Search" value="| Champions | Monster | X Factor | X Men | Defenders | Symbiote |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTIC PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venom Iceman is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Trait] HIDDEN IN THE ICE&#10;Powers: Barrier&#10;Barrier. Barrier as FREE but only to generate 2 markers. // When Venom Iceman uses Barrier, any number of the generated markers may instead be Slime water terrain markers. This game those markers have &quot;Characters that began the turn on this marker can't be placed or use [im:] abilities.&quot;&#10;&#10;[Attack] ICE TENDRILS&#10;Powers: Energy Explosion&#10;Energy Explosion. // When Venom Iceman hits, give each hit character an action token." />
+      <property name="Team Abilities Search" value="| Defenders | X Men |" />
+      <property name="Keywords Search" value="| Champions | Monster | X Factor | X Men | Defenders | Symbiote |" />
       <alternate name="Venom Iceman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7462,6 +7499,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Empower" />
       </alternate>
+      <alternate name="Venom Iceman" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="90bbba9f-d6fd-4f04-900e-8ae0a0c3a38d" name="Venom Captain Marvel" size="Card">
       <property name="Unit ID" value="veL056" />
@@ -7470,14 +7513,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="95" />
       <property name="Team Abilities" value="Guardians" />
-      <property name="Team Abilities Search" value="| Guardians |" />
       <property name="Keywords" value="Cosmic | Avengers | Kree | Monster | Guardians Of The Galaxy | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Avengers | Kree | Monster | Guardians Of The Galaxy | Symbiote |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Venom Captain Marvel is within 4 squares and line of fire of an opposing character, she can't be targeted by range attacks.&#10;&#10;[Trait] HIGHER, FASTER, HUNGRIER&#10;Powers: Steal Energy&#10;Steal Energy, but for close and range attacks.&#10;&#10;[Attack] SYMBIOTE AGRESSION&#10;Powers: Energy Explosion, Poison&#10;Energy Explosion, Poison. // Venom Captain Marvel deals penetrating damage." />
+      <property name="Team Abilities Search" value="| Guardians |" />
+      <property name="Keywords Search" value="| Cosmic | Avengers | Kree | Monster | Guardians Of The Galaxy | Symbiote |" />
       <alternate name="Venom Captain Marvel" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7553,6 +7596,12 @@
         <property name="Defense Ability" value="Toughness" />
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Venom Captain Marvel" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
       </alternate>
     </card>
     <card id="b22f63a0-3839-448f-b1c3-7d7072f3b677" name="Island Prison" size="16x16">

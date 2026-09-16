@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="Marvel Iconix" id="a4bd5924-867b-4e38-a6b4-379cb66bd3ee" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="760bcfbf-4736-4f3a-a403-83253fe44582" name="Spider-Man" size="Card">
@@ -4672,6 +4673,12 @@
         <property name="Damage" value="4" />
         <property name="Damage Ability" value="Probability Control" />
       </alternate>
+      <alternate name="Galactus" type="KO" size="3x6">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="9d91d065-c0ed-4b14-a884-8296d38d3e57" name="Storm" size="Card">
       <property name="Unit ID" value="mvxMVX-037" />
@@ -5358,6 +5365,12 @@
         <property name="Defense Ability" value="Defend" />
         <property name="Damage" value="0" />
         <property name="Damage Ability" value="Special - PROTECTING MY STUDENTS" />
+      </alternate>
+      <alternate name="Professor X" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
       </alternate>
     </card>
   </cards>

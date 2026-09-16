@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="WizKids DC 2023" id="79c82bd0-314a-4aae-ac2a-13def8357b64" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="4730b439-58eb-4c7d-be7e-d30b9cf82809" name="Batman" size="Card">
@@ -8,13 +9,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Ally" />
-      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Atlantis | Batman Family | Gotham City | Martial Artist | Detective" />
-      <property name="Keywords Search" value="| Atlantis | Batman Family | Gotham City | Martial Artist | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WAS IT ALL JUST A DREAM?&#10;When Batman would be KO'd, you may instead replace him with a character named Batman. Turn that character to its last non-KO click then roll a d6 and heal it equal to half the result. That character can't be otherwise healed this game.&#10;&#10;[Trait] LEARN TO ADAPT TO MY NEW LIFE&#10;Friendly characters that share a keyword with Batman have [cs:dolphin]. // FREE: Generate a water terrain marker in a square within range and line of fire.&#10;&#10;[Attack] KEEPING THE TREASURE SAFE&#10;POWER: Once per game, unequip an equipment from a character within range and line of fire, then equip it to Batman." />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
+      <property name="Keywords Search" value="| Atlantis | Batman Family | Gotham City | Martial Artist | Detective |" />
       <alternate name="Batman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -107,13 +108,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="80/60/30" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Celebrity | Cosmic | Police" />
-      <property name="Keywords Search" value="| Celebrity | Cosmic | Police |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] INVISIBILITY AND INTANGIBILITY&#10;Powers: Stealth, Super Senses, Super Strength&#10;Stealth, Super Senses, Super Strength.&#10;&#10;[Trait] JAN, JACE, AND BLIP&#10;Powers: Perplex&#10;Perplex. If Space Ghost has no action tokens, he can use it twice a turn. When Space Ghost uses Perplex and targets a friendly character, that character has SAFEGUARD: Opposing Probability Control until your next turn.&#10;&#10;[Attack] POWER BANDS&#10;Powers: Energy Explosion, Penetrating Psychic Blast, Energy Shield Deflection, Invulnerability, Force Blast, Telekinesis&#10;FREE: Choose one for Space Ghost to use until he chooses again: *Energy Explosion, Penetrating/Psychic Blast *Energy Shield/Deflection, Invulnerability *Force Blast as FREE, Telekinesis" />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Celebrity | Cosmic | Police |" />
       <alternate name="Space Ghost" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -208,13 +209,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Cosmic Energy | Superman Ally" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Superman Ally |" />
       <property name="Keywords" value="Cosmic | Justice League | Kryptonian | Metropolis | Past | Reporter" />
-      <property name="Keywords Search" value="| Cosmic | Justice League | Kryptonian | Metropolis | Past | Reporter |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Speed] CARRYING A CAR WON'T SLOW ME&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Superman uses it, instead of making an attack he may be given a CLOSE/RANGE Terrain Action as FREE.&#10;&#10;[Attack] THE SECRET OF SUPERMAN'S NEW POWER!&#10;At the beginning of the game and whenever this click is revealed, generate a Superman Proxy bystander [MAX 1]. // Superman can't be targeted while Superman Proxy is on the map. // When the Superman Proxy bystander is KO'd, deal Superman 1 unavoidable damage. Protected: Pulse Wave.&#10;&#10;[Defense] POWERED BY YOUR YELLOW SUN&#10;Powers: Impervious, Regeneration&#10;Impervious, Regeneration as FREE." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Superman Ally |" />
+      <property name="Keywords Search" value="| Cosmic | Justice League | Kryptonian | Metropolis | Past | Reporter |" />
       <alternate name="Superman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -329,13 +330,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="150/90" />
       <property name="Team Abilities" value="Wonder Woman Ally" />
-      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
       <property name="Keywords" value="Justice League | Past | Amazon | Warrior | Deity" />
-      <property name="Keywords Search" value="| Justice League | Past | Amazon | Warrior | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WE'RE ALL AMAZONS. THAT MEANS WE FIGHT TOGETHER&#10;When another friendly character with the Amazon keyword takes damage from an attack, after resolutions, you may place Wonder Woman adjacent to that character.&#10;&#10;[Trait] HEPHAESTUS'S ARMORY&#10;During force construction, up to three friendly characters with the Amazon keyword may be assigned equipment without paying the equipment's cost.&#10;&#10;[Speed] INTO THE FRAY&#10;Powers: Charge, Sidestep&#10;Charge, Sidestep.&#10;&#10;[Damage] LASSO OF TRUTH&#10;Powers: Empower&#10;Empower. // FREE: Choose an opposing character within 4 squares and line of fire. That character can't use damage powers until your next turn." />
+      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
+      <property name="Keywords Search" value="| Justice League | Past | Amazon | Warrior | Deity |" />
       <alternate name="Wonder Woman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -459,13 +460,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Wonder Woman Ally" />
-      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
       <property name="Keywords" value="Justice League | Ruler | Amazon | Warrior | Deity" />
-      <property name="Keywords Search" value="| Justice League | Ruler | Amazon | Warrior | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WE'RE ALL AMAZONS. THAT MEANS WE FIGHT TOGETHER&#10;When another friendly character with the Amazon keyword takes damage from an attack, after resolutions, you may place Wonder Woman adjacent to that character.&#10;&#10;[Speed] THE MIGHT OF A WARRIOR&#10;Powers: Charge, Flurry&#10;Charge, Flurry. When Wonder Woman uses Flurry, she may instead make 3 attacks, but can't attack the same character more than twice (that action).&#10;&#10;[Attack] GAIA, GRANT ME YOUR STRENGTH&#10;Powers: Blades Claws Fangs, Steal Energy&#10;Blades/Claws/Fangs, Steal Energy.&#10;&#10;[Damage] QUEEN OF THE AMAZONS&#10;Powers: Leadership&#10;Leadership. When Wonder Woman uses it and succeeds, after resolutions you may remove an action token from all friendly characters with the Amazon keyword." />
+      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
+      <property name="Keywords Search" value="| Justice League | Ruler | Amazon | Warrior | Deity |" />
       <alternate name="Wonder Woman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -570,13 +571,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Wonder Woman Ally" />
-      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
       <property name="Keywords" value="Future | Justice League | Amazon | Warrior | Deity" />
-      <property name="Keywords Search" value="| Future | Justice League | Amazon | Warrior | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WE'RE ALL AMAZONS. THAT MEANS WE FIGHT TOGETHER&#10;When another friendly character with the Amazon keyword takes damage from an attack, after resolutions, you may place Wonder Woman adjacent to that character.&#10;&#10;[Speed] JERRY!&#10;POWER: Move. After resolutions, make a close attack targeting all opposing characters she moved through, regardless of adjacency. Instead of normal damage, deal each hit character 3 damage.&#10;&#10;[Attack] GOLDEN BOLAS&#10;Powers: Incapacitate&#10;Giant Reach: 4. Incapacitate, but still deal normal damage. // Once per turn when Wonder Woman hits, after resolutions you may place her adjacent to a hit character and make a close attack." />
+      <property name="Team Abilities Search" value="| Wonder Woman Ally |" />
+      <property name="Keywords Search" value="| Future | Justice League | Amazon | Warrior | Deity |" />
       <alternate name="Wonder Woman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -680,13 +681,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Monster" />
-      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] COUNTERFEIT BILLS&#10;Powers: Outwit, Perplex, Probability Control&#10;Outwit, Perplex, Probability Control. When The Joker uses any of them, roll a d6. 1-2: The use of that power has no effect and The Joker can't use this trait until your next turn.&#10;&#10;[Trait] HAUNTED HOUSE TRAPS&#10;FREE: Choose a non-debris terrain marker. Place it up to 1 square away from its current square. // The Joker may take this FREE action up to three times a turn.&#10;&#10;[Damage] SPOOKY SOUNDS ON RECORD&#10;Powers: Shape Change&#10;Shape Change. // When The Joker uses Force Blast, Outwit, Perplex, Poison, or Probability Control, he may do so as if he occupied any square with a terrain marker within 6 squares." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Monster |" />
       <alternate name="The Joker" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -758,13 +759,13 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Cosmic Energy" />
-      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Animal | Cosmic | Secret Society Of Super Villains" />
-      <property name="Keywords Search" value="| Animal | Cosmic | Secret Society Of Super Villains |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
       <property name="Traits and Special Powers" value="[Trait] ALIEN PARASITE&#10;Powers: Mind Control&#10;Mind Control. When Starrophyte uses it and hits, until your next turn hit characters can't target Starrophyte." />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
+      <property name="Keywords Search" value="| Animal | Cosmic | Secret Society Of Super Villains |" />
       <alternate name="Starrophyte" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -824,13 +825,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Brute | Future | Gotham City Underworld | Robot | Royal Flush Gang" />
-      <property name="Keywords Search" value="| Brute | Future | Gotham City Underworld | Robot | Royal Flush Gang |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Giant" />
       <property name="Traits and Special Powers" value="[Trait] ROYAL FLUSH&#10;When Ace is KO'd, before placing it in your KO area, turn its dial to any KO click.&#10;&#10;[Trait] THE ARISTOCRATS OF CRIME: ACE&#10;Powers: Impervious&#10;Impervious. When Ace uses it, increase the result by +1 for each [icon:spade] displayed on characters in your KO area. Protected: Outwit.&#10;&#10;[Defense] ROBOTIC STRONGMAN&#10;Powers: Regeneration&#10;Regeneration. If Ace has no action tokens, he may use it as FREE." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Brute | Future | Gotham City Underworld | Robot | Royal Flush Gang |" />
       <alternate name="Ace" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -935,13 +936,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Keywords" value="Batman Family | Future | Gotham City Underworld | Royal Flush Gang" />
-      <property name="Keywords Search" value="| Batman Family | Future | Gotham City Underworld | Royal Flush Gang |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ROYAL FLUSH&#10;When Ten is KO'd, before placing her in your KO area, turn her dial to any KO click.&#10;&#10;[Trait] THE ARISTOCRATS OF CRIME: TEN&#10;FREE: Choose an Improved Targeting Ability, plus an additional Improved Targeting ability for each [icon:club] displayed on characters in your KO area. Ten case use the chosen abilities until your next turn.&#10;&#10;[Damage] SECURITY SPECIALIST&#10;Powers: Outwit, Probability Control&#10;Outwit, Probability Control. When Ten uses either she has a minimum range of 6." />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
+      <property name="Keywords Search" value="| Batman Family | Future | Gotham City Underworld | Royal Flush Gang |" />
       <alternate name="Ten" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1019,13 +1020,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Future | Gotham City Underworld | Martial Artist | Royal Flush Gang" />
-      <property name="Keywords Search" value="| Future | Gotham City Underworld | Martial Artist | Royal Flush Gang |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ROYAL FLUSH&#10;When Jack is KO'd, before placing him in your KO area, turn his dial to any KO click.&#10;&#10;[Trait] THE ARISTOCRATS OF CRIME: JACK&#10;When an opposing character attacks Jack and misses him, after resolutions deal them 1 penetrating damage for each [icon:diamond] displayed on characters in your KO area.&#10;&#10;[Attack] THROWING KNIVES&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, but can be used during close or range attacks." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld | Martial Artist | Royal Flush Gang |" />
       <alternate name="Jack" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1108,13 +1109,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Future | Gotham City Underworld | Royal Flush Gang | Ruler" />
-      <property name="Keywords Search" value="| Future | Gotham City Underworld | Royal Flush Gang | Ruler |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ROYAL FLUSH&#10;When Queen is KO'd, before placing her in your KO area, turn her dial to any KO click.&#10;&#10;[Trait] THE ARISTOCRATS OF CRIME: QUEEN&#10;FREE: Roll a d6, increasing the result by +1 for each [icon:heart] displayed on characters in your KO area. [d:6]: Give an action token to an opposing character within range and line of fire.&#10;&#10;[Attack] ELECTRIC SCEPTER&#10;Powers: Incapacitate&#10;Incapacitate. // Once per turn for all characters with this power, when a friendly character with the Royal Flush Gang keyword within range hits, after resolutions you may deal each hit character damage equal to its action tokens." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld | Royal Flush Gang | Ruler |" />
       <alternate name="Queen" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1208,13 +1209,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Future | Gotham City Underworld | Royal Flush Gang | Ruler" />
-      <property name="Keywords Search" value="| Future | Gotham City Underworld | Royal Flush Gang | Ruler |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ROYAL FLUSH&#10;When King is KO'd, before placing him in your KO area, turn his dial to any KO click.&#10;&#10;[Trait] THE ARISTOCRATS OF CRIME: KING&#10;FREE: Turn any number of characters in your KO area to any other KO click.&#10;&#10;[Damage] REGAL BEARING&#10;Powers: Leadership, Shape Change&#10;Leadership, Shape Change. // At the beginning of your turn you may choose a card suit ([icon:spade][icon:heart][icon:club][icon:diamond]). Until you choose again, friendly effects that count the characters displaying the chosen symbol in your KO area also count King (even if he's not in the KO area)." />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld | Royal Flush Gang | Ruler |" />
       <alternate name="King" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1330,11 +1331,11 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="10" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] [icon:club]&#10;This counts as a displayed [icon:club] for all effects, even when in your KO area." />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <alternate name="Ten" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1423,13 +1424,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
-      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Keywords" value="Batman Family | Future | Gotham City Underworld | Royal Flush Gang" />
-      <property name="Keywords Search" value="| Batman Family | Future | Gotham City Underworld | Royal Flush Gang |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TEAM UP: BATMAN FAMILY&#10;If Ten is part of a listed themed team, at the beginning of the game other friendly characters with [ta:batman_ally] have [ta:batman_enemy] this game.&#10;&#10;[Trait] TEN OF HEARTS&#10;When Ten carries one or more characters with the Batman Family keyword, after resolutions heal her and the carried characters 1 click.&#10;&#10;[Damage] SECURITY SPECIALIST&#10;Powers: Outwit, Probability Control&#10;Outwit, Probability Control. When Ten uses either she has a minimum range of 6." />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
+      <property name="Keywords Search" value="| Batman Family | Future | Gotham City Underworld | Royal Flush Gang |" />
       <alternate name="Ten" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1493,6 +1494,12 @@
       <alternate name="Ten" type="Click9" size="1x1">
         <property name="Click Number" value="9" />
       </alternate>
+      <alternate name="Ten" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="da94d676-6c1e-4358-abfa-9b81e10c071a" name="Ace" size="Card">
       <property name="Unit ID" value="wkd23L058" />
@@ -1501,11 +1508,11 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Gotham City Underworld | Project Cadmus | Royal Flush Gang" />
-      <property name="Keywords Search" value="| Gotham City Underworld | Project Cadmus | Royal Flush Gang |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WARP REALITY&#10;Powers: Shape Change, Outwit&#10;Shape Change, Outwit. // Other characters (friendly and opposing) can't use Outwit, SAFEGUARD: Outwit, or Protected: Outwit.&#10;&#10;[Trait] EMPOWERING HER OWN GANG&#10;When establishing themed teams, friendly characters with the Arkham Asylum, Gotham City Underworld, or Suicide Squad keywords gain the Royal Flush Gang keyword.&#10;&#10;[Speed] INDUCE INSANITY&#10;Powers: Mind Control&#10;Mind Control. When Ace uses it modify her attack +2 and, after resolutions, hit characters modify attack -2 until your next turn." />
+      <property name="Keywords Search" value="| Gotham City Underworld | Project Cadmus | Royal Flush Gang |" />
       <alternate name="Ace" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1559,6 +1566,12 @@
         <property name="Defense" value="17" />
         <property name="Defense Ability" value="Super Senses" />
         <property name="Damage" value="1" />
+      </alternate>
+      <alternate name="Ace" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
       </alternate>
     </card>
     <card id="a27c53b8-4f58-4ab3-b93a-77907671e125" name="Ace Chemicals" size="16x16">

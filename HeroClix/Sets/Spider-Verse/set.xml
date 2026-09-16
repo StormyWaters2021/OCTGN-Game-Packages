@@ -1,4 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
+
 <set name="Spider-Verse" id="5c0db2ca-aa0b-46e0-8251-a60272aab529" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="3b244965-7b5a-45e8-aac3-188ac265bf14" name="Spider-Man" size="Card">
@@ -8,13 +9,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Champions | Avengers | Spider Man Family | Ultimates" />
-      <property name="Keywords Search" value="| Champions | Avengers | Spider Man Family | Ultimates |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Attack] BIO-STING&#10;Powers: Poison&#10;Poison. When Spider-Man uses it, give each character damaged by it an action token." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Champions | Avengers | Spider Man Family | Ultimates |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -95,13 +96,13 @@
       <property name="Properties" value="Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Underworld | Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Underworld | Sinister Syndicate |" />
       <property name="Keywords" value="Robot | Sinister Syndicate" />
-      <property name="Keywords Search" value="| Robot | Sinister Syndicate |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: ANIMATRONICS&#10;When Mysterio is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Generate a Smoke terrain marker in the square Mysterio last occupied.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character or any Smoke terrain marker." />
+      <property name="Team Abilities Search" value="| Underworld | Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Robot | Sinister Syndicate |" />
       <alternate name="Mysterio" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -173,14 +174,14 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="15" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Robot | Spider Man Family" />
-      <property name="Keywords Search" value="| Robot | Spider Man Family |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Damage] I'M JUST CHECKING MY EMAIL&#10;Adjacent opposing characters can be targeted by friendly characters with [ta:spider_man] regardless of line of fire." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Robot | Spider Man Family |" />
       <alternate name="Spider-Byte" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -229,13 +230,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player | X Men" />
-      <property name="Team Abilities Search" value="| Team Player | X Men |" />
       <property name="Keywords" value="Champions | Spider Man Family | X Factor | X Men | Defenders" />
-      <property name="Keywords Search" value="| Champions | Spider Man Family | X Factor | X Men | Defenders |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] AMAZING FRIENDS&#10;Adjacent friendly characters with the Spider-Man Family keyword can use Iceman's displayed defense power." />
+      <property name="Team Abilities Search" value="| Team Player | X Men |" />
+      <property name="Keywords Search" value="| Champions | Spider Man Family | X Factor | X Men | Defenders |" />
       <alternate name="Iceman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -317,13 +318,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Champions | Avengers | Spider Man Family" />
-      <property name="Keywords Search" value="| Champions | Avengers | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Speed] SPIDER-CAMOUFLAGE&#10;Powers: Sidestep&#10;Sidestep. // Non-adjacent opposing characters can't draw line of fire to Spider-Man." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Champions | Avengers | Spider Man Family |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -393,13 +394,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Team Player | Underworld" />
-      <property name="Team Abilities Search" value="| Team Player | Underworld |" />
       <property name="Keywords" value="Brute | Maggia" />
-      <property name="Keywords Search" value="| Brute | Maggia |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ANYTHING YOU SAY, BOSS!&#10;When a friendly character uses Leadership and succeeds, after resolutions you may move Goon 1 square.&#10;&#10;[Trait] EXPENDABLE GOON: WORD ON THE STREET&#10;When Goon is KO'd by an opposing character, after resolutions you may roll a d6. [d:3]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Team Player | Underworld |" />
+      <property name="Keywords Search" value="| Brute | Maggia |" />
       <alternate name="Goon" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -470,13 +471,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Brute | Assassin | Martial Artist | Maggia" />
-      <property name="Keywords Search" value="| Brute | Assassin | Martial Artist | Maggia |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: WE DON'T DIE&#10;When Inner Demon is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Friendly characters can use Shape Change this turn, even if this is lost.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Brute | Assassin | Martial Artist | Maggia |" />
       <alternate name="Inner Demon" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -549,11 +550,11 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="50/15" />
       <property name="Keywords" value="Cosmic | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Monster | Symbiote |" />
       <property name="Range" value="2" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] BONDING TO A HOST&#10;Powers: Shape Change, Steal Energy&#10;Shape Change, Steal Energy. // When Black Symbiote is KO'd, you may place it on a friendly character's card. If you do, this game that character can use Shape Change, Steal Energy, and Super Strength." />
+      <property name="Keywords Search" value="| Cosmic | Monster | Symbiote |" />
       <alternate name="Black Symbiote" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -637,11 +638,11 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="50/15" />
       <property name="Keywords" value="Cosmic | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Monster | Symbiote |" />
       <property name="Range" value="2" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SEEKING A HOST&#10;Powers: Blades Claws Fangs, Shape Change&#10;Blades/Claws/Fangs, Shape Change. // When Red Symbiote is KO'd, you may place it on a friendly character's card. If you do, this game that character can use Blades/Claws/Fangs, Shape Change, and Sidestep." />
+      <property name="Keywords Search" value="| Cosmic | Monster | Symbiote |" />
       <alternate name="Red Symbiote" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -724,12 +725,12 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60/40" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Brute | Sinister Syndicate | Maggia | The Hand" />
-      <property name="Keywords Search" value="| Brute | Sinister Syndicate | Maggia | The Hand |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Brute | Sinister Syndicate | Maggia | The Hand |" />
       <alternate name="Man Mountain Marko" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -839,14 +840,14 @@
       <property name="Properties" value="Expendable Goon" />
       <property name="Point Values" value="15" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Robot | Sinister Syndicate | Spider Man Family" />
-      <property name="Keywords Search" value="| Robot | Sinister Syndicate | Spider Man Family |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: SPIDER-BOT&#10;When Spider-Bot is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: Deal the opposing character 1 penetrating damage.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Robot | Sinister Syndicate | Spider Man Family |" />
       <alternate name="Spider-Bot" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -892,14 +893,14 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50/30" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Spider Man Family | Detective | Symbiote" />
-      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Detective | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE!&#10;Once per turn for all friendly characters with this trait, when Ghost Spider hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Ghost Spider adjacent to her.&#10;&#10;[Trait] WEB WARRIORS: TICKET TO THE MULTIVERSE&#10;Once per turn when Ghost Spider is placed by a friendly effect, after resolutions you may place her up to 2 squares away from her current square." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Detective | Symbiote |" />
       <alternate name="Ghost Spider" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -980,13 +981,13 @@
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Brute | Scientist | Monster" />
-      <property name="Keywords Search" value="| Brute | Scientist | Monster |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] MAXIMUM CLONAGE&#10;FREE: Make a close attack, but only to target a character another friendly [set:spv] #012 Spider-Clone hit this turn." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Brute | Scientist | Monster |" />
       <alternate name="Spider-Clone" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1050,13 +1051,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Animal | Scientist | Sinister Syndicate | Spider Man Family | Monster" />
-      <property name="Keywords Search" value="| Animal | Scientist | Sinister Syndicate | Spider Man Family | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] THE CONNORS FORMULA&#10;When Dr. Curt Connors rolls a single d6 and the result is [d:6], after resolutions you may replace him with a [set:spv] #027 The Lizard on click #4.&#10;&#10;[Damage] APPLIED HERPETOLOGY&#10;Powers: Perplex, Shape Change, Support&#10;Perplex, Shape Change, Support." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Animal | Scientist | Sinister Syndicate | Spider Man Family | Monster |" />
       <alternate name="Dr. Curt Connors" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1117,13 +1118,13 @@
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50/30" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Past | Spider Man Family | Spy | Detective" />
-      <property name="Keywords Search" value="| Past | Spider Man Family | Spy | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] WEB WARRIORS: WE DON'T PICK THE BALLROOM, WE JUST DANCE!&#10;Powers: Smoke Cloud&#10;When Spider-Man Noir is placed by a friendly effect, after resolutions he may use Smoke Cloud as FREE. // Friendly characters occupying any Smoke terrain can use Shape Change." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Past | Spider Man Family | Spy | Detective |" />
       <alternate name="Spider-Man Noir" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1204,13 +1205,13 @@
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="30/15" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Brute | Sinister Syndicate | Soldier | Monster" />
-      <property name="Keywords Search" value="| Brute | Sinister Syndicate | Soldier | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EXPENDABLE GOON: GOBLIN ARMY&#10;When Goblin Army is KO'd by an opposing character, after resolutions you may roll a d6.&#10;[d:1]-[d:3]: You may place a character with [ta:sinister_syndicate] in the square Goblin Army last occupied.&#10;[d:4]-[d:6]: Generate a character with an Expendable Goon trait on its 15 point starting line adjacent to a friendly character." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Brute | Sinister Syndicate | Soldier | Monster |" />
       <alternate name="Goblin Army" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1271,13 +1272,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Animal | Spider Man Family | Monster" />
-      <property name="Keywords Search" value="| Animal | Spider Man Family | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Defense] LIVING HIVE OF SPIDERS&#10;Powers: Super Senses&#10;Super Senses. When Spiders-Man uses it and succeeds, after resolutions you may generate a Spider Swarm bystander [MAX 4]. // FREE: KO any number of adjacent friendly Spider Swarm bystanders. Heal Spiders-Man 1 click for each bystander KO'd this way." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Animal | Spider Man Family | Monster |" />
       <alternate name="Spiders-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1380,14 +1381,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100/60" />
       <property name="Team Abilities" value="Sinister Syndicate | Spider Man" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate | Spider Man |" />
       <property name="Keywords" value="Brute | Reporter | Sinister Syndicate | Spider Man Family | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Brute | Reporter | Sinister Syndicate | Spider Man Family | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] WE ARE VENOM&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change.&#10;&#10;[Trait] CHOMP!&#10;When Venom KOs an opposing character of less points than himself, after resolutions heal him 1 click and score 10 Victory Points.&#10;&#10;[Defense] LETHAL PROTECTOR&#10;Powers: Invulnerability&#10;Invulnerability. // Adjacent friendly characters modify their defense +1." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate | Spider Man |" />
+      <property name="Keywords Search" value="| Brute | Reporter | Sinister Syndicate | Spider Man Family | Monster | Symbiote |" />
       <alternate name="Venom" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1503,12 +1504,12 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="120/65" />
       <property name="Keywords" value="Cosmic | Future | Ruler | Monster | Deity | Symbiote" />
-      <property name="Keywords Search" value="| Cosmic | Future | Ruler | Monster | Deity | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Bedlam is within 4 squares and line of fire of an opposing character, he can't be targeted by range attacks.&#10;&#10;[Damage] FORKING TIMELINES&#10;Powers: Probability Control&#10;Probability Control. Bedlam may use it twice a turn, if both times he targets a character with the Symbiote keyword." />
+      <property name="Keywords Search" value="| Cosmic | Future | Ruler | Monster | Deity | Symbiote |" />
       <alternate name="Bedlam" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1624,13 +1625,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Celebrity | Scientist | Sinister Syndicate" />
-      <property name="Keywords Search" value="| Celebrity | Scientist | Sinister Syndicate |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Attack] THEY CAN'T TOUCH ME...&#10;Powers: Incapacitate, Smoke Cloud&#10;Incapacitate, Smoke Cloud. When Mysterio uses Smoke Cloud, after resolutions generate a [set:spv] #002 Mysterio on its red starting line in a square of hindering terrain within range.&#10;&#10;[Damage] ... BUT I CAN TORTURE THEM&#10;Powers: Shape Change, Outwit&#10;Shape Change, Outwit. // FREE: Place Mysterio adjacent to a friendly [set:spv] #002 Mysterio within range and line of fire." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Celebrity | Scientist | Sinister Syndicate |" />
       <alternate name="Mysterio" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1701,13 +1702,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60/35" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Armor | Scientist | Spider Man Family" />
-      <property name="Keywords Search" value="| Armor | Scientist | Spider Man Family |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] 7W0 PL4C32 @ ONC3&#10;Powers: Willpower&#10;Willpower. When Spider-Byte uses it and succeeds, after resolutions she may generate a [set:spv] #003 Spider-Byte on click #1.&#10;&#10;[Speed] H4C|&lt;1N6 T3H SP1D3R/3R53&#10;FREE: Place Spider-Byte adjacent to a friendly [set:spv] #003 Spider-Byte within Range. If you do, after resolutions Spider-Byte may make an attack." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Armor | Scientist | Spider Man Family |" />
       <alternate name="Spider-Byte" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1798,14 +1799,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Maggia | Thunderbolts" />
-      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Maggia | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] FRICTIONLESS SUIT&#10;Slyde takes a maximum of 1 damage from close attacks and doesn't take knockback damage. // When Slyde is hit by an attack, after resolutions you may knock him back in the direction of your choice.&#10;&#10;[Defense] YOU'RE NEVER GOING TO CATCH ME! YOU'RE WASTING YOUR TIME!&#10;Powers: Energy Shield Deflection, Super Senses&#10;Energy Shield/Deflection, Super Senses." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Maggia | Thunderbolts |" />
       <alternate name="Slyde" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1871,13 +1872,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Champions | Avengers | S.H.I.E.L.D. | Spider Man Family | Ultimates" />
-      <property name="Keywords Search" value="| Champions | Avengers | S.H.I.E.L.D. | Spider Man Family | Ultimates |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE&#10;Once per turn for all friendly characters with this trait, when Spider-Man hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Spider-Man adjacent to him.&#10;&#10;[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Damage] CLOAKING&#10;Powers: Shape Change&#10;Shape Change. // If Spider-Man is adjacent to blocking terrain, lines of fire drawn to him are hindered." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Champions | Avengers | S.H.I.E.L.D. | Spider Man Family | Ultimates |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -1971,13 +1972,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Team Player | Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Team Player | Sinister Syndicate |" />
       <property name="Keywords" value="Politician | Scientist | Sinister Syndicate | Dark Avengers | Thunderbolts | Symbiote" />
-      <property name="Keywords Search" value="| Politician | Scientist | Sinister Syndicate | Dark Avengers | Thunderbolts | Symbiote |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] RAISING A GOBLIN ARMY&#10;Powers: Precision Strike&#10;Friendly characters that are 30 points or less or have the Sinister Syndicate keyword can use Precision Strike. // At the beginning of the game, generate a [set:spv] #015 Goblin Army on its 15 point starting line.&#10;&#10;[Attack] SYMKARIAN INFLUENCE&#10;Powers: Telekinesis&#10;Telekinesis. When Norman Osborn uses it to place a character that shares a keyword with him, modify that character's range +2 this turn." />
+      <property name="Team Abilities Search" value="| Team Player | Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Politician | Scientist | Sinister Syndicate | Dark Avengers | Thunderbolts | Symbiote |" />
       <alternate name="Norman Osborn" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2037,13 +2038,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | Martial Artist | Politician | Sinister Syndicate | Maggia" />
-      <property name="Keywords Search" value="| Assassin | Martial Artist | Politician | Sinister Syndicate | Maggia |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WE ALL HAVE OUR INNER DEMONS&#10;Powers: Willpower&#10;Willpower, but succeeds on [d:4]-[d:6]. When Mr. Negative uses it and fails, after resolutions you may generate a [set:spv] #007 Inner Demon on its red starting line. // FREE: If Mr. Negative began your turn on the map, replace him with another character with this trait on the same click number.&#10;&#10;[Speed] CORRUPTING TOUCH&#10;Powers: Sidestep, Mind Control&#10;Sidestep, Mind Control. When Mr. Negative uses Mind Control and hits, hit characters gain [im:characters] and, after resolutions, deal 1 damage to all opposing characters adjacent to a hit target." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Politician | Sinister Syndicate | Maggia |" />
       <alternate name="Mr. Negative" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2122,13 +2123,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Martial Artist | Politician | Spider Man Family | Maggia" />
-      <property name="Keywords Search" value="| Martial Artist | Politician | Spider Man Family | Maggia |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WE ALL HAVE OUR INNER DEMONS&#10;Powers: Willpower&#10;Willpower, but succeeds on [d:4]-[d:6]. When Martin Li uses it and fails, after resolutions you may generate a [set:spv] #007 Inner Demon on its red starting line. // FREE: If Martin Li began your turn on the map, replace him with another character with this trait on the same click number.&#10;&#10;[Damage] HEALING TOUCH&#10;Powers: Leadership, Support&#10;Leadership, Support. Support as FREE, but only to choose characters of less points or that share a keyword with Martin Li. // When Martin Li heals another character, after resolutions heal him an equal number of clicks." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Martial Artist | Politician | Spider Man Family | Maggia |" />
       <alternate name="Martin Li" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2208,13 +2209,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Brute | Spider Man Family | New Warriors" />
-      <property name="Keywords Search" value="| Brute | Spider Man Family | New Warriors |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] OH, WHAT? MEPHISTO MADE YOU DO IT?&#10;Powers: Regeneration&#10;Regeneration as FREE, but only if Scarlet Spider was damaged by an opposing character since your last turn. // When Scarlet Spider would be KO'd, you may roll a d6. [d:6]: Instead, turn him to click #6. Protected: Pulse Wave." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Brute | Spider Man Family | New Warriors |" />
       <alternate name="Scarlet Spider" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2296,13 +2297,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="90/50" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Brute | Assassin | Sinister Syndicate | Maggia | The Hand" />
-      <property name="Keywords Search" value="| Brute | Assassin | Sinister Syndicate | Maggia | The Hand |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] COLD AS ICE, HARD AS MARBLE&#10;When Tombstone attacks, modify his attack and damage +1 if a target has two action tokens. // Tombstone can reduce penetrating damage.&#10;&#10;[Trait] RUNNING MY OWN RACKET&#10;Powers: Willpower&#10;Willpower. // At the beginning of the game, Tombstone may generate a character with an Expendable Goon trait on their 15 point line. If you're the first player, you may generate 2 instead." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Brute | Assassin | Sinister Syndicate | Maggia | The Hand |" />
       <alternate name="Tombstone" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2399,13 +2400,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Spider Man Family | Symbiote" />
-      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] SYMBIOTE PHYSIOLOGY&#10;Powers: Plasticity, Shape Change&#10;Plasticity, Shape Change. // If Gwen Stacy is within 4 squares and line of fire of an opposing character, she can't be targeted by range attacks.&#10;&#10;[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Symbiote |" />
       <alternate name="Gwen Stacy" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2485,13 +2486,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Animal | Scientist | Sinister Syndicate | Monster" />
-      <property name="Keywords Search" value="| Animal | Scientist | Sinister Syndicate | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] REPTILE REGENERATION&#10;At the beginning of your turn and when The Lizard clears action tokens, you may heal him 1 click." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Animal | Scientist | Sinister Syndicate | Monster |" />
       <alternate name="The Lizard" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2589,13 +2590,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player | Spider Man" />
-      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
       <property name="Keywords" value="Avengers | Scientist | Spider Man Family | Defenders | Fantastic Four" />
-      <property name="Keywords Search" value="| Avengers | Scientist | Spider Man Family | Defenders | Fantastic Four |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] AMAZING FRIENDS&#10;Adjacent friendly characters with the Spider-Man Family keyword can use Spider-Man's displayed defense power.&#10;&#10;[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire." />
+      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
+      <property name="Keywords Search" value="| Avengers | Scientist | Spider Man Family | Defenders | Fantastic Four |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2671,13 +2672,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Future | Scientist | Spider Man Family | Exiles" />
-      <property name="Keywords Search" value="| Future | Scientist | Spider Man Family | Exiles |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] FRIENDS ACROSS THE SPIDER-VERSE!&#10;Once per turn for all friendly characters with this trait, when Spider-Man 2099 hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Spider-Man 2099 adjacent to him.&#10;&#10;[Trait] SI TE METES CON EL BARRIO... TE METES CON SPIDER-MAN&#10;When a friendly character of less points than Spider-Man 2099 is damaged by an opposing character, after resolutions heal Spider-Man 2099 1 click and remove an action token from him." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Future | Scientist | Spider Man Family | Exiles |" />
       <alternate name="Spider-Man 2099" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2760,14 +2761,14 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="90/65" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Future | Scientist | Spider Man Family | Exiles" />
-      <property name="Keywords Search" value="| Future | Scientist | Spider Man Family | Exiles |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE!&#10;Once per turn for all friendly characters with this trait, when Spider-Man 2099 hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Spider-Man 2099 adjacent to him.&#10;&#10;[Trait] WE HAVE FILES ON THIS TIME, RIGHT LYLA?&#10;Powers: Outwit&#10;Outwit. // FREE: Once per game, generate a Lyla bystander.&#10;&#10;[Speed] THE SPIDER-MAN OF TOMORROW...&#10;Powers: Charge, Running Shot&#10;Charge, Running Shot. Once per turn, when Spider-Man 2099 uses either, after resolutions he may use the other as FREE.&#10;&#10;[Defense] ...HERE TO SAVE TODAY!&#10;Powers: Invincible, Super Senses&#10;Invincible, Super Senses." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Future | Scientist | Spider Man Family | Exiles |" />
       <alternate name="Spider-Man 2099" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2858,11 +2859,11 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Damage] HERE, I'M BEYOND CUTTING EDGE&#10;When an opposing character within range would use Outwit, Perplex, or Probability Control you may roll a d6. If the result is higher than that character's printed damage value, instead they can't use that power this turn." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <alternate name="Lyla" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2881,11 +2882,11 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Celebrity | Past | Reporter | S.H.I.E.L.D. | Spider Man Family | Spy" />
-      <property name="Keywords Search" value="| Celebrity | Past | Reporter | S.H.I.E.L.D. | Spider Man Family | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Defense] THE NEW WORLD&#10;Powers: Stop, Combat Reflexes, Super Senses&#10;STOP. Combat Reflexes, Super Senses. When The Spider uses Super Senses, if he is on a themed team, he succeeds on a [d:4]-[d:6].&#10;&#10;[Damage] WE ARE THE QUEEN'S SHIELD&#10;Friendly characters can use Mastermind, but only to choose The Spider. When they do, if they have the Past keyword, after resolutions heal them 1 click." />
+      <property name="Keywords Search" value="| Celebrity | Past | Reporter | S.H.I.E.L.D. | Spider Man Family | Spy |" />
       <alternate name="The Spider" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -2963,14 +2964,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Reporter | Scientist | Spider Man Family" />
-      <property name="Keywords Search" value="| Reporter | Scientist | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] HERE LIES SPIDER-MAN&#10;Once per game, when Spider-Man would be KO'd, instead turn him to click #7, generate a Grave hindering terrain marker in your starting area, and place him on his card. Protected: Pulse Wave.&#10;&#10;[Trait] SPYDER! SPYDER!&#10;Powers: Stealth, Super Senses&#10;Stealth, Super Senses. // At the beginning of your turn, if Spider-Man is on his card, KO him if there aren't any Grave markers on the map. Otherwise, roll a d6. Heal him equal to half the result and you may place him in a square with a Grave marker. If he is healed to click #1, instead place him in any square and he has +1 combat values this game." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Reporter | Scientist | Spider Man Family |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3064,14 +3065,14 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Animal | Brute | Martial Artist | Sinister Syndicate | Warrior" />
-      <property name="Keywords Search" value="| Animal | Brute | Martial Artist | Sinister Syndicate | Warrior |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] LAST HUNT&#10;When Kraven hits, after resolutions generate a Grave hindering terrain marker in a hit character's square. // Opposing characters occupying Grave hindering terrain markers have a maximum range of 0 and must break away to move.&#10;&#10;[Trait] FEARFUL SYMMETRY&#10;Powers: Sidestep, Stealth&#10;Sidestep, Stealth. // Kraven can use the standard powers that opposing characters occupying any Grave markers can use. // When Kraven KOs an opposing character, after resolutions deal 1 unavoidable damage to each opposing character occupying any Grave marker.&#10;&#10;[Defense] I AM THE SPIDER&#10;Powers: Combat Reflexes, Super Senses&#10;Combat Reflexes, Super Senses." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Animal | Brute | Martial Artist | Sinister Syndicate | Warrior |" />
       <alternate name="Kraven" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3175,14 +3176,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Future | Ruler | Spider Man Family | Maggia" />
-      <property name="Keywords Search" value="| Future | Ruler | Spider Man Family | Maggia |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] KINGPIN OF THE WASTELANDS&#10;At the beginning of the game, if you're the first player, generate up to two characters with an Expendable Goon trait on their 15 point starting lines.&#10;&#10;[Trait] TRAPPING INHERITORS ON EARTH-3145&#10;Powers: Poison&#10;Poison. // Opposing characters within 3 squares can't heal or positively modify their combat values." />
+      <property name="Team Abilities Search" value="| Team Player |" />
+      <property name="Keywords Search" value="| Future | Ruler | Spider Man Family | Maggia |" />
       <alternate name="Ashley Barton" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3264,14 +3265,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Politician | Soldier | Spider Man Family" />
-      <property name="Keywords Search" value="| Celebrity | Politician | Soldier | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE&#10;Once per turn for all friendly characters with this trait, when Spider-Punk hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Spider-Punk adjacent to him.&#10;&#10;[Trait] ROCKABILLY FREAKOUT&#10;Powers: Willpower&#10;Willpower. // When Spider-Punk is missed by an opposing attack, after resolutions you may remove an action token from him.&#10;&#10;[Attack] GUITAR SMASH&#10;Powers: Pulse Wave&#10;Pulse Wave, but instead deals 2 damage if all targeted characters are hit. Once per turn, when Spider-Punk uses Pulse Wave, you may reroll the attack roll." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Politician | Soldier | Spider Man Family |" />
       <alternate name="Spider-Punk" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3407,13 +3408,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player | Avengers" />
-      <property name="Team Abilities Search" value="| Team Player | Avengers |" />
       <property name="Keywords" value="Avengers | Hellions | Spider Man Family | Spy | New Warriors | X Men" />
-      <property name="Keywords Search" value="| Avengers | Hellions | Spider Man Family | Spy | New Warriors | X Men |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] AMAZING FRIENDS&#10;Adjacent friendly characters with the Spider-Man Family keyword can use Firestar's displayed defense power.&#10;&#10;[Attack] PLASMA BLASTS&#10;Powers: Energy Explosion, Precision Strike, Poison&#10;Energy Explosion, Precision Strike, Poison. // When Firestar damages an opposing character, after resolutions you may generate a Fire smoke terrain marker in their square. At the beginning of your next turn (even if this is lost), deal 1 damage to each character occupying those markers, then remove those markers." />
+      <property name="Team Abilities Search" value="| Team Player | Avengers |" />
+      <property name="Keywords Search" value="| Avengers | Hellions | Spider Man Family | Spy | New Warriors | X Men |" />
       <alternate name="Firestar" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3492,14 +3493,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Animal | Spider Man Family" />
-      <property name="Keywords Search" value="| Animal | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE&#10;Once per turn for all friendly characters with this trait, when Spider-Cat hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Spider-Cat adjacent to him.&#10;&#10;[Trait] MY KIND OF ALLIES&#10;When establishing themed teams, friendly characters with the Animal keyword gain the Spider-Man Family keyword.&#10;&#10;[Speed] ZOOMIES&#10;Powers: Hypersonic Speed&#10;Hypersonic Speed. When Spider-Cat uses it, after resolutions you may give an action token to an opposing character he moved through." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Animal | Spider Man Family |" />
       <alternate name="Spider-Cat" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3548,13 +3549,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="50/25" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Brute | Sinister Syndicate" />
-      <property name="Keywords Search" value="| Brute | Sinister Syndicate |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] OTTO, YOU'RE BACK...&#10;Friendly characters whose name contains &quot;Octopus&quot; can use Mastermind, but only to choose Stunner regardless of adjacency. // Stunner modifies her attack +1 if a friendly character's name contains &quot;Octopus&quot;.&#10;&#10;[Defense] VR OFF&#10;Powers: Stop&#10;STOP. // At the beginning of your turn you may KO Stunner. If you do, heal another friendly character that has [ta:sinister_syndicate] 2 clicks. If that character is named Doctor Octopus, heal him 4 clicks instead." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Brute | Sinister Syndicate |" />
       <alternate name="Stunner" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3645,14 +3646,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80/45" />
       <property name="Team Abilities" value="Mystics | Spider Man" />
-      <property name="Team Abilities Search" value="| Mystics | Spider Man |" />
       <property name="Keywords" value="Spider Man Family | Mystical | Excalibur" />
-      <property name="Keywords Search" value="| Spider Man Family | Mystical | Excalibur |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE&#10;Once per turn for all friendly characters with this trait, when Spider-UK hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Spider-UK adjacent to him.&#10;&#10;[Trait] WEB WARRIORS: KEEP CALM AND WEB ON&#10;Powers: Empower, Leadership&#10;Empower, Leadership. When Spider-UK uses any of these powers, friendly characters with a Web Warriors trait within 3 squares are considered adjacent to him.&#10;&#10;[Speed] THE PERFECT CUPPA&#10;Powers: Charge&#10;Charge. When Spider-UK uses it and hits, after resolutions you may remove an action token from a friendly character within range." />
+      <property name="Team Abilities Search" value="| Mystics | Spider Man |" />
+      <property name="Keywords Search" value="| Spider Man Family | Mystical | Excalibur |" />
       <alternate name="Spider-UK" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3747,13 +3748,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/65" />
       <property name="Team Abilities" value="Mystics" />
-      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Animal | Brute | Cosmic | Assassin | Monster | Mystical" />
-      <property name="Keywords Search" value="| Animal | Brute | Cosmic | Assassin | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] FAMILY DINNER&#10;Bystanders printed on his card are Inheritors and each one has [MAX 1].&#10;&#10;[Trait] FEEDING ACROSS THE SPIDERVERSE&#10;Powers: Steal Energy&#10;Steal Energy. // Once per turn when Morlun would heal, he may instead generate an Inheritor bystander. // When a friendly Inheritor bystander would heal, instead heal Morlun that amount.&#10;&#10;[Attack] IT IS TIME FOR ME TO FEAST&#10;Powers: Precision Strike&#10;Precision Strike. // When Morlun or an Inheritor KO's an opposing character with the Animal or Spider-Man Family keyword, score 15 Victory Points." />
+      <property name="Team Abilities Search" value="| Mystics |" />
+      <property name="Keywords Search" value="| Animal | Brute | Cosmic | Assassin | Monster | Mystical |" />
       <alternate name="Morlun" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -3944,13 +3945,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Team Player | Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Team Player | Sinister Syndicate |" />
       <property name="Keywords" value="Hydra | Ruler | Scientist | Sinister Syndicate | M.O.D.O.K.'S 11 | Maggia | The Hand" />
-      <property name="Keywords Search" value="| Hydra | Ruler | Scientist | Sinister Syndicate | M.O.D.O.K.'S 11 | Maggia | The Hand |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WELCOME TO SPOTWORLD&#10;When The Spot starts the game, generate a Spot's Spot marker within 4 squares. // FREE: Place the Spot's Spot marker into a square within 4 squares, or place a terrain marker adjacent to the Spot's Spot marker into a square adjacent to The Spot.&#10;&#10;[Speed] I AM NOT A JOKE&#10;Powers: Flurry, Phasing Teleport&#10;Flurry, Phasing/Teleport. Flurry as FREE, but only to target a character adjacent to his Spot's Spot marker regardless of adjacency. // When The Spot hits, after resolutions you may place a hit character adjacent to The Spot or a terrain marker if The Spot or that terrain marker is within 3 squares of their current square.&#10;&#10;[Defense] SPOT THE SPOT&#10;Powers: Combat Reflexes, Super Senses&#10;Combat Reflexes, Super Senses. // When The Spot is missed by an attack, after resolutions deal the attacker 2 damage." />
+      <property name="Team Abilities Search" value="| Team Player | Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Hydra | Ruler | Scientist | Sinister Syndicate | M.O.D.O.K.'S 11 | Maggia | The Hand |" />
       <alternate name="The Spot" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4026,7 +4027,7 @@
       <property name="Unit Type" value="Attachment" />
       <property name="Rarity" value="Super Rare" />
       <property name="Traits and Special Powers" value="[Trait] SPOT'S SPOT&#10;Friendly characters named The Spot treat characters occupying or adjacent to this marker as adjacent when making close attacks. // When a friendly character named The Spot would move, before moving they may place themselves and the Spot marker in each other's squares." />
-      <alternate type="Tile" size="1x1" name="Spot's Spot" />
+      <alternate name="Spot's Spot" type="Tile" size="1x1" />
     </card>
     <card id="10e8e839-6407-492f-b631-ac00f015d03e" name="Spider-Ham" size="Card">
       <property name="Unit ID" value="spv041a" />
@@ -4036,13 +4037,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player | Spider Man" />
-      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
       <property name="Keywords" value="Animal | Reporter | Scientist | Spider Man Family" />
-      <property name="Keywords Search" value="| Animal | Reporter | Scientist | Spider Man Family |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] IT AIN'T KOSHER TO TAKE A BITE OUTTA THE SPIDER-HAM!&#10;When an opposing character damages a friendly character with the Spider-Man Family keyword, this turn that opposing character can't heal.&#10;&#10;[Trait] WEB WARRIORS: HAM-MERSPACE&#10;When Spider-Ham is placed by a friendly effect, after resolutions he may generate a standard object. A friendly character adjacent to that object may immediately pick it up." />
+      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
+      <property name="Keywords Search" value="| Animal | Reporter | Scientist | Spider Man Family |" />
       <alternate name="Spider-Ham" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4125,13 +4126,13 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Animal | Cosmic | Reporter | Scientist | Spider Man Family | Monster | Symbiote" />
-      <property name="Keywords Search" value="| Animal | Cosmic | Reporter | Scientist | Spider Man Family | Monster | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLING ACROSS PANELS&#10;Powers: Leap Climb, Shape Change&#10;Leap/Climb, Shape Change. // FREE: Place this character in a square of different elevation within 4 squares.&#10;&#10;[Trait] FASHION ADVICE FROM BEE-YOND THE STARS&#10;Powers: Plasticity&#10;Friendly characters have &quot;Plasticity. // If this character is within 4 squares and line of fire of an opposing character, they can't be targeted by range attacks.&quot;&#10;&#10;[Attack] PUNCH OUT OF CONTINUITY&#10;Powers: Super Strength&#10;Super Strength. // When Spider-Ham hits and the attack roll is doubles, he may choose that a hit character is knocked back 16 squares instead of 3. That character's knockback path isn't stopped by changing elevation, and if it would be stopped by blocking terrain, instead destroy that terrain and continue the knockback path." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Animal | Cosmic | Reporter | Scientist | Spider Man Family | Monster | Symbiote |" />
       <alternate name="Spider-Ham" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4213,15 +4214,15 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Scientist | Spider Man Family | Mystical" />
-      <property name="Keywords Search" value="| Scientist | Spider Man Family | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Improved Targeting" value="Adjacent" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE&#10;Once per turn for all friendly characters with this trait, when Spider-Man hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Spider-Man adjacent to him.&#10;&#10;[Trait] WEB WARRIORS: FARADAY CAGE WEBBING&#10;Powers: Super Senses&#10;Super Senses. // When Spider-Man is placed by a friendly effect, until your next turn, friendly characters have SAFEGUARD: Energy Explosion and SAFEGUARD: Pulse Wave. Protected: Pulse Wave.&#10;&#10;[Attack] KADA WEB SLINGING&#10;When Spider-Man hits with a range attack, once per turn after resolutions you may place a hit character adjacent to Spider-Man, then Spider-Man may make an attack using Incapacitate. // When a friendly character uses Incapaciate, hit characters modify their speed and range -1 until your next turn." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Scientist | Spider Man Family | Mystical |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4312,11 +4313,11 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="60/30" />
       <property name="Keywords" value="Animal | Brute | Martial Artist | Sinister Syndicate" />
-      <property name="Keywords Search" value="| Animal | Brute | Martial Artist | Sinister Syndicate |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] I'M NOT NOBODY! I'M THE KANGAROO!&#10;Powers: Leap Climb, Sidestep&#10;Leap/Climb, Sidestep. Kangaroo may use Sidestep a second time if he knocked back an opposing character this turn.&#10;&#10;[Trait] I LIVED IN KANGAROO COUNTRY, MATE&#10;Kangaroo modifies his defense +1 when attacked by characters that can't use Leap/Climb. // FREE: Make an attack, but only to target characters that can't use Leap/Climb.&#10;&#10;[Damage] COMPRESSED AIR JETS&#10;Powers: Close Combat Expert&#10;Close Combat Expert, [im:destroy_blocking]." />
+      <property name="Keywords Search" value="| Animal | Brute | Martial Artist | Sinister Syndicate |" />
       <alternate name="Kangaroo" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4420,11 +4421,11 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Brute | Monster" />
-      <property name="Keywords Search" value="| Brute | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ALL IN ALL...&#10;The Wall takes a maximum of 1 damage from attacks. // When The Wall is KO'd, generate a blocking terrain marker in the square he last occupied. Protected: Pulse Wave.&#10;&#10;[Trait] HERE'S ONE WALL YOU'LL NEVER CRAWL!&#10;KNOCKBACK. // Characters knocked back into The Wall take damage as if he were blocking terrain. Protected: Pulse Wave.&#10;&#10;[Speed] FASTER THAN THE AVERAGE WALL&#10;Powers: Sidestep&#10;Sidestep. // Opposing lines of fire that cross The Wall's square are blocked, unless they are drawn to The Wall. // Opposing characters can't move through The Wall's square. Protected: Pulse Wave." />
+      <property name="Keywords Search" value="| Brute | Monster |" />
       <alternate name="The Wall" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4477,14 +4478,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Celebrity | Scientist" />
-      <property name="Keywords Search" value="| Celebrity | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Elevated | Characters" />
       <property name="Traits and Special Powers" value="[Trait] THE HYPNO HUSTLER...&#10;Powers: Mind Control&#10;Mind Control. When Hypno-Hustler uses it, he gains an additional [cs:bolt] for each adjacent Mercy Killer bystander.&#10;&#10;[Trait] ...AND HIS MERCY KILLERS&#10;Powers: Willpower&#10;Willpower. // At the beginning of the game and when Hypno-Hustler uses Willpower and succeeds, generate a Mercy Killer bystander [MAX 3].&#10;&#10;[Speed] GO WITH THE FLOW!&#10;Powers: Sidestep&#10;Sidestep. // Opposing characters within range and line of fire can't remove action tokens except by clearing." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Celebrity | Scientist |" />
       <alternate name="Hypno-Hustler" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4555,10 +4556,10 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <alternate name="Mercy Killer" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4579,13 +4580,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/60" />
       <property name="Team Abilities" value="Underworld" />
-      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Brute | Hydra | Robot | Ruler | Maggia" />
-      <property name="Keywords Search" value="| Brute | Hydra | Robot | Ruler | Maggia |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] HEAD OF THE FAMILY&#10;Powers: Leadership, Mastermind, Perplex&#10;Leadership, but succeeds on a [d:4]-[d:6]. When Silvermane uses Leadership and succeeds, you may instead generate a [set:spv] #006 Goon on its 15 point starting line. // Silvermane starts the game with the Silvermane Head special object attached.&#10;&#10;[Trait] TRYING TO GET A HEAD&#10;When a character holding the Silvermane Head is hit by a close attack, after resolutions they drop the Silvermane Head and the attacker may pick up the Silvermane Head. // FREE: If Silvermane or an adjacent friendly character is holding the Silvermane Head, attach it to Silvermane.&#10;&#10;[Trait] HEAD WILL ROLL&#10;If Silvermane has the Silvermane Head attached, he takes a maximum of 1 damage from attacks. // When Silvermane takes damage, if the Silvermane Head is attached, unattach it and place it 4 squares away from Silvermane." />
+      <property name="Team Abilities Search" value="| Underworld |" />
+      <property name="Keywords Search" value="| Brute | Hydra | Robot | Ruler | Maggia |" />
       <alternate name="Silvermane" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4690,13 +4691,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="70/45" />
       <property name="Team Abilities" value="Sinister Syndicate | Spider Man" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate | Spider Man |" />
       <property name="Keywords" value="Hydra | Scientist | Sinister Syndicate | Spider Man Family" />
-      <property name="Keywords Search" value="| Hydra | Scientist | Sinister Syndicate | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] SPY BOTS&#10;When Superior Octopus uses his displayed damage power, he may count squares for range and line of fire from friendly characters named Spider-Bot.&#10;&#10;[Defense] I HAVE THESE ALL OVER THE CITY&#10;Powers: Combat Reflexes, Super Senses&#10;Combat Reflexes, Super Senses. // When an opposing character misses Superior Octopus, after resolutions generate a [set:spv] #010 Spider-Bot on click #1." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate | Spider Man |" />
+      <property name="Keywords Search" value="| Hydra | Scientist | Sinister Syndicate | Spider Man Family |" />
       <alternate name="Superior Octopus" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4802,14 +4803,14 @@
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="120" />
       <property name="Team Abilities" value="Underworld | Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Underworld | Sinister Syndicate |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts" />
-      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] I AM SUPERIOR!&#10;When Doctor Octopus would be KO'd you may instead replace him with [set:spv] #047a Superior Octopus on his 45 point starting line. Protected: Pulse Wave.&#10;&#10;[Trait] THE IDEAL OCTOPUS&#10;Powers: Flurry&#10;Giant Reach: 3. // Flurry. When Doctor Octopus uses it and targets more than one character, instead of normal damage he may deal each hit character damage equal to his printed damage value.&#10;&#10;[Damage] MOST BRILLIANT&#10;Powers: Outwit, Perplex, Probability Control&#10;Outwit, Perplex, Probability Control. // FREE: Once per game, generate a [set:spv] #037 Stunner on her 25 point starting line." />
+      <property name="Team Abilities Search" value="| Underworld | Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts |" />
       <alternate name="Doctor Octopus" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4909,13 +4910,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Masters Of Evil" />
-      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Armor | Masters Of Evil | Maggia" />
-      <property name="Keywords Search" value="| Armor | Masters Of Evil | Maggia |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] IT'S AN HOMAGE!&#10;Powers: Willpower&#10;During force construction, you may add 5 points to Lady Stilt-Man's cost as many times as you choose. For each time you choose to do so, at the beginning of the game, give Lady Stilt-Man a Leg Extension. // Lady Stilt-Man can use the following effects based on the number of Leg Extensions she has:*1-2: [cs:giant] *3-4: [cs:colossal] *5+: [cs:colossal], Giant Reach: 4, and modify her combat values +1.&#10;&#10;[Trait] DOES SHE KNOW HOW TO USE THEM?&#10;If Lady Stilt-Man has any Leg Extensions, she takes a maximum of 1 damage from attacks. // When Lady Stilt-Man takes damage from an attack, after resolutions knock her back away from the attacker a number of squares equal to her Leg Extensions, then remove a Leg Extension from her. If her knockback path is stopped by a character, deal that character 2 damage.&#10;&#10;[Damage] VILLAIN FOR HIRE&#10;Adjacent friendly characters have &quot;POWER: Roll a d6.&#10;[d:1]-[d:3]: Give Lady Stilt-Man a Leg Extension.&#10;[d:4]-[d:6]: Give Lady Stilt-Man a Leg Extension and heal her one click.&quot;" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
+      <property name="Keywords Search" value="| Armor | Masters Of Evil | Maggia |" />
       <alternate name="Lady Stilt-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -4986,7 +4987,7 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="5" />
       <property name="Traits and Special Powers" value="[Trait] IT'S AN HOMAGE!&#10;During force construction, you may add 5 points to Lady Stilt-Man's cost as many times as you choose. For each time you choose to do so, at the beginning of the game, give Lady Stilt-Man a Leg Extension. // Lady Stilt-Man can use the following effects based on the number of Leg Extensions she has:*1-2: [cs:giant] *3-4: [cs:colossal] *5+: [cs:colossal], Giant Reach: 4, and modify her combat values +1." />
-      <alternate type="Tile" size="1x1" name="Lady Stilt-Man (Leg Extension)" />
+      <alternate name="Lady Stilt-Man (Leg Extension)" type="Tile" size="1x1" />
     </card>
     <card id="63efc765-06cd-4a04-9588-0c41a27e3f09" name="Web Slinger" size="Card">
       <property name="Unit ID" value="spv049" />
@@ -4995,14 +4996,14 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Police | Spider Man" />
-      <property name="Team Abilities Search" value="| Police | Spider Man |" />
       <property name="Keywords" value="Animal | Past | Police | Spider Man Family" />
-      <property name="Keywords Search" value="| Animal | Past | Police | Spider Man Family |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] PILOT: IS THAT HORSE WEARING A MASK?&#10;When revealing your force, you may choose a single base character on your Sideline that has the Animal keyword, and turn it to any click. Web Slinger can use the standard attack and damage powers displayed on that character's dial. // When Web Slinger is KO'd, before removing him from the map, generate the chosen character from your Sideline on its last non-KO click. This game, that character can't be healed or replaced, and is removed from the game without being scored when it would take damage. Protected: Pulse Wave.&#10;&#10;[Trait] QUICKDRAW&#10;When Web Slinger hits with a range attack, if it was during your first action this turn, after resolutions remove an action token from him.&#10;&#10;[Defense] DODGING BULLETS AND TUMBLEWEEDS&#10;Powers: Energy Shield Deflection, Super Senses&#10;Energy Shield/Deflection, Super Senses." />
+      <property name="Team Abilities Search" value="| Police | Spider Man |" />
+      <property name="Keywords Search" value="| Animal | Past | Police | Spider Man Family |" />
       <alternate name="Web Slinger" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5087,15 +5088,15 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Future | Robot | Soldier | Spider Man Family | Monster" />
-      <property name="Keywords Search" value="| Future | Robot | Soldier | Spider Man Family | Monster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Move Through" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] SOLDIER OF THE GREAT NEST&#10;The first time Spider-Biodroid would be KO'd, you may instead turn him to click #9. If you do, this game he has &quot;When Spider-Biodroid would take damage from a game effect, he takes 1 unavoidable damage instead.&quot; and &quot;At the end of your turn, deal Spider-Biodroid 1 unavoidable damage.&quot; Protected: Pulse Wave.&#10;&#10;[Speed] JOIN USZZ OR DIE!&#10;Powers: Sidestep&#10;Sidestep. // When this click is first revealed, you may choose a character with the Spider-Man Family keyword on your Sideline of 50 points or less and generate it on its starting click. Your opponent scores that character now instead of when it's KO'd.&#10;&#10;[Attack] INVERSE PHASE TERMINATION&#10;Powers: Energy Explosion&#10;Energy Explosion. When Spider-Biodroid uses it, damage dealt to each hit character is equal to the number of characters adjacent to that character instead." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Future | Robot | Soldier | Spider Man Family | Monster |" />
       <alternate name="Spider-Biodroid" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5210,13 +5211,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Cosmic | Avengers | Reporter | Scientist | Spider Man Family" />
-      <property name="Keywords Search" value="| Cosmic | Avengers | Reporter | Scientist | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WITH THE GREATEST POWER...&#10;When Spider-Man starts the game, he generates and equips an Infinity Gauntlet equipment special object.&#10;&#10;[Defense] I WISH THANOS NEVER GOT THE INFINITY GEMS&#10;Powers: Stop, Super Senses&#10;STOP. Super Senses. // When this click is revealed by damage from an opposing effect, after resolutions remove all equipment (on the map or equipped) and all game elements on Sidelines from the game, then end the durations of any effects created by the removed Sideline elements. Game elements removed from Sidelines this way only score points paid to add them to a Sideline. // Spider-Man can't be healed above this click.&#10;&#10;[Damage] NO ONE REMEMBERS ME BEATING THANOS&#10;Powers: Empower, Probability Control&#10;Empower, Probability Control. Spider-Man may use Probability Control twice a turn." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Cosmic | Avengers | Reporter | Scientist | Spider Man Family |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5308,7 +5309,7 @@
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Chase" />
       <property name="Traits and Special Powers" value="EFFECT&#10;Powers: Perplex&#10;[ta:cosmic_energy], Perplex." />
-      <alternate type="Tile" size="1x1" name="Infinity Gauntlet" />
+      <alternate name="Infinity Gauntlet" type="Tile" size="1x1" />
     </card>
     <card id="696b084a-71ae-4305-a8a4-6a949f554e80" name="Spider-Man" size="Card">
       <property name="Unit ID" value="spv052" />
@@ -5317,13 +5318,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Asgardian | Spider Man Family | Warrior" />
-      <property name="Keywords Search" value="| Asgardian | Spider Man Family | Warrior |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] THE POWER OF MJOLNIR&#10;Powers: Blades Claws Fangs&#10;Blades/Claws/Fangs, but can use it during close or range attacks, and may roll a d8 instead of a d6.&#10;&#10;[Attack] SLAM!&#10;When Spider-Man hits, after resolutions, choose one: Give a hit character an action token -or- place a hit character in a square adjacent to Spider-Man.&#10;&#10;[Defense] CORRUPTED INNOCENCE&#10;Powers: Stop, Super Senses, Toughness&#10;STOP. Super Senses, Toughness." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Asgardian | Spider Man Family | Warrior |" />
       <alternate name="Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5415,14 +5416,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="200/100" />
       <property name="Team Abilities" value="Cosmic Energy | Spider Man" />
-      <property name="Team Abilities Search" value="| Cosmic Energy | Spider Man |" />
       <property name="Keywords" value="Champions | Cosmic | Avengers | Spider Man Family" />
-      <property name="Keywords Search" value="| Champions | Cosmic | Avengers | Spider Man Family |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Elevated | Hindering | Blocking | Characters" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE!&#10;Once per turn for all friendly characters with this trait, when Captain Universe hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Captain Universe adjacent to him.&#10;&#10;[Attack] I'VE GOT TWO WORDS FOR YOU...&#10;Powers: Blades Claws Fangs&#10;Giant Reach: 3. // Blades/Claws/Fangs. When Captain Universe uses it, damage dealt is unavoidable.&#10;&#10;[Defense] PILE ON!&#10;Powers: Stop, Impervious, Super Senses&#10;STOP. Impervious, Super Senses. // Once per turn during your turn, when a friendly character with the Spider-Man Family keyword is placed adjacent to Captain Universe, after resolutions that character may make an attack.&#10;&#10;[Damage] ENIGMA FORCE VENOM STRIKE&#10;Powers: Ranged Combat Expert&#10;Ranged Combat Expert. // When Captain Universe hits with a range attack, after resolutions give each hit target an action token." />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Spider Man |" />
+      <property name="Keywords Search" value="| Champions | Cosmic | Avengers | Spider Man Family |" />
       <alternate name="Captain Universe" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5561,13 +5562,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Frightful Four | Sinister Syndicate" />
-      <property name="Keywords Search" value="| Frightful Four | Sinister Syndicate |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] EM REPULSION&#10;Powers: Energy Shield Deflection&#10;Friendly characters with the Sinister Syndicate keyword can use Energy Shield/Deflection.&#10;&#10;[Attack] FRY THE WEBHEAD&#10;Powers: Energy Explosion&#10;Energy Explosion. When Electro uses it, after resolutions deal 1 penetrating damage to any characters that evaded the attack.&#10;&#10;[Damage] ELECTRICAL ARCING&#10;Powers: Ranged Combat Expert&#10;Ranged Combat Expert. // At the beginning of your turn, you may roll a d6. [d:4]-[d:6]: Deal 2 damage to an opposing character within range and line of fire." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Frightful Four | Sinister Syndicate |" />
       <alternate name="Electro" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5673,13 +5674,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Underworld | Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Underworld | Sinister Syndicate |" />
       <property name="Keywords" value="Scientist | Sinister Syndicate" />
-      <property name="Keywords Search" value="| Scientist | Sinister Syndicate |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] ANTI-GRAVITY HARNESS&#10;Friendly characters with the Sinister Syndicate keyword have [ta:underworld]. When they use it, they may carry two characters with the Sinister Syndicate keyword regardless of point values.&#10;&#10;[Trait] AIR SUPERIORITY&#10;Opposing characters that can't use [im:elevated] modify their speed and range -1 ([cs:wing] and Leap/Climb grant [im:elevated]).&#10;&#10;[Speed] DIVEBOMB&#10;Powers: Charge&#10;Charge. // When an opposing character is placed within 4 squares of Vulture by an effect other than knockback, after resolutions you may roll a d6.[d:4]-[d:6]: Place Vulture adjacent to that character, then deal that character 1 penetrating damage." />
+      <property name="Team Abilities Search" value="| Underworld | Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Scientist | Sinister Syndicate |" />
       <alternate name="Vulture" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5785,13 +5786,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts" />
-      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] FOUNDING THE SINISTER SIX&#10;Powers: Leadership&#10;Giant Reach: 4, Leadership. // When a friendly character with the Sinister Syndicate keyword uses [ta:sinister_syndicate] or Leadership, they consider other friendly characters within 4 squares of themselves to be adjacent.&#10;&#10;[Attack] ARMS OF THE OCTOPUS&#10;When Doctor Octopus or a friendly character that replaced their attack value with his attacks, attack rolls of 8 are critical hits.&#10;&#10;[Damage] ALWAYS SUPERIOR&#10;Powers: Outwit&#10;Outwit. // If an opposing character has been hit this turn, it can't use Protected: Outwit." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts |" />
       <alternate name="Doctor Octopus" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -5897,13 +5898,13 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Animal | Assassin | Marksman | Martial Artist | Sinister Syndicate | Mystical | Warrior" />
-      <property name="Keywords Search" value="| Animal | Assassin | Marksman | Martial Artist | Sinister Syndicate | Mystical | Warrior |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TROPHY HUNTER&#10;When a friendly character is KO'd, after resolutions generate a Grave hindering terrain marker in the square that character last occupied.&#10;&#10;[Trait] THE HUNTER REBORN&#10;When Kraven is KO'd, after resolutions you may generate a character with the Sinister Syndicate keyword from your KO area into a square with any Grave terrain marker on their last non-KO click. Roll a d6 and heal them equal to half the result. This game, that character has &quot;If this character would be KO'd, instead remove them from the game without scoring them.&quot; Protected: Pulse Wave.&#10;&#10;[Speed] THE GREATEST HUNTER&#10;Powers: Charge, Stealth, Exploit Weakness, Flurry&#10;Charge, Stealth. When Kraven uses Charge, he doesn't halve speed and choose one or both to use: *Exploit Weakness and modify damage +1. *Flurry and modify attack +1.&#10; If Kraven chooses both, he can only attack characters with [ta:spider_man]." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Animal | Assassin | Marksman | Martial Artist | Sinister Syndicate | Mystical | Warrior |" />
       <alternate name="Kraven" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6009,14 +6010,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Brute | Avengers | Frightful Four | Sinister Syndicate" />
-      <property name="Keywords Search" value="| Brute | Avengers | Frightful Four | Sinister Syndicate |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
       <property name="Improved Movement" value="Destroy Blocking | Characters" />
       <property name="Traits and Special Powers" value="[Trait] THIS CITY IS MY SANDBOX!&#10;Powers: Smoke Cloud&#10;Smoke Cloud as FREE. When Sandman uses it, after generating each marker, Sandman may destroy a terrain marker or square of blocking terrain adjacent to that marker.&#10;&#10;[Trait] IT'S SAND, IT GETS EVERYWHERE&#10;Damage dealt by friendly characters with the Sinister Syndicate keyword can't be reduced below Sandman's printed damage value.&#10;&#10;[Attack] SCOURING SANDS&#10;Powers: Poison&#10;Poison. When Sandman uses it, characters within range and line of fire are considered adjacent to him." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Brute | Avengers | Frightful Four | Sinister Syndicate |" />
       <alternate name="Sandman" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6122,14 +6123,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Celebrity | Scientist | Sinister Syndicate | Maggia" />
-      <property name="Keywords Search" value="| Celebrity | Scientist | Sinister Syndicate | Maggia |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Targeting" value="Hindering" />
       <property name="Traits and Special Powers" value="[Trait] YOUR GREATEST FOES CONCEALED!&#10;Powers: Stealth&#10;Friendly characters with the Sinister Syndicate keyword can use Stealth.&#10;&#10;[Trait] THE ILLUSION GENERATOR&#10;Powers: Shape Change&#10;Shape Change. // FREE: If there are no other friendly characters named Mysterio, roll a d6. Generate up to half the result [set:spv] #002 Mysterios on their red starting line within range and line of fire.&#10;&#10;[Speed] EVERYWHERE, YET NOWHERE&#10;Powers: Mind Control&#10;Mind Control. // FREE: Place Mysterio and a friendly character named Mysterio in each other's squares.&#10;&#10;[Damage] A PUFF OF SMOKE, A SHATTERED MIRROR&#10;Powers: Probability Control&#10;Probability Control. // Opposing characters within range of a friendly character named Mysterio can't use [it:] abilities." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Celebrity | Scientist | Sinister Syndicate | Maggia |" />
       <alternate name="Mysterio" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6223,13 +6224,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Reporter | Spider Man Family | Detective" />
-      <property name="Keywords Search" value="| Reporter | Spider Man Family | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] IF THERE IS TOO MUCH POWER...&#10;If an opposing force has more characters than yours, Spider-Man Noir takes a maximum of 1 damage from opposing effects.&#10;&#10;[Attack] ...IT IS THE RESPONSIBILITY OF THE PEOPLE TO TAKE IT AWAY.&#10;When Spider-Man Noir attacks a character with a positively modified combat value, modify his attack and damage +2." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Reporter | Spider Man Family | Detective |" />
       <alternate name="Spider-Man Noir" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6322,13 +6323,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Spider Man Family | Detective" />
-      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] BRINGING SPIDER-WOMAN TO JUSTICE&#10;At the beginning of the game, generate a Captain Stacy bystander friendly to your opponent's force adjacent to an opposing character.&#10;&#10;[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Defense] YOU'RE A GOOD COP, DAD!&#10;Powers: Stop, Super Senses&#10;STOP. Super Senses. // Gwen Stacy can't be healed above this click. // The first time this power is revealed, Captain Stacy becomes friendly to your force and gains Immune until your next turn." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Spider Man Family | Detective |" />
       <alternate name="Gwen Stacy" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6410,11 +6411,11 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Police" />
-      <property name="Team Abilities Search" value="| Police |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Damage] SWORE AN OATH&#10;Powers: Enhancement, Outwit, Perplex&#10;Enhancement. // If a friendly character is named Gwen Stacy, Captain Stacy can use Outwit. Otherwise, Captain Stacy can use Perplex." />
+      <property name="Team Abilities Search" value="| Police |" />
       <alternate name="Captain Stacy" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6435,12 +6436,12 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Animal | Scientist | Monster" />
-      <property name="Keywords Search" value="| Animal | Scientist | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Destroy Blocking" />
       <property name="Traits and Special Powers" value="[Trait] LIZARD MUTAGEN&#10;FREE: Heal The Lizard 1 click.&#10;&#10;[Trait] JUST... WANTED TO BE... LIKE YOU&#10;When The Lizard is KO'd by an opposing character, that character can't use powers until the end of your next turn. If that character has the Spider-Man Family keyword, after resolutions deal them 1 unavoidable damage. Protected: Pulse Wave.&#10;&#10;[Attack] SSSHOOOOW THEM ALL&#10;Giant Reach: 2. // When The Lizard hits, after resolutions deal 1 damage to an opposing character within 2 squares and line of fire." />
+      <property name="Keywords Search" value="| Animal | Scientist | Monster |" />
       <alternate name="The Lizard" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6534,14 +6535,14 @@
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="295" />
       <property name="Team Abilities" value="Team Player | Spider Man" />
-      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
       <property name="Keywords" value="Champions | Avengers | Scientist | Spider Man Family | Symbiote" />
-      <property name="Keywords Search" value="| Champions | Avengers | Scientist | Spider Man Family | Symbiote |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] YOUR FRIENDLY NEIGHBORHOOD SPIDERS...&#10;Powers: Leap Climb, Super Senses, Toughness&#10;Leap/Climb, Super Senses, Toughness. // At the beginning of your turn, Spider-Man, Spider-Man, and Ghost Spider may generate a friendly character with the Spider-Man Family keyword of 100 points or less from your Sideline on its starting click. If they do, remove any other characters generated this way from the game without scoring them. Characters generated this way can't heal or be replaced this game.&#10;&#10;[Speed] THEIR TEAMWORK CAN'T BE TIGHTER&#10;Powers: Charge&#10;Charge. // CLOSE: Make three close attacks. Before making each attack, Spider-Man, Spider-Man, and Ghost Spider may move up to two squares." />
+      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
+      <property name="Keywords Search" value="| Champions | Avengers | Scientist | Spider Man Family | Symbiote |" />
       <alternate name="Spider-Man, Spider-Man, and Ghost Spider" type="Click1" size="2x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6678,13 +6679,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="275/200/100/50" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Animal | Past | Spider Man Family" />
-      <property name="Keywords Search" value="| Animal | Past | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
       <property name="Traits and Special Powers" value="[Trait] FRIENDS ACROSS THE SPIDER-VERSE&#10;Once per turn for all friendly characters with this trait, when Spider-Rex hits, after resolutions you may place a friendly character with the Spider-Man Family keyword of less points than Spider-Rex adjacent to her.&#10;&#10;[Trait] SPIDER-REX, SPIDER-REX, TINY ARMS, REAL THICK NECK!&#10;Powers: Super Senses&#10;Super Senses. When Spider-Rex uses it and succeeds, after resolutions you may knock back all adjacent opposing characters.&#10;&#10;[Trait] SPINS A WEB, JURASSIC SIZE, SUPER BIG, BUT SOMEHOW FLIES!&#10;Powers: Quake&#10;When Spider-Rex moves and moves 5 squares or less, after resolutions he may use Quake as FREE. If he does, characters hit by that use of Quake are given an action token.&#10;&#10;[Damage] LOOK OUT! HERE COMES SPIDER-REX!&#10;Powers: Outwit, Probability Control&#10;FREE: Choose one for Spider-Rex to use until your next turn:* Outwit * Probability Control" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Animal | Past | Spider Man Family |" />
       <alternate name="Spider-Rex" type="Click1" size="2x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6901,11 +6902,11 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="15" />
       <property name="Keywords" value="Avengers | Midnight Sons" />
-      <property name="Keywords Search" value="| Avengers | Midnight Sons |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] DOES WHATEVER A MYSTERIOUS STRANGER CAN&#10;FREE: Choose a team ability another character can use. Spider Hero can use that team ability until he chooses again." />
+      <property name="Keywords Search" value="| Avengers | Midnight Sons |" />
       <alternate name="Spider Hero" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6925,13 +6926,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="20" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Cosmic | Spider Man Family" />
-      <property name="Keywords Search" value="| Cosmic | Spider Man Family |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] CONSTANT TELEPATHY&#10;Friendly characters within Psider-Man's range can use [it:elevated,characters,blocking], but only when targeting friendly characters within Psider-Man's range." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Cosmic | Spider Man Family |" />
       <alternate name="Psider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6952,13 +6953,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="20" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Spider Man Family" />
-      <property name="Keywords Search" value="| Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
       <property name="Traits and Special Powers" value="[Trait] TENDING HER GARDEN&#10;Powers: Stealth&#10;Stealth. // At the end of your turn, Garden-Spider may generate a hindering terrain marker in her square." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Spider Man Family |" />
       <alternate name="Garden-Spider" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -6979,13 +6980,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="15" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Spider Man Family" />
-      <property name="Keywords Search" value="| Spider Man Family |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] FULL-BODY GLOW&#10;During your turn, lines of fire drawn to characters within Spidair's range can't be hindered." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Spider Man Family |" />
       <alternate name="Spidair" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7006,10 +7007,10 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="20" />
       <property name="Team Abilities" value="Team Player" />
-      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <alternate name="Bora &amp; Brix" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7096,12 +7097,12 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="15" />
       <property name="Team Abilities" value="Police" />
-      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Police | Spider Man Family" />
-      <property name="Keywords Search" value="| Police | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Police |" />
+      <property name="Keywords Search" value="| Police | Spider Man Family |" />
       <alternate name="Jefferson Morales" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7121,13 +7122,13 @@
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="10" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Sinister Syndicate" />
-      <property name="Keywords Search" value="| Sinister Syndicate |" />
       <property name="Range" value="2" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] VIBRO-SHOCK GAUNTLETS&#10;KNOCKBACK." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Sinister Syndicate |" />
       <alternate name="Prowler" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7148,13 +7149,13 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Spider Man Family" />
-      <property name="Keywords Search" value="| Celebrity | Spider Man Family |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WALL-CRAWLER&#10;Powers: Leap Climb&#10;Leap/Climb. // FREE: Place this character in a square of different elevation within 4 squares and line of fire.&#10;&#10;[Trait] I CAN MAKE YOU ALL CELEBRITIES&#10;Powers: Telekinesis&#10;When establishing themed teams, friendly characters with the Spider-Man Family keyword gain the Celebrity keyword. // Telekinesis. When TV's Spider-Man uses it to place a character with the Celebrity keyword, after resolutions that character may make an attack.&#10;&#10;[Defense] CELEBRITIES GET PERKS&#10;Powers: Stop&#10;STOP. When this click is first revealed, after resolutions heal all friendly characters 2 clicks." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Celebrity | Spider Man Family |" />
       <alternate name="TV's Spider-Man" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7213,6 +7214,12 @@
         <property name="Damage" value="1" />
         <property name="Damage Ability" value="Outwit" />
       </alternate>
+      <alternate name="TV's Spider-Man" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="df75f507-197d-4296-9607-4ec403bebf29" name="Spider-Girl" size="Card">
       <property name="Unit ID" value="spvL027" />
@@ -7221,14 +7228,14 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Avengers | Spider Man Family | Mystical" />
-      <property name="Keywords Search" value="| Avengers | Spider Man Family | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] WEB WARRIORS: THE WEAVER&#10;Once per game, when Spider-Girl is placed by a friendly effect, after resolutions she may generate a Karn bystander. // When Karn is KO'd, after resolutions generate a Master Weaver bystander in the square he last occupied.&#10;&#10;[Trait] ARAÑA&#10;The first time Spider-Girl would be KO'd, instead turn her to click #2 and modify her attack and defense +1 for the rest of the game. Protected: Pulse Wave.&#10;&#10;[Damage] READING THE SCROLLS&#10;Powers: Leadership, Perplex&#10;Leadership, Perplex. // FREE: Choose an adjacent friendly character with the Spider-Man Family keyword. If you do, until your next turn, when Spider-Girl or the chosen character uses Perplex or Probability Control they may do so regardless of range or line of fire." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Avengers | Spider Man Family | Mystical |" />
       <alternate name="Spider-Girl" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7280,6 +7287,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Special - READING THE SCROLLS" />
       </alternate>
+      <alternate name="Spider-Girl" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="4e8ee80f-07dd-414f-990e-bd46ffde6f73" name="Karn" size="Card">
       <property name="Unit ID" value="spvL027bta" />
@@ -7310,10 +7323,10 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <alternate name="Master Weaver" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7333,13 +7346,13 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="25" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Spider Man Family | Monster" />
-      <property name="Keywords Search" value="| Spider Man Family | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] TALKING ABOUT FOSTERING&#10;POWER: KO an opposing bystander with a point cost of 0 within 6 squares.&#10;&#10;[Attack] PASTRY DECORATOR WEB-SHOOTERS&#10;Powers: Incapacitate&#10;Incapacitate. // When Spider-Ma'am hits, after resolutions choose one:* Hit characters gain Immobile until your next turn. * Heal up to 2 adjacent friendly characters 1 click." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Spider Man Family | Monster |" />
       <alternate name="Spider-Ma'am" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7392,6 +7405,12 @@
         <property name="Damage" value="1" />
         <property name="Damage Ability" value="Perplex" />
       </alternate>
+      <alternate name="Spider-Ma'am" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="9ccfdec8-81cc-443b-b05b-4ce66cdb6e00" name="Scarlet Spider" size="Card">
       <property name="Unit ID" value="spvL040" />
@@ -7400,14 +7419,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Midnight Sons | Spider Man Family | New Warriors" />
-      <property name="Keywords Search" value="| Midnight Sons | Spider Man Family | New Warriors |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Characters" />
       <property name="Traits and Special Powers" value="[Trait] DEAL WITH THE DEVIL&#10;Scarlet Spider's combat values can't be modified by other friendly character's effects. // The first time Scarlet Spider would be KO'd, instead roll a d6 and turn him to the click number matching the d6 face value. Protected: Pulse Wave.&#10;&#10;[Speed] BACK IN THE HOOD&#10;Powers: Flurry&#10;Sidestep. // Flurry. When Scarlet Spider uses it and hits, you may immediately place him in a square adjacent to a hit target.&#10;&#10;[Damage] AM I THE REAL SPIDER-MAN OR AM I A CLONE?&#10;Powers: Shape Change&#10;Shape Change. // FREE: Choose a standard power that another friendly character that has [ta:spider_man] within 4 squares and line of fire can use. Scarlet Spider can use the chosen power until your next turn." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Midnight Sons | Spider Man Family | New Warriors |" />
       <alternate name="Scarlet Spider" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7473,6 +7492,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Special - AM I THE REAL SPIDER-MAN OR AM I A CLONE?" />
       </alternate>
+      <alternate name="Scarlet Spider" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="49f9e4d0-9e99-4e84-8d9c-e6576ba5a4c0" name="Madame Web" size="Card">
       <property name="Unit ID" value="spvL048" />
@@ -7481,13 +7506,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Herald | Spider Man Family | Mystical" />
-      <property name="Keywords Search" value="| Herald | Spider Man Family | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] NAVIGATING THE WEB OF LIFE AND DESTINY&#10;Madame Web starts the game on any starting line. // FREE: Place Madame Web up to 2 squares away from her current square, then turn her dial to her next starting line (She isn't KO'd by this if KO clicks appear).&#10;&#10;[Trait] PASS ON MY POWER&#10;Powers: Super Senses&#10;Super Senses. // When Madame Web is KO'd, after resolutions choose a friendly character with the Spider-Man Family keyword and a standard power on this card. For the rest of the game, that friendly character can use the chosen power. Protected: Pulse Wave.&#10;&#10;[Damage] CLAIRVOYANT&#10;When this click is revealed, roll a d6 and place it on this card. // When a character within 4 squares and line of fire rolls an attack roll or rolls for Super Senses, you may remove a d6 from this card and replace a die in the roll with it." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Herald | Spider Man Family | Mystical |" />
       <alternate name="Madame Web" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7560,6 +7585,12 @@
         <property name="Damage" value="0" />
         <property name="Damage Ability" value="Special - CLAIRVOYANT" />
       </alternate>
+      <alternate name="Madame Web" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="78c16e25-befd-4e4f-a1ee-c70c293902bd" name="Doctor Octopus" size="Card">
       <property name="Unit ID" value="spvL054a" />
@@ -7568,13 +7599,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts" />
-      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] YOU FIGHT ME AND THE TENTACLES&#10;Doctor Octopus starts the game with 4 Tentacle tokens. // When Doctor Octopus would take damage, you may remove a Tentacle token from him instead. // Doctor Octopus positively modifies his attack and defense by the number of Tentacle tokens he has, and positively modifies his damage by half that amount.&#10;&#10;[Attack] YOU OBEY ME NOW!&#10;Powers: Precision Strike, Quake&#10;Precision Strike, Quake. Giant Reach: 4.&#10;&#10;[Damage] GENIUS LEVEL INTELLECT&#10;Powers: Close Combat Expert, Exploit Weakness, Probability Control&#10;Close Combat Expert, Exploit Weakness, Probability Control." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts |" />
       <alternate name="Doctor Octopus" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7642,6 +7673,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Outwit" />
       </alternate>
+      <alternate name="Doctor Octopus" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="608692b1-3949-44de-9dbc-850fe2f74e71" name="Swarm" size="Card">
       <property name="Unit ID" value="spvL054b" />
@@ -7650,13 +7687,13 @@
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Sinister Syndicate" />
-      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Scientist | Sinister Syndicate" />
-      <property name="Keywords Search" value="| Scientist | Sinister Syndicate |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
       <property name="Traits and Special Powers" value="[Trait] WORKERS PROTECT THE QUEEN&#10;Powers: Poison&#10;Poison. // Swarm takes a maximum of 1 damage from attacks, can't be chosen for Mastermind, and can't be healed except by characters named Bee Swarm. Protected: Pulse Wave.&#10;&#10;[Attack] NOT THE BEES!!!&#10;When Swarm damages one or more opposing characters, after resolutions generate a Bee Swarm bystander adjacent to a damaged character." />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
+      <property name="Keywords Search" value="| Scientist | Sinister Syndicate |" />
       <alternate name="Swarm" type="Click1" size="1x1">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7724,6 +7761,12 @@
         <property name="Damage" value="2" />
         <property name="Damage Ability" value="Outwit" />
       </alternate>
+      <alternate name="Swarm" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
     </card>
     <card id="325c5afd-918f-4a5f-9370-e67f93f2c2d3" name="Bee Swarm" size="Card">
       <property name="Unit ID" value="spvL054bbt" />
@@ -7754,14 +7797,14 @@
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Spider Man" />
-      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Future | Spider Man Family | Vehicle" />
-      <property name="Keywords Search" value="| Future | Spider Man Family | Vehicle |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
       <property name="Improved Movement" value="Elevated" />
       <property name="Traits and Special Powers" value="[Trait] PILOT: JOURNEY TO NEW BABYLON&#10;When revealing your force, you may choose a single base character on your Sideline that has the Future or Spider-Man Family keyword, and turn it to any click. Spider-Mobile can use the standard attack and damage powers displayed on that character's dial. // When Spider-Mobile is KO'd, before removing it from the map, generate the chosen character from your Sideline on its last non-KO click. This game, that character can't be healed or replaced, and is removed from the game without being scored when it would take damage. Protected: Pulse Wave.&#10;&#10;[Trait] BUILT BY JOHNNY STORM HIMSELF!&#10;If Spider-Mobile's pilot is 100 points or less, Spider-Mobile may replace its attack and damage values with the same values displayed on the dial of its pilot.&#10;&#10;[Defense] RUNNING ON FUMES&#10;Powers: Stop&#10;STOP. When this click is revealed, after resolutions roll a d6.&#10;[d:1]-[d:4]: KO Spider-Mobile.&#10;[d:5]-[d:6]: Heal Spider-Mobile 1 click." />
+      <property name="Team Abilities Search" value="| Spider Man |" />
+      <property name="Keywords Search" value="| Future | Spider Man Family | Vehicle |" />
       <alternate name="Spider-Mobile" type="Click1" size="2x2">
         <property name="Click Number" value="1" />
         <property name="Starting Line" value="Auto" />
@@ -7840,6 +7883,12 @@
         <property name="Defense" value="0" />
         <property name="Defense Ability" value="Special - RUNNING ON FUMES" />
         <property name="Damage" value="0" />
+      </alternate>
+      <alternate name="Spider-Mobile" type="KO" size="2x2">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
       </alternate>
     </card>
     <card id="5c20d2d1-bd3e-40b2-a12d-7ce8b53af558" name="Hall of Science" size="16x16">

@@ -1,4 +1,8 @@
 changelog = {
+    1000105: ("1.0.1.5", "16 September 2026", [
+            "Added support for custom counters",
+            "Most alternate cards and legacy cards were accidentally missing KO clicks. This has been corrected. Run image downloader to get new click images."          
+            ]),
     1000104: ("1.0.1.4", "15 September 2026", [
             "Rolling 1 die is now shortcut to the F1 key, and F2 rolls 2 dice.",
             "Fixed rotation bug."          
