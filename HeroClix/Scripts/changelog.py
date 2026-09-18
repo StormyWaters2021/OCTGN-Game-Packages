@@ -2,8 +2,9 @@ changelog = {
     PENDING
     1000106: ("1.0.1.6", "18 September 2026", [
             "Updated Team Ability and Keyword search lists.",
-            "Changed Action token to be more noticeable."
-            "Added d8 to dice options."
+            "Changed Action token to be more noticeable.",
+            "Added d8 to dice options.",
+            "Other minor adjustments."
             ]),
     1000105: ("1.0.1.5", "16 September 2026", [
             "Added support for custom counters",

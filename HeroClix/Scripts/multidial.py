@@ -1,3 +1,5 @@
+# ~ ~ GUIDS ~ ~ #
+
 GALACTUS = "1fddb83d-8c87-4403-9ea2-eaa2f9d6a58b"
 GALACTUS_CONVERTER = "ffce23a6-3530-4c1a-89cc-5df238e5d9ae"
 GALACTUS_HERALD = "ef162aa8-ada3-415f-9f2e-062e564adb05"
@@ -33,6 +35,8 @@ THANOS_COPTER_SECONDARY = "97a992b2-c23f-4eeb-a545-d95d262b6667"
 BATMOBILE_BASE = "5cbcb52b-ae13-43c4-9b21-a473b8cd9f9e"
 BATMOBILE_CONTROLLED = "10788575-835f-461d-b675-a27bbfb35a99"
 
+# ~ ~ GUIDS ~ ~ #
+
 MULTI_DIAL = {
     GALACTUS: [GALACTUS_CONVERTER, GALACTUS_HERALD],
     OG_GALACTUS: [OG_GALACTUS_CONVERTER, OG_GALACTUS_HERALD],
@@ -48,9 +52,38 @@ MULTI_DIAL = {
 
 MULTI_DIAL_LIST = [item for key, value in MULTI_DIAL.items() for item in [key] + value]
 
-QUAD_DIALS = [GALACTUS, GALACTUS_CONVERTER, GALACTUS_HERALD, OG_GALACTUS, OG_GALACTUS_CONVERTER, OG_GALACTUS_HERALD, VENOM_GALACTUS, VG_TENDRILS, VG_MAW, VG_BREAKER, VG_HUNGER]
+QUAD_DIALS = [
+    GALACTUS, 
+    GALACTUS_CONVERTER, 
+    GALACTUS_HERALD, 
+    OG_GALACTUS, 
+    OG_GALACTUS_CONVERTER, 
+    OG_GALACTUS_HERALD, 
+    VENOM_GALACTUS, 
+    VG_TENDRILS, 
+    VG_MAW, 
+    VG_BREAKER, 
+    VG_HUNGER
+    ]
 
-# # GALACTUS # #
+DUAL_DIALS = [
+    MASTER_MOLD_BASE,
+    MASTER_MOLD_FACTORY,
+    BLACKBIRD_BASE,
+    BLACKBIRD_RESOURCE,
+    MERC_JET_BASE,
+    MERC_JET_TERRAIN,
+    INVISIBLE_PLANE_BASE,
+    INVISIBLE_PLANE_TERRAIN,
+    PYM_PARTICLE_TANK_BASE,
+    PYM_PARTICLE_TANK_AUTOPILOT,
+    THANOS_COPTER_BASE,
+    THANOS_COPTER_SECONDARY,
+    BATMOBILE_BASE,
+    BATMOBILE_CONTROLLED,
+    ]
+
+# ~ ~ GALACTUS ~ ~ #
 
 def _is_galactus(cards, x=0, y=0):
     mute()
@@ -87,7 +120,7 @@ def reverse_herald(card, x=0, y=0):
     _reverse_secondary_dial(card, 1)
 
 
-# # VENOM GALACTUS # # 
+# ~ ~ VENOM GALACTUS ~ ~ # 
 
 def _is_venom_galactus(cards, x=0, y=0):
     mute()
@@ -165,7 +198,27 @@ def reverse_hunger(card, x=0, y=0):
     _reverse_secondary_dial(card, 3)
 
 
-# # HELPERS # # 
+# ~ ~ DUAL-DIALS ~ ~ # 
+
+def _is_dual_dial(card, x=0. y=0):
+    if not _is_multidial_base(card, 0, 0):
+        return False
+    if card.model in DUAL_DIALS:
+        return True
+    else:
+        return False
+
+def advance_secondary(card, x=0, y=0):
+    mute()
+    _advance_secondary_dial(card, 0)
+
+
+def reverse_secondary(card, x=0, y=0):
+    mute()
+    _reverse_secondary_dial(card, 0)
+
+
+# ~ ~ HELPERS ~ ~ # 
 
 def _is_multidial_base(card, x=0, y=0):
     if card[0].model in QUAD_DIALS:

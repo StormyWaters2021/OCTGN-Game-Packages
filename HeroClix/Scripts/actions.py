@@ -54,6 +54,17 @@ def remove_action(card, x=0, y=0):
         notify("{} removes an Action token from {}.".format(me, card))
 
 
+def _get_click_name(card):
+    mute()
+    click_name = None
+    if "Click" in card.alternate:
+        click_name = card.alternate.replace("Click", "Click ")
+    elif card.alternate == "KO"
+        click_name = "KO"
+    
+    return click_name
+    
+
 def _advance_dial(card):
     mute()
     
@@ -78,7 +89,7 @@ def _advance_dial(card):
         current_index += 1
         card.alternate = card.alternates[current_index]
         return True
-        
+
 
 def _retreat_dial(card):
     mute()
@@ -111,7 +122,9 @@ def take_one_damage(card, x=0, y=0):
     if card.properties["Unit Type"] in NO_ACTIONS:
         return
     if _advance_dial(card):
-        notify("{} takes one damage.".format(card))
+        click_name = _get_click_name(card)
+        if click_name:
+            notify("{} advances to {}.".format(card, click_name))
 
 
 def take_x_damage(card, x=0, y=0):
@@ -145,9 +158,11 @@ def take_x_damage(card, x=0, y=0):
         notify("{} is KO'd!".format(original_card))
 
     else:
+        old_click = _get_click_name(card)
         current_index += damage
         card.alternate = card.alternates[current_index]
-        notify("{} takes {} damage and goes to click {}.".format(original_card, damage, current_index))
+        new_click = _get_click_name(card)
+        notify("{} advances from {} to {}.".format(original_card, old_click, new_click))
 
 
 def heal_one_damage(card, x=0, y=0):
@@ -155,7 +170,9 @@ def heal_one_damage(card, x=0, y=0):
     if card.properties["Unit Type"] in NO_ACTIONS:
         return
     if _retreat_dial(card):
-        notify("{} heals one damage.".format(card))
+        click_name = _get_click_name(card)
+        if click_name:
+            notify("{} reverses to {}.".format(card, click_name))
 
 
 def snap_to_grid(card):
