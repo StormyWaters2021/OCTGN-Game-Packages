@@ -27,6 +27,14 @@ def rotate_map(card, x=0, y=0):
     card.index = 0
 
 
+def flip_map(card, x = 0, y = 0):
+    mute()
+    if card.alternate == "":
+        card.alternate = "Image"
+    else:
+        card.alternate = ""
+
+
 def _get_map_position(gamemap):
     width, height = [int(x) for x in gamemap.size.split("x")]
     return -(width * 50), -(height * 50)
@@ -117,3 +125,29 @@ def _sync_map_rotation(card):
             card.orientation = 0
     else:
         card.orientation = selected_rotation
+        
+
+def _rotation_offset(card):
+    if card.isInverted():
+        return (-GRID_SIZE, -GRID_SIZE)
+    return (0, GRID_SIZE)
+
+
+def _compensate_for_rotation(card, x, y):
+    mute()
+    offsetx, offsety = _rotation_offset(card)
+    if card.orientation == 1:
+        if card.size in NOT_SQUARE_SIZES:
+            x += offsetx
+            y += offsety
+    return (x, y)
+
+
+def _compensate_report_for_rotation(card, x, y):
+    mute()
+    offsetx, offsety = _rotation_offset(card)
+    if card.orientation == 1:
+        if card.size in NOT_SQUARE_SIZES:
+            x -= offsetx
+            y -= offsety
+    return (x, y)

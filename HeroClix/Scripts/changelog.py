@@ -1,4 +1,10 @@
 changelog = {
+    PENDING
+    1000106: ("1.0.1.6", "18 September 2026", [
+            "Updated Team Ability and Keyword search lists.",
+            "Changed Action token to be more noticeable."
+            "Added d8 to dice options."
+            ]),
     1000105: ("1.0.1.5", "16 September 2026", [
             "Added support for custom counters",
             "Most alternate cards and legacy cards were accidentally missing KO clicks. This has been corrected. Run image downloader to get new click images."          

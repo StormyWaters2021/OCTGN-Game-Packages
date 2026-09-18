@@ -19,6 +19,7 @@
 	  <script src="Scripts/mapcontrols.py" />
 	  <script src="Scripts/setup.py" />
 	  <script src="Scripts/debug.py" />
+	  <script src="Scripts/dice.py" />
 	  <script src="Scripts/changelog.py" />
 	  <script src="Scripts/hcu.py" />
 	  <script src="Scripts/boards.py" />
@@ -185,8 +186,9 @@
 	<groupaction menu="Load Team from HCUnits" execute="importHCUnits" />
 
 	<groupactions menu="Dice">
-		<groupaction menu="Roll Two Dice" shortcut="F2" execute="roll_dice" />
 		<groupaction menu="Roll Single Die" shortcut="F1" execute="roll_single_die" />
+		<groupaction menu="Roll Two Dice" shortcut="F2" execute="roll_dice" />
+		<groupaction menu="Roll d8" execute="roll_d8" />
 		<groupaction menu="Roll d20" execute="roll_d20" />
 	</groupactions>
 
