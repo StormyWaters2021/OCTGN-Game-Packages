@@ -2,8 +2,8 @@
 <game
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
-	markersize="35"
-    version="1.0.1.5"
+	markersize="25"
+    version="1.0.1.6"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -128,12 +128,13 @@
 	<cardaction menu="Attack" showIf="is_not_map" execute="calculate_attack" />
 	<cardaction menu="Add Action Counter" showIf="is_not_map" default="True" execute="double_click" />
 	<cardaction menu="Remove Action Counter" showIf="is_not_map" execute="remove_action" />
+	<cardaction menu="Add Custom Counter" showIf="is_not_map" execute="add_custom_marker" />
 	<cardaction menu="Rotate Model" showIf="is_not_map" execute="rotate_model" />
 	<cardaction menu="Duplicate Model" showIf="is_not_map" shortcut="Ctrl+C" execute="duplicate_model" />
 	<cardaction menu="Flip Card Over" showIf="is_one_shot" execute="flip_card" />
 	<cardaction menu="Delete" showIf="is_not_map" execute="delete_card" />
-	<cardaction menu="Add Custom Counter" showIf="is_not_map" execute="add_custom_marker" />
-	<cardseparator />
+
+		<cardseparator />	
 	
 	<cardaction menu="Advance One Click" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
 	<cardaction menu="Advance X Clicks" showIf="is_not_map" execute="take_x_damage" />
@@ -142,7 +143,10 @@
 	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
 	<cardaction menu="Swap Map Image" showIf="has_map_image" execute="flip_map" />
 	
-	<cardseparator />
+		<cardseparator />
+	
+	<cardaction menu="Swap to Special Terrain" showIf="_is_wreckable" execute="swap_to_wreck" />
+	<cardaction menu="Create Arena Tile" showIf="_is_arena_cap" execute="create_arena_tile" />
 	
 	<!-- # ~~ DUAL-DIAL OPTIONS ~~ # -->
 	<cardaction menu="Advance Secondary Dial" showIf="_is_dual_dial" execute="advance_secondary" />

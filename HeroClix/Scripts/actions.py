@@ -59,7 +59,7 @@ def _get_click_name(card):
     click_name = None
     if "Click" in card.alternate:
         click_name = card.alternate.replace("Click", "Click ")
-    elif card.alternate == "KO"
+    elif card.alternate == "KO":
         click_name = "KO"
     
     return click_name
@@ -323,10 +323,10 @@ def make_model(card):
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = "Tile"
-    elif len(card.alternates) > 0 and card.alternates[0].size == "1x1":
+    elif len(card.alternates) > 0 and card.alternates[1].size == "1x1":
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
-        fig.alternate = fig.alternates[0]
+        fig.alternate = fig.alternates[1]
 
 
 def duplicate_model(card, x=0, y=0):
@@ -345,6 +345,16 @@ def delete_card(card, x = 0, y = 0):
         card.delete()
 
 
+def swap_to_wreck(card, x=0, y=0):
+    mute()
+    if card.model not in WRECKABLE.keys():
+        return
+
+    x, y = card.position
+    wreck = table.create(WRECKABLE[card.model], x, y)
+    wreck.alternate = wreck.alternates[1]
+    card.delete()
+
 ##########################
 ##     Check Types      ##
 ##########################
@@ -361,6 +371,9 @@ def is_one_shot(card, x=0, y=0):
     mute()
     return card[0].properties["Unit Type"] == "One Shot"
 
+def _is_wreckable(card, x=0, y=0):
+    return card[0].model in WRECKABLE.keys()
+    
 def has_map_image(card, x=0, y=0):
     mute()
     if "Image" in card[0].alternates:
@@ -368,6 +381,9 @@ def has_map_image(card, x=0, y=0):
     else:
         return False
 
+def _is_arena_cap(card, x=0, y=0):
+    mute()
+    return card[0].model == ARENA_CAP
 
 ##########################
 ##    Create Objects    ##
@@ -443,3 +459,8 @@ def create_character_filtered(group, x=0, y=0):
         return
     
     me.Team.create(chosen_card, quantity)
+    
+
+def create_arena_tile(card, x=0, y=0):
+    x, y = card.position
+    table.create(ARENA_TILE, x, y)

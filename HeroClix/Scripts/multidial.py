@@ -200,7 +200,7 @@ def reverse_hunger(card, x=0, y=0):
 
 # ~ ~ DUAL-DIALS ~ ~ # 
 
-def _is_dual_dial(card, x=0. y=0):
+def _is_dual_dial(card, x=0, y=0):
     if not _is_multidial_base(card, 0, 0):
         return False
     if card.model in DUAL_DIALS:
