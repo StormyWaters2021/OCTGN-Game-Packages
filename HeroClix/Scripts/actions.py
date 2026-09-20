@@ -323,7 +323,7 @@ def make_model(card):
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = "Tile"
-    elif len(card.alternates) > 0 and card.alternates[1].size == "1x1":
+    elif len(card.alternates) > 1 and card.alternates[1].size == "1x1":
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = fig.alternates[1]
@@ -366,6 +366,9 @@ def is_map(card, x=0, y=0):
 def is_not_map(card, x=0, y=0):
     mute()
     return card[0].properties["Unit Type"] != "Map"
+    
+def _is_not_standard(card, x=0, y=0):
+    return card[0].properties["Unit Type"] not in STANDARD_PIECE_TYPE_LIST
 
 def is_one_shot(card, x=0, y=0):
     mute()

@@ -1,4 +1,10 @@
 changelog = {
+    1000107: ("1.0.1.7", "20 September 2026", [
+            "Attempting to improve PAC viewability:",
+            "- Main PAC is now split into 8 panels. If you use Options > Undock Card Preview, you can have a larger window to view the panels during the game.",
+            "- Right-click the table, and under the Test menu there is a Digital PAC option. Please send feedback if you find this useful!",
+            "Fixed error with standard terrain pieces.",
+            ]),
     1000106: ("1.0.1.6", "18 September 2026", [
             "Updated Team Ability and Keyword search lists.",
             "Changed Action token to be more noticeable.",

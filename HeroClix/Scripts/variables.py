@@ -1,8 +1,5 @@
 ACTION_MARKER = ("Action", "action_marker")
 
-PAC_GUID = "7db159f2-1eb2-425f-aaac-5492e36d755b"
-PAC_POSITIONS = (-1500, -210)
-
 BUTTON_COLORS = ["#007fc2", "#4da5d4", "#99cce7", "#f14a50", "#f68e92", "#fbd2d3", "#82a43a", "#a8bf75", "#cddbb0", ]
 
 DICE_POSITIONS = [(-950, -50), (-950, 50)]
@@ -19,7 +16,8 @@ DICE_FACES = {
 GRID_SIZE = 100
 NOT_SQUARE_SIZES = ["1x2", "2x4", "3x6"]
 
-NO_ACTIONS = ["PAC", "Dice", "Map", "Terrain"]
+NO_ACTIONS = ["PAC", "Dice", "Map", "Terrain Marker"]
+STANDARD_PIECE_TYPE_LIST = ["PAC", "Dice", "Map", "Terrain Marker", "Line of Sight"]
 
 SHIELD_FLYING_CAR = "a293f9cc-a9ad-4e4d-b92f-b234101f23a0"
 SHIELD_FLYING_CAR_WRECK = "de986cd9-4370-4589-b49b-474a465b8c3f"

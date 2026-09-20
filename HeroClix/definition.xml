@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="25"
-    version="1.0.1.6"
+    version="1.0.1.7"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -24,6 +24,7 @@
 	  <script src="Scripts/boards.py" />
 	  <script src="Scripts/variables.py" />
 	  <script src="Scripts/los.py" />
+	  <script src="Scripts/pac.py" />
 	  <script src="Scripts/multidial.py" />
 	  <script src="Scripts/test.py" />
   </scripts>
@@ -96,7 +97,8 @@
 	<size name="16x24" width="1600" height="2400" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	
 	<size name="Dice" width="100" height="100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
-	<size name="PAC" width="510" height="421" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="PAC" width="508" height="419" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
+	<size name="PAC_Panel" width="127" height="210" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	<size name="LOSBase" width="50" height="300" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 	<size name="LOSLine" width="2100" height="2100" front="Images/cardback.jpg" back="Images/cardback.jpg" cornerRadius="5" backCornerRadius="5" />
 
@@ -125,10 +127,10 @@
 <table name="Table" visibility="undefined" ordered="False" width="4600" height="3200" background="Images/table.jpg" backgroundStyle="uniform" >
 
 	<!-- # ~~ CARD ACTIONS ~~ # -->
-	<cardaction menu="Attack" showIf="is_not_map" execute="calculate_attack" />
-	<cardaction menu="Add Action Counter" showIf="is_not_map" default="True" execute="double_click" />
-	<cardaction menu="Remove Action Counter" showIf="is_not_map" execute="remove_action" />
-	<cardaction menu="Add Custom Counter" showIf="is_not_map" execute="add_custom_marker" />
+	<cardaction menu="Attack" showIf="_is_not_standard" execute="calculate_attack" />
+	<cardaction menu="Add Action Counter" showIf="_is_not_standard" default="True" execute="double_click" />
+	<cardaction menu="Remove Action Counter" showIf="_is_not_standard" execute="remove_action" />
+	<cardaction menu="Add Custom Counter" showIf="_is_not_standard" execute="add_custom_marker" />
 	<cardaction menu="Rotate Model" showIf="is_not_map" execute="rotate_model" />
 	<cardaction menu="Duplicate Model" showIf="is_not_map" shortcut="Ctrl+C" execute="duplicate_model" />
 	<cardaction menu="Flip Card Over" showIf="is_one_shot" execute="flip_card" />
@@ -136,9 +138,9 @@
 
 		<cardseparator />	
 	
-	<cardaction menu="Advance One Click" showIf="is_not_map" shortcut="Down" execute="take_one_damage" />
-	<cardaction menu="Advance X Clicks" showIf="is_not_map" execute="take_x_damage" />
-	<cardaction menu="Reverse One Click" showIf="is_not_map" shortcut="Up" execute="heal_one_damage" />
+	<cardaction menu="Advance One Click" showIf="_is_not_standard" shortcut="Down" execute="take_one_damage" />
+	<cardaction menu="Advance X Clicks" showIf="_is_not_standard" execute="take_x_damage" />
+	<cardaction menu="Reverse One Click" showIf="_is_not_standard" shortcut="Up" execute="heal_one_damage" />
 	
 	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
 	<cardaction menu="Swap Map Image" showIf="has_map_image" execute="flip_map" />
@@ -180,6 +182,7 @@
 
 
 	<!-- # ~~ GROUP ACTIONS ~~ # -->
+
 	<groupaction menu="Load Map" execute="load_map" />
 	<groupaction menu="Load Team from HCUnits" execute="importHCUnits" />
 
@@ -189,6 +192,7 @@
 		<groupaction menu="Roll d8" execute="roll_d8" />
 		<groupaction menu="Roll d20" execute="roll_d20" />
 	</groupactions>
+
 
 	<groupactions menu="Generate...">
 		<groupaction menu="Generate Bystander" execute="create_bystander" />
@@ -209,6 +213,7 @@
 	
 	<!-- # ~~ TEST MENU ~~ # -->
 	<groupactions menu="Test Menu">
+		<groupaction menu="View Digital PAC" execute="pac_speed" />
 		<groupaction menu="Create Galactus" execute="build_galactus"/>
 		<groupaction menu="Create Venom Galactus" execute="build_venom_galactus"/>
 	</groupactions>

@@ -18,4 +18,5 @@ def setup_table():
     if me._id != 1:
         return
     create_dice()
-    create_pac()
+    # create_pac()
+    pac_panels()

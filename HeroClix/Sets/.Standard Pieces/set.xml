@@ -3,6 +3,14 @@
   <cards>
     <card id="7db159f2-1eb2-425f-aaac-5492e36d755b" name="Powers and Abilities Card" size="PAC">
       <property name="Unit Type" value="PAC" />
+	  <alternate name="PAC - Speed" type="Panel1" size="PAC_Panel" />
+	  <alternate name="PAC - Attack" type="Panel2" size="PAC_Panel" />
+	  <alternate name="PAC - Defense" type="Panel3" size="PAC_Panel" />
+	  <alternate name="PAC - Damage" type="Panel4" size="PAC_Panel" />
+	  <alternate name="PAC - Inherent" type="Panel5" size="PAC_Panel" />
+	  <alternate name="PAC - Improved" type="Panel6" size="PAC_Panel" />
+	  <alternate name="PAC - Keyphrase" type="Panel7" size="PAC_Panel" />
+	  <alternate name="PAC - Terrain Markers" type="Panel8" size="PAC_Panel" />
     </card>
     <card id="fdbd1ec7-702f-4c29-bd6f-3f628af80a39" name="6" size="Dice">
       <property name="Unit Type" value="Dice" />
