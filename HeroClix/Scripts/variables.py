@@ -13,11 +13,14 @@ DICE_FACES = {
     6: "",
 }
 
+RETICLE_POSITION = (-950, 150)
+RETICLE_GUID = "ca4c3ea7-43fb-478f-95eb-08b8c02dab27"
+
 GRID_SIZE = 100
 NOT_SQUARE_SIZES = ["1x2", "2x4", "3x6"]
 
-NO_ACTIONS = ["PAC", "Dice", "Map", "Terrain Marker"]
-STANDARD_PIECE_TYPE_LIST = ["PAC", "Dice", "Map", "Terrain Marker", "Line of Sight"]
+NO_ACTIONS = ["PAC", "Dice", "Map", "Terrain Marker", "Target Marker"]
+STANDARD_PIECE_TYPE_LIST = ["PAC", "Dice", "Map", "Terrain Marker", "Line of Sight", "Target Marker"]
 
 SHIELD_FLYING_CAR = "a293f9cc-a9ad-4e4d-b92f-b234101f23a0"
 SHIELD_FLYING_CAR_WRECK = "de986cd9-4370-4589-b49b-474a465b8c3f"

@@ -1,4 +1,12 @@
 changelog = {
+    1000108: ("1.0.1.8", "20 September 2026", [
+            "Teams loaded from HCUnits will now generate models on the correct starting click automatically.",
+            "Added ability to target spaces on the map. Right-click on the map and select Target Map to place a target where you clicked. You can also hover your mouse and press F5. This only works if you currently control the map, so you may need to right-click and Take Control if it is not your turn.",
+            "Added counter so players can track how many actions they have taken on a given turn.",
+            "Added turn controls. Clicking the green triangle next to a player's name will pass the turn to that player. It will give them control of the map, and it will reset their Actions Used counter to 0.",
+            "Added more preconstructed teams, including Marvel and DC 400 Teams and a few Iconix teams.",
+            ]),
+
     1000107: ("1.0.1.7", "20 September 2026", [
             "Attempting to improve PAC viewability:",
             "- Main PAC is now split into 8 panels. If you use Options > Undock Card Preview, you can have a larger window to view the panels during the game.",

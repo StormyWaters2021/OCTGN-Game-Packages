@@ -35,6 +35,26 @@ def flip_map(card, x = 0, y = 0):
         card.alternate = ""
 
 
+def _snap_point_to_square(x, y):
+    x -= x % GRID_SIZE
+    y -= y % GRID_SIZE
+    return x, y
+
+
+def target_map(card, x, y):
+    mute()
+    if card.properties["Unit Type"] != "Map":
+        return
+    for card in table:
+        if card.model == RETICLE_GUID:
+            if card.controller == me:
+                card.delete()
+    x, y = _snap_point_to_square(x, y)
+    target = table.create(RETICLE_GUID, x, y)
+    report = _report_movement(x, y)
+    notify("{} places a target at {}.".format(me, report))
+
+
 def _get_map_position(gamemap):
     width, height = [int(x) for x in gamemap.size.split("x")]
     return -(width * 50), -(height * 50)

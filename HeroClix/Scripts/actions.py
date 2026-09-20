@@ -314,8 +314,15 @@ def make_model(card):
     if base is not None:
         _create_multidial(base, x, y + 200)
         return
-        
-    if "Click1" in card.alternates:
+    
+    starting_line = card.properties["Starting Line"]
+    if starting_line:
+        click = "Click" + starting_line
+        guid = card.model
+        fig = table.create(guid, x + offsetx, y + offsety)
+        fig.alternate = click
+    
+    elif "Click1" in card.alternates:
         guid = card.model
         fig = table.create(guid, x + offsetx, y + offsety)
         fig.alternate = "Click1"

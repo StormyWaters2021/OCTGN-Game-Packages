@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="25"
-    version="1.0.1.7"
+    version="1.0.1.8"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -17,7 +17,7 @@
   <scripts>
       <script src="Scripts/actions.py" />
 	  <script src="Scripts/mapcontrols.py" />
-	  <script src="Scripts/setup.py" />
+	  <script src="Scripts/automation.py" />
 	  <script src="Scripts/dice.py" />
 	  <script src="Scripts/changelog.py" />
 	  <script src="Scripts/hcu.py" />
@@ -39,6 +39,7 @@
     <event name="OnCardsMoved" action="table_config" />
 	<event name="OnCardArrowTargeted" action="_draw_los_line"/>
 	<event name="OnGameStarted" action="setup_table" />
+	<event name="OverrideTurnPassed" action="pass_turn" />
   </events>
   
   <!-- Card Properties -->
@@ -121,7 +122,6 @@
 	<gameboard name="Spiderweb" src="Images/spiderweb.jpg" x="-2300" y="-1600" width="4600" height="3200" />
 	<gameboard name="Avengers Collage" src="Images/avengers-collage.jpg" x="-2300" y="-1600" width="4600" height="3200" />
 	<gameboard name="Hulk and Hulkbuster" src="Images/hulk_and_buster.jpg" x="-2300" y="-1600" width="4600" height="3200" />
-	
 </gameboards>
 
 <table name="Table" visibility="undefined" ordered="False" width="4600" height="3200" background="Images/table.jpg" backgroundStyle="uniform" >
@@ -142,6 +142,7 @@
 	<cardaction menu="Advance X Clicks" showIf="_is_not_standard" execute="take_x_damage" />
 	<cardaction menu="Reverse One Click" showIf="_is_not_standard" shortcut="Up" execute="heal_one_damage" />
 	
+	<cardaction menu="Target Map" showIf="is_map" shortcut="F5" execute="target_map" />
 	<cardaction menu="Rotate Map" showIf="is_map" execute="rotate_map" />
 	<cardaction menu="Swap Map Image" showIf="has_map_image" execute="flip_map" />
 	
@@ -222,7 +223,7 @@
 </table>
 
 <player summary="Team: {#Team}">
-
+	<counter name="Actions Used" default="0" icon="Images/tracker.png" />
 	<group name="Team" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded" />
 	<group name="Sideline" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded" />
 	<group name="Maps" visibility="me" ordered="True" viewState="pile" icon="Images/deck.png" />
