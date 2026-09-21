@@ -1,4 +1,8 @@
 changelog = {
+PENDING
+     1000109: ("1.0.1.9", "20 September 2026", [
+            "Added new buttons for generating characters by Set or View All. Note that using View All will be slow to load since there are thousands of cards, but you can use the search box to filter while it's loading.",
+            ]),   
     1000108: ("1.0.1.8", "20 September 2026", [
             "Teams loaded from HCUnits will now generate models on the correct starting click automatically.",
             "Added ability to target spaces on the map. Right-click on the map and select Target Map to place a target where you clicked. You can also hover your mouse and press F5. This only works if you currently control the map, so you may need to right-click and Take Control if it is not your turn.",

@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Star Trek: Tactics IV" id="c0f7ad24-7ec4-45d4-b147-39646f2aa50a" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="c15a8fdf-c1c2-4ea6-91aa-ec31eae6e92c" name="1st Wave Attack Fighters" size="Card">
       <property name="Unit ID" value="trek4001" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Dominion" />
+      <property name="Team Abilities Search" value="| Dominion |" />
       <property name="Keywords" value="Soldier | Dominion" />
+      <property name="Keywords Search" value="| Soldier | Dominion |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
@@ -70,12 +72,15 @@
     </card>
     <card id="e148145e-b538-42df-94fd-a6be47d05539" name="1st Wave Attack Fighters" size="Card">
       <property name="Unit ID" value="trek4001.1" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="001.1" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Dominion" />
+      <property name="Team Abilities Search" value="| Dominion |" />
       <property name="Keywords" value="Soldier | Dominion" />
+      <property name="Keywords Search" value="| Soldier | Dominion |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
@@ -136,12 +141,15 @@
     </card>
     <card id="5c16c805-5ce8-4bab-a795-219404ca57ee" name="3rd Wing Attack Ship" size="Card">
       <property name="Unit ID" value="trek4002" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Dominion" />
+      <property name="Team Abilities Search" value="| Dominion |" />
       <property name="Keywords" value="Jem'Hadar | Soldier | Dominion" />
+      <property name="Keywords Search" value="| Jem'Hadar | Soldier | Dominion |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -223,12 +231,15 @@
     </card>
     <card id="0a0e3af5-716c-439e-bff9-50f3468da220" name="U.S.S. Valiant" size="Card">
       <property name="Unit ID" value="trek4003" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Federation" />
+      <property name="Team Abilities Search" value="| Federation |" />
       <property name="Keywords" value="Soldier | Federation" />
+      <property name="Keywords Search" value="| Soldier | Federation |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -305,12 +316,15 @@
     </card>
     <card id="ba23e683-6f50-4c04-aec7-9df75311d0b8" name="U.S.S. Lakota" size="Card">
       <property name="Unit ID" value="trek4004" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Federation" />
+      <property name="Team Abilities Search" value="| Federation |" />
       <property name="Keywords" value="Scientist | Soldier | Federation" />
+      <property name="Keywords Search" value="| Scientist | Soldier | Federation |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -404,12 +418,15 @@
     </card>
     <card id="d529289d-327c-4ceb-88ac-374295beb301" name="I.K.S. Pagh" size="Card">
       <property name="Unit ID" value="trek4005" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Klingon Empire Tactics" />
+      <property name="Team Abilities Search" value="| Klingon Empire Tactics |" />
       <property name="Keywords" value="Klingon | Soldier" />
+      <property name="Keywords Search" value="| Klingon | Soldier |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -482,11 +499,13 @@
     </card>
     <card id="ff4dbd00-eb41-41e1-bf28-df6170801087" name="Tholia One" size="Card">
       <property name="Unit ID" value="trek4006" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Warrior | Tholian" />
+      <property name="Keywords Search" value="| Warrior | Tholian |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -546,11 +565,13 @@
     </card>
     <card id="2474bb98-4386-4fec-a37e-3632773ac8d3" name="Diaspora" size="Card">
       <property name="Unit ID" value="trek4007" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Soldier | Xindi" />
+      <property name="Keywords Search" value="| Soldier | Xindi |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -602,11 +623,13 @@
     </card>
     <card id="a6b95957-3b90-44e8-b291-89135e30cdb8" name="I.S.S. Enterprise" size="Card">
       <property name="Unit ID" value="trek4008" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Warrior | Terran Empire" />
+      <property name="Keywords Search" value="| Warrior | Terran Empire |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -670,11 +693,13 @@
     </card>
     <card id="6d0d1bf4-1dc9-494f-87e7-b6c3cac0a118" name="I.S.S. Avenger" size="Card">
       <property name="Unit ID" value="trek4009" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Soldier | Terran Empire" />
+      <property name="Keywords Search" value="| Soldier | Terran Empire |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -736,12 +761,15 @@
     </card>
     <card id="ed5784af-7397-4ca4-9809-2015862a9260" name="Sphere 936" size="Card">
       <property name="Unit ID" value="trek4010" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Borg Tactics" />
+      <property name="Team Abilities Search" value="| Borg Tactics |" />
       <property name="Keywords" value="Borg" />
+      <property name="Keywords Search" value="| Borg |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -832,12 +860,15 @@
     </card>
     <card id="69081b06-69b1-40e0-ae18-1fdc8de3571e" name="I.R.W. Belak" size="Card">
       <property name="Unit ID" value="trek4011" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Politician | Romulan | Spy" />
+      <property name="Keywords Search" value="| Politician | Romulan | Spy |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -922,12 +953,15 @@
     </card>
     <card id="14e82712-5432-40d8-a9fd-d6f0764c71e1" name="Prakesh" size="Card">
       <property name="Unit ID" value="trek4012" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Dominion" />
+      <property name="Team Abilities Search" value="| Dominion |" />
       <property name="Keywords" value="Cardassian | Politician | Soldier | Dominion" />
+      <property name="Keywords Search" value="| Cardassian | Politician | Soldier | Dominion |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1010,12 +1044,15 @@
     </card>
     <card id="51ef4c46-6cdb-4a5b-9ec9-e861c7cf3d53" name="U.S.S. Thunderchild" size="Card">
       <property name="Unit ID" value="trek4013" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Federation" />
+      <property name="Team Abilities Search" value="| Federation |" />
       <property name="Keywords" value="Soldier | Federation" />
+      <property name="Keywords Search" value="| Soldier | Federation |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1086,12 +1123,15 @@
     </card>
     <card id="e007d954-36a8-4960-a8af-d55d94a0e5c6" name="U.S.S. Phoenix" size="Card">
       <property name="Unit ID" value="trek4014" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Federation" />
+      <property name="Team Abilities Search" value="| Federation |" />
       <property name="Keywords" value="Scientist | Spy | Federation" />
+      <property name="Keywords Search" value="| Scientist | Spy | Federation |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1164,12 +1204,15 @@
     </card>
     <card id="a3e5cd27-2434-4bb7-a50c-919d49af0141" name="I.K.S. Toh'Kaht" size="Card">
       <property name="Unit ID" value="trek4015" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Klingon Empire Tactics" />
+      <property name="Team Abilities Search" value="| Klingon Empire Tactics |" />
       <property name="Keywords" value="Klingon | Warrior" />
+      <property name="Keywords Search" value="| Klingon | Warrior |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1241,12 +1284,15 @@
     </card>
     <card id="ed2fd441-f6f2-4c74-b177-5fb5971be1fd" name="I.K.S. Amar" size="Card">
       <property name="Unit ID" value="trek4016" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Klingon Empire Tactics" />
+      <property name="Team Abilities Search" value="| Klingon Empire Tactics |" />
       <property name="Keywords" value="Klingon | Warrior" />
+      <property name="Keywords Search" value="| Klingon | Warrior |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1327,12 +1373,15 @@
     </card>
     <card id="819e525d-9810-4e1e-9326-f22db434aaf5" name="Kohlar's Battle Cruiser" size="Card">
       <property name="Unit ID" value="trek4017" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Klingon Empire Tactics" />
+      <property name="Team Abilities Search" value="| Klingon Empire Tactics |" />
       <property name="Keywords" value="Klingon | Warrior" />
+      <property name="Keywords Search" value="| Klingon | Warrior |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1402,11 +1451,13 @@
     </card>
     <card id="34fcd445-3655-4956-8616-d7a2c102aa3a" name="Azati Prime" size="Card">
       <property name="Unit ID" value="trek4018" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="125" />
       <property name="Keywords" value="Politician | Xindi" />
+      <property name="Keywords Search" value="| Politician | Xindi |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1488,12 +1539,15 @@
     </card>
     <card id="6a49467d-2ab0-425e-bf23-2db89dc223ec" name="I.R.W. Gal Gath'Thong" size="Card">
       <property name="Unit ID" value="trek4019" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Romulan | Soldier" />
+      <property name="Keywords Search" value="| Romulan | Soldier |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1567,12 +1621,15 @@
     </card>
     <card id="9afb8b32-1179-4adf-abf4-b9cca5c6d94c" name="Prototype 01" size="Card">
       <property name="Unit ID" value="trek4020" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Romulan | Soldier" />
+      <property name="Keywords Search" value="| Romulan | Soldier |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1651,12 +1708,15 @@
     </card>
     <card id="c2f43948-88b1-4454-b470-be6c84d222cf" name="Scorpion 4" size="Card">
       <property name="Unit ID" value="trek4021" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="25" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Reman | Romulan | Warrior" />
+      <property name="Keywords Search" value="| Reman | Romulan | Warrior |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
@@ -1697,12 +1757,15 @@
     </card>
     <card id="1a68bbdf-aac7-44f7-8259-ec8d26ab9041" name="U.S.S. Enterprise" size="Card">
       <property name="Unit ID" value="trek4022" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Federation" />
+      <property name="Team Abilities Search" value="| Federation |" />
       <property name="Keywords" value="Scientist | Soldier | Federation" />
+      <property name="Keywords Search" value="| Scientist | Soldier | Federation |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1790,12 +1853,15 @@
     </card>
     <card id="413c7ec3-5936-4bbe-846e-8e7cee4f234b" name="Fighter Squadron 6" size="Card">
       <property name="Unit ID" value="trek4023" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="023" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Federation" />
+      <property name="Team Abilities Search" value="| Federation |" />
       <property name="Keywords" value="Federation" />
+      <property name="Keywords Search" value="| Federation |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
@@ -1847,12 +1913,15 @@
     </card>
     <card id="1ae1c2d1-47c9-4991-9a20-cc4acfd41761" name="Chang's Bird-Of-Prey" size="Card">
       <property name="Unit ID" value="trek4024" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Klingon Empire Tactics" />
+      <property name="Team Abilities Search" value="| Klingon Empire Tactics |" />
       <property name="Keywords" value="Klingon | Soldier | Warrior" />
+      <property name="Keywords Search" value="| Klingon | Soldier | Warrior |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1926,11 +1995,13 @@
     </card>
     <card id="2c2d9698-d6ea-4321-be7d-7641ff79a17f" name="Xindus" size="Card">
       <property name="Unit ID" value="trek4025" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="150" />
       <property name="Keywords" value="Warrior | Xindi" />
+      <property name="Keywords Search" value="| Warrior | Xindi |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2023,11 +2094,13 @@
     </card>
     <card id="ee1cc845-3a3b-4fcb-9ec2-901556c08422" name="Bioship Omega" size="Card">
       <property name="Unit ID" value="trek4026" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Species 8472 | Warrior" />
+      <property name="Keywords Search" value="| Species 8472 | Warrior |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2109,12 +2182,15 @@
     </card>
     <card id="7126329d-6ef5-47a7-a6f3-3c84c8065fa0" name="Scimitar" size="Card">
       <property name="Unit ID" value="trek4027" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="250/200" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Politician | Reman | Romulan | Warrior" />
+      <property name="Keywords Search" value="| Politician | Reman | Romulan | Warrior |" />
       <property name="Range" value="9" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2223,13 +2299,16 @@
     </card>
     <card id="9be8b0fc-599a-493a-ba59-1b516b48d98d" name="Scimitar" size="Card">
       <property name="Unit ID" value="trek4027.1" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="027.1" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="250/200" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Politician | Reman | Romulan | Warrior" />
+      <property name="Keywords Search" value="| Politician | Reman | Romulan | Warrior |" />
       <property name="Range" value="9" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2338,12 +2417,15 @@
     </card>
     <card id="2f6ca7b2-979b-4a36-bf75-33a0f815803a" name="I.R.W. Vrax" size="Card">
       <property name="Unit ID" value="trek4028" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Romulan | Warrior" />
+      <property name="Keywords Search" value="| Romulan | Warrior |" />
       <property name="Range" value="8" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2426,12 +2508,15 @@
     </card>
     <card id="c8b372e0-da13-40f8-a913-b7c4e256f344" name="U.S.S. Enterprise" size="Card">
       <property name="Unit ID" value="trek4101" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="101" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Federation" />
+      <property name="Team Abilities Search" value="| Federation |" />
       <property name="Keywords" value="Scientist | Federation" />
+      <property name="Keywords Search" value="| Scientist | Federation |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2517,11 +2602,13 @@
     </card>
     <card id="e331973d-1da5-438c-8bd2-2f10ae3de49f" name="U.S.S. Hood" size="Card">
       <property name="Unit ID" value="trek4102" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="102" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100" />
       <property name="Keywords" value="Scientist | Federation" />
+      <property name="Keywords Search" value="| Scientist | Federation |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2593,12 +2680,15 @@
     </card>
     <card id="40829467-7d73-485c-b3c0-da967bbb6736" name="I.R.W. Vorta Vor" size="Card">
       <property name="Unit ID" value="trek4103" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="103" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Romulan | Spy" />
+      <property name="Keywords Search" value="| Romulan | Spy |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2673,12 +2763,15 @@
     </card>
     <card id="e005e127-1286-49c3-a8fd-504934bcb488" name="I.R.W. Algernon" size="Card">
       <property name="Unit ID" value="trek4104" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="104" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Romulan Star Empire Tactics" />
+      <property name="Team Abilities Search" value="| Romulan Star Empire Tactics |" />
       <property name="Keywords" value="Politician | Romulan | Spy" />
+      <property name="Keywords Search" value="| Politician | Romulan | Spy |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2766,34 +2859,40 @@
     </card>
     <card id="87252b3a-8879-47ca-abc3-c253021bde98" name="Caretaker's Array" size="16x24">
       <property name="Unit ID" value="trek4M001" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="3ad82612-7378-451a-9194-9d5cd76bc042" name="The Battle of Chin'Toka" size="16x24">
       <property name="Unit ID" value="trek4M002" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="9f81f8aa-5268-44fd-ac45-3b242d88ff20" name="Mutara Nebula" size="16x24">
       <property name="Unit ID" value="trek4M003" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="M003" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="ORANGE BOUNDARY LINES ARE THE MUTARA NEBULA&#10;When attacking a ship occupying a Mutara Nebula square, modify the attacker's attack -2. A ship occupying a Mutara Nebula square modifies its range -3." />
     </card>
     <card id="b1c7b3b8-9aef-47cf-a3fb-7a691b9f9e07" name="Briar Patch" size="16x24">
       <property name="Unit ID" value="trek4M004" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="M004" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="ORANGE BOUNDARY LINES ARE METREON PARTICLES&#10;If a ship occupies a square of Metreon particles when it makes a range attack or is attacked by a range attack, roll 1d6. [d:6]: After resolutions, deal the ship 1 unavoidable damage." />
     </card>
     <card id="9876e5bb-0c91-4b36-9681-08c823127390" name="Tholian Web" size="16x24">
       <property name="Unit ID" value="trek4M005" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="M005" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="ORANGE BOUNDARY LINES ARE THOLIAN WEBS&#10;Tholian Webs block line of fire. If a ship moves through a Tholian Web, after resolutions it is dealt 1 unavoidable damage." />
     </card>
     <card id="9fb3fe63-ecf8-4456-bef1-0ca36d8b5585" name="Proving Grounds" size="16x24">
       <property name="Unit ID" value="trek4M006" />
+      <property name="Set Search" value="| Star Trek: Tactics IV |" />
       <property name="Collector Number" value="M006" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="ORANGE BOUNDARY LINES ARE THE ANOMALY FIELD&#10;At the end of each player's turn, both players roll 2d6. For each roll of [d:1], the player must assign an action token to a friendly ship." />

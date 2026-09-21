@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Rebirth" id="7883bc8d-1085-40ed-b72f-95df5a798fda" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="9a58d6ed-04cd-46e6-a66b-4063b1ff517f" name="Deathstroke" size="Card">
       <property name="Unit ID" value="re001" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Hive | Martial Artist | Soldier | Suicide Squad" />
+      <property name="Keywords Search" value="| Assassin | Hive | Martial Artist | Soldier | Suicide Squad |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -91,11 +93,13 @@
     </card>
     <card id="e73c0a39-0ec8-4eac-a45e-2ebc8370782c" name="Jericho" size="Card">
       <property name="Unit ID" value="re002" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Armor | Defiance" />
+      <property name="Keywords Search" value="| Armor | Defiance |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -162,11 +166,13 @@
     </card>
     <card id="510dd9e4-14ed-4d8a-8bbf-914ab2d84ead" name="Rose Wilson" size="Card">
       <property name="Unit ID" value="re003" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Assassin | Martial Artist | Defiance" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Defiance |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -237,11 +243,13 @@
     </card>
     <card id="cc6db222-1ae3-441d-9cf8-65a5a182ae7f" name="Terra" size="Card">
       <property name="Unit ID" value="re004" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="65" />
       <property name="Keywords" value="Defiance" />
+      <property name="Keywords Search" value="| Defiance |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -309,12 +317,15 @@
     </card>
     <card id="94275b16-b1fe-4e71-9a36-21501aa9cc17" name="Kid Flash" size="Card">
       <property name="Unit ID" value="re005" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Central City | Speedster | Teen Titans" />
+      <property name="Keywords Search" value="| Central City | Speedster | Teen Titans |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -370,12 +381,15 @@
     </card>
     <card id="ed287b8c-3ad9-4932-94a5-5c529768701c" name="Power Girl" size="Card">
       <property name="Unit ID" value="re006" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="S.T.A.R. Labs | Scientist | Teen Titans" />
+      <property name="Keywords Search" value="| S.T.A.R. Labs | Scientist | Teen Titans |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -443,12 +457,15 @@
     </card>
     <card id="d1446668-11d4-4539-92b4-5a739919dd4d" name="Commander Steel" size="Card">
       <property name="Unit ID" value="re007" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Justice Society" />
+      <property name="Team Abilities Search" value="| Justice Society |" />
       <property name="Keywords" value="All Star Squadron | Justice Society | Past | Soldier" />
+      <property name="Keywords Search" value="| All Star Squadron | Justice Society | Past | Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -504,12 +521,15 @@
     </card>
     <card id="1e398d8f-4f2e-4145-bc82-1905bdef66bc" name="Adeline Kane" size="Card">
       <property name="Unit ID" value="re008" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="A.R.G.U.S. | Hive | Politician | Soldier | Spy" />
+      <property name="Keywords Search" value="| A.R.G.U.S. | Hive | Politician | Soldier | Spy |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -564,12 +584,15 @@
     </card>
     <card id="bffffbc4-5067-413f-8f1f-e9c4948d0d85" name="Deimos" size="Card">
       <property name="Unit ID" value="re009" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Godwatch | Monster | Deity" />
+      <property name="Keywords Search" value="| Godwatch | Monster | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -631,12 +654,15 @@
     </card>
     <card id="774df93f-2cb1-4a07-8aa2-77ad58fd700c" name="Nightwing" size="Card">
       <property name="Unit ID" value="re010" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Batman Ally | Titans" />
+      <property name="Team Abilities Search" value="| Batman Ally | Titans |" />
       <property name="Keywords" value="Batman Family | Martial Artist | Teen Titans" />
+      <property name="Keywords Search" value="| Batman Family | Martial Artist | Teen Titans |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -716,11 +742,13 @@
     </card>
     <card id="4294687d-d429-44e0-861f-53ae26feee44" name="Duke Thomas" size="Card">
       <property name="Unit ID" value="re011a" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="011a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="35" />
       <property name="Keywords" value="Gotham City | Martial Artist" />
+      <property name="Keywords Search" value="| Gotham City | Martial Artist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -778,13 +806,16 @@
     </card>
     <card id="6b8a2c3e-ca45-4d74-a010-3038bcf6d116" name="The Signal" size="Card">
       <property name="Unit ID" value="re011b" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="011b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -853,12 +884,15 @@
     </card>
     <card id="9a00b3c2-1bfe-4a28-98b2-e85b105010ff" name="Aqualad" size="Card">
       <property name="Unit ID" value="re012" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Atlantis | Teen Titans" />
+      <property name="Keywords Search" value="| Atlantis | Teen Titans |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Shield | Starburst" />
@@ -933,12 +967,15 @@
     </card>
     <card id="9ceaec58-a5d4-4cdb-b3c9-184d45b7cf66" name="Cyborg" size="Card">
       <property name="Unit ID" value="re013" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Justice League | Robot | Teen Titans" />
+      <property name="Keywords Search" value="| Justice League | Robot | Teen Titans |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1017,11 +1054,13 @@
     </card>
     <card id="60f1ce4a-2a4e-4af1-98c5-f3c520ac4e02" name="Prez Rickard" size="Card">
       <property name="Unit ID" value="re014" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="35" />
       <property name="Keywords" value="Politician" />
+      <property name="Keywords Search" value="| Politician |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1073,12 +1112,15 @@
     </card>
     <card id="732511f7-605e-460c-b389-60d025108a9e" name="Wonder Woman" size="Card">
       <property name="Unit ID" value="re015" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Justice League | Mystical | Amazon | Warrior | Trinity" />
+      <property name="Keywords Search" value="| Justice League | Mystical | Amazon | Warrior | Trinity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1152,12 +1194,15 @@
     </card>
     <card id="712472b0-d794-4d7b-81d9-5bd1198decd3" name="Super-Man" size="Card">
       <property name="Unit ID" value="re016" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="150/75" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Celebrity | Martial Artist | Mystical | Justice League Of China" />
+      <property name="Keywords Search" value="| Celebrity | Martial Artist | Mystical | Justice League Of China |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1246,11 +1291,13 @@
     </card>
     <card id="032d691b-cb31-400e-9912-5214f2eed1da" name="Deathstroke" size="Card">
       <property name="Unit ID" value="re017" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Assassin | Martial Artist | Soldier | Defiance" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Soldier | Defiance |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1331,12 +1378,15 @@
     </card>
     <card id="2b945235-bf17-45d2-8b56-0c947bb6767d" name="Jericho" size="Card">
       <property name="Unit ID" value="re018" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Armor | Teen Titans" />
+      <property name="Keywords Search" value="| Armor | Teen Titans |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1411,12 +1461,15 @@
     </card>
     <card id="cafd4261-ea8d-4b09-a105-34404bdb181b" name="Ravager" size="Card">
       <property name="Unit ID" value="re019" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Assassin | Martial Artist | Teen Titans" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Teen Titans |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1487,12 +1540,15 @@
     </card>
     <card id="ac3deea1-c7d0-4c2e-97ed-7dc9b0bd299d" name="Terra" size="Card">
       <property name="Unit ID" value="re020" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Hive | Spy | Teen Titans" />
+      <property name="Keywords Search" value="| Hive | Spy | Teen Titans |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1574,11 +1630,13 @@
     </card>
     <card id="60c0cc14-c796-43c4-af65-4b77e9d4d56b" name="Kid Flash" size="Card">
       <property name="Unit ID" value="re021" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Central City | Speedster | Defiance" />
+      <property name="Keywords Search" value="| Central City | Speedster | Defiance |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1648,11 +1706,13 @@
     </card>
     <card id="a97d1e2f-ce05-4540-a9e4-7ab7e4be909b" name="Power Girl" size="Card">
       <property name="Unit ID" value="re022" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="115/75" />
       <property name="Keywords" value="S.T.A.R. Labs | Scientist | Defiance" />
+      <property name="Keywords Search" value="| S.T.A.R. Labs | Scientist | Defiance |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1738,12 +1798,15 @@
     </card>
     <card id="a17036b5-8a8e-4e73-b995-da4455200a1f" name="Steel" size="Card">
       <property name="Unit ID" value="re023a" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="023a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Justice League | Robot" />
+      <property name="Keywords Search" value="| Justice League | Robot |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1836,13 +1899,16 @@
     </card>
     <card id="4365f055-7d86-40ce-82df-c2fd096c67ef" name="Citizen Steel" size="Card">
       <property name="Unit ID" value="re023b" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="023b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="110/35" />
       <property name="Team Abilities" value="Justice Society" />
+      <property name="Team Abilities Search" value="| Justice Society |" />
       <property name="Keywords" value="Celebrity | Justice Society" />
+      <property name="Keywords Search" value="| Celebrity | Justice Society |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1939,11 +2005,13 @@
     </card>
     <card id="8100c0b2-0b8b-4996-bad2-c5fc7a620c76" name="Veronica Cale" size="Card">
       <property name="Unit ID" value="re024" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="35" />
       <property name="Keywords" value="Godwatch | Scientist" />
+      <property name="Keywords Search" value="| Godwatch | Scientist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2002,12 +2070,15 @@
     </card>
     <card id="2cbdff71-5185-4d1c-89e7-7694f2bfab78" name="Phobos" size="Card">
       <property name="Unit ID" value="re025" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Godwatch | Monster | Deity" />
+      <property name="Keywords Search" value="| Godwatch | Monster | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2069,11 +2140,13 @@
     </card>
     <card id="d9daa81d-9712-406e-ba65-ccf7b5642cbf" name="Billy Batson" size="Card">
       <property name="Unit ID" value="re026" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40/20" />
       <property name="Keywords" value="Justice League | Justice Society | Reporter | Mystical | Justice League International | Fawcett City" />
+      <property name="Keywords Search" value="| Justice League | Justice Society | Reporter | Mystical | Justice League International | Fawcett City |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2118,11 +2191,13 @@
     </card>
     <card id="22d3d7db-aaed-4074-9429-d33d7b7d3647" name="Colonel Poison" size="Card">
       <property name="Unit ID" value="re027" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Godwatch | Scientist | Soldier" />
+      <property name="Keywords Search" value="| Godwatch | Scientist | Soldier |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2180,12 +2255,15 @@
     </card>
     <card id="1d40e4e9-f922-4d6a-9c63-434b5090e7a0" name="Tempest" size="Card">
       <property name="Unit ID" value="re028" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Atlantis | Mystical | Teen Titans" />
+      <property name="Keywords Search" value="| Atlantis | Mystical | Teen Titans |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Shield | Starburst" />
@@ -2262,12 +2340,15 @@
     </card>
     <card id="7e266373-3196-47c3-8cbc-62faef9e0fbc" name="Mr. Terrific" size="Card">
       <property name="Unit ID" value="re029" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="029" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Justice Society" />
+      <property name="Team Abilities Search" value="| Justice Society |" />
       <property name="Keywords" value="Celebrity | Justice Society | Scientist | Terrifics" />
+      <property name="Keywords Search" value="| Celebrity | Justice Society | Scientist | Terrifics |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2337,6 +2418,7 @@
     </card>
     <card id="a1014327-ee72-429b-aab4-81f9deb5ab3c" name="T-Sphere" size="Card">
       <property name="Unit ID" value="re029bt" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="029bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Uncommon" />
@@ -2359,12 +2441,15 @@
     </card>
     <card id="e3e7d0fe-2799-449e-afaf-ddb9e12e4b98" name="Artemis" size="Card">
       <property name="Unit ID" value="re030" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="030" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Outsiders" />
+      <property name="Team Abilities Search" value="| Outsiders |" />
       <property name="Keywords" value="Outlaws | Amazon | Warrior" />
+      <property name="Keywords Search" value="| Outlaws | Amazon | Warrior |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2451,12 +2536,15 @@
     </card>
     <card id="f65b0007-734b-4690-9a6d-e9a67d5d7aa0" name="Batman" size="Card">
       <property name="Unit ID" value="re031" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="031" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Justice League | Outsiders" />
+      <property name="Team Abilities Search" value="| Justice League | Outsiders |" />
       <property name="Keywords" value="Batman Family | Gotham City | Justice League | Outsiders | Trinity | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Justice League | Outsiders | Trinity | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2524,11 +2612,13 @@
     </card>
     <card id="9222e69d-6ab3-4b51-99e7-7fe075b22e9d" name="The-Flash" size="Card">
       <property name="Unit ID" value="re032" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="032" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100/75" />
       <property name="Keywords" value="Speedster | Spy | Justice League Of China" />
+      <property name="Keywords Search" value="| Speedster | Spy | Justice League Of China |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2611,12 +2701,15 @@
     </card>
     <card id="18203d64-bd0e-4419-835b-0ebda0b7cf7b" name="Superboy" size="Card">
       <property name="Unit ID" value="re033" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="033" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Superman Ally | Titans" />
+      <property name="Team Abilities Search" value="| Superman Ally | Titans |" />
       <property name="Keywords" value="Kryptonian | Metropolis | Teen Titans" />
+      <property name="Keywords Search" value="| Kryptonian | Metropolis | Teen Titans |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2679,12 +2772,15 @@
     </card>
     <card id="cc2fb209-7e99-4999-b124-f42926398324" name="Orphan" size="Card">
       <property name="Unit ID" value="re034" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="034" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Assassin | Batman Family | Gotham City | League Of Assassins | Martial Artist" />
+      <property name="Keywords Search" value="| Assassin | Batman Family | Gotham City | League Of Assassins | Martial Artist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2766,12 +2862,15 @@
     </card>
     <card id="b9c3fcd4-5eba-4917-a00c-6744d14edda8" name="Superwoman" size="Card">
       <property name="Unit ID" value="re035" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="035" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Metropolis | Reporter | Scientist" />
+      <property name="Keywords Search" value="| Metropolis | Reporter | Scientist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2852,11 +2951,13 @@
     </card>
     <card id="d8c6900e-8f6c-4ffe-8eab-66df4b485ec3" name="Dolphin" size="Card">
       <property name="Unit ID" value="re036" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="036" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Atlantis | Forgotten Heroes" />
+      <property name="Keywords Search" value="| Atlantis | Forgotten Heroes |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Dolphin | Fist | Shield | Starburst" />
@@ -2937,12 +3038,15 @@
     </card>
     <card id="1a4b1cee-ff66-4cc1-bbdc-acd903e7d309" name="Shazam" size="Card">
       <property name="Unit ID" value="re037a" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="037a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="200/100" />
       <property name="Team Abilities" value="Mystics | Justice League" />
+      <property name="Team Abilities Search" value="| Mystics | Justice League |" />
       <property name="Keywords" value="Justice League | Justice Society | Mystical | Justice League International | Deity | Fawcett City" />
+      <property name="Keywords Search" value="| Justice League | Justice Society | Mystical | Justice League International | Deity | Fawcett City |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3044,13 +3148,16 @@
     </card>
     <card id="b9d64e4e-a4dc-4032-a738-7b0e93823fbd" name="Black Adam" size="Card">
       <property name="Unit ID" value="re037b" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="037b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="200/100" />
       <property name="Team Abilities" value="Mystics | Quintessence" />
+      <property name="Team Abilities Search" value="| Mystics | Quintessence |" />
       <property name="Keywords" value="Injustice Society | Justice Society | Ruler | Secret Society Of Super Villains | Mystical | Warrior" />
+      <property name="Keywords Search" value="| Injustice Society | Justice Society | Ruler | Secret Society Of Super Villains | Mystical | Warrior |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3155,12 +3262,15 @@
     </card>
     <card id="0fbc899e-1e43-4c03-aa9e-e99ee81433b1" name="Beast Boy" size="Card">
       <property name="Unit ID" value="re038" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="038" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Animal | Teen Titans | Doom Patrol" />
+      <property name="Keywords Search" value="| Animal | Teen Titans | Doom Patrol |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3235,12 +3345,15 @@
     </card>
     <card id="a29f2e40-583e-4186-b36a-16cc7b3d8a62" name="Bumblebee" size="Card">
       <property name="Unit ID" value="re039" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="039" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Armor | S.T.A.R. Labs | Scientist | Teen Titans | Doom Patrol" />
+      <property name="Keywords Search" value="| Armor | S.T.A.R. Labs | Scientist | Teen Titans | Doom Patrol |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3320,12 +3433,15 @@
     </card>
     <card id="96ba1200-31bf-4a97-9216-9ca398a57ddb" name="Raven" size="Card">
       <property name="Unit ID" value="re040" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="040" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="65/50" />
       <property name="Team Abilities" value="Mystics | Titans" />
+      <property name="Team Abilities Search" value="| Mystics | Titans |" />
       <property name="Keywords" value="Monster | Mystical | Teen Titans" />
+      <property name="Keywords Search" value="| Monster | Mystical | Teen Titans |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3405,12 +3521,15 @@
     </card>
     <card id="6c751751-9c9f-4492-ac7e-73877c46471b" name="Cyclone" size="Card">
       <property name="Unit ID" value="re041" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="041" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Justice Society" />
+      <property name="Team Abilities Search" value="| Justice Society |" />
       <property name="Keywords" value="Justice Society" />
+      <property name="Keywords Search" value="| Justice Society |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3474,12 +3593,15 @@
     </card>
     <card id="f261dede-d262-4a1c-8574-25965eb1971d" name="Adrianna Tomaz" size="Card">
       <property name="Unit ID" value="re042" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="042" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Mystical | Deity" />
+      <property name="Keywords Search" value="| Mystical | Deity |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3547,11 +3669,13 @@
     </card>
     <card id="6fdfbb9d-aed2-490b-a68e-374dc2548620" name="Lady Vic" size="Card">
       <property name="Unit ID" value="re043" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="043" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Assassin | Injustice League | Martial Artist | Secret Six" />
+      <property name="Keywords Search" value="| Assassin | Injustice League | Martial Artist | Secret Six |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3633,11 +3757,13 @@
     </card>
     <card id="6e83e27a-6350-4d2a-b4a2-1d161a531976" name="Shade, The Changing Girl" size="Card">
       <property name="Unit ID" value="re044" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="044" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Cosmic" />
+      <property name="Keywords Search" value="| Cosmic |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3715,12 +3841,15 @@
     </card>
     <card id="9d02e1c4-1be3-47eb-9d59-6682f5352986" name="Aquaman" size="Card">
       <property name="Unit ID" value="re045" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="045" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Atlantis | Justice League | Ruler" />
+      <property name="Keywords Search" value="| Atlantis | Justice League | Ruler |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
@@ -3800,12 +3929,15 @@
     </card>
     <card id="cddaa01a-992f-4d10-be12-fbe1f611f26c" name="Red Hood" size="Card">
       <property name="Unit ID" value="re046" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="046" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Ally | Outsiders" />
+      <property name="Team Abilities Search" value="| Batman Ally | Outsiders |" />
       <property name="Keywords" value="Batman Family | Martial Artist | Outlaws" />
+      <property name="Keywords Search" value="| Batman Family | Martial Artist | Outlaws |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3883,12 +4015,15 @@
     </card>
     <card id="ca4c9570-9fa9-4731-8c53-fe52a5c78a9d" name="The Flash" size="Card">
       <property name="Unit ID" value="re047" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="047" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Central City | Justice League | Police | Scientist | Speedster" />
+      <property name="Keywords Search" value="| Central City | Justice League | Police | Scientist | Speedster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3959,11 +4094,13 @@
     </card>
     <card id="a3c3c2e7-f203-455d-8fbe-afbe6ae9b99c" name="Bat-Man" size="Card">
       <property name="Unit ID" value="re048" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="048" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100/75" />
       <property name="Keywords" value="Martial Artist | Scientist | Justice League Of China" />
+      <property name="Keywords Search" value="| Martial Artist | Scientist | Justice League Of China |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4044,11 +4181,13 @@
     </card>
     <card id="aa79403c-4eff-471e-aec9-8719841bc4cc" name="Black Canary" size="Card">
       <property name="Unit ID" value="re049" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="049" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65" />
       <property name="Keywords" value="Celebrity | Bombshells" />
+      <property name="Keywords Search" value="| Celebrity | Bombshells |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4119,13 +4258,16 @@
     </card>
     <card id="512b9b44-ef9f-4823-9a8f-605a9a352696" name="Robin" size="Card">
       <property name="Unit ID" value="re050" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="050" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="125/75" />
       <property name="Team Abilities" value="Batman Ally | Titans" />
+      <property name="Team Abilities Search" value="| Batman Ally | Titans |" />
       <property name="Keywords" value="Assassin | Batman Family | Animal | League Of Assassins | Martial Artist | Teen Titans" />
+      <property name="Keywords Search" value="| Assassin | Batman Family | Animal | League Of Assassins | Martial Artist | Teen Titans |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4214,12 +4356,15 @@
     </card>
     <card id="ae48041c-3f68-44c9-a2c0-38bedba11f32" name="Lex Luthor" size="Card">
       <property name="Unit ID" value="re051" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="051" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="200/100" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Armor | Apokolips | Justice League | Metropolis | Scientist" />
+      <property name="Keywords Search" value="| Armor | Apokolips | Justice League | Metropolis | Scientist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4322,13 +4467,16 @@
     </card>
     <card id="3ab73f3e-e3f7-473e-a7e9-e1b710dfcb6b" name="Mister Oz" size="Card">
       <property name="Unit ID" value="re052" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="052" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="100/40" />
       <property name="Team Abilities" value="Hypertime | Superman Ally" />
+      <property name="Team Abilities Search" value="| Hypertime | Superman Ally |" />
       <property name="Keywords" value="Cosmic | Kryptonian | Scientist" />
+      <property name="Keywords Search" value="| Cosmic | Kryptonian | Scientist |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4417,12 +4565,15 @@
     </card>
     <card id="1cbd239e-a03f-468d-8903-f8b341295524" name="Clayface" size="Card">
       <property name="Unit ID" value="re053" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="053" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Celebrity | Gotham City | Monster" />
+      <property name="Keywords Search" value="| Batman Family | Celebrity | Gotham City | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4503,12 +4654,15 @@
     </card>
     <card id="30690c7d-2cae-4f0f-a0a4-7410eb3a6a10" name="Black Manta" size="Card">
       <property name="Unit ID" value="re054" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="054" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Injustice League | Legion Of Doom | Pirate | Secret Society Of Super Villains | Suicide Squad" />
+      <property name="Keywords Search" value="| Injustice League | Legion Of Doom | Pirate | Secret Society Of Super Villains | Suicide Squad |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Dolphin | Fist | Shield | Starburst" />
@@ -4576,12 +4730,15 @@
     </card>
     <card id="43c950aa-4fa6-40b0-bc12-d2b4fc3ea586" name="Starfire" size="Card">
       <property name="Unit ID" value="re055" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="055" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Quintessence | Titans" />
+      <property name="Team Abilities Search" value="| Quintessence | Titans |" />
       <property name="Keywords" value="Cosmic | Outlaws | Warrior | Teen Titans" />
+      <property name="Keywords Search" value="| Cosmic | Outlaws | Warrior | Teen Titans |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4658,12 +4815,15 @@
     </card>
     <card id="a1a72777-2273-4c6b-88e3-dddbbf9b2813" name="Jessica Cruz" size="Card">
       <property name="Unit ID" value="re056" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="056" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Green Lantern Corps | Justice League" />
+      <property name="Team Abilities Search" value="| Green Lantern Corps | Justice League |" />
       <property name="Keywords" value="Justice League | Green Lantern Corps" />
+      <property name="Keywords Search" value="| Justice League | Green Lantern Corps |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4730,12 +4890,15 @@
     </card>
     <card id="05390c52-0378-41fa-abe9-ce14d399e38a" name="Deathstroke" size="Card">
       <property name="Unit ID" value="re057" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="057" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Martial Artist | Society | Soldier | Speedster" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Society | Soldier | Speedster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4828,11 +4991,13 @@
     </card>
     <card id="8a93a6db-dd16-4aea-816a-fabce1aeff20" name="Flex Mentallo" size="Card">
       <property name="Unit ID" value="re058" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="058" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Celebrity | Past | Doom Patrol" />
+      <property name="Keywords Search" value="| Celebrity | Past | Doom Patrol |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4909,12 +5074,15 @@
     </card>
     <card id="cd36a771-1941-4d48-a050-608468a7827b" name="Superman" size="Card">
       <property name="Unit ID" value="re059a" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="059a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="175/100" />
       <property name="Team Abilities" value="Justice League | Superman Ally" />
+      <property name="Team Abilities Search" value="| Justice League | Superman Ally |" />
       <property name="Keywords" value="Justice League | Kryptonian | Metropolis | Reporter | Trinity" />
+      <property name="Keywords Search" value="| Justice League | Kryptonian | Metropolis | Reporter | Trinity |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5018,13 +5186,16 @@
     </card>
     <card id="c5a45121-3ec6-49dd-9e7c-67580c0b722f" name="Bizarro" size="Card">
       <property name="Unit ID" value="re059b" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="059b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Outsiders" />
+      <property name="Team Abilities Search" value="| Outsiders |" />
       <property name="Keywords" value="Brute | Outlaws | Monster" />
+      <property name="Keywords Search" value="| Brute | Outlaws | Monster |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5117,11 +5288,13 @@
     </card>
     <card id="0832d620-b2ff-4122-b5a3-158221f58170" name="Wonder-Woman" size="Card">
       <property name="Unit ID" value="re060" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="060" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125/75" />
       <property name="Keywords" value="Animal | Martial Artist | Past | Mystical | Warrior | Justice League Of China" />
+      <property name="Keywords Search" value="| Animal | Martial Artist | Past | Mystical | Warrior | Justice League Of China |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5214,11 +5387,13 @@
     </card>
     <card id="42c553f8-41e5-4c97-b156-c36a36bec134" name="The Red Death" size="Card">
       <property name="Unit ID" value="re061" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="061" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="200/100" />
       <property name="Keywords" value="Speedster | Monster | Dark Knights" />
+      <property name="Keywords Search" value="| Speedster | Monster | Dark Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5319,11 +5494,13 @@
     </card>
     <card id="70cfb372-073b-41c9-8170-0bbeac116dc2" name="The Murder Machine" size="Card">
       <property name="Unit ID" value="re062" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="062" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="200/100" />
       <property name="Keywords" value="Armor | Robot | Monster | Dark Knights" />
+      <property name="Keywords Search" value="| Armor | Robot | Monster | Dark Knights |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5428,12 +5605,15 @@
     </card>
     <card id="a97efb94-d5e0-4e8b-8c81-1af3b3ae45a4" name="The Dawnbreaker" size="Card">
       <property name="Unit ID" value="re063" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="063" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="200/75" />
       <property name="Team Abilities" value="Green Lantern Corps" />
+      <property name="Team Abilities Search" value="| Green Lantern Corps |" />
       <property name="Keywords" value="Green Lantern Corps | Monster | Dark Knights" />
+      <property name="Keywords Search" value="| Green Lantern Corps | Monster | Dark Knights |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5537,11 +5717,13 @@
     </card>
     <card id="a9748cad-19e2-4122-bf22-c40006125fc4" name="The Drowned" size="Card">
       <property name="Unit ID" value="re064" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="064" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="150/75" />
       <property name="Keywords" value="Atlantis | Pirate | Monster | Dark Knights" />
+      <property name="Keywords Search" value="| Atlantis | Pirate | Monster | Dark Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
@@ -5641,12 +5823,15 @@
     </card>
     <card id="f8c95ba4-e3e8-4cac-beff-8f0beaef9583" name="The Merciless" size="Card">
       <property name="Unit ID" value="re065" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="065" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="225/150" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Monster | Dark Knights | Deity" />
+      <property name="Keywords Search" value="| Monster | Dark Knights | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5772,11 +5957,13 @@
     </card>
     <card id="68afbabf-399c-42c7-a937-9db540caf876" name="The Devastator" size="Card">
       <property name="Unit ID" value="re066" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="066" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="225/150" />
       <property name="Keywords" value="Brute | Monster | Dark Knights" />
+      <property name="Keywords Search" value="| Brute | Monster | Dark Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5900,11 +6087,13 @@
     </card>
     <card id="4a95f84f-2bd0-4ba5-a478-eaff0a68cc09" name="The Batman Who Laughs" size="Card">
       <property name="Unit ID" value="re067" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="067" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="175/100" />
       <property name="Keywords" value="Monster | Dark Knights" />
+      <property name="Keywords Search" value="| Monster | Dark Knights |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6010,6 +6199,7 @@
     </card>
     <card id="d15a501f-aeb9-4e6f-9fef-3b3838abbeff" name="Robin" size="Card">
       <property name="Unit ID" value="re067bt" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="067bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
@@ -6032,12 +6222,15 @@
     </card>
     <card id="42c48a78-a7f9-44ba-8ada-fa3cef9b409b" name="Barbatos" size="Card">
       <property name="Unit ID" value="re068" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="068" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="200/100" />
       <property name="Team Abilities" value="Quintessence" />
+      <property name="Team Abilities Search" value="| Quintessence |" />
       <property name="Keywords" value="Monster | Dark Knights | Deity" />
+      <property name="Keywords Search" value="| Monster | Dark Knights | Deity |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Giant" />
@@ -6151,12 +6344,15 @@
     </card>
     <card id="cd3d6121-4acd-4b2c-b3cf-02846419a2f5" name="Mr. Terrific" size="Card">
       <property name="Unit ID" value="re100" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="100" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Justice Society" />
+      <property name="Team Abilities Search" value="| Justice Society |" />
       <property name="Keywords" value="Justice Society | Martial Artist | Scientist" />
+      <property name="Keywords Search" value="| Justice Society | Martial Artist | Scientist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -6211,12 +6407,14 @@
     </card>
     <card id="a7743c19-1f1e-46b5-8a4b-2667ee64710c" name="Titan Tower" size="16x24">
       <property name="Unit ID" value="reM001" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="Express Elevator&#10;Characters occupying the orange squares have &quot;POWER: Place this character in the orange square with the same number as this one. (If it's already occupied, place them as close as possible to that square.)&quot;" />
     </card>
     <card id="3ac9c399-b865-4c21-b28b-b53f43163d3e" name="Metal Arena" size="16x24">
       <property name="Unit ID" value="reM002" />
+      <property name="Set Search" value="| Rebirth |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
     </card>

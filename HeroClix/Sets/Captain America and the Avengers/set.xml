@@ -1,14 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Captain America and the Avengers" id="4bf2f385-b65a-404c-a327-f9b3d0e9c1c3" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="170903cd-6139-4b62-8b99-3529c3cea1fb" name="Isaiah Bradley" size="Card">
       <property name="Unit ID" value="caav001a" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="001a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Past | Soldier" />
+      <property name="Keywords Search" value="| Past | Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -74,12 +75,14 @@
     </card>
     <card id="e27809c5-bc7b-4df3-9aba-1a4565534b73" name="Josiah X" size="Card">
       <property name="Unit ID" value="caav001b" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="001b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Scientist | Soldier | Warrior" />
+      <property name="Keywords Search" value="| Scientist | Soldier | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -157,11 +160,13 @@
     </card>
     <card id="ca3178ef-29fe-4ecc-a1a6-8d5436989a03" name="Iron Man" size="Card">
       <property name="Unit ID" value="caav002" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Armor | Avengers | Scientist | Stark Industries" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -238,11 +243,13 @@
     </card>
     <card id="6f689b5f-b63f-4aa0-94b3-d0bcd5206e0a" name="Citizen V" size="Card">
       <property name="Unit ID" value="caav003" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="55" />
       <property name="Keywords" value="Soldier | V Battalion" />
+      <property name="Keywords Search" value="| Soldier | V Battalion |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -307,13 +314,16 @@
     </card>
     <card id="b54ac40f-fb0c-4231-86aa-0c9ce5313348" name="S.H.I.E.L.D. Agent" size="Card">
       <property name="Unit ID" value="caav004" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="15" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Soldier | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Soldier | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -403,13 +413,16 @@
     </card>
     <card id="7ff38175-89e4-4da7-a20b-6fc6a771d1ac" name="S.H.I.E.L.D. Officer" size="Card">
       <property name="Unit ID" value="caav005" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Soldier | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Soldier | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -466,12 +479,15 @@
     </card>
     <card id="52e83dbf-19eb-46c7-a67f-6f6eb2e98b23" name="Sharon Carter" size="Card">
       <property name="Unit ID" value="caav006" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Avengers | Politician | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Politician | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -514,12 +530,15 @@
     </card>
     <card id="b0a86c08-de08-4dc0-ad33-3dd91a483cb0" name="Nick Fury" size="Card">
       <property name="Unit ID" value="caav007" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Howling Commandos | Politician | Secret Warriors | Soldier | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Howling Commandos | Politician | Secret Warriors | Soldier | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -586,12 +605,15 @@
     </card>
     <card id="2e1ebd74-586c-4dfa-ac84-96a94f8479c8" name="Maria Hill" size="Card">
       <property name="Unit ID" value="caav008" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Politician | Soldier | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Politician | Soldier | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -648,12 +670,15 @@
     </card>
     <card id="01006103-4485-403f-90ea-298ba93ae799" name="Peggy Carter" size="Card">
       <property name="Unit ID" value="caav009" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Howling Commandos | Past | Soldier | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Howling Commandos | Past | Soldier | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -712,12 +737,15 @@
     </card>
     <card id="0e0a3fb2-b7ff-4f9b-a9eb-d5f1929ca4c3" name="Quake" size="Card">
       <property name="Unit ID" value="caav010" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Avengers | Shield" />
+      <property name="Team Abilities Search" value="| Avengers | Shield |" />
       <property name="Keywords" value="Avengers | Inhumans | Secret Warriors | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Inhumans | Secret Warriors | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -798,13 +826,16 @@
     </card>
     <card id="31baa9a7-1ccf-49e3-b0eb-e21ccf8f781e" name="Industrial Spy" size="Card">
       <property name="Unit ID" value="caav011" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="A.I.M. | Hammer Industries | Hydra | Spy" />
+      <property name="Keywords Search" value="| A.I.M. | Hammer Industries | Hydra | Spy |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -852,12 +883,15 @@
     </card>
     <card id="146004af-d7b9-468e-9a5c-28e29acbf318" name="Nuke Clone" size="Card">
       <property name="Unit ID" value="caav012" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="20" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Power Elite | Soldier" />
+      <property name="Keywords Search" value="| Power Elite | Soldier |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -908,11 +942,13 @@
     </card>
     <card id="a86c5dc4-1ca3-400c-b3f5-fe4d6d2ec47c" name="Happy Hogan" size="Card">
       <property name="Unit ID" value="caav013" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="20" />
       <property name="Keywords" value="Avengers | Stark Industries" />
+      <property name="Keywords Search" value="| Avengers | Stark Industries |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -957,12 +993,15 @@
     </card>
     <card id="b93fa16a-b45d-40b3-b2d7-7686685c7a3e" name="Power Man" size="Card">
       <property name="Unit ID" value="caav014" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Lethal Legion | Masters Of Evil | Emissaries Of Evil" />
+      <property name="Keywords Search" value="| Lethal Legion | Masters Of Evil | Emissaries Of Evil |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1027,12 +1066,15 @@
     </card>
     <card id="0457b357-643c-466e-878b-58ac67107023" name="Winter Soldier" size="Card">
       <property name="Unit ID" value="caav015" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Avengers | Hydra | Invaders | Soldier | Spy | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Avengers | Hydra | Invaders | Soldier | Spy | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1112,12 +1154,15 @@
     </card>
     <card id="d6775bde-0afe-4c48-bd32-15cb336055be" name="Singularity" size="Card">
       <property name="Unit ID" value="caav016" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Avengers | Battleworld: Other | Cosmic" />
+      <property name="Keywords Search" value="| Avengers | Battleworld: Other | Cosmic |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1198,11 +1243,13 @@
     </card>
     <card id="541beb20-b665-4a39-bc87-128f34338aae" name="Sidewinder" size="Card">
       <property name="Unit ID" value="caav017" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Ruler | Serpent Society | Spy" />
+      <property name="Keywords Search" value="| Ruler | Serpent Society | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1257,12 +1304,15 @@
     </card>
     <card id="ef1d3ced-5ba7-433b-8bd5-9963f1ab2daf" name="Captain America" size="Card">
       <property name="Unit ID" value="caav018a" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="018a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1342,12 +1392,15 @@
     </card>
     <card id="296a2850-431b-42fb-8342-2a51780bc304" name="The Captain" size="Card">
       <property name="Unit ID" value="caav018b" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="018b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Soldier" />
+      <property name="Keywords Search" value="| Avengers | Soldier |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1422,11 +1475,13 @@
     </card>
     <card id="05e705ca-c5b2-4e93-aac0-59c7ef44ce81" name="Iron Man" size="Card">
       <property name="Unit ID" value="caav019" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Armor | Avengers | Scientist | Stark Industries" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1503,11 +1558,13 @@
     </card>
     <card id="7c80213f-5cca-4fd5-95ef-1561942a16fa" name="Citizen V" size="Card">
       <property name="Unit ID" value="caav020" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Celebrity | Martial Artist | Thunderbolts | V Battalion" />
+      <property name="Keywords Search" value="| Celebrity | Martial Artist | Thunderbolts | V Battalion |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1574,12 +1631,15 @@
     </card>
     <card id="88672217-efa1-4aa1-a69a-8e13e347780a" name="Roz Solomon" size="Card">
       <property name="Unit ID" value="caav021" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Asgardian | Scientist | Spy | S.H.I.E.L.D. | Wakanda" />
+      <property name="Keywords Search" value="| Asgardian | Scientist | Spy | S.H.I.E.L.D. | Wakanda |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1649,12 +1709,15 @@
     </card>
     <card id="7a45ccbf-7a0d-405f-874c-e4448239f39c" name="Dario Agger" size="Card">
       <property name="Unit ID" value="caav022" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="A.I.M. | Hydra | Politician | Ruler | Monster | Mystical" />
+      <property name="Keywords Search" value="| A.I.M. | Hydra | Politician | Ruler | Monster | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1713,11 +1776,13 @@
     </card>
     <card id="04282ceb-e810-4235-a82b-b62dae077ad7" name="Nuke" size="Card">
       <property name="Unit ID" value="caav023" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="023" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="85" />
       <property name="Keywords" value="Assassin | A.I.M. | Hydra | Soldier | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | A.I.M. | Hydra | Soldier | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1796,12 +1861,15 @@
     </card>
     <card id="ba09d3b6-f2be-4dad-9957-37a07a4485c1" name="Doctor Faustus" size="Card">
       <property name="Unit ID" value="caav024" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Hydra | Scientist | Skeleton Crew" />
+      <property name="Keywords Search" value="| Hydra | Scientist | Skeleton Crew |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1868,12 +1936,15 @@
     </card>
     <card id="6bd27a19-3381-4f8a-84a7-abb67165d18a" name="Spymaster" size="Card">
       <property name="Unit ID" value="caav025" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="A.I.M. | Hammer Industries | Spy | Maggia | Zodiac" />
+      <property name="Keywords Search" value="| A.I.M. | Hammer Industries | Spy | Maggia | Zodiac |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1951,12 +2022,15 @@
     </card>
     <card id="dfc97015-3db4-436b-8d80-bf9b189acf75" name="Aleksander Lukin" size="Card">
       <property name="Unit ID" value="caav026" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Hydra | Politician | Power Elite | Ruler" />
+      <property name="Keywords Search" value="| Hydra | Politician | Power Elite | Ruler |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2011,11 +2085,13 @@
     </card>
     <card id="d5140b72-37bf-4903-b095-412f4b912274" name="Minotaur" size="Card">
       <property name="Unit ID" value="caav027" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="125/50" />
       <property name="Keywords" value="Brute | A.I.M. | Animal | Hydra | Ruler | Monster | Mystical" />
+      <property name="Keywords Search" value="| Brute | A.I.M. | Animal | Hydra | Ruler | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2108,11 +2184,13 @@
     </card>
     <card id="ad39f754-68c6-43b7-b365-7a35ee570472" name="Trickshot" size="Card">
       <property name="Unit ID" value="caav028" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Police | Thunderbolts | Dark Avengers" />
+      <property name="Keywords Search" value="| Police | Thunderbolts | Dark Avengers |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2180,12 +2258,15 @@
     </card>
     <card id="e1bcd9d1-d6c4-4767-8836-83a92bb6bafb" name="Zeke Stane" size="Card">
       <property name="Unit ID" value="caav029" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="029" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Armor | Hammer Industries | Hellfire Club | Power Elite | Scientist" />
+      <property name="Keywords Search" value="| Armor | Hammer Industries | Hellfire Club | Power Elite | Scientist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2271,12 +2352,15 @@
     </card>
     <card id="95b09a12-fcd1-4a82-9bd6-4688f24ae3a8" name="Wasp" size="Card">
       <property name="Unit ID" value="caav030" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="030" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75/40" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Celebrity | Lady Liberators | Scientist | Spy | Wakanda" />
+      <property name="Keywords Search" value="| Avengers | Celebrity | Lady Liberators | Scientist | Spy | Wakanda |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
@@ -2347,11 +2431,13 @@
     </card>
     <card id="fa3a0001-efca-42e9-91f1-3955276689b7" name="Jolt" size="Card">
       <property name="Unit ID" value="caav031a" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="031a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Speedster | Thunderbolts" />
+      <property name="Keywords Search" value="| Speedster | Thunderbolts |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2396,12 +2482,14 @@
     </card>
     <card id="3fb5232a-0002-49ef-abb8-d99773bd506f" name="Jolt" size="Card">
       <property name="Unit ID" value="caav031b" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="031b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Speedster | Thunderbolts" />
+      <property name="Keywords Search" value="| Speedster | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2476,11 +2564,13 @@
     </card>
     <card id="8be2027d-4b0e-4f29-952d-99fb6b429619" name="Pepper Potts" size="Card">
       <property name="Unit ID" value="caav032" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="032" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Avengers | Stark Industries" />
+      <property name="Keywords Search" value="| Avengers | Stark Industries |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2535,11 +2625,13 @@
     </card>
     <card id="edb400b4-57eb-4bab-9955-bfc6ea3a535d" name="Victor Mancha" size="Card">
       <property name="Unit ID" value="caav033" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="033" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Avengers | Robot | Runaways" />
+      <property name="Keywords Search" value="| Avengers | Robot | Runaways |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2605,12 +2697,15 @@
     </card>
     <card id="9ab40cc2-39c1-46d8-9c2c-53da3069d0f1" name="Skein" size="Card">
       <property name="Unit ID" value="caav034" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="034" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Celebrity | Masters Of Evil | Thunderbolts" />
+      <property name="Keywords Search" value="| Celebrity | Masters Of Evil | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2680,11 +2775,13 @@
     </card>
     <card id="a355fbe5-aa5b-4077-ac5a-7363f8dbcd3f" name="Iron Man" size="Card">
       <property name="Unit ID" value="caav035" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="035" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Armor | Avengers | Scientist | Stark Industries" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="9" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2761,11 +2858,13 @@
     </card>
     <card id="8996b4bd-016f-4467-aadc-87899d741987" name="Citizen V" size="Card">
       <property name="Unit ID" value="caav036" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="036" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Police | Politician | Soldier | Thunderbolts | V Battalion" />
+      <property name="Keywords Search" value="| Police | Politician | Soldier | Thunderbolts | V Battalion |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2835,12 +2934,15 @@
     </card>
     <card id="1080812e-f74c-4a7c-b070-46131e2d9735" name="Black Panther" size="Card">
       <property name="Unit ID" value="caav037a" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="037a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="85/50" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Avengers | Illuminati | Ruler | Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Avengers | Illuminati | Ruler | Warrior | Wakanda |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2934,12 +3036,14 @@
     </card>
     <card id="3c0b7bad-c9c5-45e2-afd4-b22b0e37a69f" name="Azzuri" size="Card">
       <property name="Unit ID" value="caav037b" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="037b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Past | Ruler | Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Past | Ruler | Warrior | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3010,12 +3114,15 @@
     </card>
     <card id="9461f822-5dd3-42c0-a56c-af59d597d6fa" name="Steve Rogers" size="Card">
       <property name="Unit ID" value="caav038" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="038" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers | Shield" />
+      <property name="Team Abilities Search" value="| Avengers | Shield |" />
       <property name="Keywords" value="Avengers | Howling Commandos | Invaders | Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Howling Commandos | Invaders | Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3080,12 +3187,15 @@
     </card>
     <card id="54cf2d07-8249-4d0e-957e-d2badaa7ff8c" name="Captain America" size="Card">
       <property name="Unit ID" value="caav039" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="039" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3161,12 +3271,15 @@
     </card>
     <card id="bbe4b422-b514-49cf-8194-6f69d82189eb" name="Thor" size="Card">
       <property name="Unit ID" value="caav040" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="040" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Asgardian | Avengers | Warrior | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Warrior | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3241,12 +3354,15 @@
     </card>
     <card id="62c4420d-88aa-48fd-9c62-a8c956812c07" name="Red Skull" size="Card">
       <property name="Unit ID" value="caav041" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="041" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Underworld | Hydra" />
+      <property name="Team Abilities Search" value="| Underworld | Hydra |" />
       <property name="Keywords" value="A.I.M. | Hydra | Power Elite | Ruler | Skeleton Crew | Soldier" />
+      <property name="Keywords Search" value="| A.I.M. | Hydra | Power Elite | Ruler | Skeleton Crew | Soldier |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3328,11 +3444,13 @@
     </card>
     <card id="5378df38-e75d-4d0a-a8a9-b37030cda7fb" name="Minotaur" size="Card">
       <property name="Unit ID" value="caav042" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="042" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Brute | Animal | Monster" />
+      <property name="Keywords Search" value="| Brute | Animal | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3403,12 +3521,15 @@
     </card>
     <card id="9cf28b3e-fd3b-4c11-9c5f-17bf33cc6950" name="Hawkeye" size="Card">
       <property name="Unit ID" value="caav043" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="043" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Avengers | Martial Artist | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | Martial Artist | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="7" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3490,11 +3611,13 @@
     </card>
     <card id="1bbe9811-fdbf-41ae-82e2-14f4724353fe" name="Ghost" size="Card">
       <property name="Unit ID" value="caav044" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="044" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="A.I.M. | Hammer Industries | Scientist | Spy | Maggia | Thunderbolts" />
+      <property name="Keywords Search" value="| A.I.M. | Hammer Industries | Scientist | Spy | Maggia | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3561,13 +3684,16 @@
     </card>
     <card id="c1819313-aaea-43cc-ad4f-08e97f4d6950" name="Baron Zemo" size="Card">
       <property name="Unit ID" value="caav045" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="045" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Past | Scientist | Soldier" />
+      <property name="Keywords Search" value="| Masters Of Evil | Past | Scientist | Soldier |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3637,12 +3763,15 @@
     </card>
     <card id="41aa7d5b-94f2-436f-a3fb-5bcd310d821d" name="Black Knight" size="Card">
       <property name="Unit ID" value="caav046" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="046" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Spy" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Spy |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3711,13 +3840,16 @@
     </card>
     <card id="b19ba7b9-36c1-49c7-b44b-6bda0f64e8d7" name="Melter" size="Card">
       <property name="Unit ID" value="caav047" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="047" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Hammer Industries | Lethal Legion | Masters Of Evil | Maggia" />
+      <property name="Keywords Search" value="| Hammer Industries | Lethal Legion | Masters Of Evil | Maggia |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3785,13 +3917,16 @@
     </card>
     <card id="efb5ac5b-9b16-4529-8a38-b95a37f9e1d5" name="Radioactive Man" size="Card">
       <property name="Unit ID" value="caav048" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="048" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="85/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Thunderbolts" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Thunderbolts |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3881,12 +4016,15 @@
     </card>
     <card id="95a699bf-c56b-4718-9f62-7c7eb3d5e80e" name="Taskmaster" size="Card">
       <property name="Unit ID" value="caav049" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="049" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | A.I.M. | Initiative | Martial Artist | Masters Of Evil | Power Elite | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | A.I.M. | Initiative | Martial Artist | Masters Of Evil | Power Elite | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3953,11 +4091,13 @@
     </card>
     <card id="13bf199e-88a3-4af0-9a16-80943d59c4e9" name="Fixer" size="Card">
       <property name="Unit ID" value="caav050" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="050" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="A.I.M. | Hydra | Masters Of Evil | Scientist | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| A.I.M. | Hydra | Masters Of Evil | Scientist | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4024,11 +4164,13 @@
     </card>
     <card id="1e8d76c1-b569-49bf-9bef-34e3e01ecf94" name="Moonstone" size="Card">
       <property name="Unit ID" value="caav051" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="051" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Celebrity | Masters Of Evil | Thunderbolts | Dark Avengers | Femizons" />
+      <property name="Keywords Search" value="| Celebrity | Masters Of Evil | Thunderbolts | Dark Avengers | Femizons |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4095,12 +4237,15 @@
     </card>
     <card id="d0ae66cb-888e-4ea5-9239-0d5ade78bbc9" name="Spider-Man" size="Card">
       <property name="Unit ID" value="caav052" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="052" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Celebrity | Police | Scientist | Spider Man Family" />
+      <property name="Keywords Search" value="| Celebrity | Police | Scientist | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4226,12 +4371,15 @@
     </card>
     <card id="1bb732e9-a0f4-4d71-a785-b02b504c457f" name="War Machine" size="Card">
       <property name="Unit ID" value="caav053a" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="053a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers | Shield" />
+      <property name="Team Abilities Search" value="| Avengers | Shield |" />
       <property name="Keywords" value="Armor | Avengers | Initiative | Soldier | Stark Industries | S.H.I.E.L.D. | Warrior" />
+      <property name="Keywords Search" value="| Armor | Avengers | Initiative | Soldier | Stark Industries | S.H.I.E.L.D. | Warrior |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4311,13 +4459,16 @@
     </card>
     <card id="25aac4dc-0dab-47b9-b28b-bb977fa66ce6" name="Punisher War Machine" size="Card">
       <property name="Unit ID" value="caav053b" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="053b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="90/60" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Armor | Marvel Knights | Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Armor | Marvel Knights | Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4397,12 +4548,15 @@
     </card>
     <card id="f59b74a1-aa7e-4b27-bc2f-2cddab3d6ce2" name="Captain Marvel" size="Card">
       <property name="Unit ID" value="caav054" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="054" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150/95" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Alpha Flight | Cosmic | Kree | Soldier | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Avengers | Alpha Flight | Cosmic | Kree | Soldier | Guardians Of The Galaxy |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4510,6 +4664,7 @@
     </card>
     <card id="2c574149-09cf-4965-b344-1c6990977363" name="Chewie" size="Card">
       <property name="Unit ID" value="caav054bt" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="054bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -4533,11 +4688,13 @@
     </card>
     <card id="0fe77a33-ba90-4e92-92bc-537337a42c55" name="Arno Stark" size="Card">
       <property name="Unit ID" value="caav055" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="055" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="90/60" />
       <property name="Keywords" value="Armor | Future | Stark Industries" />
+      <property name="Keywords Search" value="| Armor | Future | Stark Industries |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4617,11 +4774,13 @@
     </card>
     <card id="f3d5d53d-7a4e-4493-b118-028db4782708" name="Ironheart" size="Card">
       <property name="Unit ID" value="caav056" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="056" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="85" />
       <property name="Keywords" value="Armor | Champions | Scientist | Stark Industries" />
+      <property name="Keywords Search" value="| Armor | Champions | Scientist | Stark Industries |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4702,12 +4861,15 @@
     </card>
     <card id="f1888b11-211d-4fec-a980-b0da172bb5ac" name="Black Widow" size="Card">
       <property name="Unit ID" value="caav057" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="057" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Avengers | Future | Spy | Monster" />
+      <property name="Keywords Search" value="| Assassin | Avengers | Future | Spy | Monster |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4788,12 +4950,14 @@
     </card>
     <card id="ec3bc694-812e-41ba-85ee-6a02521289fc" name="Immortal Hulk" size="Card">
       <property name="Unit ID" value="caav058" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="058" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="100" />
       <property name="Keywords" value="Avengers | Brute | Monster" />
+      <property name="Keywords Search" value="| Avengers | Brute | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4862,11 +5026,13 @@
     </card>
     <card id="674fedd2-c172-4f76-803d-c07f79d2c650" name="Thor" size="Card">
       <property name="Unit ID" value="caav059" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="059" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="85" />
       <property name="Keywords" value="Asgardian | Avengers | Earth X" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Earth X |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4947,12 +5113,15 @@
     </card>
     <card id="0b8bb81c-6729-46fe-a1e7-b41e403accd8" name="Blade" size="Card">
       <property name="Unit ID" value="caav060" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="060" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Avengers | Marvel Knights | Midnight Sons | Spy | Monster | Mystical | Wakanda" />
+      <property name="Keywords Search" value="| Avengers | Marvel Knights | Midnight Sons | Spy | Monster | Mystical | Wakanda |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5045,12 +5214,14 @@
     </card>
     <card id="f093927d-ce72-46fa-b32e-b9bab3089e66" name="Mandarin" size="Card">
       <property name="Unit ID" value="caav061" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="061" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unequippable" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Mandarin'S Minions | Martial Artist | Ruler | Scientist | Mystical | The Hand" />
+      <property name="Keywords Search" value="| Mandarin'S Minions | Martial Artist | Ruler | Scientist | Mystical | The Hand |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5131,12 +5302,15 @@
     </card>
     <card id="4933aea8-f49d-47bc-94ba-5e5cdf45f2bb" name="Baron Zemo" size="Card">
       <property name="Unit ID" value="caav062" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="062" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65/45" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Martial Artist | Masters Of Evil | Scientist | Thunderbolts" />
+      <property name="Keywords Search" value="| Martial Artist | Masters Of Evil | Scientist | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5218,11 +5392,13 @@
     </card>
     <card id="9e5a86cc-e6f2-4fa7-bbf2-bf96a7e2397b" name="Atlas" size="Card">
       <property name="Unit ID" value="caav063" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="063" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50/25" />
       <property name="Keywords" value="Masters Of Evil | Thunderbolts" />
+      <property name="Keywords Search" value="| Masters Of Evil | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Giant" />
@@ -5301,11 +5477,13 @@
     </card>
     <card id="2108a9c7-0f7f-475a-a7ab-f12e0baeda3b" name="Mach X" size="Card">
       <property name="Unit ID" value="caav064" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="064" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Armor | Masters Of Evil | Thunderbolts" />
+      <property name="Keywords Search" value="| Armor | Masters Of Evil | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -5388,11 +5566,13 @@
     </card>
     <card id="cb56f4c1-c156-4502-bce6-b03f3913414c" name="Songbird" size="Card">
       <property name="Unit ID" value="caav065" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="065" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="60/30" />
       <property name="Keywords" value="Avengers | A.I.M. | Masters Of Evil | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | A.I.M. | Masters Of Evil | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -5460,12 +5640,15 @@
     </card>
     <card id="a10d3ee0-d07e-4d62-8d08-8b823af42e47" name="Blackheath" size="Card">
       <property name="Unit ID" value="caav066" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="066" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="K'Un Lun | Masters Of Evil | Scientist | Maggia | Thunderbolts | Enforcers" />
+      <property name="Keywords Search" value="| K'Un Lun | Masters Of Evil | Scientist | Maggia | Thunderbolts | Enforcers |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5545,6 +5728,7 @@
     </card>
     <card id="a1c1c752-6d2e-4719-a3ef-e75dd03046ae" name="Simuloid" size="Card">
       <property name="Unit ID" value="caav066bt" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="066bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -5567,12 +5751,14 @@
     </card>
     <card id="4dfc74e7-db09-416d-b11c-0de38d010ba4" name="Machinesmith" size="Card">
       <property name="Unit ID" value="caav067" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="067" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Masters Of Evil | Robot | Skeleton Crew" />
+      <property name="Keywords Search" value="| Masters Of Evil | Robot | Skeleton Crew |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5654,6 +5840,7 @@
     </card>
     <card id="70633b1a-115d-4ab1-bd91-d798b4432d99" name="Robot Dupe" size="Card">
       <property name="Unit ID" value="caav067bt" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="067bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -5675,11 +5862,13 @@
     </card>
     <card id="0a862dca-5cad-4ab6-8040-0ab3ca5e231f" name="M.O.D.O.K." size="Card">
       <property name="Unit ID" value="caav068" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="068" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="90/75" />
       <property name="Keywords" value="A.I.M. | Intelligencia | Robot | Scientist | M.O.D.O.K.'S 11" />
+      <property name="Keywords Search" value="| A.I.M. | Intelligencia | Robot | Scientist | M.O.D.O.K.'S 11 |" />
       <property name="Range" value="7" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Giant" />
@@ -5767,12 +5956,15 @@
     </card>
     <card id="e81f1a99-5b5c-437b-9794-15cf84c91331" name="Namor" size="Card">
       <property name="Unit ID" value="caav069" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="069" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Atlantis | Avengers | Cabal | Illuminati | Invaders | Ruler | Defenders" />
+      <property name="Keywords Search" value="| Atlantis | Avengers | Cabal | Illuminati | Invaders | Ruler | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5861,11 +6053,13 @@
     </card>
     <card id="4d267db0-e472-4556-a831-33b9d5f3ae83" name="Thor" size="Card">
       <property name="Unit ID" value="caav070" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="070" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="125/75/50" />
       <property name="Keywords" value="Asgardian | Avengers | Ruler | Warrior | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Ruler | Warrior | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5976,12 +6170,15 @@
     </card>
     <card id="85ddcf28-17b7-4c80-825a-f092dba91051" name="Ghost Rider" size="Card">
       <property name="Unit ID" value="caav071" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="071" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Avengers | Mystical | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Mystical | S.H.I.E.L.D. |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6061,12 +6258,15 @@
     </card>
     <card id="2c49faa0-71b2-4e4a-8045-4b77f45c24dc" name="Dr. Strange" size="Card">
       <property name="Unit ID" value="caav072" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="072" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Mystics | Power Cosmic" />
+      <property name="Team Abilities Search" value="| Mystics | Power Cosmic |" />
       <property name="Keywords" value="Avengers | Illuminati | Mystical | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Illuminati | Mystical | Defenders |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -6147,12 +6347,15 @@
     </card>
     <card id="98204660-f76f-4d7f-8416-955354b6256e" name="Absorbing Man" size="Card">
       <property name="Unit ID" value="caav073" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="073" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Lethal Legion | Masters Of Evil | Wrecking Crew" />
+      <property name="Keywords Search" value="| Lethal Legion | Masters Of Evil | Wrecking Crew |" />
       <property name="Range" value="2" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6272,12 +6475,15 @@
     </card>
     <card id="d75799b7-08a5-46d1-b560-1f27a76590bc" name="Ultron" size="Card">
       <property name="Unit ID" value="caav074" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="074" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="150/100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Lethal Legion | Masters Of Evil | Robot | Ruler" />
+      <property name="Keywords Search" value="| Lethal Legion | Masters Of Evil | Robot | Ruler |" />
       <property name="Range" value="8" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -6398,12 +6604,14 @@
     </card>
     <card id="08c2b6d2-c7b0-42d7-80b8-2a1f62bdcaa8" name="Peggy Carter" size="Card">
       <property name="Unit ID" value="caav075" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="075" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Ultra Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Avengers | Howling Commandos | Past | Soldier | S.H.I.E.L.D. | Exiles" />
+      <property name="Keywords Search" value="| Avengers | Howling Commandos | Past | Soldier | S.H.I.E.L.D. | Exiles |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6493,11 +6701,13 @@
     </card>
     <card id="0d4d2920-5472-4420-ace7-28e4f9e85e84" name="Becky Barnes" size="Card">
       <property name="Unit ID" value="caav075bt" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="075bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Ultra Chase" />
       <property name="Point Values" value="0" />
       <property name="Keywords" value="Avengers | Soldier | S.H.I.E.L.D. | Exiles" />
+      <property name="Keywords Search" value="| Avengers | Soldier | S.H.I.E.L.D. | Exiles |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6515,12 +6725,15 @@
     </card>
     <card id="4f366593-0fde-4385-924d-5a4b43722634" name="Baron Zemo" size="Card">
       <property name="Unit ID" value="caav100" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="100" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Hydra | Masters Of Evil | Scientist | Thunderbolts" />
+      <property name="Keywords Search" value="| Hydra | Masters Of Evil | Scientist | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -6598,11 +6811,13 @@
     </card>
     <card id="70dccf94-5c43-43ac-92c9-0ca969a62dd4" name="Avengers Mansion" size="16x24">
       <property name="Unit ID" value="caavM001" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="f09f0ea5-289f-4be2-acc7-9e775d9c75e9" name="Pleasant Hill" size="16x24">
       <property name="Unit ID" value="caavM002" />
+      <property name="Set Search" value="| Captain America and the Avengers |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
     </card>

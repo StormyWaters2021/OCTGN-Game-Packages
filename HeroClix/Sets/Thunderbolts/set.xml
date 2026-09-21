@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Thunderbolts" id="70b70c0d-7f12-43a6-899f-eeebdb496a9f" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="331ba34f-b550-43da-b286-cc83d58afd1e" name="Winter Soldier" size="Card">
       <property name="Unit ID" value="tb001" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Avengers | Hydra | Invaders | Marksman | Soldier | Spy | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Avengers | Hydra | Invaders | Marksman | Soldier | Spy | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -99,12 +101,15 @@
     </card>
     <card id="bb3b2932-a58a-4446-8a4e-0ca4252876ef" name="Blackout" size="Card">
       <property name="Unit ID" value="tb002" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Initiative | Masters Of Evil | Scientist | Thunderbolts" />
+      <property name="Keywords Search" value="| Initiative | Masters Of Evil | Scientist | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -171,13 +176,16 @@
     </card>
     <card id="4f7bf9a4-6504-45cf-88d1-2d10cfdfb690" name="H.A.M.M.E.R. Agent" size="Card">
       <property name="Unit ID" value="tb003" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="40/15" />
       <property name="Team Abilities" value="Police | Shield" />
+      <property name="Team Abilities Search" value="| Police | Shield |" />
       <property name="Keywords" value="H.A.M.M.E.R. | Soldier" />
+      <property name="Keywords Search" value="| H.A.M.M.E.R. | Soldier |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -243,13 +251,16 @@
     </card>
     <card id="c5d21988-43a4-4bc1-bb60-0fb089ec026e" name="Raft Informant" size="Card">
       <property name="Unit ID" value="tb004" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="15" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Brute | Spy" />
+      <property name="Keywords Search" value="| Brute | Spy |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -308,11 +319,13 @@
     </card>
     <card id="37be451f-ea27-41df-82c3-9a1445cf0bf2" name="Cletus Kasady" size="Card">
       <property name="Unit ID" value="tb004b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="004b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Maximum Carnage | Monster | Symbiote" />
+      <property name="Keywords Search" value="| Maximum Carnage | Monster | Symbiote |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -423,13 +436,16 @@
     </card>
     <card id="f2a23caf-e430-4a0f-bd09-abbaf8ed4cc7" name="Raft Escapee" size="Card">
       <property name="Unit ID" value="tb005" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Brute | Masters Of Evil | Sinister Syndicate | Thunderbolts" />
+      <property name="Keywords Search" value="| Brute | Masters Of Evil | Sinister Syndicate | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -484,12 +500,15 @@
     </card>
     <card id="57aadb4e-ce46-4ec9-95b8-7c432bed53a9" name="Brothers Grimm" size="Card">
       <property name="Unit ID" value="tb006" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="H.A.M.M.E.R. | Masters Of Evil | Mystical | Maggia" />
+      <property name="Keywords Search" value="| H.A.M.M.E.R. | Masters Of Evil | Mystical | Maggia |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -570,13 +589,16 @@
     </card>
     <card id="891dbf6c-811b-4dc5-a23c-6783a2c871e7" name="Ultron Drone" size="Card">
       <property name="Unit ID" value="tb007" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic | Expendable Goon" />
       <property name="Point Values" value="45/15" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Armor | Robot" />
+      <property name="Keywords Search" value="| Armor | Robot |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -660,12 +682,15 @@
     </card>
     <card id="544533b3-1ded-4b76-af0d-99135070780d" name="Ultron" size="Card">
       <property name="Unit ID" value="tb007b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="007b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Robot" />
+      <property name="Keywords Search" value="| Armor | Avengers | Robot |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -755,11 +780,13 @@
     </card>
     <card id="9254e006-2473-4c96-8f12-f2cea1fd50bc" name="Ultron Drone" size="Card">
       <property name="Unit ID" value="tb007bt" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="007bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -776,13 +803,16 @@
     </card>
     <card id="552b5887-b3c2-4e34-93fd-3fed6cabeed6" name="Doombot" size="Card">
       <property name="Unit ID" value="tb008" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Expendable Goon" />
       <property name="Point Values" value="50/15" />
       <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Minions Of Doom |" />
       <property name="Keywords" value="Latveria | Robot" />
+      <property name="Keywords Search" value="| Latveria | Robot |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -853,12 +883,15 @@
     </card>
     <card id="2317f5d4-d0d9-45d1-89dc-cf9ab5018229" name="Contessa Valentina Allegra de Fontaine (LMD)" size="Card">
       <property name="Unit ID" value="tb009" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40/20" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Politician | Robot | Soldier | Spy | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Politician | Robot | Soldier | Spy | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -929,13 +962,16 @@
     </card>
     <card id="38f0e05f-03ee-4e6e-ac9a-e811e7704bd2" name="Madame Hydra" size="Card">
       <property name="Unit ID" value="tb009b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="009b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Hydra | Ruler | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Assassin | Hydra | Ruler | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1005,6 +1041,7 @@
     </card>
     <card id="273a1a53-64d6-497e-a512-0e0a1ada4be1" name="Leviathan Horde" size="Card">
       <property name="Unit ID" value="tb009bbt" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="009bbt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
@@ -1027,12 +1064,15 @@
     </card>
     <card id="de548299-35d8-4979-a9e9-738cbc855f0f" name="Ghost" size="Card">
       <property name="Unit ID" value="tb010" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Assassin | A.I.M. | Scientist | Spy | Maggia | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | A.I.M. | Scientist | Spy | Maggia | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1102,11 +1142,13 @@
     </card>
     <card id="909b6e8a-9dec-4e69-a802-f0af7fcd72b2" name="X-Ray" size="Card">
       <property name="Unit ID" value="tb011" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Alpha Flight | Hulkbusters | Initiative | Thunderbolts | U Foes" />
+      <property name="Keywords Search" value="| Alpha Flight | Hulkbusters | Initiative | Thunderbolts | U Foes |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1188,12 +1230,15 @@
     </card>
     <card id="9a730b0a-61c2-4294-8b3c-10251dcb93d9" name="Living Laser" size="Card">
       <property name="Unit ID" value="tb012" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30/10" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Lethal Legion | Masters Of Evil | Frightful Four | Scientist | Batroc'S Brigade | M.O.D.O.K.'S 11" />
+      <property name="Keywords Search" value="| Lethal Legion | Masters Of Evil | Frightful Four | Scientist | Batroc'S Brigade | M.O.D.O.K.'S 11 |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1253,12 +1298,15 @@
     </card>
     <card id="dfdaf99f-65a6-42d3-b265-e86d1f00e24e" name="Elektra" size="Card">
       <property name="Unit ID" value="tb013" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player | Underworld" />
+      <property name="Team Abilities Search" value="| Team Player | Underworld |" />
       <property name="Keywords" value="Assassin | Heroes For Hire | Martial Artist | Marvel Knights | The Hand | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Heroes For Hire | Martial Artist | Marvel Knights | The Hand | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1336,12 +1384,15 @@
     </card>
     <card id="ab790a20-0607-441e-b535-a1e3006e7a99" name="Daredevil" size="Card">
       <property name="Unit ID" value="tb014" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Heroes For Hire | Martial Artist | Marvel Knights | Spider Man Family | Defenders" />
+      <property name="Keywords Search" value="| Heroes For Hire | Martial Artist | Marvel Knights | Spider Man Family | Defenders |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1464,12 +1515,15 @@
     </card>
     <card id="7c489d02-d88f-4a31-90aa-4cff38a071f4" name="Luke Cage" size="Card">
       <property name="Unit ID" value="tb015" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Avengers | Heroes For Hire | Marvel Knights | Politician | Spider Man Family | Thunderbolts | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | Marvel Knights | Politician | Spider Man Family | Thunderbolts | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1559,12 +1613,15 @@
     </card>
     <card id="3c5d41ee-b0fb-4c5d-97fb-7514748f2ed0" name="Jessica Jones" size="Card">
       <property name="Unit ID" value="tb016" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Avengers | Heroes For Hire | Marvel Knights | Defenders | Detective" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | Marvel Knights | Defenders | Detective |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1623,13 +1680,16 @@
     </card>
     <card id="5f9c3488-dd67-48bf-b1d6-2ce14339844e" name="The Revolution" size="Card">
       <property name="Unit ID" value="tb017" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | Avengers | Marksman | Past | Politician | Soldier | Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Avengers | Marksman | Past | Politician | Soldier | Spy | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1720,12 +1780,15 @@
     </card>
     <card id="ca3b521c-98a6-41f3-bd80-95e4e4b3609b" name="Klaw" size="Card">
       <property name="Unit ID" value="tb018" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="A.I.M. | Masters Of Evil | Frightful Four | Scientist" />
+      <property name="Keywords Search" value="| A.I.M. | Masters Of Evil | Frightful Four | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1815,12 +1878,15 @@
     </card>
     <card id="4223aa40-499b-44e4-b943-1016fbc0f9ea" name="Eel" size="Card">
       <property name="Unit ID" value="tb018b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="018b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Serpent Society | Maggia | Enforcers" />
+      <property name="Keywords Search" value="| Masters Of Evil | Serpent Society | Maggia | Enforcers |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
@@ -1908,12 +1974,15 @@
     </card>
     <card id="a3b96aeb-d6bb-491a-b7cb-4b7afbaac697" name="The Destroyer" size="Card">
       <property name="Unit ID" value="tb019" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Avengers | Invaders | Politician | Spy | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | Invaders | Politician | Spy | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1991,11 +2060,13 @@
     </card>
     <card id="96575673-b9e1-4952-8d1e-545b189f1b11" name="Purple Man" size="Card">
       <property name="Unit ID" value="tb020" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Masters Of Evil | Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Masters Of Evil | Spy | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2062,12 +2133,15 @@
     </card>
     <card id="ee48d55e-9612-499e-a019-92f3b922c41c" name="Bushwacker" size="Card">
       <property name="Unit ID" value="tb021" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | Hulkbusters | Marauders | Masters Of Evil | Soldier | Spy | Maggia" />
+      <property name="Keywords Search" value="| Assassin | Hulkbusters | Marauders | Masters Of Evil | Soldier | Spy | Maggia |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2148,6 +2222,7 @@
     </card>
     <card id="83007f1d-5dfa-4a87-be10-8f84c5090608" name="U.S. Agent's Shield" size="Card">
       <property name="Unit ID" value="tb022a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="022a" />
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Super Rare" />
@@ -2157,6 +2232,7 @@
     </card>
     <card id="41c65b77-0ef3-41e3-b4b4-cf0f5ff07345" name="Red Guardian's Shield" size="Card">
       <property name="Unit ID" value="tb022b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="022b" />
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Super Rare" />
@@ -2166,11 +2242,13 @@
     </card>
     <card id="4b13dfe5-3832-4e27-9616-fa71bfcd301d" name="Ultron" size="Card">
       <property name="Unit ID" value="tb023" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="023" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="80" />
       <property name="Keywords" value="Armor | Robot | Deity" />
+      <property name="Keywords Search" value="| Armor | Robot | Deity |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2259,12 +2337,15 @@
     </card>
     <card id="c82c65c9-10e5-4495-bf7c-4088dea5c8b3" name="Dr. Doom" size="Card">
       <property name="Unit ID" value="tb024" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="150/75" />
       <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Minions Of Doom |" />
       <property name="Keywords" value="Armor | Latveria | Politician | Ruler | Scientist | Mystical" />
+      <property name="Keywords Search" value="| Armor | Latveria | Politician | Ruler | Scientist | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2390,12 +2471,15 @@
     </card>
     <card id="72d91464-46e5-4cd1-b720-0d9c80db4505" name="Contessa Valentina Allegra de Fontaine" size="Card">
       <property name="Unit ID" value="tb025" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Hydra | Marksman | Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Hydra | Marksman | Spy | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2450,12 +2534,15 @@
     </card>
     <card id="d58ca735-6a9c-45c1-b055-ac51cf681a3e" name="Ghost" size="Card">
       <property name="Unit ID" value="tb026" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Assassin | A.I.M. | Scientist | Spy | Maggia | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | A.I.M. | Scientist | Spy | Maggia | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2525,12 +2612,15 @@
     </card>
     <card id="cc5b4713-6c07-4468-8b48-7444e61b2542" name="Blizzard" size="Card">
       <property name="Unit ID" value="tb027" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60/40" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Armor | Inhumans | Masters Of Evil | Thunderbolts" />
+      <property name="Keywords Search" value="| Armor | Inhumans | Masters Of Evil | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2612,12 +2702,15 @@
     </card>
     <card id="dd7643c8-32ca-4da6-a6da-73eefe100f68" name="Living Laser" size="Card">
       <property name="Unit ID" value="tb028" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Lethal Legion | Masters Of Evil | Frightful Four | Scientist | Batroc'S Brigade | M.O.D.O.K.'S 11" />
+      <property name="Keywords Search" value="| Lethal Legion | Masters Of Evil | Frightful Four | Scientist | Batroc'S Brigade | M.O.D.O.K.'S 11 |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2698,12 +2791,15 @@
     </card>
     <card id="c240f401-79c2-414a-9db0-635827b68268" name="Baron Zemo" size="Card">
       <property name="Unit ID" value="tb029" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="029" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Hydra | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Hydra | Masters Of Evil |" />
       <property name="Keywords" value="Hydra | Marksman | Martial Artist | Masters Of Evil | Scientist | Soldier" />
+      <property name="Keywords Search" value="| Hydra | Marksman | Martial Artist | Masters Of Evil | Scientist | Soldier |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2784,12 +2880,15 @@
     </card>
     <card id="3b4f2cb5-1db2-4615-9704-6df332f7e2e7" name="Bullseye" size="Card">
       <property name="Unit ID" value="tb030" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="030" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Marksman | Martial Artist | Sinister Syndicate | The Hand | Thunderbolts | Dark Avengers" />
+      <property name="Keywords Search" value="| Assassin | Marksman | Martial Artist | Sinister Syndicate | The Hand | Thunderbolts | Dark Avengers |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2869,12 +2968,15 @@
     </card>
     <card id="82432a75-7b7c-4f61-a96e-d5b25969809c" name="Kingpin" size="Card">
       <property name="Unit ID" value="tb031" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="031" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | Brute | Hydra | Martial Artist | Politician | Sinister Syndicate | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Brute | Hydra | Martial Artist | Politician | Sinister Syndicate | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2952,12 +3054,15 @@
     </card>
     <card id="44cc5f2e-e0e7-4343-9dc2-4031a7e207f9" name="Whirlwind" size="Card">
       <property name="Unit ID" value="tb032" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="032" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Lethal Legion | Masters Of Evil | Batroc'S Brigade" />
+      <property name="Keywords Search" value="| Lethal Legion | Masters Of Evil | Batroc'S Brigade |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3023,12 +3128,15 @@
     </card>
     <card id="65410fe9-d858-4314-ba85-72de076db5e2" name="Swordsman" size="Card">
       <property name="Unit ID" value="tb033" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="033" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Underworld | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Underworld | Masters Of Evil |" />
       <property name="Keywords" value="Lethal Legion | Martial Artist | Masters Of Evil | Batroc'S Brigade | Warrior" />
+      <property name="Keywords Search" value="| Lethal Legion | Martial Artist | Masters Of Evil | Batroc'S Brigade | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3120,12 +3228,15 @@
     </card>
     <card id="2cb461a4-e9fb-4523-af9c-9981d0cd2b82" name="Jester" size="Card">
       <property name="Unit ID" value="tb034" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="034" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Thunderbolts" />
+      <property name="Keywords Search" value="| Masters Of Evil | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3203,12 +3314,15 @@
     </card>
     <card id="cdf9926e-8b68-446b-a273-0a3b725a626b" name="Mister Hyde" size="Card">
       <property name="Unit ID" value="tb035" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="035" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Team Player | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Team Player | Masters Of Evil |" />
       <property name="Keywords" value="Brute | Lethal Legion | Masters Of Evil | Frightful Four | Scientist | Serpent Society | Thunderbolts" />
+      <property name="Keywords Search" value="| Brute | Lethal Legion | Masters Of Evil | Frightful Four | Scientist | Serpent Society | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3311,11 +3425,13 @@
     </card>
     <card id="a70b2fcd-18bd-4287-a8ab-aab633cc72e8" name="Trapster" size="Card">
       <property name="Unit ID" value="tb036" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="036" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Lethal Legion | Marksman | Frightful Four | Scientist | Sinister Syndicate | Maggia" />
+      <property name="Keywords Search" value="| Lethal Legion | Marksman | Frightful Four | Scientist | Sinister Syndicate | Maggia |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3396,11 +3512,13 @@
     </card>
     <card id="975a7e0c-6f1c-48b7-8e9c-b5f89f6e9947" name="Ironclad" size="Card">
       <property name="Unit ID" value="tb037a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="037a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Brute | Alpha Flight | Hulkbusters | Initiative | Thunderbolts | U Foes" />
+      <property name="Keywords Search" value="| Brute | Alpha Flight | Hulkbusters | Initiative | Thunderbolts | U Foes |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3487,13 +3605,16 @@
     </card>
     <card id="1be6c518-f945-4c59-9e2c-9c2ce8ca83d8" name="Red Hulk" size="Card">
       <property name="Unit ID" value="tb037b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="037b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Avengers | Brute | Hulkbusters | Intelligencia | Soldier | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | Brute | Hulkbusters | Intelligencia | Soldier | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3583,6 +3704,7 @@
     </card>
     <card id="f9d16bf9-86f0-49c9-a4a9-98e0c8683d99" name="Mercy" size="Card">
       <property name="Unit ID" value="tb037bbt" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="037bbt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Rare" />
@@ -3606,12 +3728,15 @@
     </card>
     <card id="85e8f042-36d4-4cc7-bf67-21bb9a70fb82" name="Mach-1" size="Card">
       <property name="Unit ID" value="tb038" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="038" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Armor | Masters Of Evil | Scientist | Thunderbolts" />
+      <property name="Keywords Search" value="| Armor | Masters Of Evil | Scientist | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3692,12 +3817,15 @@
     </card>
     <card id="1df61220-35f8-424d-b3fd-e7ad2509a825" name="Meteorite" size="Card">
       <property name="Unit ID" value="tb039" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="039" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80/45" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Celebrity | Masters Of Evil | Scientist | Thunderbolts | Dark Avengers" />
+      <property name="Keywords Search" value="| Celebrity | Masters Of Evil | Scientist | Thunderbolts | Dark Avengers |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3802,11 +3930,13 @@
     </card>
     <card id="b089c7b4-86a1-40e9-bd99-b059247dafe5" name="Vapor" size="Card">
       <property name="Unit ID" value="tb040" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="040" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Alpha Flight | Hulkbusters | Initiative | Politician | Thunderbolts | U Foes" />
+      <property name="Keywords Search" value="| Alpha Flight | Hulkbusters | Initiative | Politician | Thunderbolts | U Foes |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3889,12 +4019,15 @@
     </card>
     <card id="b1435f9d-6a22-4be4-be12-6e7d24a95400" name="Iron Fist" size="Card">
       <property name="Unit ID" value="tb041a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="041a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="90/40" />
       <property name="Team Abilities" value="Mystics | Avengers" />
+      <property name="Team Abilities Search" value="| Mystics | Avengers |" />
       <property name="Keywords" value="Avengers | Heroes For Hire | K'Un Lun | Martial Artist | Mystical | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | K'Un Lun | Martial Artist | Mystical | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3998,13 +4131,16 @@
     </card>
     <card id="c14767a4-ef56-4417-97d0-0e0f6d2dae03" name="Iron Fist" size="Card">
       <property name="Unit ID" value="tb041b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="041b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Mystics | Avengers" />
+      <property name="Team Abilities Search" value="| Mystics | Avengers |" />
       <property name="Keywords" value="Avengers | Heroes For Hire | K'Un Lun | Martial Artist | Mystical | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | K'Un Lun | Martial Artist | Mystical | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4130,12 +4266,15 @@
     </card>
     <card id="2dd4176d-d67a-4785-87d6-8d21e3371093" name="Balder" size="Card">
       <property name="Unit ID" value="tb042" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="042" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Asgardian | Avengers | Ruler | Warrior | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Ruler | Warrior | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4245,6 +4384,7 @@
     </card>
     <card id="47932bf4-adb5-4f2a-af43-912eda060aa3" name="Laussa" size="Card">
       <property name="Unit ID" value="tb042s" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="042s" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Rare" />
@@ -4253,13 +4393,16 @@
     </card>
     <card id="46b622f2-84ce-456e-8030-34eb1cd5e01d" name="Hyperion" size="Card">
       <property name="Unit ID" value="tb043a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="043a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="200" />
       <property name="Team Abilities" value="Cosmic Energy | Team Player" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Team Player |" />
       <property name="Keywords" value="Brute | Cosmic | Squadron Supreme | Thunderbolts | Eternal" />
+      <property name="Keywords Search" value="| Brute | Cosmic | Squadron Supreme | Thunderbolts | Eternal |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4397,13 +4540,16 @@
     </card>
     <card id="3b768316-a7d2-4082-9d13-7e0f07c3a239" name="Sentry" size="Card">
       <property name="Unit ID" value="tb043b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="043b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Brute | Cosmic | Dark Avengers" />
+      <property name="Keywords Search" value="| Avengers | Brute | Cosmic | Dark Avengers |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4506,12 +4652,15 @@
     </card>
     <card id="2560df34-52b2-4731-a278-45406ae32477" name="Shang-Chi" size="Card">
       <property name="Unit ID" value="tb044" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="044" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="90/50" />
       <property name="Team Abilities" value="Underworld | Avengers" />
+      <property name="Team Abilities Search" value="| Underworld | Avengers |" />
       <property name="Keywords" value="Avengers | Agents Of Atlas | Heroes For Hire | Martial Artist | Marvel Knights | Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | Agents Of Atlas | Heroes For Hire | Martial Artist | Marvel Knights | Spy | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4637,12 +4786,15 @@
     </card>
     <card id="a65e959a-0cad-429c-a805-2eb177e7d37f" name="Daredevil" size="Card">
       <property name="Unit ID" value="tb045" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="045" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Martial Artist | Marvel Knights | Spider Man Family | Defenders" />
+      <property name="Keywords Search" value="| Martial Artist | Marvel Knights | Spider Man Family | Defenders |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4725,12 +4877,15 @@
     </card>
     <card id="9448a4eb-897a-44f4-a954-6d434523bae9" name="Atlas" size="Card">
       <property name="Unit ID" value="tb046" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="046" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75/25" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Brute | Lethal Legion | Masters Of Evil | Revengers | Thunderbolts" />
+      <property name="Keywords Search" value="| Brute | Lethal Legion | Masters Of Evil | Revengers | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
@@ -4834,12 +4989,15 @@
     </card>
     <card id="39eb2b91-8841-4074-9e31-1ca9d21c413a" name="U.S. Agent" size="Card">
       <property name="Unit ID" value="tb047a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="047a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Avengers | Brute | Invaders | Soldier | S.H.I.E.L.D. | Thunderbolts | Dark Avengers" />
+      <property name="Keywords Search" value="| Avengers | Brute | Invaders | Soldier | S.H.I.E.L.D. | Thunderbolts | Dark Avengers |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4940,13 +5098,16 @@
     </card>
     <card id="d04e5ea7-bb55-46ec-831c-18e7c87ff5b4" name="Red Guardian" size="Card">
       <property name="Unit ID" value="tb047b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="047b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="59" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Soldier | Spy | Winter Guard | Thunderbolts" />
+      <property name="Keywords Search" value="| Soldier | Spy | Winter Guard | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5064,13 +5225,16 @@
     </card>
     <card id="e346790b-ed8a-4784-bdc6-12df3b04ed65" name="Songbird" size="Card">
       <property name="Unit ID" value="tb048" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="048" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60/30" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Avengers | A.I.M. | Masters Of Evil | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | A.I.M. | Masters Of Evil | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5152,12 +5316,15 @@
     </card>
     <card id="74ec6cfc-7531-473c-be55-98fe7c0c6e65" name="Techno" size="Card">
       <property name="Unit ID" value="tb049" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="049" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="A.I.M. | Hydra | Masters Of Evil | Scientist | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| A.I.M. | Hydra | Masters Of Evil | Scientist | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5239,12 +5406,15 @@
     </card>
     <card id="2b4b1fc6-6ade-405e-b3a7-ef5d82b94564" name="Batroc the Leaper" size="Card">
       <property name="Unit ID" value="tb050" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="050" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Underworld | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Underworld | Masters Of Evil |" />
       <property name="Keywords" value="Lethal Legion | Martial Artist | Masters Of Evil | Batroc'S Brigade | Thunderbolts" />
+      <property name="Keywords Search" value="| Lethal Legion | Martial Artist | Masters Of Evil | Batroc'S Brigade | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5336,11 +5506,13 @@
     </card>
     <card id="12f38867-67e5-460b-a7b5-f9b6f5448557" name="Vector" size="Card">
       <property name="Unit ID" value="tb052" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="052" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Keywords" value="Alpha Flight | Hulkbusters | Initiative | Politician | Thunderbolts | U Foes" />
+      <property name="Keywords Search" value="| Alpha Flight | Hulkbusters | Initiative | Politician | Thunderbolts | U Foes |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5423,13 +5595,16 @@
     </card>
     <card id="e0e5292b-1b2a-46a9-afe8-44a39d4337f9" name="Baron Zemo" size="Card">
       <property name="Unit ID" value="tb053" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="053" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Ruler | Scientist | Soldier | Thunderbolts" />
+      <property name="Keywords Search" value="| Masters Of Evil | Ruler | Scientist | Soldier | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5533,13 +5708,16 @@
     </card>
     <card id="65da7812-9487-4aff-86fb-c6d640b76d0f" name="Void" size="Card">
       <property name="Unit ID" value="tb054" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="054" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="290" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Brute | Cosmic | Monster" />
+      <property name="Keywords Search" value="| Brute | Cosmic | Monster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5599,13 +5777,16 @@
     </card>
     <card id="e63a51c2-0cce-4753-80a8-91798ea65491" name="Luke Cage" size="Card">
       <property name="Unit ID" value="tb055" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="055" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Brute | Heroes For Hire | Marvel Knights | Politician | Thunderbolts | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Brute | Heroes For Hire | Marvel Knights | Politician | Thunderbolts | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5710,13 +5891,16 @@
     </card>
     <card id="986b9740-4c6e-4f0f-9052-eabf4c792a1c" name="White Widow" size="Card">
       <property name="Unit ID" value="tb056" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="056" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="70/40" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | A.I.M. | Hydra | Marksman | Martial Artist | Spy | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | A.I.M. | Hydra | Marksman | Martial Artist | Spy | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5810,13 +5994,16 @@
     </card>
     <card id="e7363b35-f5fd-4a63-ad0b-c6d809dc27f7" name="Tony Stark" size="Card">
       <property name="Unit ID" value="tb057" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="057" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Scientist | Thunderbolts" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5920,12 +6107,14 @@
     </card>
     <card id="f63eb87e-6997-4e8d-b541-106885630ebe" name="Hawkeye" size="Card">
       <property name="Unit ID" value="tb058" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="058" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/50" />
       <property name="Keywords" value="Avengers | Marksman | Martial Artist | Spy | Great Lakes Avengers | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | Marksman | Martial Artist | Spy | Great Lakes Avengers | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6030,13 +6219,16 @@
     </card>
     <card id="b8c96671-643f-4c54-8dff-4bc24da062d4" name="Citizen V" size="Card">
       <property name="Unit ID" value="tb059" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="059" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Minions Of Doom |" />
       <property name="Keywords" value="Celebrity | Martial Artist | Soldier | Thunderbolts" />
+      <property name="Keywords Search" value="| Celebrity | Martial Artist | Soldier | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6141,13 +6333,16 @@
     </card>
     <card id="ef081ad4-f1b5-4110-906b-0c81e145fb35" name="Mayor Kingpin" size="Card">
       <property name="Unit ID" value="tb060" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="060" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | Brute | Politician | Ruler | Maggia | The Hand | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Brute | Politician | Ruler | Maggia | The Hand | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6247,12 +6442,15 @@
     </card>
     <card id="83f527f4-300e-441b-9b9c-e079c09c5058" name="Winter Soldier" size="Card">
       <property name="Unit ID" value="tb061" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="061" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Marksman | Soldier | Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Marksman | Soldier | Spy | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6358,13 +6556,16 @@
     </card>
     <card id="afdd46e5-3b3d-43d6-a59f-3e37bb201e4a" name="Citizen V" size="Card">
       <property name="Unit ID" value="tb062" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="062" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80/50" />
       <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Minions Of Doom |" />
       <property name="Keywords" value="Assassin | Latveria | Martial Artist | Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Latveria | Martial Artist | Spy | Thunderbolts |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6469,12 +6670,15 @@
     </card>
     <card id="8097bc36-e51a-4c81-83ad-18fe990a899b" name="Baron Zemo" size="Card">
       <property name="Unit ID" value="tb099" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="099" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Marksman | Masters Of Evil | Past | Ruler | Scientist | Soldier | Thunderbolts" />
+      <property name="Keywords Search" value="| Marksman | Masters Of Evil | Past | Ruler | Scientist | Soldier | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6563,12 +6767,15 @@
     </card>
     <card id="7c50324a-d574-4fc7-8c81-585ed430cf51" name="Bullseye" size="Card">
       <property name="Unit ID" value="tb100" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="100" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="65/40" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Marksman | Martial Artist | Sinister Syndicate | The Hand | Thunderbolts | Dark Avengers" />
+      <property name="Keywords Search" value="| Assassin | Marksman | Martial Artist | Sinister Syndicate | The Hand | Thunderbolts | Dark Avengers |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6648,12 +6855,15 @@
     </card>
     <card id="5ae2083c-6b71-49de-9c7b-f289d484aaa9" name="Kingpin" size="Card">
       <property name="Unit ID" value="tb101" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="101" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | Brute | Politician | Sinister Syndicate | Maggia | The Hand | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Brute | Politician | Sinister Syndicate | Maggia | The Hand | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6719,12 +6929,15 @@
     </card>
     <card id="d7597454-4714-4cbd-832c-f2b1afc8e4d5" name="Doctor Doom" size="Card">
       <property name="Unit ID" value="tb200" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="200" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="200" />
       <property name="Team Abilities" value="Mystics | Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Mystics | Minions Of Doom |" />
       <property name="Keywords" value="Armor | Cabal | Latveria | Politician | Ruler | Scientist | Mystical" />
+      <property name="Keywords Search" value="| Armor | Cabal | Latveria | Politician | Ruler | Scientist | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -6851,12 +7064,15 @@
     </card>
     <card id="3d90cb11-ddfd-4e4a-b093-e6f28b463600" name="Deadpool" size="Card">
       <property name="Unit ID" value="tbL001a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L001a" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player | Spider Man" />
+      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
       <property name="Keywords" value="Assassin | Martial Artist | X Men | Weapon X | Thunderbolts | Deadpool Corps" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | X Men | Weapon X | Thunderbolts | Deadpool Corps |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6941,12 +7157,15 @@
     </card>
     <card id="89eb9777-93ad-4257-a516-d90e40e17392" name="Egghead" size="Card">
       <property name="Unit ID" value="tbL004" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L004" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Intelligencia | Masters Of Evil | Scientist | Spy" />
+      <property name="Keywords Search" value="| Intelligencia | Masters Of Evil | Scientist | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7009,12 +7228,15 @@
     </card>
     <card id="29e15ed9-483c-4836-9a8f-e12985f0afef" name="Radioactive Man" size="Card">
       <property name="Unit ID" value="tbL016" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L016" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Thunderbolts" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Thunderbolts |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
@@ -7077,12 +7299,15 @@
     </card>
     <card id="c589bea4-bb98-43c5-b171-3236ba4c3cdb" name="Rhino" size="Card">
       <property name="Unit ID" value="tbL020" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L020" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Sinister Syndicate" />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Armor | Brute | Sinister Syndicate | Maggia | Thunderbolts" />
+      <property name="Keywords Search" value="| Armor | Brute | Sinister Syndicate | Maggia | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7176,11 +7401,13 @@
     </card>
     <card id="222393bb-bf1b-47ed-b878-c6434ce5a23f" name="Jolt" size="Card">
       <property name="Unit ID" value="tbL031a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L031a" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Speedster | Thunderbolts" />
+      <property name="Keywords Search" value="| Speedster | Thunderbolts |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -7225,12 +7452,15 @@
     </card>
     <card id="9aea3904-945c-4360-a312-10f8fd1261e1" name="Crimson Cowl" size="Card">
       <property name="Unit ID" value="tbL031b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L031b" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Hammer Industries | Masters Of Evil" />
+      <property name="Keywords Search" value="| Hammer Industries | Masters Of Evil |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7309,12 +7539,15 @@
     </card>
     <card id="590c542d-42b9-4109-88a2-a328f94dc9c1" name="Beetle" size="Card">
       <property name="Unit ID" value="tbL033" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L033" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Sinister Syndicate" />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Armor | Sinister Syndicate" />
+      <property name="Keywords Search" value="| Armor | Sinister Syndicate |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -7384,12 +7617,15 @@
     </card>
     <card id="6ceccd05-2fc4-4f09-b203-572db64a6d0d" name="Iron Patriot" size="Card">
       <property name="Unit ID" value="tbL039a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L039a" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Armor | Cabal | H.A.M.M.E.R. | Initiative | Scientist | Dark Avengers" />
+      <property name="Keywords Search" value="| Armor | Cabal | H.A.M.M.E.R. | Initiative | Scientist | Dark Avengers |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -7505,11 +7741,13 @@
     </card>
     <card id="6897874d-dfd9-4dd4-b0b2-ba95273cbe6d" name="Troll" size="Card">
       <property name="Unit ID" value="tbL039b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L039b" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Asgardian | Brute | Monster | Thunderbolts" />
+      <property name="Keywords Search" value="| Asgardian | Brute | Monster | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7580,12 +7818,15 @@
     </card>
     <card id="fce7a6b3-062c-480c-928a-5a8bbcb7bda1" name="Count Nefaria" size="Card">
       <property name="Unit ID" value="tbL048a" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L048a" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="160" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Lethal Legion | Ruler | Maggia" />
+      <property name="Keywords Search" value="| Lethal Legion | Ruler | Maggia |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -7711,12 +7952,15 @@
     </card>
     <card id="de626bf1-6533-40fe-af9e-c06e49f739a5" name="Doctor Octopus" size="Card">
       <property name="Unit ID" value="tbL055" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L055" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Sinister Syndicate" />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7793,26 +8037,31 @@
     </card>
     <card id="a08dcdd2-dafd-47ed-8bb2-12858e8c7b90" name="The Cube (Indoor)" size="16x16">
       <property name="Unit ID" value="tbM001" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="efd71369-73a8-4d74-82f8-fcbc8728252c" name="Castle Zemo" size="16x16">
       <property name="Unit ID" value="tbM002" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="0d995715-ccc4-4493-be76-d1d7d00c8a20" name="The Cube (Outdoor)" size="16x16">
       <property name="Unit ID" value="tbM003" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="M003" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="a232f1c9-7fbe-4d6d-a6a4-85501b513958" name="Thunderbolts' Mountain" size="16x16">
       <property name="Unit ID" value="tbM004" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="M004" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="408c56b3-c320-4427-87a5-3ea2e62b6494" name="Acid Vat" size="Card">
       <property name="Unit ID" value="tbMV62-t001" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7823,6 +8072,7 @@
     </card>
     <card id="d9debbfb-2889-43c8-ada8-03670da34a49" name="Glue Trap" size="Card">
       <property name="Unit ID" value="tbMV62-t002" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7833,6 +8083,7 @@
     </card>
     <card id="df04cc7c-c8a3-4780-9983-04e15735404d" name="Jack in the Box" size="Card">
       <property name="Unit ID" value="tbMV62-t003" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7843,6 +8094,7 @@
     </card>
     <card id="4a2d8e95-8942-4024-82d5-e792a474109d" name="Catapult" size="Card">
       <property name="Unit ID" value="tbMV62-t004" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t004" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7853,6 +8105,7 @@
     </card>
     <card id="632fb151-a727-4392-add5-1277790abe08" name="Buzzsaw" size="Card">
       <property name="Unit ID" value="tbMV62-t005" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t005" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -7861,6 +8114,7 @@
     </card>
     <card id="a0409179-86a8-4577-96e6-8d545693cafe" name="Zap Trap" size="Card">
       <property name="Unit ID" value="tbMV62-t006" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t006" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7871,6 +8125,7 @@
     </card>
     <card id="4c1a47a8-035f-453d-86f7-9317a4f895a1" name="Electrical Box" size="Card">
       <property name="Unit ID" value="tbMV62-t007" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t007" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -7879,6 +8134,7 @@
     </card>
     <card id="64eab312-3cd9-48fb-b696-dbae0374efd4" name="Security Camera" size="Card">
       <property name="Unit ID" value="tbMV62-t009" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t009" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7889,6 +8145,7 @@
     </card>
     <card id="8ba24618-3074-4ba9-a7f1-c7950f38fbdb" name="Throne" size="Card">
       <property name="Unit ID" value="tbMV62-t011" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t011" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7899,6 +8156,7 @@
     </card>
     <card id="cf3d8675-9f25-41eb-b6ae-659586b31e2e" name="Secret Entrance [2]" size="Card">
       <property name="Unit ID" value="tbMV62-t013" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t013" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7909,6 +8167,7 @@
     </card>
     <card id="387834a5-b0e4-4352-9a2a-86721375b737" name="Weight Bench" size="Card">
       <property name="Unit ID" value="tbMV62-t017" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t017" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7919,6 +8178,7 @@
     </card>
     <card id="379f7307-7a8f-4f32-8069-2bb7a76523cf" name="Weight Rack" size="Card">
       <property name="Unit ID" value="tbMV62-t018" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t018" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -7929,6 +8189,7 @@
     </card>
     <card id="4c262c50-8214-4164-b519-52c1a9d27125" name="Life Model Decoy" size="Card">
       <property name="Unit ID" value="tbOS002" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS002" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -7936,6 +8197,7 @@
     </card>
     <card id="2f6a3207-8eca-47b4-9c49-42affb9b85f6" name="Eegro the Unbreakable" size="Card">
       <property name="Unit ID" value="tbOS003" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS003" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="10" />
@@ -7943,6 +8205,7 @@
     </card>
     <card id="acb6d2c4-2b49-4f02-96ad-a8525317e4ed" name="Eegro" size="Card">
       <property name="Unit ID" value="tbOS003bt" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS003bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Point Values" value="0" />
@@ -7965,6 +8228,7 @@
     </card>
     <card id="08f0e91e-cf1e-4a17-b5fb-d940465c39aa" name="Transquilizer Blaster" size="Card">
       <property name="Unit ID" value="tbOS004" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS004" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -7972,6 +8236,7 @@
     </card>
     <card id="ecb351b7-1e76-4f2d-a204-90e722238e67" name="Superhuman Registration Act" size="Card">
       <property name="Unit ID" value="tbOS005" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS005" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="10" />
@@ -7979,6 +8244,7 @@
     </card>
     <card id="b8766ad3-ac48-4267-ba4f-c6b1ce34aa75" name="Raft Breakout" size="Card">
       <property name="Unit ID" value="tbOS006" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS006" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="10" />
@@ -7986,6 +8252,7 @@
     </card>
     <card id="41b5bd98-b490-4129-8b38-63c8b7489cb7" name="Redemption" size="Card">
       <property name="Unit ID" value="tbOS007" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS007" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="10" />
@@ -7993,6 +8260,7 @@
     </card>
     <card id="70fa4b87-de81-410b-90e3-d6ea423a8324" name="Betrayal" size="Card">
       <property name="Unit ID" value="tbOS008" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS008" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8000,6 +8268,7 @@
     </card>
     <card id="2d4eed58-42d2-4c1d-80f4-67a7c45d23b9" name="Contessa's Scheme" size="Card">
       <property name="Unit ID" value="tbOS009" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS009" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8007,6 +8276,7 @@
     </card>
     <card id="91ff3592-d50a-4601-95d0-9454d75467f8" name="Fixer's Blueprint" size="Card">
       <property name="Unit ID" value="tbOS010" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS010" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8014,6 +8284,7 @@
     </card>
     <card id="6e7cb7ad-ab43-41fc-916b-7d517f59e408" name="Ultron's Blueprint" size="Card">
       <property name="Unit ID" value="tbOS011" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS011" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8021,6 +8292,7 @@
     </card>
     <card id="c705e8fb-f509-468f-b03f-7ec5d20f2e34" name="Doom's Blueprint" size="Card">
       <property name="Unit ID" value="tbOS012" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS012" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8028,6 +8300,7 @@
     </card>
     <card id="17cef10f-725a-4deb-b316-07d26c0abc8d" name="Kobik's Help" size="Card">
       <property name="Unit ID" value="tbOS013" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS013" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="10" />
@@ -8035,6 +8308,7 @@
     </card>
     <card id="37508b1f-8762-474b-8da4-9a282c8ac572" name="Shield Throw" size="Card">
       <property name="Unit ID" value="tbOS014" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS014" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8042,6 +8316,7 @@
     </card>
     <card id="05cd9e11-3040-4078-ad11-11e0497dcd96" name="Fortify" size="Card">
       <property name="Unit ID" value="tbOS015" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS015" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8049,6 +8324,7 @@
     </card>
     <card id="9738ca6d-82fd-434b-81a8-29ab4275197a" name="Zemo's Scheme" size="Card">
       <property name="Unit ID" value="tbOS016" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS016" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8056,6 +8332,7 @@
     </card>
     <card id="9c821ae1-e4ee-4f93-a17f-ae040f9e5d1c" name="Book of Zemo" size="Card">
       <property name="Unit ID" value="tbOS017" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS017" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />
@@ -8063,13 +8340,16 @@
     </card>
     <card id="68b507b5-c19f-43a6-86bf-69fe959a17d2" name="Death Locket" size="Card">
       <property name="Unit ID" value="tb051" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="051" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Team Player | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Team Player | Masters Of Evil |" />
       <property name="Keywords" value="Avengers | Masters Of Evil | Robot | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Masters Of Evil | Robot | S.H.I.E.L.D. |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8139,12 +8419,15 @@
     </card>
     <card id="c19a39e9-de48-4947-9da2-b7762ee810b5" name="Crossbones" size="Card">
       <property name="Unit ID" value="tbL009" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L009" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Hydra | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Hydra | Masters Of Evil |" />
       <property name="Keywords" value="Brute | Hydra | Marksman | Skeleton Crew | Thunderbolts" />
+      <property name="Keywords Search" value="| Brute | Hydra | Marksman | Skeleton Crew | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8223,12 +8506,15 @@
     </card>
     <card id="8988db40-353d-4b1b-8d8b-14bbb22f64e9" name="Black Ant" size="Card">
       <property name="Unit ID" value="tbL028" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L028" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Team Player | Hydra" />
+      <property name="Team Abilities Search" value="| Team Player | Hydra |" />
       <property name="Keywords" value="Hydra | Illuminati | Masters Of Evil | Robot | Thunderbolts" />
+      <property name="Keywords Search" value="| Hydra | Illuminati | Masters Of Evil | Robot | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8309,12 +8595,15 @@
     </card>
     <card id="f67e6333-4a8e-41e9-87ba-0df830139ccb" name="Superia" size="Card">
       <property name="Unit ID" value="tbL032" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L032" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="A.I.M. | H.A.M.M.E.R. | Scientist | Dark Avengers | Femizons" />
+      <property name="Keywords Search" value="| A.I.M. | H.A.M.M.E.R. | Scientist | Dark Avengers | Femizons |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -8403,11 +8692,13 @@
     </card>
     <card id="01c31c5f-6e77-43f6-a707-8394995770fa" name="Citizen V" size="Card">
       <property name="Unit ID" value="tbL036" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L036" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Marksman | Martial Artist | Police | Politician | Thunderbolts" />
+      <property name="Keywords Search" value="| Marksman | Martial Artist | Police | Politician | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8477,12 +8768,15 @@
     </card>
     <card id="ad5acc42-32e1-48fd-a63c-31e972a61bb2" name="Taskmaster" size="Card">
       <property name="Unit ID" value="tbL048b" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="L048b" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="90/50" />
       <property name="Team Abilities" value="Team Player | Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Team Player | Minions Of Doom |" />
       <property name="Keywords" value="Assassin | Avengers | Hydra | Marksman | Martial Artist | S.H.I.E.L.D. | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Avengers | Hydra | Marksman | Martial Artist | S.H.I.E.L.D. | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8571,6 +8865,7 @@
     </card>
     <card id="96f5130b-6c3f-4bdd-9cf9-f9a7283405d4" name="Darkforce" size="Card">
       <property name="Unit ID" value="tbMV62-t008" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t008" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -8579,6 +8874,7 @@
     </card>
     <card id="b01853bf-a73a-4f62-b10d-354906766993" name="Iron Bars" size="Card">
       <property name="Unit ID" value="tbMV62-t010" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t010" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -8587,6 +8883,7 @@
     </card>
     <card id="08112939-719a-4668-b617-94a581470750" name="Secret Entrance [1]" size="Card">
       <property name="Unit ID" value="tbMV62-t012" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t012" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -8597,6 +8894,7 @@
     </card>
     <card id="04e8a3e5-b4fa-4837-860e-58a1a26b908c" name="Boulder" size="Card">
       <property name="Unit ID" value="tbMV62-t014" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t014" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -8606,6 +8904,7 @@
     </card>
     <card id="ee408e5c-5641-496d-ac15-3076276753a6" name="Boulder Trap" size="Card">
       <property name="Unit ID" value="tbMV62-t015" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t015" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -8616,6 +8915,7 @@
     </card>
     <card id="89627276-371d-4b72-8f18-60989c1e0804" name="Pine Tree" size="Card">
       <property name="Unit ID" value="tbMV62-t016" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="MV62-t016" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Rarity" value="Super Rare" />
@@ -8626,6 +8926,7 @@
     </card>
     <card id="06a3f53c-f660-45a3-b925-83f1ef37ad45" name="Justice Like Lightning!" size="Card">
       <property name="Unit ID" value="tbOS001" />
+      <property name="Set Search" value="| Thunderbolts |" />
       <property name="Collector Number" value="OS001" />
       <property name="Unit Type" value="One Shot" />
       <property name="Point Values" value="5" />

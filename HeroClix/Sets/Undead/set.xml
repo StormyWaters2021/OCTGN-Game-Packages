@@ -1,15 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Undead" id="f61f7346-a52a-4130-bfc8-7d309b382cd6" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="746a2af6-9c49-45c0-90b5-2edd8dd08dc8" name="Zombie" size="Card">
       <property name="Unit ID" value="und001" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="15" />
       <property name="Keywords" value="Monster | Zombie Horde" />
+      <property name="Keywords Search" value="| Monster | Zombie Horde |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -48,11 +49,13 @@
     </card>
     <card id="c9c5d6ed-4303-4e43-8009-e763c19d1616" name="Dr. Frankenstein" size="Card">
       <property name="Unit ID" value="und002" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Scientist | Monster" />
+      <property name="Keywords Search" value="| Scientist | Monster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -95,12 +98,14 @@
     </card>
     <card id="f02c0af1-4278-4c00-9449-3cc76a9671bb" name="Skeleton" size="Card">
       <property name="Unit ID" value="und003" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Skeleton Army | Monster" />
+      <property name="Keywords Search" value="| Skeleton Army | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -149,12 +154,14 @@
     </card>
     <card id="f96c8748-72ee-4bcd-ab21-790a1a916640" name="Demon" size="Card">
       <property name="Unit ID" value="und004" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Monster | Demon Legion" />
+      <property name="Keywords Search" value="| Monster | Demon Legion |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -204,12 +211,14 @@
     </card>
     <card id="ce6690eb-f078-483f-9cf7-c068337b5966" name="Werewolf" size="Card">
       <property name="Unit ID" value="und005" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Animal | Monster | Werewolf Pack" />
+      <property name="Keywords Search" value="| Animal | Monster | Werewolf Pack |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -309,12 +318,14 @@
     </card>
     <card id="2091db7e-0470-4a67-a42d-b6ce9491c914" name="Vampire" size="Card">
       <property name="Unit ID" value="und006" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Monster | Vampire Brood" />
+      <property name="Keywords Search" value="| Monster | Vampire Brood |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -378,11 +389,13 @@
     </card>
     <card id="7e0f5df7-0c1f-4655-9be4-7d73ec454f38" name="Grim Reaper" size="Card">
       <property name="Unit ID" value="und007" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Ghost Realm | Monster" />
+      <property name="Keywords Search" value="| Ghost Realm | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -436,11 +449,13 @@
     </card>
     <card id="e17f31f0-ff9f-46a5-93b1-64516cc207f7" name="Zombie Abraham Lincoln" size="Card">
       <property name="Unit ID" value="und008" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="150/60/40" />
       <property name="Keywords" value="Politician | Monster | Zombie Horde" />
+      <property name="Keywords Search" value="| Politician | Monster | Zombie Horde |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -560,12 +575,14 @@
     </card>
     <card id="fe439ed7-c0b4-42b3-b5fd-e3de7e04d95e" name="Ghost" size="Card">
       <property name="Unit ID" value="und009" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Ghost Realm | Monster" />
+      <property name="Keywords Search" value="| Ghost Realm | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -611,12 +628,14 @@
     </card>
     <card id="8a95b30b-9cc2-44b6-affd-fcef7ac79daa" name="Zombie Shambler" size="Card">
       <property name="Unit ID" value="und010" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Monster | Zombie Horde" />
+      <property name="Keywords Search" value="| Monster | Zombie Horde |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -673,11 +692,13 @@
     </card>
     <card id="971cc437-48ce-42f5-98a9-cf6063e7a655" name="Dr. Jekyll" size="Card">
       <property name="Unit ID" value="und011" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Scientist | Monster" />
+      <property name="Keywords Search" value="| Scientist | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -792,12 +813,14 @@
     </card>
     <card id="1d6ee471-c399-4c74-b83e-67cf7e0e6a17" name="Skeleton Champion" size="Card">
       <property name="Unit ID" value="und012" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Skeleton Army | Monster" />
+      <property name="Keywords Search" value="| Skeleton Army | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -861,11 +884,13 @@
     </card>
     <card id="e75139a5-e208-4115-ba03-59712dca8ee9" name="Belphegor" size="Card">
       <property name="Unit ID" value="und013" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Monster | Demon Legion" />
+      <property name="Keywords Search" value="| Monster | Demon Legion |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -946,12 +971,14 @@
     </card>
     <card id="99fc47cc-2079-4edc-86cf-baa513b27e17" name="Werewolf Alpha" size="Card">
       <property name="Unit ID" value="und014" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Animal | Monster | Werewolf Pack" />
+      <property name="Keywords Search" value="| Animal | Monster | Werewolf Pack |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1053,12 +1080,14 @@
     </card>
     <card id="7604566e-cd61-48cc-a87e-36ccb9ff7866" name="Vampire Baron" size="Card">
       <property name="Unit ID" value="und015" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Monster | Vampire Brood" />
+      <property name="Keywords Search" value="| Monster | Vampire Brood |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1160,12 +1189,14 @@
     </card>
     <card id="caeff35b-3c35-4d32-bdd2-9dbb5ff9d884" name="Death" size="Card">
       <property name="Unit ID" value="und016" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80" />
       <property name="Keywords" value="Ghost Realm | Monster" />
+      <property name="Keywords Search" value="| Ghost Realm | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1240,12 +1271,15 @@
     </card>
     <card id="cb04b77b-aefa-41ee-9665-69e24702c764" name="Jacob Marley" size="Card">
       <property name="Unit ID" value="und017" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Snowfall" />
+      <property name="Team Abilities Search" value="| Snowfall |" />
       <property name="Keywords" value="Ghost Realm | Monster" />
+      <property name="Keywords Search" value="| Ghost Realm | Monster |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1291,11 +1325,13 @@
     </card>
     <card id="e6303de9-9a82-4dd3-96ea-97ec9c249b96" name="Ghost of Abraham Lincoln" size="Card">
       <property name="Unit ID" value="und018" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="125/55" />
       <property name="Keywords" value="Ghost Realm | Politician | Monster" />
+      <property name="Keywords Search" value="| Ghost Realm | Politician | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1419,11 +1455,13 @@
     </card>
     <card id="944a2477-54bd-4ae2-abaf-ebb647b520c8" name="Frankenstein's Monster" size="Card">
       <property name="Unit ID" value="und019" />
+      <property name="Set Search" value="| Undead |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Monster" />
+      <property name="Keywords Search" value="| Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />

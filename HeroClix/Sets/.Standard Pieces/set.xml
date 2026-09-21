@@ -2,17 +2,19 @@
 <set name="Standard Game Pieces" id="fa942363-479c-4cc0-97ff-fdff9fbf3e96" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" hidden="true" version="1.0.0.0">
   <cards>
     <card id="7db159f2-1eb2-425f-aaac-5492e36d755b" name="Powers and Abilities Card" size="PAC">
+      <property name="Set Search" value="| Standard Game Pieces |" />
       <property name="Unit Type" value="PAC" />
-	  <alternate name="PAC - Speed" type="Panel1" size="PAC_Panel" />
-	  <alternate name="PAC - Attack" type="Panel2" size="PAC_Panel" />
-	  <alternate name="PAC - Defense" type="Panel3" size="PAC_Panel" />
-	  <alternate name="PAC - Damage" type="Panel4" size="PAC_Panel" />
-	  <alternate name="PAC - Inherent" type="Panel5" size="PAC_Panel" />
-	  <alternate name="PAC - Improved" type="Panel6" size="PAC_Panel" />
-	  <alternate name="PAC - Keyphrase" type="Panel7" size="PAC_Panel" />
-	  <alternate name="PAC - Terrain Markers" type="Panel8" size="PAC_Panel" />
+      <alternate name="PAC - Speed" type="Panel1" size="PAC_Panel" />
+      <alternate name="PAC - Attack" type="Panel2" size="PAC_Panel" />
+      <alternate name="PAC - Defense" type="Panel3" size="PAC_Panel" />
+      <alternate name="PAC - Damage" type="Panel4" size="PAC_Panel" />
+      <alternate name="PAC - Inherent" type="Panel5" size="PAC_Panel" />
+      <alternate name="PAC - Improved" type="Panel6" size="PAC_Panel" />
+      <alternate name="PAC - Keyphrase" type="Panel7" size="PAC_Panel" />
+      <alternate name="PAC - Terrain Markers" type="Panel8" size="PAC_Panel" />
     </card>
     <card id="fdbd1ec7-702f-4c29-bd6f-3f628af80a39" name="6" size="Dice">
+      <property name="Set Search" value="| Standard Game Pieces |" />
       <property name="Unit Type" value="Dice" />
       <alternate name="1" type="Face1" size="Dice" />
       <alternate name="2" type="Face2" size="Dice" />
@@ -21,90 +23,96 @@
       <alternate name="5" type="Face5" size="Dice" />
     </card>
     <card id="c9f48353-e39f-4066-9063-7807df3cb154" name="Smoke (Hindering)" size="1x1">
+      <property name="Set Search" value="| Standard Game Pieces |" />
       <property name="Unit Type" value="Terrain Marker" />
     </card>
     <card id="ff83db33-9871-446c-9013-28f1f36d9326" name="Debris (Hindering)" size="1x1">
+      <property name="Set Search" value="| Standard Game Pieces |" />
       <property name="Unit Type" value="Terrain Marker" />
     </card>
     <card id="a43d1c01-68f6-4492-b928-8e5149333c5b" name="Water" size="1x1">
+      <property name="Set Search" value="| Standard Game Pieces |" />
       <property name="Unit Type" value="Terrain Marker" />
     </card>
     <card id="ad0e3ad3-101e-4674-93f5-5b82b9ffa2e4" name="Blocking" size="1x1">
+      <property name="Set Search" value="| Standard Game Pieces |" />
       <property name="Unit Type" value="Terrain Marker" />
     </card>
     <card id="1bf5e637-bd54-4011-9655-8e0ab7e2327a" name="Elevated" size="1x1">
+      <property name="Set Search" value="| Standard Game Pieces |" />
       <property name="Unit Type" value="Terrain Marker" />
     </card>
-	<card id="ca4c3ea7-43fb-478f-95eb-08b8c02dab27" name="Target" size="1x1">
+    <card id="ca4c3ea7-43fb-478f-95eb-08b8c02dab27" name="Target" size="1x1">
+      <property name="Set Search" value="| Standard Game Pieces |" />
       <property name="Unit Type" value="Target Marker" />
     </card>
-	<card id="0eccc91f-84e5-4426-9860-a5a0f7bf3517" name="Line of Sight" size="LOSBase">
-	  <property name="Unit Type" value="Line of Sight" />
-	  <alternate name="Line of Sight" type="LOS0x1" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x10A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x10B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x9A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x9B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x8A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x8B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x7A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x7B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x6A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x6B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x5A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x5B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS2x9A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS2x9B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x4A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x4B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS2x7A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS2x7B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x10A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x10B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x3A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x3B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x8A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x8B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS2x5A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS2x5B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x7A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x7B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS4x9A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS4x9B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x2A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x2B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS5x9A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS5x9B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS4x7A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS4x7B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x5A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x5B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS5x8A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS5x8B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS2x3A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS2x3B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS7x10A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS7x10B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS5x7A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS5x7B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x4A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS3x4B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS7x9A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS7x9B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS4x5A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS4x5B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS5x6A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS5x6B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS6x7A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS6x7B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS7x8A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS7x8B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS8x9A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS8x9B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS9x10A" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS9x10B" size="LOSLine" />
-	  <alternate name="Line of Sight" type="LOS1x1" size="LOSLine" />
-	</card>
-
+    <card id="0eccc91f-84e5-4426-9860-a5a0f7bf3517" name="Line of Sight" size="LOSBase">
+      <property name="Set Search" value="| Standard Game Pieces |" />
+      <property name="Unit Type" value="Line of Sight" />
+      <alternate name="Line of Sight" type="LOS0x1" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x10A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x10B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x9A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x9B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x8A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x8B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x7A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x7B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x6A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x6B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x5A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x5B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS2x9A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS2x9B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x4A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x4B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS2x7A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS2x7B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x10A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x10B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x3A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x3B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x8A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x8B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS2x5A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS2x5B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x7A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x7B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS4x9A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS4x9B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x2A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x2B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS5x9A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS5x9B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS4x7A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS4x7B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x5A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x5B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS5x8A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS5x8B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS2x3A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS2x3B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS7x10A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS7x10B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS5x7A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS5x7B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x4A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS3x4B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS7x9A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS7x9B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS4x5A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS4x5B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS5x6A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS5x6B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS6x7A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS6x7B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS7x8A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS7x8B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS8x9A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS8x9B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS9x10A" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS9x10B" size="LOSLine" />
+      <alternate name="Line of Sight" type="LOS1x1" size="LOSLine" />
+    </card>
   </cards>
 </set>

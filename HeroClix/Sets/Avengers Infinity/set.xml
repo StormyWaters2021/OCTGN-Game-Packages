@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Avengers Infinity" id="0f1e8002-5d53-47ce-bcd1-e705e34c8a94" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="5eda9836-b6d0-4009-afad-cc7058d2349d" name="Iron Man" size="Card">
       <property name="Unit ID" value="ai001" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Scientist" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -73,12 +75,15 @@
     </card>
     <card id="f8c5ed4c-68a4-4ba6-b472-9ba65504a715" name="Black Panther" size="Card">
       <property name="Unit ID" value="ai002" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Marvel Knights | Ruler | Wakanda" />
+      <property name="Keywords Search" value="| Avengers | Marvel Knights | Ruler | Wakanda |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -154,11 +159,13 @@
     </card>
     <card id="705be34f-37b2-4dbd-a94e-d6d032207276" name="Black Widow" size="Card">
       <property name="Unit ID" value="ai003" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Avengers | Spy" />
+      <property name="Keywords Search" value="| Avengers | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -220,11 +227,13 @@
     </card>
     <card id="bb51c6da-a722-4ddd-87c0-134a3f791fed" name="Hawkeye" size="Card">
       <property name="Unit ID" value="ai004" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Avengers" />
+      <property name="Keywords Search" value="| Avengers |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -289,12 +298,15 @@
     </card>
     <card id="0868b1fc-8fa6-491a-95ab-0fc1882d1c6e" name="Vision" size="Card">
       <property name="Unit ID" value="ai005" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Robot" />
+      <property name="Keywords Search" value="| Avengers | Robot |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -369,12 +381,15 @@
     </card>
     <card id="15b5bd1b-666a-4238-9e05-98a7cea7d6d8" name="Moondragon" size="Card">
       <property name="Unit ID" value="ai006" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Infinity Watch | Martial Artist | Guardians Of The Galaxy | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Infinity Watch | Martial Artist | Guardians Of The Galaxy | Defenders |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -442,11 +457,13 @@
     </card>
     <card id="211931e2-9c3b-4103-96a3-2c6553cc7429" name="Firefall" size="Card">
       <property name="Unit ID" value="ai007a" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="007a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Armor | Cosmic | Robot | Spaceknight" />
+      <property name="Keywords Search" value="| Armor | Cosmic | Robot | Spaceknight |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -514,12 +531,14 @@
     </card>
     <card id="ace756b0-dfca-406a-9cc6-b1b3d61c17d1" name="Firefall" size="Card">
       <property name="Unit ID" value="ai007b" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="007b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Armor | Cosmic | Robot | Spaceknight" />
+      <property name="Keywords Search" value="| Armor | Cosmic | Robot | Spaceknight |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -587,11 +606,13 @@
     </card>
     <card id="8bf89525-ccc1-41ce-adf1-a9e6d0c658d8" name="Pip The Troll" size="Card">
       <property name="Unit ID" value="ai008" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Cosmic | Infinity Watch | X Factor" />
+      <property name="Keywords Search" value="| Cosmic | Infinity Watch | X Factor |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -649,11 +670,13 @@
     </card>
     <card id="704d210f-9249-4d3e-a086-c7b1db03598c" name="Rocket" size="Card">
       <property name="Unit ID" value="ai009" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Animal | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Animal | Guardians Of The Galaxy |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -730,12 +753,15 @@
     </card>
     <card id="42353bbd-3cdc-4eae-b28c-caa15fa8d9f9" name="Her" size="Card">
       <property name="Unit ID" value="ai010" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Alpha Flight | Cosmic" />
+      <property name="Keywords Search" value="| Alpha Flight | Cosmic |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -813,13 +839,16 @@
     </card>
     <card id="d933a0b8-1430-4313-bc4f-9acca646506f" name="S.H.I.E.L.D. Agent" size="Card">
       <property name="Unit ID" value="ai011" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| S.H.I.E.L.D. |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -864,11 +893,13 @@
     </card>
     <card id="b474a4da-edde-46f9-88c8-4d5be6759f4a" name="Ego Anti-Body" size="Card">
       <property name="Unit ID" value="ai012" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Cosmic | Robot" />
+      <property name="Keywords Search" value="| Cosmic | Robot |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -921,12 +952,15 @@
     </card>
     <card id="c26b5652-cf42-4aee-ba74-acb8213dff52" name="Black Panther 2099" size="Card">
       <property name="Unit ID" value="ai013" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Martial Artist | Future | Ruler | Spy | Wakanda" />
+      <property name="Keywords Search" value="| Martial Artist | Future | Ruler | Spy | Wakanda |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -996,11 +1030,13 @@
     </card>
     <card id="a97c9796-8bba-44eb-91b8-11e56af63e91" name="Anti-Vision" size="Card">
       <property name="Unit ID" value="ai014" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="85" />
       <property name="Keywords" value="Avengers | Robot | Spy" />
+      <property name="Keywords Search" value="| Avengers | Robot | Spy |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1068,11 +1104,13 @@
     </card>
     <card id="f0a90a04-9758-404b-a6c5-b52078d8d412" name="Moondragon" size="Card">
       <property name="Unit ID" value="ai015" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Avengers | Infinity Watch | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Infinity Watch | Defenders |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1140,12 +1178,15 @@
     </card>
     <card id="be45b8d5-643b-4211-bcd6-450b5e27d127" name="Kismet" size="Card">
       <property name="Unit ID" value="ai016" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="140" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic" />
+      <property name="Keywords Search" value="| Cosmic |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1230,6 +1271,7 @@
     </card>
     <card id="a99ff654-b231-426b-ba61-98ead44d1898" name="Enclave Scientist" size="Card">
       <property name="Unit ID" value="ai016bta" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="016bta" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Uncommon" />
@@ -1250,11 +1292,13 @@
     </card>
     <card id="c0fb8ba6-b48c-446f-a3b7-deec604abf18" name="Cosmic Enclave" size="Card">
       <property name="Unit ID" value="ai016btb" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="016btb" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1273,12 +1317,15 @@
     </card>
     <card id="3b31ec71-ab1c-406b-85b1-ce3d03f23373" name="Nick Fury" size="Card">
       <property name="Unit ID" value="ai017" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1353,12 +1400,15 @@
     </card>
     <card id="85c16eaa-55b0-4b8b-9e80-836a48a62974" name="Tigra" size="Card">
       <property name="Unit ID" value="ai018" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Animal" />
+      <property name="Keywords Search" value="| Avengers | Animal |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1423,11 +1473,13 @@
     </card>
     <card id="f0ee41e7-cf00-4bb6-beae-a4842a393474" name="Javelin" size="Card">
       <property name="Unit ID" value="ai019a" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="019a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Armor | Cosmic | Robot | Spaceknight" />
+      <property name="Keywords Search" value="| Armor | Cosmic | Robot | Spaceknight |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1497,12 +1549,14 @@
     </card>
     <card id="2d9c39ed-9c77-4136-bb13-27b72c604d13" name="Javelin" size="Card">
       <property name="Unit ID" value="ai019b" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="019b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80" />
       <property name="Keywords" value="Armor | Cosmic | Robot | Spaceknight" />
+      <property name="Keywords Search" value="| Armor | Cosmic | Robot | Spaceknight |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1583,11 +1637,13 @@
     </card>
     <card id="2d0b0087-6392-4572-9c2a-d15167a040b9" name="Gamora" size="Card">
       <property name="Unit ID" value="ai020" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="65" />
       <property name="Keywords" value="Assassin | Infinity Watch | Warrior" />
+      <property name="Keywords Search" value="| Assassin | Infinity Watch | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1655,11 +1711,13 @@
     </card>
     <card id="6ecc25d5-2b92-4146-93b4-1ba846141553" name="Star-Lord" size="Card">
       <property name="Unit ID" value="ai021" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Cosmic | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Cosmic | Guardians Of The Galaxy |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1734,11 +1792,13 @@
     </card>
     <card id="3f629b06-7477-4d19-83c0-54156d78a4ce" name="Nova" size="Card">
       <property name="Unit ID" value="ai022" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Avengers | Champions | Cosmic | New Warriors | Nova Corps" />
+      <property name="Keywords Search" value="| Avengers | Champions | Cosmic | New Warriors | Nova Corps |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1801,12 +1861,15 @@
     </card>
     <card id="f9a6915e-e9a8-4dac-a5b2-a2c2418fef09" name="Venom, Space Knight" size="Card">
       <property name="Unit ID" value="ai023" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="023" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Cosmic | Spaceknight | Spider Man Family | Guardians Of The Galaxy | Thunderbolts" />
+      <property name="Keywords Search" value="| Cosmic | Spaceknight | Spider Man Family | Guardians Of The Galaxy | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1888,11 +1951,13 @@
     </card>
     <card id="cc55c778-ec96-4e51-ae43-8c964ef03896" name="She-Hulk" size="Card">
       <property name="Unit ID" value="ai024" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Avengers | Brute | Lady Liberators" />
+      <property name="Keywords Search" value="| Avengers | Brute | Lady Liberators |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1959,12 +2024,15 @@
     </card>
     <card id="39593389-515f-497a-8f99-d23736036c33" name="Thor" size="Card">
       <property name="Unit ID" value="ai025" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Asgardian | Avengers | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Deity |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2039,12 +2107,15 @@
     </card>
     <card id="54f8dd45-07cc-47f8-ad0a-cda459e85646" name="Jack Of Hearts" size="Card">
       <property name="Unit ID" value="ai026" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Cosmic" />
+      <property name="Keywords Search" value="| Armor | Avengers | Cosmic |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2119,12 +2190,15 @@
     </card>
     <card id="6cb3adbc-dba2-4f61-8975-887d160d75ee" name="Starfox" size="Card">
       <property name="Unit ID" value="ai027" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Eternal" />
+      <property name="Keywords Search" value="| Avengers | Eternal |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2189,11 +2263,13 @@
     </card>
     <card id="836ab7a4-3681-4d83-9ab7-e760e5ac14ae" name="Maxam" size="Card">
       <property name="Unit ID" value="ai028" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Keywords" value="Armor | Infinity Watch | Future" />
+      <property name="Keywords Search" value="| Armor | Infinity Watch | Future |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2282,11 +2358,13 @@
     </card>
     <card id="2901d9d1-5adf-4c86-91f4-e860bd0f5501" name="Drax" size="Card">
       <property name="Unit ID" value="ai029" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="029" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Keywords" value="Brute | Infinity Watch" />
+      <property name="Keywords Search" value="| Brute | Infinity Watch |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2365,11 +2443,13 @@
     </card>
     <card id="e8d628ef-ec39-4f7a-9b9a-a7d9b44f3352" name="Mantis" size="Card">
       <property name="Unit ID" value="ai030" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="030" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Avengers | Martial Artist | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Avengers | Martial Artist | Guardians Of The Galaxy |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2447,11 +2527,13 @@
     </card>
     <card id="ffc39ca9-d5bc-4b43-97a1-7606fc83f22c" name="Terminator" size="Card">
       <property name="Unit ID" value="ai031a" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="031a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Armor | Cosmic | Robot | Spaceknight" />
+      <property name="Keywords Search" value="| Armor | Cosmic | Robot | Spaceknight |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2532,12 +2614,14 @@
     </card>
     <card id="f0fd0ac9-1278-4918-ad9f-b102012c9d8e" name="Terminator" size="Card">
       <property name="Unit ID" value="ai031b" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="031b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Armor | Cosmic | Robot | Ruler | Spaceknight" />
+      <property name="Keywords Search" value="| Armor | Cosmic | Robot | Ruler | Spaceknight |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2607,12 +2691,15 @@
     </card>
     <card id="44d7f77c-9641-4d1e-8531-c581b304c823" name="Nova" size="Card">
       <property name="Unit ID" value="ai032" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="032" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Cosmic | Nova Corps | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Avengers | Cosmic | Nova Corps | Guardians Of The Galaxy |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2704,11 +2791,13 @@
     </card>
     <card id="0d9370d1-19d2-4711-8491-f3b84da317d9" name="Captain America" size="Card">
       <property name="Unit ID" value="ai033" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="033" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Keywords" value="Avengers | Future" />
+      <property name="Keywords Search" value="| Avengers | Future |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2783,11 +2872,13 @@
     </card>
     <card id="d34e7d8f-f0c5-4290-9e3a-03ce83adf960" name="Iron Patriot" size="Card">
       <property name="Unit ID" value="ai034" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="034" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80" />
       <property name="Keywords" value="Armor | Avengers | Scientist" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2857,12 +2948,14 @@
     </card>
     <card id="0e78cb18-06fe-4e44-907e-1ad6ea565f04" name="Captain America, Principled" size="Card">
       <property name="Unit ID" value="ai035" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="035" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Title" />
       <property name="Point Values" value="65" />
       <property name="Keywords" value="Avengers | Cosmic | Soldier | Warrior" />
+      <property name="Keywords Search" value="| Avengers | Cosmic | Soldier | Warrior |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2939,12 +3032,15 @@
     </card>
     <card id="6f0d6d6b-f690-4bcf-b290-2dc2877b84ca" name="Photon" size="Card">
       <property name="Unit ID" value="ai036" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="036" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers" />
+      <property name="Keywords Search" value="| Avengers |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3012,12 +3108,15 @@
     </card>
     <card id="13b7c254-4450-4b66-beb0-3b01a5dacf11" name="Quasar" size="Card">
       <property name="Unit ID" value="ai037" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="037" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Cosmic" />
+      <property name="Keywords Search" value="| Avengers | Cosmic |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3095,12 +3194,15 @@
     </card>
     <card id="d3c60559-aa68-43f9-9e0f-c43edee39e04" name="Adam Warlock" size="Card">
       <property name="Unit ID" value="ai038" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="038" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Infinity Watch" />
+      <property name="Keywords Search" value="| Cosmic | Infinity Watch |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3186,11 +3288,13 @@
     </card>
     <card id="71b1562e-22d4-4fd8-8eea-6ae7656a5d54" name="Cosmo" size="Card">
       <property name="Unit ID" value="ai039" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="039" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Animal | Annihilators | Cosmic | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Animal | Annihilators | Cosmic | Guardians Of The Galaxy |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3261,11 +3365,13 @@
     </card>
     <card id="2287dea2-5eb3-4b29-a8e6-c07cc2d4af74" name="Golden Skull" size="Card">
       <property name="Unit ID" value="ai040" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="040" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Armor | Future | Pirate" />
+      <property name="Keywords Search" value="| Armor | Future | Pirate |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3320,6 +3426,7 @@
     </card>
     <card id="c6f886c8-c6ee-45e4-91f6-a6e31796cfa1" name="Deathbot" size="Card">
       <property name="Unit ID" value="ai040bt" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="040bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -3341,11 +3448,13 @@
     </card>
     <card id="e6259a7c-fbdf-48c7-a07f-9ceb9143c594" name="Starshine" size="Card">
       <property name="Unit ID" value="ai041a" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="041a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Armor | Cosmic | Robot | Spaceknight" />
+      <property name="Keywords Search" value="| Armor | Cosmic | Robot | Spaceknight |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3426,12 +3535,14 @@
     </card>
     <card id="85d63558-c7b6-4839-959e-b88a8a51d79d" name="Starshine" size="Card">
       <property name="Unit ID" value="ai041b" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="041b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="100" />
       <property name="Keywords" value="Armor | Cosmic | Robot | Spaceknight" />
+      <property name="Keywords Search" value="| Armor | Cosmic | Robot | Spaceknight |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3513,12 +3624,15 @@
     </card>
     <card id="b373d681-d791-4a6a-bc5a-97ce0a943371" name="Supremor" size="Card">
       <property name="Unit ID" value="ai042" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="042" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="200/100" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Kree | Robot | Ruler" />
+      <property name="Keywords Search" value="| Kree | Robot | Ruler |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3622,12 +3736,15 @@
     </card>
     <card id="ec458b97-7aab-4c8d-a321-4c82ad7071b0" name="Unseen" size="Card">
       <property name="Unit ID" value="ai043" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="043" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Soldier | Spy" />
+      <property name="Keywords Search" value="| Cosmic | Soldier | Spy |" />
       <property name="Range" value="9" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3687,11 +3804,13 @@
     </card>
     <card id="dcbc4041-8d8d-4cc8-bfcb-2e1a0f49c271" name="Wasp" size="Card">
       <property name="Unit ID" value="ai044" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="044" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Avengers | Scientist | Spy" />
+      <property name="Keywords Search" value="| Avengers | Scientist | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
@@ -3759,13 +3878,16 @@
     </card>
     <card id="52f59c15-715e-4cfd-8186-5ebc4fdc1721" name="Thor" size="Card">
       <property name="Unit ID" value="ai045" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="045" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Asgardian | Avengers | Cosmic | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Cosmic | Deity |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3844,13 +3966,16 @@
     </card>
     <card id="9fe28feb-9501-44a6-8f39-43e40bbe4845" name="Moondragon" size="Card">
       <property name="Unit ID" value="ai046" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="046" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Avengers | Cosmic | Infinity Watch" />
+      <property name="Keywords Search" value="| Avengers | Cosmic | Infinity Watch |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3918,13 +4043,16 @@
     </card>
     <card id="bb740c67-e62c-4c0f-9b10-454f2c5e4e1d" name="Tigra" size="Card">
       <property name="Unit ID" value="ai047" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="047" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Avengers | Animal | Cosmic" />
+      <property name="Keywords Search" value="| Avengers | Animal | Cosmic |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3981,13 +4109,16 @@
     </card>
     <card id="871a7e93-4a7a-4ca6-8ab0-89d40f72eba6" name="Starfox" size="Card">
       <property name="Unit ID" value="ai048" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="048" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Avengers | Cosmic | Eternal" />
+      <property name="Keywords Search" value="| Avengers | Cosmic | Eternal |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4055,13 +4186,16 @@
     </card>
     <card id="5c6d5ec8-f42f-4435-ac6e-f2aed660e07f" name="Photon" size="Card">
       <property name="Unit ID" value="ai049" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="049" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Avengers | Cosmic | Police" />
+      <property name="Keywords Search" value="| Avengers | Cosmic | Police |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4139,13 +4273,16 @@
     </card>
     <card id="35ae7970-0dfb-4099-b9b6-3a4d22be6dc6" name="Quasar" size="Card">
       <property name="Unit ID" value="ai050" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="050" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Avengers | Cosmic | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Cosmic | S.H.I.E.L.D. |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4224,11 +4361,13 @@
     </card>
     <card id="69e8ea55-f759-47ac-9f55-2f1071bb9c3c" name="Rocket Raccoon" size="Card">
       <property name="Unit ID" value="ai100" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="100" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Guardians Of The Galaxy |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4307,11 +4446,13 @@
     </card>
     <card id="9770548c-8898-4bf6-b70d-a60baa77061a" name="Giant-Girl" size="Card">
       <property name="Unit ID" value="aiG001" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="250/240/230/220/210/200/190/180/170/160/150/140/130/120/110/100/90/80/70/60/50/40/30/20/10" />
       <property name="Keywords" value="Avengers | Celebrity" />
+      <property name="Keywords Search" value="| Avengers | Celebrity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
@@ -4566,12 +4707,15 @@
     </card>
     <card id="a293f9cc-a9ad-4e4d-b92f-b234101f23a0" name="S.H.I.E.L.D. Flying Car" size="Card">
       <property name="Unit ID" value="aiG002" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100/40" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Spy | S.H.I.E.L.D. | Vehicle" />
+      <property name="Keywords Search" value="| Spy | S.H.I.E.L.D. | Vehicle |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Vehicle | Starburst" />
@@ -4690,6 +4834,7 @@
     </card>
     <card id="de986cd9-4370-4589-b49b-474a465b8c3f" name="S.H.I.E.L.D. Flying Car (Terrain Dial)" size="Card">
       <property name="Unit ID" value="aiG002st" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G002st" />
       <property name="Unit Type" value="Special Terrain" />
       <property name="Rarity" value="Uncommon" />
@@ -4714,7 +4859,7 @@
         <property name="Click Number" value="18" />
         <property name="Damage Ability" value="Special" />
       </alternate>
-	  <alternate name="S.H.I.E.L.D. Flying Car (Terrain Dial)" type="KO" size="2x2">
+      <alternate name="S.H.I.E.L.D. Flying Car (Terrain Dial)" type="KO" size="2x2">
         <property name="Speed" value="KO" />
         <property name="Attack" value="KO" />
         <property name="Defense" value="KO" />
@@ -4723,11 +4868,13 @@
     </card>
     <card id="474502b8-12c5-4b9f-9433-418daa8e1a9b" name="Kree Sentry" size="Card">
       <property name="Unit ID" value="aiG003" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Cosmic | Kree | Robot" />
+      <property name="Keywords Search" value="| Cosmic | Kree | Robot |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Colossal" />
@@ -4954,11 +5101,13 @@
     </card>
     <card id="05033213-80b7-4bb0-a599-b0e0932f08d6" name="Hulk" size="Card">
       <property name="Unit ID" value="aiG004" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="350/250/150" />
       <property name="Keywords" value="Avengers | Brute | Monster" />
+      <property name="Keywords Search" value="| Avengers | Brute | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
@@ -5119,11 +5268,13 @@
     </card>
     <card id="61fdba97-4464-453c-9314-d2f509779a64" name="Dune Buggy" size="Card">
       <property name="Unit ID" value="aiG005" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Vehicle" />
+      <property name="Keywords Search" value="| Vehicle |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Vehicle | Starburst" />
@@ -5200,6 +5351,7 @@
     </card>
     <card id="85a5b3bb-1e40-4e10-bf6e-c943a25abe0f" name="Dune Buggy (Terrain Dial)" size="Card">
       <property name="Unit ID" value="aiG005st" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G005st" />
       <property name="Unit Type" value="Special Terrain" />
       <property name="Rarity" value="Uncommon" />
@@ -5222,7 +5374,7 @@
         <property name="Click Number" value="17" />
         <property name="Damage Ability" value="Special" />
       </alternate>
-	  <alternate name="Dune Buggy (Terrain Dial)" type="KO" size="2x2">
+      <alternate name="Dune Buggy (Terrain Dial)" type="KO" size="2x2">
         <property name="Speed" value="KO" />
         <property name="Attack" value="KO" />
         <property name="Defense" value="KO" />
@@ -5231,11 +5383,13 @@
     </card>
     <card id="04eddae6-e62a-4a1c-88d7-b3abe3463ad9" name="Devil Dinosaur &amp; Moon Girl" size="Card">
       <property name="Unit ID" value="aiG006" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100/75/50" />
       <property name="Keywords" value="Animal | Inhumans | Scientist | Monster" />
+      <property name="Keywords Search" value="| Animal | Inhumans | Scientist | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
@@ -5420,11 +5574,13 @@
     </card>
     <card id="a20511c9-dd5e-456c-8335-c10c9c4f8e4d" name="Giganto" size="Card">
       <property name="Unit ID" value="aiG007" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="200/100" />
       <property name="Keywords" value="Atlantis | Animal | Monster" />
+      <property name="Keywords Search" value="| Atlantis | Animal | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Shield | Colossal" />
@@ -5571,12 +5727,15 @@
     </card>
     <card id="572d8cab-e66b-4f28-9251-3cb6aea483f0" name="Nebula" size="Card">
       <property name="Unit ID" value="aiG008" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="400/300/125" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Deity" />
+      <property name="Keywords Search" value="| Cosmic | Deity |" />
       <property name="Range" value="9" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Giant" />
@@ -5757,11 +5916,13 @@
     </card>
     <card id="5fa6c6e1-55c9-4c18-a815-5be1a68f5b43" name="Jakar" size="Card">
       <property name="Unit ID" value="aiG009" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="350/125/75/25" />
       <property name="Keywords" value="Cosmic | Batroc'S Brigade" />
+      <property name="Keywords Search" value="| Cosmic | Batroc'S Brigade |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
@@ -5932,13 +6093,16 @@
     </card>
     <card id="b2fd6863-ed5e-4bc2-b741-e7e3fcab8452" name="Kronos" size="Card">
       <property name="Unit ID" value="aiG010" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="400/250/125/60" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Deity | Eternal" />
+      <property name="Keywords Search" value="| Cosmic | Deity | Eternal |" />
       <property name="Range" value="9" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Colossal" />
@@ -6142,12 +6306,14 @@
     </card>
     <card id="079dd969-0c5b-4a8b-8d4f-a8ac54a2bccd" name="Wasp, Heart of the Avengers" size="Card">
       <property name="Unit ID" value="aiG011" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Title" />
       <property name="Point Values" value="300/150/50" />
       <property name="Keywords" value="Avengers" />
+      <property name="Keywords Search" value="| Avengers |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
@@ -6362,11 +6528,13 @@
     </card>
     <card id="8ef60f0a-c583-42e7-81ff-a16c67976143" name="Tony Stark's Car" size="Card">
       <property name="Unit ID" value="aiG012" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100/75" />
       <property name="Keywords" value="Stark Industries | Vehicle" />
+      <property name="Keywords Search" value="| Stark Industries | Vehicle |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Vehicle | Starburst" />
@@ -6480,6 +6648,7 @@
     </card>
     <card id="38ed053f-539e-4ebd-a9cf-31d37e474945" name="Tony Stark's Car (Terrain Dial)" size="Card">
       <property name="Unit ID" value="aiG012st" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G012st" />
       <property name="Unit Type" value="Special Terrain" />
       <property name="Rarity" value="Uncommon" />
@@ -6510,7 +6679,7 @@
         <property name="Click Number" value="19" />
         <property name="Defense Ability" value="Special" />
       </alternate>
-	  <alternate name="Tony Stark's Car (Terrain Dial)" type="KO" size="2x2">
+      <alternate name="Tony Stark's Car (Terrain Dial)" type="KO" size="2x2">
         <property name="Speed" value="KO" />
         <property name="Attack" value="KO" />
         <property name="Defense" value="KO" />
@@ -6519,11 +6688,13 @@
     </card>
     <card id="42cb107e-3fbc-42bf-b03a-bb643c9f9ef4" name="Sentry #459" size="Card">
       <property name="Unit ID" value="aiG013" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="350/225/150" />
       <property name="Keywords" value="Cosmic | Kree | Robot" />
+      <property name="Keywords Search" value="| Cosmic | Kree | Robot |" />
       <property name="Range" value="8" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Colossal" />
@@ -6714,11 +6885,13 @@
     </card>
     <card id="06d49d3c-55a7-4054-9ad0-d89991a4be0b" name="Red Hulk" size="Card">
       <property name="Unit ID" value="aiG014" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="200/175/100" />
       <property name="Keywords" value="Avengers | Brute | Soldier" />
+      <property name="Keywords Search" value="| Avengers | Brute | Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
@@ -6884,11 +7057,13 @@
     </card>
     <card id="59e79b19-69a1-4e9f-9f7c-94362f24e551" name="Spider-Mobile" size="Card">
       <property name="Unit ID" value="aiG015" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Spider Man Family | Vehicle" />
+      <property name="Keywords Search" value="| Spider Man Family | Vehicle |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Vehicle | Starburst" />
@@ -6982,6 +7157,7 @@
     </card>
     <card id="5a5415d1-157d-4ee1-bc01-3a0d5fdca577" name="Spider-Mobile (Terrain Dial)" size="Card">
       <property name="Unit ID" value="aiG015st" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G015st" />
       <property name="Unit Type" value="Special Terrain" />
       <property name="Rarity" value="Uncommon" />
@@ -7006,7 +7182,7 @@
         <property name="Click Number" value="18" />
         <property name="Damage Ability" value="Special" />
       </alternate>
-	  <alternate name="Spider-Mobile (Terrain Dial)" type="KO" size="2x2">
+      <alternate name="Spider-Mobile (Terrain Dial)" type="KO" size="2x2">
         <property name="Speed" value="KO" />
         <property name="Attack" value="KO" />
         <property name="Defense" value="KO" />
@@ -7015,11 +7191,13 @@
     </card>
     <card id="5bb89a29-44ee-4bb3-b3a9-7c00145dd249" name="Devil Dinosaur &amp; Moon Boy" size="Card">
       <property name="Unit ID" value="aiG016" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="275/175/75" />
       <property name="Keywords" value="Brute | Animal | Past | Savage Land | Fallen Angels" />
+      <property name="Keywords Search" value="| Brute | Animal | Past | Savage Land | Fallen Angels |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
@@ -7196,11 +7374,13 @@
     </card>
     <card id="8aa91dd8-7572-47cc-a6d5-06b9f8539431" name="Giganto &amp; Namor" size="Card">
       <property name="Unit ID" value="aiG017" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="200/100/50/15" />
       <property name="Keywords" value="Atlantis | Animal | Monster" />
+      <property name="Keywords Search" value="| Atlantis | Animal | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Colossal" />
@@ -7379,12 +7559,15 @@
     </card>
     <card id="1c0fbd59-5cdd-41ed-b8b6-de21a099025b" name="Thanos" size="Card">
       <property name="Unit ID" value="aiG018" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="325/250/150/100" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Brute | Black Order | Cosmic | Minions Of Thanos | Eternal" />
+      <property name="Keywords Search" value="| Brute | Black Order | Cosmic | Minions Of Thanos | Eternal |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Giant" />
@@ -7576,13 +7759,16 @@
     </card>
     <card id="99322014-1f92-4b34-a19d-0aac373d769f" name="Stranger" size="Card">
       <property name="Unit ID" value="aiG019" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="400/250/100" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic" />
+      <property name="Keywords Search" value="| Cosmic |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Colossal" />
@@ -7743,12 +7929,15 @@
     </card>
     <card id="79b78442-240c-43cd-acff-a940200c0cc5" name="Ego-Prime" size="Card">
       <property name="Unit ID" value="aiG020" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="350/250/150/75" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Mystical" />
+      <property name="Keywords Search" value="| Cosmic | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Colossal" />
@@ -7947,6 +8136,7 @@
     </card>
     <card id="7c1a8665-3d49-4f8f-a3db-18b37e923a76" name="Ego Anti-Body" size="Card">
       <property name="Unit ID" value="aiG020bt" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G020bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Rare" />
@@ -7969,13 +8159,16 @@
     </card>
     <card id="dfb3e56a-48ed-4954-b03d-9093581f1fc7" name="Lord Chaos &amp; Master Order" size="Card">
       <property name="Unit ID" value="aiG021" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="575/425/225/100" />
       <property name="Team Abilities" value="Mystics | Power Cosmic" />
+      <property name="Team Abilities Search" value="| Mystics | Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Mystical | Deity" />
+      <property name="Keywords Search" value="| Cosmic | Mystical | Deity |" />
       <property name="Range" value="10" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Colossal" />
@@ -8183,13 +8376,16 @@
     </card>
     <card id="8fe6b75e-9984-4bdc-a892-da8659649921" name="Infinity" size="Card">
       <property name="Unit ID" value="aiG022" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="600/300/150/75" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Deity" />
+      <property name="Keywords Search" value="| Cosmic | Deity |" />
       <property name="Range" value="12" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Colossal" />
@@ -8424,13 +8620,16 @@
     </card>
     <card id="972a8f1e-7931-4f06-a23e-da767f1b8e07" name="Eternity" size="Card">
       <property name="Unit ID" value="aiG023" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G023" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="600/250/100" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Deity" />
+      <property name="Keywords Search" value="| Cosmic | Deity |" />
       <property name="Range" value="12" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Colossal" />
@@ -8671,13 +8870,16 @@
     </card>
     <card id="26956e61-5b25-45d1-8ff5-dd7f65ab245a" name="Living Tribunal" size="Card">
       <property name="Unit ID" value="aiG024" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="900/450/300/150" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Deity" />
+      <property name="Keywords Search" value="| Cosmic | Deity |" />
       <property name="Range" value="13" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Colossal" />
@@ -8944,11 +9146,13 @@
     </card>
     <card id="59e4fcd6-7080-419d-aa11-fb4ae1586a2a" name="Groot" size="Card">
       <property name="Unit ID" value="aiG025" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="400/250/150/20" />
       <property name="Keywords" value="Cosmic | Ruler | Monster | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Cosmic | Ruler | Monster | Guardians Of The Galaxy |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Colossal" />
@@ -9167,6 +9371,7 @@
     </card>
     <card id="d64c1e85-d1fb-462f-b77b-40ee55a93442" name="Dr. Leslie Evans" size="Card">
       <property name="Unit ID" value="aiG025bta" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G025bta" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -9189,6 +9394,7 @@
     </card>
     <card id="a48f358c-8a2e-460f-ae12-21d64bec4756" name="Walking Wood" size="Card">
       <property name="Unit ID" value="aiG025btb" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="G025btb" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -9211,12 +9417,14 @@
     </card>
     <card id="4bc9db55-a294-456a-8955-d0bda80ebc5e" name="Halfworld" size="16x24">
       <property name="Unit ID" value="aiM001" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="Orange squares are dividing line squares&#10;Orange &quot;Dividing Line&quot; squares are blocking terrain that can't be destroyed." />
     </card>
     <card id="24cb44fb-22b4-4fdf-85c6-7c72b26de741" name="Galador Promenade" size="16x24">
       <property name="Unit ID" value="aiM002" />
+      <property name="Set Search" value="| Avengers Infinity |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
     </card>

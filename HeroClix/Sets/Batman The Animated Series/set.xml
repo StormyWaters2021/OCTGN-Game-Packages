@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Batman: The Animated Series" id="bd5ef70f-04dd-48d1-8318-fe25bb965b9f" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="d45c1a53-79e2-4afa-a379-d4db2565cd57" name="Batman" size="Card">
       <property name="Unit ID" value="btas001a" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="001a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -74,12 +76,14 @@
     </card>
     <card id="d0407cc3-c46b-4cba-be4e-6863d8cdc025" name="Clayface" size="Card">
       <property name="Unit ID" value="btas001b" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="001b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -137,12 +141,15 @@
     </card>
     <card id="34527c4a-9b19-4a21-b941-b351e420ea86" name="Robin" size="Card">
       <property name="Unit ID" value="btas002" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -199,12 +206,15 @@
     </card>
     <card id="df99bf34-5e20-4bdc-969c-6e0b7a671885" name="The Joker" size="Card">
       <property name="Unit ID" value="btas003" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -263,12 +273,15 @@
     </card>
     <card id="39c176c2-3c45-477b-bdcb-e28b044ab7c2" name="Poison Ivy" size="Card">
       <property name="Unit ID" value="btas004" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Gotham City Underworld | Scientist |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -324,13 +337,16 @@
     </card>
     <card id="d5cf7c1e-5563-4aee-8854-33935c740943" name="Suited Henchman" size="Card">
       <property name="Unit ID" value="btas005" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="5" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Gotham City Underworld" />
+      <property name="Keywords Search" value="| Gotham City Underworld |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -404,12 +420,15 @@
     </card>
     <card id="a957be4f-e4eb-4af5-908a-d2bd073ea514" name="Alfred" size="Card">
       <property name="Unit ID" value="btas006" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="20" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -451,11 +470,13 @@
     </card>
     <card id="b3e0b5d3-ec01-4b52-bfc8-ee58ed6f2ed4" name="Leslie Thompkins" size="Card">
       <property name="Unit ID" value="btas007" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="15" />
       <property name="Keywords" value="Gotham City | Politician" />
+      <property name="Keywords Search" value="| Gotham City | Politician |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -496,12 +517,15 @@
     </card>
     <card id="769575d4-845f-437b-9c56-b934e0972623" name="Two-Face" size="Card">
       <property name="Unit ID" value="btas008" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Politician" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Politician |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -573,12 +597,15 @@
     </card>
     <card id="90f92088-b85e-41c7-af13-0afb9e065311" name="Mr. Freeze" size="Card">
       <property name="Unit ID" value="btas009" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Scientist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -646,12 +673,14 @@
     </card>
     <card id="5d20e35b-01cc-4eea-850b-4b9a13ed7387" name="Ninja" size="Card">
       <property name="Unit ID" value="btas010" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Assassin | League Of Assassins | Martial Artist" />
+      <property name="Keywords Search" value="| Assassin | League Of Assassins | Martial Artist |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -696,12 +725,15 @@
     </card>
     <card id="ce03ae65-73bf-4340-a843-cd7c8f72aaf2" name="Commissioner Gordon" size="Card">
       <property name="Unit ID" value="btas011" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Gotham City | Police | Detective" />
+      <property name="Keywords Search" value="| Gotham City | Police | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -747,12 +779,15 @@
     </card>
     <card id="fa5ff322-66df-49f8-b15c-22b88434b6d5" name="Detective Harvey Bullock" size="Card">
       <property name="Unit ID" value="btas012" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Gotham City | Police | Detective" />
+      <property name="Keywords Search" value="| Gotham City | Police | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -807,13 +842,16 @@
     </card>
     <card id="b4e329f5-a97f-4d2f-a955-70b1ac8b0942" name="Catwoman" size="Card">
       <property name="Unit ID" value="btas013" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Batman Ally | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Ally | Batman Enemy |" />
       <property name="Keywords" value="Batman Family | Gotham City Sirens | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City Sirens | Gotham City Underworld |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -871,12 +909,15 @@
     </card>
     <card id="a3269a4a-33b9-43e5-b05e-c134060ee361" name="Harley Quinn" size="Card">
       <property name="Unit ID" value="btas014" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -957,12 +998,15 @@
     </card>
     <card id="25319036-def2-4ae8-a5e1-9c6f27ec1073" name="Dee Dee" size="Card">
       <property name="Unit ID" value="btas015" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Future | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1033,12 +1077,15 @@
     </card>
     <card id="189fc2fa-036e-4aa6-8af0-749d38a8b229" name="Batman Beyond" size="Card">
       <property name="Unit ID" value="btas016" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Armor | Batman Family | Gotham City | Future" />
+      <property name="Keywords Search" value="| Armor | Batman Family | Gotham City | Future |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1120,12 +1167,15 @@
     </card>
     <card id="00e5b6b6-162e-4a28-b135-48e7a503df57" name="The Riddler" size="Card">
       <property name="Unit ID" value="btas017a" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="017a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Legion Of Doom | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Arkham Asylum | Legion Of Doom | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1190,12 +1240,14 @@
     </card>
     <card id="82343370-387c-4952-90e6-f6ea425b6d14" name="Clock King" size="Card">
       <property name="Unit ID" value="btas017b" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="017b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Gotham City Underworld | Suicide Squad" />
+      <property name="Keywords Search" value="| Gotham City Underworld | Suicide Squad |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1264,12 +1316,15 @@
     </card>
     <card id="091f42da-2876-4d11-a577-bc66c7de46b8" name="Renee Montoya" size="Card">
       <property name="Unit ID" value="btas018" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Gotham City | Police | Detective" />
+      <property name="Keywords Search" value="| Gotham City | Police | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1324,12 +1379,15 @@
     </card>
     <card id="5933bed8-95fd-4fd8-beac-b8973070f6c7" name="Alfred" size="Card">
       <property name="Unit ID" value="btas019" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="25" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1372,12 +1430,15 @@
     </card>
     <card id="d0e0c302-ca07-46bd-a959-b1b711335dcd" name="Commissioner Barbara Gordon" size="Card">
       <property name="Unit ID" value="btas020" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Batman Family | Gotham City | Future | Police" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Future | Police |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1434,12 +1495,15 @@
     </card>
     <card id="f719f0fe-d08f-4a72-bf1c-1d05cd963754" name="Harvey Dent" size="Card">
       <property name="Unit ID" value="btas021" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Police | Batman Ally" />
+      <property name="Team Abilities Search" value="| Police | Batman Ally |" />
       <property name="Keywords" value="Gotham City | Police | Politician" />
+      <property name="Keywords Search" value="| Gotham City | Police | Politician |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1504,12 +1568,15 @@
     </card>
     <card id="2fa33422-1a38-43be-a3b4-47c9e588557a" name="Mr. Freeze" size="Card">
       <property name="Unit ID" value="btas022" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Armor | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Armor | Gotham City Underworld | Scientist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1594,11 +1661,13 @@
     </card>
     <card id="04fb66a6-e741-40f5-8f83-ac7500bb1205" name="Kyodai Ken" size="Card">
       <property name="Unit ID" value="btas023" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="023" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Assassin | Martial Artist" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1664,12 +1733,15 @@
     </card>
     <card id="c888c64d-61cf-4abb-ad15-c646db54267e" name="Lock-Up" size="Card">
       <property name="Unit ID" value="btas024" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Police" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Police |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1735,11 +1807,13 @@
     </card>
     <card id="17c24145-5b93-43a7-b03f-cf5c1d63a74a" name="Maxie Zeus" size="Card">
       <property name="Unit ID" value="btas025" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Arkham Asylum | Gotham City | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City | Gotham City Underworld |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1796,6 +1870,7 @@
     </card>
     <card id="b68c3e94-a900-4842-b668-28375ecedd83" name="Stone Harpy" size="Card">
       <property name="Unit ID" value="btas025bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="025bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Uncommon" />
@@ -1815,12 +1890,15 @@
     </card>
     <card id="a48b5a34-de6a-4805-bef3-c8b00f15d711" name="Scarecrow" size="Card">
       <property name="Unit ID" value="btas026" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1890,12 +1968,15 @@
     </card>
     <card id="b13d7468-4407-4106-8a9a-dd4ff73131f6" name="The Penguin" size="Card">
       <property name="Unit ID" value="btas027" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Gotham City Underworld" />
+      <property name="Keywords Search" value="| Gotham City Underworld |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1952,12 +2033,15 @@
     </card>
     <card id="a501de19-fec7-4e60-9f75-fb82b2f99acf" name="Batman" size="Card">
       <property name="Unit ID" value="btas028" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2078,12 +2162,15 @@
     </card>
     <card id="583ec5be-fc5c-43d9-a7a9-2547cb55ddd9" name="Robin" size="Card">
       <property name="Unit ID" value="btas029" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="029" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2154,12 +2241,15 @@
     </card>
     <card id="9e5e34f6-a91b-4f02-806d-810de3e96c77" name="J-Man" size="Card">
       <property name="Unit ID" value="btas030" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="030" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Future | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2227,12 +2317,15 @@
     </card>
     <card id="31979900-26c8-4da1-9d46-c8a2bf1f925b" name="Poison Ivy" size="Card">
       <property name="Unit ID" value="btas031" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="031" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2303,6 +2396,7 @@
     </card>
     <card id="fb5e4d26-9198-4d78-91ff-fdd62b2b6c72" name="Pheromone Mushroom" size="Card">
       <property name="Unit ID" value="btas031bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="031bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Uncommon" />
@@ -2322,12 +2416,15 @@
     </card>
     <card id="16af2b39-a5d8-4698-8f04-61cd0e5d5958" name="Roland Daggett" size="Card">
       <property name="Unit ID" value="btas032" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="032" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Gotham City | Gotham City Underworld | Politician" />
+      <property name="Keywords Search" value="| Gotham City | Gotham City Underworld | Politician |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2380,12 +2477,15 @@
     </card>
     <card id="ce1dfc09-1b30-49e6-8744-2495ab906c6f" name="Talia Al Ghul" size="Card">
       <property name="Unit ID" value="btas033" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="033" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Assassin | Batman Family | League Of Assassins | Martial Artist | Spy | Detective" />
+      <property name="Keywords Search" value="| Assassin | Batman Family | League Of Assassins | Martial Artist | Spy | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2472,12 +2572,15 @@
     </card>
     <card id="d62a3219-3929-4e65-9418-88eb80bd8a03" name="Ra's Al Ghul" size="Card">
       <property name="Unit ID" value="btas034" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="034" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Assassin | League Of Assassins | Past | Ruler" />
+      <property name="Keywords Search" value="| Assassin | League Of Assassins | Past | Ruler |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2558,11 +2661,13 @@
     </card>
     <card id="ec1a182b-bc35-4b69-a8c9-84203a555ddf" name="Ubu" size="Card">
       <property name="Unit ID" value="btas034bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="034bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2581,6 +2686,7 @@
     </card>
     <card id="765cd690-4fd5-4cdc-9215-4059b7b4fd32" name="Ninja" size="Card">
       <property name="Unit ID" value="btas034bte" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="034bte" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Rare" />
@@ -2602,12 +2708,15 @@
     </card>
     <card id="ed662c33-85bd-48ed-a109-b0c6179bbd1d" name="Wonder Woman" size="Card">
       <property name="Unit ID" value="btas035" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="035" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Justice League | Amazon | Warrior" />
+      <property name="Keywords Search" value="| Justice League | Amazon | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2683,12 +2792,15 @@
     </card>
     <card id="62f6559d-e2b6-412d-8134-4f0815ac0a04" name="Superman" size="Card">
       <property name="Unit ID" value="btas036" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="036" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Justice League | Superman Ally" />
+      <property name="Team Abilities Search" value="| Justice League | Superman Ally |" />
       <property name="Keywords" value="Justice League | Kryptonian | Metropolis | Reporter" />
+      <property name="Keywords Search" value="| Justice League | Kryptonian | Metropolis | Reporter |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2769,12 +2881,15 @@
     </card>
     <card id="894ffce1-f08f-4087-b96f-809ff9afe437" name="Nightwing" size="Card">
       <property name="Unit ID" value="btas037" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="037" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2841,12 +2956,15 @@
     </card>
     <card id="52318efc-6721-48f3-8702-6e38b41c7d4a" name="The Flash" size="Card">
       <property name="Unit ID" value="btas038" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="038" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Central City | Justice League | Speedster" />
+      <property name="Keywords Search" value="| Central City | Justice League | Speedster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2918,12 +3036,15 @@
     </card>
     <card id="93874bf5-0b58-4ea1-861c-78ddc493fef1" name="Green Lantern" size="Card">
       <property name="Unit ID" value="btas039" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="039" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Green Lantern Corps | Justice League" />
+      <property name="Team Abilities Search" value="| Green Lantern Corps | Justice League |" />
       <property name="Keywords" value="Justice League | Green Lantern Corps | Soldier" />
+      <property name="Keywords Search" value="| Justice League | Green Lantern Corps | Soldier |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2998,12 +3119,15 @@
     </card>
     <card id="ac59f348-d91b-40b3-854a-f0c846a5c0b4" name="Batman" size="Card">
       <property name="Unit ID" value="btas040" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="040" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="125/60" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Justice League | Martial Artist | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Justice League | Martial Artist | Detective |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3106,12 +3230,15 @@
     </card>
     <card id="945f7f6e-d44f-4842-83dc-25d4d2eaf7c9" name="Robin" size="Card">
       <property name="Unit ID" value="btas041" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="041" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75/40" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Martial Artist" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Martial Artist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3191,12 +3318,15 @@
     </card>
     <card id="12ff281c-e14e-4e14-a3fd-9ae9aece77bd" name="The Joker" size="Card">
       <property name="Unit ID" value="btas042" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="042" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Underworld | Batman Enemy" />
+      <property name="Team Abilities Search" value="| Underworld | Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Celebrity | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Arkham Asylum | Celebrity | Gotham City Underworld |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3275,12 +3405,15 @@
     </card>
     <card id="76b576be-6682-4ecf-85b9-99c6eedce868" name="Poison Ivy" size="Card">
       <property name="Unit ID" value="btas043" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="043" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Scientist |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3349,11 +3482,13 @@
     </card>
     <card id="33eff39f-82a7-4698-8369-e76242b27fb5" name="Lex Luthor" size="Card">
       <property name="Unit ID" value="btas044" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="044" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Legion Of Doom | Metropolis | Politician | Scientist" />
+      <property name="Keywords Search" value="| Legion Of Doom | Metropolis | Politician | Scientist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3406,12 +3541,15 @@
     </card>
     <card id="facd127b-71de-46fc-9c3d-056fe546da1a" name="Jervis Tetch" size="Card">
       <property name="Unit ID" value="btas045" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="045" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld | Scientist |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3475,11 +3613,13 @@
     </card>
     <card id="9eb94518-bd43-402f-8835-fc3e5ab76334" name="Zeta" size="Card">
       <property name="Unit ID" value="btas046" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="046" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="85" />
       <property name="Keywords" value="Future | Robot | Spy" />
+      <property name="Keywords Search" value="| Future | Robot | Spy |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3560,12 +3700,15 @@
     </card>
     <card id="d6b23e82-4719-4250-9a46-d5da59655b75" name="Killer Croc" size="Card">
       <property name="Unit ID" value="btas047a" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="047a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Brute | Animal | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Arkham Asylum | Brute | Animal | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Shield | Starburst" />
@@ -3653,12 +3796,14 @@
     </card>
     <card id="63d1aced-fcba-4862-943e-92366bfc4144" name="Batman" size="Card">
       <property name="Unit ID" value="btas047b" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="047b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Batman Family | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3730,12 +3875,15 @@
     </card>
     <card id="0445fc46-d8e8-46b5-8bc3-9b342ee583e2" name="Bruce Wayne" size="Card">
       <property name="Unit ID" value="btas048" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="048" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Future | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Future | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3791,6 +3939,7 @@
     </card>
     <card id="63c06600-4f9b-4ee6-b754-c974cef2443a" name="Ace" size="Card">
       <property name="Unit ID" value="btas048bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="048bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Rare" />
@@ -3814,12 +3963,15 @@
     </card>
     <card id="680ace31-afe1-4e5b-a19c-bb954efba961" name="Baby Doll" size="Card">
       <property name="Unit ID" value="btas049" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="049" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Celebrity | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Celebrity | Gotham City Underworld |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Tiny" />
@@ -3875,12 +4027,15 @@
     </card>
     <card id="8eb6278f-4993-45d2-9d82-15acc6f90cff" name="Bane" size="Card">
       <property name="Unit ID" value="btas050" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="050" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Assassin | Brute | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Assassin | Brute | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3962,12 +4117,15 @@
     </card>
     <card id="29fe7ae1-9ed2-4495-a4b2-6f45010459f6" name="The Phantasm" size="Card">
       <property name="Unit ID" value="btas051" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="051" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Assassin | Gotham City" />
+      <property name="Keywords Search" value="| Assassin | Gotham City |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4049,13 +4207,16 @@
     </card>
     <card id="92e47573-c376-4482-be14-504c80d28c38" name="Batgirl, Shadow of the Bat" size="Card">
       <property name="Unit ID" value="btas052" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="052" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Title" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4142,13 +4303,16 @@
     </card>
     <card id="e407685b-1d93-4b62-b1e7-13ad6601c1a0" name="Batman, Caped Crusader" size="Card">
       <property name="Unit ID" value="btas053a" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="053a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Title" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Detective |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4238,13 +4402,16 @@
     </card>
     <card id="54762353-6003-4ccc-85c2-8fdf2e34ab93" name="H.A.R.D.A.C. Batman" size="Card">
       <property name="Unit ID" value="btas053b" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="053b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Robot" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Robot |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4322,12 +4489,15 @@
     </card>
     <card id="9d35947c-2ff3-45b8-b5c2-888493398bbf" name="The Joker" size="Card">
       <property name="Unit ID" value="btas054" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="054" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4408,11 +4578,13 @@
     </card>
     <card id="f165ca76-a064-455c-a7ba-5bf7d5b4ebf3" name="Robot Minotaur" size="Card">
       <property name="Unit ID" value="btas055" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="055" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="60/50" />
       <property name="Keywords" value="Animal | Robot" />
+      <property name="Keywords Search" value="| Animal | Robot |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
@@ -4493,12 +4665,15 @@
     </card>
     <card id="fa0f69d6-9fe5-432c-89ce-5e768456e977" name="Clayface" size="Card">
       <property name="Unit ID" value="btas056" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="056" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Brute | Celebrity | Gotham City Underworld | Monster" />
+      <property name="Keywords Search" value="| Brute | Celebrity | Gotham City Underworld | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4598,12 +4773,15 @@
     </card>
     <card id="7856ed53-2415-400e-bcb2-71e1cbb7bde8" name="Man-Bat" size="Card">
       <property name="Unit ID" value="btas057" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="057" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Animal | Scientist | Monster" />
+      <property name="Keywords Search" value="| Arkham Asylum | Animal | Scientist | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4678,12 +4856,15 @@
     </card>
     <card id="d15114c8-2103-4477-bb3f-d88882c28fdc" name="The Ventriloquist" size="Card">
       <property name="Unit ID" value="btas058" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="058" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4733,12 +4914,15 @@
     </card>
     <card id="a808a3b4-ba0d-4052-8872-f95d679aedf1" name="The Gray Ghost" size="Card">
       <property name="Unit ID" value="btas059" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="059" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75/40" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Celebrity | Gotham City | Justice Society | Police | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Celebrity | Gotham City | Justice Society | Police | Detective |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4817,12 +5001,15 @@
     </card>
     <card id="361e5cb1-75bd-4977-bd65-8463791617d5" name="Hawkman &amp; Hawkgirl" size="Card">
       <property name="Unit ID" value="btas060" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="060" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="All Star Squadron | Justice League | Justice Society | Past | Police | Mystical | Warrior" />
+      <property name="Keywords Search" value="| All Star Squadron | Justice League | Justice Society | Past | Police | Mystical | Warrior |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4944,12 +5131,15 @@
     </card>
     <card id="cc877f07-5392-4800-991e-cb2dbfbcbda1" name="Zatanna" size="Card">
       <property name="Unit ID" value="btas061" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="061" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75/50" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Celebrity | Justice League | Mystical" />
+      <property name="Keywords Search" value="| Celebrity | Justice League | Mystical |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5020,6 +5210,7 @@
     </card>
     <card id="aff2676b-4d04-4c71-976d-6fcce48b8080" name="Bat" size="Card">
       <property name="Unit ID" value="btas061bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="061bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -5041,11 +5232,13 @@
     </card>
     <card id="a480d968-18b2-4e7e-9e75-958d862bdf27" name="Inque" size="Card">
       <property name="Unit ID" value="btas062" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="062" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Future | Gotham City Underworld | Spy | Monster" />
+      <property name="Keywords Search" value="| Future | Gotham City Underworld | Spy | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5126,13 +5319,16 @@
     </card>
     <card id="0eb81e5f-a774-49a3-8999-b29f9280c974" name="Batman" size="Card">
       <property name="Unit ID" value="btas063" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="063" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="60/30" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Justice League | Super Friends" />
+      <property name="Keywords Search" value="| Batman Family | Justice League | Super Friends |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5214,13 +5410,16 @@
     </card>
     <card id="6ab1f67c-b976-47bc-80ba-285c17cb1aa3" name="Robin" size="Card">
       <property name="Unit ID" value="btas064" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="064" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="30/20" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Justice League | Super Friends" />
+      <property name="Keywords Search" value="| Batman Family | Justice League | Super Friends |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5278,12 +5477,14 @@
     </card>
     <card id="4c99f07b-76ca-4b47-8d7d-b137a3690bc8" name="Aquaman" size="Card">
       <property name="Unit ID" value="btas065" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="065" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="50/30" />
       <property name="Keywords" value="Atlantis | Justice League | Super Friends" />
+      <property name="Keywords Search" value="| Atlantis | Justice League | Super Friends |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Shield | Starburst" />
@@ -5365,6 +5566,7 @@
     </card>
     <card id="ab502bc0-a68b-47a8-b793-fc63049ad2d2" name="Average Fish" size="Card">
       <property name="Unit ID" value="btas065bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="065bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
@@ -5385,13 +5587,16 @@
     </card>
     <card id="f2515155-ea24-4a35-bb52-b3c2641a9c2d" name="Superman" size="Card">
       <property name="Unit ID" value="btas066" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="066" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="100/40" />
       <property name="Team Abilities" value="Superman Ally" />
+      <property name="Team Abilities Search" value="| Superman Ally |" />
       <property name="Keywords" value="Justice League | Kryptonian | Super Friends" />
+      <property name="Keywords Search" value="| Justice League | Kryptonian | Super Friends |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -5484,12 +5689,14 @@
     </card>
     <card id="a3e7a73f-9aef-4767-86e7-a33d79f50106" name="Wonder Woman" size="Card">
       <property name="Unit ID" value="btas067" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="067" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="70/30" />
       <property name="Keywords" value="Justice League | Super Friends | Amazon" />
+      <property name="Keywords Search" value="| Justice League | Super Friends | Amazon |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5571,12 +5778,14 @@
     </card>
     <card id="6f3a8345-9b28-480d-974b-350025679b63" name="The Flash" size="Card">
       <property name="Unit ID" value="btas068" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="068" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="60/30" />
       <property name="Keywords" value="Justice League | Super Friends" />
+      <property name="Keywords Search" value="| Justice League | Super Friends |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5656,12 +5865,14 @@
     </card>
     <card id="5afce4c3-5135-4e8e-ab07-dcb5a4839413" name="Green Lantern" size="Card">
       <property name="Unit ID" value="btas069" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="069" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="70/30" />
       <property name="Keywords" value="Justice League | Green Lantern Corps | Super Friends" />
+      <property name="Keywords Search" value="| Justice League | Green Lantern Corps | Super Friends |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -5743,6 +5954,7 @@
     </card>
     <card id="ca8e60d4-28e6-430a-a712-4d61a7b916a9" name="Kyro" size="Card">
       <property name="Unit ID" value="btas069bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="069bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
@@ -5763,12 +5975,14 @@
     </card>
     <card id="99229c99-9ae7-4d8c-bf4f-c71a2b8dddec" name="Apache Chief" size="Card">
       <property name="Unit ID" value="btas070" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="070" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="50/30" />
       <property name="Keywords" value="Justice League | Super Friends" />
+      <property name="Keywords Search" value="| Justice League | Super Friends |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5846,12 +6060,14 @@
     </card>
     <card id="60a40805-58d0-4fc9-af04-2e4e3b53a176" name="The Atom" size="Card">
       <property name="Unit ID" value="btas071" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="071" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="50/20" />
       <property name="Keywords" value="Justice League | Politician | Scientist | Super Friends" />
+      <property name="Keywords Search" value="| Justice League | Politician | Scientist | Super Friends |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5920,12 +6136,14 @@
     </card>
     <card id="c026989d-5e7f-4fb6-aaac-b250ac19524d" name="Firestorm" size="Card">
       <property name="Unit ID" value="btas072" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="072" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="80/40" />
       <property name="Keywords" value="Justice League | Scientist | Super Friends" />
+      <property name="Keywords Search" value="| Justice League | Scientist | Super Friends |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -6007,12 +6225,14 @@
     </card>
     <card id="d24fb5d6-1145-4208-9b33-b05ca9f480d5" name="Hawkgirl" size="Card">
       <property name="Unit ID" value="btas073" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="073" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="50/30" />
       <property name="Keywords" value="Justice League | Super Friends" />
+      <property name="Keywords Search" value="| Justice League | Super Friends |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -6091,6 +6311,7 @@
     </card>
     <card id="3ebf0c61-1079-473b-a777-73b9c87052d3" name="Average Bird" size="Card">
       <property name="Unit ID" value="btas073bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="073bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
@@ -6110,12 +6331,14 @@
     </card>
     <card id="bbac76ad-f850-4701-911e-83c3ed00fbba" name="Hawkman" size="Card">
       <property name="Unit ID" value="btas074" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="074" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="50/30" />
       <property name="Keywords" value="Justice League | Super Friends" />
+      <property name="Keywords Search" value="| Justice League | Super Friends |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -6194,12 +6417,15 @@
     </card>
     <card id="41a314d9-2375-4b83-82f1-e41f026b8246" name="The Penguin" size="Card">
       <property name="Unit ID" value="btas100" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="100" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Gotham City | Gotham City Underworld | Politician" />
+      <property name="Keywords Search" value="| Gotham City | Gotham City Underworld | Politician |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -6256,6 +6482,7 @@
     </card>
     <card id="5ad7fd95-546b-4051-bbfc-6b05ec8eaac8" name="Emperor Penguin" size="Card">
       <property name="Unit ID" value="btas100bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="100bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
@@ -6276,12 +6503,15 @@
     </card>
     <card id="1b25d741-6d30-4b1b-b3ed-5de6b7fce34d" name="Batman" size="Card">
       <property name="Unit ID" value="btas101" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="101" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City | Scientist | Detective" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City | Scientist | Detective |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6367,12 +6597,15 @@
     </card>
     <card id="5a8f838d-bb24-46b8-936e-7f6da23c94e9" name="Robin" size="Card">
       <property name="Unit ID" value="btas102" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="102" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Ally" />
+      <property name="Team Abilities Search" value="| Batman Ally |" />
       <property name="Keywords" value="Batman Family | Gotham City" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6438,13 +6671,16 @@
     </card>
     <card id="123fcdac-fef6-4ff2-b961-0fb522742cd8" name="The Joker" size="Card">
       <property name="Unit ID" value="btas103" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="103" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Underworld |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -6520,12 +6756,15 @@
     </card>
     <card id="b3829e8c-f8c2-4370-9b6b-d59fca7b6148" name="Poison Ivy" size="Card">
       <property name="Unit ID" value="btas104" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="104" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -6605,6 +6844,7 @@
     </card>
     <card id="ff4fc23c-d7bd-4bba-adf7-52e8c2163a51" name="Biting Vine" size="Card">
       <property name="Unit ID" value="btas104bt" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="104bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Common" />
@@ -6626,12 +6866,15 @@
     </card>
     <card id="ff2a424c-c8fb-4f20-aa7a-ece54794bc6d" name="Catwoman" size="Card">
       <property name="Unit ID" value="btas105" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="105" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Calculator" />
+      <property name="Team Abilities Search" value="| Calculator |" />
       <property name="Keywords" value="Batman Family | Gotham City Sirens | Gotham City Underworld" />
+      <property name="Keywords Search" value="| Batman Family | Gotham City Sirens | Gotham City Underworld |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -6698,12 +6941,15 @@
     </card>
     <card id="ec939380-4b68-4660-b6ca-5111ce88f237" name="Harley Quinn" size="Card">
       <property name="Unit ID" value="btas106" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="106" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Batman Enemy" />
+      <property name="Team Abilities Search" value="| Batman Enemy |" />
       <property name="Keywords" value="Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist" />
+      <property name="Keywords Search" value="| Arkham Asylum | Gotham City Sirens | Gotham City Underworld | Scientist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -6771,6 +7017,7 @@
     </card>
     <card id="ae39f50b-1ff1-4f83-85ca-16a08b85d23a" name="Bud" size="Card">
       <property name="Unit ID" value="btasLB-HHH2bt1" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="LB-HHH2bt1" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Common" />
@@ -6793,6 +7040,7 @@
     </card>
     <card id="f5871d72-eb80-423c-bf76-ca739c5e1579" name="Lou" size="Card">
       <property name="Unit ID" value="btasLB-HHH2bt2" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="LB-HHH2bt2" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Common" />
@@ -6815,24 +7063,28 @@
     </card>
     <card id="a61522c8-456f-4c44-8cac-2f22347a0a7e" name="Gotham Museum" size="16x24">
       <property name="Unit ID" value="btasM001" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="[Location] Heist&#10;At the beginning of the game, generate a special light object with Indestructible named &quot;Cat's Eye Diamonds&quot; in the orange square. It can't be used in object attacks. While it's held, the holder has &quot;FREE: If this character occupies a starting area, KO this object and modify either speed or attack +1 this game. If the character given this action is named Catwoman, modify the chosen value +2 instead.&quot; When it's KO'd in this way, generate this object again in the orange square.&#10;&#10;[Consolation] Consolation&#10;Friendly characters that can use Stealth can use Super Senses when occupying hindering terrain, but only succeed on a [d:6]." />
     </card>
     <card id="984808b7-595a-4c72-87b9-152b924ae339" name="Gotham City Waterfront" size="16x24">
       <property name="Unit ID" value="btasM002" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="Unnamed Ability&#10;Orange squares are hindering terrain.&#10;&#10;[Location] Shipping Crates&#10;Characters occupying or adjacent to an orange square have &quot;FREE: Roll a d6.&#10;[d:3]-[d:4]: Generate a standard light object.&#10;[d:5]-[d:6]: Generate a standard light or heavy object.&quot;&#10;&#10;Unnamed Ability&#10;(Place the object adjacent to that character.)&#10;&#10;[Consolation] Consolation&#10;When placing objects at the beginning of the game, you may place 3 additional standard objects." />
     </card>
     <card id="f26a3b59-cf23-4421-9928-29a369f4aebb" name="Ha-Ha Hacienda" size="16x24">
       <property name="Unit ID" value="btasM003" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M003" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="[Location] Welcome to My Humble Abode&#10;At the beginning of the game, choose a friendly character. That character has &quot;FREE: Roll a D6. You may have this Location make a range attack with 4 range 10 attack 1 damage from the orange square matching the result. Damage dealt by this attack is penetrating. If the character given this action is named The Joker, instead roll 2d6 and choose either d6 as the result.&quot; (This attack can't target friendly characters.)&#10;&#10;[Consolation] Consolation&#10;Friendly characters named the Joker modify attack +1.&#10;&#10;[Location] My Babies Need Their Space&#10;At the beginning of the game, generate either a Bud or Lou bystander in your starting area. If your starting force has a character named Harley Quinn, generate both instead.&#10;&#10;[Consolation] Consolation&#10;At the beginning of the game, if your starting force has a character named Harley Quinn, generate either a Bud or Lou bystander in your starting area" />
     </card>
     <card id="1fc0ee88-fd0e-4d30-9519-148347cee36d" name="Bud" size="Card">
       <property name="Unit ID" value="btasM003bta" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M003bta" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Common" />
@@ -6855,6 +7107,7 @@
     </card>
     <card id="84ed0d0d-56b3-4d30-b53a-c3695de73384" name="Lou" size="Card">
       <property name="Unit ID" value="btasM003btb" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M003btb" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Common" />
@@ -6877,12 +7130,14 @@
     </card>
     <card id="a85ba04f-8ec4-4993-b69d-e0a473474bc0" name="Iceberg Lounge" size="16x24">
       <property name="Unit ID" value="btasM004" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M004" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="[Location] Iceberg Lounge&#10;At the beginning of the game, generate two Iceberge Lounge bystanders in distinct squares of water terrain closer to your starting area than any other starting area. If your starting force has a character named The Penguin, you may generate up to four instead.&#10;&#10;[Consolation] Consolation&#10;At the beginning of the game, generate an Emporer Penguin bystander in your starting area or a sqaure of water terrain closer to your starting area than any other starting area." />
     </card>
     <card id="d7d39797-452a-4934-85f5-f89cc5a675f6" name="Puffin" size="Card">
       <property name="Unit ID" value="btasM004bta" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M004bta" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Common" />
@@ -6903,6 +7158,7 @@
     </card>
     <card id="c4b1598c-46a3-49b8-baaa-23b3947c3f4f" name="Seal" size="Card">
       <property name="Unit ID" value="btasM004btb" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M004btb" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Common" />
@@ -6923,18 +7179,21 @@
     </card>
     <card id="950862b5-321f-4345-ac6d-ca650c0e3d50" name="Poison Ivy's Greenhouse" size="16x24">
       <property name="Unit ID" value="btasM005" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M005" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="[Location] Conservatory&#10;At the beginning of the game, choose a friendly character. That character has &quot;POWER: This Location makes a close attack with 10 attack targeting an (opposing) character occupying hindering terrain. Instead of normal damage, a hit character is given an action token. If the character given this action is named Poison Ivy, the attack may target an (opposing) character adjacent to hindering terrain.&quot;&#10;&#10;[Consolation] Consolation&#10;At the beginning of the game, place 6 hindering terrain markers on the map outside of starting areas. (They stay indefinitely.)&#10;&#10;Unnamed Ability&#10;Orange squares are blocking terrain that can't be destroyed, moved through, or have markers placed on them." />
     </card>
     <card id="651ac25c-d364-4459-b42a-5ee77094190a" name="Gotham City Downtown" size="16x24">
       <property name="Unit ID" value="btasM006" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="M006" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="[Location] I am the Night&#10;All characters named Batman have [it:hindering]. (This includes obscuring terrain.)&#10;&#10;[Consolation] Consolation&#10;Friendly characters named Batman modify defense +1 when they have 0 or 1 action tokens.&#10;&#10;[Location] From the Rooftops&#10;All characters named Robin have [im:elevated,hindering,outdoor_blocking].&#10;&#10;[Consolation] Consolation&#10;Friendly characters named Robin modify speed +2." />
     </card>
     <card id="e5b85d0a-364a-4c92-9e5f-832fff3b7050" name="Batarang" size="Card">
       <property name="Unit ID" value="btass001" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="s001" />
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Rare" />
@@ -6944,6 +7203,7 @@
     </card>
     <card id="ade3250a-6adb-41fa-9442-544d050113f4" name="Venom Harness" size="Card">
       <property name="Unit ID" value="btass002" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="s002" />
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Super Rare" />
@@ -6953,6 +7213,7 @@
     </card>
     <card id="0a2ec199-9d1c-45f1-9426-dde2bf5fab04" name="Christmas Present" size="Card">
       <property name="Unit ID" value="btass003" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="s003" />
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Super Rare" />
@@ -6962,6 +7223,7 @@
     </card>
     <card id="2bf21450-dacb-460b-867d-c17f6ab4ce4c" name="Scarface" size="Card">
       <property name="Unit ID" value="btass004" />
+      <property name="Set Search" value="| Batman: The Animated Series |" />
       <property name="Collector Number" value="s004" />
       <property name="Unit Type" value="Equipment" />
       <property name="Rarity" value="Super Rare" />

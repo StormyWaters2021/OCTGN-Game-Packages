@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Avengers/Defenders War" id="c0b81834-886a-4b49-9c76-76a32141b1cb" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="5ce8271c-b559-400b-9d7f-491f3ffa45d6" name="Dr. Strange" size="Card">
       <property name="Unit ID" value="adw001" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Mystical | Defenders" />
+      <property name="Keywords Search" value="| Mystical | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -64,11 +66,13 @@
     </card>
     <card id="d8d73198-a830-412c-8027-427b845eb7b7" name="Daredevil" size="Card">
       <property name="Unit ID" value="adw002" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Avengers | Martial Artist | Marvel Knights" />
+      <property name="Keywords Search" value="| Avengers | Martial Artist | Marvel Knights |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -131,12 +135,15 @@
     </card>
     <card id="e66532b8-3a2c-4a04-bfc1-5ec55c0672cc" name="Hulk" size="Card">
       <property name="Unit ID" value="adw003" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Brute | Defenders" />
+      <property name="Keywords Search" value="| Brute | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -222,12 +229,15 @@
     </card>
     <card id="c6b067d5-8bad-45e9-967a-79d6e4dd1b13" name="Hawkeye" size="Card">
       <property name="Unit ID" value="adw004" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Defenders" />
+      <property name="Keywords Search" value="| Defenders |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -277,12 +287,15 @@
     </card>
     <card id="a7fce75f-9474-4390-b6f9-8dc4a45bcb21" name="Wasp" size="Card">
       <property name="Unit ID" value="adw005" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Celebrity" />
+      <property name="Keywords Search" value="| Avengers | Celebrity |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
@@ -335,12 +348,15 @@
     </card>
     <card id="f8cd5963-c675-4915-a01e-a1abf7ab3d49" name="Vision" size="Card">
       <property name="Unit ID" value="adw006" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Robot" />
+      <property name="Keywords Search" value="| Avengers | Robot |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -402,12 +418,15 @@
     </card>
     <card id="2a08babb-5100-4b97-82ad-bce29636ca15" name="Black Panther" size="Card">
       <property name="Unit ID" value="adw007" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Scientist | Wakanda" />
+      <property name="Keywords Search" value="| Avengers | Scientist | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -458,11 +477,13 @@
     </card>
     <card id="249b460c-d41e-4c54-ba3b-d37d444e5018" name="Luke Cage" size="Card">
       <property name="Unit ID" value="adw008" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Avengers | Heroes For Hire | Marvel Knights" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | Marvel Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -524,11 +545,13 @@
     </card>
     <card id="71dec74a-e28f-4453-abc8-1306e4e8d53f" name="Punisher" size="Card">
       <property name="Unit ID" value="adw009" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Marvel Knights | Soldier" />
+      <property name="Keywords Search" value="| Marvel Knights | Soldier |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -591,12 +614,15 @@
     </card>
     <card id="a4da43b5-bc6c-4286-9768-7923e15c47e3" name="Iron Man" size="Card">
       <property name="Unit ID" value="adw010" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers" />
+      <property name="Keywords Search" value="| Armor | Avengers |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -661,12 +687,15 @@
     </card>
     <card id="f1594273-e23e-4875-8953-52062ef150e0" name="Captain America" size="Card">
       <property name="Unit ID" value="adw011" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Soldier" />
+      <property name="Keywords Search" value="| Avengers | Soldier |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -731,11 +760,13 @@
     </card>
     <card id="63a1e72b-62e1-4ac9-bc6f-fc7b5b5fe342" name="Iron Fist" size="Card">
       <property name="Unit ID" value="adw012" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Avengers | Heroes For Hire | K'Un Lun | Martial Artist | Marvel Knights" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | K'Un Lun | Martial Artist | Marvel Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -805,12 +836,15 @@
     </card>
     <card id="1a5f5149-aaaa-4836-b2bd-1e0285626b9f" name="Whiplash" size="Card">
       <property name="Unit ID" value="adw013" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Sinister Syndicate" />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Scientist | Sinister Syndicate | Maggia" />
+      <property name="Keywords Search" value="| Scientist | Sinister Syndicate | Maggia |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -875,11 +909,13 @@
     </card>
     <card id="45f9871b-11ab-400b-817c-851cb535e253" name="Wakandan Warrior" size="Card">
       <property name="Unit ID" value="adw014" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="20" />
       <property name="Keywords" value="Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Warrior | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -921,12 +957,15 @@
     </card>
     <card id="f363ae5e-0cf5-4df4-86e4-7269627162cd" name="Hand Ninja" size="Card">
       <property name="Unit ID" value="adw015" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="10" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Martial Artist | The Hand" />
+      <property name="Keywords Search" value="| Martial Artist | The Hand |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -968,11 +1007,13 @@
     </card>
     <card id="3e8636c1-1d1b-4da8-be98-322c77a4fbf2" name="Atlantean Warrior" size="Card">
       <property name="Unit ID" value="adw016" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Atlantis | Warrior" />
+      <property name="Keywords Search" value="| Atlantis | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Shield | Starburst" />
@@ -1017,11 +1058,13 @@
     </card>
     <card id="525d1912-737d-43a8-9fd2-d25cd6773383" name="Elektra" size="Card">
       <property name="Unit ID" value="adw017" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Assassin | Martial Artist | Marvel Knights | The Hand" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Marvel Knights | The Hand |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1085,12 +1128,15 @@
     </card>
     <card id="c9ba9540-0c4d-4d25-b282-bfbc75c9320e" name="Black Panther" size="Card">
       <property name="Unit ID" value="adw018" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Avengers | Warrior | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1145,12 +1191,15 @@
     </card>
     <card id="6d60ffb0-65cf-4929-b52e-941ab4f01ae3" name="Dr. Strange" size="Card">
       <property name="Unit ID" value="adw019" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Mystical | Defenders" />
+      <property name="Keywords Search" value="| Mystical | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1210,11 +1259,13 @@
     </card>
     <card id="55cf528a-0b6a-419b-9cdc-97f8cb5d2094" name="Daredevil" size="Card">
       <property name="Unit ID" value="adw020" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Martial Artist" />
+      <property name="Keywords Search" value="| Martial Artist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1268,11 +1319,13 @@
     </card>
     <card id="0a4389f5-0a57-4daf-bb09-7d39f01f7195" name="Hulk" size="Card">
       <property name="Unit ID" value="adw021" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Brute | Monster" />
+      <property name="Keywords Search" value="| Brute | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1349,12 +1402,15 @@
     </card>
     <card id="90a6a48e-538f-46f0-b67f-53c988ecb63e" name="Hawkeye" size="Card">
       <property name="Unit ID" value="adw022" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers" />
+      <property name="Keywords Search" value="| Avengers |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1417,12 +1473,15 @@
     </card>
     <card id="7b1b1c12-aa8f-43dd-a13e-14a5d7d41019" name="Wasp" size="Card">
       <property name="Unit ID" value="adw023" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="023" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Celebrity" />
+      <property name="Keywords Search" value="| Avengers | Celebrity |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Tiny" />
@@ -1480,12 +1539,15 @@
     </card>
     <card id="b7996a89-436f-478a-b469-afaf25185c8e" name="Vision" size="Card">
       <property name="Unit ID" value="adw024" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Robot" />
+      <property name="Keywords Search" value="| Avengers | Robot |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1550,12 +1612,15 @@
     </card>
     <card id="4ca98b72-b2eb-4e12-b10a-87c2c5713066" name="Swordsman" size="Card">
       <property name="Unit ID" value="adw025" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers" />
+      <property name="Keywords Search" value="| Avengers |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1621,12 +1686,15 @@
     </card>
     <card id="01e77767-47c5-4c3a-b1fe-2a1cb710b273" name="Black Widow" size="Card">
       <property name="Unit ID" value="adw026" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Spy" />
+      <property name="Keywords Search" value="| Avengers | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1692,11 +1760,13 @@
     </card>
     <card id="cef8b67c-ff7c-4e9c-bce6-134af9a52a16" name="Karen Page" size="Card">
       <property name="Unit ID" value="adw027" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="20" />
       <property name="Keywords" value="Celebrity | Marvel Knights" />
+      <property name="Keywords Search" value="| Celebrity | Marvel Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1739,11 +1809,13 @@
     </card>
     <card id="bc308e77-7f43-4cd0-b59e-63df213cc93e" name="Ben Urich" size="Card">
       <property name="Unit ID" value="adw028" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="10" />
       <property name="Keywords" value="Reporter | Spider Man Family" />
+      <property name="Keywords Search" value="| Reporter | Spider Man Family |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1785,11 +1857,13 @@
     </card>
     <card id="96c9ab83-b5b5-4a6a-80cc-2230b85a481f" name="Black Panther" size="Card">
       <property name="Unit ID" value="adw029" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="029" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Marvel Knights | Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Marvel Knights | Warrior | Wakanda |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1854,11 +1928,13 @@
     </card>
     <card id="2dfeb320-95aa-44e5-b745-d7b119ce4b3f" name="Punisher" size="Card">
       <property name="Unit ID" value="adw030" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="030" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Marvel Knights | Soldier" />
+      <property name="Keywords Search" value="| Marvel Knights | Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1923,11 +1999,13 @@
     </card>
     <card id="fb168d83-b7df-4863-a537-2376e4778632" name="Zaran" size="Card">
       <property name="Unit ID" value="adw031" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="031" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Martial Artist | Batroc'S Brigade" />
+      <property name="Keywords Search" value="| Martial Artist | Batroc'S Brigade |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1974,11 +2052,13 @@
     </card>
     <card id="94a20882-150f-4bb9-bad1-0746f9623bda" name="W'Kabi" size="Card">
       <property name="Unit ID" value="adw032" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="032" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Warrior | Wakanda |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2041,12 +2121,15 @@
     </card>
     <card id="5c2acc66-bb37-4f4b-8860-079a2ff44eeb" name="Kirigi" size="Card">
       <property name="Unit ID" value="adw033" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="033" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Martial Artist | Mystical | The Hand" />
+      <property name="Keywords Search" value="| Martial Artist | Mystical | The Hand |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2126,11 +2209,13 @@
     </card>
     <card id="d4041080-de87-4ca7-a93b-2e253bf49ee4" name="Elektra" size="Card">
       <property name="Unit ID" value="adw034" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="034" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Assassin | Martial Artist | Marvel Knights | The Hand" />
+      <property name="Keywords Search" value="| Assassin | Martial Artist | Marvel Knights | The Hand |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2195,12 +2280,15 @@
     </card>
     <card id="686d0995-ef49-439b-bc5c-75f8804420de" name="Dr. Strange" size="Card">
       <property name="Unit ID" value="adw035" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="035" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Mystical | Defenders" />
+      <property name="Keywords Search" value="| Mystical | Defenders |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2266,12 +2354,15 @@
     </card>
     <card id="426fa9ff-9faa-45c0-9b41-7ff221933417" name="Swordsman" size="Card">
       <property name="Unit ID" value="adw036" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="036" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Lethal Legion | Martial Artist | Masters Of Evil" />
+      <property name="Keywords Search" value="| Lethal Legion | Martial Artist | Masters Of Evil |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2336,11 +2427,13 @@
     </card>
     <card id="42b578c8-421f-49e6-ae19-7d3537af278f" name="Black Widow" size="Card">
       <property name="Unit ID" value="adw037" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="037" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Marvel Knights | Spy" />
+      <property name="Keywords Search" value="| Marvel Knights | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2406,11 +2499,13 @@
     </card>
     <card id="4b1618ec-aff8-456f-b17c-63d1290957df" name="Jessica Jones" size="Card">
       <property name="Unit ID" value="adw038" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="038" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="15" />
       <property name="Keywords" value="Avengers | Marvel Knights | Detective" />
+      <property name="Keywords Search" value="| Avengers | Marvel Knights | Detective |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2461,12 +2556,15 @@
     </card>
     <card id="1b45c327-40e1-40d0-adc2-839536e6b7ae" name="Purple Man" size="Card">
       <property name="Unit ID" value="adw039" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="039" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Minions Of Doom |" />
       <property name="Keywords" value="Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Spy | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2528,11 +2626,13 @@
     </card>
     <card id="f116e484-c0e8-468b-991c-31b575cab715" name="Count Nefaria" size="Card">
       <property name="Unit ID" value="adw040" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="040" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="200" />
       <property name="Keywords" value="Lethal Legion | Ruler | Maggia" />
+      <property name="Keywords Search" value="| Lethal Legion | Ruler | Maggia |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2643,11 +2743,13 @@
     </card>
     <card id="46a42cda-60b7-4cd2-9f8f-8b7cb274e846" name="Foggy Nelson" size="Card">
       <property name="Unit ID" value="adw041" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="041" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="15" />
       <property name="Keywords" value="Marvel Knights" />
+      <property name="Keywords Search" value="| Marvel Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2687,11 +2789,13 @@
     </card>
     <card id="dad192ee-bde6-4508-93c4-c071c382adfe" name="Gladiator" size="Card">
       <property name="Unit ID" value="adw042" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="042" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Martial Artist | Maggia | Emissaries Of Evil" />
+      <property name="Keywords Search" value="| Martial Artist | Maggia | Emissaries Of Evil |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2754,11 +2858,13 @@
     </card>
     <card id="2bd29221-e62f-4811-a785-a5a66ec2ec03" name="Machete" size="Card">
       <property name="Unit ID" value="adw043" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="043" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Batroc'S Brigade" />
+      <property name="Keywords Search" value="| Batroc'S Brigade |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2809,12 +2915,15 @@
     </card>
     <card id="d2b9099c-6f52-491e-b851-33816427d2c4" name="Gargoyle" size="Card">
       <property name="Unit ID" value="adw044" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="044" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Past | Monster | Mystical | Defenders" />
+      <property name="Keywords Search" value="| Past | Monster | Mystical | Defenders |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2884,12 +2993,15 @@
     </card>
     <card id="f198f8c1-f8a6-4990-b59b-ae7380bcac34" name="Nighthawk" size="Card">
       <property name="Unit ID" value="adw045" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="045" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Martial Artist | Squadron Sinister | Defenders" />
+      <property name="Keywords Search" value="| Martial Artist | Squadron Sinister | Defenders |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2954,11 +3066,13 @@
     </card>
     <card id="d5d266ce-5918-4aa4-9010-b3bcc24c9b1d" name="The Owl" size="Card">
       <property name="Unit ID" value="adw046" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="046" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Animal | Ruler | Maggia" />
+      <property name="Keywords Search" value="| Animal | Ruler | Maggia |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3028,12 +3142,15 @@
     </card>
     <card id="acffe110-965a-4be6-9662-f95262bbe203" name="Hellcat" size="Card">
       <property name="Unit ID" value="adw047" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="047" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Celebrity | Martial Artist | Marvel Diva | Mystical | Defenders" />
+      <property name="Keywords Search" value="| Celebrity | Martial Artist | Marvel Diva | Mystical | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3102,11 +3219,13 @@
     </card>
     <card id="44ee0ade-9763-4ccc-8225-387dd223e75a" name="Nuke" size="Card">
       <property name="Unit ID" value="adw048" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="048" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Soldier | Thunderbolts" />
+      <property name="Keywords Search" value="| Soldier | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3179,11 +3298,13 @@
     </card>
     <card id="5a74e5c2-ddd6-4f62-8a52-726715685536" name="Porcupine" size="Card">
       <property name="Unit ID" value="adw049" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="049" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Lethal Legion | Soldier | Maggia | Emissaries Of Evil" />
+      <property name="Keywords Search" value="| Lethal Legion | Soldier | Maggia | Emissaries Of Evil |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3244,11 +3365,13 @@
     </card>
     <card id="d2cb14e1-fc17-4836-a30a-d9edf652c492" name="Batroc" size="Card">
       <property name="Unit ID" value="adw050" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="050" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Martial Artist | Batroc'S Brigade" />
+      <property name="Keywords Search" value="| Martial Artist | Batroc'S Brigade |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3314,13 +3437,16 @@
     </card>
     <card id="4c00744d-4162-4fd8-8a67-ec0dbceb2d86" name="Dr. Strange, Earth's Guardian" size="Card">
       <property name="Unit ID" value="adw051" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="051" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Title" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Avengers | Mystical" />
+      <property name="Keywords Search" value="| Avengers | Mystical |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3401,11 +3527,13 @@
     </card>
     <card id="38ac7c0f-e46b-42c0-8fde-31bf5f859be9" name="Hulk" size="Card">
       <property name="Unit ID" value="adw052" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="052" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="160" />
       <property name="Keywords" value="Avengers | Illuminati" />
+      <property name="Keywords Search" value="| Avengers | Illuminati |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3501,11 +3629,13 @@
     </card>
     <card id="06d92333-e30c-4d37-abee-2d0be7967762" name="Iron Man" size="Card">
       <property name="Unit ID" value="adw053" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="053" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="165/125" />
       <property name="Keywords" value="Armor | Avengers | Scientist | Stark Industries" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3598,12 +3728,15 @@
     </card>
     <card id="04e2493f-f45e-489e-bcd0-14eb0f18b0b8" name="Captain America" size="Card">
       <property name="Unit ID" value="adw054" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="054" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3671,12 +3804,15 @@
     </card>
     <card id="07432363-716b-4c80-89d0-5d1e30fa8fae" name="Man-Thing" size="Card">
       <property name="Unit ID" value="adw055" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="055" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Mystics | Defenders" />
+      <property name="Team Abilities Search" value="| Mystics | Defenders |" />
       <property name="Keywords" value="Legion Of Monsters | Monster | Mystical | Thunderbolts | Defenders" />
+      <property name="Keywords Search" value="| Legion Of Monsters | Monster | Mystical | Thunderbolts | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3765,12 +3901,15 @@
     </card>
     <card id="45152c91-4687-4924-8587-7c4dd9b282c1" name="Moondragon" size="Card">
       <property name="Unit ID" value="adw056" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="056" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Avengers | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Defenders |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3851,12 +3990,15 @@
     </card>
     <card id="b8d00bf0-d120-457f-b0ab-5a0be5adbdc1" name="Kingpin" size="Card">
       <property name="Unit ID" value="adw057" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="057" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Sinister Syndicate" />
+      <property name="Team Abilities Search" value="| Sinister Syndicate |" />
       <property name="Keywords" value="Martial Artist | Politician | Ruler | The Hand | Emissaries Of Evil" />
+      <property name="Keywords Search" value="| Martial Artist | Politician | Ruler | The Hand | Emissaries Of Evil |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3921,12 +4063,14 @@
     </card>
     <card id="bddca124-adbf-49d5-a85b-e6f9aefd7c4b" name="Black Panther" size="Card">
       <property name="Unit ID" value="adw058" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="058" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="65" />
       <property name="Keywords" value="Illuminati | Ruler | Wakanda" />
+      <property name="Keywords Search" value="| Illuminati | Ruler | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3991,11 +4135,13 @@
     </card>
     <card id="b620fa47-482e-4ce6-a959-74bac262d189" name="Klaw" size="Card">
       <property name="Unit ID" value="adw059" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="059" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="110" />
       <property name="Keywords" value="Masters Of Evil | Scientist" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4064,12 +4210,15 @@
     </card>
     <card id="ffdd94c8-e373-43e7-8612-b19e876a67db" name="Dormammu and Loki" size="Card">
       <property name="Unit ID" value="adw060" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="060" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="220/150" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Asgardian | Ruler | Mystical | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Ruler | Mystical | Deity |" />
       <property name="Range" value="8" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4182,6 +4331,7 @@
     </card>
     <card id="458e75d9-96c9-45ab-b105-85373bff0779" name="Mindless One" size="Card">
       <property name="Unit ID" value="adw060bt" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="060bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -4203,11 +4353,13 @@
     </card>
     <card id="0d7432f6-e2c9-405e-b68b-532689c453d4" name="Man-Ape" size="Card">
       <property name="Unit ID" value="adw061" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="061" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100" />
       <property name="Keywords" value="Animal | Mystical | Wakanda" />
+      <property name="Keywords Search" value="| Animal | Mystical | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4285,12 +4437,15 @@
     </card>
     <card id="070b61e0-90f9-4a71-9a48-78143fe9d83f" name="Moon Knight" size="Card">
       <property name="Unit ID" value="adw062" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="062" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="110" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Marvel Knights | Mystical | Detective" />
+      <property name="Keywords Search" value="| Marvel Knights | Mystical | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4375,12 +4530,14 @@
     </card>
     <card id="a95a57b3-b199-4a68-aaa3-3f967d54e978" name="Ant-Man" size="Card">
       <property name="Unit ID" value="adw063" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="063" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="80" />
       <property name="Keywords" value="Avengers | Heroes For Hire | Scientist | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | Scientist | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Tiny" />
@@ -4451,11 +4608,13 @@
     </card>
     <card id="563c19ed-6dd4-4a20-9a6d-a7fa2cab3b7b" name="Ghost Rider" size="Card">
       <property name="Unit ID" value="adw064" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="064" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100/75/50" />
       <property name="Keywords" value="Marvel Knights | Midnight Sons | Mystical" />
+      <property name="Keywords Search" value="| Marvel Knights | Midnight Sons | Mystical |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4548,12 +4707,15 @@
     </card>
     <card id="ff07f5b5-7e9d-4d62-9037-2d183ca619dd" name="Valkyrie" size="Card">
       <property name="Unit ID" value="adw065" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="065" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Asgardian | Defenders" />
+      <property name="Keywords Search" value="| Asgardian | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4625,12 +4787,15 @@
     </card>
     <card id="e5a4ed80-83d7-4f7b-b2e0-467c9a5a0ddf" name="Black Knight" size="Card">
       <property name="Unit ID" value="adw066" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="066" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Mystical | Warrior | Defenders" />
+      <property name="Keywords Search" value="| Mystical | Warrior | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -4705,11 +4870,13 @@
     </card>
     <card id="46b5bc45-c122-4f6f-874f-55d557235d8c" name="Hawkeye" size="Card">
       <property name="Unit ID" value="adw067" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="067" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="65" />
       <property name="Keywords" value="Avengers | Martial Artist | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Martial Artist | S.H.I.E.L.D. |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4785,12 +4952,15 @@
     </card>
     <card id="7b32579c-d34b-4cfa-8d2d-c5402b3dfc52" name="Daredevil" size="Card">
       <property name="Unit ID" value="adw068" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="068" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Martial Artist | Ruler | Mystical | The Hand" />
+      <property name="Keywords Search" value="| Martial Artist | Ruler | Mystical | The Hand |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4871,11 +5041,13 @@
     </card>
     <card id="3f3e1de6-dd49-410e-ace4-beed6138a398" name="Captain America" size="Card">
       <property name="Unit ID" value="adw069" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="069" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="70" />
       <property name="Keywords" value="Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4952,11 +5124,13 @@
     </card>
     <card id="140d2518-bc5c-4c02-92b3-c6b2dd43badb" name="Rachel Cole-Alves" size="Card">
       <property name="Unit ID" value="adw070" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="070" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Marvel Knights | Soldier" />
+      <property name="Keywords Search" value="| Marvel Knights | Soldier |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5025,11 +5199,13 @@
     </card>
     <card id="b035dcab-34b4-417c-9454-1123cbaf2de0" name="Iron Heart" size="Card">
       <property name="Unit ID" value="adw071" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="071" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Armor | Scientist" />
+      <property name="Keywords Search" value="| Armor | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -5098,12 +5274,15 @@
     </card>
     <card id="e813fd47-e1e6-46e0-9ec2-05e14c35cf2c" name="Captain America" size="Card">
       <property name="Unit ID" value="adw072" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="072" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Avengers | Hydra | Shield" />
+      <property name="Team Abilities Search" value="| Avengers | Hydra | Shield |" />
       <property name="Keywords" value="Avengers | Hydra | Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Hydra | Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5190,11 +5369,13 @@
     </card>
     <card id="be2dd569-eeaf-4512-8ff1-8536122394a1" name="Hulk" size="Card">
       <property name="Unit ID" value="adw073" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="073" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="200" />
       <property name="Keywords" value="Brute | Cosmic | Ruler | Warbound | Monster | Warrior" />
+      <property name="Keywords Search" value="| Brute | Cosmic | Ruler | Warbound | Monster | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5295,11 +5476,13 @@
     </card>
     <card id="c6649233-6a3d-43e4-9f6d-7fd22e4f200e" name="Black Panther" size="Card">
       <property name="Unit ID" value="adw074" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="074" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="105" />
       <property name="Keywords" value="Martial Artist | Ruler | Mystical | Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Martial Artist | Ruler | Mystical | Warrior | Wakanda |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5381,11 +5564,13 @@
     </card>
     <card id="e347b725-20eb-4b07-9967-cd845996874b" name="The Man Without Fear" size="Card">
       <property name="Unit ID" value="adw101" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="101" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Martial Artist | Marvel Knights" />
+      <property name="Keywords Search" value="| Martial Artist | Marvel Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5457,12 +5642,14 @@
     </card>
     <card id="9a474082-8e93-4444-958a-30813f94aec8" name="Dark Dimension" size="16x24">
       <property name="Unit ID" value="adwM001" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="Special Rules&#10;Squares bordered by (orange solid line) are Void terrain. Squares bordered by (orange dotted line) are Portals. Both are considered clear terrain for movement and line of fire purposes. After any action resolves, the active player rolls a d6 for each character occupying Void terrain and places them in the portal square with the number matching the result. If the character can't be placed in that square, place them in a square nearest to that square." />
     </card>
     <card id="14c96a9d-a87d-44fd-9011-f6ff8e635ac1" name="Wakanda" size="16x24">
       <property name="Unit ID" value="adwM002" />
+      <property name="Set Search" value="| Avengers/Defenders War |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
       <property name="Traits and Special Powers" value="Thick Jungle&#10;Hindered lines of fire drawn through printed hindering terrain modify a target's defense value by +2 instead of +1." />

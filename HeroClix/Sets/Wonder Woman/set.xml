@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Wonder Woman" id="9c4aa703-0632-4b42-bc53-334bb9a9ee21" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="4b600657-9c1d-4677-9336-ebb86ba3b470" name="Wonder Woman" size="Card">
       <property name="Unit ID" value="ww001" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Justice League" />
+      <property name="Team Abilities Search" value="| Justice League |" />
       <property name="Keywords" value="Justice League | Amazon | Warrior" />
+      <property name="Keywords Search" value="| Justice League | Amazon | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -86,12 +88,15 @@
     </card>
     <card id="d68d8892-befd-40c9-ae45-c641f38f432d" name="Starfire" size="Card">
       <property name="Unit ID" value="ww002" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Cosmic | Warrior | Teen Titans" />
+      <property name="Keywords Search" value="| Cosmic | Warrior | Teen Titans |" />
       <property name="Range" value="8" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -156,11 +161,13 @@
     </card>
     <card id="d0c3a3d3-d0d3-4653-a74b-28134e7aa748" name="Queen Hippolyta" size="Card">
       <property name="Unit ID" value="ww003" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="85/60" />
       <property name="Keywords" value="Ruler | Amazon | Warrior" />
+      <property name="Keywords Search" value="| Ruler | Amazon | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -256,11 +263,13 @@
     </card>
     <card id="3ac5f386-da87-485d-9730-4b2b9689af18" name="Cheetah" size="Card">
       <property name="Unit ID" value="ww004" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Animal | Legion Of Doom | Scientist | Society" />
+      <property name="Keywords Search" value="| Animal | Legion Of Doom | Scientist | Society |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -329,12 +338,15 @@
     </card>
     <card id="e24cc62b-b379-4241-a5d7-f640547342b9" name="The Flash" size="Card">
       <property name="Unit ID" value="ww005" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Keystone City | Speedster | Teen Titans" />
+      <property name="Keywords Search" value="| Keystone City | Speedster | Teen Titans |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -391,12 +403,14 @@
     </card>
     <card id="081fa206-6809-48bd-9cec-e961a77fe871" name="Amazon" size="Card">
       <property name="Unit ID" value="ww006" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="30/15" />
       <property name="Keywords" value="Amazon | Warrior" />
+      <property name="Keywords Search" value="| Amazon | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -447,11 +461,13 @@
     </card>
     <card id="8e0ee699-107e-4794-bd4c-f2907c76d46a" name="Cheetah" size="Card">
       <property name="Unit ID" value="ww007" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Animal | Mystical" />
+      <property name="Keywords Search" value="| Animal | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -514,12 +530,15 @@
     </card>
     <card id="c327cd50-a099-41b5-92cf-d11a7fa3f957" name="The Flash" size="Card">
       <property name="Unit ID" value="ww008" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Police | Justice League" />
+      <property name="Team Abilities Search" value="| Police | Justice League |" />
       <property name="Keywords" value="Speedster | Teen Titans" />
+      <property name="Keywords Search" value="| Speedster | Teen Titans |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -583,12 +602,15 @@
     </card>
     <card id="ff0fb9a7-315b-48b1-a301-70ec6467d4af" name="Raven" size="Card">
       <property name="Unit ID" value="ww009" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Mystical | Teen Titans" />
+      <property name="Keywords Search" value="| Mystical | Teen Titans |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -642,11 +664,13 @@
     </card>
     <card id="277920fd-6904-4a11-90c9-0ab0d1850b03" name="Steve Trevor" size="Card">
       <property name="Unit ID" value="ww010" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="65" />
       <property name="Keywords" value="Soldier | Pilot" />
+      <property name="Keywords Search" value="| Soldier | Pilot |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -715,11 +739,13 @@
     </card>
     <card id="288460f3-6948-4e2b-b231-664443c06eaf" name="Etta Candy" size="Card">
       <property name="Unit ID" value="ww011" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="20" />
       <property name="Keywords" value="Soldier" />
+      <property name="Keywords Search" value="| Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -760,12 +786,15 @@
     </card>
     <card id="e642d0d5-2795-4c77-8626-c2f315b548a2" name="Raven" size="Card">
       <property name="Unit ID" value="ww012" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Monster | Mystical | Teen Titans" />
+      <property name="Keywords Search" value="| Monster | Mystical | Teen Titans |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -838,12 +867,14 @@
     </card>
     <card id="b1618b99-ba0e-40bf-b986-8b967dd34192" name="Steve Trevor" size="Card">
       <property name="Unit ID" value="ww013" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Soldier | Spy" />
+      <property name="Keywords Search" value="| Soldier | Spy |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -908,11 +939,13 @@
     </card>
     <card id="ebe09a45-eb77-407f-af33-330eacf5a21b" name="Etta Candy" size="Card">
       <property name="Unit ID" value="ww014" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Soldier" />
+      <property name="Keywords Search" value="| Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -956,12 +989,15 @@
     </card>
     <card id="e345b7f6-b73a-4def-b545-a08a9a26177e" name="Donna Troy" size="Card">
       <property name="Unit ID" value="ww015" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Titans" />
+      <property name="Team Abilities Search" value="| Titans |" />
       <property name="Keywords" value="Amazon | Teen Titans" />
+      <property name="Keywords Search" value="| Amazon | Teen Titans |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -1024,11 +1060,13 @@
     </card>
     <card id="3c99a2d9-07a9-40a8-94dd-f7cddd1c078f" name="Wonder Woman" size="Card">
       <property name="Unit ID" value="ww016" />
+      <property name="Set Search" value="| Wonder Woman |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Celebrity | Amazon" />
+      <property name="Keywords Search" value="| Celebrity | Amazon |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />

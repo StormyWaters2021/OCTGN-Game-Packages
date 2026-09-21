@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Avengers 60th Anniversary" id="d3edfd65-7b8e-4723-88f0-c209985c273b" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="a41a4b62-4cd3-4b06-9632-f60d33dad8d6" name="Black Panther" size="Card">
       <property name="Unit ID" value="av60001" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60/35" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Politician | Ruler | Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Avengers | Politician | Ruler | Warrior | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -91,12 +93,15 @@
     </card>
     <card id="0e57be9c-ead5-4b26-828d-e2785adc30af" name="Bowman" size="Card">
       <property name="Unit ID" value="av60002" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Assassin | Hydra | Martial Artist | Soldier" />
+      <property name="Keywords Search" value="| Assassin | Hydra | Martial Artist | Soldier |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -162,12 +167,15 @@
     </card>
     <card id="3638336c-db1b-46c9-9957-703cd527999d" name="Monica Chang" size="Card">
       <property name="Unit ID" value="av60003" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="25" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Scientist | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Scientist | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -230,13 +238,16 @@
     </card>
     <card id="a0f30fa5-1711-403d-9d61-d89b66ba9147" name="Hydra Agent" size="Card">
       <property name="Unit ID" value="av60004" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="15" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Hydra | Soldier | Spy" />
+      <property name="Keywords Search" value="| Hydra | Soldier | Spy |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -278,12 +289,15 @@
     </card>
     <card id="6764b497-3756-40e8-bea9-4ae8159e8e3c" name="Winter Soldier" size="Card">
       <property name="Unit ID" value="av60005" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Assassin | Avengers | Hydra | Past | Soldier | Spy | Thunderbolts" />
+      <property name="Keywords Search" value="| Assassin | Avengers | Hydra | Past | Soldier | Spy | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -361,12 +375,15 @@
     </card>
     <card id="636848eb-a885-4dc3-8583-a8d647fa4159" name="Captain America" size="Card">
       <property name="Unit ID" value="av60006" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Robot | Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Robot | Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -428,12 +445,15 @@
     </card>
     <card id="a541ed58-fd49-4b06-9abe-e34c5aba35ee" name="Black Widow" size="Card">
       <property name="Unit ID" value="av60007" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="007" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Champions | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Champions | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -501,12 +521,15 @@
     </card>
     <card id="3e10831e-4576-4d7f-a6cb-2c8b06549091" name="Ant-Man" size="Card">
       <property name="Unit ID" value="av60008" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Animal | Stark Industries | Guardians Of The Galaxy | Detective | Fantastic Four" />
+      <property name="Keywords Search" value="| Avengers | Animal | Stark Industries | Guardians Of The Galaxy | Detective | Fantastic Four |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
@@ -598,12 +621,15 @@
     </card>
     <card id="a9c53b4a-d244-4e47-a48c-73b1306d7057" name="Stinger" size="Card">
       <property name="Unit ID" value="av60009" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Animal | Young Avengers" />
+      <property name="Keywords Search" value="| Avengers | Animal | Young Avengers |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
@@ -673,12 +699,15 @@
     </card>
     <card id="c5af8c16-1bc3-428a-97e9-3d4c67fd6194" name="Iron Man" size="Card">
       <property name="Unit ID" value="av60010" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Illuminati | Scientist | Stark Industries | Symbiote" />
+      <property name="Keywords Search" value="| Armor | Avengers | Illuminati | Scientist | Stark Industries | Symbiote |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -756,12 +785,15 @@
     </card>
     <card id="0e9bc5e1-e28a-40eb-9783-bd926265af46" name="Captain Marvel" size="Card">
       <property name="Unit ID" value="av60011" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Cosmic Energy | Avengers" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Avengers |" />
       <property name="Keywords" value="Avengers | Alpha Flight | Cosmic | Kree | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Avengers | Alpha Flight | Cosmic | Kree | Guardians Of The Galaxy |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -886,12 +918,15 @@
     </card>
     <card id="a5d6380b-03fc-4bb5-98d3-b9418ec2fd90" name="Spider-Man Robot" size="Card">
       <property name="Unit ID" value="av60012" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Council Of Kangs | Future | Past | Robot" />
+      <property name="Keywords Search" value="| Council Of Kangs | Future | Past | Robot |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -939,12 +974,15 @@
     </card>
     <card id="a6deb1b8-0e4e-435f-b7ef-7976892a80e6" name="Ultron Drone" size="Card">
       <property name="Unit ID" value="av60013" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Armor | Masters Of Evil | Robot" />
+      <property name="Keywords Search" value="| Armor | Masters Of Evil | Robot |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1051,12 +1089,15 @@
     </card>
     <card id="762c8c36-d2b1-464f-88ac-2af204fdf17e" name="Jessica Jones" size="Card">
       <property name="Unit ID" value="av60014" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Avengers | Heroes For Hire | Marvel Knights | Defenders | Detective" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | Marvel Knights | Defenders | Detective |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1111,12 +1152,15 @@
     </card>
     <card id="270432b6-12f5-4dd0-a5f1-78eca5471bc3" name="Vision" size="Card">
       <property name="Unit ID" value="av60015" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Robot" />
+      <property name="Keywords Search" value="| Avengers | Robot |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1208,12 +1252,15 @@
     </card>
     <card id="c2c466b6-8ddf-4a8b-8c72-86c4d7b7090b" name="Bats" size="Card">
       <property name="Unit ID" value="av60016" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Avengers | Animal | Pet Avengers | Mystical | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Animal | Pet Avengers | Mystical | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
@@ -1261,12 +1308,15 @@
     </card>
     <card id="622e48ad-1f62-4c4f-8b72-6fe368755efa" name="Hulk" size="Card">
       <property name="Unit ID" value="av60017" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Avengers | Defenders" />
+      <property name="Team Abilities Search" value="| Avengers | Defenders |" />
       <property name="Keywords" value="Avengers | Brute | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Brute | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1358,12 +1408,15 @@
     </card>
     <card id="ca3c351f-1082-483a-8646-cd5fbd4ebf84" name="Scarlet Witch" size="Card">
       <property name="Unit ID" value="av60018" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Mystics | Avengers" />
+      <property name="Team Abilities Search" value="| Mystics | Avengers |" />
       <property name="Keywords" value="Avengers | Mystical" />
+      <property name="Keywords Search" value="| Avengers | Mystical |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1420,12 +1473,15 @@
     </card>
     <card id="f628fe14-73d5-448b-9bc7-86b52be87217" name="Hellcat" size="Card">
       <property name="Unit ID" value="av60019" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Avengers | Defenders" />
+      <property name="Team Abilities Search" value="| Avengers | Defenders |" />
       <property name="Keywords" value="Avengers | Celebrity | Defenders | Detective" />
+      <property name="Keywords Search" value="| Avengers | Celebrity | Defenders | Detective |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1504,12 +1560,15 @@
     </card>
     <card id="903bdbd5-a761-43c0-8c49-76f85f9b4227" name="Luke Cage" size="Card">
       <property name="Unit ID" value="av60020" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70/40" />
       <property name="Team Abilities" value="Team Player | Avengers" />
+      <property name="Team Abilities Search" value="| Team Player | Avengers |" />
       <property name="Keywords" value="Avengers | Heroes For Hire | Marvel Knights | Thunderbolts | Defenders | Fantastic Four" />
+      <property name="Keywords Search" value="| Avengers | Heroes For Hire | Marvel Knights | Thunderbolts | Defenders | Fantastic Four |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1592,12 +1651,15 @@
     </card>
     <card id="3e27fc62-110d-4d1f-88bd-d180661d63f6" name="Misty Knight" size="Card">
       <property name="Unit ID" value="av60021" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Heroes For Hire | Marvel Knights | Defenders | Detective" />
+      <property name="Keywords Search" value="| Heroes For Hire | Marvel Knights | Defenders | Detective |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1654,12 +1716,15 @@
     </card>
     <card id="4cd01113-034c-4f46-a84d-9ca97aa7fb05" name="Jocasta" size="Card">
       <property name="Unit ID" value="av60022" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Armor | Avengers | Robot | Scientist | Fantastic Four" />
+      <property name="Keywords Search" value="| Armor | Avengers | Robot | Scientist | Fantastic Four |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1740,12 +1805,15 @@
     </card>
     <card id="65cd6147-1c88-4893-b098-b1e930e44cf7" name="Grandmaster" size="Card">
       <property name="Unit ID" value="av60023" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="023" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="90/40" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Elders Of The Universe" />
+      <property name="Keywords Search" value="| Cosmic | Elders Of The Universe |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1838,12 +1906,15 @@
     </card>
     <card id="d97ce796-69ae-4c09-8ccc-0bbfef083d63" name="Thanos" size="Card">
       <property name="Unit ID" value="av60024" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="175/100" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Black Order | Cosmic | Minions Of Thanos | Eternal" />
+      <property name="Keywords Search" value="| Black Order | Cosmic | Minions Of Thanos | Eternal |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1980,11 +2051,13 @@
     </card>
     <card id="2fba4e9e-9da0-4e8b-9854-5d53b1d6f10e" name="Leader" size="Card">
       <property name="Unit ID" value="av60025" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="35" />
       <property name="Keywords" value="Intelligencia | Ruler | Scientist | Thunderbolts" />
+      <property name="Keywords Search" value="| Intelligencia | Ruler | Scientist | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2043,12 +2116,15 @@
     </card>
     <card id="126e7b42-8829-40de-9a87-294a5cf0cec7" name="Red She-Hulk" size="Card">
       <property name="Unit ID" value="av60026" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Brute | Monster | Defenders" />
+      <property name="Keywords Search" value="| Brute | Monster | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2141,12 +2217,15 @@
     </card>
     <card id="138796d8-275f-4c58-8188-3cf79bb5dfd0" name="Korvak" size="Card">
       <property name="Unit ID" value="av60027" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Cosmic | Future | Robot" />
+      <property name="Keywords Search" value="| Cosmic | Future | Robot |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2253,12 +2332,15 @@
     </card>
     <card id="b783aec9-d5e1-43e9-8d78-9684a9b29086" name="The Beyonder" size="Card">
       <property name="Unit ID" value="av60028" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="225/100" />
       <property name="Team Abilities" value="Cosmic Energy" />
+      <property name="Team Abilities Search" value="| Cosmic Energy |" />
       <property name="Keywords" value="Celebrity | Cosmic | Inhumans | Politician" />
+      <property name="Keywords Search" value="| Celebrity | Cosmic | Inhumans | Politician |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2395,12 +2477,15 @@
     </card>
     <card id="03e9e6b1-2699-40da-a61d-fbe38bb12a12" name="Militant" size="Card">
       <property name="Unit ID" value="av60029a" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="029a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Assassin | Hydra | Soldier" />
+      <property name="Keywords Search" value="| Assassin | Hydra | Soldier |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2478,13 +2563,16 @@
     </card>
     <card id="6f261906-bb32-431c-a50c-f2b48af99f80" name="Captain America" size="Card">
       <property name="Unit ID" value="av60029b" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="029b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Howling Commandos | Invaders | Past | Soldier | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Avengers | Howling Commandos | Invaders | Past | Soldier | S.H.I.E.L.D. |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2565,12 +2653,15 @@
     </card>
     <card id="a2c1b6f5-e641-44e1-a083-59d7a6f76434" name="Falcon" size="Card">
       <property name="Unit ID" value="av60030" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="030" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Soldier" />
+      <property name="Keywords Search" value="| Avengers | Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2649,12 +2740,15 @@
     </card>
     <card id="846b7d1d-b3ac-4817-a1d4-68dd7656fed5" name="Tactical Force" size="Card">
       <property name="Unit ID" value="av60031a" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="031a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Armor | Assassin | Hydra | Scientist" />
+      <property name="Keywords Search" value="| Armor | Assassin | Hydra | Scientist |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2742,13 +2836,16 @@
     </card>
     <card id="0ba05d97-a503-4e77-858e-bca11cc39f9b" name="Iron Man" size="Card">
       <property name="Unit ID" value="av60031b" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="031b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Scientist | Stark Industries" />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Stark Industries |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2851,12 +2948,15 @@
     </card>
     <card id="ca28ae3c-b98b-42cb-af0b-c662e3f209e2" name="Dr. Strange" size="Card">
       <property name="Unit ID" value="av60032" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="032" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Mystics | Defenders" />
+      <property name="Team Abilities Search" value="| Mystics | Defenders |" />
       <property name="Keywords" value="Avengers | Illuminati | Mystical | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Illuminati | Mystical | Defenders |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2937,12 +3037,15 @@
     </card>
     <card id="6297dd07-7d1f-4597-a437-0d181637d434" name="Quasar" size="Card">
       <property name="Unit ID" value="av60033" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="033" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="115/65" />
       <property name="Team Abilities" value="Cosmic Energy | Guardians" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Guardians |" />
       <property name="Keywords" value="Avengers | Annihilators | Cosmic | S.H.I.E.L.D. | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Avengers | Annihilators | Cosmic | S.H.I.E.L.D. | Guardians Of The Galaxy |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3032,12 +3135,15 @@
     </card>
     <card id="b5bee636-0c7a-4d05-af0c-e5c27f2094b0" name="Screaming Mimi" size="Card">
       <property name="Unit ID" value="av60034" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="034" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Celebrity | A.I.M. | Martial Artist | Masters Of Evil | Thunderbolts" />
+      <property name="Keywords Search" value="| Celebrity | A.I.M. | Martial Artist | Masters Of Evil | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3107,13 +3213,16 @@
     </card>
     <card id="72ba2b42-71b3-4316-8c5a-23b69ab974bd" name="War Machine" size="Card">
       <property name="Unit ID" value="av60035" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="035" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="95" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Armor | Avengers | Stark Industries | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Armor | Avengers | Stark Industries | S.H.I.E.L.D. |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3194,12 +3303,15 @@
     </card>
     <card id="b0aae5eb-582a-41e7-85ab-2968cafefa8e" name="Ultron" size="Card">
       <property name="Unit ID" value="av60036" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="036" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="120/75" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Robot | Ruler" />
+      <property name="Keywords Search" value="| Masters Of Evil | Robot | Ruler |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3304,12 +3416,15 @@
     </card>
     <card id="822855af-3f04-4779-896e-5930023ffd3f" name="Hulk" size="Card">
       <property name="Unit ID" value="av60037a" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="037a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers | Defenders" />
+      <property name="Team Abilities Search" value="| Avengers | Defenders |" />
       <property name="Keywords" value="Avengers | Brute | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Brute | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3420,13 +3535,16 @@
     </card>
     <card id="ccb7c990-c563-4378-b17b-205fb25629d1" name="Hulk" size="Card">
       <property name="Unit ID" value="av60037b" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="037b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="90/10" />
       <property name="Team Abilities" value="Avengers | Defenders" />
+      <property name="Team Abilities Search" value="| Avengers | Defenders |" />
       <property name="Keywords" value="Avengers | Brute | Monster | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Brute | Monster | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3540,12 +3658,15 @@
     </card>
     <card id="480ee4ff-51b5-4073-be35-cd0ffb910e76" name="Abomination" size="Card">
       <property name="Unit ID" value="av60038" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="038" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="120/90/60" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Brute | A.I.M. | Masters Of Evil | Monster" />
+      <property name="Keywords Search" value="| Brute | A.I.M. | Masters Of Evil | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -3662,12 +3783,15 @@
     </card>
     <card id="1ade0ea5-9e67-4f8d-8157-5f49c66249b8" name="Monica Rambeau" size="Card">
       <property name="Unit ID" value="av60039" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="039" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Police | Avengers" />
+      <property name="Team Abilities Search" value="| Police | Avengers |" />
       <property name="Keywords" value="Avengers | Cosmic | Police | S.W.O.R.D. | Nextwave | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | Cosmic | Police | S.W.O.R.D. | Nextwave | Thunderbolts |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3749,12 +3873,15 @@
     </card>
     <card id="d68f35c8-8e70-4c63-bbad-fb689739b7db" name="Spider-Man" size="Card">
       <property name="Unit ID" value="av60040" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="040" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="90/45/25" />
       <property name="Team Abilities" value="Team Player | Spider Man" />
+      <property name="Team Abilities Search" value="| Team Player | Spider Man |" />
       <property name="Keywords" value="Avengers | Celebrity | Marvel Knights | Reporter | Scientist | Spider Man Family | Fantastic Four" />
+      <property name="Keywords Search" value="| Avengers | Celebrity | Marvel Knights | Reporter | Scientist | Spider Man Family | Fantastic Four |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3855,12 +3982,15 @@
     </card>
     <card id="29b6b077-5ed4-4012-b5cf-816889258723" name="Hammer" size="Card">
       <property name="Unit ID" value="av60041a" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="041a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Hydra" />
+      <property name="Team Abilities Search" value="| Hydra |" />
       <property name="Keywords" value="Assassin | Brute | Hydra | Soldier" />
+      <property name="Keywords Search" value="| Assassin | Brute | Hydra | Soldier |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3949,13 +4079,16 @@
     </card>
     <card id="559ff1dd-e843-4503-90b0-69211c18aa1f" name="Thor" size="Card">
       <property name="Unit ID" value="av60041b" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="041b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="150/75" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics |" />
       <property name="Keywords" value="Asgardian | Avengers | Warrior | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Warrior | Deity |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4070,12 +4203,15 @@
     </card>
     <card id="82261aa6-a41a-4a92-bad3-0f882b5930be" name="Ms. Marvel" size="Card">
       <property name="Unit ID" value="av60042" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="042" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="110/50" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Celebrity | Champions | Inhumans" />
+      <property name="Keywords Search" value="| Avengers | Celebrity | Champions | Inhumans |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4165,12 +4301,15 @@
     </card>
     <card id="9110dd65-9965-494b-a3e2-55a21b765132" name="Absorbing Man" size="Card">
       <property name="Unit ID" value="av60043a" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="043a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Brute | Lethal Legion | Masters Of Evil | Mystical | Wrecking Crew" />
+      <property name="Keywords Search" value="| Brute | Lethal Legion | Masters Of Evil | Mystical | Wrecking Crew |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4256,13 +4395,16 @@
     </card>
     <card id="253b6daa-8fcf-4820-87a0-5ca9a78dcb48" name="Absorbing Man" size="Card">
       <property name="Unit ID" value="av60043b" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="043b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime | Sideline Active" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Cosmic Energy | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Masters Of Evil |" />
       <property name="Keywords" value="Brute | Masters Of Evil | Future | Earth X | Robot | Wrecking Crew" />
+      <property name="Keywords Search" value="| Brute | Masters Of Evil | Future | Earth X | Robot | Wrecking Crew |" />
       <property name="Range" value="3" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4378,12 +4520,15 @@
     </card>
     <card id="aa87af3d-ed98-4651-8844-964da45a30b4" name="Starbrand" size="Card">
       <property name="Unit ID" value="av60044" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="044" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Cosmic Energy | Guardians" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Guardians |" />
       <property name="Keywords" value="Avengers | Cosmic | Guardians Of The Galaxy" />
+      <property name="Keywords Search" value="| Avengers | Cosmic | Guardians Of The Galaxy |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4451,12 +4596,15 @@
     </card>
     <card id="c76c32f9-7d36-4771-ba77-7b84e21d77e1" name="Moonstone" size="Card">
       <property name="Unit ID" value="av60045" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="045" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="80/25" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Celebrity | Masters Of Evil | Scientist | Thunderbolts | Dark Avengers" />
+      <property name="Keywords Search" value="| Celebrity | Masters Of Evil | Scientist | Thunderbolts | Dark Avengers |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4550,12 +4698,15 @@
     </card>
     <card id="f71a94ac-f19a-46fb-8d4b-b3ab78a3c0c6" name="Morgan Le Fay" size="Card">
       <property name="Unit ID" value="av60046" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="046" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100/40" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Latveria | Past | Ruler | Mystical" />
+      <property name="Keywords Search" value="| Latveria | Past | Ruler | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4655,11 +4806,13 @@
     </card>
     <card id="1a8261db-b51b-48a1-8783-ca2b22770a23" name="Zombie" size="Card">
       <property name="Unit ID" value="av60046bt" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="046bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4676,12 +4829,15 @@
     </card>
     <card id="af977293-c021-4565-b55c-4fb0b8fa74ac" name="Super Adaptoid" size="Card">
       <property name="Unit ID" value="av60047a" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="047a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="100/150" />
       <property name="Team Abilities" value="Team Player" />
+      <property name="Team Abilities Search" value="| Team Player |" />
       <property name="Keywords" value="Armor | Robot" />
+      <property name="Keywords Search" value="| Armor | Robot |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Giant" />
@@ -4784,13 +4940,16 @@
     </card>
     <card id="115ec2da-ff2c-4328-a10f-1e2241a4b3f9" name="Super Adaptoid" size="Card">
       <property name="Unit ID" value="av60047b" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="047b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="140/80" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Armor | Reporter | Spider Man Family" />
+      <property name="Keywords Search" value="| Armor | Reporter | Spider Man Family |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4894,12 +5053,15 @@
     </card>
     <card id="25d19e1b-ef9e-48e5-bea1-cecaa42a1401" name="Clea, Sorcerer Supreme" size="Card">
       <property name="Unit ID" value="av60048" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="048" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150/80" />
       <property name="Team Abilities" value="Mystics | Defenders" />
+      <property name="Team Abilities Search" value="| Mystics | Defenders |" />
       <property name="Keywords" value="Ruler | Mystical | Defenders" />
+      <property name="Keywords Search" value="| Ruler | Mystical | Defenders |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5003,12 +5165,15 @@
     </card>
     <card id="deb6301a-bcc1-4cd2-8221-7ed79ada6f89" name="Black Skull" size="Card">
       <property name="Unit ID" value="av60049" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="049" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Hydra | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Hydra | Masters Of Evil |" />
       <property name="Keywords" value="Hydra | Masters Of Evil | Politician | Ruler | Scientist | Soldier | Monster | Symbiote" />
+      <property name="Keywords Search" value="| Hydra | Masters Of Evil | Politician | Ruler | Scientist | Soldier | Monster | Symbiote |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5123,12 +5288,15 @@
     </card>
     <card id="15598ce3-1ded-425b-9670-b0ac23eba90c" name="Black Skull" size="Card">
       <property name="Unit ID" value="av60049.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="049.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Hydra | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Hydra | Masters Of Evil |" />
       <property name="Keywords" value="Hydra | Masters Of Evil | Politician | Ruler | Scientist | Soldier | Monster | Symbiote" />
+      <property name="Keywords Search" value="| Hydra | Masters Of Evil | Politician | Ruler | Scientist | Soldier | Monster | Symbiote |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5243,11 +5411,13 @@
     </card>
     <card id="f97de21b-3c55-4c37-9f45-9704f3dbfe93" name="War Machine" size="Card">
       <property name="Unit ID" value="av60049.01bt" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="049.01bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
@@ -5265,11 +5435,13 @@
     </card>
     <card id="d6cdb783-e4c8-4ad5-a150-e1efe76e94d5" name="War Machine" size="Card">
       <property name="Unit ID" value="av60049bt" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="049bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="0" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
@@ -5287,12 +5459,15 @@
     </card>
     <card id="0b313aaf-a4a6-4595-9f44-528389d82563" name="Dark Phoenix" size="Card">
       <property name="Unit ID" value="av60050" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="050" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Cosmic Energy | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Masters Of Evil |" />
       <property name="Keywords" value="Brute | Cosmic | Masters Of Evil | Phoenix Force | Deity" />
+      <property name="Keywords Search" value="| Brute | Cosmic | Masters Of Evil | Phoenix Force | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5407,12 +5582,15 @@
     </card>
     <card id="f185e12a-fc60-4dd4-9487-9852baa5fa61" name="Dark Phoenix" size="Card">
       <property name="Unit ID" value="av60050.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="050.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Cosmic Energy | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Masters Of Evil |" />
       <property name="Keywords" value="Brute | Cosmic | Masters Of Evil | Phoenix Force | Deity" />
+      <property name="Keywords Search" value="| Brute | Cosmic | Masters Of Evil | Phoenix Force | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5527,12 +5705,15 @@
     </card>
     <card id="11990407-2a2b-437b-9110-b6cd6189b9fd" name="King Killmonger" size="Card">
       <property name="Unit ID" value="av60051" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="051" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Armor | Asgardian | Masters Of Evil | Ruler | Soldier | Spy | Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Armor | Asgardian | Masters Of Evil | Ruler | Soldier | Spy | Warrior | Wakanda |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5647,12 +5828,15 @@
     </card>
     <card id="705ce5bc-2613-44fc-908e-bdb7941462ef" name="King Killmonger" size="Card">
       <property name="Unit ID" value="av60051.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="051.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Armor | Asgardian | Masters Of Evil | Ruler | Soldier | Spy | Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Armor | Asgardian | Masters Of Evil | Ruler | Soldier | Spy | Warrior | Wakanda |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5767,12 +5951,15 @@
     </card>
     <card id="81db142f-e8c2-4a0e-9795-1ebfadfd921f" name="Doom Supreme" size="Card">
       <property name="Unit ID" value="av60052" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="052" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil | Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Masters Of Evil | Minions Of Doom |" />
       <property name="Keywords" value="Armor | Latveria | Masters Of Evil | Ruler | Scientist | Mystical" />
+      <property name="Keywords Search" value="| Armor | Latveria | Masters Of Evil | Ruler | Scientist | Mystical |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5887,12 +6074,15 @@
     </card>
     <card id="ec0abf44-3c53-4175-ac34-1b5afe800c24" name="Doom Supreme" size="Card">
       <property name="Unit ID" value="av60052.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="052.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil | Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Masters Of Evil | Minions Of Doom |" />
       <property name="Keywords" value="Armor | Latveria | Masters Of Evil | Ruler | Scientist | Mystical" />
+      <property name="Keywords Search" value="| Armor | Latveria | Masters Of Evil | Ruler | Scientist | Mystical |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6007,12 +6197,15 @@
     </card>
     <card id="45e1e7f4-5a46-480e-bc0e-bd7aee01266d" name="Kid Thanos" size="Card">
       <property name="Unit ID" value="av60053" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="053" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Cosmic | Masters Of Evil | Minions Of Thanos | Scientist | Eternal" />
+      <property name="Keywords Search" value="| Cosmic | Masters Of Evil | Minions Of Thanos | Scientist | Eternal |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -6127,12 +6320,15 @@
     </card>
     <card id="acbb5d15-e360-4f7a-9e96-10cf6c463c98" name="Kid Thanos" size="Card">
       <property name="Unit ID" value="av60053.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="053.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Cosmic | Masters Of Evil | Minions Of Thanos | Scientist | Eternal" />
+      <property name="Keywords Search" value="| Cosmic | Masters Of Evil | Minions Of Thanos | Scientist | Eternal |" />
       <property name="Range" value="5" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -6247,12 +6443,15 @@
     </card>
     <card id="31ae49b7-1f43-489f-ae24-17167cfe349f" name="Hound" size="Card">
       <property name="Unit ID" value="av60054" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="054" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Brute | Animal | Masters Of Evil | Phoenix Force | Weapon X" />
+      <property name="Keywords Search" value="| Brute | Animal | Masters Of Evil | Phoenix Force | Weapon X |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6368,12 +6567,15 @@
     </card>
     <card id="1cfbe76e-ad76-4026-abed-19168bb15992" name="Hound" size="Card">
       <property name="Unit ID" value="av60054.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="054.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Brute | Animal | Masters Of Evil | Phoenix Force | X Men | Weapon X" />
+      <property name="Keywords Search" value="| Brute | Animal | Masters Of Evil | Phoenix Force | X Men | Weapon X |" />
       <property name="Range" value="0" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6489,12 +6691,15 @@
     </card>
     <card id="426da9fe-631b-48ad-8343-b6f8f1b7b651" name="Ghost Goblin" size="Card">
       <property name="Unit ID" value="av60055" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="055" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil | Sinister Syndicate" />
+      <property name="Team Abilities Search" value="| Masters Of Evil | Sinister Syndicate |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Sinister Syndicate | Mystical" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -6609,12 +6814,15 @@
     </card>
     <card id="5d9026ff-a34d-46cf-9cfe-454613a7b315" name="Ghost Goblin" size="Card">
       <property name="Unit ID" value="av60055.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="055.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil | Sinister Syndicate" />
+      <property name="Team Abilities Search" value="| Masters Of Evil | Sinister Syndicate |" />
       <property name="Keywords" value="Masters Of Evil | Scientist | Sinister Syndicate | Mystical" />
+      <property name="Keywords Search" value="| Masters Of Evil | Scientist | Sinister Syndicate | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -6729,12 +6937,15 @@
     </card>
     <card id="b9d94f18-da3a-4df2-82c0-9c66052868ee" name="Iron Inquisitor" size="Card">
       <property name="Unit ID" value="av60056" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="056" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil | Shield" />
+      <property name="Team Abilities Search" value="| Masters Of Evil | Shield |" />
       <property name="Keywords" value="Armor | Masters Of Evil | Scientist | Stark Industries | Mystical | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Armor | Masters Of Evil | Scientist | Stark Industries | Mystical | S.H.I.E.L.D. |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6849,12 +7060,15 @@
     </card>
     <card id="38ebb93e-da3f-49a2-94d6-b36fc8040eeb" name="Iron Inquisitor" size="Card">
       <property name="Unit ID" value="av60056.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="056.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil | Shield" />
+      <property name="Team Abilities Search" value="| Masters Of Evil | Shield |" />
       <property name="Keywords" value="Armor | Masters Of Evil | Scientist | Stark Industries | Mystical | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Armor | Masters Of Evil | Scientist | Stark Industries | Mystical | S.H.I.E.L.D. |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -6969,12 +7183,15 @@
     </card>
     <card id="fbcf1a25-28f3-4ee7-a197-c60d171fb2e4" name="Thor" size="Card">
       <property name="Unit ID" value="av60057" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="057" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Asgardian | Brute | Masters Of Evil | Phoenix Force | Warrior" />
+      <property name="Keywords Search" value="| Asgardian | Brute | Masters Of Evil | Phoenix Force | Warrior |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7089,12 +7306,15 @@
     </card>
     <card id="ae8d5e09-89e8-4e9a-a667-084124b0e1d8" name="Thor" size="Card">
       <property name="Unit ID" value="av60057.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="057.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Masters Of Evil |" />
       <property name="Keywords" value="Asgardian | Brute | Masters Of Evil | Phoenix Force | Warrior" />
+      <property name="Keywords Search" value="| Asgardian | Brute | Masters Of Evil | Phoenix Force | Warrior |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7209,13 +7429,16 @@
     </card>
     <card id="bd872ca6-6a52-449a-ae77-da5c18170f01" name="Mephisto" size="Card">
       <property name="Unit ID" value="av60058" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="058" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Ultra Chase" />
       <property name="Properties" value="Unsidelineable | Sideline Active | Unique" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics | Masters Of Evil |" />
       <property name="Keywords" value="Cosmic | Masters Of Evil | Politician | Ruler | Monster | Mystical | Deity" />
+      <property name="Keywords Search" value="| Cosmic | Masters Of Evil | Politician | Ruler | Monster | Mystical | Deity |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7264,13 +7487,16 @@
     </card>
     <card id="c233955c-d938-48d1-ad97-4d69982817b1" name="Mephisto" size="Card">
       <property name="Unit ID" value="av60058.01" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="058.01" />
       <property name="Unit Type" value="Alternate Card" />
       <property name="Rarity" value="Ultra Chase" />
       <property name="Properties" value="Unique | Sideline Active" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Cosmic Energy | Mystics | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Mystics | Masters Of Evil |" />
       <property name="Keywords" value="Cosmic | Masters Of Evil | Politician | Ruler | Monster | Mystical | Deity" />
+      <property name="Keywords Search" value="| Cosmic | Masters Of Evil | Politician | Ruler | Monster | Mystical | Deity |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7319,12 +7545,15 @@
     </card>
     <card id="53fdbeb8-871e-4fa8-8523-c3740b852dae" name="Hawkeye" size="Card">
       <property name="Unit ID" value="av60099" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="099" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="50/25" />
       <property name="Team Abilities" value="Avengers Initiative" />
+      <property name="Team Abilities Search" value="| Avengers Initiative |" />
       <property name="Keywords" value="Avengers | Martial Artist | Thunderbolts" />
+      <property name="Keywords Search" value="| Avengers | Martial Artist | Thunderbolts |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7395,12 +7624,15 @@
     </card>
     <card id="4287d9f8-8318-4870-9d16-d4d6c0e06b90" name="Captain America" size="Card">
       <property name="Unit ID" value="av60100" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="100" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="55" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Past | Soldier" />
+      <property name="Keywords Search" value="| Avengers | Past | Soldier |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7481,12 +7713,15 @@
     </card>
     <card id="bc0753f3-c73a-4448-98bf-0fec935eb338" name="Superior Iron Man" size="Card">
       <property name="Unit ID" value="av60101" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="101" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="125/75" />
       <property name="Team Abilities" value="Underworld" />
+      <property name="Team Abilities Search" value="| Underworld |" />
       <property name="Keywords" value="Armor | Avengers | Celebrity | Illuminati | Scientist | Stark Industries | Symbiote" />
+      <property name="Keywords Search" value="| Armor | Avengers | Celebrity | Illuminati | Scientist | Stark Industries | Symbiote |" />
       <property name="Range" value="5" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -7590,11 +7825,13 @@
     </card>
     <card id="761bbb8c-a65a-4c31-a05b-50a59eef9f69" name="Hulk" size="Card">
       <property name="Unit ID" value="av60102" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="102" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Avengers | Scientist | Monster" />
+      <property name="Keywords Search" value="| Avengers | Scientist | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -7687,13 +7924,16 @@
     </card>
     <card id="c44d40e9-0a29-49f0-9715-983cbb217162" name="Ant-Man" size="Card">
       <property name="Unit ID" value="av60L003" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L003" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Sideline Active" />
       <property name="Point Values" value="50/25" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Illuminati | Scientist" />
+      <property name="Keywords Search" value="| Avengers | Illuminati | Scientist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Tiny" />
@@ -7776,12 +8016,15 @@
     </card>
     <card id="57c52124-d70c-4106-b661-a7ceff9f102d" name="Ms. Marvel" size="Card">
       <property name="Unit ID" value="av60L008b" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L008b" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="145/50" />
       <property name="Team Abilities" value="Skrulls" />
+      <property name="Team Abilities Search" value="| Skrulls |" />
       <property name="Keywords" value="Skrulls | Spy" />
+      <property name="Keywords Search" value="| Skrulls | Spy |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -7893,12 +8136,15 @@
     </card>
     <card id="3a89ad9a-2209-4178-bf49-6c08b42823fc" name="Wasp" size="Card">
       <property name="Unit ID" value="av60L030" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L030" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Celebrity" />
+      <property name="Keywords Search" value="| Avengers | Celebrity |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Tiny" />
@@ -7967,12 +8213,15 @@
     </card>
     <card id="1895e20a-fc78-4b4d-94f9-a8d0459e7a5e" name="Hulk" size="Card">
       <property name="Unit ID" value="av60L033" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L033" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers | Defenders" />
+      <property name="Team Abilities Search" value="| Avengers | Defenders |" />
       <property name="Keywords" value="Avengers | Brute | Illuminati | Scientist | Monster | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Brute | Illuminati | Scientist | Monster | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
@@ -8073,12 +8322,15 @@
     </card>
     <card id="d485ae83-a136-4378-aac3-8b7165ef2e9a" name="Captain America" size="Card">
       <property name="Unit ID" value="av60L040" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L040" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Avengers | Defenders" />
+      <property name="Team Abilities Search" value="| Avengers | Defenders |" />
       <property name="Keywords" value="Avengers | Howling Commandos | Invaders | Past | Soldier | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Howling Commandos | Invaders | Past | Soldier | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8159,12 +8411,15 @@
     </card>
     <card id="2918a723-be81-407d-9314-5af49e28f36d" name="Iron Doom" size="Card">
       <property name="Unit ID" value="av60L042" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L042" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Minions Of Doom |" />
       <property name="Keywords" value="Armor | Politician | Ruler | Scientist | Weapon X | Exiles" />
+      <property name="Keywords Search" value="| Armor | Politician | Ruler | Scientist | Weapon X | Exiles |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8270,12 +8525,15 @@
     </card>
     <card id="625b1bc1-385b-4e4c-bae4-d3c9f989d43b" name="Iron Man and War Machine" size="Card">
       <property name="Unit ID" value="av60L043" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L043" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="180" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Celebrity | Illuminati | Scientist | Soldier | Stark Industries" />
+      <property name="Keywords Search" value="| Armor | Avengers | Celebrity | Illuminati | Scientist | Soldier | Stark Industries |" />
       <property name="Range" value="9" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -8394,12 +8652,15 @@
     </card>
     <card id="e0e9b177-806d-4b1d-ac16-7bf3b04fd6c4" name="Thor Odinson" size="Card">
       <property name="Unit ID" value="av60L049" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L049" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="160" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Asgardian | Avengers | Warrior | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Warrior | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -8494,12 +8755,15 @@
     </card>
     <card id="6d7f1b74-a7eb-4bdc-941f-6b8ff4e71563" name="Squirrel Girl" size="Card">
       <property name="Unit ID" value="av60L056" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L056" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="35" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | A.I.M. | Animal | S.H.I.E.L.D. | Great Lakes Avengers" />
+      <property name="Keywords Search" value="| Avengers | A.I.M. | Animal | S.H.I.E.L.D. | Great Lakes Avengers |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8574,6 +8838,7 @@
     </card>
     <card id="78e799bc-1ba2-4600-8c76-598aef64743c" name="Tippy-Toe" size="Card">
       <property name="Unit ID" value="av60L056bt" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L056bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -8595,13 +8860,16 @@
     </card>
     <card id="23451abd-04d5-4b98-809a-8c74da5289b7" name="Avengers Prime" size="Card">
       <property name="Unit ID" value="av60L060" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L060" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="300/180" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Asgardian | Avengers | Past | Soldier | Stark Industries | Deity" />
+      <property name="Keywords Search" value="| Armor | Asgardian | Avengers | Past | Soldier | Stark Industries | Deity |" />
       <property name="Range" value="8" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -8731,13 +8999,16 @@
     </card>
     <card id="6f116070-7ba9-4feb-9fe1-00ff5a1240d0" name="Nick Fury" size="Card">
       <property name="Unit ID" value="av60L086" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L086" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="40" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Politician | Soldier | Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Politician | Soldier | Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -8812,13 +9083,16 @@
     </card>
     <card id="ae8fdad8-beef-44d1-81d5-0e5a8278df5f" name="Loki" size="Card">
       <property name="Unit ID" value="av60L096" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L096" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Mystics | Minions Of Doom" />
+      <property name="Team Abilities Search" value="| Mystics | Minions Of Doom |" />
       <property name="Keywords" value="Asgardian | Cabal | Ruler | Mystical | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Cabal | Ruler | Mystical | Deity |" />
       <property name="Range" value="8" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -8917,13 +9191,16 @@
     </card>
     <card id="e5e1c453-c959-4bc4-998f-1dc289308a85" name="Ultron" size="Card">
       <property name="Unit ID" value="av60L135" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L135" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Cosmic Energy | Masters Of Evil" />
+      <property name="Team Abilities Search" value="| Cosmic Energy | Masters Of Evil |" />
       <property name="Keywords" value="Masters Of Evil | Robot | Ruler" />
+      <property name="Keywords Search" value="| Masters Of Evil | Robot | Ruler |" />
       <property name="Range" value="10" />
       <property name="Targets" value="3" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -9018,13 +9295,16 @@
     </card>
     <card id="764d0486-2d2d-4a29-b78a-24f82f4652b0" name="General Thunderbolt Ross" size="Card">
       <property name="Unit ID" value="av60L208" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L208" />
       <property name="Unit Type" value="Legacy Card" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="45" />
       <property name="Team Abilities" value="Shield" />
+      <property name="Team Abilities Search" value="| Shield |" />
       <property name="Keywords" value="Brute | A.I.M. | Hulkbusters | Soldier | Monster | Thunderbolts" />
+      <property name="Keywords Search" value="| Brute | A.I.M. | Hulkbusters | Soldier | Monster | Thunderbolts |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -9076,6 +9356,7 @@
     </card>
     <card id="9588a6cb-3058-46be-937b-da2fc97cf83c" name="Red Hulk" size="Card">
       <property name="Unit ID" value="av60L208bt" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="L208bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Rare" />
@@ -9098,31 +9379,37 @@
     </card>
     <card id="c5d3e638-9dfe-4a34-bccd-68f2811efacd" name="Avengers Tower" size="16x16">
       <property name="Unit ID" value="av60M001" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="d876c0b1-63c7-471c-b8e4-aefb7f0521f3" name="S.H.I.E.L.D. Holding Facility" size="16x16">
       <property name="Unit ID" value="av60M002" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="a172b97d-92d2-4c81-b6a3-fe37c1203096" name="Council of Red Chambers" size="16x16">
       <property name="Unit ID" value="av60M003" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="M003" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="2bb31c7d-94f9-47aa-958c-75027ea0de47" name="Wakanda" size="16x16">
       <property name="Unit ID" value="av60M004" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="M004" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="d97aa4bf-338f-4fc8-beb8-d7014181a270" name="Ultron's Lair" size="16x16">
       <property name="Unit ID" value="av60M005" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="M005" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="ddbb5824-4006-4c13-9330-b09e4940512b" name="Steel Mesh Fencing" size="Card">
       <property name="Unit ID" value="av60TM001" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM001" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9132,6 +9419,7 @@
     </card>
     <card id="d6b2fcab-9fb7-483c-b582-a249c7073230" name="Pool of Lava" size="Card">
       <property name="Unit ID" value="av60TM002" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM002" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9140,6 +9428,7 @@
     </card>
     <card id="da709db0-703c-4318-87a9-57cde36dcc73" name="Heart-Shaped Herb Bush" size="Card">
       <property name="Unit ID" value="av60TM003" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM003" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9149,6 +9438,7 @@
     </card>
     <card id="a6f16a29-611c-4fc0-860e-fd653d167bcf" name="Nightstick" size="Card">
       <property name="Unit ID" value="av60TM004" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM004" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9157,6 +9447,7 @@
     </card>
     <card id="a68c455d-b46b-4ead-b8b5-036ca143b5f8" name="Grenade" size="Card">
       <property name="Unit ID" value="av60TM005" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM005" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9165,6 +9456,7 @@
     </card>
     <card id="9f85d28d-846b-4ecb-a6c7-70c6e4168282" name="Turned-Over Desk" size="Card">
       <property name="Unit ID" value="av60TM006" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM006" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9173,6 +9465,7 @@
     </card>
     <card id="507ccc46-ac5a-49af-bdae-6b36e51ed6fa" name="Rubble" size="Card">
       <property name="Unit ID" value="av60TM007" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM007" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9181,6 +9474,7 @@
     </card>
     <card id="24e0f04c-9751-4330-8cee-389cb7d82741" name="Trident" size="Card">
       <property name="Unit ID" value="av60TM008" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM008" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9189,6 +9483,7 @@
     </card>
     <card id="3bf151e4-9000-4c05-a88e-d8cd67a33a51" name="Mound" size="Card">
       <property name="Unit ID" value="av60TM009" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM009" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9197,6 +9492,7 @@
     </card>
     <card id="0e057380-c71d-42f8-9c45-987a1500f3e3" name="Dirt Wall" size="Card">
       <property name="Unit ID" value="av60TM010" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM010" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9205,6 +9501,7 @@
     </card>
     <card id="9c91baaf-818b-428e-ac92-e30ef4032a55" name="Skeleton" size="Card">
       <property name="Unit ID" value="av60TM011" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM011" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9213,6 +9510,7 @@
     </card>
     <card id="08da691b-bfab-4e11-a6ad-fe29d94b584a" name="Round Platform" size="Card">
       <property name="Unit ID" value="av60TM012" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM012" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />
@@ -9221,6 +9519,7 @@
     </card>
     <card id="c8632f51-d396-440e-a3ce-ba3fbfb1dd1d" name="Black Panther Statue" size="Card">
       <property name="Unit ID" value="av60TM013" />
+      <property name="Set Search" value="| Avengers 60th Anniversary |" />
       <property name="Collector Number" value="TM013" />
       <property name="Unit Type" value="Terrain Marker" />
       <property name="Point Values" value="0" />

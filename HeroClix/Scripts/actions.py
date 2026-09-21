@@ -439,30 +439,34 @@ def _make_color_list(buttonlist):
 def create_character_filtered(group, x=0, y=0):
     mute()
     lookup_dict = {}
+    guid_list = []
     
     message = "Look up characters by:"
-    buttonList = ["Keywords", "Team Abilities", ]
+    buttonList = ["Keywords", "Team Abilities", "Set", "View All (Slow)", ]
     colorList = _make_color_list(buttonList)
     filter_choice = askChoice(message, buttonList, colorList)
     if filter_choice == 0:
         return
-    new_key = buttonList[filter_choice - 1] + " Search"
+    elif buttonList[filter_choice - 1] == "View All (Slow)":
+        guid_list = queryCard(properties = {"Unit Type": CHARACTER_UNIT_TYPES}, exact = True)
+    else:    
+        new_key = buttonList[filter_choice - 1] + " Search"
+        
+        message = "Choose one:"
+        buttonList = [i for i in FILTER_CHOICE_LIST[filter_choice - 1]]
+        colorList = _make_color_list(buttonList)
+        choice = askChoice(message, buttonList, colorList)
+        if choice == 0:
+            return
+        
+        search = "| " + buttonList[choice - 1] + " |"
+        
+        lookup_dict[new_key] = search
     
-    message = "Choose one:"
-    buttonList = [i for i in FILTER_CHOICE_LIST[filter_choice - 1]]
-    colorList = _make_color_list(buttonList)
-    choice = askChoice(message, buttonList, colorList)
-    if choice == 0:
-        return
-    
-    search = "| " + buttonList[choice - 1] + " |"
-    
-    lookup_dict[new_key] = search
-    
-    guid_list = queryCard(properties = lookup_dict, exact = False)
-    if len(guid_list) == 0:
-        whisper("No matches found.")
-        return
+        guid_list = queryCard(properties = lookup_dict, exact = False)
+        if len(guid_list) == 0:
+            whisper("No matches found.")
+            return
     
     chosen_card, quantity = askCard(properties = {"Model": guid_list}, operator = "or", title = "Select a Character: ")
     if chosen_card is None:

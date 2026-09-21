@@ -1,15 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <set name="Secret Wars: Battleworld" id="1cf51f8d-2fd2-4e47-a99b-24efbb45dbaa" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
   <cards>
     <card id="5ed34f99-77ab-445e-b64b-6867f1dea5b3" name="Captain America" size="Card">
       <property name="Unit ID" value="swb001" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="001" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers" />
+      <property name="Keywords Search" value="| Avengers |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -84,12 +86,15 @@
     </card>
     <card id="e0d0f1ff-c346-43e5-986e-db9e291ab981" name="Spider-Man" size="Card">
       <property name="Unit ID" value="swb002" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="002" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Battleworld: Regency | Reporter | Scientist | Spider Man Family" />
+      <property name="Keywords Search" value="| Battleworld: Regency | Reporter | Scientist | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -171,12 +176,15 @@
     </card>
     <card id="a029c71a-9cf2-4938-ad44-36d76d975e5f" name="Iron Man" size="Card">
       <property name="Unit ID" value="swb003" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="003" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Scientist | Stark Industries | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Armor | Avengers | Scientist | Stark Industries | S.H.I.E.L.D. |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -242,11 +250,13 @@
     </card>
     <card id="f0245d3f-fde9-48e0-aaa5-6234dc063eeb" name="Crossbones" size="Card">
       <property name="Unit ID" value="swb004" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="004" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Battleworld: The Valley | Past | Soldier" />
+      <property name="Keywords Search" value="| Battleworld: The Valley | Past | Soldier |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -313,12 +323,14 @@
     </card>
     <card id="f6cdfeb6-f390-490a-8730-d359f6e831a5" name="Gunslinger" size="Card">
       <property name="Unit ID" value="swb005" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="005" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="20" />
       <property name="Keywords" value="Battleworld: The Valley | Past" />
+      <property name="Keywords Search" value="| Battleworld: The Valley | Past |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -363,12 +375,15 @@
     </card>
     <card id="73db827d-6d99-4644-8d8f-b1f8bebcc499" name="Sheriff Steve Rogers" size="Card">
       <property name="Unit ID" value="swb006" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="006" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Battleworld: The Valley | Past | Police | Soldier" />
+      <property name="Keywords Search" value="| Battleworld: The Valley | Past | Police | Soldier |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -433,11 +448,13 @@
     </card>
     <card id="29422f87-0481-45bd-b720-34d5ff67502a" name="Thanos Duplicate" size="Card">
       <property name="Unit ID" value="swb007a" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="007a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="50/25" />
       <property name="Keywords" value="Battleworld: Other | Black Order | Cosmic | Minions Of Thanos" />
+      <property name="Keywords Search" value="| Battleworld: Other | Black Order | Cosmic | Minions Of Thanos |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -520,13 +537,16 @@
     </card>
     <card id="3e9e3830-accc-47e7-a58d-bf1406515f3d" name="Thanos" size="Card">
       <property name="Unit ID" value="swb007b" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="007b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="175/140" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Battleworld: Other | Minions Of Thanos | Nova Corps | Eternal" />
+      <property name="Keywords Search" value="| Battleworld: Other | Minions Of Thanos | Nova Corps | Eternal |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -630,12 +650,15 @@
     </card>
     <card id="b72d384d-0c37-4f97-83d5-fa4c3c11fb6b" name="Thorus" size="Card">
       <property name="Unit ID" value="swb008" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="008" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Asgardian | Battleworld: Asgard | Police" />
+      <property name="Keywords Search" value="| Asgardian | Battleworld: Asgard | Police |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -689,13 +712,16 @@
     </card>
     <card id="584fe5c7-66e0-4e22-92d1-0b7c827afa1b" name="Thor" size="Card">
       <property name="Unit ID" value="swb009" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="009" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="60" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Asgardian | Battleworld: Asgard | Police | Warrior" />
+      <property name="Keywords Search" value="| Asgardian | Battleworld: Asgard | Police | Warrior |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -760,12 +786,14 @@
     </card>
     <card id="467d7f90-c2b4-4301-85c3-a0d0b15a3aff" name="Crystal Warrior" size="Card">
       <property name="Unit ID" value="swb010" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="010" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="55" />
       <property name="Keywords" value="Battleworld: Weirdworld | Crystalium | Warrior" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Crystalium | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -832,12 +860,14 @@
     </card>
     <card id="ca226662-8b4b-4386-84de-d3c1161d8420" name="Magma Man" size="Card">
       <property name="Unit ID" value="swb011" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="011" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Battleworld: Weirdworld | Crystalium" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Crystalium |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -904,12 +934,14 @@
     </card>
     <card id="322b1e72-1aa7-4a32-a3b1-c6cabfd5cfc7" name="Man-Thing Soldier" size="Card">
       <property name="Unit ID" value="swb012" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="012" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="33" />
       <property name="Keywords" value="Battleworld: Weirdworld | Soldier | Monster | Mystical" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Soldier | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -965,12 +997,14 @@
     </card>
     <card id="308a39a5-5645-4f4d-81d4-bac7b88af70d" name="Worldbreaker" size="Card">
       <property name="Unit ID" value="swb013" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="013" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="100/50" />
       <property name="Keywords" value="Brute | Battleworld: Other | Warrior" />
+      <property name="Keywords Search" value="| Brute | Battleworld: Other | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1047,12 +1081,14 @@
     </card>
     <card id="85c23ceb-6a6f-4b05-8876-8c7471aa7775" name="Outrider" size="Card">
       <property name="Unit ID" value="swb014" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="014" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="35" />
       <property name="Keywords" value="Assassin | Black Order | Minions Of Thanos | Monster" />
+      <property name="Keywords Search" value="| Assassin | Black Order | Minions Of Thanos | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1112,11 +1148,13 @@
     </card>
     <card id="5279abb3-3b03-4f92-8b6a-6a1873258cfe" name="Molly Hayes" size="Card">
       <property name="Unit ID" value="swb015" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="015" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Runaways" />
+      <property name="Keywords Search" value="| Runaways |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1176,11 +1214,13 @@
     </card>
     <card id="56014709-d6a0-42ce-a596-bcb79fd7fa8c" name="Klara Prast" size="Card">
       <property name="Unit ID" value="swb016" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="016" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Common" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Past | Runaways" />
+      <property name="Keywords Search" value="| Past | Runaways |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1244,11 +1284,13 @@
     </card>
     <card id="4224db36-65c3-4038-b003-1b36c9b51392" name="Captain America" size="Card">
       <property name="Unit ID" value="swb017" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="017" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Spy | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Spy | S.H.I.E.L.D. |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1322,12 +1364,15 @@
     </card>
     <card id="2ca45660-ffcb-487f-8225-ab6ea4a53595" name="Spider-Man" size="Card">
       <property name="Unit ID" value="swb018" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="018" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="70" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Avengers | Celebrity | Battleworld: Spider Island | Ruler | Spider Man Family" />
+      <property name="Keywords Search" value="| Avengers | Celebrity | Battleworld: Spider Island | Ruler | Spider Man Family |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1408,12 +1453,15 @@
     </card>
     <card id="acb4a4af-bbfa-41bc-9a3f-f0730b448fa0" name="Iron Man" size="Card">
       <property name="Unit ID" value="swb019" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="019" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="115" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Armor | Avengers | Animal | Battleworld: Spider Island | Scientist | Monster" />
+      <property name="Keywords Search" value="| Armor | Avengers | Animal | Battleworld: Spider Island | Scientist | Monster |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1494,11 +1542,13 @@
     </card>
     <card id="8f52f0a8-3310-4961-a0b5-de88dba6e956" name="Tony Stark, Inventor" size="Card">
       <property name="Unit ID" value="swb020" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="020" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Battleworld: The Valley | Past | Scientist" />
+      <property name="Keywords Search" value="| Battleworld: The Valley | Past | Scientist |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1542,11 +1592,13 @@
     </card>
     <card id="7bf6478f-cb11-4392-96a8-82c2d95aba1b" name="Black Widow" size="Card">
       <property name="Unit ID" value="swb021" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="021" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Assassin | Battleworld: The Valley | Past" />
+      <property name="Keywords Search" value="| Assassin | Battleworld: The Valley | Past |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1617,12 +1669,15 @@
     </card>
     <card id="73336124-2cf4-4a11-a213-7ea3860ee8d4" name="Ultimate Thor" size="Card">
       <property name="Unit ID" value="swb022" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="022" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="125/100" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Asgardian | Celebrity | Battleworld: Asgard | Police | Warrior | Detective" />
+      <property name="Keywords Search" value="| Asgardian | Celebrity | Battleworld: Asgard | Police | Warrior | Detective |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1710,12 +1765,15 @@
     </card>
     <card id="91948add-a9f7-4101-9a5e-6cf726e996bb" name="She-Hulk" size="Card">
       <property name="Unit ID" value="swb023a" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="023a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Defenders" />
+      <property name="Team Abilities Search" value="| Defenders |" />
       <property name="Keywords" value="Asgardian | Battleworld: Other | Police | Defenders" />
+      <property name="Keywords Search" value="| Asgardian | Battleworld: Other | Police | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -1796,12 +1854,14 @@
     </card>
     <card id="b37e7475-a9bc-41c7-ad75-3088ecee317e" name="She-Hulk" size="Card">
       <property name="Unit ID" value="swb023b" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="023b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="130/90" />
       <property name="Keywords" value="Avengers | Battleworld: Other | Politician | Ruler" />
+      <property name="Keywords Search" value="| Avengers | Battleworld: Other | Politician | Ruler |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -1891,12 +1951,15 @@
     </card>
     <card id="6d7952c5-c155-4a06-9a3c-f89efb1d104f" name="Boar Thor" size="Card">
       <property name="Unit ID" value="swb024" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="024" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="80" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Asgardian | Animal | Battleworld: Asgard | Police | Warrior" />
+      <property name="Keywords Search" value="| Asgardian | Animal | Battleworld: Asgard | Police | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -1975,11 +2038,13 @@
     </card>
     <card id="d3b11226-edd4-4915-92a8-ce03d413554f" name="Crystar" size="Card">
       <property name="Unit ID" value="swb025" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="025" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Battleworld: Weirdworld | Crystalium | Warrior" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Crystalium | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2057,11 +2122,13 @@
     </card>
     <card id="7e4c9a1f-b553-42ac-86df-a4f3602e0586" name="Moltar" size="Card">
       <property name="Unit ID" value="swb026" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="026" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Battleworld: Weirdworld | Crystalium | Mystical" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Crystalium | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2141,12 +2208,14 @@
     </card>
     <card id="8d749c65-31a3-4ab4-b283-69feebb8c0cc" name="Man-Thing Commander" size="Card">
       <property name="Unit ID" value="swb027" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="027" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Generic" />
       <property name="Point Values" value="66" />
       <property name="Keywords" value="Battleworld: Weirdworld | Soldier | Monster | Mystical" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Soldier | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2228,11 +2297,13 @@
     </card>
     <card id="8c4f3ea2-7a03-4022-bbc7-1cf3218fcc1a" name="Maestro" size="Card">
       <property name="Unit ID" value="swb028" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="028" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="175/100" />
       <property name="Keywords" value="Brute | Battleworld: Other | Future | Ruler | Monster" />
+      <property name="Keywords Search" value="| Brute | Battleworld: Other | Future | Ruler | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2329,11 +2400,13 @@
     </card>
     <card id="555c721f-4c85-43d4-bb7c-c175832f8571" name="Erik Killmonger" size="Card">
       <property name="Unit ID" value="swb029" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="029" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Warrior | Wakanda" />
+      <property name="Keywords Search" value="| Warrior | Wakanda |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2403,11 +2476,13 @@
     </card>
     <card id="b8d4b4ec-50c3-4758-b92f-4d5a5bb0e5e6" name="Stick" size="Card">
       <property name="Unit ID" value="swb030" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="030" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Martial Artist | Marvel Knights" />
+      <property name="Keywords Search" value="| Martial Artist | Marvel Knights |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2475,12 +2550,14 @@
     </card>
     <card id="4a9af74f-be70-4cbd-b42b-6db19db95b30" name="Alex Wilder" size="Card">
       <property name="Unit ID" value="swb031" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="031" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="25" />
       <property name="Keywords" value="Masters Of Evil | Runaways | Scientist | Mystical" />
+      <property name="Keywords Search" value="| Masters Of Evil | Runaways | Scientist | Mystical |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2531,11 +2608,13 @@
     </card>
     <card id="1c36f9b5-79d7-4d12-a27a-2d262b12e753" name="Karolina Dean" size="Card">
       <property name="Unit ID" value="swb032" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="032" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Uncommon" />
       <property name="Point Values" value="55" />
       <property name="Keywords" value="Cosmic | Runaways" />
+      <property name="Keywords Search" value="| Cosmic | Runaways |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -2596,11 +2675,13 @@
     </card>
     <card id="1f865ee3-1013-469d-8c3f-9c2c0032368a" name="Captain America" size="Card">
       <property name="Unit ID" value="swb033" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="033" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Howling Commandos | Invaders | Past | Soldier" />
+      <property name="Keywords Search" value="| Howling Commandos | Invaders | Past | Soldier |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -2675,11 +2756,13 @@
     </card>
     <card id="4e082df9-b179-41b2-bb70-9b541d0f7637" name="Iron Goblin" size="Card">
       <property name="Unit ID" value="swb034" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="034" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="150/100" />
       <property name="Keywords" value="Armor | Avengers | Battleworld: Spider Island | Scientist" />
+      <property name="Keywords Search" value="| Armor | Avengers | Battleworld: Spider Island | Scientist |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -2779,11 +2862,13 @@
     </card>
     <card id="6a7460a2-9ac7-4b2f-8aea-51cb879b76f1" name="Bullseye" size="Card">
       <property name="Unit ID" value="swb035" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="035" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Assassin | Battleworld: The Valley | Past" />
+      <property name="Keywords Search" value="| Assassin | Battleworld: The Valley | Past |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2848,11 +2933,13 @@
     </card>
     <card id="6c611652-22a2-4b85-8ddc-ba1aa3281602" name="Elektra" size="Card">
       <property name="Unit ID" value="swb036" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="036" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Assassin | Battleworld: The Valley | Past" />
+      <property name="Keywords Search" value="| Assassin | Battleworld: The Valley | Past |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -2920,12 +3007,15 @@
     </card>
     <card id="3ba4033e-4010-4750-a5aa-27da53b73c55" name="Captain Marvel" size="Card">
       <property name="Unit ID" value="swb037a" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="037a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="125" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Animal | Battleworld: Spider Island | Soldier | Monster" />
+      <property name="Keywords Search" value="| Avengers | Animal | Battleworld: Spider Island | Soldier | Monster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -3013,13 +3103,16 @@
     </card>
     <card id="53e2589a-3280-486e-ac04-e99ef5169eae" name="Captain Marvel" size="Card">
       <property name="Unit ID" value="swb037b" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="037b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="100" />
       <property name="Team Abilities" value="Avengers" />
+      <property name="Team Abilities Search" value="| Avengers |" />
       <property name="Keywords" value="Avengers | Battleworld: Spider Island | Soldier | Monster" />
+      <property name="Keywords Search" value="| Avengers | Battleworld: Spider Island | Soldier | Monster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3122,11 +3215,13 @@
     </card>
     <card id="c6dc7fd9-a6e0-4caa-b3e6-30a9d7f5ba90" name="Iron Man" size="Card">
       <property name="Unit ID" value="swb038" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="038" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="80" />
       <property name="Keywords" value="Armor | Battleworld: The Valley | Past | Scientist" />
+      <property name="Keywords Search" value="| Armor | Battleworld: The Valley | Past | Scientist |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3205,11 +3300,13 @@
     </card>
     <card id="e31d72fc-1954-473b-89e7-67c5a6803bb0" name="Red Wolf" size="Card">
       <property name="Unit ID" value="swb039" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="039" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Battleworld: The Valley | Past" />
+      <property name="Keywords Search" value="| Battleworld: The Valley | Past |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3280,12 +3377,15 @@
     </card>
     <card id="4dcdfd69-2643-4a2d-ba98-8c697a15d762" name="Spiderling" size="Card">
       <property name="Unit ID" value="swb040" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="040" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="30" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Battleworld: Regency | Spider Man Family | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Battleworld: Regency | Spider Man Family | S.H.I.E.L.D. |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3334,12 +3434,15 @@
     </card>
     <card id="fccd172c-6c54-44ed-bfc8-522116fd2ccc" name="Spinneret" size="Card">
       <property name="Unit ID" value="swb041" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="041" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="65" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Armor | Celebrity | Battleworld: Regency | Spider Man Family" />
+      <property name="Keywords Search" value="| Armor | Celebrity | Battleworld: Regency | Spider Man Family |" />
       <property name="Range" value="4" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3417,11 +3520,13 @@
     </card>
     <card id="1dd78970-3bd8-4d07-a0c9-3e6bd233c19c" name="Jennifer Kale" size="Card">
       <property name="Unit ID" value="swb042" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="042" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40/33" />
       <property name="Keywords" value="Battleworld: Weirdworld | Midnight Sons | Ruler | Mystical" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Midnight Sons | Ruler | Mystical |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3477,11 +3582,13 @@
     </card>
     <card id="0146fabe-ecb5-4f2d-89e9-28ed25a99041" name="Arkon" size="Card">
       <property name="Unit ID" value="swb043" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="043" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="60" />
       <property name="Keywords" value="Battleworld: Weirdworld | Ruler | Warrior" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Ruler | Warrior |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3556,11 +3663,13 @@
     </card>
     <card id="c98e5fb6-e551-45a7-a396-0f1af9d63e69" name="Witch Hunter Angela" size="Card">
       <property name="Unit ID" value="swb044" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="044" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="45" />
       <property name="Keywords" value="Battleworld: Other | Past | Warrior" />
+      <property name="Keywords Search" value="| Battleworld: Other | Past | Warrior |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3627,11 +3736,13 @@
     </card>
     <card id="3170a4a2-251a-47cd-92a0-f4a3ce0e14d3" name="Nico Minoru" size="Card">
       <property name="Unit ID" value="swb045" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="045" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="40" />
       <property name="Keywords" value="Runaways | Mystical" />
+      <property name="Keywords Search" value="| Runaways | Mystical |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3694,11 +3805,13 @@
     </card>
     <card id="1ce11e56-1308-4bc4-8be3-84db443aec4c" name="Chase Stein" size="Card">
       <property name="Unit ID" value="swb046" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="046" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="35" />
       <property name="Keywords" value="Runaways | Scientist" />
+      <property name="Keywords Search" value="| Runaways | Scientist |" />
       <property name="Range" value="3" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3763,11 +3876,13 @@
     </card>
     <card id="fb3024ce-8597-419b-9c40-95f00af58abd" name="Viv Vision" size="Card">
       <property name="Unit ID" value="swb047" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="047" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="90" />
       <property name="Keywords" value="Champions | Robot" />
+      <property name="Keywords Search" value="| Champions | Robot |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -3838,11 +3953,13 @@
     </card>
     <card id="7933c680-de19-4b6d-8dfe-94b2200a372d" name="Bushmaster" size="Card">
       <property name="Unit ID" value="swb048" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="048" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Robot | Serpent Society | Monster | Thunderbolts" />
+      <property name="Keywords Search" value="| Robot | Serpent Society | Monster | Thunderbolts |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -3909,12 +4026,15 @@
     </card>
     <card id="844d0332-e90e-4607-bc3c-edbeceed7144" name="Hulk" size="Card">
       <property name="Unit ID" value="swb049" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="049" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Brute | Animal | Battleworld: Spider Island | Monster" />
+      <property name="Keywords Search" value="| Brute | Animal | Battleworld: Spider Island | Monster |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Giant" />
@@ -4013,12 +4133,15 @@
     </card>
     <card id="75daeafc-0087-4038-90f5-bdc1623245ce" name="Iron Fist" size="Card">
       <property name="Unit ID" value="swb050" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="050" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="75" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Animal | Battleworld: Spider Island | Martial Artist | Monster | Mystical" />
+      <property name="Keywords Search" value="| Animal | Battleworld: Spider Island | Martial Artist | Monster | Mystical |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4096,11 +4219,13 @@
     </card>
     <card id="698a5974-c460-49e3-912f-9b1a17303d1d" name="Spider-Queen" size="Card">
       <property name="Unit ID" value="swb051" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="051" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="200" />
       <property name="Keywords" value="Animal | Battleworld: Spider Island | Past | Ruler | Monster" />
+      <property name="Keywords Search" value="| Animal | Battleworld: Spider Island | Past | Ruler | Monster |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4201,11 +4326,13 @@
     </card>
     <card id="eed665e1-4f82-404e-b366-4cca770f954e" name="Regent" size="Card">
       <property name="Unit ID" value="swb052" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="052" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="240/100" />
       <property name="Keywords" value="Armor | Battleworld: Regency | Ruler | Scientist" />
+      <property name="Keywords Search" value="| Armor | Battleworld: Regency | Ruler | Scientist |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Giant" />
@@ -4320,11 +4447,13 @@
     </card>
     <card id="71b3f479-cf69-485b-97fa-82ee7a3df235" name="Doc Ock" size="Card">
       <property name="Unit ID" value="swb053" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="053" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="50" />
       <property name="Keywords" value="Battleworld: The Valley | Past" />
+      <property name="Keywords Search" value="| Battleworld: The Valley | Past |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4389,12 +4518,15 @@
     </card>
     <card id="d4953a57-4464-4f25-ba56-7eaae7dd371a" name="Big Boss Hill" size="Card">
       <property name="Unit ID" value="swb054" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="054" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="85" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Asgardian | Battleworld: Other | Police | Ruler" />
+      <property name="Keywords Search" value="| Asgardian | Battleworld: Other | Police | Ruler |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4475,12 +4607,15 @@
     </card>
     <card id="2c4c456b-864d-4773-9fa0-f7eb1daecb11" name="Dino-Thor" size="Card">
       <property name="Unit ID" value="swb055" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="055" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Asgardian | Animal | Battleworld: Asgard | Police | Warrior" />
+      <property name="Keywords Search" value="| Asgardian | Animal | Battleworld: Asgard | Police | Warrior |" />
       <property name="Range" value="5" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -4568,11 +4703,13 @@
     </card>
     <card id="4a886371-ed9c-4c47-8e4b-731fead770f3" name="Witch Queen Le Fay" size="Card">
       <property name="Unit ID" value="swb056" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="056" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="150/100" />
       <property name="Keywords" value="Battleworld: Weirdworld | Ruler | Mystical" />
+      <property name="Keywords Search" value="| Battleworld: Weirdworld | Ruler | Mystical |" />
       <property name="Range" value="6" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -4661,12 +4798,15 @@
     </card>
     <card id="867ec7d0-6d83-46ec-8f65-0af39f6cb7f3" name="Nick the Fury" size="Card">
       <property name="Unit ID" value="swb057" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="057" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="185/150" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Battleworld: Other | Cosmic | Robot | Ruler | S.H.I.E.L.D." />
+      <property name="Keywords Search" value="| Battleworld: Other | Cosmic | Robot | Ruler | S.H.I.E.L.D. |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4766,12 +4906,15 @@
     </card>
     <card id="713473d4-3e7e-4bac-96ab-1263ea400dd5" name="Thanos" size="Card">
       <property name="Unit ID" value="swb058" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="058" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="200/150" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Black Order | Cosmic | Minions Of Thanos | Scientist | Mystical | Warrior | Eternal" />
+      <property name="Keywords Search" value="| Black Order | Cosmic | Minions Of Thanos | Scientist | Mystical | Warrior | Eternal |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -4883,12 +5026,15 @@
     </card>
     <card id="ed5e7bea-ed1d-4377-83b1-20bb53559700" name="Destroyer Thor" size="Card">
       <property name="Unit ID" value="swb059a" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="059a" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="125/75" />
       <property name="Team Abilities" value="Police" />
+      <property name="Team Abilities Search" value="| Police |" />
       <property name="Keywords" value="Armor | Asgardian | Battleworld: Asgard | Police | Robot" />
+      <property name="Keywords Search" value="| Armor | Asgardian | Battleworld: Asgard | Police | Robot |" />
       <property name="Range" value="6" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Giant" />
@@ -4980,13 +5126,16 @@
     </card>
     <card id="5b51bd4b-d86d-4b5c-985e-0def593d2eb3" name="Destroyer Thor" size="Card">
       <property name="Unit ID" value="swb059b" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="059b" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Properties" value="Prime" />
       <property name="Point Values" value="220/170" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Armor | Asgardian | Avengers | Mystical | Deity" />
+      <property name="Keywords Search" value="| Armor | Asgardian | Avengers | Mystical | Deity |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Giant" />
@@ -5079,11 +5228,13 @@
     </card>
     <card id="9633a346-54c7-4d3a-a10f-9b31ae166a0b" name="Gertrude Yorkes &amp; Old Lace" size="Card">
       <property name="Unit ID" value="swb060" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="060" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Super Rare" />
       <property name="Point Values" value="30" />
       <property name="Keywords" value="Animal | Runaways" />
+      <property name="Keywords Search" value="| Animal | Runaways |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5143,6 +5294,7 @@
     </card>
     <card id="4321ca1d-d85b-4e99-8100-b9a2c5ff08a4" name="Old Lace" size="Card">
       <property name="Unit ID" value="swb060bt" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="060bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Super Rare" />
@@ -5164,13 +5316,16 @@
     </card>
     <card id="4fd97fa9-ab90-4aff-865d-519295861fa9" name="Black Panther" size="Card">
       <property name="Unit ID" value="swb061" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="061" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Properties" value="Unique" />
       <property name="Point Values" value="250/150" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Cosmic | Illuminati | Ruler | Wakanda" />
+      <property name="Keywords Search" value="| Cosmic | Illuminati | Ruler | Wakanda |" />
       <property name="Range" value="7" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Shield | Starburst" />
@@ -5285,6 +5440,7 @@
     </card>
     <card id="5c603335-bd57-4bdf-8b48-6641cef4ad25" name="Zombie Warrior" size="Card">
       <property name="Unit ID" value="swb061bt" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="061bt" />
       <property name="Unit Type" value="Bystander" />
       <property name="Rarity" value="Chase" />
@@ -5307,11 +5463,13 @@
     </card>
     <card id="7e1fdfe7-3e0f-4485-8096-b2d56ada9bca" name="Namor" size="Card">
       <property name="Unit ID" value="swb062" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="062" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100" />
       <property name="Keywords" value="Atlantis | Avengers | Illuminati | Ruler | Defenders" />
+      <property name="Keywords Search" value="| Atlantis | Avengers | Illuminati | Ruler | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Dolphin | Fist | Indomitable | Starburst" />
@@ -5401,12 +5559,15 @@
     </card>
     <card id="b01af279-a1ac-446c-b362-78a7163fab3a" name="Sheriff Strange" size="Card">
       <property name="Unit ID" value="swb063" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="063" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="100/50" />
       <property name="Team Abilities" value="Mystics" />
+      <property name="Team Abilities Search" value="| Mystics |" />
       <property name="Keywords" value="Battleworld: Other | Illuminati | Police | Mystical" />
+      <property name="Keywords Search" value="| Battleworld: Other | Illuminati | Police | Mystical |" />
       <property name="Range" value="8" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
@@ -5486,11 +5647,13 @@
     </card>
     <card id="67087960-3bce-4730-b561-df9664ddd21b" name="Iron Fist" size="Card">
       <property name="Unit ID" value="swb064" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="064" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="75" />
       <property name="Keywords" value="Avengers | Martial Artist | Past" />
+      <property name="Keywords Search" value="| Avengers | Martial Artist | Past |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5569,12 +5732,15 @@
     </card>
     <card id="8fa803f1-afec-484f-9238-3bebb304f968" name="Agamotto" size="Card">
       <property name="Unit ID" value="swb065" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="065" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="170/90" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Avengers | Past | Mystical" />
+      <property name="Keywords Search" value="| Avengers | Past | Mystical |" />
       <property name="Range" value="7" />
       <property name="Targets" value="2" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5668,12 +5834,15 @@
     </card>
     <card id="27dd9757-d94b-4b73-b83b-fe127c72d523" name="Odin" size="Card">
       <property name="Unit ID" value="swb066" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="066" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="175/120" />
       <property name="Team Abilities" value="Power Cosmic" />
+      <property name="Team Abilities Search" value="| Power Cosmic |" />
       <property name="Keywords" value="Asgardian | Avengers | Past | Deity" />
+      <property name="Keywords Search" value="| Asgardian | Avengers | Past | Deity |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Shield | Starburst" />
@@ -5783,12 +5952,15 @@
     </card>
     <card id="8dcf4d67-6d00-447e-a495-ed94e335bdfe" name="She-Hulk" size="Card">
       <property name="Unit ID" value="swb100" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="100" />
       <property name="Unit Type" value="Character" />
       <property name="Rarity" value="Chase" />
       <property name="Point Values" value="90" />
       <property name="Team Abilities" value="Spider Man" />
+      <property name="Team Abilities Search" value="| Spider Man |" />
       <property name="Keywords" value="Avengers | Lady Liberators | Defenders" />
+      <property name="Keywords Search" value="| Avengers | Lady Liberators | Defenders |" />
       <property name="Range" value="0" />
       <property name="Targets" value="1" />
       <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
@@ -5870,11 +6042,13 @@
     </card>
     <card id="b46ad58e-98e1-4ac5-a4d8-7cd4efca5890" name="Regency Laboratory" size="16x24">
       <property name="Unit ID" value="swbM001" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="M001" />
       <property name="Unit Type" value="Map" />
     </card>
     <card id="53fa8c17-6001-45a7-a8a8-5b50096f8ed3" name="Weird-World" size="16x24">
       <property name="Unit ID" value="swbM002" />
+      <property name="Set Search" value="| Secret Wars: Battleworld |" />
       <property name="Collector Number" value="M002" />
       <property name="Unit Type" value="Map" />
     </card>
