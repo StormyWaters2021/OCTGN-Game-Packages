@@ -27,6 +27,7 @@
 	  <script src="Scripts/pac.py" />
 	  <script src="Scripts/multidial.py" />
 	  <script src="Scripts/test.py" />
+	  <script src="Scripts/sealed_generator.py" />
   </scripts>
   
   <proxygen definitionsrc="Proxy/proxydef.xml"/>
@@ -215,6 +216,7 @@
 	
 	<!-- # ~~ TEST MENU ~~ # -->
 	<groupactions menu="Test Menu">
+		<groupaction menu="Sealed Product Generator" execute="sealed_product" />
 		<groupaction menu="View Digital PAC" execute="pac_speed" />
 		<groupaction menu="Create Galactus" execute="build_galactus"/>
 		<groupaction menu="Create Venom Galactus" execute="build_venom_galactus"/>
