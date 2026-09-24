@@ -66,11 +66,12 @@ def generate_product_by_set():
         return
 
     set_id = set_ids[choice - 1]
+    set_name = clean_set_name(set_names[choice - 1])
 
-    choose_product(set_id)
+    choose_product(set_id, set_name)
 
 
-def choose_product(set_id):
+def choose_product(set_id, set_name):
     message = "Choose a Product:"
     button_list = [
         "Case",
@@ -92,6 +93,11 @@ def choose_product(set_id):
     else:
         return
 
+    if product == "case":
+        choice = confirm("Are you sure you want to open a case? This may take a few moments to process.")
+        if not choice:
+            return
+            
     url = API_BASE + "/octgn/generate"
     url += "?gameid=" + GAME_GUID
     url += "&set=" + set_id
@@ -107,7 +113,7 @@ def choose_product(set_id):
         show_error(response)
         return
 
-    create_product(response)
+    create_product(response, set_name)
 
 
 def generate_product_by_code():
@@ -133,10 +139,50 @@ def generate_product_by_code():
         show_error(response)
         return
 
-    create_product(response)
+    set_name = get_set_name_from_code(code)
+    create_product(response, set_name)
 
 
-def create_product(response):
+def clean_set_name(set_name):
+    prefixes = [
+        "Marvel HeroClix: ",
+        "DC HeroClix: ",
+        "HeroClix: ",
+    ]
+
+    for prefix in prefixes:
+        if set_name.startswith(prefix):
+            return set_name[len(prefix):]
+
+    return set_name
+
+
+def get_set_name_from_code(code):
+    code_parts = code.split("-")
+
+    if len(code_parts) < 2:
+        return ""
+
+    set_code = code_parts[1].upper()
+    url = API_BASE + "/octgn/sets?gameid=" + GAME_GUID
+    response, status = webRead(url)
+
+    if status != 200 or response.startswith("ERROR"):
+        return ""
+
+    lines = response.splitlines()
+
+    for line in lines:
+        parts = line.split("\t")
+
+        if len(parts) >= 4:
+            if parts[0] == "SET" and parts[2].upper() == set_code:
+                return clean_set_name(parts[3])
+
+    return ""
+
+
+def create_product(response, set_name=""):
     pack_group = me.piles[PACK_CONTENTS_GROUP]
 
     product_code = ""
@@ -161,12 +207,21 @@ def create_product(response):
 
                 pack_group.create(model_id, quantity)
 
-    if product_name != "" and product_code != "":
-        whisper("{} generated {}: {}".format(me, product_name, product_code))
-    elif product_code != "":
-        whisper("{} generated sealed product: {}".format(me, product_code))
+    display_name = product_name
+
+    if set_name != "" and product_name != "":
+        display_name = set_name + " " + product_name
+
+    if display_name != "":
+        notify("{} has opened a {}.".format(me, display_name))
     else:
-        whisper("{} generated a sealed product.".format(me))
+        notify("{} has opened a sealed product.".format(me))
+
+    if product_code != "":
+        if display_name != "":
+            whisper("{} code: {}".format(display_name, product_code))
+        else:
+            whisper("Sealed product code: {}".format(product_code))
 
 
 def show_error(response):

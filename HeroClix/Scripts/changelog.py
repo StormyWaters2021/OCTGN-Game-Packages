@@ -1,6 +1,9 @@
 changelog = {
-PENDING
-     1000109: ("1.0.1.9", "20 September 2026", [
+     1000200: ("1.0.2.0", "24 September 2026", [
+            "Sealed Generator is now available!",
+            "Right-click and select 'Sealed Product Generator' from the menu. You can select a set and then choose Case, Brick, or Pack. The contents will be generated and a code will be whispered to you in the chat log.",
+            "The displayed code can be shared to generate the exact same product with the same contents, for verification purposes.",
+            "Currently supports Thunderbolts, FFGC, Venom, and Strange Tales with more coming! I have attempted to make is as close to real-life reported distribution as possible, but send feedback if there are issues!",
             "Added new buttons for generating characters by Set or View All. Note that using View All will be slow to load since there are thousands of cards, but you can use the search box to filter while it's loading.",
             ]),   
     1000108: ("1.0.1.8", "20 September 2026", [

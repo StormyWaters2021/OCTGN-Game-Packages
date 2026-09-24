@@ -3,7 +3,7 @@
     id="dabf7f85-249a-48ee-9d42-8f59adf60185"
     name="HeroClix"
 	markersize="25"
-    version="1.0.1.8"
+    version="1.0.2.0"
     octgnVersion="3.1.0.2"
     scriptVersion="3.1.0.2"
 	setsurl="http://www.TCGBuilder.net"
@@ -214,14 +214,12 @@
 		<groupaction menu="Hulk and Hulkbuster" execute="swap_board_hulkbuster" />
 	</groupactions>
 	
+	<groupaction menu="Sealed Product Generator" execute="sealed_product" />
+	
 	<!-- # ~~ TEST MENU ~~ # -->
 	<groupactions menu="Test Menu">
-		<groupaction menu="Sealed Product Generator" execute="sealed_product" />
 		<groupaction menu="View Digital PAC" execute="pac_speed" />
-		<groupaction menu="Create Galactus" execute="build_galactus"/>
-		<groupaction menu="Create Venom Galactus" execute="build_venom_galactus"/>
 	</groupactions>
-
 	
 </table>
 
@@ -229,8 +227,7 @@
 	<counter name="Actions Used" default="0" icon="Images/tracker.png" />
 	<group name="Team" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded" />
 	<group name="Sideline" visibility="me" ordered="False" icon="Images/cards.png" viewState="expanded" />
-	<group name="Maps" visibility="me" ordered="True" viewState="pile" icon="Images/deck.png" />
-	
+	<group name="Maps" visibility="me" ordered="False" viewState="pile" icon="Images/deck.png" />
 </player>	
 	
   <!-- Default Deck Sections -->
