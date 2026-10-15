@@ -468,7 +468,7 @@ def create_character_filtered(group, x=0, y=0):
             whisper("No matches found.")
             return
     
-    chosen_card, quantity = askCard(properties = {"Model": guid_list}, operator = "or", title = "Select a Character: ")
+    chosen_card, quantity = askCard(properties = {"Model": guid_list}, title = "Select a Character: ")
     if chosen_card is None:
         return
     

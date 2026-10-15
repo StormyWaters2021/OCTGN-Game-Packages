@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set name="Dungeons &amp; Dragons HeroClix 400" id="599e22b3-e99e-41cc-b04e-4b269569ff91" gameId="dabf7f85-249a-48ee-9d42-8f59adf60185" gameVersion="1.0.0.0" version="1.0.0.0">
+  <cards>
+    <card id="bd1c4ba7-5075-42d1-8417-204639761f04" name="Dwarf Monk" size="Card">
+      <property name="Unit ID" value="dnd400AP-001" />
+      <property name="Collector Number" value="AP-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="100/75/50" />
+      <property name="Team Abilities" value="Adventurer" />
+      <property name="Keywords" value="Good | Humanoid | Martial Artist | Lawful | Mystical | Warrior" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="3" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Characters" />
+      <property name="Traits and Special Powers" value="[Trait] FLURRY OF BLOWS&#10;Powers: Flurry&#10;Flurry. When Dawrf Monk uses it, if she has no action tokens, she can make up to 3 close attacks instead.&#10;&#10;[Trait] HEROIC INSPIRATION: MONK&#10;When a friendly character attacks, if no Heroic Inspiration traits have been used this turn, you may replace a die in the attack with a [d:5].&#10;&#10;[Defense] DEFLECT MISSILES&#10;Powers: Combat Reflexes, Impervious&#10;Combat Reflexes, Impervious. When Dwarf Monk uses Impervious during a range attack and succeeds, after resolutions deal the attacker 1 penetrating damage." />
+      <alternate name="Dwarf Monk" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DEFLECT MISSILES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Dwarf Monk" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DEFLECT MISSILES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Dwarf Monk" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DEFLECT MISSILES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Dwarf Monk" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DEFLECT MISSILES" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Close Combat Expert" />
+      </alternate>
+      <alternate name="Dwarf Monk" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Dwarf Monk" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Quake" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Dwarf Monk" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Dwarf Monk" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Willpower" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Dwarf Monk" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="19598653-c3ee-40b8-a1e7-7a99a3538ee5" name="Elf Ranger" size="Card">
+      <property name="Unit ID" value="dnd400AP-002" />
+      <property name="Collector Number" value="AP-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="100/75/50" />
+      <property name="Team Abilities" value="Adventurer" />
+      <property name="Keywords" value="Animal | Good | Humanoid | Marksman | Martial Artist | Lawful | Detective" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Movement" value="Elevated" />
+      <property name="Improved Targeting" value="Hindering | Adjacent" />
+      <property name="Traits and Special Powers" value="[Trait] BEAST MASTER'S COMPANION&#10;When Elf Ranger starts the game, generate a Wolf bystander. // At the end of your turn, if Elf Ranger is within 4 squares of their Wolf, you may place that Wolf adjacent to them.&#10;&#10;[Trait] HEROIC INSPIRATION: RANGER&#10;At the beginning of your turn, if no Heroic Inspiration traits have been used this turn, Elf Ranger may generate up to three hindering terrain markers within range. Until your next turn, opposing characters occupying or adjacent to these markers can't use [im:] abilities and must break away to move.&#10;&#10;[Attack] ANIMAL HANDLING&#10;Powers: Precision Strike&#10;Precision Strike. // RANGE: Make up to two range attacks. If Wolf is within range, one of these attacks may instead be a close attack made by Wolf." />
+      <alternate name="Elf Ranger" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - ANIMAL HANDLING" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Elf Ranger" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - ANIMAL HANDLING" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Elf Ranger" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - ANIMAL HANDLING" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Elf Ranger" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - ANIMAL HANDLING" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Elf Ranger" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Elf Ranger" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Elf Ranger" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Elf Ranger" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Elf Ranger" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="f9ac6adb-4c35-44a0-b5fc-670f16d29b00" name="Wolf" size="Card">
+      <property name="Unit ID" value="dnd400AP-002bt" />
+      <property name="Collector Number" value="AP-002bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="0" />
+      <property name="Team Abilities" value="Adventurer" />
+      <property name="Keywords" value="Animal | Beast" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <alternate name="Wolf" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Charge" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Blades Claws Fangs" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Combat Reflexes" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Battle Fury" />
+      </alternate>
+    </card>
+    <card id="656b115b-208d-4812-b716-163e62ff255c" name="Halfling Warlock" size="Card">
+      <property name="Unit ID" value="dnd400AP-003" />
+      <property name="Collector Number" value="AP-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="100/75/50" />
+      <property name="Team Abilities" value="Mystics | Adventurer" />
+      <property name="Keywords" value="Good | Humanoid | Mystical | Chaotic" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] GAZE OF TWO MINDS&#10;At the beginning of your turn, you may choose another friendly character within 3 squares of Halfling Warlock. Until your next turn, as long as that character is within 3 squares of Halfling Warlock, Halfling Warlock can count range and draw line of fire from that character.&#10;&#10;[Trait] HEROIC INSPIRATION: WARLOCK&#10;When an opposing character is hit, if no Heroic Inspiration traits have been used this turn, after resolutions you may deal that character 1 penetrating damage and give them an action.&#10;&#10;[Defense] BEGUILING DEFENSES&#10;Powers: Super Senses, Invulnerability&#10;Super Senses. // Invulnerability, but only the first time Halfling Warlock is hit each turn." />
+      <alternate name="Halfling Warlock" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - BEGUILING DEFENSES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Perplex" />
+      </alternate>
+      <alternate name="Halfling Warlock" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - BEGUILING DEFENSES" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Halfling Warlock" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - BEGUILING DEFENSES" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Halfling Warlock" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - BEGUILING DEFENSES" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Halfling Warlock" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Halfling Warlock" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Flurry" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Halfling Warlock" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Mastermind" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Halfling Warlock" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Regeneration" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Halfling Warlock" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="24bbcffd-2ef2-4733-ab46-6aade88be1ab" name="Gnome Cleric" size="Card">
+      <property name="Unit ID" value="dnd400AP-004" />
+      <property name="Collector Number" value="AP-004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="100/75/50" />
+      <property name="Team Abilities" value="Adventurer" />
+      <property name="Keywords" value="Good | Humanoid | Lawful | Mystical" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] BLESSED STRIKES&#10;Increase the damage Gnome Cleric deals to adjacent opposing characters by +1. // Adjacent friendly characters have SAFEGUARD: Pulse Wave and their powers and abilities have Protected: Pulse Wave.&#10;&#10;[Trait] HEROIC INSPIRATION: CLERIC&#10;At the end of your turn, if no Heroic Inspiration traits have been used this turn, you may heal up to three friendly characters 1 click.&#10;&#10;[Defense] SHIELD OF FAITH&#10;Powers: Energy Shield Deflection, Toughness&#10;Energy Shield/Deflection, Toughness. // Adjacent friendly characters can use Energy Shield/Deflection." />
+      <alternate name="Gnome Cleric" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Gnome Cleric" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - SHIELD OF FAITH" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Gnome Cleric" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - SHIELD OF FAITH" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Gnome Cleric" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - SHIELD OF FAITH" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Gnome Cleric" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - SHIELD OF FAITH" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Gnome Cleric" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - SHIELD OF FAITH" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Gnome Cleric" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - SHIELD OF FAITH" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Gnome Cleric" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Pulse Wave" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Defend" />
+        <property name="Damage" value="1" />
+        <property name="Damage Ability" value="Shape Change" />
+      </alternate>
+      <alternate name="Gnome Cleric" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="96c22a27-619f-43f4-938e-cc1008a9b0fb" name="Roll With Advantage" size="Card">
+      <property name="Unit ID" value="dnd400AP-OS001" />
+      <property name="Collector Number" value="AP-OS001" />
+      <property name="Unit Type" value="One Shot" />
+      <property name="Point Values" value="5" />
+      <property name="Traits and Special Powers" value="EFFECT:&#10;When a friendly character would roll a single d6, you may instead roll 2d6 and keep the higher result. (Choose either if there's a tie.)" />
+    </card>
+    <card id="8f287e7b-4779-44fd-be1a-d1fe1d5e2ced" name="Zombie" size="Card">
+      <property name="Unit ID" value="dnd400RW-001" />
+      <property name="Collector Number" value="RW-001" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="50" />
+      <property name="Keywords" value="Undead | Monster | Neutral | Zombie Horde | Evil" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] ZOMBIE HORDE&#10;During force construction, you may add 10 points to Zombie's cost up to 5 times. For each time you choose to do so, add a Zombie bystander to your starting force. // Once per turn when a friendly character is KO'd, after resolutions Zombie may generate a Zombie bystander." />
+      <alternate name="Zombie" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="5" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Zombie" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Zombie" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Zombie" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Zombie" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="16" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+      <alternate name="Zombie" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="9" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="15" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="2" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Zombie" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="4ed2cbd0-fd9b-4cac-a717-5d5b152f2ca8" name="Zombie" size="Card">
+      <property name="Unit ID" value="dnd400RW-001bt" />
+      <property name="Collector Number" value="RW-001bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <alternate name="Zombie" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+    <card id="1db284dc-3e8b-455d-92bb-6655482778c9" name="Zombie (Zombie Horde)" size="Card">
+      <property name="Unit ID" value="dnd400RW-001t" />
+      <property name="Collector Number" value="RW-001t" />
+      <property name="Unit Type" value="Attachment" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="10" />
+      <alternate name="Zombie (Zombie Horde)" type="Tile" size="1x1" />
+    </card>
+    <card id="40cee422-7226-4a2f-ad3c-83325c142b29" name="Cultist" size="Card">
+      <property name="Unit ID" value="dnd400RW-002" />
+      <property name="Collector Number" value="RW-002" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="50/30" />
+      <property name="Team Abilities" value="Mystics" />
+      <property name="Keywords" value="Mystical | Evil | Chaotic" />
+      <property name="Range" value="4" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] LOYAL FOLLOWER&#10;When Cultist starts the game, choose a friendly character of 100 points or more that has the Deity or Evil keyword. Cultist modifies attack and defense +1 if the chosen character is on the map.&#10;&#10;[Defense] DARK DEVOTION&#10;Powers: Super Senses&#10;Super Senses. When Cultist uses it, increase the result of the d6 roll by +1 if the character they chose for Loyal Follower is on the map." />
+      <alternate name="Cultist" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DARK DEVOTION" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Cultist" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DARK DEVOTION" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Cultist" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Running Shot" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DARK DEVOTION" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Empower" />
+      </alternate>
+      <alternate name="Cultist" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Penetrating Psychic Blast" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DARK DEVOTION" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Cultist" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - DARK DEVOTION" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Cultist" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Stealth" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - DARK DEVOTION" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Enhancement" />
+      </alternate>
+      <alternate name="Cultist" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="7faf89e7-4631-48d2-8ffa-b1325e08b733" name="Human Sorcerer" size="Card">
+      <property name="Unit ID" value="dnd400RW-003" />
+      <property name="Collector Number" value="RW-003" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="100/70/40" />
+      <property name="Team Abilities" value="Mystics" />
+      <property name="Keywords" value="Humanoid | Lawful | Mystical | Evil" />
+      <property name="Range" value="5" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Wing | Fist | Indomitable | Starburst" />
+      <property name="Traits and Special Powers" value="[Trait] CLOCKWORK SORCERER&#10;Before a friendly character within range makes an attack roll, you may choose that that attack roll will be immediately finalized once rolled.&#10;&#10;[Defense] WALL OF FORCE&#10;Powers: Stop, Invincible&#10;STOP. Invincible. // When this click is first revealed, after resolutions generate up to four blocking terrain markers within range. At the beginning of your next turn, remove those markers from the game." />
+      <alternate name="Human Sorcerer" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Human Sorcerer" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Ranged Combat Expert" />
+      </alternate>
+      <alternate name="Human Sorcerer" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Human Sorcerer" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Mind Control" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Precision Strike" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Super Senses" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Human Sorcerer" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Special - WALL OF FORCE" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Human Sorcerer" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Human Sorcerer" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Human Sorcerer" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Telekinesis" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Energy Shield Deflection" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Human Sorcerer" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="dff520a1-95b9-471a-b969-6209bc3f5337" name="Red Wizard" size="Card">
+      <property name="Unit ID" value="dnd400RW-004" />
+      <property name="Collector Number" value="RW-004" />
+      <property name="Unit Type" value="Character" />
+      <property name="Rarity" value="Super Rare" />
+      <property name="Point Values" value="145/80" />
+      <property name="Team Abilities" value="Mystics" />
+      <property name="Keywords" value="Humanoid | Undead | Mystical | Neutral | Evil" />
+      <property name="Range" value="6" />
+      <property name="Targets" value="2" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <property name="Improved Targeting" value="Elevated" />
+      <property name="Traits and Special Powers" value="[Speed] DIMENSION DOOR&#10;Powers: Phasing Teleport&#10;Phasing/Teleport. Phasing/Teleport as FREE, but only if Red Wizard has no action tokens.&#10;&#10;[Attack] METEOR SWARM&#10;Powers: Energy Explosion&#10;Energy Explosion. When Red Wizard uses it they have [cs:bolt][cs:bolt][cs:bolt][cs:bolt] and deal penetrating damage.&#10;&#10;[Defense] DEATH WARD&#10;Powers: Stop, Invincible&#10;STOP. Invincible." />
+      <alternate name="Red Wizard" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - DIMENSION DOOR" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Special - METEOR SWARM" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click2" size="1x1">
+        <property name="Click Number" value="2" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - DIMENSION DOOR" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - METEOR SWARM" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Leadership" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click3" size="1x1">
+        <property name="Click Number" value="3" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - METEOR SWARM" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click4" size="1x1">
+        <property name="Click Number" value="4" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Force Blast" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Special - METEOR SWARM" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="4" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click5" size="1x1">
+        <property name="Click Number" value="5" />
+        <property name="Speed" value="8" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Special - DEATH WARD" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Outwit" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click6" size="1x1">
+        <property name="Click Number" value="6" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - METEOR SWARM" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Invincible" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click7" size="1x1">
+        <property name="Click Number" value="7" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Sidestep" />
+        <property name="Attack" value="11" />
+        <property name="Attack Ability" value="Special - METEOR SWARM" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Probability Control" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click8" size="1x1">
+        <property name="Click Number" value="8" />
+        <property name="Speed" value="7" />
+        <property name="Speed Ability" value="Special - DIMENSION DOOR" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click9" size="1x1">
+        <property name="Click Number" value="9" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - DIMENSION DOOR" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="19" />
+        <property name="Defense Ability" value="Toughness" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Red Wizard" type="Click10" size="1x1">
+        <property name="Click Number" value="10" />
+        <property name="Speed" value="6" />
+        <property name="Speed Ability" value="Special - DIMENSION DOOR" />
+        <property name="Attack" value="12" />
+        <property name="Attack Ability" value="Steal Energy" />
+        <property name="Defense" value="18" />
+        <property name="Defense Ability" value="Special - DEATH WARD" />
+        <property name="Damage" value="3" />
+        <property name="Damage Ability" value="Exploit Weakness" />
+      </alternate>
+      <alternate name="Red Wizard" type="KO" size="1x1">
+        <property name="Speed" value="KO" />
+        <property name="Attack" value="KO" />
+        <property name="Defense" value="KO" />
+        <property name="Damage" value="KO" />
+      </alternate>
+    </card>
+    <card id="0168ff7d-3db7-4aca-9912-77b19a1b6200" name="Scroll of Animate Dead" size="Card">
+      <property name="Unit ID" value="dnd400RW-OS001" />
+      <property name="Collector Number" value="RW-OS001" />
+      <property name="Unit Type" value="One Shot" />
+      <property name="Point Values" value="5" />
+      <property name="Traits and Special Powers" value="EFFECT:&#10;When an opposing character is KO'd, after resolutions you may generate a Zombie bystander adjacent to a square they last occupied." />
+    </card>
+    <card id="df55f998-ea7e-4ce1-ab3f-531184c13714" name="Zombie" size="Card">
+      <property name="Unit ID" value="dnd400RW-OS001bt" />
+      <property name="Collector Number" value="RW-OS001bt" />
+      <property name="Unit Type" value="Bystander" />
+      <property name="Point Values" value="0" />
+      <property name="Range" value="0" />
+      <property name="Targets" value="1" />
+      <property name="Combat Symbols" value="Boot | Fist | Indomitable | Starburst" />
+      <alternate name="Zombie" type="Click1" size="1x1">
+        <property name="Click Number" value="1" />
+        <property name="Starting Line" value="Auto" />
+        <property name="Speed" value="4" />
+        <property name="Speed Ability" value="Plasticity" />
+        <property name="Attack" value="10" />
+        <property name="Attack Ability" value="Poison" />
+        <property name="Defense" value="17" />
+        <property name="Defense Ability" value="Invulnerability" />
+        <property name="Damage" value="3" />
+      </alternate>
+    </card>
+  </cards>
+</set>

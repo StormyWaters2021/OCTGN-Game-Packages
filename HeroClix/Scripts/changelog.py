@@ -1,4 +1,7 @@
 changelog = {
+     1000201: ("1.0.2.1", "15 October 2026", [
+            "Dungeons and Dragons is now available! Download the new images from the deck builder.",
+            ]), 
      1000200: ("1.0.2.0", "24 September 2026", [
             "Sealed Generator is now available!",
             "Right-click and select 'Sealed Product Generator' from the menu. You can select a set and then choose Case, Brick, or Pack. The contents will be generated and a code will be whispered to you in the chat log.",
