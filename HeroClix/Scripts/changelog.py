@@ -1,4 +1,7 @@
 changelog = {
+     1000202: ("1.0.2.2", "23 October 2026", [
+            "Fixed some missing data.",
+            ]), 
      1000201: ("1.0.2.1", "15 October 2026", [
             "Dungeons and Dragons is now available! Download the new images from the deck builder.",
             ]), 

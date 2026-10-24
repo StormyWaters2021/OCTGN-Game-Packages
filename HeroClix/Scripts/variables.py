@@ -389,6 +389,14 @@ KEYWORDS = [
     "Z Virus",
     "Zodiac",
     "Zombie Horde",
+    'Aberration',
+    'Dwarf',
+    'Fey',
+    'Giant',
+    'Good',
+    'Humanoid',
+    'Lawful',
+    'Undead',
 ]
 
 TEAM_ABILITIES = [
@@ -447,6 +455,9 @@ TEAM_ABILITIES = [
     "Wonder Woman Ally",
     "Wwe",
     "X Men",
+    'Adventurer',
+    'Horde',
+    'Underdark',
 ]
 
 SET_NAMES = [
@@ -478,6 +489,8 @@ SET_NAMES = [
     "Deadpool Weapon X",
     "Deep Cuts: Fantastic Four",
     "Deep Cuts: X-Men Primed",
+    "Dungeons & Dragons Series One",
+    "Dungeons & Dragons HeroClix 400",
     "Dungeons & Dragons Iconix",
     "Earth X",
     "Eternals Movie",
