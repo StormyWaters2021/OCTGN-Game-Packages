@@ -142,7 +142,7 @@
       <property name="Style" value="Black" />
       <property name="Rarity" value="Common" />
       <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Physical ttack doing +2 power stages of damage. Remove the top 3 cards in your opponent's discard pile from the game." />
+      <property name="Text" value="Physical attack doing +2 power stages of damage. Remove the top 3 cards in your opponent's discard pile from the game." />
       <property name="Limit" value="3" />
     </card>
     <card id="00fa6394-06a0-423c-ae33-235b4d2c178e" name="Black Finger Block" size="Vertical">
@@ -799,6 +799,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: When defending in Combat after taking life cards of damage from an energy attack, place the top card of your discard pile at the bottom of your Life Deck." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -809,6 +810,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Allies' physical attacks and their personality powers have no effect on Garlic Jr. in Combat." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -819,6 +821,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Do +1 life card of damage with every successful physical attack." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -829,6 +832,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: After every successful energy attack you perform, put the bottom card from your discard pile on the bottom of your Life Deck." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -839,6 +843,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="If Jeice makes 2 successful energy attacks in a single Combat, at the end of Combat you may search your Life Deck for an ally and put it into play at 3 power stages above 0." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -849,6 +854,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: After Jeice performs a successful physical attack, Jeice does not have to be at 0 power stages or one power stage above 0 to have an ally use their power." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -859,6 +865,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Defense Shield: Stops the first unstopped energy attack in Combat." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -869,6 +876,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: When defending against a physical attack, choose any personality in play and use that power stage to determine damage." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -879,6 +887,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Physical attack. If successful, also stop all opponent's physical attacks for the remainder of Combat." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -889,6 +898,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Physical attack. If successful, also stop all your opponent's energy attacks for the remainder of Combat." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -899,6 +909,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Energy attack. Does 1 life card of damage if it is stopped." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -909,6 +920,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Do +1 power stage of damage and +2 life cards of damage with every successful attack." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1223,6 +1235,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: During your opponent's turn, all damage (power stages and life cards) from physical attacks performed against your Trunks, the Hero is reduced to 1 power stage of damage." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -1233,6 +1246,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Constant Combat Power: During your opponent's turn, all damage (power stages and life cards) from physical attacks performed against your Vegeta, Saiyan Prince is reduced to 1 power stage of damage." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -1243,6 +1257,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="When defending in Combat, you may also draw the bottom card of your discard pile into your hand." />
+      <property name="PUR" value="5" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -1253,6 +1268,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Constant Combat Power: When Nail or Dende are anywhere in  play, all of your physical attacks do +3 power stages of damage." />
+      <property name="PUR" value="5" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -1263,6 +1279,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Energy attack. Lower your opponent's anger 1 level. Raise your anger 1 level." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1273,6 +1290,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Destructo-Disk Energy attack doing 5 life cards of damage." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1283,6 +1301,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Physical attack. When determining damage for this attack, treat Krillin as if he were at 350,000." />
+      <property name="PUR" value="5" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1309,6 +1328,7 @@
       <property name="Rarity" value="Ultra Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: All your energy attacks do 2 life cards of damage when they are stopped." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -1319,6 +1339,7 @@
       <property name="Rarity" value="Ultra Rare" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Energy attack. If successful, also lower opponent's anger 2 levels and raise your anger 1 level." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -1329,6 +1350,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Frieza does +1 power stage and +1 life card of damage with every energy attack." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1339,6 +1361,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Frieza does +2 power stages of damage with every physical attack and +2 life cards of damage with every energy attack." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1349,6 +1372,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Frieza does +2 power stages and +2 life cards of damage with every attack." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1359,6 +1383,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Power: At the end of combat this turn, if you've taken no life cards of damage during this combat, you may search your Life Deck for an ally and put it into play at 3 power stages above 0, you may only use this power on your opponents turn (This must be activated in your Attackers Attacks phase)." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1369,6 +1394,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Power: Raise your anger 2 at the end of combat this turn if you've taken 5 or more life cards of damage while Goku, the Defender is in play this turn (This must be activated in your Attackers Attacks Phase and only counts life cards of damage taken on this level)." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1379,6 +1405,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: Defense Shield: Stop the first unstopped energy attack in Combat. You cannot have your anger lowered more than 1 level from any card." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1389,6 +1416,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Energy attack doing 6 life cards of damage." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1399,6 +1427,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Physical attack. If successful, also capture a Dragon Ball." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1409,6 +1438,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Constant Combat Power: Your opponent loses 2 power stages whenever he stops a physical attack you perform." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1419,6 +1449,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Physical attack doing +4 power stages of damage." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1429,6 +1460,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Defense Shield: When defending in Combat, stop the first unstopped attack performed on you." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1439,6 +1471,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: When defending in Combat, raise your anger 1 level after Gohan receives damage from an energy attack performed against him." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1449,6 +1482,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Constant Combat Power: When defending in Combat, raise your anger 1 level after Vegeta receives damage from a physical attack performed against him." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1459,6 +1493,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Physical attack doing 8 power stages of damage." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1469,6 +1504,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Energy attack doing 7 life cards of damage. Costs no power stages to perform." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1479,6 +1515,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: All damage from energy attacks performed against Garlic Jr. is reduced by 2 life cards." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1489,6 +1526,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: All damage from energy attacks performed against Garlic Jr. is reduced by 3 life cards." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1499,6 +1537,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: All damage from energy attacks performed against Garlic Jr. is reduced to 1 life card." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1509,6 +1548,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: When defending in Combat, your opponent must play with his hand face-up on the table." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1519,6 +1559,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Kamino Bashi Waza Physical attack. If successful, also stop all opponent's physical attacks for the remainder of Combat." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1529,6 +1570,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Energy attack doing 8 life cards of damage." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1539,6 +1581,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Stops a physical attack." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1549,6 +1592,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: When receiving damage from a successful energy attack, gain 2 power stages." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1559,6 +1603,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Gain 1 power stage after every successful physical attack you perform." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1569,6 +1614,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Physical attack. This must be your first attack in Combat. Your opponent must play/use 2 cards/effects that stop physical attacks in order to stop this attack." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1579,6 +1625,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: All of your physical attacks do +2 Power stages of damage." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1589,6 +1636,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="When entering Combat, as a defender, choose and discard 1 card at random from your opponent's hand." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1599,6 +1647,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="When entering Combat as the defender, choose 1 card at random from your opponent's hand and place it at the top of his Life Deck." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1609,6 +1658,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Choose any personality in play. You may use that personality's power stage when determining damage from a physical attack." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1619,6 +1669,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="After receiving damage from an energy attack, you may draw the bottom card from your discard pil and put it in your hand." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1629,6 +1680,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Each successful physical attack forces your opponent to remove the top card in their discard pile from the game." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1639,6 +1691,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="If Goku takes no damage while defending in Combat, you may raise him to his highest power stage at the end of Combat." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1649,6 +1702,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Physical attack doing 6 life cards of damage." />
+      <property name="PUR" value="5" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1659,6 +1713,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: Do +2 life cards of damage with every successful energy attack." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1669,6 +1724,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Each successful physical attack you perform allows you to place the top card in your discard pile at the bottom of your Life Deck." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1679,6 +1735,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="When entering Combat as the defender, you may also draw the bottom card from your discard pile into your hand." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1689,6 +1746,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Energy attack doing 6 life cards of damage. Costs no power stages to perform." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1699,6 +1757,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Do +1 power stage of damage with every successful energy attack." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1709,6 +1768,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: Reduce an opponent's anger by 1 level every time he performs a successful energy attack on you." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1719,57 +1779,10 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: Your anger cannot be reduced." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
-    </card>
-    <card id="ab36674b-e14d-410c-82ee-988d808f1ad9" name="Android 20 Absorbing Drill" size="Vertical">
-      <property name="Card Number" value="Preview1" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Drill" />
-      <property name="Text" value="Discard 2 life cards to stop an energy attack." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="aa45ba88-0c08-41e4-ab04-671e834664aa" name="Android 20 Powers Up" size="Vertical">
-      <property name="Card Number" value="Preview2" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="After a successful energy attack is performed against you, raise any one of your Personalities in play to its highest power stage." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="de03b8b0-9358-4334-9a52-5daa2f23e645" name="Android Effect" size="Vertical">
-      <property name="Card Number" value="Preview3" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Physical attack. If successful, also gain 4 power stages." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="e4457969-7202-4a17-b9b2-cb10066dcb32" name="Super Saiyan Effect" size="Vertical">
-      <property name="Card Number" value="Preview4" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="Your opponent may not perform physical attacks for the remainder of Combat. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="f440fa5b-7cb7-4cf3-977f-00dceae1e2cb" name="Too Late" size="Vertical">
-      <property name="Card Number" value="Preview5" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Allies cannot be used for the remainder of Combat." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="c2986e33-0cf2-4ca2-b00f-cdf51dd9cf78" name="Trunks Finds the Answer" size="Vertical">
-      <property name="Card Number" value="Preview6" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Search your Life Deck for up to 2 Trunks Named cards and put them in your hand. Remove from the game after use." />
-      <property name="Limit" value="4" />
     </card>
     <card id="90a8ae0e-b4ab-4f4d-a695-8b05ba11ff0b" name="Trunks Defensive Crouch" size="Vertical">
       <property name="Card Number" value="P01" />
@@ -1850,6 +1863,54 @@
       <property name="Type" value="Non-Combat: Setup" />
       <property name="Text" value="Use when entering any Combat, Drills, Allies, and personality powers may not be used this Combat." />
       <property name="Limit" value="3" />
+    </card>
+    <card id="ab36674b-e14d-410c-82ee-988d808f1ad9" name="Android 20 Absorbing Drill" size="Vertical">
+      <property name="Card Number" value="Preview1" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Text" value="Discard 2 life cards to stop an energy attack." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="aa45ba88-0c08-41e4-ab04-671e834664aa" name="Android 20 Powers Up" size="Vertical">
+      <property name="Card Number" value="Preview2" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="After a successful energy attack is performed against you, raise any one of your Personalities in play to its highest power stage." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="de03b8b0-9358-4334-9a52-5daa2f23e645" name="Android Effect" size="Vertical">
+      <property name="Card Number" value="Preview3" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Physical attack. If successful, also gain 4 power stages." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="e4457969-7202-4a17-b9b2-cb10066dcb32" name="Super Saiyan Effect" size="Vertical">
+      <property name="Card Number" value="Preview4" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="Your opponent may not perform physical attacks for the remainder of Combat. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="f440fa5b-7cb7-4cf3-977f-00dceae1e2cb" name="Too Late" size="Vertical">
+      <property name="Card Number" value="Preview5" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Allies cannot be used for the remainder of Combat." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="c2986e33-0cf2-4ca2-b00f-cdf51dd9cf78" name="Trunks Finds the Answer" size="Vertical">
+      <property name="Card Number" value="Preview6" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Search your Life Deck for up to 2 Trunks Named cards and put them in your hand. Remove from the game after use." />
+      <property name="Limit" value="4" />
     </card>
   </cards>
 </set>

@@ -9,6 +9,15 @@
       <property name="Text" value="Draw cards until you have 3 cards in your hand. Raise your anger 2 levels. Lower your opponent's anger 2 levels." />
       <property name="Limit" value="1" />
     </card>
+    <card id="391bad43-fc9c-4c6b-b201-9e34d412cf81" name="Ohhhhhhhhhhhh YEAH!" size="Vertical">
+      <property name="Card Number" value="1" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="(You may choose to play and use this card during your &quot;Defender Defends&quot; phase.) Endurance 2. Your opponent's energy attacks do a maximum of 2 life cards of damage for the remainder of Combat. Reveal the top 3 cards of your Life Deck. Your opponent chooses one of those cards to go into your hand, and the other revealed cards are removed from the game. Remove from the game after use" />
+      <property name="Limit" value="3" />
+      <property name="Endurance" value="2" />
+    </card>
     <card id="7f8800b0-4e32-4e11-bd20-1bf3ef038d9d" name="Alt. Namek Dragon Ball 2" size="Vertical">
       <property name="Card Number" value="2" />
       <property name="Style" value="Freestyle" />
@@ -17,6 +26,14 @@
       <property name="Text" value="Shuffle 3 cards in your discard pile into your Life Deck. Draw a card. While you control this Dragon Ball, your Main Personality's PUR is +1 for each Namek Dragon Ball in play." />
       <property name="Limit" value="1" />
     </card>
+    <card id="dcd9dabe-ae48-406f-9f61-786aec586aba" name="Krillin's Smoothness Drill" size="Vertical">
+      <property name="Card Number" value="2" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Text" value="Your Krillin Named cards that perform attacks do +1 power stages of damage for each other Krillin Named card in play." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="b5682555-97b6-4e69-a6b2-f88fa122c528" name="Alt. Namek Dragon Ball 3" size="Vertical">
       <property name="Card Number" value="3" />
       <property name="Style" value="Freestyle" />
@@ -24,6 +41,18 @@
       <property name="Type" value="Dragon Ball" />
       <property name="Text" value="Draw the bottom 3 cards of your discard pile. Gain 5 power stages. Remove up to 6 cards in your opponent's discard pile from the game." />
       <property name="Limit" value="1" />
+    </card>
+    <card id="227efbd4-5ca9-4b5a-ac3e-afc41676f46e" name="Trunks, the Weaponsmaster" size="Horizontal">
+      <property name="Card Number" value="3" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="When entering Combat, search the top 8 cards of your Life Deck for a card with &quot;Sword&quot; and/or &quot;Swordplay&quot; in the title and place it into your hand. Shuffle the rest of the cards back into your Life Deck. If you searched for a card with &quot;Swordplay&quot; in the title, you may place it into play instead." />
+      <property name="PUR" value="2" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+      <alternate name="Trunks, the Weaponsmaster" type="Horizontal" size="Horizontal" />
     </card>
     <card id="74b9615a-9e01-45e7-887c-f9c5566c70c3" name="Black Exertion" size="Vertical">
       <property name="Card Number" value="4" />
@@ -34,6 +63,17 @@
       <property name="Limit" value="3" />
       <property name="Endurance" value="1" />
     </card>
+    <card id="323f9506-606b-4950-9004-34c61be16086" name="Kogu" size="Vertical">
+      <property name="Card Number" value="4" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Physical attack doing +5 power stages of damage. If successful, your opponent discards a card from his hand." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
     <card id="09f656e9-8079-4fd5-a11a-b580b238a0ff" name="Black Groveling Drill" size="Vertical">
       <property name="Card Number" value="5" />
       <property name="Style" value="Black" />
@@ -42,6 +82,17 @@
       <property name="Text" value="(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. Prevent 2 life cards of damage from your opponent's attacks." />
       <property name="Limit" value="3" />
     </card>
+    <card id="fe1da5dc-f7a2-4beb-9da7-12903256811d" name="Zanya" size="Vertical">
+      <property name="Card Number" value="5" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage. If successful, discard one of your opponent's Allies in play." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
     <card id="fb7fd241-fc7a-48f6-8e6e-94f357621534" name="Black Magic" size="Vertical">
       <property name="Card Number" value="6" />
       <property name="Style" value="Black" />
@@ -49,6 +100,28 @@
       <property name="Type" value="Event Combat" />
       <property name="Text" value="Your opponent discards the top X cards of his Life Deck. X = your Main Personality's PUR." />
       <property name="Limit" value="3" />
+    </card>
+    <card id="4f8a8b9f-3f00-4ad6-9345-9761c89bc4f0" name="Bujin" size="Vertical">
+      <property name="Card Number" value="6" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage. If successful, you may discard a card from your hand to choose either Physical Combat, Energy Combat, or Combat cards. For the remainder of Combat, your opponent cannot use that card type unless his Main Personaliy is 5 power stages above 0 or higher." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="77f5de06-d597-4ee3-aec9-fe312fb21640" name="Bido" size="Vertical">
+      <property name="Card Number" value="7" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Physical attack doing +5 power stages of damage. If successful, discard one of your opponent's Drills in play." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
     </card>
     <card id="ad893663-cf39-42f9-a8ed-1481cb6d5d27" name="Black Parry" size="Vertical">
       <property name="Card Number" value="7" />
@@ -66,6 +139,17 @@
       <property name="Text" value="(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. When a card effect is lowering your opponent's anger while his anger is at 0, he discards 1 life card for each level of anger that remans to be lowered from the card's effect." />
       <property name="Limit" value="3" />
     </card>
+    <card id="5b6db982-b2fb-4376-a93a-de43ffa7ccc4" name="Bojack" size="Vertical">
+      <property name="Card Number" value="8" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. All of your attacks do +1 power stages of damage for each Ally in play with the Bojack Unbound Subset Symbol." />
+      <property name="PUR" value="2" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
     <card id="180f3ce9-5fb6-4de8-866e-f0a0d88f097a" name="Blue Double Blast" size="Vertical">
       <property name="Card Number" value="9" />
       <property name="Style" value="Blue" />
@@ -73,6 +157,17 @@
       <property name="Type" value="Energy Combat" />
       <property name="Text" value="Energy attack doing 3 life cards of damage. This attack does an additional +X life cards of damage, where X is your Main Personality's PUR. This attack stays on the table to be used one more time this Combat." />
       <property name="Limit" value="3" />
+    </card>
+    <card id="f4ea0fb4-6cb5-4839-8fed-c0fe7ac1fee2" name="Bojack, the Villainous" size="Vertical">
+      <property name="Card Number" value="9" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. All of your attacks do +3 power stages of damage, and life cards of damage from the attacks are removed from the game instead of discarded." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="2" />
     </card>
     <card id="af89bb68-92e0-48ab-975f-2ae6a99d01fb" name="Blue Ki Build Up" size="Vertical">
       <property name="Card Number" value="10" />
@@ -82,6 +177,17 @@
       <property name="Text" value="Energy attack doing 7 life cards of damage. Lower your opponent's anger 1 level." />
       <property name="Limit" value="3" />
     </card>
+    <card id="19c07b89-08c1-4ddf-a7ed-7beb69c17c5a" name="Bojack, the Notorious" size="Vertical">
+      <property name="Card Number" value="10" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. Any attacks performed by personalities with the Bojack Unbound Subset Symbol are focused attacks." />
+      <property name="PUR" value="5" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="3" />
+    </card>
     <card id="337f059d-8107-40ba-9ba0-f9296adae835" name="Blue Sledgehammer" size="Vertical">
       <property name="Card Number" value="11" />
       <property name="Style" value="Blue" />
@@ -89,6 +195,14 @@
       <property name="Type" value="Physical Combat" />
       <property name="Text" value="Physical attack doing +6 power stages of damage. Lower your opponent's anger 4 levels." />
       <property name="Limit" value="3" />
+    </card>
+    <card id="2d8b3247-6643-44cd-a0cd-c734432c71ee" name="The Sword of Trunks" size="Vertical">
+      <property name="Card Number" value="11" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Attach to your Main Personality. While attached, any attacks performed by cards with &quot;Sword&quot; in the title do +3 life cards of damage, and damage from those attacks are removed from the game instead of discarded. You can only have one &quot;The Sword of Trunks&quot; attached at a time." />
+      <property name="Limit" value="4" />
     </card>
     <card id="e94e8f1c-7d8d-494a-8336-e42fea6042e5" name="Blue Stretch Kick" size="Vertical">
       <property name="Card Number" value="12" />
@@ -98,12 +212,29 @@
       <property name="Text" value="Physical attack doing +5 power stages of damage. Raise your anger 1 level." />
       <property name="Limit" value="3" />
     </card>
+    <card id="a4730d7f-73ae-4256-9367-5af2e87f3c26" name="Snake Way" size="Horizontal">
+      <property name="Card Number" value="12" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Location" />
+      <property name="Text" value="When a player puts an Ally into play, his opponent discards the top card of his Life Deck. Allies placed into play start at 6 power stages above 0 unless another card affect says otherwise." />
+      <property name="Limit" value="3" />
+      <alternate name="Snake Way" type="Horizontal" size="Horizontal" />
+    </card>
     <card id="d15b219e-535e-43ab-82fc-668f1b82ed47" name="Fierce Left Kick" size="Vertical">
       <property name="Card Number" value="13" />
       <property name="Style" value="Freestyle" />
       <property name="Rarity" value="Common" />
       <property name="Type" value="Physical Combat" />
       <property name="Text" value="Physical attack doing +5 power stages of damage or stops a physical attack. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="e9e49aad-c350-4e54-9bc3-87a1c5f9bdef" name="Saiyan Outburst" size="Vertical">
+      <property name="Card Number" value="13" />
+      <property name="Style" value="Saiyan" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Sensei Deck. Physical attack doing +4 power stages of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared a Black Tokui-Waza, for the remainder of Combat, when your opponent uses non-damage card effects to discard or remove from the game any of your cards, he discards the top 3 cards of his Life Deck." />
       <property name="Limit" value="3" />
     </card>
     <card id="501b7301-682f-4c70-bb00-0f48fcbf94e9" name="Hercule's Realization" size="Vertical">
@@ -114,12 +245,29 @@
       <property name="Text" value="Use when entering Combat. Instead of Drawing 3 cards from your Life Deck during your &quot;Defende Draws 3 Cards&quot; phase, you may search your Life Deck and discard pile for up to 3 Allies and place them into play at their highest power stages. The allies you place into play with this power may be one level higher than your Main Personality's current personality level." />
       <property name="Limit" value="4" />
     </card>
+    <card id="113340c6-5ce4-4cbf-8f70-d56e597ea2de" name="Vegeta's Elbow Slam" size="Vertical">
+      <property name="Card Number" value="14" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Sensei Deck. Endurance 3. Physical attack. If you declared a Freestyle Tokui-Waza and your opponent declared a Red Tokui-Waza, lower your opponent's Main Personality 1 personality level, and he cannot raise his anger for the remainder of the turn." />
+      <property name="Limit" value="4" />
+      <property name="Endurance" value="3" />
+    </card>
     <card id="1fe41601-bcab-44e4-a8ca-c7cfa0d9f281" name="Heroic Power Detonation" size="Vertical">
       <property name="Card Number" value="15" />
       <property name="Style" value="Freestyle" />
       <property name="Rarity" value="Common" />
       <property name="Type" value="Energy Combat" />
       <property name="Text" value="Heroes only. Focused energy attack doing 7 life cards of damage. If successful and performed against a Villain, you may either discard 3 of his Non-Combat cards in play or have his Main Personality lose 4 power stages." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="46f9790c-f6f1-4c25-919f-87fb2c3aef3d" name="Orange Brick Breaker" size="Vertical">
+      <property name="Card Number" value="15" />
+      <property name="Style" value="Orange" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Sensei Deck. Physical attack doing +3 power stages of damage. If you declared a Tokui-Waza and your opponent declared a Saiyan Tokui-Waza, for the remainder of Combat you take a maximum of 3 power stages of damage from your opponent's attacks." />
       <property name="Limit" value="3" />
     </card>
     <card id="294e92f6-08f1-4cd0-b6b9-412ba4f2d1d4" name="Ki Catalyst" size="Vertical">
@@ -130,6 +278,22 @@
       <property name="Text" value="Play when you perform an energy attack. That attack does an additional +4 life cards of damage and is a focused energy attack. Remove from the game after use." />
       <property name="Limit" value="3" />
     </card>
+    <card id="f42552cf-32cf-4e84-9aef-c04e78408e6b" name="Red Plasma Catapult" size="Vertical">
+      <property name="Card Number" value="16" />
+      <property name="Style" value="Red" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Sensei Deck. Energy attack doing 6 life cards of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared an Orange Tokui-Waza, remove from the game one of your opponent's Non-Combat cards in play, and remove from the game all cards in your opponent's Sensei Deck." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="9edd303b-c384-44a2-ae03-a5d8de36ad2a" name="Black Eradication" size="Vertical">
+      <property name="Card Number" value="17" />
+      <property name="Style" value="Black" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Sensei Deck. Physical attack doing +4 power stages of damage. If successful and you declared a Tokui-Waza and your opponent declared a Freestyle Tokui-Waza, your opponent discards all cards in his hand. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
     <card id="2b46fb75-90dc-4010-aeb8-66b7e4a3dd46" name="Majin Hair Pull" size="Vertical">
       <property name="Card Number" value="17" />
       <property name="Style" value="Freestyle" />
@@ -138,6 +302,14 @@
       <property name="Text" value="Physical attack doing +3 power stages of damage for each anger level you are above 0." />
       <property name="Limit" value="3" />
     </card>
+    <card id="fe6bd743-554e-4e92-902a-18e71126b380" name="Master Roshi's Gawking Drill" size="Vertical">
+      <property name="Card Number" value="18" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Text" value="All of your attacks do +1 power stages of damage. When you perform an attack, remove a card in your opponent's discard pile from the game." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="a33b3492-7867-410a-a47b-50077cf6f748" name="Namekian Remedy Drill" size="Vertical">
       <property name="Card Number" value="18" />
       <property name="Style" value="Namekian" />
@@ -145,6 +317,14 @@
       <property name="Type" value="Non-Combat: Drill" />
       <property name="Text" value="(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. The power stage costs of cards you use are reduced by 1, to a minimum of 1." />
       <property name="Limit" value="3" />
+    </card>
+    <card id="d8ffcd3d-19a4-4268-ad73-2a17329ca7fe" name="Bulma and Chi-Chi's Stare Off" size="Vertical">
+      <property name="Card Number" value="19" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="At the end of this Combat Step, the Main Personality that has the most power stages above 0 raises his anger 2 levels (if there is a tie, nobody raises his hand). If used by Chi-Chi or Bulma, you cannot win by the MPP victory for the remainder of the game, and you advance your Main Personality 1 personality level. Remove from the game after use." />
+      <property name="Limit" value="4" />
     </card>
     <card id="9ad555eb-dd54-45ae-bece-0f404542d8f9" name="Orange Arm Break" size="Vertical">
       <property name="Card Number" value="19" />
@@ -163,6 +343,14 @@
       <property name="Text" value="(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) Your attacks do +2 power stages of damage. Your Main Personality's PUR is +2." />
       <property name="Limit" value="3" />
     </card>
+    <card id="3eed18e6-0557-4459-a0d8-9ada85c21f8b" name="Tien's Focused Beam" size="Vertical">
+      <property name="Card Number" value="20" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack. Lower your opponent's anger 1 level. If performed by Tien, you may remove from the game 4 Tien Named cards in your discard pile to place this card into your hand after use." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="700e2511-d440-4828-aef0-80380dce68c1" name="Orange Hand-clasp Drill" size="Vertical">
       <property name="Card Number" value="21" />
       <property name="Style" value="Orange" />
@@ -171,12 +359,37 @@
       <property name="Text" value="Your Main Personality's PUR is +1. Your Defense Shields can stop focused attacks." />
       <property name="Limit" value="3" />
     </card>
+    <card id="98535fda-740e-454b-803e-b27e384e17c6" name="Trunks' Back Bash" size="Vertical">
+      <property name="Card Number" value="21" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Endurance 2. Physical attack doing +4 power stages of damage. Raise your anger 1 level. If used by Trunks and you stopped an opponent's attack during his previous &quot;Attacker Attacks&quot; phase, your opponent must pass during his next &quot;Attacker Attacks&quot; phase." />
+      <property name="Limit" value="4" />
+      <property name="Endurance" value="2" />
+    </card>
     <card id="180870c0-c03e-46b4-9d5f-113246bb5c6f" name="Overwhelmed" size="Vertical">
       <property name="Card Number" value="22" />
       <property name="Style" value="Freestyle" />
       <property name="Rarity" value="Common" />
       <property name="Type" value="Event Combat" />
       <property name="Text" value="If your Main Personality's power rating is 3 or more times higher than your opponent's Main Personality's power rating, your opponent discards the top 5 cards of his Life Deck. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="d9f9f50a-c09d-4d1f-8580-79affc9b254b" name="Zanya's Leaping Rush Down" size="Vertical">
+      <property name="Card Number" value="22" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Focused physical attack doing +4 power stages of damage. If used by Zangya, for the remainder of Combat your opponent's Allies cannot have damage redirected to them. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="c5486a03-261e-445c-bac1-625a1169996e" name="Kogu's Dual Strike" size="Vertical">
+      <property name="Card Number" value="23" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Focused physical attack doing +4 power stages of damage. If used by Kogu, this card can stop a physical attack instead. If used by Kogu, your opponent discards a card from his hand. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0." />
       <property name="Limit" value="3" />
     </card>
     <card id="e69b2a66-66f3-4945-b9c3-dd21fe04a817" name="Pan's High Slap" size="Vertical">
@@ -195,6 +408,22 @@
       <property name="Text" value="All of your attacks do +2 life cards of damage. When you stop an attack, remove from the game 1 card from your opponent's Sensei Deck at random." />
       <property name="Limit" value="3" />
     </card>
+    <card id="84e0207f-67e2-4834-8207-1bc1dd747d28" name="Trunks' Deadly Impact" size="Vertical">
+      <property name="Card Number" value="24" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Focused physical attack doing +4 power stages of damage. Raise your anger 1 level. You may discard any cards that perform attacks from your hand to add the damage modifier from those attacks to this attack." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="cf994ef5-64a4-43e1-b4ec-3deba8b33e5f" name="Heroic Power Shot" size="Vertical">
+      <property name="Card Number" value="25" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Heroes only. Focused energy attack doing +1 life cards of damage for each card in your discard pile with &quot;Heroic&quot; in the title. If your opponent's Main Personality is a Villain, you may discard a Non-Combat card in play." />
+      <property name="Limit" value="3" />
+    </card>
     <card id="4ffe0b00-469b-4b10-b9b6-a452627fd11f" name="Red Kaio-Ken Drill" size="Vertical">
       <property name="Card Number" value="25" />
       <property name="Style" value="Red" />
@@ -211,6 +440,23 @@
       <property name="Text" value="Physical attack doing +3 life cards of damage. Raise your anger 1 level. For the remainder of Combat, all of your other Red Style attacks are focused attacks." />
       <property name="Limit" value="3" />
     </card>
+    <card id="f715c8e3-eb09-42a5-81b9-00499b2b8a91" name="Triple Torpedo" size="Vertical">
+      <property name="Card Number" value="26" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Endurance 2. Energy attack doing +2 life cards of damage for each Ally in play with the Bojack Unbound Subset Symbol. Raise your anger 1 level. This card stays on the table to be used 1 more time by an Ally with the Bojack Unbound Subset Symbol. Remove from the game after use." />
+      <property name="Limit" value="3" />
+      <property name="Endurance" value="2" />
+    </card>
+    <card id="b5f070e5-9e77-4815-b885-62c0f551eb35" name="Bojack's Overhead Toss" size="Vertical">
+      <property name="Card Number" value="27" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage. Lower your opponent's anger 3 levels. If used by Bojack and your opponent has 5 or more Non-Combat cards in play, your opponent discards his Non-Combat cards one at a time until he has 4 Non-Combat cards in play." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="0168c8a9-181e-4df3-9d54-60d2f6dd54d4" name="Saiyan Aggression Drill" size="Vertical">
       <property name="Card Number" value="27" />
       <property name="Style" value="Saiyan" />
@@ -219,6 +465,14 @@
       <property name="Text" value="(This card does not count toward or against Tokui-Waza requirements. This card cannot be in your deck if you declared Freestyle Tokui-Waza. This Drill can be placed in play even if it conflicts with a Styled Drill already in play. This Drill does not keep a Drill of a different Style from being placed into play.) All of your attacks do +2 power stages of damage. All of your opponent's personalities gain 1 less power stage to a minimum of 0 when they power up during the Power Up Step." />
       <property name="Limit" value="3" />
     </card>
+    <card id="11d97e58-73f7-4554-b546-1c66b22b5b5e" name="Bojack's Left Palm Charge" size="Vertical">
+      <property name="Card Number" value="28" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. If successful, attach this card to one of your personalities. While attached, any energy attacks the attached personality performs do +2 life cards of damage." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="3c357acb-6910-4f71-a459-38ad21638686" name="Saiyan Dashing Kick" size="Vertical">
       <property name="Card Number" value="28" />
       <property name="Style" value="Saiyan" />
@@ -226,6 +480,14 @@
       <property name="Type" value="Physical Combat" />
       <property name="Text" value="Physical attack doing +8 power stages of damage. Raise your anger 1 level." />
       <property name="Limit" value="3" />
+    </card>
+    <card id="8ea17d8a-399e-4f95-a354-356157be03ac" name="Bojack's Defensive Shield" size="Vertical">
+      <property name="Card Number" value="29" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Bojack only. Stops an energy attack. Stops all of your opponent's energy attacks for the remainder of Combat. Remove from the game after use." />
+      <property name="Limit" value="4" />
     </card>
     <card id="b7431d34-7bf6-412a-a10f-fd5c284d1ef3" name="Saiyan Stop" size="Vertical">
       <property name="Card Number" value="29" />
@@ -243,6 +505,22 @@
       <property name="Text" value="Physical attack doing 4 times the Base Damage. Costs 5 power stages to perform." />
       <property name="Limit" value="3" />
     </card>
+    <card id="d3962777-f14f-44a3-9dcb-d8eb0da0e0ce" name="Zanya's Entrapping Strings" size="Vertical">
+      <property name="Card Number" value="30" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="(You may use this card when entering Combat.) If your Main Personality and at least 2 of your Allies have the Bojack Unbound Subset Symbol, your opponent cannot use powers and Constant Combat Powers for the remainder of this turn. Shuffle 2 cards in your discard pile into your Life Deck. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="eae4c932-7c4a-4fa6-940e-1a8a7a118a6d" name="Gohan's Obliteration" size="Vertical">
+      <property name="Card Number" value="31" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Physical attack doing +5 power stages of damage. If an Ally takes damage from this attack, remove that Ally from the game after the damage is dealt. If successful, choose up to 3 of your opponent's Drills in play. Your opponent cannot use those Drills until the beginning of your next turn. Remove from the game after use." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="8e6ea75e-db8e-4b57-bba1-17ee64b5c8f0" name="The Help of Earth" size="Vertical">
       <property name="Card Number" value="31" />
       <property name="Style" value="Freestyle" />
@@ -259,6 +537,14 @@
       <property name="Text" value="Discard all of your opponent's Allies in play. While you control this Dragon Ball, all of your Allies and Non-Combat/Non-Drill cards that would be removed from the game by your opponent's card effects are discarded instead." />
       <property name="Limit" value="1" />
     </card>
+    <card id="d977c528-bd3e-44bf-9802-4bd9b50eab54" name="Power Overwhelming" size="Vertical">
+      <property name="Card Number" value="32" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Physical attack doing +8 power stages of damage. Gain 3 power stages. Damage from this attack is removed from the game instead of discarded." />
+      <property name="Limit" value="3" />
+    </card>
     <card id="a8965b45-b981-4842-a631-68e692847b7b" name="Alt. Namek Dragon Ball 5" size="Vertical">
       <property name="Card Number" value="33" />
       <property name="Style" value="Freestyle" />
@@ -267,15 +553,32 @@
       <property name="Text" value="Discard the top 4 cards of your opponent's Life Deck. At the beginning of every turn that you control this Dragon Ball, look at the top X cards of your Life Deck and place them back in any order. X = the number of Namek Dragon Balls in play." />
       <property name="Limit" value="1" />
     </card>
+    <card id="94617db0-caa5-4c1b-b7a8-34378b824ef1" name="Bojack's Extreme Assailment" size="Vertical">
+      <property name="Card Number" value="33" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Focused energy attack doing 5 life cards of damage. Set all player's anger levels to 2. If successful, you may shuffle any of your Allies that are removed from the game that have the Bojack Unbound Subset Symbol into your Life Deck. Remove from the game after use." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="f0038d24-5240-401d-a889-de0c2518dc57" name="Android 18, the Mom (KBS)" size="Vertical">
       <property name="Card Number" value="34" />
       <property name="Style" value="Freestyle" />
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Energy attack doing 6 life cards of damage. If you have &quot;The Car&quot; in play, this attack cannot be stopped." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
+    </card>
+    <card id="aa75f285-ac23-4eb7-846c-59ef2133bd93" name="Bido's Charge" size="Vertical">
+      <property name="Card Number" value="34" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Physical attack doing +4 power stages of damage. If used by Bido, discard one of your opponent's Non-Combat cards in play and capture a Dragon Ball. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0." />
+      <property name="Limit" value="3" />
     </card>
     <card id="995781fc-9b0b-4b4b-aba6-655d107a4de9" name="Black Bicycle Kick" size="Vertical">
       <property name="Card Number" value="35" />
@@ -285,12 +588,28 @@
       <property name="Text" value="Physical attack doing +4 power stages of damage. Empower 2. If successful, look at your opponent's hand and discard any Non-Combat cards in his hand." />
       <property name="Limit" value="3" />
     </card>
+    <card id="23b4ab20-84e3-43c5-b466-b5adfbf8ebb7" name="Bojack's Double-Palmed Blitz" size="Vertical">
+      <property name="Card Number" value="35" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Bojack only. Energy attack doing 6 life cards of damage. For the remainder of Combat, damage from your attacks cannot be prevented. If you have at least 2 Allies in play with the Bojack Unbound Subset Symbol, this card stays on the table to be used 1 more time this Combat. Remove from the game after use." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="9ffe4492-bbc2-4bfb-8298-4e9958a1bd4b" name="Black Buffer Block" size="Vertical">
       <property name="Card Number" value="36" />
       <property name="Style" value="Black" />
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Physical Combat" />
       <property name="Text" value="Stops a physical or energy attack. Search your discard pile for a card that discards a card from your opponent's hand and place it into your hand. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="efcf34a4-33ea-4206-83b1-f3d11f39484d" name="Empowered Kamehameha" size="Vertical">
+      <property name="Card Number" value="36" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Focused energy attack. Lower your opponent's anger 1 level. Empower 3. This attack does +1 life cards of damage for each card in your discard pile with &quot;Kamehameha&quot; in the title. If successful, shuffle up to 6 cards in your discard pile with &quot;Kamehameha&quot; in the title into your Life Deck." />
       <property name="Limit" value="3" />
     </card>
     <card id="98dab584-8d9c-497b-af40-9300d4e407a1" name="Black Impressive Slap" size="Vertical">
@@ -365,6 +684,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: When one of your Bulma Named cards leaves play, your opponent discards the top 4 cards of his Life Deck. Prevent 2 life cards of damage from your opponent's energy attacks." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -383,6 +703,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: Your Allies with Saiyan Heritage cannot be discarded or removed from the game. If you have 5 or more Allies in play at the beginning of your turn, advance Chi-Chi a personality level." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -426,6 +747,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: (If this is your Main Personality's level 1, then at the beginning of the game name a personality. All of that personality's Named Cards are also considered Hercule Named Cards for the remainder of the game) Hercule can play and use &quot;Villains only&quot; cards." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -436,6 +758,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="(If this is one of your Main Personality levels, you may have Kid Trunks and/or Trunks personality levels for your higher personality levels. Only Kid Trunks cards are Named Card for this personality.) Energy attack doing 6 life cards of damage. Place the bottom 2 cards of your discard pile at the bottom of your Life Deck." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -454,6 +777,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="(For deck construction and game play, this card's title is &quot;Majin Buu, Kid Buu&quot;.) Focused physical attack doing +4 power stages of damage. If successful, search your Life Deck for a Drill and place it into play." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -464,6 +788,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="(For deck construction and game play, this card's title is &quot;Majin Buu, Kid Buu&quot;.) Focused physical attack doing +5 power stages of damage. If successful, during one of your &quot;Attacker Attacks&quot; phases this Combat, you may remove any amount of cards from any one player's discard pile. For each card removed, gain 1 power stage." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -482,6 +807,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Constant Combat Power: Any power stages of damage your focused attacks would deal are life cards of damage instead. All of your physical attacks cost +2 power stages to perform." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -550,6 +876,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Shuffle 1 card in your discard pile into your Life Deck for each Saiyan Heritage personality you have in play." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -717,6 +1044,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: Your attacks do +1 power stages of damage. All life cards of damage from attacks you perform are removed from the game instead of discarded (your opponent can still use the Endurance on those cards)." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -727,6 +1055,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: All life cards of damage from attacks you perform are removed from the game instead of discarded. Your opponent cannot use Endurance. All power stage costs for your cards are reduced by 1, to a minimum of 0." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -745,6 +1074,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: If you declared a Tokui-Waza, any attacks you perform against Majins are focused attacks. Your Gohan may take control of Combat for Videl, even if Videl is higher than 1 power stage above 0." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -763,6 +1093,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Choose a Non-Combat/Non-Drill card in your discard pile that is not limit 1 per deck or restricted and place it into play." />
+      <property name="PUR" value="0" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -773,6 +1104,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Focused energy attack doing 5 life cards of damage. If successful, discard one of your opponent's Allies or Drills in play." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -848,6 +1180,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="When entering Combat, search the top 12 cards of your Life Deck for a Gohan Named card and place it into your hand. Shuffle the remaining cards back into your Life Deck. Remove 3 cards in your opponent's discard pile from the game." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -874,6 +1207,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Energy attack doing 5 life cards of damage. Costs 1 power stage to perform. If successful and your opponent has more than 2 cards in his hand, he discards down to 2 cards in his hand." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -884,6 +1218,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="(For deck construction and game play, this card's title is &quot;Majin Buu, Kidd Buu&quot;.) Focused energy attack doing +X power stages of damage, where X = the Base Damage from the Physical Attack Table. Costs 0 power stages to perform. Lower your opponent's anger 2 levels." />
+      <property name="PUR" value="6" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -894,6 +1229,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Constant Combat Power: (For deck construction and game play, this card's title is &quot;Majin Buu, Kidd Buu&quot;.) The first attack you perform each Combat with a Martial Arts Styled card cannot be stopped." />
+      <property name="PUR" value="8" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="5" />
@@ -1020,6 +1356,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Constant Combat Power: All life cards of damage from attacks you perform are removed from the game instead of discarded. Your opponent cannot use Endurance. All of your attacks do +3 life cards of damage. All costs for your cards that are power stages are reduced by 1 to a minimum of 0. All of your Styled attacks are focused attacks." />
+      <property name="PUR" value="5" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1030,6 +1367,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Constant Combat Power: Your opponent cannot play and use Combat cards. All of your attacks do +2 life cards of damage." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1058,55 +1396,49 @@
       <property name="Text" value="When you swap cards from your Sensei Deck before the beginning of the game, search your Life Deck for the cards that will be swapped instead of taking them from the top of your Life Deck." />
       <property name="Limit" value="1" />
     </card>
-    <card id="f00b25a2-2a27-425d-827d-94780a81e0a4" name="Trunks' Aerial Kick" size="Vertical">
-      <property name="Card Number" value="Preview1" />
+    <card id="23734c61-2828-40cb-808c-27892a95755b" name="Broly, the Gentle" size="Vertical">
+      <property name="Card Number" value="B01" />
       <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Physical attack doing 7 power stages of damage. If used by Trunks, gain 5 power stages and if successful, capture a Dragon Ball." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="4722178e-4cc6-4196-a597-3808e6cc6976" name="Pan's Right Blast" size="Vertical">
-      <property name="Card Number" value="Preview2" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack doing 5 life cards of damage. Empower 2. Raise your anger 1 level. Lower your opponent's anger 3 levels." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="0e790abe-f11c-472e-9b30-3f0e5734efd9" name="Uub's Energy Drill" size="Vertical">
-      <property name="Card Number" value="Preview3" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Non-Combat: Drill" />
-      <property name="Text" value="Your energy attacks do an additional +X life cards of damage, where X is the PUR of the personality performing the attack. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="70984b4f-d286-45b0-b198-de940ae9b5ea" name="Super Saiyan Setup" size="Vertical">
-      <property name="Card Number" value="Preview4" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Draw a card." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="b4332ebc-b7e3-448e-b90c-9d551e96f810" name="Goku, Young Again" size="Vertical">
-      <property name="Card Number" value="Preview5" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Constant Combat Power: When entering Combat, search your Life Deck for a Saiyan Heritage only card and place it into your hand." />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Constant Combat Power: Whenever your anger level is raised, double the amount of anger you are raising." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
     </card>
-    <card id="e4f1d6bc-5e7d-4f9c-b1e8-9bee977a9312" name="The Might of Shenron" size="Vertical">
-      <property name="Card Number" value="Preview6" />
+    <card id="7f96c397-a3b0-4ea0-a03c-3d04ea82d067" name="Broly, the Electrified" size="Vertical">
+      <property name="Card Number" value="B02" />
       <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="Your opponent discards the top card of his Life Deck for each Earth Dragon Ball you control. Remove from the game after use." />
-      <property name="Limit" value="3" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="When entering Combat, seearch your Life Deck for a Saiyan Style card and place it into your hand." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="eac55158-8ae7-4aac-9823-d5748c8f1c3c" name="Broly, the Ferocious" size="Vertical">
+      <property name="Card Number" value="B03" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Physical attack doing +4 power stages of damage. For the remainder of Combat, all of your Saiyan Style attacks do +3 power stages of damage, damage from your Saiyan Style attacks cannot be prevented, and life cards of damage from Saiyan Style attack are removed from the game after use instead of discarded." />
+      <property name="PUR" value="4" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="498e8539-dd04-4c72-9f1c-852bee8604f1" name="Broly, the Unbeatable" size="Vertical">
+      <property name="Card Number" value="B04" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Physical attack doing +5 power stages of damage. This power may be used a second time this Combat. For the remainder of Combat, when your opponent plays a Combat card, he must remove the top 2 cards of his Life Deck from the game." />
+      <property name="PUR" value="5" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
     </card>
     <card id="06a7d488-26d5-4e60-8a0a-d99f481dc90f" name="Majin Buu's Wail" size="Vertical">
       <property name="Card Number" value="P01" />
@@ -1190,355 +1522,56 @@
       <property name="Text" value="Focused energy attack doing 7 life cards of damage. Lower your opponent's anger 1 level. If successful and your opponent used Endurance against this attack, shuffle this card into your Life Deck." />
       <property name="Limit" value="4" />
     </card>
-    <card id="391bad43-fc9c-4c6b-b201-9e34d412cf81" name="Ohhhhhhhhhhhh YEAH!" size="Vertical">
-      <property name="Card Number" value="1" />
+    <card id="f00b25a2-2a27-425d-827d-94780a81e0a4" name="Trunks' Aerial Kick" size="Vertical">
+      <property name="Card Number" value="Preview1" />
       <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="(You may choose to play and use this card during your &quot;Defender Defends&quot; phase.) Endurance 2. Your opponent's energy attacks do a maximum of 2 life cards of damage for the remainder of Combat. Reveal the top 3 cards of your Life Deck. Your opponent chooses one of those cards to go into your hand, and the other revealed cards are removed from the game. Remove from the game after use" />
-      <property name="Limit" value="3" />
-      <property name="Endurance" value="2" />
-    </card>
-    <card id="dcd9dabe-ae48-406f-9f61-786aec586aba" name="Krillin's Smoothness Drill" size="Vertical">
-      <property name="Card Number" value="2" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Non-Combat: Drill" />
-      <property name="Text" value="Your Krillin Named cards that perform attacks do +1 power stages of damage for each other Krillin Named card in play." />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Physical attack doing 7 power stages of damage. If used by Trunks, gain 5 power stages and if successful, capture a Dragon Ball." />
       <property name="Limit" value="4" />
     </card>
-    <card id="227efbd4-5ca9-4b5a-ac3e-afc41676f46e" name="Trunks, the Weaponsmaster" size="Horizontal">
-      <property name="Card Number" value="3" />
+    <card id="4722178e-4cc6-4196-a597-3808e6cc6976" name="Pan's Right Blast" size="Vertical">
+      <property name="Card Number" value="Preview2" />
       <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="When entering Combat, search the top 8 cards of your Life Deck for a card with &quot;Sword&quot; and/or &quot;Swordplay&quot; in the title and place it into your hand. Shuffle the rest of the cards back into your Life Deck. If you searched for a card with &quot;Swordplay&quot; in the title, you may place it into play instead." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-      <alternate name="Trunks, the Weaponsmaster" type="Horizontal" size="Horizontal" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. Empower 2. Raise your anger 1 level. Lower your opponent's anger 3 levels." />
+      <property name="Limit" value="4" />
     </card>
-    <card id="323f9506-606b-4950-9004-34c61be16086" name="Kogu" size="Vertical">
-      <property name="Card Number" value="4" />
+    <card id="0e790abe-f11c-472e-9b30-3f0e5734efd9" name="Uub's Energy Drill" size="Vertical">
+      <property name="Card Number" value="Preview3" />
       <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Physical attack doing +5 power stages of damage. If successful, your opponent discards a card from his hand." />
-      <property name="True Type" value="Personality" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Text" value="Your energy attacks do an additional +X life cards of damage, where X is the PUR of the personality performing the attack. Limit 1 per deck." />
       <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
     </card>
-    <card id="fe1da5dc-f7a2-4beb-9da7-12903256811d" name="Zanya" size="Vertical">
-      <property name="Card Number" value="5" />
+    <card id="70984b4f-d286-45b0-b198-de940ae9b5ea" name="Super Saiyan Setup" size="Vertical">
+      <property name="Card Number" value="Preview4" />
       <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Energy attack doing 6 life cards of damage. If successful, discard one of your opponent's Allies in play." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="4f8a8b9f-3f00-4ad6-9345-9761c89bc4f0" name="Bujin" size="Vertical">
-      <property name="Card Number" value="6" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Energy attack doing 6 life cards of damage. If successful, you may discard a card from your hand to choose either Physical Combat, Energy Combat, or Combat cards. For the remainder of Combat, your opponent cannot use that card type unless his Main Personaliy is 5 power stages above 0 or higher." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="77f5de06-d597-4ee3-aec9-fe312fb21640" name="Bido" size="Vertical">
-      <property name="Card Number" value="7" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Physical attack doing +5 power stages of damage. If successful, discard one of your opponent's Drills in play." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="5b6db982-b2fb-4376-a93a-de43ffa7ccc4" name="Bojack" size="Vertical">
-      <property name="Card Number" value="8" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. All of your attacks do +1 power stages of damage for each Ally in play with the Bojack Unbound Subset Symbol." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="f4ea0fb4-6cb5-4839-8fed-c0fe7ac1fee2" name="Bojack, the Villainous" size="Vertical">
-      <property name="Card Number" value="9" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. All of your attacks do +3 power stages of damage, and life cards of damage from the attacks are removed from the game instead of discarded." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="2" />
-    </card>
-    <card id="19c07b89-08c1-4ddf-a7ed-7beb69c17c5a" name="Bojack, the Notorious" size="Vertical">
-      <property name="Card Number" value="10" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Constant Combat Power: (If Bojack is your Main Personality your Allies can use this Constant Combat Power.) Personalities with the Bojack Unbound Subset Symbol can take control of Combat, even if this personality is 2 power stages above 0 or higher. Any attacks performed by personalities with the Bojack Unbound Subset Symbol are focused attacks." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="3" />
-    </card>
-    <card id="2d8b3247-6643-44cd-a0cd-c734432c71ee" name="The Sword of Trunks" size="Vertical">
-      <property name="Card Number" value="11" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
+      <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Attach to your Main Personality. While attached, any attacks performed by cards with &quot;Sword&quot; in the title do +3 life cards of damage, and damage from those attacks are removed from the game instead of discarded. You can only have one &quot;The Sword of Trunks&quot; attached at a time." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="a4730d7f-73ae-4256-9367-5af2e87f3c26" name="Snake Way" size="Horizontal">
-      <property name="Card Number" value="12" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Location" />
-      <property name="Text" value="When a player puts an Ally into play, his opponent discards the top card of his Life Deck. Allies placed into play start at 6 power stages above 0 unless another card affect says otherwise." />
-      <property name="Limit" value="3" />
-      <alternate name="Snake Way" type="Horizontal" size="Horizontal" />
-    </card>
-    <card id="e9e49aad-c350-4e54-9bc3-87a1c5f9bdef" name="Saiyan Outburst" size="Vertical">
-      <property name="Card Number" value="13" />
-      <property name="Style" value="Saiyan" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Sensei Deck. Physical attack doing +4 power stages of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared a Black Tokui-Waza, for the remainder of Combat, when your opponent uses non-damage card effects to discard or remove from the game any of your cards, he discards the top 3 cards of his Life Deck." />
+      <property name="Text" value="Draw a card." />
       <property name="Limit" value="3" />
     </card>
-    <card id="113340c6-5ce4-4cbf-8f70-d56e597ea2de" name="Vegeta's Elbow Slam" size="Vertical">
-      <property name="Card Number" value="14" />
+    <card id="b4332ebc-b7e3-448e-b90c-9d551e96f810" name="Goku, Young Again" size="Vertical">
+      <property name="Card Number" value="Preview5" />
       <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Sensei Deck. Endurance 3. Physical attack. If you declared a Freestyle Tokui-Waza and your opponent declared a Red Tokui-Waza, lower your opponent's Main Personality 1 personality level, and he cannot raise his anger for the remainder of the turn." />
-      <property name="Limit" value="4" />
-      <property name="Endurance" value="3" />
-    </card>
-    <card id="46f9790c-f6f1-4c25-919f-87fb2c3aef3d" name="Orange Brick Breaker" size="Vertical">
-      <property name="Card Number" value="15" />
-      <property name="Style" value="Orange" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Sensei Deck. Physical attack doing +3 power stages of damage. If you declared a Tokui-Waza and your opponent declared a Saiyan Tokui-Waza, for the remainder of Combat you take a maximum of 3 power stages of damage from your opponent's attacks." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="f42552cf-32cf-4e84-9aef-c04e78408e6b" name="Red Plasma Catapult" size="Vertical">
-      <property name="Card Number" value="16" />
-      <property name="Style" value="Red" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Sensei Deck. Energy attack doing 6 life cards of damage. Empower 2. If you declared a Tokui-Waza and your opponent declared an Orange Tokui-Waza, remove from the game one of your opponent's Non-Combat cards in play, and remove from the game all cards in your opponent's Sensei Deck." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="9edd303b-c384-44a2-ae03-a5d8de36ad2a" name="Black Eradication" size="Vertical">
-      <property name="Card Number" value="17" />
-      <property name="Style" value="Black" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Sensei Deck. Physical attack doing +4 power stages of damage. If successful and you declared a Tokui-Waza and your opponent declared a Freestyle Tokui-Waza, your opponent discards all cards in his hand. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="fe6bd743-554e-4e92-902a-18e71126b380" name="Master Roshi's Gawking Drill" size="Vertical">
-      <property name="Card Number" value="18" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Non-Combat: Drill" />
-      <property name="Text" value="All of your attacks do +1 power stages of damage. When you perform an attack, remove a card in your opponent's discard pile from the game." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="d8ffcd3d-19a4-4268-ad73-2a17329ca7fe" name="Bulma and Chi-Chi's Stare Off" size="Vertical">
-      <property name="Card Number" value="19" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="At the end of this Combat Step, the Main Personality that has the most power stages above 0 raises his anger 2 levels (if there is a tie, nobody raises his hand). If used by Chi-Chi or Bulma, you cannot win by the MPP victory for the remainder of the game, and you advance your Main Personality 1 personality level. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="3eed18e6-0557-4459-a0d8-9ada85c21f8b" name="Tien's Focused Beam" size="Vertical">
-      <property name="Card Number" value="20" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack. Lower your opponent's anger 1 level. If performed by Tien, you may remove from the game 4 Tien Named cards in your discard pile to place this card into your hand after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="98535fda-740e-454b-803e-b27e384e17c6" name="Trunks' Back Bash" size="Vertical">
-      <property name="Card Number" value="21" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Endurance 2. Physical attack doing +4 power stages of damage. Raise your anger 1 level. If used by Trunks and you stopped an opponent's attack during his previous &quot;Attacker Attacks&quot; phase, your opponent must pass during his next &quot;Attacker Attacks&quot; phase." />
-      <property name="Limit" value="4" />
-      <property name="Endurance" value="2" />
-    </card>
-    <card id="d9f9f50a-c09d-4d1f-8580-79affc9b254b" name="Zanya's Leaping Rush Down" size="Vertical">
-      <property name="Card Number" value="22" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Focused physical attack doing +4 power stages of damage. If used by Zangya, for the remainder of Combat your opponent's Allies cannot have damage redirected to them. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="c5486a03-261e-445c-bac1-625a1169996e" name="Kogu's Dual Strike" size="Vertical">
-      <property name="Card Number" value="23" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Focused physical attack doing +4 power stages of damage. If used by Kogu, this card can stop a physical attack instead. If used by Kogu, your opponent discards a card from his hand. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="84e0207f-67e2-4834-8207-1bc1dd747d28" name="Trunks' Deadly Impact" size="Vertical">
-      <property name="Card Number" value="24" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Focused physical attack doing +4 power stages of damage. Raise your anger 1 level. You may discard any cards that perform attacks from your hand to add the damage modifier from those attacks to this attack." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="cf994ef5-64a4-43e1-b4ec-3deba8b33e5f" name="Heroic Power Shot" size="Vertical">
-      <property name="Card Number" value="25" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Heroes only. Focused energy attack doing +1 life cards of damage for each card in your discard pile with &quot;Heroic&quot; in the title. If your opponent's Main Personality is a Villain, you may discard a Non-Combat card in play." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="f715c8e3-eb09-42a5-81b9-00499b2b8a91" name="Triple Torpedo" size="Vertical">
-      <property name="Card Number" value="26" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Endurance 2. Energy attack doing +2 life cards of damage for each Ally in play with the Bojack Unbound Subset Symbol. Raise your anger 1 level. This card stays on the table to be used 1 more time by an Ally with the Bojack Unbound Subset Symbol. Remove from the game after use." />
-      <property name="Limit" value="3" />
-      <property name="Endurance" value="2" />
-    </card>
-    <card id="b5f070e5-9e77-4815-b885-62c0f551eb35" name="Bojack's Overhead Toss" size="Vertical">
-      <property name="Card Number" value="27" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack doing 6 life cards of damage. Lower your opponent's anger 3 levels. If used by Bojack and your opponent has 5 or more Non-Combat cards in play, your opponent discards his Non-Combat cards one at a time until he has 4 Non-Combat cards in play." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="11d97e58-73f7-4554-b546-1c66b22b5b5e" name="Bojack's Left Palm Charge" size="Vertical">
-      <property name="Card Number" value="28" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack doing 5 life cards of damage. If successful, attach this card to one of your personalities. While attached, any energy attacks the attached personality performs do +2 life cards of damage." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="8ea17d8a-399e-4f95-a354-356157be03ac" name="Bojack's Defensive Shield" size="Vertical">
-      <property name="Card Number" value="29" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Bojack only. Stops an energy attack. Stops all of your opponent's energy attacks for the remainder of Combat. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="d3962777-f14f-44a3-9dcb-d8eb0da0e0ce" name="Zanya's Entrapping Strings" size="Vertical">
-      <property name="Card Number" value="30" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="(You may use this card when entering Combat.) If your Main Personality and at least 2 of your Allies have the Bojack Unbound Subset Symbol, your opponent cannot use powers and Constant Combat Powers for the remainder of this turn. Shuffle 2 cards in your discard pile into your Life Deck. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="eae4c932-7c4a-4fa6-940e-1a8a7a118a6d" name="Gohan's Obliteration" size="Vertical">
-      <property name="Card Number" value="31" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Physical attack doing +5 power stages of damage. If an Ally takes damage from this attack, remove that Ally from the game after the damage is dealt. If successful, choose up to 3 of your opponent's Drills in play. Your opponent cannot use those Drills until the beginning of your next turn. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="d977c528-bd3e-44bf-9802-4bd9b50eab54" name="Power Overwhelming" size="Vertical">
-      <property name="Card Number" value="32" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Physical attack doing +8 power stages of damage. Gain 3 power stages. Damage from this attack is removed from the game instead of discarded." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="94617db0-caa5-4c1b-b7a8-34378b824ef1" name="Bojack's Extreme Assailment" size="Vertical">
-      <property name="Card Number" value="33" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Focused energy attack doing 5 life cards of damage. Set all player's anger levels to 2. If successful, you may shuffle any of your Allies that are removed from the game that have the Bojack Unbound Subset Symbol into your Life Deck. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="aa75f285-ac23-4eb7-846c-59ef2133bd93" name="Bido's Charge" size="Vertical">
-      <property name="Card Number" value="34" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Physical attack doing +4 power stages of damage. If used by Bido, discard one of your opponent's Non-Combat cards in play and capture a Dragon Ball. If successful, search your Life Deck for an Ally and place it into play at 4 power stages above 0." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="23b4ab20-84e3-43c5-b466-b5adfbf8ebb7" name="Bojack's Double-Palmed Blitz" size="Vertical">
-      <property name="Card Number" value="35" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Bojack only. Energy attack doing 6 life cards of damage. For the remainder of Combat, damage from your attacks cannot be prevented. If you have at least 2 Allies in play with the Bojack Unbound Subset Symbol, this card stays on the table to be used 1 more time this Combat. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="efcf34a4-33ea-4206-83b1-f3d11f39484d" name="Empowered Kamehameha" size="Vertical">
-      <property name="Card Number" value="36" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Focused energy attack. Lower your opponent's anger 1 level. Empower 3. This attack does +1 life cards of damage for each card in your discard pile with &quot;Kamehameha&quot; in the title. If successful, shuffle up to 6 cards in your discard pile with &quot;Kamehameha&quot; in the title into your Life Deck." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="23734c61-2828-40cb-808c-27892a95755b" name="Broly, the Gentle" size="Vertical">
-      <property name="Card Number" value="B01" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Constant Combat Power: Whenever your anger level is raised, double the amount of anger you are raising." />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Constant Combat Power: When entering Combat, search your Life Deck for a Saiyan Heritage only card and place it into your hand." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
     </card>
-    <card id="7f96c397-a3b0-4ea0-a03c-3d04ea82d067" name="Broly, the Electrified" size="Vertical">
-      <property name="Card Number" value="B02" />
+    <card id="e4f1d6bc-5e7d-4f9c-b1e8-9bee977a9312" name="The Might of Shenron" size="Vertical">
+      <property name="Card Number" value="Preview6" />
       <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="When entering Combat, seearch your Life Deck for a Saiyan Style card and place it into your hand." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="2" />
-    </card>
-    <card id="eac55158-8ae7-4aac-9823-d5748c8f1c3c" name="Broly, the Ferocious" size="Vertical">
-      <property name="Card Number" value="B03" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Physical attack doing +4 power stages of damage. For the remainder of Combat, all of your Saiyan Style attacks do +3 power stages of damage, damage from your Saiyan Style attacks cannot be prevented, and life cards of damage from Saiyan Style attack are removed from the game after use instead of discarded." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="3" />
-    </card>
-    <card id="498e8539-dd04-4c72-9f1c-852bee8604f1" name="Broly, the Unbeatable" size="Vertical">
-      <property name="Card Number" value="B04" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Physical attack doing +5 power stages of damage. This power may be used a second time this Combat. For the remainder of Combat, when your opponent plays a Combat card, he must remove the top 2 cards of his Life Deck from the game." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="Your opponent discards the top card of his Life Deck for each Earth Dragon Ball you control. Remove from the game after use." />
+      <property name="Limit" value="3" />
     </card>
   </cards>
 </set>

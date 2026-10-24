@@ -89,6 +89,22 @@
       <property name="Text" value="Saiyan Heritage only. Energy attack doing 6 life cards of damage." />
       <property name="Limit" value="3" />
     </card>
+    <card id="a571fc84-d4e3-488e-ae5e-d9c5db6b7ee8" name="Saiyan Energy Focus" size="Vertical">
+      <property name="Card Number" value="12" />
+      <property name="Style" value="Saiyan" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Any one of your personalities gains 5 power stages." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="ede9599d-8fa4-4095-9173-592bf2d2afef" name="Empowerment!" size="Vertical">
+      <property name="Card Number" value="13" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Heroes only. Raise your anger 1 level. If your Main Personality is Piccolo or Nail, raise your anger 2 levels instead. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
     <card id="1fc6af70-8330-429a-a70d-a476a4fd08db" name="Goku's Righteous Force" size="Vertical">
       <property name="Card Number" value="14" />
       <property name="Style" value="Freestyle" />
@@ -121,6 +137,22 @@
       <property name="Text" value="Energy attack. Stop all physical attacks performed against villains for the remainder of Combat. Lower your opponent's anger 2 levels. Remove from the game after use." />
       <property name="Limit" value="4" />
     </card>
+    <card id="8cf187a4-05c0-4a0a-a940-41d86670f298" name="Saiyan Concentration" size="Vertical">
+      <property name="Card Number" value="18" />
+      <property name="Style" value="Saiyan" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Saiyan Heritage only. Remove an opponent's drill card from the game. Lower opponent's anger 2 levels." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="2ef0d611-1e45-42a7-88a0-d2b6ff8639c7" name="Powerful Followers" size="Vertical">
+      <property name="Card Number" value="19" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Choose one, End Combat or Your opponent skips their next combat step on their next turn. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
     <card id="930a4a37-7ed6-457e-995c-59645137f89c" name="Straining, Floating Attack Move" size="Vertical">
       <property name="Card Number" value="20" />
       <property name="Style" value="Freestyle" />
@@ -145,6 +177,14 @@
       <property name="Text" value="Energy attack that costs 1 life card to perform. If successful, end Combat. Remove from the game after use." />
       <property name="Limit" value="3" />
     </card>
+    <card id="75c2166c-27ad-48cd-8798-1c8aad9e7cb2" name="Straining Defense Move" size="Vertical">
+      <property name="Card Number" value="23" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="For every 2 of your life cards that you now remove from the game, you may remove from the game 1 opponent drill of your choice." />
+      <property name="Limit" value="3" />
+    </card>
     <card id="a872142d-05b0-41c5-87b6-68a42cb27b1a" name="Straining Blocking Move" size="Vertical">
       <property name="Card Number" value="24" />
       <property name="Style" value="Freestyle" />
@@ -161,12 +201,28 @@
       <property name="Text" value="Stops all energy attacks for the rest of this combat. Costs 2 life cards to use." />
       <property name="Limit" value="3" />
     </card>
+    <card id="25c83d18-5c94-4c13-a8ab-6b3b0717c384" name="A Hospital Stay" size="Vertical">
+      <property name="Card Number" value="26" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Power up your main personality to its highest stage. Raise your anger 1 level. Remove from the game after use. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
     <card id="e2da83d8-774a-4de6-802e-0b82d9195d21" name="Orange Thumbs Up" size="Vertical">
       <property name="Card Number" value="27" />
       <property name="Style" value="Orange" />
       <property name="Rarity" value="Common" />
       <property name="Type" value="Energy Combat" />
       <property name="Text" value="Stops an opponent's energy attack. Lower opponent's anger 1 level. If &quot;Blue Life Defense Drill&quot; is in play lower opponent's anger 2 levels." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="c0e94b77-7364-4b71-b078-a1d8b19af43b" name="Orange Fist Detonation" size="Vertical">
+      <property name="Card Number" value="28" />
+      <property name="Style" value="Orange" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Physical Combat" />
+      <property name="Text" value="Stops an opponent's physical attack. Lower opponent's anger 1 level." />
       <property name="Limit" value="3" />
     </card>
     <card id="6ff48b34-da44-4331-91bb-93ae029227e0" name="Goku's Sudden Outburst" size="Vertical">
@@ -176,6 +232,14 @@
       <property name="Type" value="Energy Combat" />
       <property name="Text" value="Energy attack doing 5 life cards of damage." />
       <property name="Limit" value="4" />
+    </card>
+    <card id="a700455d-1b25-4851-8e82-9ae94a6bf2e5" name="Time Is A Warrior's Tool" size="Vertical">
+      <property name="Card Number" value="30" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="Stops all attacks from an opponent in this combat. Limit 1 per deck." />
+      <property name="Limit" value="1" />
     </card>
     <card id="653d5560-aa8f-4cdf-b3c5-9607bfc82f8d" name="Dodoria Energy Attack" size="Vertical">
       <property name="Card Number" value="31" />
@@ -209,6 +273,178 @@
       <property name="Text" value="Saiyan Heritage only. Stops an energy attack and stops all energy attacks for the rest of this combat." />
       <property name="Limit" value="3" />
     </card>
+    <card id="c8b8c00b-0bbe-472a-9823-487307e84e25" name="Saiyan Focusing Power" size="Vertical">
+      <property name="Card Number" value="35" />
+      <property name="Style" value="Saiyan" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="Saiyan Heritage only. Power up your main personality 5 power stages. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="87715f3f-9fbe-43e2-bc45-569646c524d0" name="Alien Anger!" size="Vertical">
+      <property name="Card Number" value="36" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Villains only. Raise your anger 1 level. Power up 3 stages. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="6bd62b49-42c0-4a44-b61f-593ad0e73c7c" name="Jeice" size="Vertical">
+      <property name="Card Number" value="37" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. If this attack is stopped, your opponent discards 2 life cards." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="eb55b4a1-d779-4dbd-afbd-c9b741e2c2d9" name="Dodoria (FS)" size="Vertical">
+      <property name="Card Number" value="38" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Physical Attack." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="cd330457-9bc7-4a99-902c-2bf8eff6bf4c" name="Tien (FS)" size="Vertical">
+      <property name="Card Number" value="39" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Energy Attack. If successful, Tien also takes the top 2 discarded cards and places them at the bottom of his life deck." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="3cf1198e-74d4-497a-ac73-18929895a06e" name="Yamcha (FS)" size="Vertical">
+      <property name="Card Number" value="40" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Physical Attack. If successful, Yamcha also takes the top 2 discarded cards and places them at the bottom of his life deck." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="f782814e-6649-44b6-904c-d020485b447c" name="Chi-Chi (FS)" size="Vertical">
+      <property name="Card Number" value="41" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Physical Attack. If successful, it also does +4 power stages of damage if Goku is present." />
+      <property name="PUR" value="2" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="16a972e6-bb37-43c2-8f15-49c6e6cbdd5b" name="Bulma (FS)" size="Vertical">
+      <property name="Card Number" value="42" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Bulma may capture a dragon ball from her opponent if she does damage in an energy attack." />
+      <property name="PUR" value="2" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="bb8c7b70-e133-47ba-a74e-0467b6ed32b4" name="Chiaotzu (FS)" size="Vertical">
+      <property name="Card Number" value="43" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Energy Attack. If successful, Chiaotzu also stops all other opponent's physical attacks in this combat." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="225138f5-19b4-40d1-be3e-985168ec23c5" name="Yajirobe the Hero" size="Vertical">
+      <property name="Card Number" value="44" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Physical Attack. If successful, Yajirobe also does 3 life cards of damage." />
+      <property name="PUR" value="2" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="64ad5fce-9fd1-4194-aa02-fb5bef64eed0" name="Guldo (FS Lv1)" size="Vertical">
+      <property name="Card Number" value="45" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Physical Attack. If successful, you also may take the 2 bottom cards from your discard pile into your hand." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="c3dd3bb6-4f05-4b48-b5be-9fde4af47f14" name="Guldo (FS Lv2)" size="Vertical">
+      <property name="Card Number" value="46" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Energy Attack. This attack cannot be stopped by using combat card defenses." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="95a850d5-7213-4c1f-b91d-22761e317955" name="Guldo (FS Lv3)" size="Vertical">
+      <property name="Card Number" value="47" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Physical Attack. This attack cannot be stopped by using combat card defenses." />
+      <property name="PUR" value="2" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="d8aee202-066b-49ac-a57d-eccc72a8d509" name="Dende the Unlikely Hero" size="Vertical">
+      <property name="Card Number" value="48" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="At the end of a combat, put any single ally from your discard pile into play at 4 stages above zero." />
+      <property name="PUR" value="2" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="c98c5201-eb51-41fd-87f2-186174a08625" name="Frieza Smiles" size="Vertical">
+      <property name="Card Number" value="49" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="Play this card as your first card from your hand during Combat. Stops a physical or energy attack. For the remainder of Combat, stops all attacks of the same type this card stopped." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="4e31d032-0842-4d14-9dc2-cab68d952f28" name="Captain Ginyu Realization" size="Vertical">
+      <property name="Card Number" value="50" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="All opponent's and their allies lose 3 power stages. Remove from the game after use. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="9ced4657-ba80-4a8f-ac16-15b4e43328ef" name="Jeice Shouts" size="Vertical">
+      <property name="Card Number" value="51" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="All opponent's and allies lose 2 power stages. Remove from the game after use." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="e4af6a7e-37a4-45bf-a779-cd3b201366b9" name="Jeice Comet Attack" size="Vertical">
       <property name="Card Number" value="52" />
       <property name="Style" value="Freestyle" />
@@ -232,6 +468,14 @@
       <property name="Type" value="Energy Combat" />
       <property name="Text" value="Stops an energy attack. Take two cards from your discard pile and put them at the bottom of your life deck. Limit 1 per deck. Remove from the game after use." />
       <property name="Limit" value="1" />
+    </card>
+    <card id="cf542f1d-a6d9-49d0-9cbd-e8699ad5dc9d" name="Guldo's Time Freeze Drill" size="Vertical">
+      <property name="Card Number" value="55" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Text" value="Villains only. Reduce the damage from all attacks performed against you by 1 power stage or 1 life card of damage." />
+      <property name="Limit" value="4" />
     </card>
     <card id="9395e01f-73cc-4a7a-8dc7-d9c97cf232a0" name="Gohan's Anger Blast" size="Vertical">
       <property name="Card Number" value="56" />
@@ -289,164 +533,20 @@
       <property name="Text" value="Energy attack costing 1 power stage to use." />
       <property name="Limit" value="4" />
     </card>
-    <card id="093bbf23-c963-467b-9ebc-79f69c01301c" name="Chiaotzu's Glaring Power" size="Vertical">
-      <property name="Card Number" value="64" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack doing 6 life cards of damage. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="12a45352-a318-422e-a872-defa2ed5ea1a" name="Straining Force Positioning Move" size="Vertical">
-      <property name="Card Number" value="97" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack, if successful, this card also causes all allies to lose 2 power stages, but no additional life card damage is taken. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="41ce1d5d-2625-4c08-b3fb-ffbe5750d5e8" name="Blue Stance" size="Vertical">
-      <property name="Card Number" value="98" />
-      <property name="Style" value="Blue" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack doing 5 life cards of damage. Raise your anger 2 levels. Lower your opponent's anger 1 level." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="0107924c-0a56-42d1-9fd5-6de20c2f06af" name="Blue Energy Outburst" size="Vertical">
-      <property name="Card Number" value="99" />
-      <property name="Style" value="Blue" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack doing 5 life cards of damage. Raise your anger 1 level. Lower your opponent's anger 2 levels." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="d7a4cef0-df83-4f57-8aa0-256508e88484" name="Goku's Super Saiyan Blast!" size="Vertical">
-      <property name="Card Number" value="106" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Stops an opponent's physical or energy attack. Remove from the game after use. If &quot;Goku's Mixing Drill&quot; is in play, this card can be used as an energy attack instead." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="f37604c8-7248-488b-8619-baf5b38991aa" name="Gohan's Stomp" size="Vertical">
-      <property name="Card Number" value="114" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Heroes only. Energy attack doing 5 life cards of damage. This attack cannot be stopped, prevented or reduced by Main Personality powers." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="6e6628cf-33ae-45f7-bd10-855efc8dcaa6" name="Piccolo's Stomp" size="Vertical">
-      <property name="Card Number" value="115" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Heroes only. Energy attack doing 5 life cards of damage. This attack cannot be stopped, prevented or reduced by Main Personality powers. If &quot;Piccolo's Flight&quot; is in play, this attack does 7 life cards of damage, instead." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="fb721dc9-a5c5-4b0d-aec5-930a68053275" name="Just Kidding" size="Vertical">
-      <property name="Card Number" value="Preview2" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack. If successful, also remove an opponent's drill of your choice from the game. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="71c936dc-ef95-4394-8312-8077dbb8029a" name="Good Advice" size="Vertical">
-      <property name="Card Number" value="Preview4" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack doing 8 life cards of damage. Lower opponent's anger 3 levels. Limit 1 per deck. Remove from the game after use." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="da12c583-f68a-454d-a8d5-43a1bf52280f" name="The Luck of Trunks" size="Vertical">
-      <property name="Card Number" value="Preview5" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack doing 6 life cards of damage. Lower opponent's anger 2 levels. Limit 1 per deck. Remove from the game after use." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="2e12adcb-e1bc-4b83-9445-652e4699f681" name="Trunks Makes Himself Clear" size="Vertical">
-      <property name="Card Number" value="Preview6" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Energy attack. Raise your anger 2 levels. Lower opponent's anger 2 levels. Limit 1 per deck. Remove from the game after use." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="d6ccce1f-9fe4-451c-a76d-8ff52bd1a8d5" name="Frieza's Force Bubble" size="Vertical">
-      <property name="Card Number" value="P05" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Energy Combat" />
-      <property name="Text" value="Stops an energy attack. Stop all energy attacks for the remainder of Combat. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="75c2166c-27ad-48cd-8798-1c8aad9e7cb2" name="Straining Defense Move" size="Vertical">
-      <property name="Card Number" value="23" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="For every 2 of your life cards that you now remove from the game, you may remove from the game 1 opponent drill of your choice." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="a700455d-1b25-4851-8e82-9ae94a6bf2e5" name="Time Is A Warrior's Tool" size="Vertical">
-      <property name="Card Number" value="30" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="Stops all attacks from an opponent in this combat. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="c8b8c00b-0bbe-472a-9823-487307e84e25" name="Saiyan Focusing Power" size="Vertical">
-      <property name="Card Number" value="35" />
-      <property name="Style" value="Saiyan" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="Saiyan Heritage only. Power up your main personality 5 power stages. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="c98c5201-eb51-41fd-87f2-186174a08625" name="Frieza Smiles" size="Vertical">
-      <property name="Card Number" value="49" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="Play this card as your first card from your hand during Combat. Stops a physical or energy attack. For the remainder of Combat, stops all attacks of the same type this card stopped." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="3eb67058-91fa-417c-bfb8-63d1a17bc2ff" name="Captain Ginyu's Sacrifice" size="Vertical">
-      <property name="Card Number" value="109" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="Villains only. To end the combat, remove an ally from the game. If &quot;Saiyan Power Drill&quot; is in play, this card instead can be used as an energy attack." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="f64efe44-6ed7-4cb9-9a94-52fef85629e7" name="Vegeta's Lunge" size="Vertical">
-      <property name="Card Number" value="P11" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Event Combat" />
-      <property name="Text" value="Select, unseen, a card from your opponent's hand and discard it." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="cf542f1d-a6d9-49d0-9cbd-e8699ad5dc9d" name="Guldo's Time Freeze Drill" size="Vertical">
-      <property name="Card Number" value="55" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Non-Combat: Drill" />
-      <property name="Text" value="Villains only. Reduce the damage from all attacks performed against you by 1 power stage or 1 life card of damage." />
-      <property name="Limit" value="4" />
-    </card>
     <card id="383895c0-8b88-40de-9a7b-91012c1f5cb2" name="Yajirobe's Gifting Drill" size="Vertical">
       <property name="Card Number" value="63" />
       <property name="Style" value="Freestyle" />
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Non-Combat: Drill" />
       <property name="Text" value="Reduce the damage from all attacks performed against you by 1 power stage or 1 life card of damage." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="093bbf23-c963-467b-9ebc-79f69c01301c" name="Chiaotzu's Glaring Power" size="Vertical">
+      <property name="Card Number" value="64" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage. Remove from the game after use." />
       <property name="Limit" value="4" />
     </card>
     <card id="05976691-4cb3-4fe0-824d-af7e7dab483e" name="Red Energy Defense Drill" size="Vertical">
@@ -577,578 +677,6 @@
       <property name="Text" value="After making a successful energy attack, remove from the game an opponent's non-combat/non-dragon ball card in play. Limit one per deck." />
       <property name="Limit" value="1" />
     </card>
-    <card id="e1920b2c-c1f2-4483-bbee-98897f6bdbdb" name="Hero Teamwork Drill" size="Vertical">
-      <property name="Card Number" value="101" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Drill" />
-      <property name="Text" value="Heroes only. Opponent's can play only 1 dragon ball on their turn." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="eb9b6f08-2f12-4134-99fe-421d847021f7" name="Villian Teamwork Drill" size="Vertical">
-      <property name="Card Number" value="102" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Drill" />
-      <property name="Text" value="Villains only. Opponent's can play only 1 dragon ball on their turn. Also, if Saibaimen are in play anywhere, heroes must play with their cards face up during combat." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="4af078a1-64be-4085-a5c1-69838e7a51dd" name="No, Really Drill?" size="Vertical">
-      <property name="Card Number" value="Preview3" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Non-Combat: Drill" />
-      <property name="Text" value="As long as this card is in play, all dragon balls in play or brought into play lose their powers for the rest of the game, even if this card is discarded." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="a571fc84-d4e3-488e-ae5e-d9c5db6b7ee8" name="Saiyan Energy Focus" size="Vertical">
-      <property name="Card Number" value="12" />
-      <property name="Style" value="Saiyan" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Any one of your personalities gains 5 power stages." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="ede9599d-8fa4-4095-9173-592bf2d2afef" name="Empowerment!" size="Vertical">
-      <property name="Card Number" value="13" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Heroes only. Raise your anger 1 level. If your Main Personality is Piccolo or Nail, raise your anger 2 levels instead. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="8cf187a4-05c0-4a0a-a940-41d86670f298" name="Saiyan Concentration" size="Vertical">
-      <property name="Card Number" value="18" />
-      <property name="Style" value="Saiyan" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Saiyan Heritage only. Remove an opponent's drill card from the game. Lower opponent's anger 2 levels." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="2ef0d611-1e45-42a7-88a0-d2b6ff8639c7" name="Powerful Followers" size="Vertical">
-      <property name="Card Number" value="19" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Choose one, End Combat or Your opponent skips their next combat step on their next turn. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="25c83d18-5c94-4c13-a8ab-6b3b0717c384" name="A Hospital Stay" size="Vertical">
-      <property name="Card Number" value="26" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Power up your main personality to its highest stage. Raise your anger 1 level. Remove from the game after use. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="87715f3f-9fbe-43e2-bc45-569646c524d0" name="Alien Anger!" size="Vertical">
-      <property name="Card Number" value="36" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Villains only. Raise your anger 1 level. Power up 3 stages. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="4e31d032-0842-4d14-9dc2-cab68d952f28" name="Captain Ginyu Realization" size="Vertical">
-      <property name="Card Number" value="50" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="All opponent's and their allies lose 3 power stages. Remove from the game after use. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="9ced4657-ba80-4a8f-ac16-15b4e43328ef" name="Jeice Shouts" size="Vertical">
-      <property name="Card Number" value="51" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="All opponent's and allies lose 2 power stages. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="fc319891-e150-4838-b679-267a43b87ff2" name="Krillin's Concentration" size="Vertical">
-      <property name="Card Number" value="87" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Search your life deck for 1 combat card and put it into your hand. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="e0ae9d63-979b-44d6-baa2-6b7a690a6ab0" name="Hero Enraged!" size="Vertical">
-      <property name="Card Number" value="88" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Heroes only. Raise your anger 2 levels. Take any 2 cards from your discard pile and place them at the bottom of your life deck. Remove from the game after use. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="f2a080cd-95f1-41ea-a7da-3ad821ce1ee7" name="Kami as Your Ally" size="Vertical">
-      <property name="Card Number" value="100" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="All of your opponents search their discard piles and Life Decks for &quot;Kami Fades&quot; and remove them from the game. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="6fc50608-f048-4e81-805b-da403b6fa128" name="Human Technology" size="Vertical">
-      <property name="Card Number" value="103" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Heroes only. This card stops the combat. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="ce192b1b-388f-4574-a240-d79fce20422b" name="Power" size="Vertical">
-      <property name="Card Number" value="104" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Villains only. If your opponent's Main Personality is a hero, he discards 4 life cards. Limit 1 per deck. Remove from the game after use." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="70983881-a0a6-401b-85aa-548dfd47c60d" name="Dende's Help" size="Vertical">
-      <property name="Card Number" value="105" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Heroes only. Select any 3 discarded cards and place them at the bottom of your life deck. Remove from the game after use. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="d6b47999-b54b-4f44-b9f6-9f3002093cf1" name="Piccolo's Wisdom" size="Vertical">
-      <property name="Card Number" value="107" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Piccolo only. Select a dragon ball card from your life deck matching Piccolo's current personality level and play it. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="cb66ccb5-21d0-4540-a9c6-c4352b038b7e" name="Yamcha's Good Wishes" size="Vertical">
-      <property name="Card Number" value="108" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Stops a physical attack and stops all physical attacks for the remainder of Combat. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="1f22d7df-4ac6-4b69-a6a2-9ae5c9c40b85" name="Krillin's Power Tap" size="Vertical">
-      <property name="Card Number" value="111" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Use when needed. Choose a Drill in play. Krillin's Power Tap creates a floating effect that is a copy of that Drill. This floating effect only works during Attack Phases in the Combat Step of the current turn and lasts until the end of Combat. If &quot;Black Shadow Drill&quot; is in play, place all of your opponent's Allies at the bottom of their owners' Life Decks. Remove from the game after use." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="d52faf9d-9464-4fd5-a19d-55a517f6a64f" name="Kami Fades" size="Vertical">
-      <property name="Card Number" value="113" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Remove all Earth Dragon Balls in play and in all Life Decks from the game." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="97380e18-99de-48ec-81b5-591f7a47306c" name="Goku's Quickness" size="Vertical">
-      <property name="Card Number" value="116" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Heroes only. Stops the first physical attack in the next combat. Remove from the game after use. If &quot;Chiaotzu's Drill&quot; is in play this card can be used as an energy attack instead." />
-      <property name="Limit" value="4" />
-    </card>
-    <card id="046ff715-0191-4d49-b913-1b4848e0cef2" name="The Plan" size="Vertical">
-      <property name="Card Number" value="118" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="All opponent's must discard their allies in play. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="a06ab770-0779-49a3-9e29-d376608813ad" name="Mommy's Coming Dear" size="Vertical">
-      <property name="Card Number" value="119" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Heroes only. Stops a physical or energy attack and stops all attacks for the remainder of Combat. Remove from the game after use. Limit 1 per deck. If a &quot;Dragon Ball 7&quot; from any Dragon Ball set is in play, discard this card instead of removing it from the game." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="d17984d4-998c-41d5-95a0-3cb6dc3f88d2" name="Bulma's Scouter" size="Vertical">
-      <property name="Card Number" value="120" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Heroes only. Pick a dragon ball from your life deck and play it. Remove from the game after use. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="020245ca-7c32-4c41-b08b-012b9433d906" name="This Too Shall Pass" size="Vertical">
-      <property name="Card Number" value="121" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Stops the effect of any non-dragon ball card and remove the card from the game. You may use this at any time." />
-      <property name="Limit" value="0" />
-    </card>
-    <card id="09ac89c1-0a64-470d-a901-ea09cd04a805" name="Focusing is Everything" size="Vertical">
-      <property name="Card Number" value="122" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Heroes only. Remove an opponent's Non-Combat/non-Dragon Ball card in play from the game. Remove from the game after use." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="642473fa-a26b-4d3c-822f-9da5a75e6e9b" name="The Talking Ends Here!" size="Vertical">
-      <property name="Card Number" value="Preview1" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="This card stops an opponent from winning until the end of your next turn. Use when needed. Remove from the game after use." />
-      <property name="Limit" value="0" />
-    </card>
-    <card id="29c3507b-e19c-44f9-896f-5bb9122414e8" name="It's Just Not Worth It!" size="Vertical">
-      <property name="Card Number" value="P01" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Your opponent may not win a Most Powerful Personality Victory or a Dragon Ball Victory until the end of his second turn, starting now. Limit 1 per deck. Remove from the game after use." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="e0a91ef0-f0de-4ac2-968c-96177dd48077" name="Calming Sanctuary" size="Vertical">
-      <property name="Card Number" value="P03" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="For every anger you reduce on your Warrior Sword, reduce all opponents' anger that many as well." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="1806a39b-d8f8-4f58-910e-2de8db7b8982" name="Dragon's Glare" size="Vertical">
-      <property name="Card Number" value="P04" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="All players' anger is set to 3." />
-      <property name="Limit" value="0" />
-    </card>
-    <card id="ace5ba8a-75be-41ea-8d56-aeb3e9ed06b6" name="The Last Wish" size="Vertical">
-      <property name="Card Number" value="P06" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Search your discard pile and if an ally is there put it into play." />
-      <property name="Limit" value="3" />
-    </card>
-    <card id="b57226f3-babb-4b9e-9f07-d534e6ba04af" name="Friends Help Friends" size="Vertical">
-      <property name="Card Number" value="P07" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Non-Combat: Setup" />
-      <property name="Text" value="Take the top 3 cards from your discard pile and place them at the bottom of your life deck. Limit 1 per deck." />
-      <property name="Limit" value="1" />
-    </card>
-    <card id="cd330457-9bc7-4a99-902c-2bf8eff6bf4c" name="Tien (FS)" size="Vertical">
-      <property name="Card Number" value="39" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Energy Attack. If successful, Tien also takes the top 2 discarded cards and places them at the bottom of his life deck." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="3" />
-    </card>
-    <card id="3cf1198e-74d4-497a-ac73-18929895a06e" name="Yamcha (FS)" size="Vertical">
-      <property name="Card Number" value="40" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Physical Attack. If successful, Yamcha also takes the top 2 discarded cards and places them at the bottom of his life deck." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="3" />
-    </card>
-    <card id="f782814e-6649-44b6-904c-d020485b447c" name="Chi-Chi (FS)" size="Vertical">
-      <property name="Card Number" value="41" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Physical Attack. If successful, it also does +4 power stages of damage if Goku is present." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="2" />
-    </card>
-    <card id="16a972e6-bb37-43c2-8f15-49c6e6cbdd5b" name="Bulma (FS)" size="Vertical">
-      <property name="Card Number" value="42" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Bulma may capture a dragon ball from her opponent if she does damage in an energy attack." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="2" />
-    </card>
-    <card id="bb8c7b70-e133-47ba-a74e-0467b6ed32b4" name="Chiaotzu (FS)" size="Vertical">
-      <property name="Card Number" value="43" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Energy Attack. If successful, Chiaotzu also stops all other opponent's physical attacks in this combat." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="3" />
-    </card>
-    <card id="225138f5-19b4-40d1-be3e-985168ec23c5" name="Yajirobe the Hero" size="Vertical">
-      <property name="Card Number" value="44" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Physical Attack. If successful, Yajirobe also does 3 life cards of damage." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="3" />
-    </card>
-    <card id="d8aee202-066b-49ac-a57d-eccc72a8d509" name="Dende the Unlikely Hero" size="Vertical">
-      <property name="Card Number" value="48" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="At the end of a combat, put any single ally from your discard pile into play at 4 stages above zero." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="fed351ab-8424-4394-b856-9b7ccebae2fc" name="Krillin on Namek" size="Vertical">
-      <property name="Card Number" value="90" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Energy Attack. If successful, it also does 3 power stages of damage." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
-    </card>
-    <card id="2621ba70-1f29-4829-9bd2-3bdd3d4cdb30" name="Goku on Namek" size="Vertical">
-      <property name="Card Number" value="93" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Stops an energy attack in a combat. Also, discard an opponent's drill card in play." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
-    </card>
-    <card id="f953b647-c43a-4947-b8a4-f17dc3ac60fd" name="Gohan (FS)" size="Vertical">
-      <property name="Card Number" value="95" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Physical Attack. If successful it does +4 power stages of damage." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
-    </card>
-    <card id="a1c9e1f9-76b1-492e-8e0a-6dc911d12eb0" name="Nail the Namekian" size="Vertical">
-      <property name="Card Number" value="96" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Energy attack doing 5 life cards of damage. If this attack is stopped, your opponent discards 3 life cards." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="058b35e3-30c2-4ff6-97ec-d51b6282b290" name="Nail the Namekian Hero" size="Vertical">
-      <property name="Card Number" value="110" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Stops a physical attack and, in the process, causes 1 life card of damage to your opponent." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="3" />
-    </card>
-    <card id="ab25c7b1-1bdc-45e8-ad4d-8f4801313456" name="Nail Inspired" size="Vertical">
-      <property name="Card Number" value="117" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Take your top two dicards and place them at the bottom of your life deck." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="2" />
-    </card>
-    <card id="16988310-3352-427a-92d4-bd38d8b0eeb3" name="Super Saiyan Goku (FS)" size="Vertical">
-      <property name="Card Number" value="125" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Ultra Rare" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="Stops an energy attack and, in the process causes 3 stages of damage to your opponent." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
-    </card>
-    <card id="9567257c-2b90-439f-8855-7e1aeec9e983" name="Trunks (FS)" size="Vertical">
-      <property name="Card Number" value="P14" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Hero" />
-      <property name="Text" value="You take a maximum of 2 life cards of damage from all energy attacks your opponent performs." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="628e773d-1cba-47ad-a31b-662175a66f2b" name="Vegeta on Namek" size="Vertical">
-      <property name="Card Number" value="89" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Rogue" />
-      <property name="Text" value="Physical attack doing 6 power stages of damage." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
-    </card>
-    <card id="4b823dda-89a2-4e26-9bff-9016fc909336" name="Piccolo (FS)" size="Vertical">
-      <property name="Card Number" value="94" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Rogue" />
-      <property name="Text" value="Energy attack doing 6 life cards of damage." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
-    </card>
-    <card id="6bd62b49-42c0-4a44-b61f-593ad0e73c7c" name="Jeice" size="Vertical">
-      <property name="Card Number" value="37" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Energy attack doing 5 life cards of damage. If this attack is stopped, your opponent discards 2 life cards." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="eb55b4a1-d779-4dbd-afbd-c9b741e2c2d9" name="Dodoria (FS)" size="Vertical">
-      <property name="Card Number" value="38" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Physical Attack." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="64ad5fce-9fd1-4194-aa02-fb5bef64eed0" name="Guldo (FS Lv1)" size="Vertical">
-      <property name="Card Number" value="45" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Physical Attack. If successful, you also may take the 2 bottom cards from your discard pile into your hand." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="c3dd3bb6-4f05-4b48-b5be-9fde4af47f14" name="Guldo (FS Lv2)" size="Vertical">
-      <property name="Card Number" value="46" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Energy Attack. This attack cannot be stopped by using combat card defenses." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="2" />
-    </card>
-    <card id="95a850d5-7213-4c1f-b91d-22761e317955" name="Guldo (FS Lv3)" size="Vertical">
-      <property name="Card Number" value="47" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Uncommon" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Physical Attack. This attack cannot be stopped by using combat card defenses." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="3" />
-    </card>
-    <card id="5e7bdd8a-1b2e-4d81-b756-ad833f5440c3" name="Nappa Restored" size="Vertical">
-      <property name="Card Number" value="91" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Energy Attack. If successful, also steal a dragon ball from your opponent." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
-    </card>
-    <card id="e72e2bbe-b4b7-43be-ac76-ce60ef7467e6" name="Raditz Restored" size="Vertical">
-      <property name="Card Number" value="92" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Rare" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Stops a physical attack. After that physical attack, raise Raditz's anger 1 level." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="4" />
-    </card>
-    <card id="60bc2b67-158c-4319-8c63-6b132422e81e" name="Frieza the Master" size="Vertical">
-      <property name="Card Number" value="124" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Ultra Rare" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Energy attack doing 6 life cards of damage." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="a8f1f1b9-2b26-483e-96ad-e6ae03d00ae8" name="Frieza (FS)" size="Vertical">
-      <property name="Card Number" value="P12" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Constant Combat Power: After performing a successful energy attack doing 6 or more life cards of damage you may capture 2 Dragon Balls instead of 1." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="737efe72-fdeb-48f2-a74c-58a8c0d7f21e" name="Garlic Jr. (FS)" size="Vertical">
-      <property name="Card Number" value="P13" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Constant Combat Power: All successful physical attacks against Garlic Jr. do 3 less power stages of damage, to a minimum of 0." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="22d329a4-1c6b-44c3-a164-3223f84313a0" name="Captain Ginyu (FS)" size="Vertical">
-      <property name="Card Number" value="P15" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Physical attack doing 6 life cards of damage." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="4c34bb66-c2ee-428b-aa58-72be60ba7333" name="Spice (FS)" size="Vertical">
-      <property name="Card Number" value="P16" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Draw a card." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="1c7c064d-73af-4238-b5fe-2c029cfb9155" name="Vinegar (FS)" size="Vertical">
-      <property name="Card Number" value="P17" />
-      <property name="Style" value="Freestyle" />
-      <property name="Rarity" value="Promo" />
-      <property name="Type" value="Personality - Villain" />
-      <property name="Text" value="Energy attack. This attack cannot be stopped." />
-      <property name="True Type" value="Personality" />
-      <property name="Limit" value="1" />
-      <property name="Card Level" value="1" />
-    </card>
-    <card id="c0e94b77-7364-4b71-b078-a1d8b19af43b" name="Orange Fist Detonation" size="Vertical">
-      <property name="Card Number" value="28" />
-      <property name="Style" value="Orange" />
-      <property name="Rarity" value="Common" />
-      <property name="Type" value="Physical Combat" />
-      <property name="Text" value="Stops an opponent's physical attack. Lower opponent's anger 1 level." />
-      <property name="Limit" value="3" />
-    </card>
     <card id="3ba41da6-391b-43c0-a333-fa69977a45db" name="Krillin's Power Block" size="Vertical">
       <property name="Card Number" value="81" />
       <property name="Style" value="Freestyle" />
@@ -1197,12 +725,322 @@
       <property name="Text" value="Physical attack costing 1 life card to use. If successful, also discard all of the opponent's drill cards on the tabe." />
       <property name="Limit" value="3" />
     </card>
+    <card id="fc319891-e150-4838-b679-267a43b87ff2" name="Krillin's Concentration" size="Vertical">
+      <property name="Card Number" value="87" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Search your life deck for 1 combat card and put it into your hand. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="e0ae9d63-979b-44d6-baa2-6b7a690a6ab0" name="Hero Enraged!" size="Vertical">
+      <property name="Card Number" value="88" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Heroes only. Raise your anger 2 levels. Take any 2 cards from your discard pile and place them at the bottom of your life deck. Remove from the game after use. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="628e773d-1cba-47ad-a31b-662175a66f2b" name="Vegeta on Namek" size="Vertical">
+      <property name="Card Number" value="89" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Rogue" />
+      <property name="Text" value="Physical attack doing 6 power stages of damage." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="fed351ab-8424-4394-b856-9b7ccebae2fc" name="Krillin on Namek" size="Vertical">
+      <property name="Card Number" value="90" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Energy Attack. If successful, it also does 3 power stages of damage." />
+      <property name="PUR" value="4" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="5e7bdd8a-1b2e-4d81-b756-ad833f5440c3" name="Nappa Restored" size="Vertical">
+      <property name="Card Number" value="91" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Energy Attack. If successful, also steal a dragon ball from your opponent." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="e72e2bbe-b4b7-43be-ac76-ce60ef7467e6" name="Raditz Restored" size="Vertical">
+      <property name="Card Number" value="92" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Stops a physical attack. After that physical attack, raise Raditz's anger 1 level." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="2621ba70-1f29-4829-9bd2-3bdd3d4cdb30" name="Goku on Namek" size="Vertical">
+      <property name="Card Number" value="93" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Stops an energy attack in a combat. Also, discard an opponent's drill card in play." />
+      <property name="PUR" value="4" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="4b823dda-89a2-4e26-9bff-9016fc909336" name="Piccolo (FS)" size="Vertical">
+      <property name="Card Number" value="94" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Rogue" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage." />
+      <property name="PUR" value="4" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="f953b647-c43a-4947-b8a4-f17dc3ac60fd" name="Gohan (FS)" size="Vertical">
+      <property name="Card Number" value="95" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Physical Attack. If successful it does +4 power stages of damage." />
+      <property name="PUR" value="4" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="a1c9e1f9-76b1-492e-8e0a-6dc911d12eb0" name="Nail the Namekian" size="Vertical">
+      <property name="Card Number" value="96" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. If this attack is stopped, your opponent discards 3 life cards." />
+      <property name="PUR" value="2" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="12a45352-a318-422e-a872-defa2ed5ea1a" name="Straining Force Positioning Move" size="Vertical">
+      <property name="Card Number" value="97" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack, if successful, this card also causes all allies to lose 2 power stages, but no additional life card damage is taken. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="41ce1d5d-2625-4c08-b3fb-ffbe5750d5e8" name="Blue Stance" size="Vertical">
+      <property name="Card Number" value="98" />
+      <property name="Style" value="Blue" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. Raise your anger 2 levels. Lower your opponent's anger 1 level." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="0107924c-0a56-42d1-9fd5-6de20c2f06af" name="Blue Energy Outburst" size="Vertical">
+      <property name="Card Number" value="99" />
+      <property name="Style" value="Blue" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack doing 5 life cards of damage. Raise your anger 1 level. Lower your opponent's anger 2 levels." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="f2a080cd-95f1-41ea-a7da-3ad821ce1ee7" name="Kami as Your Ally" size="Vertical">
+      <property name="Card Number" value="100" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="All of your opponents search their discard piles and Life Decks for &quot;Kami Fades&quot; and remove them from the game. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="e1920b2c-c1f2-4483-bbee-98897f6bdbdb" name="Hero Teamwork Drill" size="Vertical">
+      <property name="Card Number" value="101" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Text" value="Heroes only. Opponent's can play only 1 dragon ball on their turn." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="eb9b6f08-2f12-4134-99fe-421d847021f7" name="Villian Teamwork Drill" size="Vertical">
+      <property name="Card Number" value="102" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Text" value="Villains only. Opponent's can play only 1 dragon ball on their turn. Also, if Saibaimen are in play anywhere, heroes must play with their cards face up during combat." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="6fc50608-f048-4e81-805b-da403b6fa128" name="Human Technology" size="Vertical">
+      <property name="Card Number" value="103" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Heroes only. This card stops the combat. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="ce192b1b-388f-4574-a240-d79fce20422b" name="Power" size="Vertical">
+      <property name="Card Number" value="104" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Villains only. If your opponent's Main Personality is a hero, he discards 4 life cards. Limit 1 per deck. Remove from the game after use." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="70983881-a0a6-401b-85aa-548dfd47c60d" name="Dende's Help" size="Vertical">
+      <property name="Card Number" value="105" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Heroes only. Select any 3 discarded cards and place them at the bottom of your life deck. Remove from the game after use. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="d7a4cef0-df83-4f57-8aa0-256508e88484" name="Goku's Super Saiyan Blast!" size="Vertical">
+      <property name="Card Number" value="106" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Stops an opponent's physical or energy attack. Remove from the game after use. If &quot;Goku's Mixing Drill&quot; is in play, this card can be used as an energy attack instead." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="d6b47999-b54b-4f44-b9f6-9f3002093cf1" name="Piccolo's Wisdom" size="Vertical">
+      <property name="Card Number" value="107" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Piccolo only. Select a dragon ball card from your life deck matching Piccolo's current personality level and play it. Remove from the game after use." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="cb66ccb5-21d0-4540-a9c6-c4352b038b7e" name="Yamcha's Good Wishes" size="Vertical">
+      <property name="Card Number" value="108" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Stops a physical attack and stops all physical attacks for the remainder of Combat. Remove from the game after use." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="3eb67058-91fa-417c-bfb8-63d1a17bc2ff" name="Captain Ginyu's Sacrifice" size="Vertical">
+      <property name="Card Number" value="109" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="Villains only. To end the combat, remove an ally from the game. If &quot;Saiyan Power Drill&quot; is in play, this card instead can be used as an energy attack." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="058b35e3-30c2-4ff6-97ec-d51b6282b290" name="Nail the Namekian Hero" size="Vertical">
+      <property name="Card Number" value="110" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Stops a physical attack and, in the process, causes 1 life card of damage to your opponent." />
+      <property name="PUR" value="4" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="3" />
+    </card>
+    <card id="1f22d7df-4ac6-4b69-a6a2-9ae5c9c40b85" name="Krillin's Power Tap" size="Vertical">
+      <property name="Card Number" value="111" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Use when needed. Choose a Drill in play. Krillin's Power Tap creates a floating effect that is a copy of that Drill. This floating effect only works during Attack Phases in the Combat Step of the current turn and lasts until the end of Combat. If &quot;Black Shadow Drill&quot; is in play, place all of your opponent's Allies at the bottom of their owners' Life Decks. Remove from the game after use." />
+      <property name="Limit" value="4" />
+    </card>
     <card id="d9c2c819-df49-4059-a50e-6fb051b26098" name="Black Swift Elbow Strike" size="Vertical">
       <property name="Card Number" value="112" />
       <property name="Style" value="Black" />
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Physical Combat" />
       <property name="Text" value="Physical attack. If successful, this card also stops all energy attacks for the rest of this combat." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="d52faf9d-9464-4fd5-a19d-55a517f6a64f" name="Kami Fades" size="Vertical">
+      <property name="Card Number" value="113" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Remove all Earth Dragon Balls in play and in all Life Decks from the game." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="f37604c8-7248-488b-8619-baf5b38991aa" name="Gohan's Stomp" size="Vertical">
+      <property name="Card Number" value="114" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Heroes only. Energy attack doing 5 life cards of damage. This attack cannot be stopped, prevented or reduced by Main Personality powers." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="6e6628cf-33ae-45f7-bd10-855efc8dcaa6" name="Piccolo's Stomp" size="Vertical">
+      <property name="Card Number" value="115" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Heroes only. Energy attack doing 5 life cards of damage. This attack cannot be stopped, prevented or reduced by Main Personality powers. If &quot;Piccolo's Flight&quot; is in play, this attack does 7 life cards of damage, instead." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="97380e18-99de-48ec-81b5-591f7a47306c" name="Goku's Quickness" size="Vertical">
+      <property name="Card Number" value="116" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Heroes only. Stops the first physical attack in the next combat. Remove from the game after use. If &quot;Chiaotzu's Drill&quot; is in play this card can be used as an energy attack instead." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="ab25c7b1-1bdc-45e8-ad4d-8f4801313456" name="Nail Inspired" size="Vertical">
+      <property name="Card Number" value="117" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Take your top two dicards and place them at the bottom of your life deck." />
+      <property name="PUR" value="3" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="2" />
+    </card>
+    <card id="046ff715-0191-4d49-b913-1b4848e0cef2" name="The Plan" size="Vertical">
+      <property name="Card Number" value="118" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="All opponent's must discard their allies in play. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="a06ab770-0779-49a3-9e29-d376608813ad" name="Mommy's Coming Dear" size="Vertical">
+      <property name="Card Number" value="119" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Heroes only. Stops a physical or energy attack and stops all attacks for the remainder of Combat. Remove from the game after use. Limit 1 per deck. If a &quot;Dragon Ball 7&quot; from any Dragon Ball set is in play, discard this card instead of removing it from the game." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="d17984d4-998c-41d5-95a0-3cb6dc3f88d2" name="Bulma's Scouter" size="Vertical">
+      <property name="Card Number" value="120" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Heroes only. Pick a dragon ball from your life deck and play it. Remove from the game after use. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="020245ca-7c32-4c41-b08b-012b9433d906" name="This Too Shall Pass" size="Vertical">
+      <property name="Card Number" value="121" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Stops the effect of any non-dragon ball card and remove the card from the game. You may use this at any time." />
+      <property name="Limit" value="0" />
+    </card>
+    <card id="09ac89c1-0a64-470d-a901-ea09cd04a805" name="Focusing is Everything" size="Vertical">
+      <property name="Card Number" value="122" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Heroes only. Remove an opponent's Non-Combat/non-Dragon Ball card in play from the game. Remove from the game after use." />
       <property name="Limit" value="3" />
     </card>
     <card id="ff9afc89-7aea-4779-b6bc-67e72448c284" name="Red Foot Jolt" size="Vertical">
@@ -1213,12 +1051,82 @@
       <property name="Text" value="Physical attack. If successful it does no damage, but forces the defender to discard all drill cards in play. Limit 1 per deck." />
       <property name="Limit" value="1" />
     </card>
+    <card id="60bc2b67-158c-4319-8c63-6b132422e81e" name="Frieza the Master" size="Vertical">
+      <property name="Card Number" value="124" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Ultra Rare" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="16988310-3352-427a-92d4-bd38d8b0eeb3" name="Super Saiyan Goku (FS)" size="Vertical">
+      <property name="Card Number" value="125" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Ultra Rare" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="Stops an energy attack and, in the process causes 3 stages of damage to your opponent." />
+      <property name="PUR" value="4" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="4" />
+    </card>
+    <card id="29c3507b-e19c-44f9-896f-5bb9122414e8" name="It's Just Not Worth It!" size="Vertical">
+      <property name="Card Number" value="P01" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Your opponent may not win a Most Powerful Personality Victory or a Dragon Ball Victory until the end of his second turn, starting now. Limit 1 per deck. Remove from the game after use." />
+      <property name="Limit" value="1" />
+    </card>
     <card id="ed24ab02-91a6-41cf-8224-5b370eb8290e" name="Captain Ginyu Transformed" size="Vertical">
       <property name="Card Number" value="P02" />
       <property name="Style" value="Freestyle" />
       <property name="Rarity" value="Promo" />
       <property name="Type" value="Physical Combat" />
       <property name="Text" value="Physical attack. It costs 1 life card to use. Reduce opponent's anger to 0. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="e0a91ef0-f0de-4ac2-968c-96177dd48077" name="Calming Sanctuary" size="Vertical">
+      <property name="Card Number" value="P03" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="For every anger you reduce on your Warrior Sword, reduce all opponents' anger that many as well." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="1806a39b-d8f8-4f58-910e-2de8db7b8982" name="Dragon's Glare" size="Vertical">
+      <property name="Card Number" value="P04" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="All players' anger is set to 3." />
+      <property name="Limit" value="0" />
+    </card>
+    <card id="d6ccce1f-9fe4-451c-a76d-8ff52bd1a8d5" name="Frieza's Force Bubble" size="Vertical">
+      <property name="Card Number" value="P05" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Stops an energy attack. Stop all energy attacks for the remainder of Combat. Limit 1 per deck." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="ace5ba8a-75be-41ea-8d56-aeb3e9ed06b6" name="The Last Wish" size="Vertical">
+      <property name="Card Number" value="P06" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Search your discard pile and if an ally is there put it into play." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="b57226f3-babb-4b9e-9f07-d534e6ba04af" name="Friends Help Friends" size="Vertical">
+      <property name="Card Number" value="P07" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="Take the top 3 cards from your discard pile and place them at the bottom of your life deck. Limit 1 per deck." />
       <property name="Limit" value="1" />
     </card>
     <card id="6f30212d-a98f-4585-a606-efe26eda495f" name="Goku's Good Swift Kick" size="Vertical">
@@ -1244,6 +1152,128 @@
       <property name="Type" value="Physical Combat" />
       <property name="Text" value="Physical attack. If successful, it also does 3 life cards of damage." />
       <property name="Limit" value="3" />
+    </card>
+    <card id="f64efe44-6ed7-4cb9-9a94-52fef85629e7" name="Vegeta's Lunge" size="Vertical">
+      <property name="Card Number" value="P11" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Event Combat" />
+      <property name="Text" value="Select, unseen, a card from your opponent's hand and discard it." />
+      <property name="Limit" value="4" />
+    </card>
+    <card id="a8f1f1b9-2b26-483e-96ad-e6ae03d00ae8" name="Frieza (FS)" size="Vertical">
+      <property name="Card Number" value="P12" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Constant Combat Power: After performing a successful energy attack doing 6 or more life cards of damage you may capture 2 Dragon Balls instead of 1." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="737efe72-fdeb-48f2-a74c-58a8c0d7f21e" name="Garlic Jr. (FS)" size="Vertical">
+      <property name="Card Number" value="P13" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Constant Combat Power: All successful physical attacks against Garlic Jr. do 3 less power stages of damage, to a minimum of 0." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="9567257c-2b90-439f-8855-7e1aeec9e983" name="Trunks (FS)" size="Vertical">
+      <property name="Card Number" value="P14" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Hero" />
+      <property name="Text" value="You take a maximum of 2 life cards of damage from all energy attacks your opponent performs." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="22d329a4-1c6b-44c3-a164-3223f84313a0" name="Captain Ginyu (FS)" size="Vertical">
+      <property name="Card Number" value="P15" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Physical attack doing 6 life cards of damage." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="4c34bb66-c2ee-428b-aa58-72be60ba7333" name="Spice (FS)" size="Vertical">
+      <property name="Card Number" value="P16" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Draw a card." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="1c7c064d-73af-4238-b5fe-2c029cfb9155" name="Vinegar (FS)" size="Vertical">
+      <property name="Card Number" value="P17" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Promo" />
+      <property name="Type" value="Personality - Villain" />
+      <property name="Text" value="Energy attack. This attack cannot be stopped." />
+      <property name="PUR" value="1" />
+      <property name="True Type" value="Personality" />
+      <property name="Limit" value="1" />
+      <property name="Card Level" value="1" />
+    </card>
+    <card id="642473fa-a26b-4d3c-822f-9da5a75e6e9b" name="The Talking Ends Here!" size="Vertical">
+      <property name="Card Number" value="Preview1" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Non-Combat: Setup" />
+      <property name="Text" value="This card stops an opponent from winning until the end of your next turn. Use when needed. Remove from the game after use." />
+      <property name="Limit" value="0" />
+    </card>
+    <card id="fb721dc9-a5c5-4b0d-aec5-930a68053275" name="Just Kidding" size="Vertical">
+      <property name="Card Number" value="Preview2" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Common" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack. If successful, also remove an opponent's drill of your choice from the game. Remove from the game after use." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="4af078a1-64be-4085-a5c1-69838e7a51dd" name="No, Really Drill?" size="Vertical">
+      <property name="Card Number" value="Preview3" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Non-Combat: Drill" />
+      <property name="Text" value="As long as this card is in play, all dragon balls in play or brought into play lose their powers for the rest of the game, even if this card is discarded." />
+      <property name="Limit" value="3" />
+    </card>
+    <card id="71c936dc-ef95-4394-8312-8077dbb8029a" name="Good Advice" size="Vertical">
+      <property name="Card Number" value="Preview4" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Uncommon" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack doing 8 life cards of damage. Lower opponent's anger 3 levels. Limit 1 per deck. Remove from the game after use." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="da12c583-f68a-454d-a8d5-43a1bf52280f" name="The Luck of Trunks" size="Vertical">
+      <property name="Card Number" value="Preview5" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack doing 6 life cards of damage. Lower opponent's anger 2 levels. Limit 1 per deck. Remove from the game after use." />
+      <property name="Limit" value="1" />
+    </card>
+    <card id="2e12adcb-e1bc-4b83-9445-652e4699f681" name="Trunks Makes Himself Clear" size="Vertical">
+      <property name="Card Number" value="Preview6" />
+      <property name="Style" value="Freestyle" />
+      <property name="Rarity" value="Rare" />
+      <property name="Type" value="Energy Combat" />
+      <property name="Text" value="Energy attack. Raise your anger 2 levels. Lower opponent's anger 2 levels. Limit 1 per deck. Remove from the game after use." />
+      <property name="Limit" value="1" />
     </card>
   </cards>
 </set>

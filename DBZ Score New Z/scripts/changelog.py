@@ -1,4 +1,7 @@
 changelog = {
+    1000405: ("1.0.4.5", "23 October 2026", [ 
+        "Fixed a few typos, replaced image downloader with new version.",
+        ]), 
     1000404: ("1.0.4.4", "12 July 2026", [ 
         "ALERT - PLEASE READ",
         "Some images have been updated. Please use the plugin in the deck builder to download new card images. Make sure to select the option to overwrite existing images.",

@@ -1,13 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Set 01 - Saiyan Saga" id="ea0de271-df95-4c40-9000-45ea0107975d" gameId="b5df32b4-59b4-4a67-aa6c-8636ae8daf07" gameVersion="3.0.0.0" version="3.0.0.0">
   <cards>
-    <card id="61e0cede-dcc3-4e11-ae89-139c2ea8ed64" name="Fusion Saga PAT (SS)" size="Vertical">
-      <property name="Card Number" value="PAT" />
-      <property name="Rarity" value="PAT" />
-      <property name="Type" value="Physical Attack Table" />
-      <property name="Text" value="Fusion Saga Physical Attack Table." />
-      <property name="Limit" value="1" />
-    </card>
     <card id="beb349ea-f132-4712-9108-194519ea5ba5" name="Orange Standing Fist" size="Vertical">
       <property name="Card Number" value="1" />
       <property name="Style" value="Orange" />
@@ -662,6 +655,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Multiform allows for two physical attacks one after another or a defense against a physical attack preventing 4 power stages of successful damage." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -672,6 +666,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Solar Flare Energy Attack. If successful your opponent Skips their next attacker's attack's phase." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -682,6 +677,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Energy attack doing 2 life cards of damage." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -702,6 +698,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Stops a Physical attack performed against Gohan or Goku. Chi-Chi can use this power even if your Main Personality is at 2 power stages above 0 or higher." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -712,6 +709,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Scientific Defense . Reduces the damage done by an energy attack by 2 life card draws." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -850,6 +848,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Power Blast Energy Attack costs 1 power stage to perform." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -860,6 +859,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Blast Energy Attack does 6 life cards of damage and removes Chiaotzu from the game." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -870,6 +870,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Physical Attack." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -880,6 +881,7 @@
       <property name="Rarity" value="Uncommon" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Energy Attack needs 3 power stages to perform." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1290,6 +1292,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Kamehameha Energy Attack does three life card draws and only costs one power stage to perform." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1300,6 +1303,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Kaio-Ken Power Level Booster. Physical attack draining 4 power stages no matter what Goku's power is. Do not consult table." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1310,6 +1314,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Prevent 2 life card draws from being discarded from a successful energy attack." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1320,6 +1325,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Screw Blast Energy Attack inflicts 2 life card draws of damage." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1330,6 +1336,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Special Energy Beam Cannon. This energy blast only takes 1 power stage to use and does 2 life card draws of damage." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1340,6 +1347,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Multiform allows two physical attacks one after another, or a defense against a physical attack preventing 4 stages of successful damage." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1350,6 +1358,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="If a successful energy attack is performed against Gohan, you may raise your anger 1 level." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1360,6 +1369,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Physical attack doing 8 Power Stages of Damage. This attack must be the first attack you perform during combat and can only be used once per game." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1370,6 +1380,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Kamehameha Energy Attack does 3 life card draws and only costs 1 power stage to perform." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1380,6 +1391,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Power Ball Energy Attack inflicts 2 life card draws of damage." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1390,6 +1402,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Destructo-Disk Energy Attack doing 3 life card draws of damage." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1400,6 +1413,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Take 1 card from the discard pile and place it at the bottom of your life deck." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1410,6 +1424,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Saiyan Energy Deflection: Reduce the damage from an energy attack performed against you to 2 life cards of damage." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1420,6 +1435,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Saiyan Energy Blast does 3 life card draws of damage and costs only 1 power stage to perform." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1430,6 +1446,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Use the Saiyan Energy Blast (from Level 2 Character card) or Saiyan Energy Deflection (from Level 1 Character card)." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1440,6 +1457,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Saiyan Energy Deflection: Reduce the damage from an energy attack performed against you to 2 life cards of damage." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1450,6 +1468,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Saiyan Energy Blast does 3 life card draws of damage and costs only 1 power stage to perform." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1460,6 +1479,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Captures one Dragon Ball once per game after a successful energy attack. This ends the combat step." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1470,6 +1490,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Power: Saiyan Energy Deflection: Reduce the damage from an energy attack performed against you to 2 life cards of damage." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1480,6 +1501,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Special Physical Attack inflicting 6 stages of power drain no matter what the foe's power stage rating is." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="2" />
@@ -1490,6 +1512,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Reduce the damage from a physical attack performed against you to 2 power stages of damage." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="3" />
@@ -1500,6 +1523,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Physical attack. Do not consult the chart and do 4 stages of damage to the foe." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1510,6 +1534,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="When defending in combat, take the bottom discard card as well in your three card draw." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1520,6 +1545,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Energy Attack. Costs 1 stage and does 3 life card draws of damage." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1530,6 +1556,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Draw a card when entering Combat." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1540,6 +1567,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Power: Raise Raditz's anger level 1." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1550,6 +1578,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Stop an energy attack." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -1560,6 +1589,7 @@
       <property name="Rarity" value="Starter Deck" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="When entering Combat, your Main Personality gains 2 power stages." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="1" />
@@ -2026,6 +2056,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Reduce the damage from an energy attack performed against you to 2 life cards of damage." />
+      <property name="PUR" value="1" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="3" />
       <property name="Card Level" value="1" />
@@ -2036,6 +2067,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Reduce the damage from an energy attack performed against you to 2 life cards of damage." />
+      <property name="PUR" value="2" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="3" />
       <property name="Card Level" value="2" />
@@ -2046,6 +2078,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Reduce the damage from an energy attack performed against you to 2 life cards of damage." />
+      <property name="PUR" value="3" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="3" />
       <property name="Card Level" value="3" />
@@ -2056,6 +2089,7 @@
       <property name="Rarity" value="Rare" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="If there is more than one Saibaimen in play, this one can make a physical attack that inflicts 5 life cards damage." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -2098,6 +2132,7 @@
       <property name="Rarity" value="Promo" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Spirit bomb energy attack, costs 1 stage to do." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -2108,6 +2143,7 @@
       <property name="Rarity" value="Promo" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Use Special Beam Cannon or Multi-Form in a combat round." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -2118,6 +2154,7 @@
       <property name="Rarity" value="Promo" />
       <property name="Type" value="Personality - Rogue" />
       <property name="Text" value="Vegeta's laugh reduces a foe's power rating by 3 or to 0, which ever happens first." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -2128,6 +2165,7 @@
       <property name="Rarity" value="Promo" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Saiyan Throat Strike does five stages of physical damage." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -2138,6 +2176,7 @@
       <property name="Rarity" value="Promo" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Draws an extra card from the bottom of the discard pile for this combat." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -2148,6 +2187,7 @@
       <property name="Rarity" value="Promo" />
       <property name="Type" value="Personality - Hero" />
       <property name="Text" value="Draws the bottom two cards from the discard pile to use in this combat." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
@@ -2158,9 +2198,17 @@
       <property name="Rarity" value="Promo" />
       <property name="Type" value="Personality - Villain" />
       <property name="Text" value="Negate a foe's energy attack." />
+      <property name="PUR" value="4" />
       <property name="True Type" value="Personality" />
       <property name="Limit" value="1" />
       <property name="Card Level" value="4" />
+    </card>
+    <card id="61e0cede-dcc3-4e11-ae89-139c2ea8ed64" name="Fusion Saga PAT (SS)" size="Vertical">
+      <property name="Card Number" value="PAT" />
+      <property name="Rarity" value="PAT" />
+      <property name="Type" value="Physical Attack Table" />
+      <property name="Text" value="Fusion Saga Physical Attack Table." />
+      <property name="Limit" value="1" />
     </card>
   </cards>
 </set>
