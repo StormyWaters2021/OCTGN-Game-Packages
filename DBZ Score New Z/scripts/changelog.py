@@ -1,4 +1,7 @@
 changelog = {
+    1000406: ("1.0.4.6", "7 November 2026", [ 
+        "Fixed a few typos.",
+        ]), 
     1000405: ("1.0.4.5", "23 October 2026", [ 
         "Fixed a few typos, replaced image downloader with new version.",
         ]), 
