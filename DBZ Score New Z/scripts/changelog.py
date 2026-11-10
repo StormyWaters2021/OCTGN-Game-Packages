@@ -1,4 +1,7 @@
 changelog = {
+    1000407: ("1.0.4.7", "9 November 2026", [ 
+        "Added missing Power Level marker.",
+        ]), 
     1000406: ("1.0.4.6", "7 November 2026", [ 
         "Fixed a few typos.",
         ]), 
